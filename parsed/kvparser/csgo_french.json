@@ -31091,7 +31091,7 @@
             "WatchMenu_Info_Download_Failed_Retry": "Relancer le téléchargement ?",
             "WatchMenu_Info_Download_Failed_Info": "Échec du téléchargement. Le tableau des scores est disponible mais vous ne pouvez pas regarder le match.",
             "WatchMenu_Download_Disabled_Hint": "La démo de ce match a expiré et n'est plus téléchargeable.",
-            "WatchMenu_Tournament_BulletPoint": "<ul>\r\n<li>Regardez les matchs et utilisez vos stickers d'équipe afin d'effectuer des prédictions pour la phase de groupe et les éliminatoires.</li>\r\n<li>Chaque fois que vous ferez un choix correct, vous gagnerez des points pour le trophée du Challenge Prono'Stick (à afficher sur votre avatar Counter-Strike et votre profil Steam).</li>\r\n<li>Vous pouvez faire des prédictions pour la phase de groupe jusqu'à son commencement.</li>\r\n<li>Vous pouvez faire des prédictions pour les éliminatoires jusqu'à leur commencement.</li>\r\n</ul>",
+            "WatchMenu_Tournament_BulletPoint": "<ul>\n<li>Regardez les matchs et utilisez vos stickers d'équipe afin d'effectuer des prédictions pour la phase de groupe et les éliminatoires.</li>\n<li>Chaque fois que vous ferez un choix correct, vous gagnerez des points pour le trophée du Challenge Prono'Stick (à afficher sur votre avatar Counter-Strike et votre profil Steam).</li>\n<li>Vous pouvez faire des prédictions pour la phase de groupe jusqu'à son commencement.</li>\n<li>Vous pouvez faire des prédictions pour les éliminatoires jusqu'à leur commencement.</li>\n</ul>",
             "WatchMenu_Viewer": "Spectateur",
             "WatchMenu_Viewers": "Spectateurs",
             "WatchMenu_Viewers_dv:p{spectatorCount}": "{d:spectatorCount} personne regarde#|#{d:spectatorCount} personnes regardent",

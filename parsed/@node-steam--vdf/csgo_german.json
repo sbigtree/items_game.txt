@@ -31091,7 +31091,7 @@
             "WatchMenu_Info_Download_Failed_Retry": "Erneut versuchen, die Demodateien herunterzuladen?",
             "WatchMenu_Info_Download_Failed_Info": "Der Download wurde nicht abgeschlossen. Punktestandinformationen sind verfügbar, aber Sie können sich das Spiel nicht ansehen.",
             "WatchMenu_Download_Disabled_Hint": "Spielaufzeichnung ist abgelaufen und kann nicht mehr heruntergeladen werden.",
-            "WatchMenu_Tournament_BulletPoint": "<ul>\n<li>Schauen Sie sich Spiele an und benutzen Sie Ihre Teamaufkleber, um die Sieger jeder Phase zu tippen.</li>\r\n<li>Immer, wenn Sie richtig tippen, erhalten Sie Punkte für eine Pick’Em-Trophäe, die Sie in Ihrem Counter-Strike-Avatar und in Ihrem Steam-Profil ausstellen können.</li>\r\n<li>Sie können Tipps für die Gruppenphase abgeben, bis die Gruppenphase beginnt.</li>\r\n<li>Sie können Tipps für die Play-offs abgeben, bis die Play-offs beginnen.</li>\r\n</ul>",
+            "WatchMenu_Tournament_BulletPoint": "<ul>\n<li>Schauen Sie sich Spiele an und benutzen Sie Ihre Teamaufkleber, um die Sieger jeder Phase zu tippen.</li>\n<li>Immer, wenn Sie richtig tippen, erhalten Sie Punkte für eine Pick’Em-Trophäe, die Sie in Ihrem Counter-Strike-Avatar und in Ihrem Steam-Profil ausstellen können.</li>\n<li>Sie können Tipps für die Gruppenphase abgeben, bis die Gruppenphase beginnt.</li>\n<li>Sie können Tipps für die Play-offs abgeben, bis die Play-offs beginnen.</li>\n</ul>",
             "WatchMenu_Viewer": "Zuschauer",
             "WatchMenu_Viewers": "Zuschauer",
             "WatchMenu_Viewers_dv:p{spectatorCount}": "{d:spectatorCount} Zuschauer#|#{d:spectatorCount} Zuschauer",

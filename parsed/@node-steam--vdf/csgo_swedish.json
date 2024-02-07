@@ -25886,7 +25886,7 @@
             "WatchMenu_Info_Download_Failed_Retry": "Försök att ladda ner demofiler igen?",
             "WatchMenu_Info_Download_Failed_Info": "Nedladdningen slutfördes inte. Resultattavlans information finns men du kan inte titta på matchen.",
             "WatchMenu_Download_Disabled_Hint": "Matchens demo har utgått och kan inte längre laddas ned.",
-            "WatchMenu_Tournament_BulletPoint": "<ul>\n<li>Titta på matcher och använd dina lagklistermärken för att göra förutsägelser för gruppspelet och slutspelet.</li>\r\n\r\n<li>När du gör ett korrekt val, får du poäng till en Pick'Em-trofé som kan visas upp på din Counter-Strike-avatar och på din Steam-profil.</li>\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Du kan göra förutsägelser för gruppspelet tills det börjar.</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Du kan göra förutsägelser för slutspelet tills det börjar.</li>\r\n\t\t\t\t\t\t\t\t\t\t\t</ul>",
+            "WatchMenu_Tournament_BulletPoint": "<ul>\n<li>Titta på matcher och använd dina lagklistermärken för att göra förutsägelser för gruppspelet och slutspelet.</li>\n\n<li>När du gör ett korrekt val, får du poäng till en Pick'Em-trofé som kan visas upp på din Counter-Strike-avatar och på din Steam-profil.</li>\n\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Du kan göra förutsägelser för gruppspelet tills det börjar.</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Du kan göra förutsägelser för slutspelet tills det börjar.</li>\n\t\t\t\t\t\t\t\t\t\t\t</ul>",
             "WatchMenu_Viewer": "Tittare",
             "WatchMenu_Viewers": "Tittare",
             "WatchMenu_Viewers_dv:p{spectatorCount}": "{d:spectatorCount} tittare#|#{d:spectatorCount} tittare",

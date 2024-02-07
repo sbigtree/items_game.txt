@@ -31770,7 +31770,7 @@
             "WatchMenu_Info_Download_Failed_Retry": "Prøv å laste ned demofiler på nytt?",
             "WatchMenu_Info_Download_Failed_Info": "Nedlastningen ble ikke fullført. Resultattavlen er tilgjengelig, men du kan ikke se kampen.",
             "WatchMenu_Download_Disabled_Hint": "Kampdemoen har utløpt og kan ikke lenger lastes ned.",
-            "WatchMenu_Tournament_BulletPoint": "<ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Se på kamper og bruk lagklistremerker for å gjøre forutsigelser for gruppe- og sluttspillet.</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Når du gjør et riktig valg, får du et poeng mot et Pick'Em-trofé som kan vises frem på profilen din i Counter-Strike og på Steam.</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Du kan gjøre forutsigelser for gruppespillet frem til gruppespillet begynner.</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Du kan gjøre forutsigelser for sluttspillet frem til sluttspillet begynner.</li>\r\n\t\t\t\t\t\t\t\t\t\t\t</ul>",
+            "WatchMenu_Tournament_BulletPoint": "<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Se på kamper og bruk lagklistremerker for å gjøre forutsigelser for gruppe- og sluttspillet.</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Når du gjør et riktig valg, får du et poeng mot et Pick'Em-trofé som kan vises frem på profilen din i Counter-Strike og på Steam.</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Du kan gjøre forutsigelser for gruppespillet frem til gruppespillet begynner.</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Du kan gjøre forutsigelser for sluttspillet frem til sluttspillet begynner.</li>\n\t\t\t\t\t\t\t\t\t\t\t</ul>",
             "WatchMenu_Viewer": "Seer",
             "WatchMenu_Viewers": "Seere",
             "WatchMenu_Viewers_dv:p{spectatorCount}": "{d:spectatorCount} seer#|#{d:spectatorCount} seere",

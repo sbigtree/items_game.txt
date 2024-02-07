@@ -31705,7 +31705,7 @@
             "WatchMenu_Info_Download_Failed_Retry": "Thử tải lại tệp demo?",
             "WatchMenu_Info_Download_Failed_Info": "Việc tải về chưa hoàn thành. Đã có thông tin bảng điểm nhưng bạn chưa thể xem trận đấu.",
             "WatchMenu_Download_Disabled_Hint": "Demo trận đã hết hạn và không còn thể tải về.",
-            "WatchMenu_Tournament_BulletPoint": "<ul>\n<li>Xem các trận đấu và dùng hình dán đội để dự đoán đội chiến thắng tại mỗi vòng đấu bảng và đấu loại.</li>\r\n<li>Mỗi khi dự đoán chính xác, bạn sẽ nhận thêm điểm để có được chiếc cúp Pick'Em - một huy hiệu có thể được trưng bày trên ảnh đại diện Counter-Strike và trên cả hồ sơ Steam của mình.</li>\r\n<li>Bạn có thể dự đoán các trận đấu vòng bảng cho tới khi vòng bảng chính thức bắt đầu.</li>\r\n<li>Bạn có thể dự đoán các trận đấu loại trước khi vòng đấu loại chính thức bắt đầu.</li>\r\n</ul>",
+            "WatchMenu_Tournament_BulletPoint": "<ul>\n<li>Xem các trận đấu và dùng hình dán đội để dự đoán đội chiến thắng tại mỗi vòng đấu bảng và đấu loại.</li>\n<li>Mỗi khi dự đoán chính xác, bạn sẽ nhận thêm điểm để có được chiếc cúp Pick'Em - một huy hiệu có thể được trưng bày trên ảnh đại diện Counter-Strike và trên cả hồ sơ Steam của mình.</li>\n<li>Bạn có thể dự đoán các trận đấu vòng bảng cho tới khi vòng bảng chính thức bắt đầu.</li>\n<li>Bạn có thể dự đoán các trận đấu loại trước khi vòng đấu loại chính thức bắt đầu.</li>\n</ul>",
             "WatchMenu_Viewer": "Người xem",
             "WatchMenu_Viewers": "Người xem",
             "WatchMenu_Viewers_dv:p{spectatorCount}": "{d:spectatorCount} người xem",

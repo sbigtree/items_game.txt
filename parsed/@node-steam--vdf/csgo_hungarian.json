@@ -31326,7 +31326,7 @@
             "WatchMenu_Info_Download_Failed_Retry": "Megpróbálod újra letölteni a demófájlokat?",
             "WatchMenu_Info_Download_Failed_Info": "A letöltés nem fejeződött be. Az eredménytábla információ elérhető, de nem tudod megnézni a meccset.",
             "WatchMenu_Download_Disabled_Hint": "A meccsdemó lejárt, és már nem tölthető le.",
-            "WatchMenu_Tournament_BulletPoint": "<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Nézz meccseket és használd csapatmatricáidat a csoportkör és a rájátszás tippjeinek megtételéhez.</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Valahányszor helyesen választasz, pontokat kapsz egy Válassz! Trófea megszerzéséhez, mely megjeleníthető Counter-Strike avatárodon és Steam profilodon.</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Csoportkörös tippjeidet a csoportkör kezdetéig teheted meg.</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Rájátszási tippjeidet a rájátszás kezdetéig teheted meg.</li>\r\n\t\t\t\t\t\t\t\t\t\t\t</ul>",
+            "WatchMenu_Tournament_BulletPoint": "<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Nézz meccseket és használd csapatmatricáidat a csoportkör és a rájátszás tippjeinek megtételéhez.</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Valahányszor helyesen választasz, pontokat kapsz egy Válassz! Trófea megszerzéséhez, mely megjeleníthető Counter-Strike avatárodon és Steam profilodon.</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Csoportkörös tippjeidet a csoportkör kezdetéig teheted meg.</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>Rájátszási tippjeidet a rájátszás kezdetéig teheted meg.</li>\n\t\t\t\t\t\t\t\t\t\t\t</ul>",
             "WatchMenu_Viewer": "néző",
             "WatchMenu_Viewers": "néző",
             "WatchMenu_Viewers_dv:p{spectatorCount}": "{d:spectatorCount} néző#|#{d:spectatorCount} néző",

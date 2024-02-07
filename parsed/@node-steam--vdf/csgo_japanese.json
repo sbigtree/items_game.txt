@@ -14028,7 +14028,7 @@
             "WatchMenu_Tournament_Versus": "vs",
             "WatchMenu_Outcome_Lost": "敗北",
             "WatchMenu_Watch_Highlights": "ハイライトを視聴",
-            "WatchMenu_Tournament_BulletPoint": "<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>マッチを観戦し、チームステッカーを使って、グループステージとプレイオフステージの予想を立てましょう。</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>予想が的中すると、Pick'Em トロフィーのポイントが加算され、Counter-Strike アバターや Steam プロフィールに表示させることができます。</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>グループステージの予想ができるのは、グループステージ開始前までです。</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>プレイオフの予想ができるのは、プレイオフ開始前までです。</li>\r\n\t\t\t\t\t\t\t\t\t\t\t</ul>",
+            "WatchMenu_Tournament_BulletPoint": "<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>マッチを観戦し、チームステッカーを使って、グループステージとプレイオフステージの予想を立てましょう。</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>予想が的中すると、Pick'Em トロフィーのポイントが加算され、Counter-Strike アバターや Steam プロフィールに表示させることができます。</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>グループステージの予想ができるのは、グループステージ開始前までです。</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>プレイオフの予想ができるのは、プレイオフ開始前までです。</li>\n\t\t\t\t\t\t\t\t\t\t\t</ul>",
             "WatchMenu_Viewer": "視聴者数",
             "WatchMenu_Viewers": "視聴者数",
             "WatchMenu_Viewers_dv:p{spectatorCount}": "{d:spectatorCount} 人視聴",

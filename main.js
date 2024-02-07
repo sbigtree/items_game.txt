@@ -5,31 +5,37 @@ import chardet from "chardet";
 import { parse as parse1 } from "@node-steam/vdf";
 import { parse as parse2 } from "vdf-parser";
 import { parse as parse3 } from "kvparser";
-
-const CONFIG = JSON.parse(fs.readFileSync("../../config.json", "utf-8"));
-const SOURCE_PATHS = CONFIG.SOURCE_PATHS;
-const TARGET_FOLDER = CONFIG.TARGET_FOLDER;
+const __dirname = path.resolve()
+// const CONFIG = JSON.parse(fs.readFileSync("../../config.json", "utf-8"));
+// const SOURCE_PATHS = CONFIG.SOURCE_PATHS;
+const SOURCE_PATHS = path.join(__dirname,'original');
+// const TARGET_FOLDER = CONFIG.TARGET_FOLDER;
+const TARGET_FOLDER = path.join(__dirname,'parsed');
+console.log(SOURCE_PATHS,)
+console.log(TARGET_FOLDER,)
 const PARSERS = [
     {
         name: "@node-steam/vdf",
         parse: parse1,
-        output: path.join(TARGET_FOLDER, "../parsed/@node-steam--vdf"),
+        output: path.join(TARGET_FOLDER, "@node-steam--vdf"),
     },
-    {
-        name: "vdf-parser",
-        parse: parse2,
-        output: path.join(TARGET_FOLDER, "../parsed/vdf-parser"),
-    },
+    // {
+    //     name: "vdf-parser",
+    //     parse: parse2,
+    //     output: path.join(TARGET_FOLDER, "vdf-parser"),
+    // },
     {
         name: "kvparser",
         parse: parse3,
-        output: path.join(TARGET_FOLDER, "../parsed/kvparser"),
+        output: path.join(TARGET_FOLDER, "kvparser"),
     },
 ];
 
-if (!fs.existsSync(TARGET_FOLDER)) {
-    fs.mkdirSync(TARGET_FOLDER, { recursive: true });
-}
+PARSERS.forEach((e,i)=>{
+    if (!fs.existsSync(e.output)) {
+        fs.mkdirSync(e.output, { recursive: true });
+    }
+})
 
 function detectFileEncoding(filePath) {
     return chardet.detectFileSync(filePath);
@@ -37,7 +43,7 @@ function detectFileEncoding(filePath) {
 
 function convertEncodingOfFile(file) {
     return new Promise((resolve, reject) => {
-        const filePath = path.join(TARGET_FOLDER, file);
+        const filePath = path.join(SOURCE_PATHS, file);
 
         const fileEncoding = detectFileEncoding(filePath);
 
@@ -80,10 +86,10 @@ function moveFilesToTarget() {
 
 function convertAndSaveFiles() {
     return new Promise((resolve, reject) => {
-        const files = fs.readdirSync(TARGET_FOLDER);
+        const files = fs.readdirSync(SOURCE_PATHS);
 
         for (const file of files) {
-            const filePath = path.join(TARGET_FOLDER, file);
+            const filePath = path.join(SOURCE_PATHS, file);
 
             if (fs.statSync(filePath).isFile()) {
                 for (const parser of PARSERS) {
@@ -118,13 +124,13 @@ function convertAndSaveFiles() {
 
 async function processFiles() {
     // 1. First move files to the target folder
-    await moveFilesToTarget();
+    // await moveFilesToTarget();
 
     // 2. Then, get a list of all files in the TARGET_FOLDER
-    const files = fs.readdirSync(TARGET_FOLDER);
-
+    const files = fs.readdirSync(SOURCE_PATHS);
+    console.log(files)
     // 3. Wait for all encoding conversions to finish
-    await Promise.all(files.map((file) => convertEncodingOfFile(file)));
+    // await Promise.all(files.map((file) => convertEncodingOfFile(file)));
 
     // 4. Finally, convert and save the files
     await convertAndSaveFiles();

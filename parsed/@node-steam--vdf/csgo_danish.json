@@ -31883,7 +31883,7 @@
             "WatchMenu_Info_Download_Failed_Retry": "Forsøg at downloade demofiler igen?",
             "WatchMenu_Info_Download_Failed_Info": "Downloaden gennemførtes ikke. Pointtavlen er tilgængelig, men du kan ikke se kampen.",
             "WatchMenu_Download_Disabled_Hint": "Kampdemo er udløbet og er ikke længere tilgængelig som download.",
-            "WatchMenu_Tournament_BulletPoint": "<ul>\n\r\n<li>Se kampe, og brug dine holdklistermærker til at lave forudsigelser i gruppefasen og slutspillet.</li>\r\n\r\n<li>Når du foretager et korrekt valg, får du point til et Pick'Em-trofæ, der kan fremvises på din Counter-Strike-avatar og på din Steam-profil.</li>\r\n\r\n<li>Du kan lave gruppefaseforudsigelser, indtil gruppefasen starter.</li>\r\n\r\n<li>Du kan lave slutspilsforudsigelser, indtil slutspillet starter.</li>\r\n\r\n</ul>",
+            "WatchMenu_Tournament_BulletPoint": "<ul>\n\n<li>Se kampe, og brug dine holdklistermærker til at lave forudsigelser i gruppefasen og slutspillet.</li>\n\n<li>Når du foretager et korrekt valg, får du point til et Pick'Em-trofæ, der kan fremvises på din Counter-Strike-avatar og på din Steam-profil.</li>\n\n<li>Du kan lave gruppefaseforudsigelser, indtil gruppefasen starter.</li>\n\n<li>Du kan lave slutspilsforudsigelser, indtil slutspillet starter.</li>\n\n</ul>",
             "WatchMenu_Viewer": "seer",
             "WatchMenu_Viewers": "seere",
             "WatchMenu_Viewers_dv:p{spectatorCount}": "{d:spectatorCount} seer#|#{d:spectatorCount} seere",
