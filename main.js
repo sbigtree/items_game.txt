@@ -11,6 +11,7 @@ const __dirname = path.resolve()
 const SOURCE_PATHS = path.join(__dirname,'original');
 // const TARGET_FOLDER = CONFIG.TARGET_FOLDER;
 const TARGET_FOLDER = path.join(__dirname,'parsed');
+const IMAGES_FOLDER = path.join(__dirname,'images');
 console.log(SOURCE_PATHS,)
 console.log(TARGET_FOLDER,)
 const PARSERS = [
@@ -36,6 +37,25 @@ PARSERS.forEach((e,i)=>{
         fs.mkdirSync(e.output, { recursive: true });
     }
 })
+
+function generateImagesCdn(){
+    const filePath =path.join(IMAGES_FOLDER, "items_game_cdn.txt")
+    const content = fs.readFileSync(filePath, { encoding: "utf-8" });
+    const lines = content.split(/\r?\n/);
+    let imagesCdn = {}
+    // print all lines
+    lines.forEach((line) => {
+        console.log(line);
+        if(line.startsWith('#')){
+            return
+        }
+        const kv = line.split('=')
+        imagesCdn[kv[0]] = kv[1]
+    });
+
+    fs.writeFileSync(path.join(IMAGES_FOLDER, "images_cdn.json"), JSON.stringify(imagesCdn,(k,v)=>v,2));
+
+}
 
 function detectFileEncoding(filePath) {
     return chardet.detectFileSync(filePath);
@@ -124,7 +144,7 @@ function convertAndSaveFiles() {
 
 async function processFiles() {
     // 1. First move files to the target folder
-    // await moveFilesToTarget();
+    await generateImagesCdn();
 
     // 2. Then, get a list of all files in the TARGET_FOLDER
     const files = fs.readdirSync(SOURCE_PATHS);
