@@ -45,12 +45,14 @@ function generateImagesCdn(){
     let imagesCdn = {}
     // print all lines
     lines.forEach((line) => {
-        console.log(line);
-        if(line.startsWith('#')){
+        if(line.startsWith('#')||!line){
             return
         }
         const kv = line.split('=')
-        imagesCdn[kv[0]] = kv[1]
+        console.log(kv[1]);
+        const re = /.*730\/icons\/([^.]*).*/.exec(kv[1])
+        // console.log(re)
+        imagesCdn[re[1]] = kv[1]
     });
 
     fs.writeFileSync(path.join(IMAGES_FOLDER, "images_cdn.json"), JSON.stringify(imagesCdn,(k,v)=>v,2));
