@@ -16065,90 +16065,39 @@
             }
         },
         "prefabs": {
-            "paris2023_sticker_capsule_prefab": {
-                "first_sale_date": "2023-05-01",
-                "prefab": "weapon_case_base",
-                "inv_container_and_tools": "sticker_capsule",
+            "coupon_community_2024_capsule_prefab": {
+                "prefab": "coupon_prefab"
+            }
+        },
+        "items": {
+            "4905": {
+                "name": "crate_sticker_pack_community_2024_capsule",
+                "item_name": "#CSGO_crate_sticker_pack_community_2024_capsule",
+                "item_description": "#CSGO_crate_sticker_pack_community_2024_capsule_desc",
+                "image_inventory": "econ/weapon_cases/crate_sticker_pack_community_2024_capsule",
+                "first_sale_date": "2024-01-25",
+                "prefab": "sticker_capsule",
                 "attributes": {
-                    "tournament event id": {
-                        "attribute_class": "tournament_event_id",
-                        "value": "21"
-                    }
-                }
-            },
-            "paris2023_signature_capsule_prefab": {
-                "first_sale_date": "2023-05-01",
-                "prefab": "weapon_case_base",
-                "inv_container_and_tools": "sticker_capsule",
-                "attributes": {
-                    "tournament event id": {
-                        "attribute_class": "tournament_event_id",
-                        "value": "21"
+                    "set supply crate series": {
+                        "attribute_class": "supply_crate_series",
+                        "value": "394"
                     }
                 },
                 "tags": {
                     "StickerCapsule": {
-                        "tag_value": "crate_signature_pack_paris2023_group_players_collection",
-                        "tag_text": "#CSGO_crate_signature_pack_paris2023_group_players_tag",
+                        "tag_value": "crate_sticker_pack_community_2024_capsule_lootlist",
+                        "tag_text": "#CSGO_crate_sticker_pack_community_2024_capsule",
                         "tag_group": "StickerCapsule",
                         "tag_group_text": "#SFUI_InvTooltip_StickerCapsuleTag"
                     }
                 }
             },
-            "paris2023_tournament_pass_prefab": {
-                "first_sale_date": "2023-05-01",
-                "prefab": "fan_token",
-                "attributes": {
-                    "tournament event id": {
-                        "attribute_class": "tournament_event_id",
-                        "value": "21"
-                    }
-                }
-            },
-            "paris2023_tournament_journal_prefab": {
-                "item_description": "#CSGO_TournamentJournal_paris2023_Desc",
-                "first_sale_date": "2023-05-01",
-                "prefab": "fan_shield",
-                "attributes": {
-                    "tournament event id": {
-                        "attribute_class": "tournament_event_id",
-                        "value": "21"
-                    },
-                    "campaign id": {
-                        "attribute_class": "campaign_id",
-                        "value": "15"
-                    },
-                    "sticker slot 0 id": {
-                        "attribute_class": "sticker_slot_id",
-                        "value": "6732",
-                        "force_gc_to_generate": "1"
-                    },
-                    "campaign completion bitfield": {
-                        "attribute_class": "campaign_completion_bitfield",
-                        "value": "1",
-                        "force_gc_to_generate": "1"
-                    },
-                    "operation drops awarded 0": {
-                        "attribute_class": "operation_drops_awarded",
-                        "value": "0",
-                        "force_gc_to_generate": "1"
-                    },
-                    "operation drops awarded 1": {
-                        "attribute_class": "operation_drops_awarded",
-                        "value": "0",
-                        "force_gc_to_generate": "1"
-                    }
-                }
-            }
-        },
-        "items": {
-            "30092": {
-                "name": "set_anubis_storepromo_key - Item Contest Winner",
-                "item_name": "#CSGO_set_anubis_storepromo_key_contestwinner",
-                "item_description": "#CSGO_set_anubis_storepromo_key_contestwinner_Desc",
-                "image_inventory": "econ/tools/set_anubis_storepromo_key",
-                "first_sale_date": "2023-04-25",
-                "prefab": "weapon_case_key"
+            "20200": {
+                "name": "coupon - community_2024_sticker_capsule",
+                "item_name": "#coupon_community_2024_sticker_capsule",
+                "item_description": "#coupon_desc",
+                "loot_list_name": "coupon loot list - community_2024_sticker_capsule",
+                "prefab": "coupon_community_2024_capsule_prefab"
             }
         },
         "attributes": {
@@ -18726,6 +18675,10 @@
                 "crate_sticker_pack_community_2024_capsule_mythical": "1",
                 "crate_sticker_pack_community_2024_capsule_legendary": "1",
                 "crate_sticker_pack_community_2024_capsule_ancient": "1"
+            },
+            "coupon loot list - community_2024_sticker_capsule": {
+                "public_list_contents": "1",
+                "crate_sticker_pack_community_2024_capsule": "1"
             }
         },
         "revolving_loot_lists": {
@@ -18853,101 +18806,101 @@
             }
         },
         "quest_definitions": {
-            "241": {
-                "name": "quest_paris2023_activate_pass",
-                "loc_name": "#CSGO_TournamentChallenge_paris2023_activate_pass",
-                "loc_description": "#CSGO_TournamentChallenge_paris2023_activate_pass",
+            "250": {
+                "name": "quest_cph2024_activate_pass",
+                "loc_name": "#CSGO_TournamentChallenge_cph2024_activate_pass",
+                "loc_description": "#CSGO_TournamentChallenge_cph2024_activate_pass",
                 "quest_icon": "pass",
                 "gamemode": "competitive"
             },
-            "242": {
-                "name": "quest_paris2023_challengers_calender",
-                "loc_name": "#CSGO_TournamentChallenge_paris2023_challengers_calender",
-                "loc_description": "#CSGO_TournamentChallenge_paris2023_challengers_calender",
+            "251": {
+                "name": "quest_cph2024_challengers_calender",
+                "loc_name": "#CSGO_TournamentChallenge_cph2024_challengers_calender",
+                "loc_description": "#CSGO_TournamentChallenge_cph2024_challengers_calender",
                 "quest_icon": "calender",
                 "gamemode": "competitive"
             },
-            "243": {
-                "name": "quest_paris2023_challengers_pickem",
-                "loc_name": "#CSGO_TournamentChallenge_paris2023_challengers_pickem",
-                "loc_description": "#CSGO_TournamentChallenge_paris2023_challengers_pickem",
+            "252": {
+                "name": "quest_cph2024_challengers_pickem",
+                "loc_name": "#CSGO_TournamentChallenge_cph2024_challengers_pickem",
+                "loc_description": "#CSGO_TournamentChallenge_cph2024_challengers_pickem",
                 "quest_icon": "pickem",
                 "gamemode": "competitive"
             },
-            "244": {
-                "name": "quest_paris2023_legends_calender",
-                "loc_name": "#CSGO_TournamentChallenge_paris2023_legends_calender",
-                "loc_description": "#CSGO_TournamentChallenge_paris2023_legends_calender",
+            "253": {
+                "name": "quest_cph2024_legends_calender",
+                "loc_name": "#CSGO_TournamentChallenge_cph2024_legends_calender",
+                "loc_description": "#CSGO_TournamentChallenge_cph2024_legends_calender",
                 "quest_icon": "calender",
                 "gamemode": "competitive"
             },
-            "245": {
-                "name": "quest_paris2023_legends_pickem",
-                "loc_name": "#CSGO_TournamentChallenge_paris2023_legends_pickem",
-                "loc_description": "#CSGO_TournamentChallenge_paris2023_legends_pickem",
+            "254": {
+                "name": "quest_cph2024_legends_pickem",
+                "loc_name": "#CSGO_TournamentChallenge_cph2024_legends_pickem",
+                "loc_description": "#CSGO_TournamentChallenge_cph2024_legends_pickem",
                 "quest_icon": "pickem",
                 "gamemode": "competitive"
             },
-            "246": {
-                "name": "quest_paris2023_grandfinal_calender",
-                "loc_name": "#CSGO_TournamentChallenge_paris2023_grandfinal_calender",
-                "loc_description": "#CSGO_TournamentChallenge_paris2023_grandfinal_calender",
+            "255": {
+                "name": "quest_cph2024_grandfinal_calender",
+                "loc_name": "#CSGO_TournamentChallenge_cph2024_grandfinal_calender",
+                "loc_description": "#CSGO_TournamentChallenge_cph2024_grandfinal_calender",
                 "quest_icon": "calender",
                 "gamemode": "competitive"
             },
-            "247": {
-                "name": "quest_paris2023_quarterfinals_pickem",
-                "loc_name": "#CSGO_TournamentChallenge_paris2023_quarterfinals_pickem",
-                "loc_description": "#CSGO_TournamentChallenge_paris2023_quarterfinals_pickem",
+            "256": {
+                "name": "quest_cph2024_quarterfinals_pickem",
+                "loc_name": "#CSGO_TournamentChallenge_cph2024_quarterfinals_pickem",
+                "loc_description": "#CSGO_TournamentChallenge_cph2024_quarterfinals_pickem",
                 "quest_icon": "pickem",
                 "gamemode": "competitive"
             },
-            "248": {
-                "name": "quest_paris2023_semifinals_pickem",
-                "loc_name": "#CSGO_TournamentChallenge_paris2023_semifinals_pickem",
-                "loc_description": "#CSGO_TournamentChallenge_paris2023_semifinals_pickem",
+            "257": {
+                "name": "quest_cph2024_semifinals_pickem",
+                "loc_name": "#CSGO_TournamentChallenge_cph2024_semifinals_pickem",
+                "loc_description": "#CSGO_TournamentChallenge_cph2024_semifinals_pickem",
                 "quest_icon": "pickem",
                 "gamemode": "competitive"
             },
-            "249": {
-                "name": "quest_paris2023_grandfinal_pickem",
-                "loc_name": "#CSGO_TournamentChallenge_paris2023_grandfinal_pickem",
-                "loc_description": "#CSGO_TournamentChallenge_paris2023_grandfinal_pickem",
+            "258": {
+                "name": "quest_cph2024_grandfinal_pickem",
+                "loc_name": "#CSGO_TournamentChallenge_cph2024_grandfinal_pickem",
+                "loc_description": "#CSGO_TournamentChallenge_cph2024_grandfinal_pickem",
                 "quest_icon": "pickem",
                 "gamemode": "competitive"
             }
         },
         "campaign_definitions": {
-            "15": {
+            "16": {
                 "1": {
-                    "quest_index": "241"
+                    "quest_index": "250"
                 },
                 "2": {
-                    "quest_index": "242"
+                    "quest_index": "251"
                 },
                 "3": {
-                    "quest_index": "243"
+                    "quest_index": "252"
                 },
                 "4": {
-                    "quest_index": "244"
+                    "quest_index": "253"
                 },
                 "5": {
-                    "quest_index": "245"
+                    "quest_index": "254"
                 },
                 "6": {
-                    "quest_index": "246"
+                    "quest_index": "255"
                 },
                 "7": {
-                    "quest_index": "247"
+                    "quest_index": "256"
                 },
                 "8": {
-                    "quest_index": "248"
+                    "quest_index": "257"
                 },
                 "9": {
-                    "quest_index": "249"
+                    "quest_index": "258"
                 },
-                "loc_name": "#CSGO_TournamentJournal_paris2023",
-                "loc_description": "#CSGO_TournamentJournal_paris2023_Desc"
+                "loc_name": "#CSGO_TournamentJournal_cph2024",
+                "loc_description": "#CSGO_TournamentJournal_cph2024_Desc"
             }
         },
         "quest_schedule": {
@@ -21573,6 +21526,9 @@
                     },
                     "20": {
                         "team": "113"
+                    },
+                    "22": {
+                        "team": "85"
                     }
                 }
             },
@@ -22262,6 +22218,9 @@
                     },
                     "20": {
                         "team": "81"
+                    },
+                    "22": {
+                        "team": "81"
                     }
                 }
             },
@@ -22764,6 +22723,9 @@
                 "events": {
                     "18": {
                         "team": "105"
+                    },
+                    "22": {
+                        "team": "123"
                     }
                 }
             },
@@ -23313,6 +23275,9 @@
                     },
                     "13": {
                         "team": "43"
+                    },
+                    "22": {
+                        "team": "128"
                     }
                 }
             },
@@ -23801,6 +23766,9 @@
                     },
                     "14": {
                         "team": "73"
+                    },
+                    "22": {
+                        "team": "110"
                     }
                 }
             },
@@ -24033,6 +24001,17 @@
                 "events": {
                     "5": {
                         "team": "39"
+                    }
+                }
+            },
+            "8124135": {
+                "name": "adamS",
+                "code": "adams",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "125"
                     }
                 }
             },
@@ -24715,6 +24694,9 @@
                     },
                     "21": {
                         "team": "6"
+                    },
+                    "22": {
+                        "team": "89"
                     }
                 }
             },
@@ -24828,6 +24810,17 @@
                     },
                     "13": {
                         "team": "72"
+                    }
+                }
+            },
+            "13492074": {
+                "name": "arrozdoce",
+                "code": "arrozdoce",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "129"
                     }
                 }
             },
@@ -25997,6 +25990,9 @@
                     },
                     "21": {
                         "team": "96"
+                    },
+                    "22": {
+                        "team": "89"
                     }
                 }
             },
@@ -27094,6 +27090,9 @@
                     },
                     "21": {
                         "team": "121"
+                    },
+                    "22": {
+                        "team": "113"
                     }
                 }
             },
@@ -29142,6 +29141,9 @@
                     },
                     "21": {
                         "team": "61"
+                    },
+                    "22": {
+                        "team": "61"
                     }
                 }
             },
@@ -29368,6 +29370,9 @@
                         "team": "89"
                     },
                     "21": {
+                        "team": "89"
+                    },
+                    "22": {
                         "team": "89"
                     }
                 }
@@ -29777,6 +29782,9 @@
                         "team": "61"
                     },
                     "21": {
+                        "team": "61"
+                    },
+                    "22": {
                         "team": "61"
                     }
                 }
@@ -30245,6 +30253,17 @@
                     }
                 }
             },
+            "34129763": {
+                "name": "roman",
+                "code": "roman",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "129"
+                    }
+                }
+            },
             "34227021": {
                 "name": "cype",
                 "code": "cype",
@@ -30420,6 +30439,9 @@
                     },
                     "20": {
                         "team": "109"
+                    },
+                    "22": {
+                        "team": "31"
                     }
                 }
             },
@@ -30656,6 +30678,9 @@
                     },
                     "20": {
                         "team": "113"
+                    },
+                    "22": {
+                        "team": "113"
                     }
                 }
             },
@@ -30675,6 +30700,9 @@
                         "team": "95"
                     },
                     "21": {
+                        "team": "95"
+                    },
+                    "22": {
                         "team": "95"
                     }
                 }
@@ -31070,6 +31098,9 @@
                     },
                     "21": {
                         "team": "61"
+                    },
+                    "22": {
+                        "team": "61"
                     }
                 }
             },
@@ -31179,6 +31210,17 @@
                     }
                 }
             },
+            "37715442": {
+                "name": "MUTiRiS",
+                "code": "mutiris",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "129"
+                    }
+                }
+            },
             "37931638": {
                 "name": "mopoz",
                 "code": "mopoz",
@@ -31187,6 +31229,9 @@
                 "events": {
                     "18": {
                         "team": "103"
+                    },
+                    "22": {
+                        "team": "125"
                     }
                 }
             },
@@ -31337,6 +31382,9 @@
                         "team": "101"
                     },
                     "21": {
+                        "team": "59"
+                    },
+                    "22": {
                         "team": "59"
                     }
                 }
@@ -31655,6 +31703,9 @@
                     },
                     "20": {
                         "team": "96"
+                    },
+                    "22": {
+                        "team": "59"
                     }
                 }
             },
@@ -31844,6 +31895,9 @@
                     },
                     "18": {
                         "team": "81"
+                    },
+                    "22": {
+                        "team": "31"
                     }
                 }
             },
@@ -32170,6 +32224,9 @@
                         "team": "53"
                     },
                     "21": {
+                        "team": "117"
+                    },
+                    "22": {
                         "team": "117"
                     }
                 }
@@ -33192,6 +33249,9 @@
                     },
                     "19": {
                         "team": "60"
+                    },
+                    "22": {
+                        "team": "84"
                     }
                 }
             },
@@ -33261,6 +33321,9 @@
                         "team": "59"
                     },
                     "21": {
+                        "team": "59"
+                    },
+                    "22": {
                         "team": "59"
                     }
                 }
@@ -33364,6 +33427,17 @@
                     },
                     "14": {
                         "team": "63"
+                    }
+                }
+            },
+            "52722111": {
+                "name": "JUST",
+                "code": "just",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "125"
                     }
                 }
             },
@@ -33575,6 +33649,9 @@
                     },
                     "21": {
                         "team": "1"
+                    },
+                    "22": {
+                        "team": "12"
                     }
                 }
             },
@@ -34116,6 +34193,9 @@
                     },
                     "21": {
                         "team": "102"
+                    },
+                    "22": {
+                        "team": "102"
                     }
                 }
             },
@@ -34135,6 +34215,9 @@
                         "team": "33"
                     },
                     "21": {
+                        "team": "117"
+                    },
+                    "22": {
                         "team": "117"
                     }
                 }
@@ -34335,6 +34418,9 @@
                     },
                     "13": {
                         "team": "71"
+                    },
+                    "22": {
+                        "team": "113"
                     }
                 }
             },
@@ -34728,6 +34814,17 @@
                     }
                 }
             },
+            "59724778": {
+                "name": "Patti",
+                "code": "patti",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "124"
+                    }
+                }
+            },
             "60359075": {
                 "name": "MICHU",
                 "code": "michu",
@@ -34752,6 +34849,9 @@
                         "team": "111"
                     },
                     "21": {
+                        "team": "111"
+                    },
+                    "22": {
                         "team": "111"
                     }
                 }
@@ -35108,6 +35208,9 @@
                     },
                     "18": {
                         "team": "105"
+                    },
+                    "22": {
+                        "team": "123"
                     }
                 }
             },
@@ -35154,6 +35257,9 @@
                     },
                     "20": {
                         "team": "33"
+                    },
+                    "22": {
+                        "team": "33"
                     }
                 }
             },
@@ -35179,6 +35285,17 @@
                     },
                     "14": {
                         "team": "73"
+                    }
+                }
+            },
+            "70280269": {
+                "name": "Queenix",
+                "code": "queenix",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "124"
                     }
                 }
             },
@@ -35640,6 +35757,9 @@
                     },
                     "21": {
                         "team": "90"
+                    },
+                    "22": {
+                        "team": "123"
                     }
                 }
             },
@@ -35879,6 +35999,9 @@
                     },
                     "20": {
                         "team": "109"
+                    },
+                    "22": {
+                        "team": "31"
                     }
                 }
             },
@@ -35893,6 +36016,9 @@
                     },
                     "21": {
                         "team": "102"
+                    },
+                    "22": {
+                        "team": "126"
                     }
                 }
             },
@@ -36113,6 +36239,9 @@
                     },
                     "20": {
                         "team": "116"
+                    },
+                    "22": {
+                        "team": "126"
                     }
                 }
             },
@@ -36166,6 +36295,9 @@
                         "team": "84"
                     },
                     "21": {
+                        "team": "84"
+                    },
+                    "22": {
                         "team": "84"
                     }
                 }
@@ -36335,6 +36467,9 @@
                     },
                     "21": {
                         "team": "59"
+                    },
+                    "22": {
+                        "team": "59"
                     }
                 }
             },
@@ -36385,6 +36520,9 @@
                         "team": "85"
                     },
                     "21": {
+                        "team": "85"
+                    },
+                    "22": {
                         "team": "85"
                     }
                 }
@@ -36438,6 +36576,9 @@
                     },
                     "21": {
                         "team": "12"
+                    },
+                    "22": {
+                        "team": "33"
                     }
                 }
             },
@@ -36468,6 +36609,9 @@
                         "team": "69"
                     },
                     "19": {
+                        "team": "110"
+                    },
+                    "22": {
                         "team": "110"
                     }
                 }
@@ -36520,6 +36664,9 @@
                     },
                     "20": {
                         "team": "33"
+                    },
+                    "22": {
+                        "team": "33"
                     }
                 }
             },
@@ -36571,6 +36718,9 @@
                     },
                     "20": {
                         "team": "81"
+                    },
+                    "22": {
+                        "team": "81"
                     }
                 }
             },
@@ -36605,6 +36755,28 @@
                 "events": {
                     "5": {
                         "team": "43"
+                    }
+                }
+            },
+            "86933217": {
+                "name": "kraghen",
+                "code": "kraghen",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "124"
+                    }
+                }
+            },
+            "87137134": {
+                "name": "stadodo",
+                "code": "stadodo",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "125"
                     }
                 }
             },
@@ -36667,6 +36839,9 @@
                     },
                     "21": {
                         "team": "115"
+                    },
+                    "22": {
+                        "team": "12"
                     }
                 }
             },
@@ -36852,6 +37027,9 @@
                     },
                     "21": {
                         "team": "120"
+                    },
+                    "22": {
+                        "team": "84"
                     }
                 }
             },
@@ -37014,6 +37192,9 @@
                     },
                     "19": {
                         "team": "110"
+                    },
+                    "22": {
+                        "team": "110"
                     }
                 }
             },
@@ -37039,6 +37220,9 @@
                 "events": {
                     "21": {
                         "team": "84"
+                    },
+                    "22": {
+                        "team": "95"
                     }
                 }
             },
@@ -37110,6 +37294,17 @@
                     }
                 }
             },
+            "94843300": {
+                "name": "ICY",
+                "code": "icy",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "123"
+                    }
+                }
+            },
             "97016704": {
                 "name": "kyxsan",
                 "code": "kyxsan",
@@ -37118,6 +37313,9 @@
                 "events": {
                     "21": {
                         "team": "117"
+                    },
+                    "22": {
+                        "team": "95"
                     }
                 }
             },
@@ -37160,6 +37358,9 @@
                         "team": "85"
                     },
                     "21": {
+                        "team": "85"
+                    },
+                    "22": {
                         "team": "85"
                     }
                 }
@@ -37214,6 +37415,9 @@
                 "events": {
                     "21": {
                         "team": "111"
+                    },
+                    "22": {
+                        "team": "111"
                     }
                 }
             },
@@ -37267,6 +37471,17 @@
                     }
                 }
             },
+            "101497868": {
+                "name": "n1ssim",
+                "code": "n1ssim",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "102"
+                    }
+                }
+            },
             "101535513": {
                 "name": "dexter",
                 "code": "dexter",
@@ -37306,6 +37521,9 @@
                         "team": "89"
                     },
                     "21": {
+                        "team": "89"
+                    },
+                    "22": {
                         "team": "89"
                     }
                 }
@@ -37396,6 +37614,17 @@
                     },
                     "20": {
                         "team": "72"
+                    }
+                }
+            },
+            "105182632": {
+                "name": "story",
+                "code": "story",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "129"
                     }
                 }
             },
@@ -37584,6 +37813,9 @@
                     },
                     "21": {
                         "team": "48"
+                    },
+                    "22": {
+                        "team": "111"
                     }
                 }
             },
@@ -37612,6 +37844,9 @@
                     },
                     "20": {
                         "team": "113"
+                    },
+                    "22": {
+                        "team": "85"
                     }
                 }
             },
@@ -37856,6 +38091,9 @@
                     },
                     "21": {
                         "team": "106"
+                    },
+                    "22": {
+                        "team": "61"
                     }
                 }
             },
@@ -38043,6 +38281,17 @@
                     }
                 }
             },
+            "110610542": {
+                "name": "Nodios",
+                "code": "nodios",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "124"
+                    }
+                }
+            },
             "111436809": {
                 "name": "snatchie",
                 "code": "snatchie",
@@ -38139,6 +38388,20 @@
                     },
                     "21": {
                         "team": "6"
+                    },
+                    "22": {
+                        "team": "95"
+                    }
+                }
+            },
+            "113751940": {
+                "name": "lux",
+                "code": "lux",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "102"
                     }
                 }
             },
@@ -38152,6 +38415,9 @@
                         "team": "59"
                     },
                     "21": {
+                        "team": "59"
+                    },
+                    "22": {
                         "team": "59"
                     }
                 }
@@ -38189,6 +38455,9 @@
                 "events": {
                     "21": {
                         "team": "120"
+                    },
+                    "22": {
+                        "team": "84"
                     }
                 }
             },
@@ -38245,6 +38514,9 @@
                 "events": {
                     "20": {
                         "team": "109"
+                    },
+                    "22": {
+                        "team": "31"
                     }
                 }
             },
@@ -38262,6 +38534,9 @@
                     },
                     "20": {
                         "team": "33"
+                    },
+                    "22": {
+                        "team": "81"
                     }
                 }
             },
@@ -38306,6 +38581,9 @@
                         "team": "29"
                     },
                     "19": {
+                        "team": "110"
+                    },
+                    "22": {
                         "team": "110"
                     }
                 }
@@ -38428,6 +38706,17 @@
                     },
                     "18": {
                         "team": "98"
+                    }
+                }
+            },
+            "141998048": {
+                "name": "salazar",
+                "code": "salazar",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "124"
                     }
                 }
             },
@@ -38570,6 +38859,17 @@
                     }
                 }
             },
+            "146974312": {
+                "name": "westmelon",
+                "code": "westmelon",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "127"
+                    }
+                }
+            },
             "147496118": {
                 "name": "Ramz1kBO$$",
                 "code": "ramz1kboss",
@@ -38614,6 +38914,9 @@
                         "team": "89"
                     },
                     "21": {
+                        "team": "89"
+                    },
+                    "22": {
                         "team": "89"
                     }
                 }
@@ -38945,6 +39248,9 @@
                     },
                     "21": {
                         "team": "12"
+                    },
+                    "22": {
+                        "team": "33"
                     }
                 }
             },
@@ -39046,6 +39352,17 @@
                     }
                 }
             },
+            "168818887": {
+                "name": "clax",
+                "code": "clax",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "128"
+                    }
+                }
+            },
             "169177802": {
                 "name": "Ethan",
                 "code": "ethan",
@@ -39068,6 +39385,9 @@
                 "events": {
                     "18": {
                         "team": "67"
+                    },
+                    "22": {
+                        "team": "126"
                     }
                 }
             },
@@ -39364,6 +39684,17 @@
                     }
                 }
             },
+            "177517735": {
+                "name": "z4KR",
+                "code": "z4kr",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "127"
+                    }
+                }
+            },
             "178562747": {
                 "name": "Brollan",
                 "code": "brollan",
@@ -39381,6 +39712,9 @@
                     },
                     "21": {
                         "team": "1"
+                    },
+                    "22": {
+                        "team": "106"
                     }
                 }
             },
@@ -39446,6 +39780,9 @@
                     },
                     "19": {
                         "team": "12"
+                    },
+                    "22": {
+                        "team": "33"
                     }
                 }
             },
@@ -39482,6 +39819,9 @@
                     },
                     "21": {
                         "team": "115"
+                    },
+                    "22": {
+                        "team": "106"
                     }
                 }
             },
@@ -39534,6 +39874,9 @@
                 "geo": "WORLD",
                 "events": {
                     "21": {
+                        "team": "117"
+                    },
+                    "22": {
                         "team": "117"
                     }
                 }
@@ -39628,6 +39971,9 @@
                     },
                     "21": {
                         "team": "95"
+                    },
+                    "22": {
+                        "team": "95"
                     }
                 }
             },
@@ -39653,6 +39999,9 @@
                         "team": "85"
                     },
                     "21": {
+                        "team": "85"
+                    },
+                    "22": {
                         "team": "85"
                     }
                 }
@@ -39733,6 +40082,17 @@
                     }
                 }
             },
+            "210384169": {
+                "name": "iDISBALANCE",
+                "code": "idisbalance",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "128"
+                    }
+                }
+            },
             "211423593": {
                 "name": "smooya",
                 "code": "smooya",
@@ -39787,6 +40147,17 @@
                     }
                 }
             },
+            "213998181": {
+                "name": "glowiing",
+                "code": "glowiing",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "128"
+                    }
+                }
+            },
             "216612575": {
                 "name": "jL",
                 "code": "jl",
@@ -39795,6 +40166,9 @@
                 "events": {
                     "21": {
                         "team": "117"
+                    },
+                    "22": {
+                        "team": "12"
                     }
                 }
             },
@@ -39837,6 +40211,20 @@
                     },
                     "21": {
                         "team": "111"
+                    },
+                    "22": {
+                        "team": "111"
+                    }
+                }
+            },
+            "232661813": {
+                "name": "sense",
+                "code": "sense",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "117"
                     }
                 }
             },
@@ -39850,6 +40238,9 @@
                         "team": "106"
                     },
                     "21": {
+                        "team": "106"
+                    },
+                    "22": {
                         "team": "106"
                     }
                 }
@@ -39865,6 +40256,9 @@
                     },
                     "20": {
                         "team": "116"
+                    },
+                    "22": {
+                        "team": "126"
                     }
                 }
             },
@@ -39895,6 +40289,9 @@
                         "team": "61"
                     },
                     "21": {
+                        "team": "61"
+                    },
+                    "22": {
                         "team": "61"
                     }
                 }
@@ -39977,6 +40374,9 @@
                     },
                     "20": {
                         "team": "109"
+                    },
+                    "22": {
+                        "team": "31"
                     }
                 }
             },
@@ -40028,6 +40428,9 @@
                     },
                     "21": {
                         "team": "12"
+                    },
+                    "22": {
+                        "team": "12"
                     }
                 }
             },
@@ -40078,6 +40481,31 @@
                 "events": {
                     "21": {
                         "team": "120"
+                    },
+                    "22": {
+                        "team": "84"
+                    }
+                }
+            },
+            "302194534": {
+                "name": "ewjerkz",
+                "code": "ewjerkz",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "129"
+                    }
+                }
+            },
+            "303390740": {
+                "name": "CacaNito",
+                "code": "cacanito",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "117"
                     }
                 }
             },
@@ -40156,6 +40584,20 @@
                     },
                     "21": {
                         "team": "111"
+                    },
+                    "22": {
+                        "team": "111"
+                    }
+                }
+            },
+            "346906182": {
+                "name": "decenty",
+                "code": "decenty",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "113"
                     }
                 }
             },
@@ -40195,6 +40637,9 @@
                 "events": {
                     "20": {
                         "team": "112"
+                    },
+                    "22": {
+                        "team": "102"
                     }
                 }
             },
@@ -40220,6 +40665,9 @@
                     },
                     "21": {
                         "team": "106"
+                    },
+                    "22": {
+                        "team": "106"
                     }
                 }
             },
@@ -40231,6 +40679,28 @@
                 "events": {
                     "21": {
                         "team": "1"
+                    }
+                }
+            },
+            "400141913": {
+                "name": "Jee",
+                "code": "jee",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "127"
+                    }
+                }
+            },
+            "402704995": {
+                "name": "TRAVIS",
+                "code": "travis",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "123"
                     }
                 }
             },
@@ -40256,6 +40726,28 @@
                     },
                     "21": {
                         "team": "90"
+                    }
+                }
+            },
+            "425391947": {
+                "name": "kauez",
+                "code": "kauez",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "102"
+                    }
+                }
+            },
+            "425999755": {
+                "name": "donk",
+                "code": "donk",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "81"
                     }
                 }
             },
@@ -40309,6 +40801,9 @@
                 "events": {
                     "18": {
                         "team": "103"
+                    },
+                    "22": {
+                        "team": "125"
                     }
                 }
             },
@@ -40343,6 +40838,39 @@
                     }
                 }
             },
+            "839943839": {
+                "name": "noway",
+                "code": "noway",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "113"
+                    }
+                }
+            },
+            "852248195": {
+                "name": "Wicadia",
+                "code": "wicadia",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "110"
+                    }
+                }
+            },
+            "856465673": {
+                "name": "EmiliaQAQ",
+                "code": "emiliaqaq",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "127"
+                    }
+                }
+            },
             "863160115": {
                 "name": "sk0R",
                 "code": "sk0r",
@@ -40360,6 +40888,17 @@
                     }
                 }
             },
+            "878556854": {
+                "name": "mzinho",
+                "code": "mzinho",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "122"
+                    }
+                }
+            },
             "889754458": {
                 "name": "latto",
                 "code": "latto",
@@ -40371,6 +40910,20 @@
                     },
                     "20": {
                         "team": "116"
+                    },
+                    "22": {
+                        "team": "126"
+                    }
+                }
+            },
+            "895109597": {
+                "name": "Jimpphat",
+                "code": "jimpphat",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "106"
                     }
                 }
             },
@@ -40382,6 +40935,17 @@
                 "events": {
                     "19": {
                         "team": "112"
+                    }
+                }
+            },
+            "899162551": {
+                "name": "d1Ledez",
+                "code": "d1ledez",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "128"
                     }
                 }
             },
@@ -40399,6 +40963,17 @@
                     }
                 }
             },
+            "920033815": {
+                "name": "Starry",
+                "code": "starry",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "127"
+                    }
+                }
+            },
             "925164589": {
                 "name": "History",
                 "code": "history",
@@ -40407,6 +40982,17 @@
                 "events": {
                     "21": {
                         "team": "121"
+                    }
+                }
+            },
+            "960454289": {
+                "name": "Senzu",
+                "code": "senzu",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "122"
                     }
                 }
             },
@@ -40424,6 +41010,9 @@
                     },
                     "21": {
                         "team": "122"
+                    },
+                    "22": {
+                        "team": "122"
                     }
                 }
             },
@@ -40440,6 +41029,9 @@
                         "team": "108"
                     },
                     "21": {
+                        "team": "122"
+                    },
+                    "22": {
                         "team": "122"
                     }
                 }
@@ -40466,6 +41058,17 @@
                     }
                 }
             },
+            "1035615149": {
+                "name": "zont1x",
+                "code": "zont1x",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "81"
+                    }
+                }
+            },
             "1102803112": {
                 "name": "w0nderful",
                 "code": "w0nderful",
@@ -40474,6 +41077,20 @@
                 "events": {
                     "20": {
                         "team": "81"
+                    },
+                    "22": {
+                        "team": "12"
+                    }
+                }
+            },
+            "1243297617": {
+                "name": "910",
+                "code": "910",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "22": {
+                        "team": "122"
                     }
                 }
             }
