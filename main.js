@@ -5,6 +5,8 @@ import chardet from "chardet";
 import { parse as parse1 } from "@node-steam/vdf";
 import { parse as parse2 } from "vdf-parser";
 import { parse as parse3 } from "kvparser";
+import HTTPS from 'https'
+
 const __dirname = path.resolve()
 // const CONFIG = JSON.parse(fs.readFileSync("../../config.json", "utf-8"));
 // const SOURCE_PATHS = CONFIG.SOURCE_PATHS;
@@ -158,4 +160,51 @@ async function processFiles() {
     await convertAndSaveFiles();
 }
 
-processFiles();
+
+async function downloadOriginalFile(){
+    const files = fs.readdirSync(SOURCE_PATHS);
+
+    for (const file of files) {
+        const filePath = path.join(SOURCE_PATHS, file);
+        console.log(file)
+        let url
+        if(!file.startsWith('items_game')){
+             url = `https://raw.githubusercontent.com/SteamDatabase/GameTracking-CS2/master/game/csgo/pak01_dir/resource/${file}`
+
+        }else{
+            url = 'https://raw.githubusercontent.com/SteamDatabase/GameTracking-CS2/master/game/csgo/pak01_dir/scripts/items/items_game.txt'
+        }
+        await download(url).then(body=>{
+            fs.writeFileSync(filePath, body);
+        }).catch(err=>{
+            console.log(err.message)
+        })
+    }
+
+}
+
+
+
+function download(url) {
+	return new Promise((resolve, reject) => {
+		let req = HTTPS.get(url, (res) => {
+			if (res.statusCode != 200) {
+				return reject(new Error(`HTTP error ${res.statusCode}`));
+			}
+
+			let body = '';
+			res.on('data', chunk => body += chunk.toString('utf8'));
+			res.on('end', () => resolve(body));
+		});
+
+		req.on('error', reject);
+	});
+}
+
+function main(params) {
+    // downloadOriginalFile();
+    processFiles();
+    
+}
+
+main()
