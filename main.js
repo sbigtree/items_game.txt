@@ -51,7 +51,7 @@ function generateImagesCdn(){
             return
         }
         const kv = line.split('=')
-        console.log(kv[1]);
+        // console.log(kv[1]);
         const re = /.*730\/icons\/([^.]*).*/.exec(kv[1])
         // console.log(re)
         imagesCdn[re[1]] = kv[1]
@@ -201,8 +201,8 @@ function download(url) {
 	});
 }
 
-function main(params) {
-    downloadOriginalFile();
+async function main(params) {
+    await downloadOriginalFile();
     processFiles();
     
 }

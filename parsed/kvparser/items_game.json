@@ -16065,39 +16065,53 @@
             }
         },
         "prefabs": {
-            "coupon_community_2024_capsule_prefab": {
+            "coupon_masterminds2_capsule_prefab": {
                 "prefab": "coupon_prefab"
             }
         },
         "items": {
-            "4905": {
-                "name": "crate_sticker_pack_community_2024_capsule",
-                "item_name": "#CSGO_crate_sticker_pack_community_2024_capsule",
-                "item_description": "#CSGO_crate_sticker_pack_community_2024_capsule_desc",
-                "image_inventory": "econ/weapon_cases/crate_sticker_pack_community_2024_capsule",
-                "first_sale_date": "2024-01-25",
-                "prefab": "sticker_capsule",
+            "4946": {
+                "name": "crate_musickit_masterminds2_capsule",
+                "item_name": "#CSGO_crate_musickit_masterminds2_capsule",
+                "item_description": "#CSGO_crate_musickit_masterminds2_capsule_desc",
+                "image_inventory": "econ/weapon_cases/crate_musickit_masterminds2_capsule",
+                "first_sale_date": "2024-08-15",
+                "prefab": "weapon_case_base",
                 "attributes": {
                     "set supply crate series": {
                         "attribute_class": "supply_crate_series",
-                        "value": "394"
-                    }
-                },
-                "tags": {
-                    "StickerCapsule": {
-                        "tag_value": "crate_sticker_pack_community_2024_capsule_lootlist",
-                        "tag_text": "#CSGO_crate_sticker_pack_community_2024_capsule",
-                        "tag_group": "StickerCapsule",
-                        "tag_group_text": "#SFUI_InvTooltip_StickerCapsuleTag"
+                        "value": "413"
                     }
                 }
             },
-            "20200": {
-                "name": "coupon - community_2024_sticker_capsule",
-                "item_name": "#coupon_community_2024_sticker_capsule",
+            "4947": {
+                "name": "crate_musickit_masterminds2_stattrak_capsule",
+                "item_name": "#CSGO_crate_musickit_masterminds2_stattrak_capsule",
+                "item_description": "#CSGO_crate_musickit_masterminds2_stattrak_capsule_desc",
+                "image_inventory": "econ/weapon_cases/crate_musickit_masterminds2_stattrak_capsule",
+                "first_sale_date": "2024-08-15",
+                "prefab": "weapon_case_base",
+                "attributes": {
+                    "set supply crate series": {
+                        "attribute_class": "supply_crate_series",
+                        "value": "414"
+                    }
+                }
+            },
+            "20204": {
+                "name": "coupon - masterminds2_musickit_capsule",
+                "item_name": "#coupon_masterminds2_musickit_capsule",
                 "item_description": "#coupon_desc",
-                "loot_list_name": "coupon loot list - community_2024_sticker_capsule",
-                "prefab": "coupon_community_2024_capsule_prefab"
+                "loot_list_name": "coupon loot list - masterminds2_musickit_capsule",
+                "prefab": "coupon_masterminds2_capsule_prefab"
+            },
+            "20205": {
+                "name": "coupon - masterminds2_stattrak_musickit_capsule",
+                "item_name": "#coupon_masterminds2_stattrak_musickit_capsule",
+                "item_description": "#coupon_desc",
+                "loot_list_name": "coupon loot list - masterminds2_stattrak_musickit_capsule",
+                "prefab": "coupon_masterminds2_capsule_prefab",
+                "will_produce_stattrak": "1"
             }
         },
         "attributes": {
@@ -18289,6 +18303,23 @@
                 "hidden": "1",
                 "effect_type": "positive",
                 "stored_as_integer": "1"
+            },
+            "297": {
+                "name": "is rental",
+                "attribute_class": "is_rental",
+                "description_format": "value_is_additive",
+                "hidden": "1",
+                "effect_type": "positive",
+                "stored_as_integer": "1"
+            },
+            "298": {
+                "name": "can open for rental",
+                "attribute_class": "can_open_for_rental",
+                "description_string": "#Attrib_CanOpenForRental",
+                "description_format": "value_is_additive",
+                "hidden": "0",
+                "effect_type": "neutral",
+                "stored_as_integer": "1"
             }
         },
         "sticker_kits": {
@@ -18596,21 +18627,21 @@
             }
         },
         "paint_kits_rarity": {
-            "tec9_junkyard_engineering": "rare",
-            "xm1014_irezumi": "rare",
-            "ump45_assembled_engine": "rare",
-            "ssg08_dezastre": "rare",
             "dual_berettas_lethal_grin": "rare",
-            "nova_drakkar": "rare",
             "mac10_illusion": "rare",
-            "mp7_just_smile": "mythical",
-            "sawedoff_gamer": "mythical",
-            "fiveseven_hybrid": "mythical",
+            "nova_drakkar": "rare",
+            "ssg08_dezastre": "rare",
+            "tec9_junkyard_engineering": "rare",
+            "ump45_assembled_engine": "rare",
+            "xm1014_irezumi": "rare",
             "glock_brick_mondrian": "rare",
             "m4a4_snakebite": "rare",
-            "zeus_thunder_god": "legendary",
+            "fiveseven_hybrid": "mythical",
+            "mp7_just_smile": "mythical",
+            "sawedoff_gamer": "mythical",
             "m4a1s_black_lotus": "mythical",
             "usps_doggy": "mythical",
+            "zeus_thunder_god": "legendary",
             "awp_tempered": "legendary",
             "ak_porcelain": "legendary"
         },
@@ -18620,18 +18651,18 @@
                 "set_description": "#CSGO_set_community_33_desc",
                 "is_collection": "1",
                 "items": {
-                    "[tec9_junkyard_engineering]weapon_tec9": "1",
-                    "[xm1014_irezumi]weapon_xm1014": "1",
-                    "[ump45_assembled_engine]weapon_ump45": "1",
-                    "[ssg08_dezastre]weapon_ssg08": "1",
                     "[dual_berettas_lethal_grin]weapon_elite": "1",
-                    "[nova_drakkar]weapon_nova": "1",
                     "[mac10_illusion]weapon_mac10": "1",
+                    "[nova_drakkar]weapon_nova": "1",
+                    "[ssg08_dezastre]weapon_ssg08": "1",
+                    "[tec9_junkyard_engineering]weapon_tec9": "1",
+                    "[ump45_assembled_engine]weapon_ump45": "1",
+                    "[xm1014_irezumi]weapon_xm1014": "1",
                     "[glock_brick_mondrian]weapon_glock": "1",
                     "[m4a4_snakebite]weapon_m4a1": "1",
+                    "[fiveseven_hybrid]weapon_fiveseven": "1",
                     "[mp7_just_smile]weapon_mp7": "1",
                     "[sawedoff_gamer]weapon_sawedoff": "1",
-                    "[fiveseven_hybrid]weapon_fiveseven": "1",
                     "[m4a1s_black_lotus]weapon_m4a1_silencer": "1",
                     "[zeus_thunder_god]weapon_taser": "1",
                     "[usps_doggy]weapon_usp_silencer": "1",
@@ -18641,48 +18672,32 @@
             }
         },
         "client_loot_lists": {
-            "crate_sticker_pack_community_2024_capsule_rare": {
-                "[paper_this_is_fine_chicken]sticker": "1",
-                "[paper_retro_zeus]sticker": "1",
-                "[paper_please_return]sticker": "1",
-                "[paper_peek_a_boo]sticker": "1",
-                "[paper_kickflip_47]sticker": "1",
-                "[paper_easy_for_ricksaw]sticker": "1",
-                "[paper_bum_a_smoke]sticker": "1",
-                "[paper_angry_t]sticker": "1"
+            "crate_musickit_masterminds2_capsule_lootlist": {
+                "[mattlevine_02]musickit": "1",
+                "[treeadams_01]musickit": "1",
+                "[benbromfield_01]musickit": "1",
+                "[timhuling_02]musickit": "1",
+                "[dren_03]musickit": "1",
+                "[sammarshall_02]musickit": "1",
+                "[austinwintory_04]musickit": "1",
+                "[danielsadowski_05]musickit": "1"
             },
-            "crate_sticker_pack_community_2024_capsule_mythical": {
-                "[glitter_lotus]sticker": "1",
-                "[glitter_pushing_smokes]sticker": "1",
-                "[holo_cedar_creek]sticker": "1",
-                "[holo_lit]sticker": "1",
-                "[holo_loving_eyes]sticker": "1",
-                "[holo_try_hard]sticker": "1"
+            "crate_musickit_masterminds2_stattrak_capsule_lootlist": {
+                "will_produce_stattrak": "1",
+                "crate_musickit_masterminds2_capsule_lootlist": "1"
             },
-            "crate_sticker_pack_community_2024_capsule_legendary": {
-                "[foil_lost_in_smoke]sticker": "1",
-                "[foil_on_eco]sticker": "1",
-                "[foil_ouchie]sticker": "1",
-                "[foil_sealed]sticker": "1"
-            },
-            "crate_sticker_pack_community_2024_capsule_ancient": {
-                "[lenticular_dystopian_gaze]sticker": "1",
-                "[lenticular_econometer]sticker": "1",
-                "[lenticular_old_school]sticker": "1"
-            },
-            "crate_sticker_pack_community_2024_capsule_lootlist": {
-                "crate_sticker_pack_community_2024_capsule_rare": "1",
-                "crate_sticker_pack_community_2024_capsule_mythical": "1",
-                "crate_sticker_pack_community_2024_capsule_legendary": "1",
-                "crate_sticker_pack_community_2024_capsule_ancient": "1"
-            },
-            "coupon loot list - community_2024_sticker_capsule": {
+            "coupon loot list - masterminds2_musickit_capsule": {
                 "public_list_contents": "1",
-                "crate_sticker_pack_community_2024_capsule": "1"
+                "crate_musickit_masterminds2_capsule": "1"
+            },
+            "coupon loot list - masterminds2_stattrak_musickit_capsule": {
+                "public_list_contents": "1",
+                "crate_musickit_masterminds2_stattrak_capsule": "1"
             }
         },
         "revolving_loot_lists": {
-            "394": "crate_sticker_pack_community_2024_capsule_lootlist"
+            "413": "crate_musickit_masterminds2_capsule_lootlist",
+            "414": "crate_musickit_masterminds2_stattrak_capsule_lootlist"
         },
         "quest_reward_loot_lists": {
             "1": "set_dust",
@@ -18762,47 +18777,12 @@
             }
         },
         "music_definitions": {
-            "71": {
-                "name": "dryden_01",
-                "loc_name": "#musickit_dryden_01",
-                "loc_description": "#musickit_dryden_01_desc",
-                "image_inventory": "econ/music_kits/dryden_01",
-                "pedestal_display_model": "models/inventory_items/music_kits/music_kit_dryden_01.vmdl"
-            },
-            "72": {
-                "name": "isoxo_01",
-                "loc_name": "#musickit_isoxo_01",
-                "loc_description": "#musickit_isoxo_01_desc",
-                "image_inventory": "econ/music_kits/isoxo_01",
-                "pedestal_display_model": "models/inventory_items/music_kits/music_kit_isoxo_01.vmdl"
-            },
-            "73": {
-                "name": "killscript_01",
-                "loc_name": "#musickit_killscript_01",
-                "loc_description": "#musickit_killscript_01_desc",
-                "image_inventory": "econ/music_kits/killscript_01",
-                "pedestal_display_model": "models/inventory_items/music_kits/music_kit_killscript_01.vmdl"
-            },
-            "74": {
-                "name": "knock2_02",
-                "loc_name": "#musickit_knock2_02",
-                "loc_description": "#musickit_knock2_02_desc",
-                "image_inventory": "econ/music_kits/knock2_02",
-                "pedestal_display_model": "models/inventory_items/music_kits/music_kit_knock2_02.vmdl"
-            },
-            "75": {
-                "name": "radcat_01",
-                "loc_name": "#musickit_radcat_01",
-                "loc_description": "#musickit_radcat_01_desc",
-                "image_inventory": "econ/music_kits/radcat_01",
-                "pedestal_display_model": "models/inventory_items/music_kits/music_kit_radcat_01.vmdl"
-            },
-            "76": {
-                "name": "twerl_01",
-                "loc_name": "#musickit_twerl_01",
-                "loc_description": "#musickit_twerl_01_desc",
-                "image_inventory": "econ/music_kits/twerl_01",
-                "pedestal_display_model": "models/inventory_items/music_kits/music_kit_twerl_01.vmdl"
+            "85": {
+                "name": "treeadams_01",
+                "loc_name": "#MusicKit_treeadams_01",
+                "loc_description": "#MusicKit_treeadams_01_desc",
+                "image_inventory": "econ/music_kits/treeadams_01",
+                "pedestal_display_model": "models/inventory_items/music_kits/music_kit_treeadams_01.vmdl"
             }
         },
         "quest_definitions": {
@@ -20331,6 +20311,56 @@
                     "120": "11",
                     "121": "20",
                     "122": "17"
+                }
+            },
+            "22": {
+                "place_names": {
+                    "1": "#Place_Name_1st",
+                    "2": "#Place_Name_2nd",
+                    "3": "#Place_Name_3rd-4th",
+                    "4": "#Place_Name_5th-8th",
+                    "5": "#Place_Name_09",
+                    "6": "#Place_Name_10",
+                    "7": "#Place_Name_11",
+                    "8": "#Place_Name_12",
+                    "9": "#Place_Name_13",
+                    "10": "#Place_Name_14",
+                    "11": "#Place_Name_15",
+                    "12": "#Place_Name_16",
+                    "13": "#Place_Name_17",
+                    "14": "#Place_Name_18",
+                    "15": "#Place_Name_19",
+                    "16": "#Place_Name_20",
+                    "17": "#Place_Name_21",
+                    "18": "#Place_Name_22",
+                    "19": "#Place_Name_23",
+                    "20": "#Place_Name_24"
+                },
+                "team_places": {
+                    "12": "1",
+                    "31": "6",
+                    "33": "4",
+                    "59": "3",
+                    "61": "2",
+                    "81": "4",
+                    "84": "17",
+                    "85": "12",
+                    "89": "3",
+                    "95": "10",
+                    "102": "7",
+                    "106": "4",
+                    "110": "4",
+                    "111": "5",
+                    "113": "8",
+                    "115": "15",
+                    "117": "18",
+                    "122": "11",
+                    "123": "19",
+                    "124": "9",
+                    "125": "20",
+                    "126": "14",
+                    "127": "16",
+                    "129": "13"
                 }
             }
         },
