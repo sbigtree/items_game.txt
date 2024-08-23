@@ -75,7 +75,18 @@
 		"GameUI_Always" 	"Zawsze"
 		"GameUI_ObservedBotCrosshair_Takeover" 	"Kiedy mogę przejąć bota"
 		"GameUI_ObservedBotCrosshair_Default" 	"Nigdy"
-
+		"GameUI_KeepCrosshair"	"Zachowaj standardowy celownik"
+		"GameUI_KeepCrosshairInfo" "Nie ukrywaj standardowego celownika podczas wyświetlania siatki celowniczej granatu."
+		"GameUI_GrenadeCrosshairFlash"	"Granaty błyskowe"
+		"GameUI_GrenadeCrosshairHE"	"Granaty zaczepne"
+		"GameUI_GrenadeCrosshairFire"	"Koktajle Mołotowa i granaty zapalające"
+		"GameUI_GrenadeCrosshairSmoke"	"Granaty dymne"
+		"GameUI_GrenadeCrosshairDecoy"	"Wabiki"
+		"GameUI_GrenadeCrosshairInfoTooltipFlash" "Czy powinniśmy wyświetlać siatkę celowniczą dla granatów błyskowych? Jeśli tak, po jakim czasie pokazać je od momentu wyciągnięcia zawleczki?"
+		"GameUI_GrenadeCrosshairInfoTooltipHE" "Czy powinniśmy wyświetlać siatkę celowniczą dla granatów zaczepnych? Jeśli tak, po jakim czasie pokazać je od momentu wyciągnięcia zawleczki?"
+		"GameUI_GrenadeCrosshairInfoTooltipFire" "Czy powinniśmy wyświetlać siatkę celowniczą dla koktajli Mołotowa i granatów zapalających? Jeśli tak, po jakim czasie pokazać je od momentu wyciągnięcia zawleczki?"
+		"GameUI_GrenadeCrosshairInfoTooltipSmoke" "Czy powinniśmy wyświetlać siatkę celowniczą dla granatów dymnych? Jeśli tak, po jakim czasie pokazać je od momentu wyciągnięcia zawleczki?"
+		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Czy powinniśmy wyświetlać siatkę celowniczą dla wabików? Jeśli tak, po jakim czasie pokazać je od momentu wyciągnięcia zawleczki?"
 
 
 		"GameUI_Xhair_Reset_Tooltip" 		"Zresetuj wszystkie wartości celownika do domyślnych."
@@ -184,7 +195,7 @@
 		"GameUI_ServerRejectInvalidConnection"				"Serwer odrzucił błędne połączenie."
 		"GameUI_ServerRejectInvalidCertLen"					"Serwer odrzucił błędny certyfikat klienta."
 		"GameUI_ServerRejectInvalidSteamCertLen"			"Serwer odrzucił błędny certyfikat Steam."
-		"GameUI_ServerRejectSteam"							"Steam odrzucił twoje połączenie z serwerem."
+		"GameUI_ServerRejectSteam"							"Steam odrzuci�� twoje połączenie z serwerem."
 		"GameUI_ServerAuthDisabled"							"Uwierzytelnianie serwera jest wyłączone."
 		"GameUI_ServerCDKeyAuthInvalid"						"Serwer odrzucił uwierzytelnienie klucza produktu."
 		"GameUI_ServerRejectBanned"							"Twój klient nie ma pozwolenia na połączenie się z tym serwerem."
@@ -231,7 +242,7 @@
 		"GameUI_Disconnect_SteamTicket"						"Nieprawidłowe zapytanie o ID użytkownika Steam."
 		"GameUI_Disconnect_SteamLogon"						"Nie zalogowano się do Steam."
 		"GameUI_Disconnect_SteamInUse"						"To konto Steam jest właśnie używane na innym komputerze."
-		"GameUI_Disconnect_SteamOwnership"					"To konto Steam nie posiada tej gry.\nZaloguj się na prawidłowe konto Steam."
+		"GameUI_Disconnect_SteamOwnership"					"Nie udało się zweryfikować stanu własności gry na tym koncie Steam."
 		"GameUI_Disconnect_SteamVAC"						"Klient został zbanowany przez VAC."
 		"GameUI_Disconnect_SteamTimeOut"					"System Valve Anti-Cheat przekroczył limit czasu. Upewnij się, że nie korzystasz z żadnych programów, które mogą zaburzać pracę VAC, oraz że Steam jest poprawnie zainstalowany."
 		"GameUI_Disconnect_StringTableMessage"				"Błąd zapisywania komunikatu o aktualizacji tablicy łańcuchów."
@@ -515,8 +526,9 @@
 		"loadingscreen_title_ar_shoots_3"		"Shoots"
 		"loadingscreen_title_ar_shoots_4"		"Shoots"
 
-		"GameUI_Settings_ShowLocation"		"Pokaż położenie"
-		"GameUI_Settings_ShowLocationAndEquipment"		"Pokaż położenie oraz wyposażenie"
+		"GameUI_Settings_ShowLocation"					"Znaczniki"
+		"GameUI_Settings_ShowLocationAndName"			"Znaczniki, pseudonimy i zdrowie"
+		"GameUI_Settings_ShowLocationAndEquipment"		"Znaczniki, pseudonimy, zdrowie i wyposażenie"
 
 		"GameUI_ReportBug"		"ZGŁOŚ BŁĄD"
 		"GameUI_Bug_Successful"		"Wysłano zgłoszenie błędu!"
@@ -1085,6 +1097,7 @@
 		"Cstrike_TitlesTXT_Game_added_position"								"Dodano cię na pozycję %s1 z 5"
 		"Cstrike_TitlesTXT_Game_bomb_drop"									"Gracz %s1 upuścił bombę."
 		"Cstrike_TitlesTXT_Game_afk_bomb_drop"								"Upuszczam bombę."
+		"Cstrike_TitlesTXT_Game_get_out_of_there"							"Wynoście się stamtąd!"
 		"Cstrike_TitlesTXT_Game_bomb_pickup"								"Gracz %s1 podniósł bombę."
 		"Cstrike_TitlesTXT_Game_connected"									"%s1 dołącza do gry."
 		"Cstrike_TitlesTXT_Game_disconnected"								"%s1 opuszcza grę."
@@ -1359,6 +1372,8 @@
 		"CTBar"				"Bar po stronie AT"
 		"UpperCatwalks"		"Górne kładki"
 		"LowerCatwalks"		"Dolne kładki"
+		"UpperCatwalk"		"Górna kładka"
+		"UpperConveyor"		"Górny taśmociąg"
 		"GroundLevel"		"Poziom ziemi"
 		"LockerRoom"		"Szatnia"
 		"BackEntrance"		"Tylne wejście"
@@ -1566,88 +1581,92 @@
 		"item_cooldown_rounds"			"%s1 (zaopatrzenie za %s2 rund(y))"
 		"item_cooldown_minutes"			"%s1 (zaopatrzenie za %s2 minut(y))"
 
-		"SFUI_WPNHUD_Pistol"		"Pistolet"
-		"SFUI_WPNHUD_SMG"			"PM"
-		"SFUI_WPNHUD_Rifle"			"Karabin"
-		"SFUI_WPNHUD_Heavy"			"Broń ciężka"
-		"SFUI_WPNHUD_Grenade"		"Granat"
-		"SFUI_WPNHUD_SniperRifle"	"Karabin snajperski"
-		"SFUI_WPNHUD_Sniper"		"Karabin snajperski"
-		"SFUI_WPNHUD_Shotgun"		"Strzelba"
-		"SFUI_WPNHUD_AK47"			"AK-47"
-		"SFUI_WPNHUD_Aug"			"AUG"
-		"SFUI_WPNHUD_AWP"			"AWP"
-		"SFUI_WPNHUD_DesertEagle"	"Desert Eagle"
-		"SFUI_WPNHUD_Deagle"		"Desert Eagle"
-		"SFUI_WPNHUD_Elites"		"Dwie beretty"
-		"SFUI_WPNHUD_Elite"			"Dwie beretty"
-		"SFUI_WPNHUD_Famas"			"FAMAS"
-		"SFUI_WPNHUD_FiveSeven"		"Five-SeveN"
-		"SFUI_WPNHUD_Flashbang"		"Granat błyskowo-hukowy"
-		"SFUI_WPNHUD_G3SG1"			"G3SG1"
-		"SFUI_WPNHUD_GalilAR"		"Galil AR"
-		"SFUI_WPNHUD_Glock18"		"Glock-18"
-		"SFUI_WPNHUD_HE_Grenade"	"Granat zaczepny"
-		"SFUI_WPNHUD_HEGrenade"		"Granat zaczepny"
-		"SFUI_WPNHUD_Knife"			"Nóż"
-		"SFUI_WPNHUD_Knife_T"		"Nóż"
-		"SFUI_WPNHUD_Knife_GG"		"Złoty nóż"
-		"SFUI_WPNHUD_Knife_Ghost"	"Widmowy majcher"
-		"SFUI_WPNHUD_M249"			"M249"
-		"SFUI_WPNHUD_M4A1"			"M4A4"
-		"SFUI_WPNHUD_M4_SILENCER"	"M4A1-S"
-		"SFUI_WPNHUD_M4A1_silencer"	"M4A1-S"
-		"SFUI_WPNHUD_MAC10"			"MAC-10"
-		"SFUI_WPNHUD_P90"			"P90"
-		"SFUI_WPNHUD_Smoke_Grenade"	"Granat dymny"
-		"SFUI_WPNHUD_SmokeGrenade"	"Granat dymny"
-		"SFUI_WPNHUD_UMP45"			"UMP-45"
-		"SFUI_WPNHUD_xm1014"		"XM1014"
-		"SFUI_WPNHUD_C4"			"Ładunek C4"
-		"SFUI_WPNHUD_Bizon"			"PP-Bizon"
-		"SFUI_WPNHUD_Mag7"			"MAG-7"
-		"SFUI_WPNHUD_Negev"			"Negev"
-		"SFUI_WPNHUD_Sawedoff"		"Obrzyn"
-		"SFUI_WPNHUD_Tec9"			"Tec-9"
-		"SFUI_WPNHUD_Taser"			"Zeus x27"
-		"SFUI_WPNHUD_Molotov"		"Koktajl Mołotowa"
-		"SFUI_WPNHUD_IncGrenade"	"Granat zapalający"
-		"SFUI_WPNHUD_Decoy"			"Wabik"
-		"SFUI_WPNHUD_HKP2000"		"P2000"
-		"SFUI_WPNHUD_MP7"			"MP7"
-		"SFUI_WPNHUD_MP5SD"			"MP5-SD"
-		"SFUI_WPNHUD_MP9"			"MP9"
-		"SFUI_WPNHUD_Nova"			"Nova"
-		"SFUI_WPNHUD_P250"			"P250"
-		"SFUI_WPNHUD_CZ75"			"CZ75-Auto"
-		"SFUI_WPNHUD_SCAR20"		"SCAR-20"
-		"SFUI_WPNHUD_SG556"			"SG 553"
-		"SFUI_WPNHUD_SSG08"			"SSG 08"
+		"SFUI_WPNHUD_Pistol"					"Pistolet"
+		"SFUI_WPNHUD_SMG"						"PM"
+		"SFUI_WPNHUD_Rifle"						"Karabin"
+		"SFUI_WPNHUD_Heavy"						"Broń ciężka"
+		"SFUI_WPNHUD_Grenade"					"Granat"
+		"SFUI_WPNHUD_SniperRifle"				"Karabin snajperski"
+		"SFUI_WPNHUD_Sniper"					"Karabin snajperski"
+		"SFUI_WPNHUD_Shotgun"					"Strzelba"
+		"SFUI_WPNHUD_AK47"						"AK-47"
+		"SFUI_WPNHUD_Aug"						"AUG"
+		"SFUI_WPNHUD_AWP"						"AWP"
+		"SFUI_WPNHUD_DesertEagle"				"Desert Eagle"
+		"SFUI_WPNHUD_Deagle"					"Desert Eagle"
+		"SFUI_WPNHUD_Elites"					"Dwie beretty"
+		"SFUI_WPNHUD_Elite"						"Dwie beretty"
+		"SFUI_WPNHUD_Famas"						"FAMAS"
+		"SFUI_WPNHUD_FiveSeven"					"Five-SeveN"
+		"SFUI_WPNHUD_Flashbang"					"Granat błyskowo-hukowy"
+		"SFUI_WPNHUD_G3SG1"						"G3SG1"
+		"SFUI_WPNHUD_GalilAR"					"Galil AR"
+		"SFUI_WPNHUD_Glock18"					"Glock-18"
+		"SFUI_WPNHUD_HE_Grenade"				"Granat zaczepny"
+		"SFUI_WPNHUD_HE_Grenade_short"			"Zaczepny"		
+		"SFUI_WPNHUD_HEGrenade"					"Granat zaczepny"
+		"SFUI_WPNHUD_Knife"						"Nóż"
+		"SFUI_WPNHUD_Knife_T"					"Nóż"
+		"SFUI_WPNHUD_Knife_GG"					"Złoty nóż"
+		"SFUI_WPNHUD_Knife_Ghost"				"Widmowy majcher"
+		"SFUI_WPNHUD_M249"						"M249"
+		"SFUI_WPNHUD_M4A1"						"M4A4"
+		"SFUI_WPNHUD_M4_SILENCER"				"M4A1-S"
+		"SFUI_WPNHUD_M4A1_silencer"				"M4A1-S"
+		"SFUI_WPNHUD_MAC10"						"MAC-10"
+		"SFUI_WPNHUD_P90"						"P90"
+		"SFUI_WPNHUD_Smoke_Grenade"				"Granat dymny"
+		"SFUI_WPNHUD_SmokeGrenade"				"Granat dymny"
+		"SFUI_WPNHUD_UMP45"						"UMP-45"
+		"SFUI_WPNHUD_xm1014"					"XM1014"
+		"SFUI_WPNHUD_C4"						"Ładunek C4"
+		"SFUI_WPNHUD_Bizon"						"PP-Bizon"
+		"SFUI_WPNHUD_Mag7"						"MAG-7"
+		"SFUI_WPNHUD_Negev"						"Negev"
+		"SFUI_WPNHUD_Sawedoff"					"Obrzyn"
+		"SFUI_WPNHUD_Tec9"						"Tec-9"
+		"SFUI_WPNHUD_Taser"						"Zeus x27"
+		"SFUI_WPNHUD_Molotov"					"Koktajl Mołotowa"
+		"SFUI_WPNHUD_IncGrenade"				"Granat zapalający"
+		"SFUI_WPNHUD_IncGrenade_short"			"Zapalający"
+		"SFUI_WPNHUD_Decoy"						"Wabik"
+		"SFUI_WPNHUD_Decoy_short"				"Wabik"
+		"SFUI_WPNHUD_HKP2000"					"P2000"
+		"SFUI_WPNHUD_MP7"						"MP7"
+		"SFUI_WPNHUD_MP5SD"						"MP5-SD"
+		"SFUI_WPNHUD_MP9"						"MP9"
+		"SFUI_WPNHUD_Nova"						"Nova"
+		"SFUI_WPNHUD_P250"						"P250"
+		"SFUI_WPNHUD_CZ75"						"CZ75-Auto"
+		"SFUI_WPNHUD_SCAR20"					"SCAR-20"
+		"SFUI_WPNHUD_SG556"						"SG 553"
+		"SFUI_WPNHUD_SSG08"						"SSG 08"
 		"SFUI_WPNHUD_HEAVYASSAULTSUIT"			"Ciężki pancerz"
 		"SFUI_WPNHUD_ASSAULTSUIT"				"Kamizelka i hełm"
 		"SFUI_WPNHUD_ASSAULTSUIT_ONLY_HELMET"	"Hełm"
 		"SFUI_WPNHUD_KEVLAR"					"Kamizelka kuloodporna"
-		"SFUI_WPNHUD_DEFUSER"		"Zestaw do rozbrajania"
-		"SFUI_WPNHUD_CUTTERS"		"Zestaw ratunkowy"
-		"SFUI_WPNHUD_REVOLVER"		"Rewolwer R8"
-		"SFUI_WPNHUD_USP_SILENCER"	"USP-S"
-		"SFUI_WPNHUD_KnifeBayonet"	"Bagnet"
-		"SFUI_WPNHUD_KnifeFlip"		"Nóż składany"
-		"SFUI_WPNHUD_KnifeGut"		"Nóż z hakiem"
-		"SFUI_WPNHUD_KnifeCSS"		"Klasyczny nóż"
-		"SFUI_WPNHUD_KnifeM9"		"Bagnet M9"
-		"SFUI_WPNHUD_KnifeKaram"	"Karambit"
-		"SFUI_WPNHUD_KnifeTactical" "Nóż myśliwski"
-		"SFUI_WPNHUD_Knife_Butterfly" "Nóż motylkowy"
-		"SFUI_WPNHUD_PartyPopper"		"Wystrzałowe Konfetti!"
-		"SFUI_WPNHUD_knife_falchion_advanced" "Nóż falcjon"
-		"SFUI_WPNHUD_knife_push" "Sztylety Cienia"
-		"SFUI_WPNHUD_knife_survival_bowie" "Nóż Bowie"
-		"SFUI_WPNHUD_Healthshot"			"Zastrzyk wzmacniający"
-		"SFUI_WPNHUD_TAGrenade"	"Granat taktyczny"
-		"SFUI_WPNHUD_Exploding_Barrel"	"Wybuchająca beczka"
-		"SFUI_WPNHUD_Snowball"	"Śnieżka"
-		"SFUI_WPNHUD_StompDamageKillString"	"miażdży twoją czaszkę"
+		"SFUI_WPNHUD_DEFUSER"					"Zestaw do rozbrajania"
+		"SFUI_WPNHUD_CUTTERS"					"Zestaw ratunkowy"
+		"SFUI_WPNHUD_REVOLVER"					"Rewolwer R8"
+		"SFUI_WPNHUD_USP_SILENCER"				"USP-S"
+		"SFUI_WPNHUD_KnifeBayonet"				"Bagnet"
+		"SFUI_WPNHUD_KnifeFlip"					"Nóż składany"
+		"SFUI_WPNHUD_KnifeGut"					"Nóż z hakiem"
+		"SFUI_WPNHUD_KnifeCSS"					"Klasyczny nóż"
+		"SFUI_WPNHUD_KnifeM9"					"Bagnet M9"
+		"SFUI_WPNHUD_KnifeKaram"				"Karambit"
+		"SFUI_WPNHUD_KnifeTactical" 			"Nóż myśliwski"
+		"SFUI_WPNHUD_Knife_Butterfly" 			"Nóż motylkowy"
+		"SFUI_WPNHUD_PartyPopper"				"Wystrzałowe Konfetti!"
+		"SFUI_WPNHUD_knife_falchion_advanced" 	"Nóż falcjon"
+		"SFUI_WPNHUD_knife_push" 				"Sztylety Cienia"
+		"SFUI_WPNHUD_knife_survival_bowie" 		"Nóż Bowie"
+		"SFUI_WPNHUD_Healthshot"				"Zastrzyk wzmacniający"
+		"SFUI_WPNHUD_TAGrenade"					"Granat taktyczny"
+		"SFUI_WPNHUD_Exploding_Barrel"			"Wybuchająca beczka"
+		"SFUI_WPNHUD_Snowball"					"Śnieżka"
+
+		"SFUI_WPNHUD_StompDamageKillString"		"miażdży twoją czaszkę"
 
 		"SFUI_WPNHUD_DangerZone"	"Strefa zagrożenia"
 		"SFUI_WPNHUD_AutoSentry"	"Działko strażnicze"
@@ -2061,6 +2080,7 @@
 		"CSGO_Weapon_Possessive"				"%s2 gracza <span class=\"possessive-player-name\">%s1</span>"
 		"CSGO_Weapon_Possessive_T"				"%s2 gracza <span class=\"possessive-player-name\">%s1</span> (T)"
 		"CSGO_Weapon_Possessive_CT"				"%s2 gracza <span class=\"possessive-player-name\">%s1</span> (AT)"
+		"CSGO_Possessive"						"<span class=\"possessive-player-name\">Broń gracza %s1:</span>"
 
 		"DeathPanel_HappyHolidays"		"ŻYCZY CI WESOŁYCH ŚWIĄT"
 		"DeathPanel_ScreenShot"		"[{s:bind_jpeg}] Uwiecznij tę chwilę"
@@ -2266,6 +2286,10 @@
 		"Econ_Loot_List_AndSomeMoreItems" "...i jeszcze %s1"
 
 		"Econ_Revolving_Loot_List"				"Zawiera jedną rzecz z poniższych:"
+		"Econ_Revolving_Loot_List_Single"		"Otwórz i otrzymaj jeden z następujących przedmiotów."
+		"Econ_Revolving_Loot_List_Rental"		"<img src='file://{images}/icons/ui/hourglass.svg' class='popup-decodable-lootlist-single-icon'/> Wypożycz każdą broń (z wyjątkiem niezwykle rzadkiego przedmiotu specjalnego) z tego pojemnika na 7 dni. "
+
+		
 		"Econ_Revolving_Loot_List_Rare_Item"	"lub niezwykle rzadki przedmiot specjalny!"
 		"Exceedingly_Rare_Item"					"★ Rzadki przedmiot specjalny ★"
 
@@ -2309,22 +2333,11 @@
 		"Item_GiftWrapped"						" %s1 pakuje jako prezent: %s2"
 		"Item_PeriodicScoreReward"				" %s1 otrzymuje: %s2"
 		"Item_Named"							" Gracz %s1 zmienił nazwę swojego przedmiotu z %s2 na %s3"
-
-		"Item_GiftsSent1Anon"					" %s1 wręcza prezent!"
-		"Item_GiftsSent1Name"					" %s1 wręcza prezent dostarczony do %s2!"
-		"Item_GiftsSentMany"					" %s1 wręcza prezenty (%s2)!"
-		"Item_GiftsYouSentGift"					"Twój prezent dotarł do %s1!"
-		"Item_GiftsYouGotGift"					" Otrzymujesz prezent od gracza %s1! Prezent znajduje się teraz w twoim ekwipunku i czeka na twoje potwierdzenie."
+		"Item_Rental"							" %s1 wypożycza: %s2"
 
 		"Item_NotConnected"						"Musisz być w grze, aby użyć tego przedmiotu!"
 		"Item_Need2Players"						"Inni gracze muszą być w twojej grze, aby użyć tego przedmiotu!"
 		"Item_NeedSpectators"					"Twoja gra musi mieć widzów, aby użyć tego przedmiotu!"
-
-		"Item_GiftNoPlayers"					"W twojej grze nie ma graczy!"
-		"Item_GiftedItems"						"%s1 przekazuje prezent graczowi %s2!"
-		"Item_GifterText_Random"				"%recipient% jest losowo wybranym zdobywcą nagrody od %giver%!"
-		"Item_GifterText_All"					"%giver% rozdaje trochę prezentów!"
-		"Item_GifterText_SelfOpen"				"%giver% otwiera paczkę!"
 
 		"Item_Received_Event_Local"					"Otrzymujesz: %s1!"
 
@@ -2337,6 +2350,7 @@
 		"NewItemMethod_Traded"			"Wymieniasz się za:"
 		"NewItemMethod_Purchased"		"Kupujesz:"
 		"NewItemMethod_FoundInCrate"	"Otwierasz i znajdujesz:"
+		"NewItemMethod_Rental"			"Wypożyczasz:"
 		"NewItemMethod_Gifted"			"Otrzymujesz w prezencie:"
 		"NewItemMethod_Promotion"		"Otrzymujesz promocyjny przedmiot ze sklepu:"
 		"NewItemMethod_Earned"			"Zdobywasz:"
@@ -2413,6 +2427,7 @@
 		"ItemHistory_Transaction_Delete"								"Usunięto przez ciebie"
 		"ItemHistory_Transaction_Craft"									"Wytworzono"
 		"ItemHistory_Transaction_UnlockCrate"							"Uzyskano przez otwarcie pojemnika"
+		"ItemHistory_Transaction_UnlockCrateForRental"					"Uzyskano przez otwarcie pojemnika celem wypożyczenia"
 		"ItemHistory_Transaction_UnsealGraffiti"						"Odlakowano"
 		"ItemHistory_Transaction_SupportUndo"							"Pomoc techniczna Counter-Strike cofnęła przynajmniej jedną z wykonanych przez ciebie czynności."
 		"ItemHistory_Transaction_UpgradeChallengeCoin"					"Zwiększono poziom żetonu wyzwania"
@@ -2475,7 +2490,6 @@
 		"LoadoutSlot_customplayer"					"Agenci"
 
 		"LoadoutSlot_MusicKit"						"Zestaw utworów"
-
 
 		// Weapon Rarity Names
 		"Rarity_Default_Weapon"						"(standardowe wyposażenie)"
@@ -2577,6 +2591,7 @@
 		"Attrib_ReferencedItem"						"Zawiera: %s1"
 		"Attrib_TimeLocalization_Hours"				"%s1 godz."
 		"Attrib_TimeLocalization_Minutes"			"%s1 min"
+		"Attrib_CanOpenForRental"					"Przedmioty w tym pojemniku można wypożyczyć."
 
 		"Attrib_CompetitiveMinutesPlayedAsHrs"		"Całkowity czas w trybie turniejowym: %s1"
 		"Attrib_CompetitiveWins"					"Zwycięstwa w trybie turniejowym: %s1"
@@ -2603,6 +2618,7 @@
 		"Attrib_ModificationDate"					"Data modyfikacji: %s1"
 		"Attrib_OperationBonusXP"					"Premia z Operacji: +%s1 PD"
 		"Attrib_IssueDate"							"Data wydania: %s1"
+		"Attrib_ExpirationDate"						"Czas wygaśnięcia: %s1"
 
 		"Attrib_SpraysRemaining"					"Możliwe użycia: %s1"
 		"Attrib_SpraysRemaining_Unlimited"			"Nielimitowane graffiti"
@@ -2808,7 +2824,7 @@
 		"CSGO_official_leaderboard_season_7_xp_guardian"	"PD zdobyte w Obrońcy"
 		"CSGO_official_leaderboard_season_7_xp_events"	"PD zdobyte z wydarzeń"
 
-		// premier 1
+		// premier
 		"official_leaderboard_premier_season1_name"			"Sezon pierwszy"
 
 		//
@@ -3147,6 +3163,17 @@
 		"CSGO_Collectible_MapTokenBlagai"				"Żeton mapy Blagai"
 		"CSGO_Collectible_MapTokenBoyard"				"Żeton mapy Boyard"
 		"CSGO_Collectible_MapTokenChalice"				"Żeton mapy Chalice"
+		"CSGO_Collectible_MapTokenPoolDay"				"Żeton mapy Pool Day"
+		"CSGO_Collectible_MapTokenPoolDay_Desc"			"Upamiętnia stworzenie mapy CS2 „Pool Day”."
+		"CSGO_Collectible_MapTokenMemento"				"Żeton mapy Memento"
+		"CSGO_Collectible_MapTokenMemento_Desc"			"Upamiętnia stworzenie mapy CS2 „Memento”."
+		"CSGO_Collectible_MapTokenAssembly"				"Żeton mapy Assembly"
+		"CSGO_Collectible_MapTokenAssembly_Desc"		"Upamiętnia stworzenie mapy CS2 „Assembly”."
+		"CSGO_Collectible_MapTokenMills"				"Żeton mapy Mills"
+		"CSGO_Collectible_MapTokenMills_Desc"			"Upamiętnia stworzenie mapy CS2 „Mills”."
+		"CSGO_Collectible_MapTokenThera"				"Żeton mapy Thera"
+		"CSGO_Collectible_MapTokenThera_Desc"			"Upamiętnia stworzenie mapy CS2 „Thera”."
+
 		"CSGO_CollectibleCoin_FortiusQuoFidelius"	"Odznaka Lojalności"
 		"CSGO_CollectibleCoin_FortiusQuoFidelius_Desc"	"Ta odznaka upamiętnia lojalne członkostwo w społeczności Counter-Strike przed aktualizacją „Strefa zagrożenia”.\n\n<i>Siła poprzez lojalność.</i>"
 		"CSGO_CollectibleCoin_FiveYearService"		"Żeton 5-letniego weterana"
@@ -4005,7 +4032,6 @@
 		"CSGO_crate_key_community_21"		"Klucz do skrzyni Strefy zagrożenia"
 		"CSGO_crate_key_community_21_desc"		"Ten klucz otwiera tylko skrzynie Strefy zagrożenia."
 
-
 		"CSGO_crate_community_22"				"Skrzynia Pryzmatu"
 		"CSGO_crate_key_community_22"			"Klucz do skrzyni Pryzmatu"
 		"CSGO_crate_key_community_22_desc"		"Ten klucz otwiera tylko skrzynie Pryzmatu."
@@ -4091,7 +4117,6 @@
 		"CSGO_crate_sticker_pack_op_riptide_capsule"	    		"Kolekcja naklejek operacji Riptide"
 		"CSGO_crate_sticker_pack_op_riptide_capsule_desc"			"Ta kolekcja zawiera różnorodne naklejki wydane z okazji rozpoczęcia operacji Riptide."
 
-		
 		"CSGO_crate_community_30"		"Skrzynia Snów i koszmarów"
 		"CSGO_crate_key_community_30"			"Klucz do skrzyni Snów i koszmarów"
 		"CSGO_crate_key_community_30_desc"		"Ten klucz otwiera tylko skrzynie Snów i koszmarów."
@@ -4125,7 +4150,6 @@
 		
 		"CSGO_crate_sticker_pack_community_2024_capsule"	    	"Pojemnik z naklejką zasadzki"
 		"CSGO_crate_sticker_pack_community_2024_capsule_desc"		"Ten pojemnik zawiera różnorodne naklejki zaprojektowane przez artystów z Warsztatu Steam i został wydany w lutym 2024."
-		
 		"coupon_community_2024_sticker_capsule"						"Pojemnik z naklejką zasadzki"
 		
 
@@ -4217,7 +4241,7 @@
 		"CSGO_FakePlayer_Donkey"			"Osioł"
 		"CSGO_FakePlayer_Duck"				"Kaczka"
 		"CSGO_FakePlayer_Emu"				"Emu"
-		"CSGO_FakePlayer_Eclipse"				"Zaćmienie"
+		"CSGO_FakePlayer_Eclipse"			"Zaćmienie"
 		"CSGO_FakePlayer_Flamingo"			"Flaming"
 		"CSGO_FakePlayer_Flute"				"Flet"
 		"CSGO_FakePlayer_Frog"				"Żaba"
@@ -4240,9 +4264,9 @@
 		"CSGO_FakePlayer_Ostrich"			"Struś"
 		"CSGO_FakePlayer_Octopus"			"Ośmiornica"
 		"CSGO_FakePlayer_Pelican"			"Pelikan"
-		"CSGO_FakePlayer_Puffin"				"Maskonur"
+		"CSGO_FakePlayer_Puffin"			"Maskonur"
 		"CSGO_FakePlayer_Pyramid"			"Piramida"
-		"CSGO_FakePlayer_Rattle"				"Grzechotnik"
+		"CSGO_FakePlayer_Rattle"			"Grzechotnik"
 		"CSGO_FakePlayer_Robin"				"Robin"
 		"CSGO_FakePlayer_Rose"				"Róża"
 		"CSGO_FakePlayer_Salmon"			"Łosoś"
@@ -4255,14 +4279,14 @@
 		"CSGO_FakePlayer_Toaster"			"Toster"
 		"CSGO_FakePlayer_Toucan"			"Tukan"
 		"CSGO_FakePlayer_Torus"				"Torus"
-		"CSGO_FakePlayer_Violet"				"Fiołek"
-		"CSGO_FakePlayer_Vortex"				"Wir"
+		"CSGO_FakePlayer_Violet"			"Fiołek"
+		"CSGO_FakePlayer_Vortex"			"Wir"
 		"CSGO_FakePlayer_Vulture"			"Sęp"
 		"CSGO_FakePlayer_Wagon"				"Wagon"
 		"CSGO_FakePlayer_Whale"				"Wieloryb"
 		"CSGO_FakePlayer_Woodpecker"			"Dzięcioł"
 		"CSGO_FakePlayer_Zebra"				"Zebra"
-		"CSGO_FakePlayer_Zigzag"				"Zygzak"
+		"CSGO_FakePlayer_Zigzag"			"Zygzak"
 
 		//
 		// Coop and guardian bots localized names
@@ -4465,7 +4489,7 @@
 		
 		// Events strings
 		//
-		"CSGO_Tournament_Event_Name_1"			"Mistrzostwa CS:GO DreamHack SteelSeries 2013"
+		"CSGO_Tournament_Event_Name_1"			"Wielkie Mistrzostwa CS:GO DreamHack SteelSeries 2013"
 		"CSGO_Tournament_Event_NameShort_1"		"DreamHack Winter 2013"
 		"CSGO_Tournament_Event_Location_1"		"Jönköping 2013"
 		"CSGO_Tournament_Event_Name_2"			"Valve Test Championship"
@@ -5125,7 +5149,7 @@
 
 		"musickit_danielsadowski_03"			"Daniel Sadowski, The 8-Bit Kit"
 		"musickit_danielsadowski_03_desc"		"Daniel Sadowski tworzy pierwszy w historii 8-bitowy zestaw utworów dla Counter-Strike, wypełniony autentycznymi 8-bitowymi dźwiękami."
-		"coupon_danielsadowski_03"			"Zestaw utworów | Daniel Sadowski, The 8-Bit Kit"
+		"coupon_danielsadowski_03"			"Zestaw utwor��w | Daniel Sadowski, The 8-Bit Kit"
 		"coupon_danielsadowski_03_stattrak""Zestaw utworów (StatTrak™) | Daniel Sadowski, The 8-Bit Kit"
 
 		"musickit_danielsadowski_04"			"Daniel Sadowski, Eye of the Dragon"
@@ -5371,8 +5395,8 @@
 		"musickit_twerl_01_desc"				"Nie ma lepszego czasu na ożywienie się, niż będąc w świetle reflektorów. Niech drum’n’bassowy hit „Under Bright Lights” od TWERL oraz Ekko & Sidetrack wyniesie ciebie i twoją drużynę na nowe wyżyny."
 		"coupon_twerl_01"						"Zestaw utworów | TWERL oraz Ekko & Sidetrack, Under Bright Lights"
 		"coupon_twerl_01_stattrak"				"Zestaw utworów (StatTrak™) | TWERL oraz Ekko & Sidetrack, Under Bright Lights"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			" " // Note: This only supports , and .
 
@@ -7552,7 +7576,7 @@
 		"CSGO_Tool_GiftTag"							"Prezent"
 		"CSGO_Tool_Gift1Player"						"Prezent"
 		"CSGO_Tool_Gift1Player_desc"				"Po użyciu losowy gracz z twojego pojedynku otrzyma losowy przedmiot jako prezent od ciebie."
-		"CSGO_Tool_Gift9Players"					"Paleta Prezentów"
+		"CSGO_Tool_Gift9Players"					"Paleta prezentów"
 		"CSGO_Tool_Gift9Players_desc"				"Po użyciu maksymalnie 9 innych graczy z twojego meczu otrzyma losowy przedmiot jako prezent od ciebie."
 		"CSGO_Tool_Gift25Spectators"				"Paczka dla uczestniczącej publiczności"
 		"CSGO_Tool_Gift25Spectators_desc"			"Po użyciu maksymalnie 25 oglądających twój mecz otrzyma losowy przedmiot jako prezent od ciebie."
@@ -8105,7 +8129,7 @@
 	"StickerKit_desc_eslcologne2015_signature_pronax_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Markus Wallsten z drużyny Fnatic na ESL One Cologne 2015.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 
 	"StickerKit_eslcologne2015_signature_flusha" "flusha | Kolonia 2015"
-	"StickerKit_desc_eslcologne2015_signature_flusha" "Na tej naklejce swój autograf zostawił profesjonalny gracz Robin Rönnquist z dru��yny Fnatic na ESL One Cologne 2015.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
+	"StickerKit_desc_eslcologne2015_signature_flusha" "Na tej naklejce swój autograf zostawił profesjonalny gracz Robin Rönnquist z drużyny Fnatic na ESL One Cologne 2015.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 	"StickerKit_eslcologne2015_signature_flusha_foil" "flusha (foliowana) | Kolonia 2015"
 	"StickerKit_desc_eslcologne2015_signature_flusha_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Robin Rönnquist z drużyny Fnatic na ESL One Cologne 2015.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 	"StickerKit_eslcologne2015_signature_flusha_gold" "flusha (złota) | Kolonia 2015"
@@ -14184,7 +14208,7 @@
 	"StickerKit_london2018_signature_jw" "JW | Londyn 2018"
 	"StickerKit_desc_london2018_signature_jw" "Na tej naklejce swój autograf zostawił profesjonalny gracz Jesper Wecksell z drużyny Fnatic na FACEIT London 2018.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 	"StickerKit_london2018_signature_jw_foil" "JW (foliowana) | Londyn 2018"
-	"StickerKit_desc_london2018_signature_jw_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Jesper Wecksell z drużyny Fnatic na FACEIT London 2018.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
+	"StickerKit_desc_london2018_signature_jw_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Jesper Wecksell z drużyny Fnatic na FACEIT London 2018.\n\n50% wpływów ze sprzeda��y tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 	"StickerKit_london2018_signature_jw_gold" "JW (złota) | Londyn 2018"
 	"StickerKit_desc_london2018_signature_jw_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Jesper Wecksell z drużyny Fnatic na FACEIT London 2018.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 
@@ -15142,7 +15166,7 @@
 	"StickerKit_katowice2019_signature_jackz" "JaCkz | Katowice 2019"
 	"StickerKit_desc_katowice2019_signature_jackz" "Na tej naklejce swój autograf zostawił profesjonalny gracz Audric Jug z drużyny G2 Esports na IEM Katowice 2019.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 	"StickerKit_katowice2019_signature_jackz_foil" "JaCkz (foliowana) | Katowice 2019"
-	"StickerKit_desc_katowice2019_signature_jackz_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Audric Jug z drużyny G2 Esports na IEM Katowice 2019.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
+	"StickerKit_desc_katowice2019_signature_jackz_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Audric Jug z drużyny G2 Esports na IEM Katowice 2019.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udzia�� w tym turnieju."
 	"StickerKit_katowice2019_signature_jackz_gold" "JaCkz (złota) | Katowice 2019"
 	"StickerKit_desc_katowice2019_signature_jackz_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Audric Jug z drużyny G2 Esports na IEM Katowice 2019.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 
@@ -15357,7 +15381,7 @@
 	"StickerKit_desc_katowice2019_signature_daps_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Damian Steele z drużyny NRG na IEM Katowice 2019.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 
 	"StickerKit_katowice2019_signature_brehze" "Brehze | Katowice 2019"
-	"StickerKit_desc_katowice2019_signature_brehze" "Na tej naklejce swój autograf zostawił profesjonalny gracz Vincent Cayonte z drużyny NRG na IEM Katowice 2019.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udzia�� w tym turnieju."
+	"StickerKit_desc_katowice2019_signature_brehze" "Na tej naklejce swój autograf zostawił profesjonalny gracz Vincent Cayonte z drużyny NRG na IEM Katowice 2019.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 	"StickerKit_katowice2019_signature_brehze_foil" "Brehze (foliowana) | Katowice 2019"
 	"StickerKit_desc_katowice2019_signature_brehze_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Vincent Cayonte z drużyny NRG na IEM Katowice 2019.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 	"StickerKit_katowice2019_signature_brehze_gold" "Brehze (złota) | Katowice 2019"
@@ -17019,7 +17043,7 @@
 	
 	"CSGO_crate_signature_pack_stockh2021_group_champions"     "Pojemnik z autografem | Mistrzowie PGL Stockholm 2021"
 	"CSGO_crate_signature_pack_stockh2021_group_champions_tinyname" "Autografy mistrzów"
-	"CSGO_crate_signature_pack_stockh2021_group_champions_desc" "Ten pojemnik zawiera pojedynczą wysokiej jakości, hologramową lub złotą naklejkę z autografem jednego z graczy będącego mistrzem PGL Stockholm 2021.\n\n50% wpływów ze sprzedaży tego pojemnika zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju.\n\nTa naklejka może zostać naklejona na twoją dowolną broń. Naklejka może zostać podrapana, aby wyglądała na nieco zużytą. Możesz podrapać tę samą naklejkę kilkukrotnie, za każdym razem uszkadzając ją bardziej, dopóki nie zostanie ona usunięta z broni."
+	"CSGO_crate_signature_pack_stockh2021_group_champions_desc" "Ten pojemnik zawiera pojedynczą wysokiej jakości, hologramową lub złotą naklejkę z autografem jednego z graczy będącego mistrzem PGL Stockholm 2021.\n\n50% wpływów ze sprzedaży tego pojemnika zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju.\n\nTa naklejka może zostać naklejona na twoją dowolną broń. Naklejka może zostać podrapana, aby wyglądała na nieco zużytą. Możesz podrapać tę samą naklejkę kilkukrotnie, za każdym razem uszkadzaj��c ją bardziej, dopóki nie zostanie ona usunięta z broni."
 	"CSGO_crate_signature_pack_stockh2021_group_finalists"     "Pojemnik z autografem | Finaliści PGL Stockholm 2021"
 	"CSGO_crate_signature_pack_stockh2021_group_finalists_tinyname" "Autografy finalistów"
 	"CSGO_crate_signature_pack_stockh2021_group_finalists_desc" "Ten pojemnik zawiera pojedynczą wysokiej jakości, hologramową lub złotą naklejkę z autografem jednego z graczy będącego finalistą PGL Stockholm 2021.\n\n50% wpływów ze sprzedaży tego pojemnika zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju.\n\nTa naklejka może zostać naklejona na twoją dowolną broń. Naklejka może zostać podrapana, aby wyglądała na nieco zużytą. Możesz podrapać tę samą naklejkę kilkukrotnie, za każdym razem uszkadzając ją bardziej, dopóki nie zostanie ona usunięta z broni."
@@ -18666,6 +18690,7 @@
 	"CSGO_TournamentJournal_rio2022_Silver" "Srebrny żeton IEM Rio 2022"
 	"CSGO_TournamentJournal_rio2022_Gold" "Złoty żeton IEM Rio 2022"
 	"CSGO_TournamentJournal_rio2022_Crystal" "Diamentowy żeton IEM Rio 2022"
+
 	"CSGO_storageunit_rio2022_tinyname"		"Schowki"
 	"CSGO_storageunit0_rio2022"			"Schowek IEM Rio 2022 z papierowymi naklejkami"
 	"CSGO_storageunit0_rio2022_tinyname"		"z papierowymi naklejkami"
@@ -20137,7 +20162,7 @@
 	"CSGO_crate_signature_pack_paris2023_group_champions"     "Pojemnik z autografem | Mistrzowie | BLAST.tv Paris 2023"
 	"CSGO_crate_signature_pack_paris2023_group_champions_tinyname" "Autografy mistrzów"
 	"CSGO_crate_signature_pack_paris2023_group_champions_desc" "Ten pojemnik zawiera pojedynczą papierową, brokatową, holograficzną lub złotą naklejkę z autografem jednego z graczy drużyny mistrzów BLAST.tv Paris 2023.\n\n50% wpływów ze sprzedaży tego pojemnika zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju.\n\nTa naklejka może zostać naklejona na twoją dowolną broń. Naklejka może zostać podrapana, aby wyglądała na nieco zużytą. Możesz podrapać tę samą naklejkę kilkukrotnie, za każdym razem uszkadzając ją bardziej, dopóki nie zostanie ona usunięta z broni."
-	
+
 	"StickerKit_paris2023_signature_apex_champion" "apEX (mistrz) | Paryż 2023"
 	"StickerKit_desc_paris2023_signature_apex_champion" "Na tej naklejce swój autograf zostawił profesjonalny gracz Dan Madesclaire reprezentujący drużynę Vitality, mistrz na Wielkich Mistrzostwach CS:GO BLAST.tv Paris 2023."
 	"StickerKit_paris2023_signature_apex_glitter_champion" "apEX (brokatowa, mistrz) | Paryż 2023"
@@ -21298,7 +21323,7 @@
 
 	"CSGO_TournamentPass_cph2024" "Przepustka widza PGL Copenhagen 2024"
 	"CSGO_TournamentPass_cph2024_tinyname" "Przepustka"
-	"CSGO_TournamentPass_cph2024_Desc" "Jest to nieotwarta przepustka widza Wielkich Mistrzostw CS2 PGL Copenhagen 2024. Po jej otwarciu otrzymasz żeton PGL Copenhagen 2024, który śledzi twoje postępy podczas wydarzenia oraz daje ci pełny dostęp do Wyzwania Pick'em, ikon czatu Steam.tv, wyzwań żetonu i nielimitowanej liczby użyć graffiti drużyn w grze podczas wydarzenia.\n\nUlepsz swój żeton, wype��niając wyzwania żetonu. Zdobądź monetę pamiątek za każde ulepszenie żetonu wydarzenia.\n\n50% wpływów ze sprzedaży tej przepustki zostanie przeznaczonych na wsparcie organizacji biorących udział w tym turnieju."
+	"CSGO_TournamentPass_cph2024_Desc" "Jest to nieotwarta przepustka widza Wielkich Mistrzostw CS2 PGL Copenhagen 2024. Po jej otwarciu otrzymasz żeton PGL Copenhagen 2024, który śledzi twoje postępy podczas wydarzenia oraz daje ci pełny dostęp do Wyzwania Pick'em, ikon czatu Steam.tv, wyzwań żetonu i nielimitowanej liczby użyć graffiti drużyn w grze podczas wydarzenia.\n\nUlepsz swój żeton, wypełniając wyzwania żetonu. Zdobądź monetę pamiątek za każde ulepszenie żetonu wydarzenia.\n\n50% wpływów ze sprzedaży tej przepustki zostanie przeznaczonych na wsparcie organizacji biorących udział w tym turnieju."
 	"CSGO_TournamentPass_cph2024_pack" "Przepustka widza PGL Copenhagen 2024 + 3 monety pamiątek"
 	"CSGO_TournamentPass_cph2024_pack_tinyname" "Przepustka i monety"
 	"CSGO_TournamentPass_cph2024_pack_Desc" "Jest to nieotwarta przepustka widza Wielkich Mistrzostw CS2 PGL Copenhagen 2024. Po jej otwarciu otrzymasz żeton PGL Copenhagen 2024, który śledzi twoje postępy podczas wydarzenia oraz daje ci pełny dostęp do Wyzwania Pick'em, ikon czatu Steam.tv, wyzwań żetonu i nielimitowanej liczby użyć graffiti drużyn w grze podczas wydarzenia.\n\nUlepsz swój żeton, wypełniając wyzwania żetonu. Zdobądź monetę pamiątek za każde ulepszenie żetonu wydarzenia.\n\nTa przepustka widza aktywuje 3 monety pamiątek dla twojego żetonu wydarzenia.\n\n50% wpływów ze sprzedaży tej przepustki zostanie przeznaczonych na wsparcie organizacji biorących udział w tym turnieju."
@@ -21454,6 +21479,51 @@
 	"CSGO_crate_signature_pack_cph2024_group_champions"     "Pojemnik z autografem | Mistrzowie | PGL Copenhagen 2024"
 	"CSGO_crate_signature_pack_cph2024_group_champions_tinyname" "Autografy mistrzów"
 	"CSGO_crate_signature_pack_cph2024_group_champions_desc" "Ten pojemnik zawiera pojedynczą papierową, brokatową, holograficzną lub złotą naklejkę z autografem jednego z graczy drużyny mistrzów PGL Copenhagen 2024.\n\n50% wpływów ze sprzedaży tego pojemnika zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju.\n\nTa naklejka może zostać naklejona na twoją dowolną broń. Naklejka może zostać podrapana, aby wyglądała na nieco zużytą. Możesz podrapać tę samą naklejkę kilkukrotnie, za każdym razem uszkadzając ją bardziej, dopóki nie zostanie ona usunięta z broni."
+
+	"StickerKit_cph2024_signature_jl_champion" "jL (mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_jl_champion" "Na tej naklejce swój autograf zostawił profesjonalny gracz Justinas Lekavicius reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_jl_glitter_champion" "jL (brokatowa, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_jl_glitter_champion" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Justinas Lekavicius reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_jl_holo_champion" "jL (holograficzna, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_jl_holo_champion" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Justinas Lekavicius reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_jl_gold_champion" "jL (złota, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_jl_gold_champion" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Justinas Lekavicius reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+
+	"StickerKit_cph2024_signature_aleksib_champion" "Aleksib (mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_champion" "Na tej naklejce swój autograf zostawił profesjonalny gracz Aleksi Virolainen reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_aleksib_glitter_champion" "Aleksib (brokatowa, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_glitter_champion" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Aleksi Virolainen reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_aleksib_holo_champion" "Aleksib (holograficzna, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_holo_champion" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Aleksi Virolainen reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_aleksib_gold_champion" "Aleksib (złota, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_gold_champion" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Aleksi Virolainen reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+
+	"StickerKit_cph2024_signature_b1t_champion" "b1t (mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_b1t_champion" "Na tej naklejce swój autograf zostawił profesjonalny gracz Wałerij Wachowśkyj reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_b1t_glitter_champion" "b1t (brokatowa, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_b1t_glitter_champion" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Wałerij Wachowśkyj reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_b1t_holo_champion" "b1t (holograficzna, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_b1t_holo_champion" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Wałerij Wachowśkyj reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_b1t_gold_champion" "b1t (złota, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_b1t_gold_champion" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Wałerij Wachowśkyj reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+
+	"StickerKit_cph2024_signature_im_champion" "iM (mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_im_champion" "Na tej naklejce swój autograf zostawił profesjonalny gracz Mihai Ivan reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_im_glitter_champion" "iM (brokatowa, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_im_glitter_champion" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Mihai Ivan reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_im_holo_champion" "iM (holograficzna, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_im_holo_champion" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Mihai Ivan reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_im_gold_champion" "iM (złota, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_im_gold_champion" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Mihai Ivan reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+
+	"StickerKit_cph2024_signature_w0nderful_champion" "w0nderful (mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_champion" "Na tej naklejce swój autograf zostawił profesjonalny gracz Ihor Żdanow reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_w0nderful_glitter_champion" "w0nderful (brokatowa, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_glitter_champion" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Ihor Żdanow reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_w0nderful_holo_champion" "w0nderful (holograficzna, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_holo_champion" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Ihor Żdanow reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_w0nderful_gold_champion" "w0nderful (złota, mistrz) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_gold_champion" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Ihor Żdanow reprezentujący drużynę Natus Vincere, który został mistrzem na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
 
 
 	"StickerKit_cph2024_signature_jl" "jL | Kopenhaga 2024"
@@ -22086,50 +22156,50 @@
 	"StickerKit_cph2024_signature_styko_gold" "STYKO (złota) | Kopenhaga 2024"
 	"StickerKit_desc_cph2024_signature_styko_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Martin Styk reprezentujący drużynę Apeks na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
 
-	"StickerKit_cph2024_signature_clax" "clax | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_clax" "Na tej naklejce swój autograf zostawił profesjonalny gracz Timur Sabirow reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_clax_glitter" "clax (brokatowa) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_clax_glitter" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Timur Sabirow reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_clax_holo" "clax (holograficzna) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_clax_holo" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Timur Sabirow reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_clax_gold" "clax (złota) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_clax_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Timur Sabirow reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_acor" "acoR | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_acor" "Na tej naklejce swój autograf zostawił profesjonalny gracz Frederik Gyldstrand reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_acor_glitter" "acoR (brokatowa) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_acor_glitter" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Frederik Gyldstrand reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_acor_holo" "acoR (holograficzna) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_acor_holo" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Frederik Gyldstrand reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_acor_gold" "acoR (złota) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_acor_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Frederik Gyldstrand reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
 
-	"StickerKit_cph2024_signature_d1ledez" "d1Ledez | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez" "Na tej naklejce swój autograf zostawił profesjonalny gracz Daniił Kustow reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_d1ledez_glitter" "d1Ledez (brokatowa) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez_glitter" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Daniił Kustow reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_d1ledez_holo" "d1Ledez (holograficzna) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez_holo" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Daniił Kustow reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_d1ledez_gold" "d1Ledez (złota) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Daniił Kustow reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_isak" "isak | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_isak" "Na tej naklejce swój autograf zostawił profesjonalny gracz Isak Fahlén reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_isak_glitter" "isak (brokatowa) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_isak_glitter" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Isak Fahlén reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_isak_holo" "isak (holograficzna) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_isak_holo" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Isak Fahlén reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_isak_gold" "isak (złota) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_isak_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Isak Fahlén reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
 
-	"StickerKit_cph2024_signature_glowiing" "glowiing | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_glowiing" "Na tej naklejce swój autograf zostawił profesjonalny gracz Aleksandr Macyjewicz reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_glowiing_glitter" "glowiing (brokatowa) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_glowiing_glitter" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Aleksandr Macyjewicz reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_glowiing_holo" "glowiing (holograficzna) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_glowiing_holo" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Aleksandr Macyjewicz reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_glowiing_gold" "glowiing (złota) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_glowiing_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Aleksandr Macyjewicz reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_keoz" "Keoz | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_keoz" "Na tej naklejce swój autograf zostawił profesjonalny gracz Nicolas Dgus reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_keoz_glitter" "Keoz (brokatowa) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_keoz_glitter" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Nicolas Dgus reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_keoz_holo" "Keoz (holograficzna) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_keoz_holo" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Nicolas Dgus reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_keoz_gold" "Keoz (złota) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_keoz_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Nicolas Dgus reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
 
-	"StickerKit_cph2024_signature_idisbalance" "iDISBALANCE | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance" "Na tej naklejce swój autograf zostawił profesjonalny gracz Artiom Jegorow reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_idisbalance_glitter" "iDISBALANCE (brokatowa) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance_glitter" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Artiom Jegorow reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_idisbalance_holo" "iDISBALANCE (holograficzna) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance_holo" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Artiom Jegorow reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_idisbalance_gold" "iDISBALANCE (złota) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Artiom Jegorow reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_snax" "Snax | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_snax" "Na tej naklejce swój autograf zostawił profesjonalny gracz Janusz Pogorzelski reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_snax_glitter" "Snax (brokatowa) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_snax_glitter" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Janusz Pogorzelski reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_snax_holo" "Snax (holograficzna) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_snax_holo" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Janusz Pogorzelski reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_snax_gold" "Snax (złota) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_snax_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Janusz Pogorzelski reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
 
-	"StickerKit_cph2024_signature_seized" "seized | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_seized" "Na tej naklejce swój autograf zostawił profesjonalny gracz Dienis Kostin reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_seized_glitter" "seized (brokatowa) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_seized_glitter" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Dienis Kostin reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_seized_holo" "seized (holograficzna) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_seized_holo" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Dienis Kostin reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
-	"StickerKit_cph2024_signature_seized_gold" "seized (złota) | Kopenhaga 2024"
-	"StickerKit_desc_cph2024_signature_seized_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Dienis Kostin reprezentujący drużynę 9Pandas na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_volt" "volt | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_volt" "Na tej naklejce swój autograf zostawił profesjonalny gracz Sebastian Constantin Malos reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_volt_glitter" "volt (brokatowa) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_volt_glitter" "Na tej brokatowej naklejce swój autograf zostawił profesjonalny gracz Sebastian Constantin Malos reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_volt_holo" "volt (holograficzna) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_volt_holo" "Na tej holograficznej naklejce swój autograf zostawił profesjonalny gracz Sebastian Constantin Malos reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
+	"StickerKit_cph2024_signature_volt_gold" "volt (złota) | Kopenhaga 2024"
+	"StickerKit_desc_cph2024_signature_volt_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Sebastian Constantin Malos reprezentujący drużynę GamerLegion na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
 
 	"StickerKit_cph2024_signature_arrozdoce" "arrozdoce | Kopenhaga 2024"
 	"StickerKit_desc_cph2024_signature_arrozdoce" "Na tej naklejce swój autograf zostawił profesjonalny gracz Rafael Wing reprezentujący drużynę SAW na Wielkich Mistrzostwach CS2 PGL Copenhagen 2024."
@@ -22822,7 +22892,7 @@
 		"StickerKit_cs20_arctic_avenger"									"Pikselowy mściciel"
 		"StickerKit_cs20_aztec_beast"										"Aztec"
 		"StickerKit_cs20_sas_boom"											"Za późno"
-		"StickerKit_cs20_c4_friend"											"Kod przyjaźni"
+		"StickerKit_cs20_c4_friend"											"Kod znajomego"
 		"StickerKit_cs20_clutchman_holo"									"Clutchman (hologramowa)"
 		"StickerKit_cs20_anniversary_foil"									"Chwała królowi (foliowana)"
 		"StickerKit_cs20_door_stuck_foil"									"Zablokowany o drzwi (foliowana)"
@@ -26901,6 +26971,7 @@
 	"PaintKit_cu_tec9_freedom_Tag"									"Rebeliant"
 
 // END COMMUNITY_32
+
 // ANUBIS
 
 	"PaintKit_gs_revolver_acanthus_bronze"							"Broń została ozdobiona na zamówienie wzorem przypominającym akantowe grawerunki, a jej chwyt wygląda jak z marmuru.\n\n<i>Niezmierne bogactwa spoczywają w twej dłoni.</i>"
@@ -27637,6 +27708,7 @@
 
 		"SFUI_Map_de_boyard"	"Boyard"
 		"SFUI_Map_de_chalice"	"Chalice"
+
 		"SFUI_Map_de_mutiny"		"Mutiny"
 		"SFUI_Map_de_swamp"			"Swamp"
 		"SFUI_Map_de_anubis"		"Anubis"
@@ -27666,6 +27738,12 @@
 		"SFUI_Map_de_hive"		"Hive"
 		"SFUI_Map_dz_vineyard"	"Vineyard"
 		"SFUI_Map_dz_ember"		"Ember"
+
+		"SFUI_Map_de_thera"		"Thera"
+		"SFUI_Map_de_mills"		"Mills"
+		"SFUI_Map_de_assembly"		"Assembly"
+		"SFUI_Map_de_memento"		"Memento"
+		"SFUI_Map_ar_pool_day"		"Pool Day"
 		
 		"SFUI_Map_workshop_preview_dust2"	"Podgląd mapy Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"Podgląd mapy Ancient"
@@ -27909,6 +27987,8 @@
 		"SFUI_MainMenu_Vac_Info"			"Twoje konto zostało zablokowane z gry na zabezpieczonych serwerach z powodu naruszenia, które miało miejsce na tym lub powiązanym koncie."
 		"SFUI_MainMenu_GameBan_Title"		"Blokada na grę"
 		"SFUI_MainMenu_GameBan_Info"		"Została na ciebie nałożona blokada i nie możesz grać na zabezpieczonych serwerach z powodu naruszenia, które miało miejsce na tym lub powiązanym koncie."
+		"SFUI_MainMenu_AccountLocked_Title"	"Konto zablokowane"
+		"SFUI_MainMenu_AccountLocked_Info"	"Twoje konto zostało zablokowane i nie może grać na zabezpieczonych serwerach w odpowiedzi na naruszenie Umowy użytkownika Steam lub do czasu kontaktu właściciela konta z Pomocą techniczną Steam."
 		"SFUI_MainMenu_News_Title"			"Aktualności"
 		"SFUI_MainMenu_News_Title_uppercase"  "AKTUALNOŚCI"
 		"SFUI_MainMenu_Last_Match"			"Raport z ostatniego meczu"
@@ -28165,35 +28245,33 @@
 		"PlayMenu_unavailable_newuser_2_nogcconnection"	"Brak połączenia z siecią Counter-Strike."
 
 
-		"SFUI_Overwatch_Res_Postpone_Label"		"Odłóż osąd"
+		"SFUI_Overwatch_Res_Postpone_Label"		"Anuluj"
 
-		"SFUI_Overwatch_Res_Instructions"		"Po przejrzeniu materiału dowodowego musisz ustalić, czy wystąpiły na nim zdarzenia opisane w poniższych kategoriach. Pamiętaj, że podejrzanego należy na początku <b>traktować jako niewinnego</b> dla każdej z nich. Dopiero gdy będziesz mieć całkowitą pewność, że w ocenianym nagraniu pojawiło się zachowanie, które społeczność CS:GO uważa <b>bez wątpienia</b> za szkodliwe, niesprzyjające rywalizacji i/lub antyspołeczne, wybierz „<b>Oczywiste ponad wszelką wątpliwość</b>”. Jeśli nie masz stuprocentowej pewności co do oceny, wybierz „<b>Niewystarczające dowody</b>”.\n\nJeżeli twoim zdaniem nie udało ci się poświęcić dostatecznie wiele uwagi, by wydać werdykt, kliknij przycisk <b>ODŁÓŻ OSĄD</b>. Sprawa pozostanie dostępna do twojej późniejszej oceny."
+		"SFUI_Overwatch_Res_Instructions"		"Po przejrzeniu materiału dowodowego prosimy cię o wydanie osądu."
 
-		"SFUI_Overwatch_Res_Major_Label"	"Oczywiste ponad wszelką wątpliwość"
-
-		"SFUI_Overwatch_Res_Major_Desc"	"W ocenianym dowodzie występują zachowania podejrzanego, które społeczność CS:GO określiłaby jako bardzo szkodliwe, niesportowe i/lub antyspołeczne. Przykładami takiego zachowania jest używanie <font color='#FFFFFF'><b>aimbotów, speedhacków, wallhack��w lub innego zewnętrznego oprogramowania</b></font> do poprawienia wyników w grze lub umiejętności podejrzanego."
+		"SFUI_Overwatch_Res_Major_Label"	"Winny ponad uzasadnioną wątpliwość"
 
 		"SFUI_Overwatch_Res_Minor_Label"	"Lekko szkodliwy"
 
-		"SFUI_Overwatch_Res_Minor_Desc"		"W ocenianym dowodzie nie występują bardzo szkodliwe zachowania podejrzanego, ale można zaobserwować zachowania, które społeczność CS:GO określiłaby jako częściowo szkodliwe, niesportowe i/lub antyspołeczne. Przykładami takiego zachowania jest <b><font color='#FFFFFF'><b>celowe przeszkadzanie lub zadawanie obrażeń innym graczom z drużyny.</b></font>"
-
 		"SFUI_Overwatch_Res_NotGuilty_Label"	"Niewystarczające dowody"
-
-		"SFUI_Overwatch_Res_NotGuilty_Desc"		"W ocenianym dowodzie nie występują zachowania podejrzanego, które można określić jako szkodliwe według powyższej definicji lub <font color='#FFFFFF'><b>nie ma wystarczających dowodów, by twierdzić, że jest inaczej</b></font>."
 
 		"SFUI_Overwatch_Res_Griefing"				"Mała szkodliwość: griefing"
 		"SFUI_Overwatch_Res_AimHacking"				"Duża szkodliwość: wspomaganie celowania"
 		"SFUI_Overwatch_Res_WallHacking"			"Duża szkodliwość: wspomaganie pola widzenia"
 		"SFUI_Overwatch_Res_SpeedHacking"			"Duża szkodliwość: inne zewnętrzne wspomaganie"
-		"SFUI_Overwatch_Res_Griefing_Desc"		"Każdy rozsądny członek społeczności CS:GO uznałby, że przedstawione dowody potwierdzają, że podejrzany <font color='#FFFFFF'><b>przeszkadzał w grze, nie uznawał zasad rywalizacji i zachowywał się antyspołecznie</b></font>, np. umyślnie strzelał do kolegów z drużyny, dawał się postrzelić, nie uczestniczył w grze przez dłuższy czas lub celowo chciał przegrać mecz."
-		"SFUI_Overwatch_Res_AimHacking_Desc"		"Każdy rozsądny członek społeczności CS:GO uznałby, że przedstawione dowody potwierdzają, że podejrzany <font color='#FFFFFF'><b>użył zewnętrznego oprogramowania, by zwiększyć swoją celność</b></font>, np. poprzez autocelowanie, redukcję lub eliminację odrzutu itp."
-		"SFUI_Overwatch_Res_WallHacking_Desc"		"Każdy rozsądny członek społeczności CS:GO uznałby, że przedstawione dowody potwierdzają, że podejrzany <font color='#FFFFFF'><b>użył zewnętrznego oprogramowania, by uzyskać informacje o obecnych pozycjach wrogich graczy</b></font>, np. widzenie przez ściany i dym, redukcję lub eliminację efektu oślepienia itp."
-		"SFUI_Overwatch_Res_SpeedHacking_Desc"		"Każdy rozsądny członek społeczności CS:GO uznałby, że przedstawione dowody potwierdzają, że podejrzany <font color='#FFFFFF'><b>użył zewnętrznego oprogramowania do celów inne niż wymienione, by uzyskać przewagę nad przeciwnikiem</b></font>, np. speedhacking, skrypty automatycznych skoków, widok do góry nogami itp."
+
+		"SFUI_Overwatch_Res_Griefing_Desc"		"Każdy rozsądny członek społeczności CS2 uznałby, że przedstawione dowody potwierdzają, że podejrzany <font color='#FFFFFF'><b>przeszkadzał w grze, nie uznawał zasad rywalizacji i zachowywał się antyspołecznie</b></font>, np. umyślnie strzelał do kolegów z drużyny, dawał się postrzelić, nie uczestniczył w grze przez dłuższy czas lub celowo chciał przegrać mecz."
+	
+		"SFUI_Overwatch_Res_AimHacking_Desc"		"Odwołaj się do dokumentu szkoleniowego po porady dotyczące oceny obecności zewnętrznego wspomagania celowania."
+	
+		"SFUI_Overwatch_Res_WallHacking_Desc"		"Każdy rozsądny członek społeczności CS2 uznałby, że przedstawione dowody potwierdzają, że podejrzany <font color='#FFFFFF'><b>użył zewnętrznego oprogramowania, by uzyskać informacje o obecnych pozycjach wrogich graczy</b></font>, np. widzenie przez ściany i dym, redukcję lub eliminację efektu oślepienia itp."
+	
+		"SFUI_Overwatch_Res_SpeedHacking_Desc"		"Każdy rozsądny członek społeczności CS2 uznałby, że przedstawione dowody potwierdzają, że podejrzany <font color='#FFFFFF'><b>użył zewnętrznego oprogramowania do celów inne niż wymienione, by uzyskać przewagę nad przeciwnikiem</b></font>, np. zmiana szybkości ruchu postaci, skrypty automatycznych skoków, widok do góry nogami itp."
 
 
 		"SFUI_Overwatch_Submit_label"			"Prześlij werdykt"
 		"SFUI_Overwatch_Resolution_Title"		"Werdykt Nadzoru"
-		"SFUI_Overwatch_Submit_Thanks"			"Otrzymaliśmy twój werdykt.\n\nDziękujemy za zajęcie się tą sprawą."
+		"SFUI_Overwatch_Submit_Thanks"			"Dziękujemy za przesłanie werdyktu."
 		"SFUI_Overwatch_Submitting"				"Przesyłanie twojego werdyktu..."
 		
 		"SFUI_Mission_Title"	                "Misja: %s1"
@@ -28387,6 +28465,15 @@
 		"SFUI_InvUse_Use_KeylessCapsule"	"Otwórz pojemnik"
 		"SFUI_InvUse_Use_KeylessCapsuleDefault"	"Otwórz"
 
+		"popup_container_confirm_title_rent" "Wypożycz bronie"
+		"popup_container_confirm_title_expire" "Przedmioty wygasły" 
+		"popup_container_confirm_warning_rent" "Z wypożyczonych broni można korzystać przez 7 dni." 
+		"popup_container_confirm_body_rent" "Otrzymaj każdą broń z tego pojemnika ({s:name}).<br/><br/>Wypożyczone bronie nie mają modułu StatTrak™ i nie można ich zmodyfikować w żaden sposób.<br/><br/>Niezwykle rzadkie przedmioty specjalne nie są częścią wypożyczenia." 
+		"popup_container_confirm_already_rented" "Już wypożyczasz przedmioty z tego pojemnika ({s:name}).<br/><br/>Te bronie wygasną za {s:expiration-time}." 
+
+		"popup_container_confirm_title_open" "Otwórz: {s:name}" 
+		"popup_container_confirm_body_open" "Otrzymaj jeden przedmiot z pojemnika ({s:name}), który możesz zatrzymać." 
+
 		"SFUI_Item_Certificate_Title"		"Certyfikat przedmiotu"
 		"SFUI_ItemInfo_ItemType"			"Rodzaj przedmiotu"
 		"SFUI_ItemInfo_FinishStyle"			"Styl wykończenia"
@@ -28542,6 +28629,11 @@
 		"SFUI_Statrak_ContextMenu_Remove"   "Wyczyść z zamiany"
 		"SFUI_Inv_Name_Tag_Current"			"Obecna nazwa:"
 		"SFUI_Inv_Name_Tag_New"				"Nowa nazwa:"
+		"item-rental-time-remaining"		"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> Wygasa za {s:time-remaining}"
+		"item-rental-time-expired"			"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> Przedmiot wygasł"
+		"item-can-rent"						"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> Można wypożyczyć"
+		"RentalExpiredPopupTitle"			"Przedmiot wygasł"
+		"RentalExpiredPopupMessage"			"Przedmioty wypożyczone z pojemnika ({s:rental_expired_crate_name}) wygasły. Jeśli któryś z nich znajdował się w twoim wyposażeniu, został on zamieniony na domyślną broń.<br><br><b>Wypożyczono</b><br>{s:rental_expired_issue_date}<br><b>Czas upłynął</b><br>{s:rental_expired_expiration_date}"
 		
 		
 		"SFUI_Sticker_Remove"           	"Usuń naklejkę"
@@ -29166,6 +29258,9 @@
 		"CSGO_Fantasy_Player_Status_byeday"	"<font color='##89B2D2'>Dzień wolny</font>"
 		
 		"CSGO_Fantasy_NoSTickers_In_Table" "Obecnie nie posiadasz żadnych naklejek z autografami graczy z <b>%s1</b>.\nMożesz kupić pojemniki z autografami drużyn lub nabyć naklejki z autografami bezpośrednio na rynku."
+		"major_hub_souvenir_package_desc"	"Kliknij dowolny zakończony mecz poniżej, by odebrać pamiątkę lub kup ją za <span class=\"major-hub-store__souvenir__price\">{s:souvenir_price}</span>."
+		"major_hub_souvenir_package_desc_no_price"	"Kliknij dowolny zakończony mecz poniżej, by odebrać pamiątkę."
+		
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Journal
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -29467,27 +29562,31 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Demo Playback Control
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-		"CSGO_Demo_Title"					"Odtwarzanie powtórki"
-		"CSGO_Demo_Restart"					"|<"
 		"CSGO_Demo_MinusSeconds"			"-{d:timestep_value} s"
-		"CSGO_Demo_Prev"					"<"
-		"CSGO_Demo_Play"					"Odtwórz"
-		"CSGO_Demo_Pause"					"Wstrzymaj"
-		"CSGO_Demo_Next"					">"
 		"CSGO_Demo_PlusSeconds"				"+{d:timestep_value} s"
-		"CSGO_Demo_End"						">|"
 		"CSGO_Demo_TimeScale_OneFourth"		"× ¼"
 		"CSGO_Demo_TimeScale_OneHalf"		"× ½"
 		"CSGO_Demo_TimeScale_One"			"× 1"
 		"CSGO_Demo_TimeScale_Two"			"× 2"
 		"CSGO_Demo_TimeScale_Four"			"× 4"
 		"CSGO_Demo_TimeScale_Eight"			"× 8"
-		"CSGO_Demo_Death"					"Śmierć"
 
-		"CSGO_Demo_Toggle"					"[Shift+F2]"
-		"CSGO_Demo_Time"					"{s:current_time} / {s:total_time}"
-		"CSGO_Demo_Round"					"Runda:"
-		"CSGO_Demo_Warmup"					"Rozgrzewka"
+		"CSGO_Demo_Toggle"							"[Shift+F2]"
+		"CSGO_Demo_Time"							"{s:current_time} / {s:total_time}"
+		"CSGO_Demo_Round"							"Runda:"
+		"CSGO_Demo_Highlight"						"Najważniejszy moment:"
+		"CSGO_Demo_End_Playback"					"Zakończ odtwarzanie"
+		"CSGO_Demo_End_Playback_Overwatch"			"Pomiń i przejdź do werdyktu"
+		"CSGO_Demo_End_Playback_Overwatch_Finished"	"Przejdź do werdyktu"
+
+		"CSGO_Demo_Enable_Mouse_Cursor"				"[{s:bind_drop}]: Włącz kursor"
+		"CSGO_Demo_Enable_Mouse_Camera"				"[{s:bind_drop}]: Włącz kontrolę kamery myszą"
+		"CSGO_Demo_Player_Next"						"[{s:bind_attack}]: Następny gracz"
+		"CSGO_Demo_Player_Prev"						"[{s:bind_attack2}]: Poprzedni gracz"
+		"CSGO_Demo_Next_Camera"						"[{s:bind_jump}]: Następna kamera"
+		"CSGO_Demo_Toggle_XRay"						"[{s:bind_slot12}]: Przełącz prześwietlenie"
+		"CSGO_Demo_Toggle_Overview"					"[{s:bind_duck}]: Przełącz podgląd"
+
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Date formatting
@@ -29699,7 +29798,6 @@
 		"SFUI_How_to_Play_Controller_Select"			"Tabela wyników"
 		"SFUI_How_to_Play_Controller_Start"				"Menu pauzy"
 
-		"SFUI_HOW TO PLAY"								"JAK GRAĆ"
 		"SFUI_HOW_TO_PLAY"								"Jak grać"
 		"SFUI_How_to_Play_Navigation"					"${cancel} Anuluj ${dpad} Nawiguj ${rstick} Przewijaj"
 		"SFUI_HowToPlay_IntroductionLabel"				"Wprowadzenie"
@@ -30215,8 +30313,6 @@
 
 		"SFUI_scoreboard_lbl_bot"	"BOT"
 		"SFUI_scoreboard_lbl_spec"	"WIDZ"
-		"SFUI_scoreboard_lbl_dc"  	"ROZ."
-
 		"SFUI_Scoreboard_1st"		"1."
 		"SFUI_Scoreboard_2nd"		"2."
 		"SFUI_Scoreboard_1st_Half"		"Pierwsza połowa"
@@ -30371,6 +30467,7 @@
 		"SFUI_match_cancelled"			"Mecz anulowany"
 		"SFUI_match_abort_match_network_event"	"Z powodu zakłoceń w sieci mecz został anulowany.\nTen mecz nie wpłynie na ocenę twoich umiejętności."
 		"SFUI_match_abort_match_vac_live"	"System VAC Live wykrył oszusta i zakończył mecz.\nTen mecz nie wpłynie na twoją ocenę umiejętności."
+		"SFUI_match_abort_match_abnormal_behavior"	"VAC wykrył nieregularną rozgrywkę i anulował mecz.\nGracz oznaczony przez VAC oraz jego zespół otrzymali karę czasową."
 		"SFUI_match_vac_live_partied_with_cheater"	"Twój postęp dla tego meczu nie zostanie zarejestrowany, ponieważ gracz w Twoim zespole został zablokowany."
 		"SFUI_match_abort_match_missing_player"	" Mecz zostaje anulowany, ponieważ gracz nigdy się nie połączył."
 		"SFUI_match_abort_match_player_abandoned"	" Mecz zostaje anulowany, ponieważ jeden z graczy rozłączył się."
@@ -30565,7 +30662,7 @@
 		"SFUIHUD_Spectate_Navigation_Steam_Profile_Keyboard"	"${radio1} Pokaż profil"
 		"SFUIHUD_Spectate_Navigation_Steam_Profile_Controller"	"${north} Pokaż profil"
 		"SFUIHUD_Spectate_Navigation_Camera"		"${+jump} Kamera"
-		"SFUIHUD_Spectate_Navigation_Arrows"		"${+attack} Następny gracz"
+		"SFUIHUD_Spectate_Navigation_Arrows"		"${+attack} Nast��pny gracz"
 		"SFUIHUD_Spectate_Navigation_Replay_Death"		"<font color='#ddbb22'><b>${+reload} Kamera zabójcy</b></font>"
 		"SFUIHUD_Spectate_Navigation_Cancel_Replay"		"${+jump} Zatrzymaj powtórkę"
 		"SFUIHUD_Spectate_Navigation_Control_Bot_Controller"	"${west} Kontroluj bota"
@@ -30626,16 +30723,6 @@
 		"SFUIHUD_Spec_Event_DroppingItemsRewarded"			"Nagrodzono %s1 widzów!"
 		"SFUIHUD_Spec_Event_DroppingItemsTotalDropped"		"Rozdanych przedmiotów w tym meczu: %s1"
 
-		"SFUIHUD_GiftDrop_GiftGivenLastXMinutes"		"W ostatnich %s1 minutach 1 prezent został podarowany przez..."
-		"SFUIHUD_GiftDrop_GiftsGivenLastXMinutes"		"Prezenty podarowane w ciągu ostatnich %s1 minut: %s2"
-		"SFUIHUD_GiftDrop_GiftGivenLastXHours"		"Przez ostatnie %s1 godz. 1 prezent został podarowany przez..."
-		"SFUIHUD_GiftDrop_GiftsGivenLastXHours"		"Prezenty podarowane w ciągu ostatnich %s1 godzin: %s2"		
-		"SFUIHUD_GiftDrop_AndOtherPlayer"		"...oraz 1 inny hojny gracz!"		
-		"SFUIHUD_GiftDrop_AndOtherPlayers"		"...oraz %s1 innych hojnych graczy!"	
-		"SFUIHUD_GiftDrop_NameGiftGiverFormat"		"%s1%s2</font>"	
-		"SFUIHUD_GiftDrop_SingleGiftFormat"		"<font color='#e3e3e3'>1 prezent</font>"	
-		"SFUIHUD_GiftDrop_GiftAmountFormat"		"<font color='#e3e3e3'>Prezenty (%s1)</font>"	
-
 		"SFUIHUD_GiftDrop_Name_ColorDefault"	"<font color='#b1eeff'>"
 		"SFUIHUD_GiftDrop_Name_Color1"	"<font color='#90ff9a'>"
 		"SFUIHUD_GiftDrop_Name_Color2"	"<font color='#eb7d7d'>"
@@ -30676,6 +30763,8 @@
 		"SFUI_SpecStat_type_objective"		"ZAD"
 		"SFUI_SpecStat_First_Half"			"1."
 		"SFUI_SpecStat_Second_Half"			"2."
+
+		"HudSpecPlayer_WeaponName"				"<span class=\"possessive-player-name\">{s:possessive_player_name}</span><br><span class=\"weapon-name\">{s:weapon_name}</span><br><font color=\"{s:rarity_color}\"><span class=\"weapon-kit-name\">{s:weapon_kit_name}</span><br><span class=\"weapon-name-custom\">\"{s:weapon_name_custom}\"</span></font>"
 
 		"heatmap_t"								"T"
 		"heatmap_ct"							"AT"
@@ -30843,7 +30932,7 @@
 		"SFUI_Scoreboard_Coop_HardMode"			"Ukończono w tr. trudnym"
 		"SFUI_Scoreboard_Coop_AllCoins"			"Zebrano wszystkie żetony"
 		"SFUI_Scoreboard_Coop_Within3Rounds"	"Ukończono w ciągu 3 rund"
-		"SFUI_Scoreboard_Coop_MissionCompletion"	"Ukończenie misji"
+		"SFUI_Scoreboard_Coop_MissionCompletion"	"Uko��czenie misji"
 
 		"SFUI_CoopSB_FinalScore"		"Ostateczny wynik zespołu"
 		"SFUI_CoopSB_FinalScore_Prev"	"Poprzedni wynik zespołu"
@@ -30882,7 +30971,7 @@
 		"SFUI_Notice_Report_Server_Failed"				" Nie udało się zgłosić serwera, spróbuj ponownie później.\n"
 		"SFUI_Notice_Report_Player_Success"				"Zgłoszono gracza %s1, ID zgłoszenia: %s2.\n"
 		"SFUI_Notice_Report_Player_Failed"				" Nie udało się zgłosić gracza, spróbuj ponownie później.\n"
-		"SFUI_Notice_Commend_Player_Success"			" Pochwalono gracza %s1.\nDziękujemy!\n"
+		"SFUI_Notice_Commend_Player_Success"			" Pochwalono gracza %s1.\n"
 		"SFUI_Notice_Commend_Player_TooEarly"			" W ostatnim czasie wysłano za dużo pochwał, spróbuj ponownie jutro.\n"
 		"SFUI_Notice_Commend_Player_Failed"				" Nie udało się pochwalić gracza, spróbuj ponownie później.\n"
 		"SFUI_Notice_Commend_Player_YouGotNewCommendation" " Gratulacje! Otrzymujesz pochwałę.\n"
@@ -30929,10 +31018,12 @@
 		"SFUI_CooldownExplanationReason_OfficialBan"		"To konto ma permanentny status niezaufanego"
 		"SFUI_CooldownExplanationReason_KickedTooMuch"	"Wyrzucono cię ze zbyt wielu meczów"
 		"SFUI_CooldownExplanationReason_KickAbuse"		"Opcja usuwania członków drużyny była przez ciebie nadużywana w ostatnich meczach"
-		"SFUI_CooldownExplanationReason_ConvictedForCheating"	"Wyrok Nadzoru - wysoka szkodliwość"
-		"SFUI_CooldownExplanationReason_ConvictedForBehavior"	"Wyrok Nadzoru - niska szkodliwość"
+		"SFUI_CooldownExplanationReason_ConvictedForCheating"	"Wyrok Nadzoru – wysoka szkodliwość"
+		"SFUI_CooldownExplanationReason_ConvictedForBehavior"	"Wyrok Nadzoru – niska szkodliwość"
 		"SFUI_CooldownExplanationReason_GsltViolation"		"Serwer używający twojego tokenu loginu serwera gry został zablokowany. Otrzymujesz karę czasową na korzystanie z systemu wyszukiwania gier oraz zostaje ci trwale odebrana możliwość obsługi serwerów na tym koncie."
 		"SFUI_CooldownExplanationReason_GriefingReports"	"Przeciwko tobie wpłynęło znacznie więcej zgłoszeń o umyślne przeszkadzanie w grze od większości graczy."
+		"SFUI_CooldownExplanationReason_VacNetCulprit"		"VAC oznaczył twoją rozgrywkę jako nieregularną"
+		"SFUI_CooldownExplanationReason_VacNetAffiliate"	"Rozgrywka gracza w twoim zespole została oznaczona przez VAC jako nieregularna"
 		"SFUI_CooldownExplanationReason_Expired_Cooldown"		"<b>Twoja kara czasowa zakończyła się. Kolejne kary czasowe mogą być dłuższe.\nPowód kary</b>: "
 		"SFUI_Notice_Killed_Teammate"					"Zabijasz członka swojej drużyny!"
 		"SFUI_Notice_Game_teammate_kills"				" UWAGA: jeśli zabijesz jeszcze %s1 członków drużyny, zostaniesz bezpowrotnie wyrzucony z tego meczu!"
@@ -31133,7 +31224,7 @@
 		"SFUI_ControllerZoomSensitivity" "Mnożnik czułości przybliżenia"
 
 		"SFUI_TaserSlot"				"Zeus x27"
-		"SFUI_MolotovSlot"				"Koktajl Mołotowa"
+		"SFUI_MolotovSlot"				"Koktajl Mołotowa lub granat zapalający"
 		"SFUI_DecoySlot"				"Wabik"
 		"SFUI_CycleGrenades"			"Zmiana granatów"
 		"SFUI_CycleWeapons"				"Zamień podstawową/drugorzędną"
@@ -31175,8 +31266,9 @@
 		"SFUI_Jump"						"Skok"
 		"SFUI_Duck"						"Kucanie"
 		"SFUI_Pickup_Use_Objects"		"Użycie"
-		"SFUI_TitlesTXT_Menu_Scoreboard"     "Tabela wyników"
-        "SFUI_ShowTeamEquipment"        "Pokaż wyposażenie drużyny"
+		"SFUI_TitlesTXT_Menu_Scoreboard"	"Tabela wyników"
+		"SFUI_ShowTeamEquipment" 		"Pokaż wyposażenie drużyny"
+		"SFUI_ToggleRadarScale"			"Przełącz powiększenie radaru"
 		"SFUI_Walk"						"Chód"
 		"SFUI_180Spin"					"Obrót o 180 stopni"
 		"SFUI_Drop_Weapon"				"Wyrzucenie broni"
@@ -31412,6 +31504,7 @@
 		"SFUI_Settings_Color_Correction"	"Korekta kolorów"
 		"SFUI_Settings_Antialiasing_Mode"	"Tryb antyaliasingu (multisampling)"
 		"SFUI_Settings_CSM"					"Ogólna jakość cieni"
+		"SFUI_Settings_DynamicShadows"		"Dynamiczne cienie"
 		"SFUI_Settings_FXAA"				"Antyaliasing FXAA"
 		"SFUI_Settings_ParticleDetail"		"Szczegóły cząsteczek"
 		"SFUI_Screen_Resize"				"Zmiana rozmiaru interfejsu w grze"
@@ -31464,9 +31557,16 @@
 		"SFUI_Settings_HDR"					"High Dynamic Range"
 		"SFUI_Settings_HDR_Info"			"Technika High Dynamic Range (szeroki zakres dynamiczny, HDR) kontroluje zakres jasności między najjaśniejszymi i najciemniejszymi pikselami. Wybranie opcji „Wydajność” zmniejszy jakość generowania obrazu HDR, ale potencjalnie zwiększy wydajność i zmniejszy wykorzystanie pamięci karty graficznej. "  
 		
+		"SFUI_Settings_GSync"				"NVIDIA G-Sync"
+		"SFUI_Settings_GSync_Info"			"Funkcja NVIDIA G-Sync umożliwia wyświetlaczowi dynamiczną zmianę jego częstotliwości odświeżania, by dopasowywał się do płynności gry, kiedy to możliwe, co skutkuje płynniejszym obrazem. Jest ona dostępna tylko na niektórych wyświetlaczach i działa najlepiej, gdy liczba klatek na sekundę gry jest poniżej maksymalnej częstotliwości odświeżania danego trybu wyświetlania. Funkcję można włączyć poza grą z poziomu panelu sterowania NVIDIA. Jest możliwe, że trzeba będzie zrestartować grę, by zmiany odniosły skutek."
+		"GSyncHelpLinkURL"					"https://www.nvidia.com/content/Control-Panel-Help/vLatest/pl-pl/mergedProjects/nvdspPLK/Variable_Refresh_Rate.htm"
+
 		"SFUI_Settings_Reflex"				"Tryb niskiego opóźnienia NVIDIA Reflex"
 		"SFUI_Settings_Reflex_Info"			"Zestaw technik NVIDIA Reflex służy do zmniejszenia opóźnień systemowych, co z kolei prowadzi do lepszego czasu reakcji ze strony komputera. Tryb „Boost” zawiera techniki, które mogą zwiększyć pobór mocy przez kartę graficzną i nieznacznie wpłynąć na płynność gry w celu zmniejszenia opóźnień w możliwie największym stopniu."
 		"SFUI_Settings_Reflex_Boost"		"Włączone + Boost"
+
+		"SFUI_Settings_AntiLag"				"AMD Anti-Lag 2.0"
+		"SFUI_Settings_AntiLag_Info"		"Zestaw technik AMD Anti-Lag 2.0 służy do zmniejszenia opóźnień systemowych, co z kolei prowadzi do lepszego czasu reakcji ze strony komputera."
 		
 		"SFUI_Settings_Ultra_Quality"		"Jakość ultra"
 		"SFUI_Settings_Quality"				"Jakość"
@@ -31482,7 +31582,9 @@
 		"SFUI_Settings_Fullscreen_Windowed"	"Pełny ekran, w oknie"
 
 		"SFUI_Settings_Laptop_Power"		"Opcja oszczędzania energii"
-		"SFUI_Settings_Vertical_Sync"		"Czekaj na synchronizację pionową"
+		"SFUI_Settings_Vertical_Sync"		"Synchronizacja pionowa"
+		"SFUI_Settings_FPS_Max"				"Maksymalna liczba klatek na sekundę w grze"
+		"SFUI_Settings_FPS_Max_UI"			"Maksymalna liczba klatek na sekundę w menu"
 
 		"SFUI_SteamToast_Location"			"Miejsce powiadomień Społeczności"
 		"SFUI_SteamToast_Location_Horz"		"Przesunięcie powiadomień społeczności w poziomie"
@@ -31499,7 +31601,7 @@
 		"SFUI_Settings_Low"					"Niskie"
 
 		"SFUI_Settings_Choice_Custom"			"Niestandardowy"
-		"SFUI_Settings_Presets"				"Obecne ustawienia obrazu:"
+		"SFUI_Settings_Presets"				"Obecny szablon ustawień obrazu"
 
 		"SFUI_Settings_Audio_Tip"	"W CS2 najlepiej gra się, korzystając ze słuchawek stereo. CS2 oferuje wbudowany w grę, wyrafinowany system przetrwarzania i modelowania dźwięku w 3D na podstawie indywidualnych źródeł dźwięku i geometrii gry. Zalecamy wyłączenie wszelkich zewnętrznych wzmocnień dźwięku lub efektów wirtualnego dźwięku stereo dla najprzyjemniejszych wrażeń słuchowych."
 		"SFUI_Settings_Master_Volume"		"Głośność ogólna"
@@ -31514,9 +31616,15 @@
 
 		"SFUI_Settings_Headphone_EQ"		"Profil korektora dźwięku"
 		"SFUI_Settings_Headphone_EQ_Tip"	"Zmienia ogólne podbarwienie dźwięku w CS2. Może pomóc zrównoważyć podbarwienie dźwięku powstałe wskutek rozmaitych konfiguracji sprzętu i oprogramowania. Daj sobie czas na przyzwyczajenie się do nowego profilu korektora dźwięku. <br/><br/><b>Standardowy (domyślny):</b> Brak dodatkowego podbarwienia.<br/><br/><b>Wyrazisty:</b> Podbija pasma średnich i wysokich częstotliwości. Może pomóc w lokalizacji dźwięku i zmniejszyć tłumienie. Może brzmieć ostro w niektórych sytuacjach.<br/><br/><b>Wygładzony:</b> Redukuje średnie i wysokie częstotliwości. Może pomóc zmniejszyć ostrość, skoki głośności i zmęczenie uszu podczas długich sesji rozgrywki. Idealny dla słuchawek studyjnych i dla graczy, którzy wolą głośniejszy dźwięk."
+		"SFUI_Settings_Headphone_NoOverride"	"Domyślne"
 		"SFUI_Settings_Headphone_Gamer"		"Wyrazisty"
 		"SFUI_Settings_Headphone_None"		"Standardowy"
-		"SFUI_Settings_Headphone_Studio"	"Wygładzony"	
+		"SFUI_Settings_Headphone_Studio"	"Wygładzony"
+		"SFUI_Settings_GameModeVolume_Competitive_Tip"		"Skalowanie głośności i nadpisanie ustawień korektora dla trybu Turniejowego."
+		"SFUI_Settings_GameModeVolume_Casual_Tip"		"Skalowanie głośności i nadpisanie ustawień korektora dla trybu Uproszczonego."
+		"SFUI_Settings_GameModeVolume_Spectator_Tip"		"Skalowanie głośności i nadpisanie ustawień korektora dla trybu Turniejowego i Uproszczonego podczas oglądania gry innych po utracie życia."
+		"SFUI_Settings_GameModeVolume_Deathmatch_Tip"		"Skalowanie głośności i nadpisanie ustawień korektora dla trybu Deathmatch."
+		"SFUI_Settings_GameModeVolume_Armsrace_Tip"		"Skalowanie głośności i nadpisanie ustawień korektora dla trybu Wyścig zbrojeń."	
 
 		"SFUI_Settings_Speaker_Config"		"Konfiguracja wyjścia audio"
 		"SFUI_Settings_Speaker_Config_Tip"	"Kontroluje liczbę kanałów używanych przez Counter-Strike do przesyłania dźwięku."
@@ -31575,7 +31683,7 @@
 		"SFUI_Settings_VOIP_Volume_Tip"								"Dostosowuje ogólną głośność czatu głosowego od innych graczy (VoIP)."
 
 		"SFUI_Settings_voice_always_sample_mic"						"Uproszczona funkcja „Naciśnij i mów”"
-		"SFUI_Settings_voice_always_sample_mic_tooltip"				"Utrzymuje aktywność urządzenia do nagrywania, by uniknąć zawieszania się gry na niektórych konfiguracjach sprzętowych."
+		"SFUI_Settings_voice_always_sample_mic_tooltip"				"Otwórz urządzenie nagrywające po uruchomieniu gry, zamiast przy pierwszym użyciu mikrofonu."
 
 		"SFUI_Settings_VOIP_Positional"								"Pozycja głosu innych graczy"
 		"SFUI_Settings_VOIP_Positional_Tip"							"Czat głosowy w grze uwzględnia pozycję graczy."
@@ -31592,6 +31700,23 @@
 		"SFUI_Settings_Audio_FOV_Tip"			"<b>Tak (domyślna):</b> Źródła dźwięku będą dokładnie odtwarzane zgodnie z twoim polem widzenia, tego co ty widzisz, patrząc na monitor. Dźwięk pochodzący ze źródeł znajdujących się na skraju twojego pola widzenia będzie brzmiał, jakby był nieco przed tobą. Dźwięk ze źródeł poza ekranem i bezpośrednio z boku będzie mocno panoramowany odpowiednio do lewego lub prawego kanału.<br/><br/><b>Nie:</b> Dźwięk ze źródeł na skraju twojego pola widzenia będzie mocno panoramowany odpowiednio do lewego lub prawego kanału. Jest to opcja idealna dla graczy grających bardzo blisko ekranu, używających ekranu, który można mieć na sobie (np. gogle VR) lub preferujących stare silniki dźwięku. Może być mylące dla słuchającego w zależności od kąta pochodzenia dźwięku."
 		"SFUI_Settings_Audio_FOV_Off"			"Nie"
 		"SFUI_Settings_Audio_FOV_On"			"Tak"
+
+		"SFUI_Settings_Arms_Race_Volume"	"Głośność w trybie Wyścig zbrojeń"
+		"SFUI_Settings_Deathmatch_Volume"	"Głośność w trybie Deathmatch"
+		"SFUI_Settings_Competitive_Volume"	"Głośność w trybie Turniejowym"
+		"SFUI_Settings_Casual_Volume"		"Głośność w trybie Uproszczonym"
+		"SFUI_Settings_Spectator_Volume"	"Głośność podczas oglądania innych"
+
+		"SFUI_Settings_GameModeEQ_Tip"		"Pozwala na przypisanie specyficznych profili korektora do każdego trybu gry. Można tego używać, by zmniejszyć zmęczenie uszu i zwiększyć komfort rozgrywki w trybach z większą ilością akcji, np. Deathmatch i Wyścig zbrojeń, jednocześnie zachowując przejrzystość dźwięku w trybach Uproszczony i Turniejowy."
+		"SFUI_Settings_Arms_Race_EQ"		"Korektor dla Wyścigu zbrojeń"
+		"SFUI_Settings_Arms_Race_EQ_Tip"	"Zastosuje ten profil korektora na czas meczu w trybie Wyścig zbrojeń."
+		"SFUI_Settings_Deathmatch_EQ"		"Korektor dla Deathmatch"
+		"SFUI_Settings_Deathmatch_EQ_Tip"	"Zastosuje ten profil korektora na czas meczu w trybie Deathmatch."
+		"SFUI_Settings_Competitive_EQ"		"Korektor dla Turniejowego"
+		"SFUI_Settings_Competitive_EQ_Tip"	"Zastosuje ten profil korektora na czas meczu w trybie Turniejowym."
+		"SFUI_Settings_Casual_EQ"		"Korektor dla Uproszczonego"
+		"SFUI_Settings_Casual_EQ_Tip"		"Zastosuje ten profil korektora na czas meczu w trybie Uproszczonym."
+
 
 		"SFUI_Settings_Menu_Music_Volume"							"Głośność menu głównego"	
 		"SFUI_Settings_Start_Round_Music_Volume"					"Głośność startu rundy"
@@ -31643,6 +31768,8 @@
 		"SFUI_CSM_Med"					"Średnia"
 		"SFUI_CSM_High"					"Wysoka"
 		"SFUI_CSM_VeryHigh"				"Bardzo wysoka"
+		"SFUI_Shadows_SunOnly"			"Tylko Słońce"
+		"SFUI_Shadows_All"				"Wszystkie"
 		"SFUI_FXAA_Enabled"				"Włączony"
 		"SFUI_FXAA_Disabled"				"Wyłączony"
 		"SFUI_Settings_Choice_Autodetect"	"Automatycznie"
@@ -31678,11 +31805,6 @@
 		"SFUI_Settings_HudTelemetry_Show_Never" "Nigdy"
 		"SFUI_Settings_HudTelemetry_Show_OnlyInPoorConditions" "Jeśli warunki są kiepskie"
 		"SFUI_Settings_HudTelemetry_Show_Always" "Zawsze"
-
-		"SFUI_Settings_Network_ProblemAutoShow"   "Wyświetl problemy z połączeniem z siecią"
-		"SFUI_Settings_Network_ProblemAutoShow_Info"   "Pozwala grze automatycznie wyświetlać wskaźnik problemów z połączeniem sieciowym w prawym górnym rogu, gdy gracz doświadcza dużej utraty pakietów lub ogólnej niestabilności sieci."
-		"SFUI_Settings_Network_ProblemAutoShow_Auto"  "Automatycznie"
-		"SFUI_Settings_Network_ProblemAutoShow_Off"   "Wyłączone"
 
 		"SFUI_Settings_Network_ExtraBuffering"   "Buforowanie w celu wyrównania utraty pakietów"
 		"SFUI_Settings_Network_ExtraBuffering_Info"   "Buforuj migawki z serwera oraz polecenia z klienta.\n\nZmniejsza to liczbę przycięć powodowaną utratą pakietów, ale zwiększa faktyczne opóźnienie."
@@ -31743,12 +31865,15 @@
 		"Spectator_Best_Of_Series"				"Do {d:numtowin} wygranych" // {d:numtowin} can be used for a "2 To Win" style string in place of "Best of 3"
 
 		"SFUI_Settings_ClanTag_In_Death_Notice"		"Wyświetl tagi drużynowe w komunikatach o zgonach"
-		"SFUI_Settings_Identify_Teammates"		"Pokaż położenie członków drużyny na interfejsie"
+		"SFUI_Settings_Identify_Teammates"		"Pokaż identyfikatory członków drużyny przez ściany"
 
 		"SFUI_Settings_Radar_Rotate"			"Radar się obraca"
 		"SFUI_Settings_Radar_Rotate_Info"		"Przełącza pomiędzy radarem obrotowym a stałym."
 		"SFUI_Settings_Radar_Scale"				"Powiększenie mapy na radarze"
+		"SFUI_Settings_Radar_Scale_Alternate"	"Alternatywne powiększenie mapy na radarze"
 		"SFUI_Settings_Radar_Scale_Info"		"Powiększenie mapy ma wpływ na to, jak duża jej część będzie widoczna na radarze."
+		"SFUI_Settings_Radar_Scale_Alternate_Info"	"Alternatywny poziom powiększenia mapy, który możesz przełączać naciśnięciem klawisza."
+		"SFUI_Go_To_Radar_Toggle_Key_Binding"	"PRZEJDŹ DO PRZYPISANIA KLAWISZA DO POWIĘKSZANIA RADARU"
 
 		"SFUI_Settings_Radar_Centered"			"Radar jest wycentrowany na graczu"
 		"SFUI_Settings_Radar_Centered_Info"		"Przełącza między najlepiej dopasowanym radarem lub wyśrodkowanym na graczu."
@@ -31828,7 +31953,7 @@
 		
 		"SFUI_Settings_PlayerPingMuteVisuals_Title"	"Ukryj widok pingów graczy"
 		"SFUI_Settings_MuteEnemies_Title"		"Wycisz przeciwną drużynę"
-		"SFUI_Settings_HideAvatars_Title"		"Ukryj awatary"
+		"SFUI_Settings_HideAvatars_Title"		"Ukryj obrazy awatarów i spersonalizowane przedmioty"
 		"SFUI_Settings_HideAvatars_All"			"Pokaż wszystkie"
 		"SFUI_Settings_HideAvatars_None"		"Ukryj wszystkie"
 		"SFUI_Settings_HideAvatars_Friends"		"Pokaż tylko znajomych"
@@ -31871,6 +31996,13 @@
 		"SFUI_Settings_ViewmodelPosDesktop"		"Pulpit"
 		"SFUI_Settings_ViewmodelPosCouch"		"Na kanapie"
 		"SFUI_Settings_ViewmodelPosClassic"		"Klasyczny"
+		
+		"Cstrike_SwitchHandedness"					"Przełącz widok modelu broni między praworęcznym i leworęcznym"
+		"Cstrike_PreferredHandedness"				"Preferowana strona widoku modelu broni"
+		"Cstrike_PreferredHandedness_Desc"			"Ustaw domyślną stronę widoku modelu broni. Istnieje też możliwość przypisania klawisza do tymczasowego przełączenia widoku podczas gry."
+		"Cstrike_PreferredHandedness_Right"			"Prawa"
+		"Cstrike_PreferredHandedness_Left"			"Lewa"
+		"Cstrike_GoToSwitchHandednessKeyBinding"	"Przejdź do przypisania klawisza zmiany widoku"
 
 		"Cstrike_FirstPersonTracers"		"Smugi wystrzałów z pierwszej osoby"
 		"Cstrike_FirstPersonTracers_Desc"	"Wybierz, czy renderować smugi wystrzałów z twojej z broni lokalnie, czy nie. Inni gracze nadal będą je widzieć."
@@ -31884,7 +32016,9 @@
 		"SFUI_Settings_PowerSavings_Info"	"Opcja oszczędzania energii powoduje, że gra specjalnie tworzy ograniczoną liczbę klatek na sekundę, co pozwala na oszczędzenie energii i wydłużenie czasu gry na baterii."
 		"SFUI_Settings_Antialiasing_Info"	"Antyaliasing wygładza kształty geometryczne w grze, usuwając ostre brzegi. Zwiększenie poziomu antyaliasingu może pogorszyć wydajność graficzną."
 		"SFUI_Settings_Filtering_Info"		"Zwiększenie poziomu filtrowania tekstur polepsza wygląd tekstur w grze. Zwiększenie jakości filtrowania może pogorszyć wydajność graficzną."
-		"SFUI_Settings_WaitForVSync_Info"	"Synchronizacja pionowa jest zalecana, jeżeli chcesz otrzymać najpłynniejszy obraz. Wyłączenie tej opcji może powodować rozrywanie obrazu."
+		"SFUI_Settings_WaitForVSync_Info"	"Synchronizacja pionowa pomaga zapewnić, że płynność gry zgadza się z częstotliwością odświeżania ekranu, co zazwyczaj skutkuje płynniejszym obrazem pozbawionym efektu rozrywania ekranu."
+		"SFUI_Settings_FPS_Max_Info"		"Ustaw górny limit liczby klatek, jaki twoja konfiguracja sprzętowa może osiągnąć podczas gry."
+		"SFUI_Settings_FPS_Max_UI_Info"		"Ustaw górny limit liczby klatek, jaki twoja konfiguracja sprzętowa może osiągnąć podczas przeglądania menu gry."
 		"SFUI_Settings_QueuedMode_Info"		"Renderowanie wielordzeniowe pozwala grze Counter-Strike wykorzystać moc obliczeniową wielu rdzeni procesora w twoim komputerze. Wyłączenie tej opcji może zwiększyć płynność, ale z obniżoną jakością wizualną gry."
 		"SFUI_Settings_ShaderDetail_Info"	"Detale cieniowania określają dokładność oświetlenia i pojawiających się na powierzchniach cieni. Wyższe ustawienia zwiększają jakość wizualną, ale mogę pogorszyć wydajność graficzną."
 		"SFUI_Settings_CPUDetail_Info"		"Szczegóły efektów określają złożoność efektów wizualnych oraz dystans wyświetlania. Zmniejszenie poziomu szczegółów może polepszyć wydajność, lecz także zwiększyć liczbę wyskakujących modeli „znikąd”."
@@ -31896,8 +32030,9 @@
 		"SFUI_Settings_TripleMonitor_Info"	"Włączenie trybu trzech monitorów ogranicza niektóre elementy interfejsu (w tym HUD) do środkowych 33% ekranu. Jest to przydatne, gdy chce się rozszerzyć obraz na trzy monitory."	
 		"SFUI_Edit_Profile"					"EDYTUJ PROFIL"
 		"SFUI_Settings_ColorMode"			"Zmień tryb kolorów ekranu. Dostępne tylko w trybie pełnoekranowym."
-		"SFUI_Settings_Brightness"			"Zmień korekcję gamma ekranu, poprawiając ogólną jasność. Dostępne tylko w trybie pełnoekranowym."
+		"SFUI_Settings_Brightness"			"Zmień korekcję gamma renderowania w grze. Dostosuje to ogólną jasność."
 		"SFUI_Settings_TextureStreaming_Info"	"Strumieniowanie tekstur umożliwia grze opóźnienie wczytywania tekstur o wysokiej rozdzielczości do momentu, aż będą wymagane do renderowania. Wyłączenie tego ustawienia poskutkuje zwiększonym zużyciem pamięci tekstur. Na systemach z powolniejszym dostępem do dysku strumieniowanie tekstur może być przez chwilę widoczne."
+		"SFUI_Settings_DynamicShadows_Info"	"Wybierz źródła światła, dla których dynamiczne obiekty takie jak gracze i dym będą rzucać cienie. Opcja „Tylko Słońce” może poprawić wydajność grafiki, ale jednocześnie może też stawiać cię w niekorzystnej sytuacji podczas walki, zwłaszcza w zamkniętych pomieszczeniach."
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Chat
@@ -31944,8 +32079,6 @@
 		"BuyMenu_Sellback"						"Zwróć"
 		"BuyMenu_NewUserExperience_Recommended"	"ZALECANE"
 		"BuyMenu_Promoted"						"PROMOWANE"
-
-
 
 		"SFUI_BuyMenu_SelectWeapon" "Wybierz\nbroń"
 
@@ -31998,15 +32131,15 @@
 		"SFUI_BuyMenu_Header" "MENU ZAKUPÓW"
 		"SFUI_BuyMenu_WeaponClass" "WYBIERZ MENU BRONI"
 
-		"SFUI_BuyMenu_CanOnlyCarryXGrenades"	"Możesz mieć ze sobą tylko {s:s1} granaty"
-		"SFUI_BuyMenu_MaxItemsOfType"			"Możesz mieć ze sobą tylko {s:s1} szt. tego typu"
-		"SFUI_BuyMenu_MaxItemsOfTypePurchased"	"Możesz zakupić tylko {s:s1} szt. tego typu"
+		"SFUI_BuyMenu_CanOnlyCarryXGrenades:p{s1}"		"Możesz mieć ze sobą tylko {s:s1} granat.#|#Możesz mieć ze sobą tylko {s:s1} granaty.#|#Możesz mieć ze sobą tylko {s:s1} granatów.#|#Możesz mieć ze sobą tylko {s:s1} granatu."
+		"SFUI_BuyMenu_MaxItemsOfType:p{s1}"				"Możesz mieć ze sobą tylko {s:s1} granat tego typu.#|#Możesz mieć ze sobą tylko {s:s1} granaty tego typu.#|#Możesz mieć ze sobą tylko {s:s1} granatów tego typu.#|#Możesz mieć ze sobą tylko {s:s1} granatu tego typu."
+		"SFUI_BuyMenu_MaxItemsOfTypePurchased:p{s1}"	"Możesz kupić tylko {s:s1} granat tego typu.#|#Możesz kupić tylko {s:s1} granaty tego typu.#|#Możesz kupić tylko {s:s1} granatów tego typu.#|#Możesz kupić tylko {s:s1} granatu tego typu."
 		"SFUI_BuyMenu_AlreadyCarrying"			"Obecnie w ekwipunku."
 		"SFUI_BuyMenu_AlreadyPurchased"			"Zakupiono już jeden w tej rundzie."
 		"SFUI_BuyMenu_NotAllowedByMap"			"Niedozwolone na tym rodzaju mapy."
 		"SFUI_BuyMenu_NotAllowedByMode"			"Niedozwolone w tym trybie gry."
 		"SFUI_BuyMenu_NotAllowedByTeam"			"Niedozwolone w twojej obecnej drużynie."
-        "SFUI_BuyMenu_ReachedWeaponsExpertLimit""Już zakupiono {s:s1} w tym meczu"
+		"SFUI_BuyMenu_ReachedWeaponsExpertLimit:p{s1}"	"Już kupiono {s:s1} w tym meczu.#|#Już kupiono {s:s1} w tym meczu.#|#Już kupiono {s:s1} w tym meczu.#|#Już kupiono {s:s1} w tym meczu."
 		"SFUI_BuyMenu_Cannot_Afford"			"Potrzebujesz jeszcze {s:s1} $."
 		"SFUI_BuyMenu_OnlyOneArmor"				"Już masz pancerz!"
 		"SFUI_BuyMenu_NotAllowed_Short"			"ZABRONIONE"
@@ -32018,6 +32151,8 @@
 		"buymenu_prohibited_weapon_hint"		"Broń <b>{s:s1}</b> jest niedostępna w tym trybie"
 		"buymenu_weaponsexpert_reminder"		"Tę broń można kupić tylko raz"
 		"buymenu_weaponsexpert_supply"			"Maks. na drużynę: <b>%s1</b>"
+
+		"buymenu_groundweapons"					"Upuszczona broń"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy menu text information
@@ -32310,6 +32445,7 @@
 		"SFUI_OfficialDatacenterID_42"		"Chiny, Chengdu"
 		"SFUI_OfficialDatacenterID_43"		"USA, Nowy Jork"
 		"SFUI_OfficialDatacenterID_44"		"Europa, Finlandia"
+		"SFUI_OfficialDatacenterID_45"		"Wielka Brytania"
 
 		"SFUI_UserAlert_HighPings"			"Twój obecny najlepszy ping na oficjalnych serwerach to %s1 ms."
 		"SFUI_UserAlert_Unreachable"		"Nie udało się uzyskać odpowiedzi od żadnego oficjalnego serwera."
@@ -32798,6 +32934,7 @@
 		"SFUI_Lobby_StatusInLobby"			"W poczekalni"
 		"SFUI_Lobby_StatusInLevel"			"W grze"
 		"SFUI_Lobby_StatusInGame"			"Gra w inną grę"
+		"SFUI_Lobby_StatusPlayingSteamRP"	"Gra w Counter-Strike 2"
 		"SFUI_Lobby_StatusPlayingCSGO"		"Gra w Counter-Strike"
 		"SFUI_Lobby_StatusWatchingCSGO"		"Ogląda mecz"
 		"SFUI_Lobby_StatusOverwatch"		"Podczas sesji Nadzoru"
@@ -34420,7 +34557,6 @@
 		"Player_DisconnectReason_NoSteamLogin"				"użytkownik niezalogowany"
 		"Player_DisconnectReason_NoSteamTicket"				"błąd uwierzytelnienia gry"
 		"Player_DisconnectReason_ConnectionClosing"			"zamknięcie połączenia"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Profile Text
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -35244,9 +35380,9 @@
 
 		"AntiAddiction_Label_TimeRemaining"	"Pozostały czas gry: {s:aatime}"
 		"AntiAddiction_Label_TimeRemainingNone"	"Osiągnięto limit"
-		"UI_AntiAddiction_Tooltip_GameTime"	"Podlegasz programowi przeciwdziałania uzależnieniom i twój pozostały czas gry to {s:aatime}."
-		"UI_AntiAddiction_Tooltip_GameTimeNone"	"Podlegasz programowi przeciwdziałania uzależnieniom i twój limit czasowy gry został wykorzystany. Zrób sobie przerwę i wróć jutro."
-		"UI_AntiAddiction_ExitGameNowMessage"	"Podlegasz programowi przeciwdziałania uzależnieniom i twój limit czasowy gry na dziś został wykorzystany. Musisz wyjść z gry natychmiast, zrobić sobie przerwę i wrócić jutro."
+		"UI_AntiAddiction_Tooltip_GameTime"	"Podlegasz systemowi przeciwdziałania uzależnieniom i twój pozostały czas gry to {s:aatime}."
+		"UI_AntiAddiction_Tooltip_GameTimeNone"	"Podlegasz systemowi przeciwdziałania uzależnieniom i twój limit czasowy gry został wykorzystany. Zrób sobie przerwę i wróć jutro."
+		"UI_AntiAddiction_ExitGameNowMessage"	"Podlegasz systemowi przeciwdziałania uzależnieniom i twój limit czasowy gry na dziś został wykorzystany. Musisz wyjść z gry natychmiast, zrobić sobie przerwę i wrócić jutro."
 		"AntiAddiction_Label_Green"			"Czas gry: %s1 ( w porządku )"
 		"AntiAddiction_Label_Yellow"		"Czas gry: %s1 ( niezdrowo )"
 		"AntiAddiction_Label_Red"			"Czas gry: %s1 ( nadmiernie )"
@@ -35259,8 +35395,8 @@
 		"SFUI_Warning_AntiAddiction_Tooltip_Yellow"		"Jesteś online od %s1. Ilość zdobywanego doświadczenia została zmniejszona o połowę. W trosce o twoje zdrowie prosimy cię o wylogowanie się najszybciej jak to możliwe, odpoczynek oraz wykonanie kilku ćwiczeń."
 		"SFUI_Warning_AntiAddiction_Tooltip_Red"		"Grasz już od %s1. W trosce o twoje zdrowie prosimy cię o natychmiastowe wylogowanie się i odpoczynek. Liczba otrzymywanych PD została zmniejszona do zera, a domyślna wartość zostanie przywrócona nie wcześniej, niż po 5 godzinach od wylogowania."
 
-		"SFUI_LoginPerfectWorld_AntiAddiction1"			"Według informacji o twoim koncie masz mniej niż 18 lat i zostało ono objęte systemem zapobiegającym uzależnieniom." // 您的年龄未满18岁，正受到“防沉迷系统”的限制。
-		"SFUI_LoginPerfectWorld_AntiAddiction2"			"Informacje o twoim koncie są niekompletne i zostało ono objęte systemem zapobiegającym uzależnieniom. Po pewnym czasie pewne funkcjonalności gry zostaną ograniczone. Zalecamy jak najszybsze wypełnienie informacji o koncie w ustawieniach na oficjalnej stronie Perfect World." // 您尚未登记防沉迷信息，一段时间后游戏收益将受到限制，建议您立即前往CSGO官网个人中心补全信息。
+		"SFUI_LoginPerfectWorld_AntiAddiction1"			"Według informacji o twoim koncie masz mniej niż 18 lat i zostało ono objęte systemem przeciwdziałania uzależnieniom." // 您的年龄未满18岁，正受到“防沉迷系统”的限制。
+		"SFUI_LoginPerfectWorld_AntiAddiction2"			"Informacje o twoim koncie są niekompletne i zostało ono objęte systemem przeciwdziałania uzależnieniom. Po pewnym czasie pewne funkcje gry zostaną ograniczone. Zalecamy jak najszybsze wypełnienie informacji o koncie w ustawieniach na oficjalnej stronie Perfect World." // 您尚未登记防沉迷信息，一段时间后游戏收益将受到限制，建议您立即前往CSGO官网个人中心补全信息。
 
 		"SFUI_LoginPerfectWorld_Title_Info"				"Informacje o koncie"
 		"SFUI_LoginPerfectWorld_Error_Launcher"			"Konfiguracja startowa gry nie pasuje do konfiguracji konta.\n\nSkontaktuj się z Pomocą techniczną Steam."
@@ -36314,7 +36450,11 @@
 		"PlayMenu_GraphicsDriverLink_AMD"			"Odwiedź stronę AMD"
 		"PlayMenu_GraphicsDriverLink_Nvidia"		"Odwiedź stronę NVIDIA"
 
-		
+		"SettingsRecommendation"					"Polecane ustawienie"
+		"VariableRefreshRateRecommendation_Nvidia"	"Wygląda na to, że twój monitor obsługuję funkcję NVIDIA G-Sync, ale nie jest ona obecnie włączona. Włączenie G-Sync jest zalecane dla optymalnej rozgrywki. Funkcję można włączyć poza grą z poziomu panelu sterowania NVIDIA. Jest możliwe, że trzeba będzie zrestartować grę, by zmiany odniosły skutek."
+		"RefreshRateRecommendation"					"Wygląda na to, że twój monitor ma tryb {d:max_refresh_rate} Hz, ale obecnie działa w trybie {d:curr_refresh_rate} Hz. Używanie najwyższej częstotliwości odświeżania ekranu obsługiwanej przez twój monitor jest generalnie zalecane dla optymalnej gry."
+		"LowLatencyVSyncRecommendation_Nvidia"		"Wygląda na to, że twój monitor ma włączoną funkcję NVIDIA G-Sync, ale zarówno synchronizacja pionowa, jak i NVIDIA Reflex są wyłączone. Włączenie wszystkich trzech ustawień jest zalecane dla optymalnej rozgrywki."
+
 		"PlayMenu_GraphicsDriverWarning_RemindMeLater"	"Przypomnij później"
 		"PlayMenu_GraphicsDriverWarning_DontShowAgain"	"Nie pokazuj ponownie"
 
@@ -36562,6 +36702,7 @@
 		"inv_sort_type"						"Rodzaj"
 		"inv_search_default"				"Wpisz frazę wyszukiwania tutaj"
 		"inv_nav_all"						"WSZYSTKO"
+		"inv_nav_rentals"					"WYPOŻYCZONE"
 		"inv_nav_weapons"					"Bronie"
 		"inv_nav_graphics"					"PRACE GRAFICZNE"
 		"inv_nav_equipment"					"EKWIPUNEK"
@@ -36589,6 +36730,7 @@
 		"inv_nav_items"						"PRZEDMIOTY"
 		"inv_nav_market"					"RYNEK STEAM"
 		"inv_nav_search"					"Szukaj przedmiotów"
+		"inv_nav_filter_rentals"			"Ukryj wypożyczone przedmioty"
 
 		"loadout_wedge_weapon_name"			"<b>{s:item-name}</b>"
 		"loadout_clear_filters"				"Wyczyść filtry"
@@ -36700,7 +36842,8 @@
 
 		"CSGO_ItemName_Base"				"<span class=\"fontWeight-Bold\">{s:item_name}</span>"
 		"CSGO_ItemName_Painted"				"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>{s:paintkit_name}"
-		"CSGO_ItemName_Custom"				"{s:item_name}"
+		"CSGO_ItemName_Custom_Painted"		"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>{s:paintkit_name}<br>„<i>{s:custom_item_name}</i>”"
+		"CSGO_ItemName_Custom_Simple"		"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>„<i>{s:custom_item_name}</i>”"
 
 		"popup_casket_action_remove"		"Odzyskaj"
 		"popup_casket_title_add"			"Deponowanie do schowka"
@@ -36708,8 +36851,12 @@
 		"popup_casket_title_loadcontents"	"Uzyskiwanie dostępu do schowka"
 
 		"popup_inv_lootlist_header"		"Przeglądanie: {s:container}"
+		"popup_inv_lootlist_rental_header"		"Sprawdzanie twoich wypożyczonych broni"
 		"popup_inv_lootlist_count"		"{d:index}/{d:total}"
 		"popup_inv_lootlist_inspect_all"	"PRZEGLĄDAJ PRZEDMIOTY"
+
+		"popup_inspect_header_name"			"{s:item_name}"
+		"popup_inspect_header_customname"	"„{s:item_custom_name}”"
 
 		"popup_casket_title_error_casket_too_full"		"Schowek jest pełny"
 		"popup_casket_message_error_casket_too_full"	"Nie udało się przenieść twojego przedmiotu, ponieważ wybrany schowek jest pełny. Dodatkowe schowki można zakupić w sklepie w grze."
@@ -36832,15 +36979,22 @@
 		"popup_decodeable_async_desc"	"Użyj: <b>{s:itemname}</b>"
 		"popup_decodeable_async_xray_desc"		"Użyj skanera rentgenowskiego, by ujawnić przedmiot wewnątrz pojemnika"
 		"popup_decodeable_err_restricted"	"Otwarcie tego pojemnika <b>({s:itemname})</b> nie jest dozwolone w twoim kraju"
+		"popup_decodable_open_case"		"Otwórz, by zachować"
+		"popup_decodable_keep_weapon"	"Zachowaj jedną broń"
+		"popup_decodable_rent_weapons"		"Otwórz, by wypożyczyć"
+		"popup_decodable_rent_get_key"		"Wymaga: {s:itemname} <b>{s:price}</b>"
+		"popup_decodable_rent_weapon_count:p{numlootlist}"	"Wypożycz {d:numlootlist} broń na 7 dni#|#Wypożycz {d:numlootlist} bronie na 7 dni#|#Wypożycz {d:numlootlist} broni na 7 dni#|#Wypożycz {d:numlootlist} broni na 7 dni"
 
 		//Capability
 		"popup_capability_upsell"	"To działanie wymaga: <b>{s:itemname}</b>"
+		"popup_capability_upsell_rental"	"Aby otworzyć pojemnik i zatrzymać jedną broń lub wypożyczyć wszystkie, musisz użyć: <b>{s:itemname}</b>."
 		"popup_capability_use"		"<b>{s:itemname}</b>"
 		"popup_totool_nameable_header"	"Podgląd tabliczki z nazwą"
 		"popup_totool_decodeable_header"	"Otwórz pojemnik"
 		"popup_totool_decodeable_header_graffiti"	"Otwórz graffiti"
 		"popup_totool_decodeable_header_fantoken"	"Aktywuj przedmiot"
 		"popup_totool_purchase_header"	"Zakup"
+		"popup_totool_purchase_header2"	"ZAKUP, BY ODEBRAĆ"
 
 		//Purchase
 		"popup_cartpreview_button"		"Podgląd"
@@ -36867,6 +37021,7 @@
 		"popup_xray_ready_for_use"		"Skaner rentgenowski jest gotowy na przeskanowanie twojego pojemnika"
 		"popup_xray_already_in_use"		"Twój przedmiot jest gotowy do odbioru"
 		"popup_xray_reveal_warning"  	"Użyj skanera rentgenowskiego, by zużyć ten pojemnik i ujawnić przedmiot, który się w nim znajduje."
+		"popup_xray_reveal_warning_short"  	"Użyj, by ujawnić przedmiot wewnątrz pojemnika."
 		"popup_xray_in_use_title"		"Skaner rentgenowski"
 		"popup_xray_in_use_desc"		"Twój skaner rentgenowski obecnie pokazuje przedmiot z poprzednio załadowanego pojemnika.\n\nMusisz najpierw odebrać ten przedmiot, by użyć skanera ponownie."
 		"popup_xray_first_use_title"	"Skaner rentgenowski"
@@ -36920,6 +37075,7 @@
 
 		//redeem souvenir
 		"popup_redeem_souvenir_title" "Odbierz zestaw pamiątkowy z tego meczu."
+		"popup_redeem_souvenir_action" "Odbierz zestaw pamiątkowy"
 		"popup_redeem_souvenir_action_redeem" "Odbierz pamiątkę"
 		"popup_redeem_souvenir_action_price" "{s:price} Zdobądź pamiątkę"
 		"popup_redeem_souvenir_desc:p{redeems}" "<span class=\"get-souvenir-redeem-count\">{d:redeems}</span> możliwa pamiątka do odebrania#|#<span class=\"get-souvenir-redeem-count\">{d:redeems}</span> możliwe pamiątki do odebrania#|#<span class=\"get-souvenir-redeem-count\">{d:redeems}</span> możliwych pamiątek do odebrania#|#<span class=\"get-souvenir-redeem-count\">{d:redeems}</span> możliwej pamiątki do odebrania"
@@ -37117,6 +37273,8 @@
 		"settings_account_conn_section"		"Twitch.tv"
 		"settings_crosshair"				"Celownik"
 		"settings_crosshair_info"			"Dostosuj rozmiar, kształt i kolor swojego celownika oraz podziel się jego kodem ze znajomymi lub wypróbuj ustawienia innych."
+		"settings_grenadecrosshair"			"Siatka celownicza dla granatów"
+		"settings_grenadecrosshair_info"	"Pomocnicza siatka dla precyzowania rzucanymi granatami."
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / Tablet"
 		"settings_items_section"			"Przedmiot"
@@ -37128,9 +37286,12 @@
 		"settings_telemetry_section_info"	"Dostosuj, które wskaźniki wydajności (np. kl./s, ping, utrata pakietów) są wyświetlane w interfejsie w grze."
 		"settings_audio_section"			"Dźwięk"
 		"settings_music_section"			"Muzyka"
+		"settings_voice_section"			"Czat głosowy"
+		"settings_audio_advanced_section"		"Korektor dla trybów gry"
 		"settings_video_section"			"Obraz"
 		"settings_video_advanced_section"	"Zaawansowane ustawienia obrazu"
-		"settings_video_individual_presets"	"Indywidualne ustawienia:"
+		"settings_video_frame_pacing"		"Tempo klatek"
+		"settings_video_presets"			"Szablony"
 		"settings_video_hud_edge_positions"	"Skrajne pozycje HUD"
 		"settings_video_hud_edge_x"			"Dopasuj w poziomie"
 		"settings_video_hud_edge_y"			"Dopasuj w pionie"
@@ -37398,6 +37559,7 @@
 		"CSGO_Workshop_Mode_coopstrike"				"Szturm kooperacyjny"
 		"CSGO_Workshop_Mode_custom"					"Niestandardowy"
 		"CSGO_Workshop_Mode_armsrace"				"Wyścig zbrojeń"
+		"CSGO_Workshop_Mode_gungameprogressive"		"Wyścig zbrojeń"
 		"CSGO_Workshop_Mode_demolition"				"Demolka"
 		"CSGO_Workshop_Mode_flyingscoutsman"		"Latający skaut"
 		"CSGO_Workshop_Mode_retakes"				"Odbijanie"
@@ -37658,6 +37820,8 @@
 		"tooltip_unequip_flair"						"Usuń ten przedmiot z wyposażenia"
 		"tooltip_prime"								"Konto ze statusem Prime"
 
+		"tooltip_demo_highlights_toggle"			"Przełącz odtwarzanie najlepszych momentów."
+
 		"mainmenu_go_to_character_loadout"			"Zobacz agenta w wyposażeniu"
 		"mainmenu_switch_vanity_to_t"				"Pokaż wybranego agenta terrorystów"
 		"mainmenu_switch_vanity_to_ct"				"Pokaż wybranego agenta antyterrorystów"
@@ -37693,7 +37857,7 @@
 		"gamemode_scrimcomp2v2_desc"				"Zagraj cały mecz na małej mapie z krótkimi rundami. Kupuj nową broń co rundę zdobytymi pieniędzmi i wygraj rundę, eliminując drużynę przeciwną lub wykonując zadanie."
 		"gamemode_scrimcomp2v2_desclist"          "· Ogień przyjacielski jest włączony<br>· Przenikanie przez sojuszników jest wyłączone<br>· Pancerz i zestaw do rozbrajania do zakupienia osobno<br>· Mecz składa się z maksymalnie 16 rund"
 		"gamemode_scrimcomp5v5_descsp"			"Kupuj nową broń co rundę zdobytymi pieniędzmi.<br><br>Wygraj rundę, eliminując drużynę przeciwną lub wykonując zadanie."
-		"gamemode_scrimcomp5v5_descsplist"        "· Ogień przyjacielski jest włączony<br>�� Przenikanie przez sojuszników jest wyłączone<br>· Pancerz i zestaw do rozbrajania do zakupienia osobno<br>· Mecz składa się z maksymalnie 20 rund<br>· Każdą broń można zakupić tylko raz"
+		"gamemode_scrimcomp5v5_descsplist"        "· Ogień przyjacielski jest włączony<br>· Przenikanie przez sojuszników jest wyłączone<br>· Pancerz i zestaw do rozbrajania do zakupienia osobno<br>· Mecz składa się z maksymalnie 20 rund<br>· Każdą broń można zakupić tylko raz"
 		"gamemode_scrimcomp5v5_desc"				"Zagraj cały mecz, w którym każdą broń można zakupić zdobytymi pieniędzmi tylko raz. Wygraj rundę, eliminując drużynę przeciwną lub wykonując zadanie."
 		"gamemode_scrimcomp5v5_desclist"          "· Ogień przyjacielski jest włączony<br>· Przenikanie przez sojuszników jest wyłączone<br>· Pancerz i zestaw do rozbrajania do zakupienia osobno<br>· Mecz składa się z maksymalnie 20 rund"
 		"gamemode_skirmish_descsp"			"Zagraj w nowe tryby gry na oficjalnych serwerach"
@@ -37757,14 +37921,14 @@
 		"BuyMenu_Buyprev"				"[{s:bind_rebuy}] Kup ostatni zestaw"
 		"BuyMenu_Buyprev_Key"			"{s:rebuy}"
 		"BuyMenu_Back"					"[{s:bind_cancelselect}] Wstecz"
-		"BuyMenu_BuyForTeammate"		"Przytrzymaj [{s:buywheel_donate_key}] Kup dla sojusznika"
+		"BuyMenu_BuyForTeammate"		"Przytrzymaj [{s:buywheel_donate_key}] Kup i wyrzuć"
 		"BuyMenu_BuyForTeammate_Donate"		"[{s:csgo_donate}] Podaruj"
 
 		"BuyMenu_Sellbackall"			"[{s:bind_sellbackall}] Zwróć wszystko"
 
 
 		"BuyMenu_BuyForTeammate_Key"	"{s:autobuy}"
-		"BuyMenu_BuyForTeammate_hint"	"Kupiona broń zostanie upuszczona na ziemię, by sojusznik mógł ją podnieść."
+		"BuyMenu_BuyForTeammate_hint"	"Kup i wyrzuć"
 
 		"BuyMenu_Done"					"${cancel} Zamknij"
 
@@ -37781,6 +37945,7 @@
 		"BuyMenu_NotInBuyZone"			"Opuszczono strefę kupowania"
 		"BuyMenu_CantBuyTilNextWave"	"Nie możesz dokonać zakupu podczas fali"
 		"BuyMenu_CantBuy"				"Nie możesz dokonać zakupu"
+		"BuyMenu_MinMoneyNextRound"		"Minimum w kolejnej rundzie: {d:next-round-min-money} $"
 
 		"BuyMenu_Header"				"MENU ZAKUPÓW"
 		"BuyMenu_WeaponClass"			"WYBIERZ MENU BRONI"
@@ -37811,6 +37976,7 @@
 		"buymenu_tooltip_tagging"				"Redukcja szybkości ruchu nakładana na trafionych przeciwników."
 
 		"buymenu_money"							"{d:r:money}$"
+		"buymenu_money_digitpanel_digits"		" 0123456789 $"
 		"buymenu_cost_amount"					"{d:r:item_price} $"
 		"buymenu_killaward_amount"				"{d:r:kill_reward}$ ({d:r:kill_reward_pct}%)"
 
@@ -38018,9 +38184,7 @@
 		"Scoreboard_money_val"							"{d:r:stat_d_money}$"
 		"Scoreboard_damage"								"OBR."
 		"Scoreboard_knifekills"							"Z (nóż)"	
-		"Scoreboard_taserkills"							"Z (Zeus x27)"		
-
-
+		"Scoreboard_taserkills"							"Z (Zeus x27)"
 		"Scoreboard_lossmoneybonus_tooltip"				"{s:round_loss_income_team} zdobędą <b>{d:round_loss_income_amount}$</b> po przegranej rundzie."
 
 		"Scoreboard_ping_tooltip"		 				"Ping"
@@ -38046,7 +38210,7 @@
 
 		"Scoreboard_ListeningTo"						"Słuchasz: "
 
-		"Scoreboard_Time_Timeout"						"{s:team_name} - PRZERWA: {s:s_gametime_time}"
+		"Scoreboard_Time_Timeout"						"{s:team_name} – PRZERWA: {s:s_gametime_time}"
 
 		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
 		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
@@ -38181,11 +38345,14 @@
 		///////////////////////////////////////////////////////////
 		
 		"eom-skillgroup-win:p{matcheswon}"				"zwycięstwo w trybie {s:rating_type}#|#zwycięstwa w trybie {s:rating_type}#|#zwycięstw w trybie {s:rating_type}#|#zwycięstwa w trybie {s:rating_type}"
+		"eom-skillgroup-map-win:p{matcheswon}"			"zwycięstwo w trybie {s:rating_type} na mapie {s:map}#|#zwycięstwa w trybie {s:rating_type} na mapie {s:map}#|#zwycięstw w trybie {s:rating_type} na mapie {s:map}#|#zwycięstwa w trybie {s:rating_type} na mapie {s:map}"
+
 		"eom-skillgroup-needed-wins:p{winsneeded}"		"Wygraj {d:winsneeded} mecz, by poznać swoją rangę.#|#Wygraj {d:winsneeded} mecze, by poznać swoją rangę.#|#Wygraj {d:winsneeded} meczów, by poznać swoją rangę.#|#Wygraj {d:winsneeded} meczu, by poznać swoją rangę."
 		"eom-skillgroup-expired"						"Wygraj <b>1</b> mecz w trybie <b>{s:rating_type}1</b>, by odświeżyć swoją wygasłą rangę."
 		"eom-skillgroup-expired-premier"				"Wygraj <b>1</b> mecz w trybie <b>{s:rating_type}1</b>, by odświeżyć swoją wygasłą klasyfikację CS."
 		"eom-skillgroup-recalibrating"					"Ranga wymaga ponownej kalibracji. Wygraj <b>1</b> mecz w trybie {s:rating_type}, by ją poznać."
 		"eom-skillgroup-higher"							"Wyższa ranga"
+		"eom-skillgroup-map-name"						"Twoja ranga w trybie {s:rating_type} na mapie {s:map}"
 		"eom-skillgroup-name"							"Twoja ranga w trybie {s:rating_type}"
 		"eom-skillgroup-needed-dzgames"					"Zagraj więcej meczów w trybie Strefy zagrożenia, by poznać swoją rangę."
 
@@ -38724,8 +38891,6 @@
 		"eom-survival-damage-taken"						"Otrzymane obrażenia"
 		"eom-survival-damage-given"						"Zadane obrażenia"
 
-		"versus"										"KONTRA"
-
 
 
 		//////////////////////////////////////////////////////////////////
@@ -38945,14 +39110,20 @@
 		///////////////////////////////////////////////////////////
 
 		"Panorama_winpanel_mvp_award"				"MVP"
-		"Panorama_winpanel_mvp_award_kills"			"MVP za najwięcej zabójstw"
+		"Panorama_winpanel_mvp_award_kills"			"MVP"
 		"Panorama_winpanel_mvp_award_ace"			"MVP za rundę z asem"
 		"Panorama_winpanel_mvp_award_bombplant"		"MVP za podłożenie bomby"
 		"Panorama_winpanel_mvp_award_bombdefuse"	"MVP za rozbrojenie bomby"
 		"Panorama_winpanel_mvp_award_rescue"		"MVP za uratowanie zakładnika"
 		"Panorama_winpanel_mvp_award_score"			"MVP za najwyższy wynik"
-		"Panorama_winpanel_mvp_award_gungame"		"{s:mvp}"
-		"Panorama_winpanel_mvp_winner"				"{s:mvp}"
+		"Panorama_winpanel_mvp_award_inferno"		"MVP za zadanie znaczącej ilości obrażeń od ognia"
+		"Panorama_winpanel_mvp_award_blast"			"MVP za zadanie znaczącej ilości obrażeń od eksplozji"
+		"Panorama_winpanel_mvp_award_bombdefuse_clutch"	"MVP za rozbrojenie podczas clutchu"
+		"Panorama_winpanel_mvp_award_bombplant_clutch"	"MVP za podłożenie i obronienie bomby"
+		"Panorama_winpanel_mvp_award_gungame"		"MVP"
+		"Panorama_winpanel_mvp_winner"				"MVP"
+		"Panorama_winpanel_mvp_award_kills_three"	"MVP za najwięcej zabójstw (3)"
+		"Panorama_winpanel_mvp_award_kills_four"	"MVP za najwięcej zabójstw (4)"
 
 		"Panorama_WinPanel_rank_awarded_multi"	"Zdobywasz nowe stopnie {d:rank_increase}!"
 
@@ -39058,6 +39229,7 @@
 		"pickem_save_all" 			"ZAPISZ WSZYSTKIE TYPY"
 		"pickem_make_picks" 		"DOKONANO {d:user-picks} z {d:total-picks} TYPÓW"
 		"pickem_drag_picks" 		"Przeciągnij drużyny, by wytypować"
+		"pickem_reveal_all_results" "Pokaż klasyfikację końcową"
 		"pickem_saved" 		"Zapisano typy"
 		"pickem_teams_tbd" 	"Drużyny do rozstrzygnięcia"
 		"pickem_challenge_section_title" "WYZWANIE PICK'EM"
@@ -39067,10 +39239,12 @@
 		"pickem_items_tab_playoff_stage" "FAZA PUCHAROWA"
 		"pickem_teams_remove_all_tooltip" 	"Wyczyść wszystkie typy"
 		"pickem_teams_fill_tooltip" 	"Wypełnij puste typy losowo"
-		"pickem_teams_remove_all_tooltip" 	"Clear all picks"
+		"pickem_versus"				"VS"
 		"contextmenu_pickem_souvenir_title" 	"Wybierz mecz, z którego chcesz odebrać zestaw pamiątkowy"
 		"contextmenu_pickem_souvenir_no_result" 	"Wróć, gdy to spotkanie się zakończy, by odebrać zestaw pamiątkowy."
 		"mainmenu_major_hub"	"CENTRUM I PRZEDMIOTY MISTRZOSTW W KOPENHADZE "
+		"mainmenu_major_hub_items"	"Naklejki już dostępne"
+		"mainmenu_major_hub_no_items" "CENTRUM MISTRZOSTW W KOPENHADZE "
 
 		"pickem_swiss_group_00"									"0:0"
 		"pickem_swiss_group_10"									"1:0"
@@ -39161,17 +39335,15 @@
 		///////////////////////////////////////////////////////////
 		
 		"Panorama_Overwatch_Downloading"		"Pobieranie danych sprawy..."
-		"Panorama_Overwatch_Review"				"Zweryfikowanie sprawy zajmuje około 10 minut."
-		"Panorama_Overwatch_Welcome"			"Witaj w Nadzorze"
-		"Panorama_Overwatch_Tooltip_p1"		"Nadzór pozwala społeczności CS:GO na samoregulację poprzez dostarczenie możliwości oceny zgłoszeń szkodliwego zachowania przez wykwalifikowanych członków społeczności („śledczych”). Śledczy może ocenić prawdziwość zgłoszenia oraz w uzasadnionym przypadku nałożyć blokadę na podejrzanego.\n\nJeżeli zdecydujesz się na uczestnictwo, otrzymasz powtórki (około 10 minut) graczy podejrzanych o szkodliwe zachowanie oraz możliwość ich oceny."
+		"Panorama_Overwatch_Review"				"Rozpatrzenie sprawy zajmuje kilka minut."
+		"Panorama_Overwatch_Welcome"			"Nadzór w Counter-Strike 2"
+		"Panorama_Overwatch_Tooltip_p1"			"W ramach twojej pracy na rzecz społeczności Counter-Strike będziesz pobierać i przeglądać powtórki z meczów Counter-Strike 2 na oficjalnych serwerach Valve oraz szukać oznak podejrzanego zachowania. Po obejrzeniu powtórki poprosimy cię o wydanie werdyktu w związku z rozgrywką danego gracza."
 		"Panorama_Overwatch_Tooltip_sh1"		"Krok 1"
-		"Panorama_Overwatch_Tooltip_p2"		"Naciśnij przycisk <b>Pobierz dowód</b>, by rozpocząć pobieranie powtórki związanej ze sprawą."
+		"Panorama_Overwatch_Tooltip_p2"			"Kliknij „POBIERZ DOWÓD” w prawym dolnym rogu, by pobrać sprawę Nadzoru."
 		"Panorama_Overwatch_Tooltip_sh2"		"Krok 2"
-		"Panorama_Overwatch_Tooltip_p3"			"Naciśnij przycisk <b>Oceń dowód</b>, by obejrzeć powtórkę."
+		"Panorama_Overwatch_Tooltip_p3"			"Kliknij „OCEŃ DOWÓD”, by obejrzeć powtórkę z perspektywy gracza zarejestrowaną przez serwer."
 		"Panorama_Overwatch_Tooltip_sh3"		"Krok 3"
-		"Panorama_Overwatch_Tooltip_p4"			"Na koniec należy wybrać stosowne rozwiązanie z podanych możliwości."
-		"Panorama_Overwatch_Tooltip_sh4"		"Krok 4"
-		"Panorama_Overwatch_Tooltip_p5"			"Skończone!\n\nPo rozwiązaniu spraw otrzymasz <b>nagrodę w postaci punktów doświadczenia</b> w oparciu o dokładność twoich osądów. Punkty te zostaną przyznane na końcu meczu na oficjalnym serwerze. Dziękujemy za twoją pomoc dla społeczności CS:GO."
+		"Panorama_Overwatch_Tooltip_p4"			"Po obejrzeniu powtórki poprosimy cię o wydanie werdyktu dla każdego pytania, a następnie kliknięcie przycisku „PRZEŚLIJ WERDYKT”."
 		"Panorama_Overwatch_Major_Disruption"	"Duża szkodliwość"
 		"Panorama_Overwatch_Minor_Disruption"	"Mała szkodliwość"
 		"Panorama_Overwatch_Res_Griefing"		"Umyślne przeszkadzanie"
@@ -39424,15 +39596,42 @@
 		"LoadoutLockedPopupTitle"				"Wyposażenie zablokowane"
 		"LoadoutLockedPopupText"				"Zmiany w wyposażeniu podczas wyszukiwania gier w trybie Turniejowym są niedozwolone."
 
-		"Workshop_tournament_item_title" "Narzędzie zgłaszania przedmiotów turniejowych"
-		"Workshop_tournament_item_error_title" "Wprowadź nazwę swojego przedmiotu. Powinna zawierać imię i nazwisko gracza lub inne dane identyfikacyjne."
-		"Workshop_tournament_item_error_image" "Wybierz prawidłowy obraz .jpeg lub .png mniejszy niż {s:max_size} i o szerokości/wysokości wynoszącej co najmniej {d:min_height}"
-		"Workshop_tournament_item_ready" "Zgłoszenie jest gotowe do przesłania"
+		"Workshop_item_title" "Narzędzie zgłaszania przedmiotów"
+		"Workshop_item_error_title" "Wprowadź nazwę swojego przedmiotu. Powinna zawierać imię i nazwisko gracza lub inne dane identyfikacyjne."
+		"Workshop_item_error_image" "Wybierz prawidłowy obraz .jpeg lub .png mniejszy niż {s:max_size} i o szerokości/wysokości wynoszącej co najmniej {d:min_height}."
+		"Workshop_item_ready" "Zgłoszenie jest gotowe do przesłania"
 		"SFUI_Go_To_Mic_Enable_key" "Przejdź do przypisania klawisza do mikrofonu"
 		"SFUI_Go_To_Console_Key_Binding" "Przejdź do przypisania klawisza do konsoli"
 
-// crow_mask_41910_comment
-// crow_mask_41911_comment
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Steam Video
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"SteamVideo_Player_Kill_Title"					"Zabiłeś gracza %s1"
+		"SteamVideo_Player_Kill_Description"			"z użyciem: %s1"
+				
+		"SteamVideo_Player_Double_Kill_Title"			"Podwójne zabójstwo"
+		"SteamVideo_Player_Multi_Kill_Title"			"Wielobójstwo"
+		
+		"SteamVideo_Player_Death_Title"					"Zabił cię gracz %s1"
+		"SteamVideo_Player_Death_Description"			"z użyciem: %s1"
+		"SteamVideo_Player_Death_Description_Plural"	"z użyciem: %s1"
+		"SteamVideo_Player_Killed_Self_Title"			"Zabiłeś sam siebie"
+		
+		"SteamVideo_Bomb_Planted_Title"					"Bomba podłożona"
+		"SteamVideo_Bomb_Planted"						"Gracz %s1 podłożył bombę"
+		"SteamVideo_Bomb_Planted_LocalPlayer"			"Podłożyłeś bombę"
+		
+		"SteamVideo_Bomb_Defused_Title"					"Bomba rozbrojona"
+		"SteamVideo_Bomb_Defused"						"Gracz %s1 rozbroił bombę"
+		"SteamVideo_Bomb_Defused_LocalPlayer"			"Rozbroiłeś bombę"
+		
+		"SteamVideo_Bomb_Exploded_Title"				"Bomba eksplodowała"
+		
+		"SteamVideo_Round_Number_Label"					"Runda %s1"
+		"SteamVideo_Start_Of_Round_Title"				"Początek rundy %s1"
+
+// crow_mask_42161_comment
+// crow_mask_42162_comment
 }
 
 

@@ -75,7 +75,18 @@
 		"GameUI_Always" 	"Vždy"
 		"GameUI_ObservedBotCrosshair_Takeover" 	"Pouze, když nad botem převezmu kontrolu"
 		"GameUI_ObservedBotCrosshair_Default" 	"Nikdy"
-
+		"GameUI_KeepCrosshair"	"Viditelný běžný zaměřovač"
+		"GameUI_KeepCrosshairInfo" "Určuje, zdali má být s pomocným zaměřovačem vidět i běžný zaměřovač."
+		"GameUI_GrenadeCrosshairFlash"	"Oslepující granáty"
+		"GameUI_GrenadeCrosshairHE"	"Výbušné granáty"
+		"GameUI_GrenadeCrosshairFire"	"Molotovy / Zápalné granáty"
+		"GameUI_GrenadeCrosshairSmoke"	"Dýmovnice"
+		"GameUI_GrenadeCrosshairDecoy"	"Návnady"
+		"GameUI_GrenadeCrosshairInfoTooltipFlash" "Chceš při házení oslepujících granátů vidět pomocný zaměřovač? Pokud ano, po jaké době od vytažení pojistky se má ukázat?"
+		"GameUI_GrenadeCrosshairInfoTooltipHE" "Chceš při házení výbušných granátů vidět pomocný zaměřovač? Pokud ano, po jaké době od vytažení pojistky se má ukázat?"
+		"GameUI_GrenadeCrosshairInfoTooltipFire" "Chceš při házení molotovů a zápalných granátů vidět pomocný zaměřovač? Pokud ano, po jaké době od vytažení pojistky se má ukázat?"
+		"GameUI_GrenadeCrosshairInfoTooltipSmoke" "Chceš při házení dýmovnic vidět pomocný zaměřovač? Pokud ano, po jaké době od vytažení pojistky se má ukázat?"
+		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Chceš při házení návnad vidět pomocný zaměřovač? Pokud ano, po jaké době od vytažení pojistky se má ukázat?"
 
 
 		"GameUI_Xhair_Reset_Tooltip" 		"Resetuje všechny hodnoty zaměřovače na výchozí."
@@ -231,7 +242,7 @@
 		"GameUI_Disconnect_SteamTicket"						"Tiket STEAM ID uživatele je neplatný."
 		"GameUI_Disconnect_SteamLogon"						"chybějící přihlášení do služby Steam"
 		"GameUI_Disconnect_SteamInUse"						"tento účet služby Steam je používán na jiném místě"
-		"GameUI_Disconnect_SteamOwnership"					"Tento účet služby Steam nevlastní tuto hru.\nPřihlas se ke správnému účtu."
+		"GameUI_Disconnect_SteamOwnership"					"Nepodařilo se ověřit vlastnictví hry na tomto účtu služby Steam."
 		"GameUI_Disconnect_SteamVAC"						"Byl jsi zabanován na serveru zabezpečeném ochranou VAC."
 		"GameUI_Disconnect_SteamTimeOut"					"Vypršelo spojení ochrany Valve Anti-Cheat. Ujisti se, že nepoužíváš žádné programy, které by mohly zasahovat do fungování ochrany, a že tvůj klient služby Steam je správně nainstalován."
 		"GameUI_Disconnect_StringTableMessage"				"Chyba při zapisování aktualizace do tabulky řetězců."
@@ -515,8 +526,9 @@
 		"loadingscreen_title_ar_shoots_3"		"Shoots"
 		"loadingscreen_title_ar_shoots_4"		"Shoots"
 
-		"GameUI_Settings_ShowLocation"		"Pozice"
-		"GameUI_Settings_ShowLocationAndEquipment"		"Pozice a výbava"
+		"GameUI_Settings_ShowLocation"					"Značky"
+		"GameUI_Settings_ShowLocationAndName"			"Značky, jména a zdraví"
+		"GameUI_Settings_ShowLocationAndEquipment"		"Značky, jména, zdraví a výbava"
 
 		"GameUI_ReportBug"		"NAHLÁSIT CHYBU"
 		"GameUI_Bug_Successful"		"Chyba byla úspěšně odeslána!"
@@ -1084,6 +1096,7 @@
 		"Cstrike_TitlesTXT_Game_added_position"								"Byl jsi přidán na pozici %s1 z 5"
 		"Cstrike_TitlesTXT_Game_bomb_drop"									"%s1 upustil bombu"
 		"Cstrike_TitlesTXT_Game_afk_bomb_drop"								"Upustil jsem bombu."
+		"Cstrike_TitlesTXT_Game_get_out_of_there"							"Vypadněte odtud!"
 		"Cstrike_TitlesTXT_Game_bomb_pickup"								"%s1 sebral bombu"
 		"Cstrike_TitlesTXT_Game_connected"									"%s1 se připojil"
 		"Cstrike_TitlesTXT_Game_disconnected"								"%s1 opustil zápas"
@@ -1358,6 +1371,8 @@
 		"CTBar"				"CT Bar"
 		"UpperCatwalks"		"Vrchní lávky"
 		"LowerCatwalks"		"Spodní lávky"
+		"UpperCatwalk"		"Vrchní lávka"
+		"UpperConveyor"		"Vrchní dopravník"
 		"GroundLevel"		"Přízemí"
 		"LockerRoom"		"Šatna"
 		"BackEntrance"		"Zadní vchod"
@@ -1376,7 +1391,7 @@
 		"CTSideLower"		"Spodní strana CT"
 		"TSideUpper"		"Vrchní strana T"
 		"TSideLower"		"Spodní strana T"
-		"UpperCarousel"		"Horní dopravník"
+		"UpperCarousel"		"Vrchní dopravník"
 		"MidCarousel"		"Prostřední dopravník"
 		"LowerCarousel"		"Spodní dopravník"
 		"CTCorridorDown"	"Spodek koridoru CT"
@@ -1541,7 +1556,7 @@
 		"Cstrike_Chat_T"                    " [T] %s1: %s2"
 		"Cstrike_Chat_All"                  " [VŠICHNI] %s1: %s2"
 		"Cstrike_Chat_AllDead"              " [VŠICHNI] %s1 [MRTVÝ]: %s2"
-		"Cstrike_Chat_AllSpec"				" [VŠICHNI] %s1 [DIV��K]: %s2"
+		"Cstrike_Chat_AllSpec"				" [VŠICHNI] %s1 [DIVÁK]: %s2"
 		"Cstrike_Chat_Spec"					" %s1 [DIVÁK]: %s2"
 		"Cstrike_Name_Change"				" %s1 si změnil jméno na %s2"
 
@@ -1565,88 +1580,92 @@
 		"item_cooldown_rounds"			"%s1 (bude k dispozici za %s2 kol/a)"
 		"item_cooldown_minutes"			"%s1 (bude k dispozici za %s2 minut/y)"
 
-		"SFUI_WPNHUD_Pistol"		"Pistole"
-		"SFUI_WPNHUD_SMG"			"Samopal"
-		"SFUI_WPNHUD_Rifle"			"Puška"
-		"SFUI_WPNHUD_Heavy"			"Těžká zbraň"
-		"SFUI_WPNHUD_Grenade"		"Granát"
-		"SFUI_WPNHUD_SniperRifle"	"Odstřelovací puška"
-		"SFUI_WPNHUD_Sniper"		"Odstřelovačka"
-		"SFUI_WPNHUD_Shotgun"		"Brokovnice"
-		"SFUI_WPNHUD_AK47"			"AK-47"
-		"SFUI_WPNHUD_Aug"			"AUG"
-		"SFUI_WPNHUD_AWP"			"AWP"
-		"SFUI_WPNHUD_DesertEagle"	"Desert Eagle"
-		"SFUI_WPNHUD_Deagle"		"Desert Eagle"
-		"SFUI_WPNHUD_Elites"		"Dual Berettas"
-		"SFUI_WPNHUD_Elite"			"Dual Berettas"
-		"SFUI_WPNHUD_Famas"			"FAMAS"
-		"SFUI_WPNHUD_FiveSeven"		"Five-SeveN"
-		"SFUI_WPNHUD_Flashbang"		"Oslepující granát"
-		"SFUI_WPNHUD_G3SG1"			"G3SG1"
-		"SFUI_WPNHUD_GalilAR"		"Galil AR"
-		"SFUI_WPNHUD_Glock18"		"Glock-18"
-		"SFUI_WPNHUD_HE_Grenade"	"Výbušný granát"
-		"SFUI_WPNHUD_HEGrenade"		"Výbušný granát"
-		"SFUI_WPNHUD_Knife"			"Nůž"
-		"SFUI_WPNHUD_Knife_T"		"Nůž"
-		"SFUI_WPNHUD_Knife_GG"		"Zlatý nůž"
-		"SFUI_WPNHUD_Knife_Ghost"	"Nůž ze záhrobí"
-		"SFUI_WPNHUD_M249"			"M249"
-		"SFUI_WPNHUD_M4A1"			"M4A4"
-		"SFUI_WPNHUD_M4_SILENCER"	"M4A1-S"
-		"SFUI_WPNHUD_M4A1_silencer"	"M4A1-S"
-		"SFUI_WPNHUD_MAC10"			"MAC-10"
-		"SFUI_WPNHUD_P90"			"P90"
-		"SFUI_WPNHUD_Smoke_Grenade"	"Dýmovnice"
-		"SFUI_WPNHUD_SmokeGrenade"	"Dýmovnice"
-		"SFUI_WPNHUD_UMP45"			"UMP-45"
-		"SFUI_WPNHUD_xm1014"		"XM1014"
-		"SFUI_WPNHUD_C4"			"Výbušnina C4"
-		"SFUI_WPNHUD_Bizon"			"PP-Bizon"
-		"SFUI_WPNHUD_Mag7"			"MAG-7"
-		"SFUI_WPNHUD_Negev"			"Negev"
-		"SFUI_WPNHUD_Sawedoff"		"Upilovaná brokovnice"
-		"SFUI_WPNHUD_Tec9"			"Tec-9"
-		"SFUI_WPNHUD_Taser"			"Zeus x27"
-		"SFUI_WPNHUD_Molotov"		"Molotov"
-		"SFUI_WPNHUD_IncGrenade"	"Zápalný granát"
-		"SFUI_WPNHUD_Decoy"			"Návnada"
-		"SFUI_WPNHUD_HKP2000"		"P2000"
-		"SFUI_WPNHUD_MP7"			"MP7"
-		"SFUI_WPNHUD_MP5SD"			"MP5-SD"
-		"SFUI_WPNHUD_MP9"			"MP9"
-		"SFUI_WPNHUD_Nova"			"Nova"
-		"SFUI_WPNHUD_P250"			"P250"
-		"SFUI_WPNHUD_CZ75"			"CZ75-Auto"
-		"SFUI_WPNHUD_SCAR20"		"SCAR-20"
-		"SFUI_WPNHUD_SG556"			"SG 553"
-		"SFUI_WPNHUD_SSG08"			"SSG 08"
+		"SFUI_WPNHUD_Pistol"					"Pistole"
+		"SFUI_WPNHUD_SMG"						"Samopal"
+		"SFUI_WPNHUD_Rifle"						"Puška"
+		"SFUI_WPNHUD_Heavy"						"Těžká zbraň"
+		"SFUI_WPNHUD_Grenade"					"Granát"
+		"SFUI_WPNHUD_SniperRifle"				"Odstřelovací puška"
+		"SFUI_WPNHUD_Sniper"					"Odstřelovačka"
+		"SFUI_WPNHUD_Shotgun"					"Brokovnice"
+		"SFUI_WPNHUD_AK47"						"AK-47"
+		"SFUI_WPNHUD_Aug"						"AUG"
+		"SFUI_WPNHUD_AWP"						"AWP"
+		"SFUI_WPNHUD_DesertEagle"				"Desert Eagle"
+		"SFUI_WPNHUD_Deagle"					"Desert Eagle"
+		"SFUI_WPNHUD_Elites"					"Dual Berettas"
+		"SFUI_WPNHUD_Elite"						"Dual Berettas"
+		"SFUI_WPNHUD_Famas"						"FAMAS"
+		"SFUI_WPNHUD_FiveSeven"					"Five-SeveN"
+		"SFUI_WPNHUD_Flashbang"					"Oslepující granát"
+		"SFUI_WPNHUD_G3SG1"						"G3SG1"
+		"SFUI_WPNHUD_GalilAR"					"Galil AR"
+		"SFUI_WPNHUD_Glock18"					"Glock-18"
+		"SFUI_WPNHUD_HE_Grenade"				"Výbušný granát"
+		"SFUI_WPNHUD_HE_Grenade_short"			"Granát"		
+		"SFUI_WPNHUD_HEGrenade"					"Výbušný granát"
+		"SFUI_WPNHUD_Knife"						"Nůž"
+		"SFUI_WPNHUD_Knife_T"					"Nůž"
+		"SFUI_WPNHUD_Knife_GG"					"Zlatý nůž"
+		"SFUI_WPNHUD_Knife_Ghost"				"Nůž ze záhrobí"
+		"SFUI_WPNHUD_M249"						"M249"
+		"SFUI_WPNHUD_M4A1"						"M4A4"
+		"SFUI_WPNHUD_M4_SILENCER"				"M4A1-S"
+		"SFUI_WPNHUD_M4A1_silencer"				"M4A1-S"
+		"SFUI_WPNHUD_MAC10"						"MAC-10"
+		"SFUI_WPNHUD_P90"						"P90"
+		"SFUI_WPNHUD_Smoke_Grenade"				"Dýmovnice"
+		"SFUI_WPNHUD_SmokeGrenade"				"Dýmovnice"
+		"SFUI_WPNHUD_UMP45"						"UMP-45"
+		"SFUI_WPNHUD_xm1014"					"XM1014"
+		"SFUI_WPNHUD_C4"						"Výbušnina C4"
+		"SFUI_WPNHUD_Bizon"						"PP-Bizon"
+		"SFUI_WPNHUD_Mag7"						"MAG-7"
+		"SFUI_WPNHUD_Negev"						"Negev"
+		"SFUI_WPNHUD_Sawedoff"					"Upilovaná brokovnice"
+		"SFUI_WPNHUD_Tec9"						"Tec-9"
+		"SFUI_WPNHUD_Taser"						"Zeus x27"
+		"SFUI_WPNHUD_Molotov"					"Molotov"
+		"SFUI_WPNHUD_IncGrenade"				"Zápalný granát"
+		"SFUI_WPNHUD_IncGrenade_short"			"Zápalný"
+		"SFUI_WPNHUD_Decoy"						"Návnada"
+		"SFUI_WPNHUD_Decoy_short"				"Návnada"
+		"SFUI_WPNHUD_HKP2000"					"P2000"
+		"SFUI_WPNHUD_MP7"						"MP7"
+		"SFUI_WPNHUD_MP5SD"						"MP5-SD"
+		"SFUI_WPNHUD_MP9"						"MP9"
+		"SFUI_WPNHUD_Nova"						"Nova"
+		"SFUI_WPNHUD_P250"						"P250"
+		"SFUI_WPNHUD_CZ75"						"CZ75-Auto"
+		"SFUI_WPNHUD_SCAR20"					"SCAR-20"
+		"SFUI_WPNHUD_SG556"						"SG 553"
+		"SFUI_WPNHUD_SSG08"						"SSG 08"
 		"SFUI_WPNHUD_HEAVYASSAULTSUIT"			"Těžká vesta"
 		"SFUI_WPNHUD_ASSAULTSUIT"				"Kevlar a helma"
 		"SFUI_WPNHUD_ASSAULTSUIT_ONLY_HELMET"	"Helma"
 		"SFUI_WPNHUD_KEVLAR"					"Kevlarová vesta"
-		"SFUI_WPNHUD_DEFUSER"		"Souprava pro zneškodňování bomb"
-		"SFUI_WPNHUD_CUTTERS"		"Souprava pro záchranu rukojmích"
-		"SFUI_WPNHUD_REVOLVER"		"Revolver R8"
-		"SFUI_WPNHUD_USP_SILENCER"	"USP-S"
-		"SFUI_WPNHUD_KnifeBayonet"	"Bajonet"
-		"SFUI_WPNHUD_KnifeFlip"		"Skládací nůž"
-		"SFUI_WPNHUD_KnifeGut"		"Rozparovací nůž"
-		"SFUI_WPNHUD_KnifeCSS"		"Klasický nůž"
-		"SFUI_WPNHUD_KnifeM9"		"Bajonet M9"
-		"SFUI_WPNHUD_KnifeKaram"	"Karambit"
-		"SFUI_WPNHUD_KnifeTactical" "Lovecký nůž"
-		"SFUI_WPNHUD_Knife_Butterfly" "Motýlek"
-		"SFUI_WPNHUD_PartyPopper"		"Zábavní pyrotechnika!"
-		"SFUI_WPNHUD_knife_falchion_advanced" "Falchion"
-		"SFUI_WPNHUD_knife_push" "Pěstní dýky"
-		"SFUI_WPNHUD_knife_survival_bowie" "Nůž Bowie"
-		"SFUI_WPNHUD_Healthshot"			"Adrenalin"
-		"SFUI_WPNHUD_TAGrenade"	"Taktický granát"
-		"SFUI_WPNHUD_Exploding_Barrel"	"Výbušný barel"
-		"SFUI_WPNHUD_Snowball"	"Sněhová koule"
-		"SFUI_WPNHUD_StompDamageKillString"	"ti rozdrtil lebku"
+		"SFUI_WPNHUD_DEFUSER"					"Souprava pro zneškodňování bomb"
+		"SFUI_WPNHUD_CUTTERS"					"Souprava pro záchranu rukojmích"
+		"SFUI_WPNHUD_REVOLVER"					"Revolver R8"
+		"SFUI_WPNHUD_USP_SILENCER"				"USP-S"
+		"SFUI_WPNHUD_KnifeBayonet"				"Bajonet"
+		"SFUI_WPNHUD_KnifeFlip"					"Skládací nůž"
+		"SFUI_WPNHUD_KnifeGut"					"Rozparovací nůž"
+		"SFUI_WPNHUD_KnifeCSS"					"Klasický nůž"
+		"SFUI_WPNHUD_KnifeM9"					"Bajonet M9"
+		"SFUI_WPNHUD_KnifeKaram"				"Karambit"
+		"SFUI_WPNHUD_KnifeTactical" 			"Lovecký nůž"
+		"SFUI_WPNHUD_Knife_Butterfly" 			"Motýlek"
+		"SFUI_WPNHUD_PartyPopper"				"Zábavní pyrotechnika!"
+		"SFUI_WPNHUD_knife_falchion_advanced" 	"Falchion"
+		"SFUI_WPNHUD_knife_push" 				"Pěstní dýky"
+		"SFUI_WPNHUD_knife_survival_bowie" 		"Nůž Bowie"
+		"SFUI_WPNHUD_Healthshot"				"Adrenalin"
+		"SFUI_WPNHUD_TAGrenade"					"Taktický granát"
+		"SFUI_WPNHUD_Exploding_Barrel"			"Výbušný barel"
+		"SFUI_WPNHUD_Snowball"					"Sněhová koule"
+
+		"SFUI_WPNHUD_StompDamageKillString"		"ti rozdrtil lebku"
 
 		"SFUI_WPNHUD_DangerZone"	"Zóna smrti"
 		"SFUI_WPNHUD_AutoSentry"	"Automatická střílna"
@@ -1824,10 +1843,10 @@
 		"Player_You_Are_Still_Dominating" "Pořád dominuješ hráči %s1."
 
 		"Player_On_Killing_Spree"		"%s1 dosáhl killing spree díky %s2 zabitím v řadě!"
-		"Player_Killing_Spree_2"		"Double Kill!"
-		"Player_Killing_Spree_3"		"Triple Kill!!"
-		"Player_Killing_Spree_4"		"Quadruple Kill!!"
-		"Player_Killing_Spree_more"		"Killing Spree!!! ×%s1"
+		"Player_Killing_Spree_2"		"Dvojnásobné zabití!"
+		"Player_Killing_Spree_3"		"Trojnásobné zabití!"
+		"Player_Killing_Spree_4"		"Čtyřnásobné zabití!"
+		"Player_Killing_Spree_more"		"Série %s1 zabití!!!"
 		"Player_Killed_Enemy_Leader"	"Zabil jsi vedoucího hráče nepřátelského týmu!"
 		"SFUI_Player_Is_Leader"			"JSI VEDOUCÍ HRÁČ"
 		"SFUI_PlayerCount_Alive_Left:p{left_side_alive}"	"NAŽIVU#|#NAŽIVU#|#NAŽIVU#|#NAŽIVU"
@@ -2063,6 +2082,7 @@
 		"CSGO_Weapon_Possessive"				"%s2 hráče <span class=\"possessive-player-name\">%s1</span>"
 		"CSGO_Weapon_Possessive_T"				"%s2 hráče <span class=\"possessive-player-name\">%s1 (T)</span>"
 		"CSGO_Weapon_Possessive_CT"				"%s2 hráče <span class=\"possessive-player-name\">%s1 (CT)</span>"
+		"CSGO_Possessive"						"<span class=\"possessive-player-name\">%s1</span>"
 
 		"DeathPanel_Killer2"			" "
 		"DeathPanel_HappyHolidays"		"TI PŘEJE VESELÉ VÁNOCE"
@@ -2269,6 +2289,10 @@
 		"Econ_Loot_List_AndSomeMoreItems" "... a další (%s1)"
 
 		"Econ_Revolving_Loot_List"				"Obsahuje jeden z následujících předmětů:"
+		"Econ_Revolving_Loot_List_Single"		"Získáš jeden z následujících předmětů"
+		"Econ_Revolving_Loot_List_Rental"		"<img src='file://{images}/icons/ui/hourglass.svg' class='popup-decodable-lootlist-single-icon'/> Na 7 dní si vypůjčíš všechny následující předměty s výjimkou extrémně vzácného "
+
+		
 		"Econ_Revolving_Loot_List_Rare_Item"	"nebo speciální, extrémně vzácný předmět!"
 		"Exceedingly_Rare_Item"					"★ Speciální předmět ★"
 
@@ -2312,22 +2336,11 @@
 		"Item_GiftWrapped"						" %s1 zabalil dárek: %s2"
 		"Item_PeriodicScoreReward"				" %s1 získal: %s2"
 		"Item_Named"							" %s1 změnil název předmětu %s2 na %s3"
-
-		"Item_GiftsSent1Anon"					" %s1 odeslal dárek!"
-		"Item_GiftsSent1Name"					" %s1 odeslal dárek hráči %s2!"
-		"Item_GiftsSentMany"					" %s1 rozdal %s2 dárků!"
-		"Item_GiftsYouSentGift"					" Tvůj dárek byl doručen hráči %s1!"
-		"Item_GiftsYouGotGift"					" Obdržel jsi dárek od hráče %s1! Tento dárek byl přidán do tvého inventáře a čeká na potvrzení."
+		"Item_Rental"							" %s1 si vypůjčil: %s2"
 
 		"Item_NotConnected"						"Tento předmět můžeš použít pouze během zápasu!"
 		"Item_Need2Players"						"Abys mohl použít tento předmět, musí být v zápase připojeni další hráči!"
 		"Item_NeedSpectators"					"Abys mohl použít tento předmět, musí zápas sledovat nějací diváci!"
-
-		"Item_GiftNoPlayers"					"Ve hře se nenachází žádný hráč, který by od tebe mohl obdržet dárek!"
-		"Item_GiftedItems"						"%s1 odeslal dárek hráči %s2!"
-		"Item_GifterText_Random"				"%recipient% byl náhodně vybrán a obdržel dárek od hráče %giver%!"
-		"Item_GifterText_All"					"%giver% rozdal spoustu dárků!"
-		"Item_GifterText_SelfOpen"				"%giver% otevřel balíček!"
 
 		"Item_Received_Event_Local"					"Obdržel jsi: %s1!"
 
@@ -2340,6 +2353,7 @@
 		"NewItemMethod_Traded"			"Výměnou jsi získal:"
 		"NewItemMethod_Purchased"		"Zakoupil sis:"
 		"NewItemMethod_FoundInCrate"	"Otevřel jsi:"
+		"NewItemMethod_Rental"			"Vypůjčil sis:"
 		"NewItemMethod_Gifted"			"Obdržel jsi dárek:"
 		"NewItemMethod_Promotion"		"Získal jsi propagační předmět:"
 		"NewItemMethod_Earned"			"Získal jsi:"
@@ -2416,6 +2430,7 @@
 		"ItemHistory_Transaction_Delete"								"Odstranili jste"
 		"ItemHistory_Transaction_Craft"									"Získali jste vycraftováním"
 		"ItemHistory_Transaction_UnlockCrate"							"Otevřeli jste bednu"
+		"ItemHistory_Transaction_UnlockCrateForRental"					"Otevřeli jste bednu za účelem výpůjčky"
 		"ItemHistory_Transaction_UnsealGraffiti"						"Rozbalili jste"
 		"ItemHistory_Transaction_SupportUndo"							"Podpora hry Counter-Strike vzala zpět jednu nebo více Vašich akcí"
 		"ItemHistory_Transaction_UpgradeChallengeCoin"					"Vylepšili jste minci"
@@ -2478,7 +2493,6 @@
 		"LoadoutSlot_customplayer"					"Agenti"
 
 		"LoadoutSlot_MusicKit"						"Hudební balíčky"
-
 
 		// Weapon Rarity Names
 		"Rarity_Default_Weapon"						"Základní"
@@ -2580,6 +2594,7 @@
 		"Attrib_ReferencedItem"						"Obsahuje: %s1"
 		"Attrib_TimeLocalization_Hours"				"%s1 hodin"
 		"Attrib_TimeLocalization_Minutes"			"%s1 minut"
+		"Attrib_CanOpenForRental"					"Předměty z této bedny je také možné si vypůjčit."
 
 		"Attrib_CompetitiveMinutesPlayedAsHrs"		"Čas v kompetitivním módu: %s1"
 		"Attrib_CompetitiveWins"					"Vyhrané zápasy v kompetitivním módu: %s1"
@@ -2606,6 +2621,7 @@
 		"Attrib_ModificationDate"					"Datum změny: %s1"
 		"Attrib_OperationBonusXP"					"Bonus získaný za operaci: +%s1 XP"
 		"Attrib_IssueDate"							"Datum přidělení: %s1"
+		"Attrib_ExpirationDate"						"Datum vrácení: %s1"
 
 		"Attrib_SpraysRemaining"					"Zbývající použití: %s1"
 		"Attrib_SpraysRemaining_Unlimited"			"Neomezené graffiti"
@@ -2811,7 +2827,7 @@
 		"CSGO_official_leaderboard_season_7_xp_guardian"	"XP módu Stráž"
 		"CSGO_official_leaderboard_season_7_xp_events"	"XP události"
 
-		// premier 1
+		// premier
 		"official_leaderboard_premier_season1_name"			"1. sezóna"
 
 		//
@@ -3173,6 +3189,17 @@
 		"CSGO_Collectible_MapTokenBlagai"				"Mince mapy Blagai"
 		"CSGO_Collectible_MapTokenBoyard"				"Mince mapy Boyard"
 		"CSGO_Collectible_MapTokenChalice"				"Mince mapy Chalice"
+		"CSGO_Collectible_MapTokenPoolDay"				"Mince mapy Pool Day"
+		"CSGO_Collectible_MapTokenPoolDay_Desc"			"Připomínka autorství mapy Pool Day."
+		"CSGO_Collectible_MapTokenMemento"				"Mince mapy Memento"
+		"CSGO_Collectible_MapTokenMemento_Desc"			"Připomínka autorství mapy Memento."
+		"CSGO_Collectible_MapTokenAssembly"				"Mince mapy Assembly"
+		"CSGO_Collectible_MapTokenAssembly_Desc"		"Připomínka autorství mapy Assembly."
+		"CSGO_Collectible_MapTokenMills"				"Mince mapy Mills"
+		"CSGO_Collectible_MapTokenMills_Desc"			"Připomínka autorství mapy Mills."
+		"CSGO_Collectible_MapTokenThera"				"Mince mapy Thera"
+		"CSGO_Collectible_MapTokenThera_Desc"			"Připomínka autorství mapy Thera."
+
 		"CSGO_CollectibleCoin_FortiusQuoFidelius"	"Odznak Za věrnost"
 		"CSGO_CollectibleCoin_FortiusQuoFidelius_Desc"	"Tento odznak byl udělen věrným členům komunity hry Counter-Strike, kteří narukovali před vydáním aktualizace Zóna smrti.\n\n<i>Věrnost značí sílu</i>"
 		"CSGO_CollectibleCoin_FiveYearService"		"Veteránská mince (5 let)"
@@ -3393,7 +3420,7 @@
 		"CSGO_CollectibleCoin_London2018_Champion_Desc"			"Tato trofej byla udělena vítězi šampionátu FACEIT London 2018."
 		"CSGO_CollectibleCoin_London2018_Finalist"				"Finalista šampionátu FACEIT London 2018"
 		"CSGO_CollectibleCoin_London2018_Finalist_Desc"			"Tato trofej byla udělena finalistovi šampionátu FACEIT London 2018."
-		"CSGO_CollectibleCoin_London2018_Semifinalist"			"Semifinalista šampionátu FACEIT London 2018"
+		"CSGO_CollectibleCoin_London2018_Semifinalist"			"Semifinalista šampion��tu FACEIT London 2018"
 		"CSGO_CollectibleCoin_London2018_Semifinalist_Desc"		"Tato trofej byla udělena semifinalistovi šampionátu FACEIT London 2018."
 		"CSGO_CollectibleCoin_London2018_Quarterfinalist"			"Čtvrtfinalista šampionátu FACEIT London 2018"
 		"CSGO_CollectibleCoin_London2018_Quarterfinalist_Desc"	"Tato trofej byla udělena čtvrtfinalistovi šampionátu FACEIT London 2018."
@@ -3586,7 +3613,7 @@
 		"CSGO_crate_sticker_pack_hlalyx_capsule_desc" "Tato kapsle obsahuje řadu samolepek vytvořených za účelem oslav vydání hry Half-Life: Alyx, VR návratu k sérii Half-Life."
 //
 		
-		"CSGO_LoadingScreen_Overwatch" "Práce pro Dozor\n\nPo skončení záznamu budeš dotázán,\nzda si myslíš, že podezřelý hráč\nspáchal nějaký přestupek.\n\nTvé skóre je určováno podle toho,\njak přesná jsou tvá rozhodnutí\nve srovnání s ostatními vyšetřovateli.\n\nDěkujeme ti, že pracuješ\njako vyšetřovatel Dozoru."
+		"CSGO_LoadingScreen_Overwatch" "Práce pro Dozor\n\nPo skončení záznamu budeš dotázán,\nzda si myslíš, že podezřelý hráč\nspáchal nějaký přestupek.\n\nTvé skóre je určováno podle toho,\njak přesné jsou tvé verdikty\nve srovnání s ostatními vyšetřovateli.\n\nDěkujeme ti, že pracuješ\njako vyšetřovatel Dozoru."
 		"CSGO_LoadingScreen_CommunityMapCredits" "Tuto komunitní mapu vytvořili:"
 
 		"CSGO_MessageBox_CommunitySeasonOneSpring2013_Desc"        "PODPOŘ KOMUNITNÍ TVŮRCE MAP\n ZAHRAJ SI TY NEJLEPŠÍ KOMUNITNÍ MAPY\n ZÍSKEJ SPECIÁLNÍ MINCI"
@@ -3601,7 +3628,7 @@
 		"csgo_item_usage_desc_glock"										"• Na blízko smrtící, na dálku ne moc účinná pistole<br>• Dobrá volba pro první kolo poloviny<br><i>• Náročnost: <font color=\"#BFBF40\">★★</font></i>"
 		"csgo_item_usage_desc_hkp2000"										"• Na dálku přesná a na blízko dostatečně rychlá pistole<br>• Dobrá volba pro první kolo poloviny<br><i>• Náročnost: <font color=\"#BFBF40\">★★</font></i>"
 		"csgo_item_usage_desc_usp_silencer"									"• Přesná, tichá a (relativně) smrtící pistole<br>• Dobrá volba pro první kolo poloviny<br><i>• Náročnost: <font color=\"#BFBF40\">★★</font></i>"
-		"csgo_item_usage_desc_elite"										"• Dvě rychlopalné pistole za cenu jedné<br>• Dobrá volba pro první kolo poloviny<br><i>• Náročnost: <font color=\"#BFBF40\">★★</font></i>"
+		"csgo_item_usage_desc_elite"										"• Dvě rychlopalné pistole za cenu jedné<br>• Dobrá volba pro první kolo poloviny<br><i>• Náročnost: <font color=\"#BFBF40\">���★</font></i>"
 		"csgo_item_usage_desc_p250"											"• Populární, byť ne moc znatelné navýšení palebné síly<br>• Dobrá volba pro kola s minimálním nákupem<br><i>• Náročnost: <font color=\"#40BF40\"`>★</font></i>"
 		"csgo_item_usage_desc_fiveseven"									"• Silná, rychlá a přesná pistole s mírně vyšší cenovkou<br>• Dobrá volba pro kola s minimálním nákupem<br><i>• Náročnost: <font color=\"#BFBF40\">★★</font></i>"
 		"csgo_item_usage_desc_cz75a"										"• Plně automatická pomoc s odzbrojením nepřátel<br>• Dobrá volba pro kola s minimálním nákupem<br><i>• Náročnost: <font color=\"#BF4040\">★★★★</font></i>"
@@ -4041,7 +4068,6 @@
 		"CSGO_crate_key_community_21"		"Danger Zone Case Key"
 		"CSGO_crate_key_community_21_desc"		"Tento klíč lze použít pouze k otevření bedny Danger Zone Case."
 
-
 		"CSGO_crate_community_22"				"Prisma Case"
 		"CSGO_crate_key_community_22"			"Prisma Case Key"
 		"CSGO_crate_key_community_22_desc"		"Tento klíč lze použít pouze k otevření bedny Prisma Case."
@@ -4127,7 +4153,6 @@
 		"CSGO_crate_sticker_pack_op_riptide_capsule"	    		"Kolekce samolepek Riptide"
 		"CSGO_crate_sticker_pack_op_riptide_capsule_desc"			"Tato kolekce obsahuje samolepky spjaté s operací Riptide."
 
-		
 		"CSGO_crate_community_30"		"Dreams & Nightmares Case"
 		"CSGO_crate_key_community_30"			"Dreams & Nightmares Case Key"
 		"CSGO_crate_key_community_30_desc"		"Tento klíč lze použít pouze k otevření bedny Dreams & Nightmares Case."
@@ -4161,7 +4186,6 @@
 		
 		"CSGO_crate_sticker_pack_community_2024_capsule"	    	"Ambush Sticker Capsule"
 		"CSGO_crate_sticker_pack_community_2024_capsule_desc"		"Tato kapsle vydaná v únoru 2024 obsahuje samolepky z workshopu služby Steam."
-		
 		"coupon_community_2024_sticker_capsule"						"Ambush Sticker Capsule"
 		
 
@@ -4253,7 +4277,7 @@
 		"CSGO_FakePlayer_Donkey"			"Donkey"
 		"CSGO_FakePlayer_Duck"				"Duck"
 		"CSGO_FakePlayer_Emu"				"Emu"
-		"CSGO_FakePlayer_Eclipse"				"Eclipse"
+		"CSGO_FakePlayer_Eclipse"			"Eclipse"
 		"CSGO_FakePlayer_Flamingo"			"Flamingo"
 		"CSGO_FakePlayer_Flute"				"Flute"
 		"CSGO_FakePlayer_Frog"				"Frog"
@@ -4276,9 +4300,9 @@
 		"CSGO_FakePlayer_Ostrich"			"Ostrich"
 		"CSGO_FakePlayer_Octopus"			"Octopus"
 		"CSGO_FakePlayer_Pelican"			"Pelican"
-		"CSGO_FakePlayer_Puffin"				"Puffin"
+		"CSGO_FakePlayer_Puffin"			"Puffin"
 		"CSGO_FakePlayer_Pyramid"			"Pyramid"
-		"CSGO_FakePlayer_Rattle"				"Rattle"
+		"CSGO_FakePlayer_Rattle"			"Rattle"
 		"CSGO_FakePlayer_Robin"				"Robin"
 		"CSGO_FakePlayer_Rose"				"Rose"
 		"CSGO_FakePlayer_Salmon"			"Salmon"
@@ -4291,14 +4315,14 @@
 		"CSGO_FakePlayer_Toaster"			"Toaster"
 		"CSGO_FakePlayer_Toucan"			"Toucan"
 		"CSGO_FakePlayer_Torus"				"Torus"
-		"CSGO_FakePlayer_Violet"				"Violet"
-		"CSGO_FakePlayer_Vortex"				"Vortex"
+		"CSGO_FakePlayer_Violet"			"Violet"
+		"CSGO_FakePlayer_Vortex"			"Vortex"
 		"CSGO_FakePlayer_Vulture"			"Vulture"
 		"CSGO_FakePlayer_Wagon"				"Wagon"
 		"CSGO_FakePlayer_Whale"				"Whale"
 		"CSGO_FakePlayer_Woodpecker"			"Woodpecker"
 		"CSGO_FakePlayer_Zebra"				"Zebra"
-		"CSGO_FakePlayer_Zigzag"				"Zigzag"
+		"CSGO_FakePlayer_Zigzag"			"Zigzag"
 
 		//
 		// Coop and guardian bots localized names
@@ -5467,8 +5491,8 @@
 		"musickit_twerl_01_desc"				"Není lepšího času, kdy šlápnout na plyn, než když jsi v centru pozornosti! Tak se postav na hymnu drum’n’bass od komba umělců TWERL a Ekko & Sidetrack a vytáhni svůj tým do nevídaných výšin."
 		"coupon_twerl_01"						"Hudební balíček | TWERL a Ekko & Sidetrack – Under Bright Lights"
 		"coupon_twerl_01_stattrak"				"Hudební balíček StatTrak™ | TWERL a Ekko & Sidetrack – Under Bright Lights"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			" " // Note: This only supports , and .
 
@@ -9112,7 +9136,7 @@
 	"StickerKit_eslcologne2015_signature_snyper" "SnypeR | Kolín nad Rýnem 2015"
 	"StickerKit_desc_eslcologne2015_signature_snyper" "Tuto samolepku podepsal profesionální hráč Iain Turner, který na šampionátu ESL One Cologne 2015 hraje za tým Immunity.\n\nPolovina výtěžku z prodeje této samolepky bude použita na podporu tohoto hráče a jeho týmu."
 	"StickerKit_eslcologne2015_signature_snyper_foil" "SnypeR (speciální) | Kolín nad Rýnem 2015"
-	"StickerKit_desc_eslcologne2015_signature_snyper_foil" "Tuto speciální samolepku podepsal profesionální hráč Iain Turner, který na šampionátu ESL One Cologne 2015 hraje za tým Immunity.\n\nPolovina výt��žku z prodeje této samolepky bude použita na podporu tohoto hráče a jeho týmu."
+	"StickerKit_desc_eslcologne2015_signature_snyper_foil" "Tuto speciální samolepku podepsal profesionální hráč Iain Turner, který na šampionátu ESL One Cologne 2015 hraje za tým Immunity.\n\nPolovina výtěžku z prodeje této samolepky bude použita na podporu tohoto hráče a jeho týmu."
 	"StickerKit_eslcologne2015_signature_snyper_gold" "SnypeR (zlatá) | Kolín nad Rýnem 2015"
 	"StickerKit_desc_eslcologne2015_signature_snyper_gold" "Tuto zlatou samolepku podepsal profesionální hráč Iain Turner, který na šampionátu ESL One Cologne 2015 hraje za tým Immunity.\n\nPolovina výtěžku z prodeje této samolepky bude použita na podporu tohoto hráče a jeho týmu."
 
@@ -9922,7 +9946,7 @@
 	"StickerKit_cluj2015_signature_ex6tenz_foil" "Ex6TenZ (speciální) | Kluž 2015"
 	"StickerKit_desc_cluj2015_signature_ex6tenz_foil" "Tuto speciální samolepku podepsal profesionální hráč Kévin Droolans, který na šampionátu DreamHack Cluj-Napoca 2015 hraje za tým Titan.\n\nPolovina výtěžku z prodeje této samolepky bude použita na podporu tohoto hráče a jeho týmu."
 	"StickerKit_cluj2015_signature_ex6tenz_gold" "Ex6TenZ (zlatá) | Kluž 2015"
-	"StickerKit_desc_cluj2015_signature_ex6tenz_gold" "Tuto zlatou samolepku podepsal profesionální hráč Kévin Droolans, který na šampionátu DreamHack Cluj-Napoca 2015 hraje za t��m Titan.\n\nPolovina výtěžku z prodeje této samolepky bude použita na podporu tohoto hráče a jeho týmu."
+	"StickerKit_desc_cluj2015_signature_ex6tenz_gold" "Tuto zlatou samolepku podepsal profesionální hráč Kévin Droolans, který na šampionátu DreamHack Cluj-Napoca 2015 hraje za tým Titan.\n\nPolovina výtěžku z prodeje této samolepky bude použita na podporu tohoto hráče a jeho týmu."
 
 	"StickerKit_cluj2015_signature_rpk" "RpK | Kluž 2015"
 	"StickerKit_desc_cluj2015_signature_rpk" "Tuto samolepku podepsal profesionální hráč Cédric Guipouy, který na šampionátu DreamHack Cluj-Napoca 2015 hraje za tým Titan.\n\nPolovina výtěžku z prodeje této samolepky bude použita na podporu tohoto hráče a jeho týmu."
@@ -11136,7 +11160,7 @@
 	"CSGO_crate_signature_pack_cologne2016_clg" "Autograph Capsule | Counter Logic Gaming | ESL Cologne 2016"
 	"CSGO_crate_signature_pack_cologne2016_clg_desc" "Tato kapsle obsahuje jednu samolepku podepsanou jedním z hráčů týmu Counter Logic Gaming účastnícího se šampionátu ESL Cologne 2016.\n\nPolovina výtěžku z prodeje této kapsle bude použita na podporu tohoto hráče a jeho týmu.\n\nSamolepka může být nalepena na jakoukoli zbraň. Nalepenou samolepku můžeš postupně strhávat, každým strhnutím odlepíš kousek samolepky. Pokud ji strhneš celou, navždy ji ze zbraně odstraníš."
 	"CSGO_crate_signature_pack_cologne2016_gamb" "Autograph Capsule | Gambit Gaming | ESL Cologne 2016"
-	"CSGO_crate_signature_pack_cologne2016_gamb_desc" "Tato kapsle obsahuje jednu samolepku podepsanou jedním z hráčů týmu Gambit Gaming účastnícího se šampionátu ESL Cologne 2016.\n\nPolovina výtěžku z prodeje této kapsle bude použita na podporu tohoto hráče a jeho týmu.\n\nSamolepka může být nalepena na jakoukoli zbraň. Nalepenou samolepku můžeš postupně strhávat, každým strhnutím odlepíš kousek samolepky. Pokud ji strhneš celou, nav��dy ji ze zbraně odstraníš."
+	"CSGO_crate_signature_pack_cologne2016_gamb_desc" "Tato kapsle obsahuje jednu samolepku podepsanou jedním z hráčů týmu Gambit Gaming účastnícího se šampionátu ESL Cologne 2016.\n\nPolovina výtěžku z prodeje této kapsle bude použita na podporu tohoto hráče a jeho týmu.\n\nSamolepka může být nalepena na jakoukoli zbraň. Nalepenou samolepku můžeš postupně strhávat, každým strhnutím odlepíš kousek samolepky. Pokud ji strhneš celou, navždy ji ze zbraně odstraníš."
 	"CSGO_crate_signature_pack_cologne2016_flip" "Autograph Capsule | Flipsid3 Tactics | ESL Cologne 2016"
 	"CSGO_crate_signature_pack_cologne2016_flip_desc" "Tato kapsle obsahuje jednu samolepku podepsanou jedním z hráčů týmu Flipsid3 Tactics účastnícího se šampionátu ESL Cologne 2016.\n\nPolovina výtěžku z prodeje této kapsle bude použita na podporu tohoto hráče a jeho týmu.\n\nSamolepka může být nalepena na jakoukoli zbraň. Nalepenou samolepku můžeš postupně strhávat, každým strhnutím odlepíš kousek samolepky. Pokud ji strhneš celou, navždy ji ze zbraně odstraníš."
 	"CSGO_crate_signature_pack_cologne2016_liq" "Autograph Capsule | Team Liquid | ESL Cologne 2016"
@@ -12322,7 +12346,7 @@
 	"StickerKit_atlanta2017_signature_hiko" "Hiko | Atlanta 2017"
 	"StickerKit_desc_atlanta2017_signature_hiko" "Tuto samolepku podepsal profesionální hráč Spencer Martin, který na šampionátu Atlanta 2017 hraje za tým Liquid.\n\nPolovina výtěžku z prodeje této samolepky bude použita na podporu tohoto hráče a jeho týmu."
 	"StickerKit_atlanta2017_signature_hiko_foil" "Hiko (speciální) | Atlanta 2017"
-	"StickerKit_desc_atlanta2017_signature_hiko_foil" "Tuto speciální samolepku podepsal profesionální hráč Spencer Martin, který na šampionátu Atlanta 2017 hraje za tým Liquid.\n\nPolovina výtěžku z prodeje této samolepky bude použita na podporu tohoto hráče a jeho t��mu."
+	"StickerKit_desc_atlanta2017_signature_hiko_foil" "Tuto speciální samolepku podepsal profesionální hráč Spencer Martin, který na šampionátu Atlanta 2017 hraje za tým Liquid.\n\nPolovina výtěžku z prodeje této samolepky bude použita na podporu tohoto hráče a jeho týmu."
 	"StickerKit_atlanta2017_signature_hiko_gold" "Hiko (zlatá) | Atlanta 2017"
 	"StickerKit_desc_atlanta2017_signature_hiko_gold" "Tuto zlatou samolepku podepsal profesionální hráč Spencer Martin, který na šampionátu Atlanta 2017 hraje za tým Liquid.\n\nPolovina výtěžku z prodeje této samolepky bude použita na podporu tohoto hráče a jeho týmu."
 
@@ -15328,7 +15352,7 @@
 //
 
 	"CSGO_TournamentPass_katowice2019" "Vstupenka | IEM Katowice 2019"
-	"CSGO_TournamentPass_katowice2019_Desc" "Tento předmět je zabalená vstupenka na šampionát IEM Katowice 2019. Jakmile vstupenku rozbalíš, poskytne ti minci šampionátu sledující tvůj postup úkoly, přístup k tipovací soutěži, možnost získat exkluzivní suvenýry, vlaječky do konverzací na Steam.tv a graffiti všech týmů s neomezeným počtem použití.\n\nMinci šampionátu IEM Katowice 2019 lze vylepšovat dokončováním úkolů, přičemž po každém vylepšení si můžeš vyzvednout nový suvenýr."
+	"CSGO_TournamentPass_katowice2019_Desc" "Tento předmět je zabalená vstupenka na šampionát IEM Katowice 2019. Jakmile vstupenku rozbalíš, poskytne ti minci šampionátu sledující tvůj postup úkoly, přístup k tipovací soutěži, možnost získat exkluzivní suvenýry, vlaječky do konverzací na Steam.tv a graffiti všech týmů s neomezeným počtem použití.\n\nMinci šampionátu IEM Katowice 2019 lze vylepšovat dokončováním úkol��, přičemž po každém vylepšení si můžeš vyzvednout nový suvenýr."
 	"CSGO_TournamentPass_katowice2019_Desc_short" "Přístup k tipovací soutěži, exkluzivní suvenýry, vlaječky na Steam.tv a neomezené graffiti."
 	"CSGO_TournamentJournal_katowice2019" "Mince šampionátu IEM Katowice 2019"
 	"CSGO_TournamentJournal_katowice2019_Desc" "Upomínková mince šampionátu IEM Katowice 2019, která sleduje tvůj postup úkoly, zajišťuje ti přístup k tipovací soutěži, nabízí možnost získat exkluzivní suvenýry a poskytuje ti vlaječky do konverzací na Steam.tv a graffiti všech týmů s neomezeným počtem použití.\n\nMinci šampionátu IEM Katowice 2019 lze vylepšovat dokončováním úkolů, přičemž po každém vylepšení si můžeš vyzvednout nový suvenýr."
@@ -18278,7 +18302,7 @@
 	"StickerKit_antwerp2022_signature_zyphon_holo" "Zyphon (holografická) | PGL Antwerp 2022"
 	"StickerKit_desc_antwerp2022_signature_zyphon_holo" "Tuto holografickou samolepku podepsal profesionální hráč Rasmus Nordfoss, který na šampionátu PGL Antwerp 2022 hrál za tým Copenhagen Flames."
 	"StickerKit_antwerp2022_signature_zyphon_gold" "Zyphon (zlatá) | PGL Antwerp 2022"
-	"StickerKit_desc_antwerp2022_signature_zyphon_gold" "Tuto zlatou samolepku podepsal profesionální hráč Rasmus Nordfoss, který na šampionátu PGL Antwerp 2022 hrál za tým Copenhagen Flames."
+	"StickerKit_desc_antwerp2022_signature_zyphon_gold" "Tuto zlatou samolepku podepsal profesion��lní hráč Rasmus Nordfoss, který na šampionátu PGL Antwerp 2022 hrál za tým Copenhagen Flames."
 
 	"StickerKit_antwerp2022_signature_hooxi" "HooXi | PGL Antwerp 2022"
 	"StickerKit_desc_antwerp2022_signature_hooxi" "Tuto samolepku podepsal profesionální hráč Rasmus Nielsen, který na šampionátu PGL Antwerp 2022 hrál za tým Copenhagen Flames."
@@ -18679,7 +18703,7 @@
 	"StickerKit_antwerp2022_signature_zorte" "zorte | PGL Antwerp 2022"
 	"StickerKit_desc_antwerp2022_signature_zorte" "Tuto samolepku podepsal profesionální hráč Aleksandr Zagodyrenko, který na šampionátu PGL Antwerp 2022 hrál za tým forZe eSports."
 	"StickerKit_antwerp2022_signature_zorte_glitter" "zorte (třpytivá) | PGL Antwerp 2022"
-	"StickerKit_desc_antwerp2022_signature_zorte_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Aleksandr Zagodyrenko, který na šampionátu PGL Antwerp 2022 hrál za tým forZe eSports."
+	"StickerKit_desc_antwerp2022_signature_zorte_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Aleksandr Zagodyrenko, který na šampionátu PGL Antwerp 2022 hrál za t��m forZe eSports."
 	"StickerKit_antwerp2022_signature_zorte_holo" "zorte (holografická) | PGL Antwerp 2022"
 	"StickerKit_desc_antwerp2022_signature_zorte_holo" "Tuto holografickou samolepku podepsal profesionální hráč Aleksandr Zagodyrenko, který na šampionátu PGL Antwerp 2022 hrál za tým forZe eSports."
 	"StickerKit_antwerp2022_signature_zorte_gold" "zorte (zlatá) | PGL Antwerp 2022"
@@ -19079,7 +19103,7 @@
 	"StickerKit_antwerp2022_signature_fang_holo" "FaNg (holografická) | PGL Antwerp 2022"
 	"StickerKit_desc_antwerp2022_signature_fang_holo" "Tuto holografickou samolepku podepsal profesionální hráč Justin Coakley, který na šampionátu PGL Antwerp 2022 hrál za tým Complexity Gaming."
 	"StickerKit_antwerp2022_signature_fang_gold" "FaNg (zlatá) | PGL Antwerp 2022"
-	"StickerKit_desc_antwerp2022_signature_fang_gold" "Tuto zlatou samolepku podepsal profesionální hráč Justin Coakley, který na šampionátu PGL Antwerp 2022 hrál za tým Complexity Gaming."
+	"StickerKit_desc_antwerp2022_signature_fang_gold" "Tuto zlatou samolepku podepsal profesion��lní hráč Justin Coakley, který na šampionátu PGL Antwerp 2022 hrál za tým Complexity Gaming."
 
 	"StickerKit_antwerp2022_signature_floppy" "floppy | PGL Antwerp 2022"
 	"StickerKit_desc_antwerp2022_signature_floppy" "Tuto samolepku podepsal profesionální hráč Ricky Kemery, který na šampionátu PGL Antwerp 2022 hrál za tým Complexity Gaming."
@@ -19212,7 +19236,7 @@
 	"StickerKit_antwerp2022_signature_shox_glitter" "shox (třpytivá) | PGL Antwerp 2022"
 	"StickerKit_desc_antwerp2022_signature_shox_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Richard Papillon, který na šampionátu PGL Antwerp 2022 hrál za tým Liquid."
 	"StickerKit_antwerp2022_signature_shox_holo" "shox (holografická) | PGL Antwerp 2022"
-	"StickerKit_desc_antwerp2022_signature_shox_holo" "Tuto holografickou samolepku podepsal profesionální hráč Richard Papillon, který na šampionátu PGL Antwerp 2022 hrál za tým Liquid."
+	"StickerKit_desc_antwerp2022_signature_shox_holo" "Tuto holografickou samolepku podepsal profesionální hráč Richard Papillon, který na šampion��tu PGL Antwerp 2022 hrál za tým Liquid."
 	"StickerKit_antwerp2022_signature_shox_gold" "shox (zlatá) | PGL Antwerp 2022"
 	"StickerKit_desc_antwerp2022_signature_shox_gold" "Tuto zlatou samolepku podepsal profesionální hráč Richard Papillon, který na šampionátu PGL Antwerp 2022 hrál za tým Liquid."
 
@@ -19342,6 +19366,7 @@
 	"CSGO_TournamentJournal_rio2022_Silver" "Stříbrná mince šampionátu IEM Rio 2022"
 	"CSGO_TournamentJournal_rio2022_Gold" "Zlatá mince šampionátu IEM Rio 2022"
 	"CSGO_TournamentJournal_rio2022_Crystal" "Diamantová mince šampionátu IEM Rio 2022"
+
 	"CSGO_storageunit_rio2022_tinyname"		"Úložné kontejnery"
 	"CSGO_storageunit0_rio2022"			"Úložný kontejner s běžnými samolepkami | IEM Rio 2022"
 	"CSGO_storageunit0_rio2022_tinyname"		"S běžnými samolepkami"
@@ -20813,7 +20838,7 @@
 	"CSGO_crate_signature_pack_paris2023_group_champions"     "Autograph Capsule | Šampioni | BLAST.tv Paris 2023"
 	"CSGO_crate_signature_pack_paris2023_group_champions_tinyname" "Samolepky šampionů"
 	"CSGO_crate_signature_pack_paris2023_group_champions_desc" "Tato kapsle obsahuje jednu běžnou, třpytivou, holografickou nebo zlatou samolepku podepsanou jedním z vítězů šampionátu BLAST.tv Paris 2023.\n\nPolovina výtěžku z prodeje této kapsle bude použita na podporu tohoto týmu.\n\nSamolepka může být nalepena na jakoukoli zbraň. Nalepenou samolepku můžeš postupně strhávat, každým strhnutím odlepíš kousek samolepky. Pokud ji strhneš celou, navždy ji ze zbraně odstraníš."
-	
+
 	"StickerKit_paris2023_signature_apex_champion" "apEX (šampion) | BLAST.tv Paris 2023"
 	"StickerKit_desc_paris2023_signature_apex_champion" "Tuto samolepku podepsal profesionální hráč Dan Madesclaire, který na šampionátu BLAST.tv Paris 2023 hrál za tým Vitality, vítěze tohoto šampionátu."
 	"StickerKit_paris2023_signature_apex_glitter_champion" "apEX (šampion, třpytivá) | BLAST.tv Paris 2023"
@@ -21286,7 +21311,7 @@
 	"StickerKit_paris2023_signature_jks" "jks | BLAST.tv Paris 2023"
 	"StickerKit_desc_paris2023_signature_jks" "Tuto samolepku podepsal profesionální hráč Justin Savage, který na šampionátu BLAST.tv Paris 2023 hrál za tým G2 Esports."
 	"StickerKit_paris2023_signature_jks_glitter" "jks (třpytivá) | BLAST.tv Paris 2023"
-	"StickerKit_desc_paris2023_signature_jks_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Justin Savage, který na šampionátu BLAST.tv Paris 2023 hr��l za tým G2 Esports."
+	"StickerKit_desc_paris2023_signature_jks_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Justin Savage, který na šampionátu BLAST.tv Paris 2023 hrál za tým G2 Esports."
 	"StickerKit_paris2023_signature_jks_holo" "jks (holografická) | BLAST.tv Paris 2023"
 	"StickerKit_desc_paris2023_signature_jks_holo" "Tuto holografickou samolepku podepsal profesionální hráč Justin Savage, který na šampionátu BLAST.tv Paris 2023 hrál za tým G2 Esports."
 	"StickerKit_paris2023_signature_jks_gold" "jks (zlatá) | BLAST.tv Paris 2023"
@@ -22131,6 +22156,51 @@
 	"CSGO_crate_signature_pack_cph2024_group_champions_tinyname" "Samolepky šampionů"
 	"CSGO_crate_signature_pack_cph2024_group_champions_desc" "Tato kapsle obsahuje jednu běžnou, třpytivou, holografickou, nebo zlatou samolepku podepsanou jedním z vítězů šampionátu PGL Copenhagen 2024.\n\nPolovina výtěžku z prodeje této kapsle bude použita na podporu zahrnutých hráčů a týmů.\n\nSamolepka může být nalepena na jakoukoli zbraň. Nalepenou samolepku můžeš postupně strhávat, každým strhnutím odlepíš kousek samolepky. Pokud ji strhneš celou, navždy ji ze zbraně odstraníš."
 
+	"StickerKit_cph2024_signature_jl_champion" "jL (šampion) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_jl_champion" "Tuto samolepku podepsal profesionální hráč Justinas Lekavicius, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_jl_glitter_champion" "jL (šampion, třpytivá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_jl_glitter_champion" "Tuto třpytivou samolepku podepsal profesionální hráč Justinas Lekavicius, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_jl_holo_champion" "jL (šampion, holografická) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_jl_holo_champion" "Tuto holografickou samolepku podepsal profesionální hráč Justinas Lekavicius, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_jl_gold_champion" "jL (šampion, zlatá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_jl_gold_champion" "Tuto zlatou samolepku podepsal profesionální hráč Justinas Lekavicius, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+
+	"StickerKit_cph2024_signature_aleksib_champion" "Aleksib (šampion) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_champion" "Tuto samolepku podepsal profesionální hráč Aleksi Virolainen, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_aleksib_glitter_champion" "Aleksib (šampion, třpytivá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_glitter_champion" "Tuto třpytivou samolepku podepsal profesionální hráč Aleksi Virolainen, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_aleksib_holo_champion" "Aleksib (šampion, holografická) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_holo_champion" "Tuto holografickou samolepku podepsal profesionální hráč Aleksi Virolainen, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_aleksib_gold_champion" "Aleksib (šampion, zlatá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_gold_champion" "Tuto zlatou samolepku podepsal profesionální hráč Aleksi Virolainen, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+
+	"StickerKit_cph2024_signature_b1t_champion" "b1t (šampion) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_b1t_champion" "Tuto samolepku podepsal profesionální hráč Valerii Vakhovskyi, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_b1t_glitter_champion" "b1t (šampion, třpytivá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_b1t_glitter_champion" "Tuto třpytivou samolepku podepsal profesionální hráč Valerii Vakhovskyi, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_b1t_holo_champion" "b1t (šampion, holografická) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_b1t_holo_champion" "Tuto holografickou samolepku podepsal profesionální hráč Valerii Vakhovskyi, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_b1t_gold_champion" "b1t (šampion, zlatá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_b1t_gold_champion" "Tuto zlatou samolepku podepsal profesionální hráč Valerii Vakhovskyi, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+
+	"StickerKit_cph2024_signature_im_champion" "iM (šampion) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_im_champion" "Tuto samolepku podepsal profesionální hráč Mihai Ivan, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_im_glitter_champion" "iM (šampion, třpytivá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_im_glitter_champion" "Tuto třpytivou samolepku podepsal profesionální hráč Mihai Ivan, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_im_holo_champion" "iM (šampion, holografická) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_im_holo_champion" "Tuto holografickou samolepku podepsal profesionální hráč Mihai Ivan, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_im_gold_champion" "iM (šampion, zlatá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_im_gold_champion" "Tuto zlatou samolepku podepsal profesionální hráč Mihai Ivan, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+
+	"StickerKit_cph2024_signature_w0nderful_champion" "w0nderful (šampion) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_champion" "Tuto samolepku podepsal profesionální hráč Ihor Zhdanov, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_w0nderful_glitter_champion" "w0nderful (šampion, třpytivá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_glitter_champion" "Tuto třpytivou samolepku podepsal profesionální hráč Ihor Zhdanov, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_w0nderful_holo_champion" "w0nderful (šampion, holografická) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_holo_champion" "Tuto holografickou samolepku podepsal profesionální hráč Ihor Zhdanov, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+	"StickerKit_cph2024_signature_w0nderful_gold_champion" "w0nderful (šampion, zlatá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_gold_champion" "Tuto zlatou samolepku podepsal profesionální hráč Ihor Zhdanov, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere, vítěze tohoto šampionátu."
+
 
 	"StickerKit_cph2024_signature_jl" "jL | PGL Copenhagen 2024"
 	"StickerKit_desc_cph2024_signature_jl" "Tuto samolepku podepsal profesionální hráč Justinas Lekavicius, který na šampionátu PGL Copenhagen 2024 hrál za tým Natus Vincere."
@@ -22216,7 +22286,7 @@
 	"StickerKit_cph2024_signature_n0rb3r7" "n0rb3r7 | PGL Copenhagen 2024"
 	"StickerKit_desc_cph2024_signature_n0rb3r7" "Tuto samolepku podepsal profesionální hráč David Danielyan, který na šampionátu PGL Copenhagen 2024 hrál za tým Virtus.pro."
 	"StickerKit_cph2024_signature_n0rb3r7_glitter" "n0rb3r7 (třpytivá) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_n0rb3r7_glitter" "Tuto třpytivou samolepku podepsal profesionáln�� hráč David Danielyan, který na šampionátu PGL Copenhagen 2024 hrál za tým Virtus.pro."
+	"StickerKit_desc_cph2024_signature_n0rb3r7_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč David Danielyan, který na šampionátu PGL Copenhagen 2024 hrál za tým Virtus.pro."
 	"StickerKit_cph2024_signature_n0rb3r7_holo" "n0rb3r7 (holografická) | PGL Copenhagen 2024"
 	"StickerKit_desc_cph2024_signature_n0rb3r7_holo" "Tuto holografickou samolepku podepsal profesionální hráč David Danielyan, který na šampionátu PGL Copenhagen 2024 hrál za tým Virtus.pro."
 	"StickerKit_cph2024_signature_n0rb3r7_gold" "n0rb3r7 (zlatá) | PGL Copenhagen 2024"
@@ -22762,50 +22832,50 @@
 	"StickerKit_cph2024_signature_styko_gold" "STYKO (zlatá) | PGL Copenhagen 2024"
 	"StickerKit_desc_cph2024_signature_styko_gold" "Tuto zlatou samolepku podepsal profesionální hráč Martin Styk, který na šampionátu PGL Copenhagen 2024 hrál za tým Apeks."
 
-	"StickerKit_cph2024_signature_clax" "clax | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_clax" "Tuto samolepku podepsal profesionální hráč Timur Sabirov, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_clax_glitter" "clax (třpytivá) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_clax_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Timur Sabirov, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_clax_holo" "clax (holografická) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_clax_holo" "Tuto holografickou samolepku podepsal profesionální hráč Timur Sabirov, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_clax_gold" "clax (zlatá) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_clax_gold" "Tuto zlatou samolepku podepsal profesionální hráč Timur Sabirov, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
+	"StickerKit_cph2024_signature_acor" "acoR | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_acor" "Tuto samolepku podepsal profesionální hráč Frederik Gyldstrand, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_acor_glitter" "acoR (třpytivá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_acor_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Frederik Gyldstrand, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_acor_holo" "acoR (holografická) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_acor_holo" "Tuto holografickou samolepku podepsal profesionální hráč Frederik Gyldstrand, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_acor_gold" "acoR (zlatá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_acor_gold" "Tuto zlatou samolepku podepsal profesionální hráč Frederik Gyldstrand, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
 
-	"StickerKit_cph2024_signature_d1ledez" "d1Ledez | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez" "Tuto samolepku podepsal profesionální hráč Daniil Kustov, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_d1ledez_glitter" "d1Ledez (třpytivá) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Daniil Kustov, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_d1ledez_holo" "d1Ledez (holografická) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez_holo" "Tuto holografickou samolepku podepsal profesionální hráč Daniil Kustov, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_d1ledez_gold" "d1Ledez (zlatá) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez_gold" "Tuto zlatou samolepku podepsal profesionální hráč Daniil Kustov, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
+	"StickerKit_cph2024_signature_isak" "isak | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_isak" "Tuto samolepku podepsal profesionální hráč Isak Fahlén, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_isak_glitter" "isak (třpytivá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_isak_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Isak Fahlén, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_isak_holo" "isak (holografická) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_isak_holo" "Tuto holografickou samolepku podepsal profesionální hráč Isak Fahlén, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_isak_gold" "isak (zlatá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_isak_gold" "Tuto zlatou samolepku podepsal profesionální hráč Isak Fahlén, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
 
-	"StickerKit_cph2024_signature_glowiing" "glowiing | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_glowiing" "Tuto samolepku podepsal profesionální hráč Aleksandr Matsievich, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_glowiing_glitter" "glowiing (třpytivá) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_glowiing_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Aleksandr Matsievich, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_glowiing_holo" "glowiing (holografická) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_glowiing_holo" "Tuto holografickou samolepku podepsal profesionální hráč Aleksandr Matsievich, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_glowiing_gold" "glowiing (zlatá) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_glowiing_gold" "Tuto zlatou samolepku podepsal profesionální hráč Aleksandr Matsievich, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
+	"StickerKit_cph2024_signature_keoz" "Keoz | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_keoz" "Tuto samolepku podepsal profesionální hráč Nicolas Dgus, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_keoz_glitter" "Keoz (třpytivá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_keoz_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Nicolas Dgus, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_keoz_holo" "Keoz (holografická) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_keoz_holo" "Tuto holografickou samolepku podepsal profesionální hráč Nicolas Dgus, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_keoz_gold" "Keoz (zlatá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_keoz_gold" "Tuto zlatou samolepku podepsal profesionální hráč Nicolas Dgus, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
 
-	"StickerKit_cph2024_signature_idisbalance" "iDISBALANCE | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance" "Tuto samolepku podepsal profesionální hráč Artem Egorov, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_idisbalance_glitter" "iDISBALANCE (třpytivá) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Artem Egorov, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_idisbalance_holo" "iDISBALANCE (holografická) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance_holo" "Tuto holografickou samolepku podepsal profesionální hráč Artem Egorov, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_idisbalance_gold" "iDISBALANCE (zlatá) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance_gold" "Tuto zlatou samolepku podepsal profesionální hráč Artem Egorov, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
+	"StickerKit_cph2024_signature_snax" "Snax | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_snax" "Tuto samolepku podepsal profesionální hráč Janusz Pogorzelski, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_snax_glitter" "Snax (třpytivá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_snax_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Janusz Pogorzelski, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_snax_holo" "Snax (holografická) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_snax_holo" "Tuto holografickou samolepku podepsal profesionální hráč Janusz Pogorzelski, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_snax_gold" "Snax (zlatá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_snax_gold" "Tuto zlatou samolepku podepsal profesionální hráč Janusz Pogorzelski, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
 
-	"StickerKit_cph2024_signature_seized" "seized | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_seized" "Tuto samolepku podepsal profesionální hráč Denis Kostin, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_seized_glitter" "seized (třpytivá) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_seized_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Denis Kostin, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_seized_holo" "seized (holografická) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_seized_holo" "Tuto holografickou samolepku podepsal profesionální hráč Denis Kostin, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
-	"StickerKit_cph2024_signature_seized_gold" "seized (zlatá) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_seized_gold" "Tuto zlatou samolepku podepsal profesionální hráč Denis Kostin, který na šampionátu PGL Copenhagen 2024 hrál za tým 9Pandas."
+	"StickerKit_cph2024_signature_volt" "volt | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_volt" "Tuto samolepku podepsal profesionální hráč Sebastian Constantin Malos, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_volt_glitter" "volt (třpytivá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_volt_glitter" "Tuto třpytivou samolepku podepsal profesionální hráč Sebastian Constantin Malos, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_volt_holo" "volt (holografická) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_volt_holo" "Tuto holografickou samolepku podepsal profesionální hráč Sebastian Constantin Malos, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
+	"StickerKit_cph2024_signature_volt_gold" "volt (zlatá) | PGL Copenhagen 2024"
+	"StickerKit_desc_cph2024_signature_volt_gold" "Tuto zlatou samolepku podepsal profesionální hráč Sebastian Constantin Malos, který na šampionátu PGL Copenhagen 2024 hrál za tým GamerLegion."
 
 	"StickerKit_cph2024_signature_arrozdoce" "arrozdoce | PGL Copenhagen 2024"
 	"StickerKit_desc_cph2024_signature_arrozdoce" "Tuto samolepku podepsal profesionální hráč Rafael Wing, který na šampionátu PGL Copenhagen 2024 hrál za tým SAW."
@@ -22931,7 +23001,7 @@
 	"StickerKit_cph2024_signature_noway_holo" "noway (holografická) | PGL Copenhagen 2024"
 	"StickerKit_desc_cph2024_signature_noway_holo" "Tuto holografickou samolepku podepsal profesionální hráč Kaiky Santos, který na šampionátu PGL Copenhagen 2024 hrál za tým Imperial Esports."
 	"StickerKit_cph2024_signature_noway_gold" "noway (zlatá) | PGL Copenhagen 2024"
-	"StickerKit_desc_cph2024_signature_noway_gold" "Tuto zlatou samolepku podepsal profesionální hráč Kaiky Santos, který na šampionátu PGL Copenhagen 2024 hrál za tým Imperial Esports."
+	"StickerKit_desc_cph2024_signature_noway_gold" "Tuto zlatou samolepku podepsal profesionální hráč Kaiky Santos, kter�� na šampionátu PGL Copenhagen 2024 hrál za tým Imperial Esports."
 
 	"StickerKit_cph2024_signature_vini" "VINI | PGL Copenhagen 2024"
 	"StickerKit_desc_cph2024_signature_vini" "Tuto samolepku podepsal profesionální hráč Vinicius Figueiredo, který na šampionátu PGL Copenhagen 2024 hrál za tým Imperial Esports."
@@ -24174,7 +24244,7 @@
 		"PaintKit_so_jungle"						"Zbraň má jednotlivé části nasprejované barvami v odstínech zelené."
 		"PaintKit_so_jungle_Tag"					"Jungle"
 		
-		"PaintKit_so_space_marine"					"Zbraň m�� jednotlivé části nasprejované barvami v odstínech khaki a šedé."
+		"PaintKit_so_space_marine"					"Zbraň má jednotlivé části nasprejované barvami v odstínech khaki a šedé."
 		"PaintKit_so_space_marine_Tag"				"Colony"
 
 		"PaintKit_so_pmc"							"Zbraň má jednotlivé části nasprejované barvami v odstínech bronzové a tmavě zelené.\n\n<i>Profesionální vybavení pro neprofesionální střelce</i>"
@@ -25450,7 +25520,7 @@
 		
 // COMMUNITY_13
 
-	"PaintKit_gs_aug_aristocrat"										"Zbraň byla nabarvena světle modrou eloxovanou barvou, na kterou byly nalepeny stříbrné filigránové nálepky.\n\n<i>Také krvácíš modře?</i>"
+	"PaintKit_gs_aug_aristocrat"										"Zbraň byla nabarvena sv��tle modrou eloxovanou barvou, na kterou byly nalepeny stříbrné filigránové nálepky.\n\n<i>Také krvácíš modře?</i>"
 	"PaintKit_gs_aug_aristocrat_Tag"									"Aristocrat"
 
 	"PaintKit_gs_awp_phobos"										"Zbraň byla sestavena z kovových dílů a odolných elektrických součástek.\n\n<i>Pro případ, že by se na Phobosu něco pokazilo</i>"
@@ -27610,6 +27680,7 @@
 	"PaintKit_cu_tec9_freedom_Tag"									"Rebel"
 
 // END COMMUNITY_32
+
 // ANUBIS
 
 	"PaintKit_gs_revolver_acanthus_bronze"							"Zbraň byla nabarvena tak, aby vypadala jako zdobená akantovými ornamenty a její rukojeť připomínala mramor.\n\n<i>Přepych do každé dlaně</i>"
@@ -28346,6 +28417,7 @@
 
 		"SFUI_Map_de_boyard"	"Boyard"
 		"SFUI_Map_de_chalice"	"Chalice"
+
 		"SFUI_Map_de_mutiny"		"Mutiny"
 		"SFUI_Map_de_swamp"			"Swamp"
 		"SFUI_Map_de_anubis"		"Anubis"
@@ -28375,6 +28447,12 @@
 		"SFUI_Map_de_hive"		"Hive"
 		"SFUI_Map_dz_vineyard"	"Vineyard"
 		"SFUI_Map_dz_ember"		"Ember"
+
+		"SFUI_Map_de_thera"		"Thera"
+		"SFUI_Map_de_mills"		"Mills"
+		"SFUI_Map_de_assembly"		"Assembly"
+		"SFUI_Map_de_memento"		"Memento"
+		"SFUI_Map_ar_pool_day"		"Pool Day"
 		
 		"SFUI_Map_workshop_preview_dust2"	"Dust II (ukázka)"
 		"SFUI_Map_workshop_preview_ancient"	"Ancient (ukázka)"
@@ -28618,6 +28696,8 @@
 		"SFUI_MainMenu_Vac_Info"			"Z důvodu provinění tohoto nebo propojeného účtu máš zakázáno hrát na zabezpečených serverech."
 		"SFUI_MainMenu_GameBan_Title"		"Herní ban"
 		"SFUI_MainMenu_GameBan_Info"		"Z důvodu provinění tohoto nebo propojeného účtu máš zakázáno hrát na zabezpečených serverech."
+		"SFUI_MainMenu_AccountLocked_Title"	"Uzamčený účet"
+		"SFUI_MainMenu_AccountLocked_Info"	"Tvůj účet byl uzamčen a má zákaz hrát na zabezpečených serverech. Pokud byl účet uzamčen z důvodu porušení Smlouvy o užívání služby Steam, je zákaz permanentní. Pokud byl uzamčen z jiného důvodu, zůstane zákaz aktivní minimálně do té doby, než vlastní účtu kontaktuje podporu služby Steam."
 		"SFUI_MainMenu_News_Title"			"Novinky"
 		"SFUI_MainMenu_News_Title_uppercase"  "NOVINKY"
 		"SFUI_MainMenu_Last_Match"			"Shrnutí posledního zápasu"
@@ -28862,7 +28942,7 @@
 		"SFUI_Overwatch_Case_Number"		"ID případu:"
 		"SFUI_Overwatch_Downloading"		"...Stahování"
 		"SFUI_Overwatch_Beta"               "Beta"
-		"SFUI_Overwatch_Tooltip"		"<b>Vítej v Dozoru.</b>\n\nDozor umožňuje komunitě hry Counter-Strike regulovat sebe samu tím, že kvalifikovaní a zkušení členové komunity (tzv. „vyšetřovatelé“) mají možnost přezkoumávat stížnosti na nevhodné chování a následně vyhodnocovat, zdali jsou tyto stížnosti oprávněné. Pokud ano, mohou členové Dozoru na dané hráče uvalit ban.\n\nPokud se rozhodneš zúčastnit, bude ti přidělen záznam (dlouhý přibližně 10 minut) hráče podezřelého z nevhodného chování, o němž budeš muset rozhodnout.\n\n 1. Klikni na tlačítko „STÁHNOUT DŮKAZ“. Soubor se záznamem se začne stahovat.\n 2. Klikni na tlačítko „PŘEZKOUMAT DŮKAZ“. Tím spustíš daný záznam.\n 3. Po zhlédnutí záznamu o něm rozhodni vybráním jedné z nabízených možností.\n 4. Hotovo!\n\nPo uzavření případů za ně získáš <b>odměnu v podobě XP</b>, jejíž výše bude záležet na správnosti tvých rozhodnutí. Odměnu si můžeš vybrat na konci zápasu na oficiálních serverech. Děkujeme za to, že jsi aktivním členem komunity hry Counter-Strike."
+		"SFUI_Overwatch_Tooltip"		"<b>Vítej v Dozoru.</b>\n\nDozor umožňuje komunitě hry Counter-Strike 2 regulovat sebe samu tím, že kvalifikovaní a zkušení členové komunity (tzv. „vyšetřovatelé“) mají možnost přezkoumávat stížnosti na nevhodné chování a následně vyhodnocovat, zdali jsou tyto stížnosti oprávněné. Pokud ano, mohou členové Dozoru na dané hráče uvalit ban.\n\nPokud se rozhodneš zúčastnit, bude ti přidělen záznam (dlouhý přibližně 10 minut) hráče podezřelého z nevhodného chování, o němž budeš muset rozhodnout.\n\n 1. Klikni na tlačítko „STÁHNOUT DŮKAZ“. Soubor se záznamem se začne stahovat.\n 2. Klikni na tlačítko „PŘEZKOUMAT DŮKAZ“. Tím spustíš daný záznam.\n 3. Po zhlédnutí záznamu o něm rozhodni vybráním jedné z nabízených možností.\n 4. Hotovo!\n\nPo uzavření případů za ně získáš <b>odměnu v podobě XP</b>, jejíž výše bude záležet na správnosti tvých rozhodnutí. Odměnu si můžeš vybrat na konci zápasu na oficiálních serverech. Děkujeme za to, že jsi aktivním členem komunity hry Counter-Strike 2."
 
 		"PlayMenu_guardian_tooltip"			"Mise módu Stráž a Zásah jsou dostupné z deníku operace."
 
@@ -28874,36 +28954,34 @@
 		"PlayMenu_unavailable_newuser_2_nogcconnection"	"Žádné připojení k síti hry Counter-Strike 2."
 
 
-		"SFUI_Overwatch_Res_Postpone_Label"		"Odložit rozhodnutí"
+		"SFUI_Overwatch_Res_Postpone_Label"		"Zrušit"
 
-		"SFUI_Overwatch_Res_Instructions"		"Nyní, po prozkoumání důkazu, je tvou povinností rozhodnout. Podle zásady presumpce neviny přistupuj u všech kategorií přestupků k <b>podezřelému jako k nevinnému</b>. Pouze pokud si budeš <b>nade vší pochybnost</b> jistý, že se podezřelý dopustil chování, které se v komunitě hry Counter-Strike považuje za krajně nevhodné, hru narušující a/nebo nespolečenské, můžeš zvolit možnost <b>„Průkazné nade vší pochybnost“</b>. Pokud si o nevhodném chování podezřelého nejsi 100% jistý, vyber možnost <b>„Neprůkazné“</b>.\n\nPokud ses ale dostatečně nesoustředil a nejsi si zcela jistý, že o tomto případu dokážeš spolehlivě rozhodnout, vyber možnost <b>„ODLOŽIT ROZHODNUTÍ“</b>. Případ budeš moci přezkoumat později."
+		"SFUI_Overwatch_Res_Instructions"		"Nyní, když jsi přezkoumal důkaz, vynes rozsudek."
 
-		"SFUI_Overwatch_Res_Major_Label"	"Průkazné nade vší pochybnost"
-
-		"SFUI_Overwatch_Res_Major_Desc"	"Po přezkoumání důkazu jsi dospěl k závěru, že se podezřelý dopustil chování, které se v komunitě hry Counter-Strike považuje za krajně nevhodné, hru narušující a/nebo nespolečenské. Příkladem takového chování je používání cheatů jako <font color='#FFFFFF'><b>aimbot, speedhack, wallhack nebo jiných externích programů</b></font>, které dokáží pozměnit herní akce podezřelého nebo chování celé hry."
+		"SFUI_Overwatch_Res_Major_Label"	"Vinen nade vši pochybnost"
 
 		"SFUI_Overwatch_Res_Minor_Label"	"Méně závažný přestupek"
 
-		"SFUI_Overwatch_Res_Minor_Desc"		"Po přezkoumání důkazu jsi dospěl k závěru, že se podezřelý nedopustil chování, pro které bys mohl vybrat možnost „Závažný přestupek“, ale i přesto jde o chování, které se v komunitě hry Counter-Strike považuje za nevhodné, hru narušující a/nebo nespolečenské. Příkladem takového chování je <b><font color='#FFFFFF'><b>úmyslné vrážení do spoluhráčů, střelba do spoluhráčů nebo jiné chování narušující hru.</b></font>"
-
-		"SFUI_Overwatch_Res_NotGuilty_Label"	"Neprůkazné"
-
-		"SFUI_Overwatch_Res_NotGuilty_Desc"		"Po přezkoumání důkazu jsi dospěl k závěru, že se podezřelý nedopustil chování, které bys mohl podřadit pod výše zmíněné možnosti, nebo je <font color='#FFFFFF'><b>důkaz k posouzení nevhodného chování neprůkazný.</b></font>"
+		"SFUI_Overwatch_Res_NotGuilty_Label"	"Neprůkazný důkaz"
 
 		"SFUI_Overwatch_Res_Griefing"				"Méně závažný přestupek: kazení hry"
 		"SFUI_Overwatch_Res_AimHacking"				"Závažný přestupek: použití podpory míření"
 		"SFUI_Overwatch_Res_WallHacking"			"Závažný přestupek: použití podpory vidění"
 		"SFUI_Overwatch_Res_SpeedHacking"			"Závažný přestupek: použití jiného externího programu"
-		"SFUI_Overwatch_Res_Griefing_Desc"		"Důkaz, který jsi přezkoumal, by každý průměrný člen komunity hry Counter-Strike vyhodnotil tak, že se Podezřelý zjevně <font color='#FFFFFF'><b>dopustil chování, které je krajně nevhodné, hru narušující a/nebo nespolečenské</b></font>, např. úmyslně vrážel do spoluhráčů, střílel do spoluhráčů, dlouhou dobu se vůbec nehýbal nebo svým chováním jinak kazil hru či záměrně prohrával."
-		"SFUI_Overwatch_Res_AimHacking_Desc"		"Důkaz, který jsi přezkoumal, by každý průměrný člen komunity hry Counter-Strike vyhodnotil tak, že Podezřelý zjevně <font color='#FFFFFF'><b>použil externí program, který zlepšil jeho míření</b></font>, např. automatickým zaměřováním, redukcí nebo úplným odstraněním zpětného rázu atd."
-		"SFUI_Overwatch_Res_WallHacking_Desc"		"Důkaz, který jsi přezkoumal, by každý průměrný člen komunity hry Counter-Strike vyhodnotil tak, že Podezřelý zjevně <font color='#FFFFFF'><b>použil externí program, díky kterému znal pozici svých protivníků</b></font>, např. viděl skrze zdi a dýmovnice, měl redukovaný nebo úplně odstraněný efekt oslepujícího granátu atd."
-		"SFUI_Overwatch_Res_SpeedHacking_Desc"		"Důkaz, který jsi přezkoumal, by každý průměrný člen komunity hry Counter-Strike vyhodnotil tak, že Podezřelý zjevně <font color='#FFFFFF'><b>použil jiný externí program, díky kterému získal výhodu oproti svým protivníkům</b></font>, např. speedhack (rychlé běhání), skriptované automatické skoky, převrácený pohled atd."
+
+		"SFUI_Overwatch_Res_Griefing_Desc"		"Důkaz, který jsi přezkoumal, by každý rozumný člen komunity hry Counter-Strike 2 vyhodnotil tak, že se Podezřelý zjevně <font color='#FFFFFF'><b>dopustil chování, které je krajně rušivé, neférové a/nebo nespolečenské</b></font>, např. úmyslně vrážel do spoluhráčů, střílel do spoluhráčů, dlouhou dobu se vůbec nehýbal nebo svým chováním jinak kazil hru či záměrně prohrával."
+	
+		"SFUI_Overwatch_Res_AimHacking_Desc"		"Pro pomoc s odhalením přítomnosti externí podpory míření se obrať na školicí dokument."
+	
+		"SFUI_Overwatch_Res_WallHacking_Desc"		"Důkaz, který jsi přezkoumal, by každý rozumný člen komunity hry Counter-Strike 2 vyhodnotil tak, že Podezřelý zjevně <font color='#FFFFFF'><b>použil externí program, díky kterému znal pozice svých soupeřů</b></font>, např. viděl skrze zdi a dýmovnice, měl redukovaný nebo úplně odstraněný efekt oslepujícího granátu atd."
+	
+		"SFUI_Overwatch_Res_SpeedHacking_Desc"		"Důkaz, který jsi přezkoumal, by každý rozumný člen komunity hry Counter-Strike 2 vyhodnotil tak, že Podezřelý zjevně <font color='#FFFFFF'><b>použil jiný externí program, díky kterému získal výhodu oproti svým protivníkům</b></font>, např. speedhack (rychlé běhání), skriptované automatické skoky, převrácený pohled atd."
 
 
-		"SFUI_Overwatch_Submit_label"			"Odeslat rozhodnutí"
+		"SFUI_Overwatch_Submit_label"			"Odeslat verdikt"
 		"SFUI_Overwatch_Resolution_Title"		"Rozhodnutí Dozoru"
-		"SFUI_Overwatch_Submit_Thanks"			"Tvé rozhodnutí bylo přijato.\n\nDěkujeme za tvoji pomoc, vyšetřovateli."
-		"SFUI_Overwatch_Submitting"				"Odesílání rozhodnutí..."
+		"SFUI_Overwatch_Submit_Thanks"			"Děkujeme za tvůj verdikt."
+		"SFUI_Overwatch_Submitting"				"Odesílání verdiktu..."
 		
 		"SFUI_Mission_Title"	                "Mise „%s1“"
 
@@ -28998,7 +29076,7 @@
 		"SFUI_InvTooltip_StickerCapsuleTag"					"Kolekce samolepek"
 		"SFUI_InvTooltip_SprayCapsuleTag"					"Kolekce graffiti"
 		"SFUI_InvTooltip_PatchCapsuleTag"					"Kolekce nášivek"
-		"SFUI_InvTooltip_StickerCategoryTag"				"Tap samolepky"
+		"SFUI_InvTooltip_StickerCategoryTag"				"Typ samolepky"
 		"SFUI_InvTooltip_StickerCategory_TeamLogo"			"Logo týmu"
 		"SFUI_InvTooltip_StickerCategory_PlayerSignature"	"Podpis hráče"
 		"SFUI_InvTooltip_StickerCategory_Tournament"		"Šampionát"
@@ -29095,6 +29173,15 @@
 		"SFUI_InvUse_Use_decodableKeyless"  "Otevřít balíček"
 		"SFUI_InvUse_Use_KeylessCapsule"	"Otevřít kapsli"
 		"SFUI_InvUse_Use_KeylessCapsuleDefault"	"Otevřít"
+
+		"popup_container_confirm_title_rent" "Výpůjčka předmětů"
+		"popup_container_confirm_title_expire" "Výpůjčka skončila" 
+		"popup_container_confirm_warning_rent" "Vypůjčené předměty budeš mít k dispozici 7 dní." 
+		"popup_container_confirm_body_rent" "Dočasně získáš všechny předměty z bedny {s:name}.<br/><br/>Vypůjčené předměty nepodporují technologii StatTrak™ a není je možné žádným způsobem upravit.<br/><br/>Extrémně vzácné předměty nejsou součástí výpůjčky." 
+		"popup_container_confirm_already_rented" "Už máš vypůjčené předměty z bedny {s:name}.<br/><br/>Tyto předměty zmizí za {s:expiration-time}." 
+
+		"popup_container_confirm_title_open" "Otevření bedny {s:name}" 
+		"popup_container_confirm_body_open" "Natrvalo získáš jeden předmět z bedny {s:name}." 
 
 		"SFUI_Item_Certificate_Title"		"Certifikát předmětu"
 		"SFUI_ItemInfo_ItemType"			"Typ předmětu"
@@ -29251,6 +29338,11 @@
 		"SFUI_Statrak_ContextMenu_Remove"   "Odebrat z prohození"
 		"SFUI_Inv_Name_Tag_Current"			"Současný název:"
 		"SFUI_Inv_Name_Tag_New"				"Nový název:"
+		"item-rental-time-remaining"		"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> Zmizí za {s:time-remaining}"
+		"item-rental-time-expired"			"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> Výpůjčka skončila"
+		"item-can-rent"						"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> Lze vypůjčit"
+		"RentalExpiredPopupTitle"			"Výpůjčka skončila"
+		"RentalExpiredPopupMessage"			"Předměty vypůjčené z bedny {s:rental_expired_crate_name} zmizely. Pokud jsi měl některé z nich vybavené, byly automaticky nahrazeny příslušnými základními variantami.<br><br><b>Datum vypůjčení:</b><br>{s:rental_expired_issue_date}<br><b>Datum vrácení:</b><br>{s:rental_expired_expiration_date}"
 		
 		
 		"SFUI_Sticker_Remove"           	"Odebrat samolepku"
@@ -29453,7 +29545,7 @@
 		"CSGO_Watch_Loading_Tournament_13"   "Načítání zápasů hraných na šampionátu ELEAGUE Boston 2018..."
 		"CSGO_Watch_Tournament_Desc_14"      "Šampionát FACEIT London 2018 byl první velký turnaj ve hře Counter-Strike pořádaný organizací FACEIT, jehož výhra činila 1 000 000 dolarů."
 		"CSGO_Watch_Tournament_Info_14"      "Místo konání: Londýn, Velká Británie \n5.–23. září"
-		"CSGO_Watch_NoMatch_Tournament_14"   "Zápasy ze šampionátu FACEIT London 2018 budou zobrazeny zde.\nMomentálně neprobíhají žádné zápasy ani nejsou dostupné ke stažení."
+		"CSGO_Watch_NoMatch_Tournament_14"   "Zápasy ze šampionátu FACEIT London 2018 budou zobrazeny zde.\nMomentálně neprobíhají žádné zápasy ani nejsou dostupn�� ke stažení."
 		"CSGO_Watch_Loading_Tournament_14"   "Načítání zápasů hraných na šampionátu FACEIT London 2018..."
 		"CSGO_Watch_Tournament_Desc_15"      "Šampionát IEM Katowice 2019 byl druhý velký turnaj ve hře Counter-Strike pořádaný organizací ESL, jehož výhra činila 1 000 000 dolarů."
 		"CSGO_Watch_Tournament_Info_15"      "Místo konání: Katovice, Polsko \n13. února – 3. března"
@@ -29847,7 +29939,7 @@
 		"CSGO_Fantasy_Team_Stat_Sticker"		"SAMOLEPKA"
 		"CSGO_Fantasy_Team_Stat_Matches"		"POČET ZÁPASŮ"
 		"CSGO_Fantasy_Team_Stat_Add"			"+"
-		"CSGO_Fantasy_Team_Action"				"Vyber hráče"
+		"CSGO_Fantasy_Team_Action"				"Zadej tip"
 		"CSGO_Fantasy_Number_Picks"				"<b>%s1</b> Z <b>5</b> VYBRÁNO"
 		"CSGO_Fantasy_Save_Team"				"POTVRDIT"
 		"CSGO_Fantasy_Team_StickerFilter"		"SAMOLEPKY"
@@ -29875,6 +29967,9 @@
 		"CSGO_Fantasy_Player_Status_byeday"	"<font color='##89B2D2'>Postup bez hraní</font>"
 		
 		"CSGO_Fantasy_NoSTickers_In_Table" "Momentálně nevlastníš žádné podepsané samolepky hráčů šampionátu <b>%s1</b>\nBuď si můžeš zakoupit kapsli se samolepkami nebo získat přímo vybranou samolepku z komunitního trhu."
+		"major_hub_souvenir_package_desc"	"Klikni níže na libovolný dokončený zápas a vyzvedni si z něj suvenýr, nebo si ho zakup za <span class=\"major-hub-store__souvenir__price\">{s:souvenir_price}</span>"
+		"major_hub_souvenir_package_desc_no_price"	"Klikni níže na libovolný dokončený zápas a vyzvedni si z něj suvenýr."
+		
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Journal
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -30176,27 +30271,31 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Demo Playback Control
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-		"CSGO_Demo_Title"					"Přehrávání dema"
-		"CSGO_Demo_Restart"					"|<"
 		"CSGO_Demo_MinusSeconds"			"-{d:timestep_value} s"
-		"CSGO_Demo_Prev"					"<"
-		"CSGO_Demo_Play"					"Přehrát"
-		"CSGO_Demo_Pause"					"Pozastavit"
-		"CSGO_Demo_Next"					">"
 		"CSGO_Demo_PlusSeconds"				"+{d:timestep_value} s"
-		"CSGO_Demo_End"						">|"
 		"CSGO_Demo_TimeScale_OneFourth"		"¼×"
 		"CSGO_Demo_TimeScale_OneHalf"		"½×"
 		"CSGO_Demo_TimeScale_One"			"1×"
 		"CSGO_Demo_TimeScale_Two"			"2×"
 		"CSGO_Demo_TimeScale_Four"			"4×"
 		"CSGO_Demo_TimeScale_Eight"			"8×"
-		"CSGO_Demo_Death"					"Smrt"
 
-		"CSGO_Demo_Toggle"					"[Shift+F2]"
-		"CSGO_Demo_Time"					"{s:current_time} / {s:total_time}"
-		"CSGO_Demo_Round"					"Kolo:"
-		"CSGO_Demo_Warmup"					"Zahřívací kolo"
+		"CSGO_Demo_Toggle"							"[Shift+F2]"
+		"CSGO_Demo_Time"							"{s:current_time} / {s:total_time}"
+		"CSGO_Demo_Round"							"Kolo:"
+		"CSGO_Demo_Highlight"						"Důležitá sekce:"
+		"CSGO_Demo_End_Playback"					"Ukončit přehrávání"
+		"CSGO_Demo_End_Playback_Overwatch"			"Přeskočit na verdikt"
+		"CSGO_Demo_End_Playback_Overwatch_Finished"	"Přejít na verdikt"
+
+		"CSGO_Demo_Enable_Mouse_Cursor"				"[{s:bind_drop}]: Zpřístupnit kurzor"
+		"CSGO_Demo_Enable_Mouse_Camera"				"[{s:bind_drop}]: Povolit ovládání kamery myší"
+		"CSGO_Demo_Player_Next"						"[{s:bind_attack}]: Další hráč"
+		"CSGO_Demo_Player_Prev"						"[{s:bind_attack2}]: Předchozí hráč"
+		"CSGO_Demo_Next_Camera"						"[{s:bind_jump}]: Další kamera"
+		"CSGO_Demo_Toggle_XRay"						"[{s:bind_slot12}]: Rentgen"
+		"CSGO_Demo_Toggle_Overview"					"[{s:bind_duck}]: Přehled"
+
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Date formatting
@@ -30409,7 +30508,6 @@
 		"SFUI_How_to_Play_Controller_Select"			"Tabulka statistik"
 		"SFUI_How_to_Play_Controller_Start"				"Menu pauzy"
 
-		"SFUI_HOW TO PLAY"								"JAK HRÁT"
 		"SFUI_HOW_TO_PLAY"								"Jak hrát"
 		"SFUI_How_to_Play_Navigation"					"${cancel} Zrušit     ${dpad} Procházet     ${rstick} Posunout"
 		"SFUI_HowToPlay_IntroductionLabel"				"Úvod"
@@ -30933,8 +31031,6 @@
 
 		"SFUI_scoreboard_lbl_bot"	"BOT"
 		"SFUI_scoreboard_lbl_spec"	"DIV."
-		"SFUI_scoreboard_lbl_dc"  	"ODP."
-
 		"SFUI_Scoreboard_1st"		"První"
 		"SFUI_Scoreboard_2nd"		"Druhá"
 		"SFUI_Scoreboard_1st_Half"		"První polovina"
@@ -31092,9 +31188,10 @@
 		"SFUI_vote_rematch"				"Hrát odvetu? Vyžaduje 10 hlasů."
 		"SFUI_vote_passed_rematch"		"Nyní bude zahájen nový zápas."
 		"SFUI_vote_failed_rematch_explain"		"Nelze zahájit hlasování o odvetě, protože je připojeno méně než 10 hráčů."
-		"SFUI_match_cancelled"			"Zápas byl přerušen"
+		"SFUI_match_cancelled"			"Zápas byl zrušen"
 		"SFUI_match_abort_match_network_event"	"Přerušení spojení vyústilo ve zrušení zápasu.\nTento zápas neovlivní tvůj rating CS."
 		"SFUI_match_abort_match_vac_live"	"Ochrana VAC Live detekovala podvodníka a ukončila zápas.\nTento zápas neovlivní tvůj rating CS."
+		"SFUI_match_abort_match_abnormal_behavior"	"Ochrana VAC detekovala nezvyklé chování a zrušila zápas.\nNa hráče označeného ochranou a jeho skupinu byla uvalena penalizace."
 		"SFUI_match_vac_live_partied_with_cheater"	"Za tento zápas nezískáš žádný postup, protože člen tvojí skupiny byl zabanován."
 		"SFUI_match_abort_match_missing_player"	" Zápas bude zrušen, protože se jeden hráč vůbec nepřipojil."
 		"SFUI_match_abort_match_player_abandoned"	" Zápas bude zrušen, protože se jeden hráč odpojil."
@@ -31357,16 +31454,6 @@
 		"SFUIHUD_Spec_Event_DroppingItemsRewarded"			"Bylo odměněno %s1 diváků!"
 		"SFUIHUD_Spec_Event_DroppingItemsTotalDropped"		"Nalezené předměty v tomto zápase: %s1"
 
-		"SFUIHUD_GiftDrop_GiftGivenLastXMinutes"		"Za posledních %s1 minut rozdali 1 dárek hráči..."
-		"SFUIHUD_GiftDrop_GiftsGivenLastXMinutes"		"Za posledních %s1 minut rozdali %s2 dárků hráči..."
-		"SFUIHUD_GiftDrop_GiftGivenLastXHours"		"Za posledních %s1 hodin rozdali 1 dárek hráči..."
-		"SFUIHUD_GiftDrop_GiftsGivenLastXHours"		"Za posledních %s1 hodin rozdali %s2 dárků hráči..."		
-		"SFUIHUD_GiftDrop_AndOtherPlayer"		"...a jeden další štědrý hráč!"		
-		"SFUIHUD_GiftDrop_AndOtherPlayers"		"...a další štědří hráči (%s1)!"	
-		"SFUIHUD_GiftDrop_NameGiftGiverFormat"		"%s1%s2</font>"	
-		"SFUIHUD_GiftDrop_SingleGiftFormat"		"<font color='#e3e3e3'>1 dárek</font>"	
-		"SFUIHUD_GiftDrop_GiftAmountFormat"		"<font color='#e3e3e3'>Dárky: %s1</font>"	
-
 		"SFUIHUD_GiftDrop_Name_ColorDefault"	"<font color='#b1eeff'>"
 		"SFUIHUD_GiftDrop_Name_Color1"	"<font color='#90ff9a'>"
 		"SFUIHUD_GiftDrop_Name_Color2"	"<font color='#eb7d7d'>"
@@ -31407,6 +31494,8 @@
 		"SFUI_SpecStat_type_objective"		"CÍL"
 		"SFUI_SpecStat_First_Half"			"1."
 		"SFUI_SpecStat_Second_Half"			"2."
+
+		"HudSpecPlayer_WeaponName"				"<span class=\"weapon-name\">{s:weapon_name}</span><br><font color=\"{s:rarity_color}\"><span class=\"weapon-kit-name\">{s:weapon_kit_name}</span><br><span class=\"weapon-name-custom\">\"{s:weapon_name_custom}\"</span></font><br><span class=\"possessive-player-name\">hráče {s:possessive_player_name}</span>"
 
 		"heatmap_t"								"T"
 		"heatmap_ct"							"CT"
@@ -31613,7 +31702,7 @@
 		"SFUI_Notice_Report_Server_Failed"				" Nepodařilo se odeslat nahlášení serveru, zkus to za chvíli znovu\n"
 		"SFUI_Notice_Report_Player_Success"				" Nahlášení hráče %s1 bylo odesláno, ID nahlášení je %s2\n"
 		"SFUI_Notice_Report_Player_Failed"				" Nepodařilo se odeslat nahlášení hráče, zkus to za chvíli znovu\n"
-		"SFUI_Notice_Commend_Player_Success"			" Doporučení hráče %s1 bylo odesláno\nDěkujeme\n"
+		"SFUI_Notice_Commend_Player_Success"			" Doporučení hráče %s1 bylo odesláno\n"
 		"SFUI_Notice_Commend_Player_TooEarly"			" Odeslal jsi příliš mnoho doporučení, zkus to zítra znovu\n"
 		"SFUI_Notice_Commend_Player_Failed"				" Nepodařilo se odeslat doporučení hráče, zkus to za chvíli znovu\n"
 		"SFUI_Notice_Commend_Player_YouGotNewCommendation" " Gratulujeme, obdržel jsi doporučení\n"
@@ -31664,6 +31753,8 @@
 		"SFUI_CooldownExplanationReason_ConvictedForBehavior"	"Usvědčen Dozorem – méně závažný přestupek"
 		"SFUI_CooldownExplanationReason_GsltViolation"		"Server využívající přihlašovací token tvého serverového účtu byl zabanován. Tvému účtu je nyní permanentně zakázáno spravovat herní servery a nějakou dobu se ani nebudeš moci připojit na ostatní servery"
 		"SFUI_CooldownExplanationReason_GriefingReports"	"Obdržel jsi podstatně více nahlášení za kazení hry než většina ostatních hráčů"
+		"SFUI_CooldownExplanationReason_VacNetCulprit"		"Ochrana VAC označila tvé chování ve hře za nezvyklé"
+		"SFUI_CooldownExplanationReason_VacNetAffiliate"	"Byl jsi ve skupině s hráčem, jehož chování ve hře označila ochrana VAC za nezvyklé"
 		"SFUI_CooldownExplanationReason_Expired_Cooldown"		"<b>Tvá penalizace skončila. Další penalizace, které obdržíš, mohou být delší.\nDůvod penalizace</b>: "
 		"SFUI_Notice_Killed_Teammate"					"Zabil jsi spoluhráče!"
 		"SFUI_Notice_Game_teammate_kills"				" VAROVÁNÍ: Pokud zabiješ %s1 další spoluhráče, budeš zabanován"
@@ -31864,7 +31955,7 @@
 		"SFUI_ControllerZoomSensitivity" "Násobič citlivosti přiblížení"
 
 		"SFUI_TaserSlot"				"Zeus x27"
-		"SFUI_MolotovSlot"				"Molotovův koktejl"
+		"SFUI_MolotovSlot"				"Molotovův koktejl / Zápalný granát"
 		"SFUI_DecoySlot"				"Návnada"
 		"SFUI_CycleGrenades"			"Procházení granátů"
 		"SFUI_CycleWeapons"				"Prohození primární/sekundární zbraně"
@@ -31906,8 +31997,9 @@
 		"SFUI_Jump"						"Skok"
 		"SFUI_Duck"						"Přikrčení"
 		"SFUI_Pickup_Use_Objects"		"Použití"
-		"SFUI_TitlesTXT_Menu_Scoreboard"     "Tabulka statistik"
-        "SFUI_ShowTeamEquipment"        "Výbava spoluhráčů"
+		"SFUI_TitlesTXT_Menu_Scoreboard"	"Tabulka statistik"
+		"SFUI_ShowTeamEquipment" 		"Výbava spoluhráčů"
+		"SFUI_ToggleRadarScale"			"Přepnutí přiblížení radaru"
 		"SFUI_Walk"						"Chůze"
 		"SFUI_180Spin"					"Otočení o 180 stupňů"
 		"SFUI_Drop_Weapon"				"Upuštění zbraně"
@@ -32143,6 +32235,7 @@
 		"SFUI_Settings_Color_Correction"	"Korekce barev"
 		"SFUI_Settings_Antialiasing_Mode"	"Režim vyhlazování typu multisampling"
 		"SFUI_Settings_CSM"					"Souhrnná kvalita stínů"
+		"SFUI_Settings_DynamicShadows"		"Dynamické stíny"
 		"SFUI_Settings_FXAA"				"Vyhlazování FXAA"
 		"SFUI_Settings_ParticleDetail"		"Kvalita částic"
 		"SFUI_Screen_Resize"				"Velikost ukazatelů"
@@ -32195,9 +32288,16 @@
 		"SFUI_Settings_HDR"					"Vysoký dynamický rozsah (HDR)"
 		"SFUI_Settings_HDR_Info"			"Vysoký dynamický rozsah (HDR) určuje rozsah jasu mezi nejsvětlejšími a nejtmavšími pixely. Hodnota „Výkon“ sníží kvalitu HDR vykreslování, ale může potenciálně zlepšit výkon a snížit využití paměti grafické karty."  
 		
+		"SFUI_Settings_GSync"				"NVIDIA G-Sync"
+		"SFUI_Settings_GSync_Info"			"Technologie NVIDIA G-Sync umožňuje monitoru dynamicky měnit svoji obnovovací frekvenci, aby (je-li to možné) odpovídala počtu snímků hry za sekundu, výsledkem čehož je plynulejší zážitek. Tato technologie je však dostupná pouze na určitých monitorech a její účinnost je nejvyšší, když je počet snímků hry za sekundu nižší než maximální obnovovací frekvence monitoru. Pokud disponuješ vhodným monitorem, tuto technologii můžeš zapnout mimo hru v Ovládacím panelu NVIDIA. Aby se projevily změny, bude také nejspíš nutné hru restartovat."
+		"GSyncHelpLinkURL"					"https://www.nvidia.com/content/Control-Panel-Help/vLatest/en-us/mergedProjects/nvdsp/Variable_Refresh_Rate.htm"
+
 		"SFUI_Settings_Reflex"				"Nízká latence (NVIDIA Reflex)"
 		"SFUI_Settings_Reflex_Info"			"Technologie NVIDIA Reflex snižuje prodlevu mezi akcí myši/klávesnice a jejím projevením na obrazovce. Režim Boost přidává další technologie, které mohou v zájmu zajištění co nejnižší latence více zatížit grafickou kartu a mírně negativně ovlivnit počet snímků za sekundu."
 		"SFUI_Settings_Reflex_Boost"		"Zapnuto + Boost"
+
+		"SFUI_Settings_AntiLag"				"AMD Anti-Lag 2.0"
+		"SFUI_Settings_AntiLag_Info"		"Technologie AMD Anti-Lag 2.0 snižuje prodlevu mezi akcí myši/klávesnice a jejím projevením na obrazovce."
 		
 		"SFUI_Settings_Ultra_Quality"		"Ultra kvalita"
 		"SFUI_Settings_Quality"				"Kvalita"
@@ -32214,6 +32314,8 @@
 
 		"SFUI_Settings_Laptop_Power"		"Úsporný režim pro notebooky"
 		"SFUI_Settings_Vertical_Sync"		"Vertikální synchronizace"
+		"SFUI_Settings_FPS_Max"				"Maximální FPS ve hře"
+		"SFUI_Settings_FPS_Max_UI"			"Maximální FPS v nabídkách"
 
 		"SFUI_SteamToast_Location"			"Pozice komunitních oznámení"
 		"SFUI_SteamToast_Location_Horz"		"Vodorovné odsazení komunitních oznámení"
@@ -32245,9 +32347,15 @@
 
 		"SFUI_Settings_Headphone_EQ"		"Profil ekvalizéru"
 		"SFUI_Settings_Headphone_EQ_Tip"	"Mění celkové zabarvení zvuku ve hře. Může pomoci vykompenzovat zabarvení způsobené různými kombinacemi hardwaru a softwaru. Vždy po změně profilu si na něj zkus chvíli zvyknout.<br/><br/><b>Přirozený (výchozí):</b> Žádné dodatečné zabarvení.<br/><br/><b>Ostrý:</b> Vylepšuje střední až vyšší frekvence. Může pomoci s lokalizací zvuku a omezit tlumení. V určitých situacích ale může znít příliš drsně.<br/><br/><b>Jemný:</b> Redukuje střední až vyšší frekvence. Může pomoci s omezením drsnosti, výkyvy hlasitosti a únavou uší při delším hraní. Ideální pro sluchátka studiové kvality a hráče, kteří neváhají „ohulit“ hlasitost."
+		"SFUI_Settings_Headphone_NoOverride"	"Výchozí"
 		"SFUI_Settings_Headphone_Gamer"		"Ostrý"
 		"SFUI_Settings_Headphone_None"		"Přirozený"
-		"SFUI_Settings_Headphone_Studio"	"Jemný"	
+		"SFUI_Settings_Headphone_Studio"	"Jemný"
+		"SFUI_Settings_GameModeVolume_Competitive_Tip"		"Škálování hlasitosti a přepsání profilu ekvalizéru pro kompetitivní mód."
+		"SFUI_Settings_GameModeVolume_Casual_Tip"		"Škálování hlasitosti a přepsání profilu ekvalizéru pro nenáročný mód."
+		"SFUI_Settings_GameModeVolume_Spectator_Tip"		"Škálování hlasitosti a přepsání profilu ekvalizéru při sledování ostatních po smrti. Vztahuje se na kompetitivní i nenáročný mód."
+		"SFUI_Settings_GameModeVolume_Deathmatch_Tip"		"Škálování hlasitosti a přepsání profilu ekvalizéru pro mód Deathmatch."
+		"SFUI_Settings_GameModeVolume_Armsrace_Tip"		"Škálování hlasitosti a přepsání profilu ekvalizéru pro mód Závod ve zbrojení."	
 
 		"SFUI_Settings_Speaker_Config"		"Konfigurace výstupu zvuku"
 		"SFUI_Settings_Speaker_Config_Tip"	"Nastavuje počet kanálů pro výstup zvuku."
@@ -32306,7 +32414,7 @@
 		"SFUI_Settings_VOIP_Volume_Tip"								"Určuje celkovou hlasitost příchozí hlasové komunikace od ostatních hráčů."
 
 		"SFUI_Settings_voice_always_sample_mic"						"Efektivnější Push-to-Talk"
-		"SFUI_Settings_voice_always_sample_mic_tooltip"				"Udržuje záznamové zařízení aktivní, čímž na některých sestavách zabraňuje zasekávání hry."
+		"SFUI_Settings_voice_always_sample_mic_tooltip"				"Vstup záznamového zařízení je otevřen se spuštěním hry, a ne teprve s první aktivací mikrofonu."
 
 		"SFUI_Settings_VOIP_Positional"								"Pozice hlasu ostatních hráčů"
 		"SFUI_Settings_VOIP_Positional_Tip"							"Nastavuje, jestli bude hlasová komunikace brát v potaz pozici mluvícího hráče."
@@ -32323,6 +32431,23 @@
 		"SFUI_Settings_Audio_FOV_Tip"			"<b>Ano (výchozí):</b> Zdroje zvuku jsou vykreslovány přesně s ohledem na tvoje zorné pole při koukání na monitor. Zdroje na okrajích tvého zorného pole budou tedy znít částečně před tebou, zatímco zdroje nacházející se mimo zorné pole a přímo do stran budou znít naplno z levého/pravého kanálu.<br/><br/><b>Ne:</b> Zdroje zvuku na okrajích tvého zorného pole budou znít naplno z levého/pravého kanálu. Ideální pro hráče, kteří sedí velmi blízko k monitoru, hrají v headsetu (se zabudovaným displejem) nebo preferují starší zvukové enginy. Pozice zdrojů mohou být v určitých úhlech od posluchače matoucí."
 		"SFUI_Settings_Audio_FOV_Off"			"Ne"
 		"SFUI_Settings_Audio_FOV_On"			"Ano"
+
+		"SFUI_Settings_Arms_Race_Volume"	"Hlasitost módu Závod ve zbrojení"
+		"SFUI_Settings_Deathmatch_Volume"	"Hlasitost módu Deathmatch"
+		"SFUI_Settings_Competitive_Volume"	"Hlasitost kompetitivního módu"
+		"SFUI_Settings_Casual_Volume"		"Hlasitost nenáročného módu"
+		"SFUI_Settings_Spectator_Volume"	"Hlasitost při sledování ostatních po smrti"
+
+		"SFUI_Settings_GameModeEQ_Tip"		"Umožňuje přiřazení konkrétních profilů ekvalizéru jednotlivým herním módům. Lze použít ke snížení únavy uší a zlepšení zážitku v rušných módech jako Deathmatch a Závod ve zbrojení, aniž by byla ovlivněna nastavení pro nenáročný a kompetitivní mód."
+		"SFUI_Settings_Arms_Race_EQ"		"Profil módu Závod ve zbrojení"
+		"SFUI_Settings_Arms_Race_EQ_Tip"	"Nastavuje tento profil ekvalizéru po dobu trvání zápasu módu Závod ve zbrojení."
+		"SFUI_Settings_Deathmatch_EQ"		"Profil módu Deathmatch"
+		"SFUI_Settings_Deathmatch_EQ_Tip"	"Nastavuje tento profil ekvalizéru po dobu trvání zápasu módu Deathmatch."
+		"SFUI_Settings_Competitive_EQ"		"Profil kompetitivního módu"
+		"SFUI_Settings_Competitive_EQ_Tip"	"Nastavuje tento profil ekvalizéru po dobu trvání kompetitivního zápasu."
+		"SFUI_Settings_Casual_EQ"		"Profil nenáročného módu"
+		"SFUI_Settings_Casual_EQ_Tip"		"Nastavuje tento profil ekvalizéru po dobu trvání nenáročného zápasu."
+
 
 		"SFUI_Settings_Menu_Music_Volume"							"Hlasitost v hlavní nabídce"	
 		"SFUI_Settings_Start_Round_Music_Volume"					"Hlasitost na začátku kola"
@@ -32374,6 +32499,8 @@
 		"SFUI_CSM_Med"					"Střední"
 		"SFUI_CSM_High"					"Vysoká"
 		"SFUI_CSM_VeryHigh"				"Velmi vysoká"
+		"SFUI_Shadows_SunOnly"			"Pouze od slunce"
+		"SFUI_Shadows_All"				"Všechny"
 		"SFUI_FXAA_Enabled"				"Zapnuto"
 		"SFUI_FXAA_Disabled"				"Vypnuto"
 		"SFUI_Settings_Choice_Autodetect"	"Automaticky"
@@ -32409,11 +32536,6 @@
 		"SFUI_Settings_HudTelemetry_Show_Never" "Nikdy"
 		"SFUI_Settings_HudTelemetry_Show_OnlyInPoorConditions" "Při špatných podmínkách"
 		"SFUI_Settings_HudTelemetry_Show_Always" "Vždy"
-
-		"SFUI_Settings_Network_ProblemAutoShow"   "Zobrazování problémů s připojením"
-		"SFUI_Settings_Network_ProblemAutoShow_Info"   "Umožňuje hře automaticky zobrazovat v pravém horním rohu obrazovky indikátor problémů s připojením (např. velké ztráty paketů či obecná nestabilita sítě)."
-		"SFUI_Settings_Network_ProblemAutoShow_Auto"  "Automaticky"
-		"SFUI_Settings_Network_ProblemAutoShow_Off"   "Vypnuto"
 
 		"SFUI_Settings_Network_ExtraBuffering"   "Vyrovnávací paměť proti ztrátě paketů"
 		"SFUI_Settings_Network_ExtraBuffering_Info"   "Vyrovnávací paměť synchronizující snímky ze serveru a příkazy od klienta.\n\nJe-li tato možnost povolena, redukuje záseky způsobené ztrátou paketů, ale navyšuje tvoji efektivní odezvu."
@@ -32474,12 +32596,15 @@
 		"Spectator_Best_Of_Series"				"Na {d:numtowin} výhry" // {d:numtowin} can be used for a "2 To Win" style string in place of "Best of 3"
 
 		"SFUI_Settings_ClanTag_In_Death_Notice"		"Týmové označení u oznámení smrti"
-		"SFUI_Settings_Identify_Teammates"		"Pozice spoluhráčů"
+		"SFUI_Settings_Identify_Teammates"		"Informace o spoluhráčích přes zdi"
 
 		"SFUI_Settings_Radar_Rotate"			"Otáčení radaru"
 		"SFUI_Settings_Radar_Rotate_Info"		"Přepíná mezi otáčejícím se radarem a radarem s uzamčenou orientací."
-		"SFUI_Settings_Radar_Scale"				"Velikost mapy na radaru"
-		"SFUI_Settings_Radar_Scale_Info"		"Mění velikost mapy zobrazené na radaru."
+		"SFUI_Settings_Radar_Scale"				"Přiblížení mapy na radaru"
+		"SFUI_Settings_Radar_Scale_Alternate"	"Alternativní přiblížení mapy na radaru"
+		"SFUI_Settings_Radar_Scale_Info"		"Určuje, jak velká část mapy je viditelná na radaru."
+		"SFUI_Settings_Radar_Scale_Alternate_Info"	"Alternativní hodnota přiblížení mapy na radaru. Mezi běžnou a alternativní hodnotou lze přepnout pomocí speciální klávesy."
+		"SFUI_Go_To_Radar_Toggle_Key_Binding"	"Přejít na nastavení klávesy pro přepnutí přiblížení radaru"
 
 		"SFUI_Settings_Radar_Centered"			"Hráč vždy ve středu radaru"
 		"SFUI_Settings_Radar_Centered_Info"		"Určuje, jestli je radar vycentrovaný na pozici hráče."
@@ -32559,7 +32684,7 @@
 		
 		"SFUI_Settings_PlayerPingMuteVisuals_Title"	"Skrytí ukazovátek"
 		"SFUI_Settings_MuteEnemies_Title"		"Umlčení nepřátelského týmu"
-		"SFUI_Settings_HideAvatars_Title"		"Skrývání avatarů"
+		"SFUI_Settings_HideAvatars_Title"		"Skrývání avatarů a přizpůsobených předmětů"
 		"SFUI_Settings_HideAvatars_All"			"U nikoho"
 		"SFUI_Settings_HideAvatars_None"		"U všech"
 		"SFUI_Settings_HideAvatars_Friends"		"U všech kromě přátel"
@@ -32598,10 +32723,17 @@
 		"SFUI_Settings_HUDScaleMed"		"Pro stolní PC"
 		"SFUI_Settings_HUDScaleLarge"	"Pro pohled z pohovky"
 
-		"SFUI_Settings_ViewmodelPos"	"Pozice modelu zbraně"
+		"SFUI_Settings_ViewmodelPos"	"Odsazení modelu zbraně"
 		"SFUI_Settings_ViewmodelPosDesktop"		"Pro stolní PC"
 		"SFUI_Settings_ViewmodelPosCouch"		"Pro pohled z pohovky"
-		"SFUI_Settings_ViewmodelPosClassic"		"Klasická"
+		"SFUI_Settings_ViewmodelPosClassic"		"Klasické"
+		
+		"Cstrike_SwitchHandedness"					"Prohození pozice modelu zbraně"
+		"Cstrike_PreferredHandedness"				"Preferovaná pozice modelu zbraně"
+		"Cstrike_PreferredHandedness_Desc"			"Určuje výchozí pozici modelu zbraně. Pro dočasné prohození mezi levou a pravou rukou (či naopak) je k dispozici speciální klávesa."
+		"Cstrike_PreferredHandedness_Right"			"V pravé ruce"
+		"Cstrike_PreferredHandedness_Left"			"V levé ruce"
+		"Cstrike_GoToSwitchHandednessKeyBinding"	"Přejít na nastavení klávesy pro prohození pozice"
 
 		"Cstrike_FirstPersonTracers"		"Stopy kulek z první osoby"
 		"Cstrike_FirstPersonTracers_Desc"	"Určuje, zdali mají být lokálně vykreslovány stopy tebou vystřelených kulek. Ostatní hráči je uvidí vždy, a to nezávisle na této možnosti."
@@ -32615,7 +32747,9 @@
 		"SFUI_Settings_PowerSavings_Info"	"V úsporném režimu hra záměrně běží s nižším počtem snímků za sekundu z důvodu snížení spotřeby energie z baterie a prodloužení herní doby."
 		"SFUI_Settings_Antialiasing_Info"	"Vyhlazování (antialiasing) umožňuje hladší zobrazení rohů těles/geometrie, čímž odstraňuje zubaté hrany. Zvýšení kvality vyhlazování však může zvýšit grafickou náročnost."
 		"SFUI_Settings_Filtering_Info"		"Vyšší nastavení filtrování textur zlepšuje zobrazení textur ve hře, ale může zvýšit grafickou náročnost."
-		"SFUI_Settings_WaitForVSync_Info"	"Vertikální synchronizace je doporučena pro co nejlepší vizuální zážitek. Naopak vypnutí synchronizace může způsobit trhání hry."
+		"SFUI_Settings_WaitForVSync_Info"	"Vertikální synchronizace dbá na to, aby počet snímků hry za sekundu nepřesáhl obnovovací frekvenci monitoru. Výsledkem je obecně plynulejší zážitek bez trhání obrazu."
+		"SFUI_Settings_FPS_Max_Info"		"Určuje vrchní hranici, které může při hraní dosáhnout počet snímků za sekundu (FPS)."
+		"SFUI_Settings_FPS_Max_UI_Info"		"Určuje vrchní hranici, které může při procházení nabídek dosáhnout počet snímků za sekundu (FPS)."
 		"SFUI_Settings_QueuedMode_Info"		"Vícejádrové vykreslování umožňuje hře využít více jader procesoru. Vypnutí může zvýšit počet snímků za sekundu, ale také zhoršit kvalitu obrazu."
 		"SFUI_Settings_ShaderDetail_Info"	"Kvalita shaderu ovlivňuje propracovanost osvětlení a stínování aplikovaného na povrchy ve hře. Vyšší hodnoty mohou zlepšit kvalitu obrazu, ale také zvýšit grafickou náročnost."
 		"SFUI_Settings_CPUDetail_Info"		"Kvalita efektů ovlivňuje komplexnost určitých vizuálních efektů ve hře a vzdálenost vykreslování objektů. Snížení této hodnoty může zlepšit výkon, ale rovněž může zvýšit četnost grafických artefaktů („doskakování“)."
@@ -32627,8 +32761,9 @@
 		"SFUI_Settings_TripleMonitor_Info"	"V režimu pro tři monitory jsou některé prvky rozhraní (včetně ukazatelů) omezeny na prostředních 33 % obrazu. Jak název napovídá, tento režim je užitečný při hraní na třech monitorech."	
 		"SFUI_Edit_Profile"					"UPRAVIT PROFIL"
 		"SFUI_Settings_ColorMode"			"Mění barevný režim obrazu. Možnost dostupná pouze v režimu celé obrazovky."
-		"SFUI_Settings_Brightness"			"Mění gama korekci obrazu, čímž upravuje celkový jas. Možnost dostupná pouze v režimu celé obrazovky."
-		"SFUI_Settings_TextureStreaming_Info"	"Umožňuje hře odložit načtení textur s vysokým rozlišením až do chvíle, kdy jsou skutečně potřebné pro renderování. Zakázáním této možnosti dojde k navýšení použité grafické paměti. Na zařízeních s pomalejšími disky je možné zahlédnout dočasné (rozmazané) textury, které budou po krátké prodlevě nahrazeny."
+		"SFUI_Settings_Brightness"			"Mění gama korekci vykreslování, čímž upravuje celkový jas."
+		"SFUI_Settings_TextureStreaming_Info"	"Umožňuje hře odložit načtení textur s vysokým rozlišením až do chvíle, kdy jsou skutečně potřebné pro vykreslení. Zakázáním této možnosti dojde k navýšení použité grafické paměti. Na zařízeních s pomalejšími disky je možné zahlédnout dočasné (rozmazané) textury, které budou po krátké prodlevě nahrazeny."
+		"SFUI_Settings_DynamicShadows_Info"	"Umožňuje určit, které dynamické objekty (např. hráči nebo oblaka kouře) mají vrhat stíny. Hodnota „Pouze od slunce“ může snížit grafickou náročnost, ale také tě mírně znevýhodnit, zejména ve vnitřních prostorech."
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Chat
@@ -32675,8 +32810,6 @@
 		"BuyMenu_Sellback"						"Prodat"
 		"BuyMenu_NewUserExperience_Recommended"	"DOPORUČENO"
 		"BuyMenu_Promoted"						"POVÝŠENÍ"
-
-
 
 		"SFUI_BuyMenu_SelectWeapon" "Vybrat\nzbraň"
 
@@ -32729,15 +32862,15 @@
 		"SFUI_BuyMenu_Header" "NÁKUPNÍ MENU"
 		"SFUI_BuyMenu_WeaponClass" "VYBER TŘÍDU ZBRANÍ"
 
-		"SFUI_BuyMenu_CanOnlyCarryXGrenades"	"Můžeš nést maximálně {s:s1} granáty"
-		"SFUI_BuyMenu_MaxItemsOfType"			"Můžeš nést maximálně {s:s1} věci tohoto typu"
-		"SFUI_BuyMenu_MaxItemsOfTypePurchased"	"Můžeš si koupit maximálně {s:s1} věci tohoto typu"
+		"SFUI_BuyMenu_CanOnlyCarryXGrenades:p{s1}"		"Můžeš nést maximálně {s:s1} granát#|#Můžeš nést maximálně {s:s1} granáty#|#Můžeš nést maximálně {s:s1} granátů#|#Můžeš nést maximálně {s:s1} granátu"
+		"SFUI_BuyMenu_MaxItemsOfType:p{s1}"				"Můžeš nést maximálně {s:s1} věc tohoto typu#|#Můžeš nést maximálně {s:s1} věci tohoto typu#|#Můžeš nést maximálně {s:s1} věcí tohoto typu#|#Můžeš nést maximálně {s:s1} věci tohoto typu"
+		"SFUI_BuyMenu_MaxItemsOfTypePurchased:p{s1}"	"Můžeš si koupit maximálně {s:s1} věc tohoto typu#|#Můžeš si koupit maximálně {s:s1} věci tohoto typu#|#Můžeš si koupit maximálně {s:s1} věcí tohoto typu#|#Můžeš si koupit maximálně {s:s1} věci tohoto typu"
 		"SFUI_BuyMenu_AlreadyCarrying"			"V aktuálním inventáři"
 		"SFUI_BuyMenu_AlreadyPurchased"			"Už sis koupil 1× za toto kolo"
 		"SFUI_BuyMenu_NotAllowedByMap"			"Nelze koupit na tomto typu mapy"
 		"SFUI_BuyMenu_NotAllowedByMode"			"Nelze koupit v tomto herním módu"
 		"SFUI_BuyMenu_NotAllowedByTeam"			"Nelze koupit v tomto týmu"
-        "SFUI_BuyMenu_ReachedWeaponsExpertLimit""{s:s1} už sis v tomto zápase koupil"
+		"SFUI_BuyMenu_ReachedWeaponsExpertLimit:p{s1}"	"{s:s1} už sis v tomto zápase koupil#|#{s:s1} už sis v tomto zápase koupil#|#{s:s1} už sis v tomto zápase koupil#|#{s:s1} už sis v tomto zápase koupil"
 		"SFUI_BuyMenu_Cannot_Afford"			"Potřebuješ ještě {s:s1} $"
 		"SFUI_BuyMenu_OnlyOneArmor"				"Brnění už máš"
 		"SFUI_BuyMenu_NotAllowed_Short"			"NELZE"
@@ -32749,6 +32882,8 @@
 		"buymenu_prohibited_weapon_hint"		"<b>{s:s1}</b> nelze koupit v tomto módu"
 		"buymenu_weaponsexpert_reminder"		"Lze koupit jednou za zápas"
 		"buymenu_weaponsexpert_supply"			"Zásoby týmu: <b>%s1</b>"
+
+		"buymenu_groundweapons"					"Upuštěné zbraně"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy menu text information
@@ -33041,6 +33176,7 @@
 		"SFUI_OfficialDatacenterID_42"		"Čcheng-tu, Čína"
 		"SFUI_OfficialDatacenterID_43"		"New York, USA"
 		"SFUI_OfficialDatacenterID_44"		"Finsko, EU"
+		"SFUI_OfficialDatacenterID_45"		"Velká Británie"
 
 		"SFUI_UserAlert_HighPings"			"Tvoje nejlepší odezva na oficiální servery je %s1 ms."
 		"SFUI_UserAlert_Unreachable"		"Nepodařilo se spojit s žádným oficiálním serverem."
@@ -33535,6 +33671,7 @@
 		"SFUI_Lobby_StatusInLobby"			"V lobby"
 		"SFUI_Lobby_StatusInLevel"			"Na mapě"
 		"SFUI_Lobby_StatusInGame"			"Hraje jinou hru"
+		"SFUI_Lobby_StatusPlayingSteamRP"	"Hraje Counter-Strike 2"
 		"SFUI_Lobby_StatusPlayingCSGO"		"Hraje Counter-Strike"
 		"SFUI_Lobby_StatusWatchingCSGO"		"Sleduje zápas"
 		"SFUI_Lobby_StatusOverwatch"		"V zasedání Dozoru"
@@ -33750,7 +33887,7 @@
 		"SFUI_MajorEventVenue_Title_9_1"		"Zkušební přenos – živě z Valve"
 		"SFUI_MajorEventVenue_Subtitle_9_1"		"Toto je zkouška funkce systému přenosů z turnaje ve hře CS:GO"
 		"SFUI_MajorEventVenue_Title_9_2"		"Columbus 2016 – živě z Columbusu"
-		"SFUI_MajorEventVenue_Subtitle_9_2"		"Sleduj nejlepší týmy světa na šampionátu MLG Columbus 2016"
+		"SFUI_MajorEventVenue_Subtitle_9_2"		"Sleduj nejlepš�� týmy světa na šampionátu MLG Columbus 2016"
 
 		"SFUI_MajorEventVenue_Title_10_0"		"Zkušební přenos – živě z Valve"
 		"SFUI_MajorEventVenue_Subtitle_10_0"	"Toto je zkouška funkce systému přenosů z turnaje ve hře CS:GO"
@@ -35077,7 +35214,7 @@
 		"SFUI_DisconnectReason_TeamResFail"					"Tato relace je momentálně rezervovaná pro tým. Zkus to znovu."
 		"SFUI_DisconnectReason_LobbyFull"					"Nepodařilo se připojit do relace, protože je plná. Zkus to znovu."
 		"SFUI_DisconnectReason_LobbyNotWanted"				"Nemůžeš se připojit do této relace."
-		"SFUI_DisconnectReason_LobbyBlockedYou"				"Nepodařilo se připojit do relace, protože jsi byl zablokován jedním nebo více přítomnými hráči."
+		"SFUI_DisconnectReason_LobbyBlockedYou"				"Nepoda��ilo se připojit do relace, protože jsi byl zablokován jedním nebo více přítomnými hráči."
 		"SFUI_DisconnectReason_LobbyYouBlocked"				"Nepodařilo se připojit do relace, protože jsi zablokoval jednoho nebo více přítomných hráčů."
 		"SFUI_DisconnectReason_LobbyDoesntExist"			"Nepodařilo se připojit do relace. Zkus to znovu."
 		"SFUI_DisconnectReason_LobbyRatelimit"				"Během krátké doby ses pokusil připojit do příliš mnoha veřejných lobby. Chvíli počkej a zkus to znovu."
@@ -35157,7 +35294,6 @@
 		"Player_DisconnectReason_NoSteamLogin"				"chybějící přihlášení do služby Steam"
 		"Player_DisconnectReason_NoSteamTicket"				"chyba ověřování platnosti licence"
 		"Player_DisconnectReason_ConnectionClosing"			"ukončování spojení"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Profile Text
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -35173,7 +35309,7 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		"SFUI_GameUI_ArcadeNotUnlockedTitle"		"Zakup si plnou hru!"
-		"SFUI_GameUI_ArcadeNotUnlocked"				"Pokud chceš mít přístup k t��to funkci, musíš si zakoupit plnou hru!"
+		"SFUI_GameUI_ArcadeNotUnlocked"				"Pokud chceš mít přístup k této funkci, musíš si zakoupit plnou hru!"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Grenade Text
@@ -37052,7 +37188,11 @@
 		"PlayMenu_GraphicsDriverLink_AMD"			"Přejít na stránky AMD"
 		"PlayMenu_GraphicsDriverLink_Nvidia"		"Přejít na stránky NVIDIA"
 
-		
+		"SettingsRecommendation"					"Doporučení ohledně nastavení"
+		"VariableRefreshRateRecommendation_Nvidia"	"Zdá se, že disponuješ monitorem, který podporuje technologii NVIDIA G-Sync, ale nemáš ji zapnutou. Pro optimální zážitek ze hry ji doporučujeme zapnout, což lze snadno provést mimo hru v Ovládacím panelu NVIDIA. Aby se projevily změny, bude také nejspíš nutné hru restartovat."
+		"RefreshRateRecommendation"					"Zdá se, že tvůj monitor podporuje obnovovací frekvenci {d:max_refresh_rate} Hz, ale aktuálně používá {d:curr_refresh_rate} Hz. Pro optimální zážitek ze hry je obecně doporučeno používat nejvyšší možnou obnovovací frekvenci monitoru."
+		"LowLatencyVSyncRecommendation_Nvidia"		"Zdá se, že máš zapnutou technologii NVIDIA G-Sync, ale ne technologii NVIDIA Reflex a vertikální synchronizaci. Pro optimální zážitek ze hry doporučujeme mít zapnuté všechny tři tyto technologie/funkce."
+
 		"PlayMenu_GraphicsDriverWarning_RemindMeLater"	"Připomenout později"
 		"PlayMenu_GraphicsDriverWarning_DontShowAgain"	"Znovu nezobrazovat"
 
@@ -37300,6 +37440,7 @@
 		"inv_sort_type"						"Dle typu"
 		"inv_search_default"				"Zadej hledaný výraz"
 		"inv_nav_all"						"VŠE"
+		"inv_nav_rentals"					"VÝPŮJČKY"
 		"inv_nav_weapons"					"Zbraně"
 		"inv_nav_graphics"					"OBRÁZKY"
 		"inv_nav_equipment"					"VÝBAVA"
@@ -37327,6 +37468,7 @@
 		"inv_nav_items"						"PŘEDMĚTY"
 		"inv_nav_market"					"KOMUNITNÍ TRH"
 		"inv_nav_search"					"Najít předměty"
+		"inv_nav_filter_rentals"			"Skrýt vypůjčené předměty"
 
 		"loadout_wedge_weapon_name"			"<b>{s:item-name}</b>"
 		"loadout_clear_filters"				"Vymazat filtry"
@@ -37438,7 +37580,8 @@
 
 		"CSGO_ItemName_Base"				"<span class=\"fontWeight-Bold\">{s:item_name}</span>"
 		"CSGO_ItemName_Painted"				"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>{s:paintkit_name}"
-		"CSGO_ItemName_Custom"				"{s:item_name}"
+		"CSGO_ItemName_Custom_Painted"		"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>{s:paintkit_name}<br>„<i>{s:custom_item_name}</i>“"
+		"CSGO_ItemName_Custom_Simple"		"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>„<i>{s:custom_item_name}</i>“"
 
 		"popup_casket_action_remove"		"Vyzvednout"
 		"popup_casket_title_add"			"Přesouvání do úložného kontejneru"
@@ -37446,8 +37589,12 @@
 		"popup_casket_title_loadcontents"	"Otevírání úložného kontejneru"
 
 		"popup_inv_lootlist_header"		"Prohlížíš si: {s:container}"
+		"popup_inv_lootlist_rental_header"		"Prohlížíš si vypůjčené předměty"
 		"popup_inv_lootlist_count"		"{d:index}/{d:total}"
 		"popup_inv_lootlist_inspect_all"	"PROHLÉDNOUT PŘEDMĚTY"
+
+		"popup_inspect_header_name"			"{s:item_name}"
+		"popup_inspect_header_customname"	"„{s:item_custom_name}“"
 
 		"popup_casket_title_error_casket_too_full"		"Úložný kontejner je plný"
 		"popup_casket_message_error_casket_too_full"	"Nepodařilo se přesunout předmět, protože vybraný úložný kontejner je plný. Další kontejner si můžeš zakoupit z herního obchodu."
@@ -37543,7 +37690,7 @@
 		"popup_can_stick_title_sticker" 						"Použít samolepku"
 		"popup_can_stick_scrape_full_sticker"					"Odebrat samolepku z: <b>{s:tool_target_name}</b>"
 		"popup_can_stick_scrape_sticker"						"Strhnout samolepku z: <b>{s:tool_target_name}</b>"
-		"popup_can_stick_warning_traderestricted_sticker"  		"Tato nevyměnitelná samolepka může být použita pouze jednou.\nPředmět se samolepkou nebude možné vyměnit do {s:date}"
+		"popup_can_stick_warning_traderestricted_sticker"  		"Tato nevyměnitelná samolepka může být použita pouze jednou.\nPředmět se samolepkou nebude možn�� vyměnit do {s:date}"
 		"popup_can_stick_warning_marketrestricted_sticker"  	"Tato nevyměnitelná a neprodejná samolepka může být použita pouze jednou.\nPředmět se samolepkou nebude možné vyměnit nebo prodat do {s:date}"
 		"popup_can_stick_button_sticker"						"Použít samolepku"
 		"SFUI_InvContextMenu_stick_use_sticker"   				"Použít samolepku"
@@ -37570,15 +37717,22 @@
 		"popup_decodeable_async_desc"	"Použít <b>{s:itemname}</b>"
 		"popup_decodeable_async_xray_desc"		"Použij rentgen a odhal předmět ukrytý v bedně"
 		"popup_decodeable_err_restricted"	"Ve tvojí zemi je zakázáno otevřít <b>{s:itemname}</b>"
+		"popup_decodable_open_case"		"Otevřít pro získání"
+		"popup_decodable_keep_weapon"	"Získáš jeden předmět"
+		"popup_decodable_rent_weapons"		"Otevřít pro vypůjčení"
+		"popup_decodable_rent_get_key"		"Vyžaduje předmět {s:itemname} <b>{s:price}</b>"
+		"popup_decodable_rent_weapon_count:p{numlootlist}"	"Na 7 dní si vypůjčíš {d:numlootlist} předmět#|#Na 7 dní si vypůjčíš {d:numlootlist} předměty#|#Na 7 dní si vypůjčíš {d:numlootlist} předmětů#|#Na 7 dní si vypůjčíš {d:numlootlist} předmětu"
 
 		//Capability
 		"popup_capability_upsell"	"Pro tuto akci je vyžadován předmět <b>{s:itemname}</b>"
+		"popup_capability_upsell_rental"	"Pro otevření a získání jednoho z předmětů, nebo vypůjčení všech je vyžadován předmět <b>{s:itemname}</b>"
 		"popup_capability_use"		"<b>{s:itemname}</b>"
 		"popup_totool_nameable_header"	"Náhled štítku"
 		"popup_totool_decodeable_header"	"Odemknout bednu"
 		"popup_totool_decodeable_header_graffiti"	"Rozbalit graffiti"
 		"popup_totool_decodeable_header_fantoken"	"Aktivovat předmět"
 		"popup_totool_purchase_header"	"Zakoupit"
+		"popup_totool_purchase_header2"	"ZAKOUPIT PRO ZÍSKÁNÍ"
 
 		//Purchase
 		"popup_cartpreview_button"		"Náhled"
@@ -37605,6 +37759,7 @@
 		"popup_xray_ready_for_use"		"Rentgen je připraven odhalit obsah tvojí bedny"
 		"popup_xray_already_in_use"		"Tvůj předmět je připraven k vyzvednutí"
 		"popup_xray_reveal_warning"  	"Použitím rentgenu bude spotřebována tato bedna a odhalen v ní ukrytý předmět."
+		"popup_xray_reveal_warning_short"  	"Použij pro odhalení předmětu uvnitř."
 		"popup_xray_in_use_title"		"Rentgen"
 		"popup_xray_in_use_desc"		"Pod tvým rentgenem se stále nachází předchozí bedna a její předmět. \n\nAbys mohl rentgen použít znovu, musíš si nejprve vyzvednout tento předmět."
 		"popup_xray_first_use_title"	"Rentgen"
@@ -37658,6 +37813,7 @@
 
 		//redeem souvenir
 		"popup_redeem_souvenir_title" "Vyzvednout suvenýr z tohoto zápasu"
+		"popup_redeem_souvenir_action" "Získat suvenýr"
 		"popup_redeem_souvenir_action_redeem" "Vyzvednout suvenýr"
 		"popup_redeem_souvenir_action_price" "Zakoupit suvenýr {s:price}"
 		"popup_redeem_souvenir_desc:p{redeems}" "Zbývající suvenýry: <span class=\"get-souvenir-redeem-count\">{d:redeems}</span>#|#Zbývající suvenýry: <span class=\"get-souvenir-redeem-count\">{d:redeems}</span>#|#Zbývající suvenýry: <span class=\"get-souvenir-redeem-count\">{d:redeems}</span>#|#Zbývající suvenýry: <span class=\"get-souvenir-redeem-count\">{d:redeems}</span>"
@@ -37855,6 +38011,8 @@
 		"settings_account_conn_section"		"Twitch.tv"
 		"settings_crosshair"				"Zaměřovač"
 		"settings_crosshair_info"			"Přizpůsob si velikost, tvar a barvu zaměřovače. Kód zaměřovače můžeš poté sdílet s přáteli a také importovat jejich zaměřovače."
+		"settings_grenadecrosshair"			"Zaměřovač pro házení granátů"
+		"settings_grenadecrosshair_info"	"Pomocný zaměřovač usnadňující míření před odhozením granátu."
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / tablet"
 		"settings_items_section"			"Předměty"
@@ -37866,9 +38024,12 @@
 		"settings_telemetry_section_info"	"Umožňuje přizpůsobit, které metriky výkonu (FPS, odezva, ztráty paketů apod.) budou zobrazeny mezi ukazateli na obrazovce."
 		"settings_audio_section"			"Zvuk"
 		"settings_music_section"			"Hudba"
+		"settings_voice_section"			"Hlas"
+		"settings_audio_advanced_section"		"Ekvalizéry herních módů"
 		"settings_video_section"			"Obraz"
 		"settings_video_advanced_section"	"Obraz – pokročilá"
-		"settings_video_individual_presets"	"Jednotlivé hodnoty nastavení"
+		"settings_video_frame_pacing"		"Počet snímků za sekundu"
+		"settings_video_presets"			"Předvolby"
 		"settings_video_hud_edge_positions"	"Vzdálenost ukazatelů od okraje"
 		"settings_video_hud_edge_x"			"Vodorovné nastavení"
 		"settings_video_hud_edge_y"			"Svislé nastavení"
@@ -38136,6 +38297,7 @@
 		"CSGO_Workshop_Mode_coopstrike"				"Zásah (kooperace)"
 		"CSGO_Workshop_Mode_custom"					"Vlastní"
 		"CSGO_Workshop_Mode_armsrace"				"Závod ve zbrojení"
+		"CSGO_Workshop_Mode_gungameprogressive"		"Závod ve zbrojení"
 		"CSGO_Workshop_Mode_demolition"				"Demolice"
 		"CSGO_Workshop_Mode_flyingscoutsman"		"Létající snajpr"
 		"CSGO_Workshop_Mode_retakes"				"Přetahovaná"
@@ -38396,6 +38558,8 @@
 		"tooltip_unequip_flair"						"Sundat tento předmět"
 		"tooltip_prime"								"Primární účet"
 
+		"tooltip_demo_highlights_toggle"			"Zapnout přehrávání důležitých sekcí"
+
 		"mainmenu_go_to_character_loadout"			"Zobrazit agenta ve vybavení"
 		"mainmenu_switch_vanity_to_t"				"Zobrazit vybaveného agenta T"
 		"mainmenu_switch_vanity_to_ct"				"Zobrazit vybaveného agenta CT"
@@ -38495,14 +38659,14 @@
 		"BuyMenu_Buyprev"				"[{s:bind_rebuy}] Koupit předešlé"
 		"BuyMenu_Buyprev_Key"			"{s:rebuy}"
 		"BuyMenu_Back"					"[{s:bind_cancelselect}] Zpět"
-		"BuyMenu_BuyForTeammate"		"Podrž [{s:buywheel_donate_key}] pro zakoupení spojenci"
+		"BuyMenu_BuyForTeammate"		"Podrž [{s:buywheel_donate_key}] pro zakoupení a upuštění"
 		"BuyMenu_BuyForTeammate_Donate"		"[{s:csgo_donate}] Darovat"
 
 		"BuyMenu_Sellbackall"			"[{s:bind_sellbackall}] Prodat vše"
 
 
 		"BuyMenu_BuyForTeammate_Key"	"{s:autobuy}"
-		"BuyMenu_BuyForTeammate_hint"	"Zakoupené zbraně budou upuštěny na zem, aby je mohli sebrat spoluhráči"
+		"BuyMenu_BuyForTeammate_hint"	"Můžeš koupit a upustit"
 
 		"BuyMenu_Done"					"${cancel} Zavřít"
 
@@ -38519,6 +38683,7 @@
 		"BuyMenu_NotInBuyZone"			"Opustil jsi nákupní zónu"
 		"BuyMenu_CantBuyTilNextWave"	"Během vlny nemůžeš nakupovat"
 		"BuyMenu_CantBuy"				"Nemůžeš nakupovat"
+		"BuyMenu_MinMoneyNextRound"		"Minimum pro příští kolo: {d:next-round-min-money} $"
 
 		"BuyMenu_Header"				"NÁKUPNÍ MENU"
 		"BuyMenu_WeaponClass"			"VYBER TŘÍDU ZBRANÍ"
@@ -38549,6 +38714,7 @@
 		"buymenu_tooltip_tagging"				"Redukce rychlosti pohybu zasažených nepřátel."
 
 		"buymenu_money"							"{d:r:money} $"
+		"buymenu_money_digitpanel_digits"		" 0123456789$"
 		"buymenu_cost_amount"					"{d:r:item_price} $"
 		"buymenu_killaward_amount"				"{d:r:kill_reward} $ ({d:r:kill_reward_pct} %)"
 
@@ -38769,9 +38935,7 @@
 		"Scoreboard_money_val"							"{d:r:stat_d_money} $"
 		"Scoreboard_damage"								"POŠK"
 		"Scoreboard_knifekills"							"Nůž Z"	
-		"Scoreboard_taserkills"							"Zeus Z"		
-
-
+		"Scoreboard_taserkills"							"Zeus Z"
 		"Scoreboard_lossmoneybonus_tooltip"				"{s:round_loss_income_team} získají za prohru <b>{d:round_loss_income_amount} $</b>"
 
 		"Scoreboard_ping_tooltip"		 				"Odezva"
@@ -38941,11 +39105,14 @@
 		///////////////////////////////////////////////////////////
 		
 		"eom-skillgroup-win:p{matcheswon}"				"vyhraný zápas módu {s:rating_type}#|#vyhrané zápasy módu {s:rating_type}#|#vyhraných zápasů módu {s:rating_type}#|#vyhraného zápasu módu {s:rating_type}"
+		"eom-skillgroup-map-win:p{matcheswon}"			"vyhraný zápas módu {s:rating_type} ({s:map})#|#vyhrané zápasy módu {s:rating_type} ({s:map})#|#vyhraných zápasů módu {s:rating_type} ({s:map})#|#vyhraného zápasu módu {s:rating_type} ({s:map})"
+
 		"eom-skillgroup-needed-wins:p{winsneeded}"		"Vyhraj ještě {d:winsneeded} zápas, abys zjistil svoji dovednostní skupinu#|#Vyhraj ještě {d:winsneeded} zápasy, abys zjistil svoji dovednostní skupinu#|#Vyhraj ještě {d:winsneeded} zápasů, abys zjistil svoji dovednostní skupinu#|#Vyhraj ještě {d:winsneeded} zápasu, abys zjistil svoji dovednostní skupinu"
 		"eom-skillgroup-expired"						"Vyhraj ještě <b>1</b> zápas módu {s:rating_type}, abys obnovil svoji dovednostní skupinu"
 		"eom-skillgroup-expired-premier"				"Vyhraj ještě <b>1</b> zápas módu {s:rating_type}, abys obnovil svůj rating CS"
 		"eom-skillgroup-recalibrating"					"Probíhá překalibrování dovednostní skupiny – pro její opětovné zobrazení musíš vyhrát <b>1</b> zápas módu {s:rating_type}"
 		"eom-skillgroup-higher"							"Nová skupina"
+		"eom-skillgroup-map-name"						"Tvoje dovednostní skupina módu {s:rating_type} ({s:map})"
 		"eom-skillgroup-name"							"Tvoje dovednostní skupina módu {s:rating_type}"
 		"eom-skillgroup-needed-dzgames"					"Dokonči další zápasy módu Zóna smrti, abys zjistil svoji dovednostní skupinu"
 
@@ -39484,8 +39651,6 @@
 		"eom-survival-damage-taken"						"Utržené poškození"
 		"eom-survival-damage-given"						"Udělené poškození"
 
-		"versus"										"VS."
-
 
 
 		//////////////////////////////////////////////////////////////////
@@ -39704,15 +39869,21 @@
 		//
 		///////////////////////////////////////////////////////////
 
-		"Panorama_winpanel_mvp_award"				"Nej. hráč"
-		"Panorama_winpanel_mvp_award_kills"			"Nejlepší hráč za nejvíce zabití"
+		"Panorama_winpanel_mvp_award"				"Nejlepší hráč"
+		"Panorama_winpanel_mvp_award_kills"			"Nejlepší hráč"
 		"Panorama_winpanel_mvp_award_ace"			"Nejlepší hráč za vystřihnutí esa"
 		"Panorama_winpanel_mvp_award_bombplant"		"Nejlepší hráč za položení bomby"
 		"Panorama_winpanel_mvp_award_bombdefuse"	"Nejlepší hráč za zneškodnění bomby"
 		"Panorama_winpanel_mvp_award_rescue"		"Nejlepší hráč za záchranu rukojmího"
 		"Panorama_winpanel_mvp_award_score"			"Nejlepší hráč za nejvyšší skóre"
-		"Panorama_winpanel_mvp_award_gungame"		"{s:mvp}"
-		"Panorama_winpanel_mvp_winner"				"{s:mvp}"
+		"Panorama_winpanel_mvp_award_inferno"		"Nejlepší hráč za udělení značného poškození ohněm"
+		"Panorama_winpanel_mvp_award_blast"			"Nejlepší hráč za udělení značného poškození výbušninami"
+		"Panorama_winpanel_mvp_award_bombdefuse_clutch"	"Nejlepší hráč za zneškodnění bomby proti přesile"
+		"Panorama_winpanel_mvp_award_bombplant_clutch"	"Nejlepší hráč za položení a ubránění bomby"
+		"Panorama_winpanel_mvp_award_gungame"		"Nejlepší hráč"
+		"Panorama_winpanel_mvp_winner"				"Nejlepší hráč"
+		"Panorama_winpanel_mvp_award_kills_three"	"Nejlepší hráč za nejvíce zabití (3)"
+		"Panorama_winpanel_mvp_award_kills_four"	"Nejlepší hráč za nejvíce zabití (4)"
 
 		"Panorama_WinPanel_rank_awarded_multi"	"Dosáhl jsi {d:rank_increase} nových úrovní!"
 
@@ -39818,6 +39989,7 @@
 		"pickem_save_all" 			"ULOŽIT TIPY"
 		"pickem_make_picks" 		"ZADANÉ TIPY: {d:user-picks}/{d:total-picks}"
 		"pickem_drag_picks" 		"Přetažením zadej své tipy"
+		"pickem_reveal_all_results" "Zobrazit konečné výsledky"
 		"pickem_saved" 		"Tipy uloženy"
 		"pickem_teams_tbd" 	"Týmy budou určeny"
 		"pickem_challenge_section_title" "TIPOVACÍ SOUTĚŽ"
@@ -39827,10 +39999,12 @@
 		"pickem_items_tab_playoff_stage" "PLAYOFF"
 		"pickem_teams_remove_all_tooltip" 	"Zrušit všechny tipy"
 		"pickem_teams_fill_tooltip" 	"Náhodně zaplnit prázdná místa"
-		"pickem_teams_remove_all_tooltip" 	"Clear all picks"
-		"contextmenu_pickem_souvenir_title" 	"Vyber zápas, ze kterého si chceš vyzvednout suvenýr"
+		"pickem_versus"				"VS."
+		"contextmenu_pickem_souvenir_title" 	"Vyber mapu, ze které si chceš vyzvednout suvenýr"
 		"contextmenu_pickem_souvenir_no_result" 	"Suvenýr z tohoto zápasu si budeš moci vyzvednout až po jeho skončení"
 		"mainmenu_major_hub"	"PGL COPENHAGEN 2024 – CENTRUM A PŘEDMĚTY"
+		"mainmenu_major_hub_items"	"Nově jsou dostupné také samolepky"
+		"mainmenu_major_hub_no_items" "CENTRUM ŠAMPIONÁTU PGL COPENHAGEN 2024"
 
 		"pickem_swiss_group_00"									"0:0"
 		"pickem_swiss_group_10"									"1:0"
@@ -39921,17 +40095,15 @@
 		///////////////////////////////////////////////////////////
 		
 		"Panorama_Overwatch_Downloading"		"Stahování souborů případu..."
-		"Panorama_Overwatch_Review"				"Přezkoumání případu zabere kolem 10 minut."
-		"Panorama_Overwatch_Welcome"			"Vítej v Dozoru"
-		"Panorama_Overwatch_Tooltip_p1"		"Dozor umožňuje komunitě hry Counter-Strike regulovat sebe samu tím, že kvalifikovaní a zkušení členové komunity (tzv. „vyšetřovatelé“) mají možnost přezkoumávat stížnosti na nevhodné chování a následně vyhodnocovat, zdali jsou tyto stížnosti oprávněné. Pokud ano, mohou členové Dozoru na dané hráče uvalit ban.\n\nPokud se rozhodneš zúčastnit, bude ti přidělen záznam (dlouhý přibližně 10 minut) hráče podezřelého z nevhodného chování, o němž budeš muset rozhodnout."
+		"Panorama_Overwatch_Review"				"Přezkoumání případu zabere několik minut."
+		"Panorama_Overwatch_Welcome"			"Dozor hry Counter-Strike 2"
+		"Panorama_Overwatch_Tooltip_p1"			"Protože jsi vyšetřovatel Dozoru, je tvojí prací přezkoumávat záznamy ze zápasů hry CS2 na oficiálních serverech a rozhodovat o tom, zdali došlo k nevhodnému chování. Vždy když tedy zhlédneš záznam, budeš požádán o vynesení verdiktu nad daným podezřelým."
 		"Panorama_Overwatch_Tooltip_sh1"		"1. krok"
-		"Panorama_Overwatch_Tooltip_p2"		"Klikni na tlačítko <b>STÁHNOUT DŮKAZ</b>. Soubor se záznamem se začne stahovat."
+		"Panorama_Overwatch_Tooltip_p2"			"Vpravo dole klikni na tlačítko „STÁHNOUT DŮKAZ“."
 		"Panorama_Overwatch_Tooltip_sh2"		"2. krok"
-		"Panorama_Overwatch_Tooltip_p3"			"Klikni na tlačítko <b>PŘEZKOUMAT DŮKAZ</b>. Tím spustíš daný záznam."
+		"Panorama_Overwatch_Tooltip_p3"			"Po stažení klikni na tlačítko „PŘEZKOUMAT DŮKAZ“ a zhlédni záznam z pohledu podezřelého hráče."
 		"Panorama_Overwatch_Tooltip_sh3"		"3. krok"
-		"Panorama_Overwatch_Tooltip_p4"			"Po zhlédnutí záznamu o něm rozhodni vybráním jedné z nabízených možností."
-		"Panorama_Overwatch_Tooltip_sh4"		"4. krok"
-		"Panorama_Overwatch_Tooltip_p5"			"Hotovo!\n\nPo uzavření případů za ně získáš <b>odměnu v podobě XP</b>, jejíž výše bude záležet na správnosti tvých rozhodnutí. Odměnu si můžeš vybrat na konci zápasu na oficiálních serverech. Děkujeme za to, že jsi aktivním členem komunity hry Counter-Strike."
+		"Panorama_Overwatch_Tooltip_p4"			"Až záznam skončí, vyber pro každou otázku jednu z nabízených možností a klikni na tlačítko „ODESLAT VERDIKT“."
 		"Panorama_Overwatch_Major_Disruption"	"Závažný přestupek"
 		"Panorama_Overwatch_Minor_Disruption"	"Méně závažný přestupek"
 		"Panorama_Overwatch_Res_Griefing"		"Kazení hry"
@@ -40184,15 +40356,42 @@
 		"LoadoutLockedPopupTitle"				"Vybavení je uzamčeno"
 		"LoadoutLockedPopupText"				"Při vyhledávání kompetitivních zápasů není povoleno měnit vybavení."
 
-		"Workshop_tournament_item_title" "Nástroj pro nahrání položek šampionátu"
-		"Workshop_tournament_item_error_title" "Zadej název položky. V názvu by mělo být zahrnuto jméno hráče nebo jiný identifikační údaj."
-		"Workshop_tournament_item_error_image" "Vyber platný obrázek formátu JPEG nebo PNG, který je menší než {s:max_size} a má alespoň {d:min_height} pixelů na výšku/šířku."
-		"Workshop_tournament_item_ready" "Výtvor je připraven na nahrání"
+		"Workshop_item_title" "Nástroj pro nahrání položek"
+		"Workshop_item_error_title" "Zadej název položky. V názvu by mělo být zahrnuto jméno hráče nebo jiný identifikační údaj."
+		"Workshop_item_error_image" "Vyber platný obrázek formátu JPEG nebo PNG, který je menší než {s:max_size} a má alespoň {d:min_height} pixelů na výšku/šířku."
+		"Workshop_item_ready" "Výtvor je připraven na nahrání"
 		"SFUI_Go_To_Mic_Enable_key" "Přejít na nastavení klávesy mikrofonu"
 		"SFUI_Go_To_Console_Key_Binding" "Přejít na nastavení klávesy konzole"
 
-// crow_mask_41910_comment
-// crow_mask_41911_comment
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Steam Video
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"SteamVideo_Player_Kill_Title"					"Zabili jste hráče %s1"
+		"SteamVideo_Player_Kill_Description"			"pomocí %s1"
+				
+		"SteamVideo_Player_Double_Kill_Title"			"Dvojnásobné zabití"
+		"SteamVideo_Player_Multi_Kill_Title"			"Vícenásobné zabití"
+		
+		"SteamVideo_Player_Death_Title"					"Zabil Vás hráč %s1"
+		"SteamVideo_Player_Death_Description"			"pomocí %s1"
+		"SteamVideo_Player_Death_Description_Plural"	"pomocí %s1"
+		"SteamVideo_Player_Killed_Self_Title"			"Zabili jste sami sebe"
+		
+		"SteamVideo_Bomb_Planted_Title"					"Bomba byla položena"
+		"SteamVideo_Bomb_Planted"						"Hráč %s1 položil bombu"
+		"SteamVideo_Bomb_Planted_LocalPlayer"			"Položili jste bombu"
+		
+		"SteamVideo_Bomb_Defused_Title"					"Bomba byla zneškodněna"
+		"SteamVideo_Bomb_Defused"						"Hráč %s1 zneškodnil bombu"
+		"SteamVideo_Bomb_Defused_LocalPlayer"			"Zneškodnili jste bombu"
+		
+		"SteamVideo_Bomb_Exploded_Title"				"Bomba vybuchla"
+		
+		"SteamVideo_Round_Number_Label"					"%s1. kolo"
+		"SteamVideo_Start_Of_Round_Title"				"Začátek %s1. kola"
+
+// crow_mask_42161_comment
+// crow_mask_42162_comment
 }
 
 

@@ -202,7 +202,7 @@ function download(url) {
 }
 
 function main(params) {
-    // downloadOriginalFile();
+    downloadOriginalFile();
     processFiles();
     
 }

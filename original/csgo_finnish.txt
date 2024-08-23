@@ -75,7 +75,18 @@
 		"GameUI_Always" 	"Aina"
 		"GameUI_ObservedBotCrosshair_Takeover" 	"Kun otan botin haltuuni"
 		"GameUI_ObservedBotCrosshair_Default" 	"Ei koskaan"
-
+		"GameUI_KeepCrosshair"	"Pidä tavallinen tähtäin"
+		"GameUI_KeepCrosshairInfo" "Pidä tavallinen tähtäin näkyvissä, kun kranaattien tähtäinristikko näkyy."
+		"GameUI_GrenadeCrosshairFlash"	"Valokranaatit"
+		"GameUI_GrenadeCrosshairHE"	"HE-kranaatit"
+		"GameUI_GrenadeCrosshairFire"	"Polttopullot ja palopommit"
+		"GameUI_GrenadeCrosshairSmoke"	"Savukranaatit"
+		"GameUI_GrenadeCrosshairDecoy"	"Harhautuskranaatit"
+		"GameUI_GrenadeCrosshairInfoTooltipFlash" "Pitäisik�� valokranaateille näyttää tähtäinristikko? Jos pitäisi, kauanko pitäisi kulua sokan vedosta, ennen kuin ristikko näytetään?"
+		"GameUI_GrenadeCrosshairInfoTooltipHE" "Pitäisikö HE-kranaateille näyttää tähtäinristikko? Jos pitäisi, kauanko pitäisi kulua sokan vedosta, ennen kuin ristikko näytetään?"
+		"GameUI_GrenadeCrosshairInfoTooltipFire" "Pitäisikö polttopulloille ja palopommeille näyttää tähtäinristikko? Jos pitäisi, kauanko pitäisi kulua sokan vedosta, ennen kuin ristikko näytetään?"
+		"GameUI_GrenadeCrosshairInfoTooltipSmoke" "Pitäisikö savukranaateille näyttää tähtäinristikko? Jos pitäisi, kauanko pitäisi kulua sokan vedosta, ennen kuin ristikko näytetään?"
+		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Pitäisikö harhautuskranaateille näyttää tähtäinristikko? Jos pitäisi, kauanko pitäisi kulua sokan vedosta, ennen kuin ristikko näytetään?"
 
 
 		"GameUI_Xhair_Reset_Tooltip" 		"Palauta kaikki tähtäimen oletusarvot."
@@ -231,7 +242,7 @@
 		"GameUI_Disconnect_SteamTicket"						"Steam-käyttäjätunnus on virheellinen"
 		"GameUI_Disconnect_SteamLogon"						"Ei kirjautuneena Steamiin"
 		"GameUI_Disconnect_SteamInUse"						"Tätä Steam-tiliä käytetään toisessa sijainnissa"
-		"GameUI_Disconnect_SteamOwnership"					"Tämä Steam-tili ei omista tätä peliä.\nKirjaudu sisään oikealle Steam-tilille."
+		"GameUI_Disconnect_SteamOwnership"					"Pelin omistajuutta tällä Steam-tilillä ei pystytä vahvistamaan."
 		"GameUI_Disconnect_SteamVAC"						"VAC-kielto suojatulle palvelimelle"
 		"GameUI_Disconnect_SteamTimeOut"					"Valven huijaukseneston (VAC) kysely aikakatkaistiin. Varmista, ettet käytä huijauksenestoa häiritseviä ohjelmia ja että Steam on asennettu oikein."
 		"GameUI_Disconnect_StringTableMessage"				"Virhe kirjoitettaessa merkkijonotaulukon päivitysviestiä"
@@ -283,7 +294,7 @@
 		"Button_Delete"					"Poista"
 		"Button_Edit_nodots"			"Muokkaa"
 		"Button_Refresh"				"Päivitä"
-		"Button_Weapon_Finish"			"Aseen ulkoasu"
+		"Button_Weapon_Finish"			"Aseen maalaus"
 		"Button_Sticker"				"Tarra"
 		"Button_Spray"					"Graffiti"
 		"Button_Map"					"Kartta"
@@ -356,7 +367,7 @@
 		"UI_File_Filter_SupportedImageFormats"	"Kuvatiedostot (*.png; *.jpg; *.jpeg)"
 
 		"CSGO_Cfg_Items"					"Esineet"
-		"CSGO_Cfg_Items_Description"		"Painamalla painiketta alla käynnistät työkalut, joilla voit luoda workshop-esineitä. Voit luoda, muokata ja esikatsella niitä pelissä sekä lähettää ne Counter-Strike 2 Workshopiin."
+		"CSGO_Cfg_Items_Description"		"Painamalla painiketta alla käynnistät työkalut, joilla voit luoda workshop-esineitä. Voit luoda, muokata ja esikatsella niitä pelissä sekä l��hettää ne Counter-Strike 2 Workshopiin."
 		"CSGO_Cfg_Edit_Items"				"Käynnistä Workshopin esineiden editointityökalut"
 		"CSGO_Cfg_Maps"						"Kartat"
 		"CSGO_Cfg_CreateAddonFileFailed"	"\nSisällön lisätiedoston %1 luominen epäonnistui.\n\n%2"
@@ -515,8 +526,9 @@
 		"loadingscreen_title_ar_shoots_3"		"Shoots"
 		"loadingscreen_title_ar_shoots_4"		"Shoots"
 
-		"GameUI_Settings_ShowLocation"		"Näytä sijainti"
-		"GameUI_Settings_ShowLocationAndEquipment"		"Näytä sijainti ja varustus"
+		"GameUI_Settings_ShowLocation"					"Kaikumerkit"
+		"GameUI_Settings_ShowLocationAndName"			"Kaikumerkit, nimet ja terveys"
+		"GameUI_Settings_ShowLocationAndEquipment"		"Kaikumerkit, nimet, terveys ja varusteet"
 
 		"GameUI_ReportBug"		"ILMOITA VIASTA"
 		"GameUI_Bug_Successful"		"Vikailmoitus lähetetty!"
@@ -1085,6 +1097,7 @@
 		"Cstrike_TitlesTXT_Game_added_position"								"Sinut on lisätty sijalle %s1 / 5"
 		"Cstrike_TitlesTXT_Game_bomb_drop"									"%s1 pudotti pommin."
 		"Cstrike_TitlesTXT_Game_afk_bomb_drop"								"Pudotin pommin."
+		"Cstrike_TitlesTXT_Game_get_out_of_there"							"Äkkiä pois räjähdysalueelta!"
 		"Cstrike_TitlesTXT_Game_bomb_pickup"								"%s1 poimi pommin."
 		"Cstrike_TitlesTXT_Game_connected"									"%s1 yhdisti palvelimeen."
 		"Cstrike_TitlesTXT_Game_disconnected"								"%s1 poistui pelistä."
@@ -1355,6 +1368,8 @@
 		"CTBar"				"CT-kapakka"
 		"UpperCatwalks"		"Ylemmät huoltosillat"
 		"LowerCatwalks"		"Alemmat huoltosillat"
+		"UpperCatwalk"		"Ylempi huoltosilta"
+		"UpperConveyor"		"Ylempi liukuhihna"
 		"GroundLevel"		"Pohjataso"
 		"LockerRoom"		"Pukuhuone"
 		"BackEntrance"		"Takasisäänkäynti"
@@ -1562,88 +1577,92 @@
 		"item_cooldown_rounds"			"%s1 (lisätarvikkeet %s2 erässä)"
 		"item_cooldown_minutes"			"%s1 (lisätarvikkeet %s2 minuutissa)"
 
-		"SFUI_WPNHUD_Pistol"		"Pistooli"
-		"SFUI_WPNHUD_SMG"			"Konepistooli"
-		"SFUI_WPNHUD_Rifle"			"Kivääri"
-		"SFUI_WPNHUD_Heavy"			"Raskas"
-		"SFUI_WPNHUD_Grenade"		"Kranaatti"
-		"SFUI_WPNHUD_SniperRifle"	"Tarkkuuskivääri"
-		"SFUI_WPNHUD_Sniper"		"Tarkka-ampuja"
-		"SFUI_WPNHUD_Shotgun"		"Haulikko"
-		"SFUI_WPNHUD_AK47"			"AK-47"
-		"SFUI_WPNHUD_Aug"			"AUG"
-		"SFUI_WPNHUD_AWP"			"AWP"
-		"SFUI_WPNHUD_DesertEagle"	"Desert Eagle"
-		"SFUI_WPNHUD_Deagle"		"Desert Eagle"
-		"SFUI_WPNHUD_Elites"		"Tupla-Berettat"
-		"SFUI_WPNHUD_Elite"			"Tupla-Berettat"
-		"SFUI_WPNHUD_Famas"			"FAMAS"
-		"SFUI_WPNHUD_FiveSeven"		"Five-SeveN"
-		"SFUI_WPNHUD_Flashbang"		"Valokranaatti"
-		"SFUI_WPNHUD_G3SG1"			"G3SG1"
-		"SFUI_WPNHUD_GalilAR"		"Galil AR"
-		"SFUI_WPNHUD_Glock18"		"Glock-18"
-		"SFUI_WPNHUD_HE_Grenade"	"HE-kranaatti"
-		"SFUI_WPNHUD_HEGrenade"		"HE-kranaatti"
-		"SFUI_WPNHUD_Knife"			"Veitsi"
-		"SFUI_WPNHUD_Knife_T"		"Veitsi"
-		"SFUI_WPNHUD_Knife_GG"		"Kultaveitsi"
-		"SFUI_WPNHUD_Knife_Ghost"	"Aaveveitsi"
-		"SFUI_WPNHUD_M249"			"M249"
-		"SFUI_WPNHUD_M4A1"			"M4A4"
-		"SFUI_WPNHUD_M4_SILENCER"	"M4A1-S"
-		"SFUI_WPNHUD_M4A1_silencer"	"M4A1-S"
-		"SFUI_WPNHUD_MAC10"			"MAC-10"
-		"SFUI_WPNHUD_P90"			"P90"
-		"SFUI_WPNHUD_Smoke_Grenade"	"Savukranaatti"
-		"SFUI_WPNHUD_SmokeGrenade"	"Savukranaatti"
-		"SFUI_WPNHUD_UMP45"			"UMP-45"
-		"SFUI_WPNHUD_xm1014"		"XM1014"
-		"SFUI_WPNHUD_C4"			"C4-räjähde"
-		"SFUI_WPNHUD_Bizon"			"PP-Bizon"
-		"SFUI_WPNHUD_Mag7"			"MAG-7"
-		"SFUI_WPNHUD_Negev"			"Negev"
-		"SFUI_WPNHUD_Sawedoff"		"Katkaistu haulikko"
-		"SFUI_WPNHUD_Tec9"			"Tec-9"
-		"SFUI_WPNHUD_Taser"			"Zeus x27"
-		"SFUI_WPNHUD_Molotov"		"Polttopullo"
-		"SFUI_WPNHUD_IncGrenade"	"Palopommi"
-		"SFUI_WPNHUD_Decoy"			"Harhautuskranaatti"
-		"SFUI_WPNHUD_HKP2000"		"P2000"
-		"SFUI_WPNHUD_MP7"			"MP7"
-		"SFUI_WPNHUD_MP5SD"			"MP5-SD"
-		"SFUI_WPNHUD_MP9"			"MP9"
-		"SFUI_WPNHUD_Nova"			"Nova"
-		"SFUI_WPNHUD_P250"			"P250"
-		"SFUI_WPNHUD_CZ75"			"CZ75-Auto"
-		"SFUI_WPNHUD_SCAR20"		"SCAR-20"
-		"SFUI_WPNHUD_SG556"			"SG 553"
-		"SFUI_WPNHUD_SSG08"			"SSG 08"
+		"SFUI_WPNHUD_Pistol"					"Pistooli"
+		"SFUI_WPNHUD_SMG"						"Konepistooli"
+		"SFUI_WPNHUD_Rifle"						"Kivääri"
+		"SFUI_WPNHUD_Heavy"						"Raskas"
+		"SFUI_WPNHUD_Grenade"					"Kranaatti"
+		"SFUI_WPNHUD_SniperRifle"				"Tarkkuuskivääri"
+		"SFUI_WPNHUD_Sniper"					"Tarkka-ampuja"
+		"SFUI_WPNHUD_Shotgun"					"Haulikko"
+		"SFUI_WPNHUD_AK47"						"AK-47"
+		"SFUI_WPNHUD_Aug"						"AUG"
+		"SFUI_WPNHUD_AWP"						"AWP"
+		"SFUI_WPNHUD_DesertEagle"				"Desert Eagle"
+		"SFUI_WPNHUD_Deagle"					"Desert Eagle"
+		"SFUI_WPNHUD_Elites"					"Tupla-Berettat"
+		"SFUI_WPNHUD_Elite"						"Tupla-Berettat"
+		"SFUI_WPNHUD_Famas"						"FAMAS"
+		"SFUI_WPNHUD_FiveSeven"					"Five-SeveN"
+		"SFUI_WPNHUD_Flashbang"					"Valokranaatti"
+		"SFUI_WPNHUD_G3SG1"						"G3SG1"
+		"SFUI_WPNHUD_GalilAR"					"Galil AR"
+		"SFUI_WPNHUD_Glock18"					"Glock-18"
+		"SFUI_WPNHUD_HE_Grenade"				"HE-kranaatti"
+		"SFUI_WPNHUD_HE_Grenade_short"			"HE-kranaatti"		
+		"SFUI_WPNHUD_HEGrenade"					"HE-kranaatti"
+		"SFUI_WPNHUD_Knife"						"Veitsi"
+		"SFUI_WPNHUD_Knife_T"					"Veitsi"
+		"SFUI_WPNHUD_Knife_GG"					"Kultaveitsi"
+		"SFUI_WPNHUD_Knife_Ghost"				"Aaveveitsi"
+		"SFUI_WPNHUD_M249"						"M249"
+		"SFUI_WPNHUD_M4A1"						"M4A4"
+		"SFUI_WPNHUD_M4_SILENCER"				"M4A1-S"
+		"SFUI_WPNHUD_M4A1_silencer"				"M4A1-S"
+		"SFUI_WPNHUD_MAC10"						"MAC-10"
+		"SFUI_WPNHUD_P90"						"P90"
+		"SFUI_WPNHUD_Smoke_Grenade"				"Savukranaatti"
+		"SFUI_WPNHUD_SmokeGrenade"				"Savukranaatti"
+		"SFUI_WPNHUD_UMP45"						"UMP-45"
+		"SFUI_WPNHUD_xm1014"					"XM1014"
+		"SFUI_WPNHUD_C4"						"C4-räjähde"
+		"SFUI_WPNHUD_Bizon"						"PP-Bizon"
+		"SFUI_WPNHUD_Mag7"						"MAG-7"
+		"SFUI_WPNHUD_Negev"						"Negev"
+		"SFUI_WPNHUD_Sawedoff"					"Katkaistu haulikko"
+		"SFUI_WPNHUD_Tec9"						"Tec-9"
+		"SFUI_WPNHUD_Taser"						"Zeus x27"
+		"SFUI_WPNHUD_Molotov"					"Polttopullo"
+		"SFUI_WPNHUD_IncGrenade"				"Palopommi"
+		"SFUI_WPNHUD_IncGrenade_short"			"Palopommi"
+		"SFUI_WPNHUD_Decoy"						"Harhautuskranaatti"
+		"SFUI_WPNHUD_Decoy_short"				"Harhautus"
+		"SFUI_WPNHUD_HKP2000"					"P2000"
+		"SFUI_WPNHUD_MP7"						"MP7"
+		"SFUI_WPNHUD_MP5SD"						"MP5-SD"
+		"SFUI_WPNHUD_MP9"						"MP9"
+		"SFUI_WPNHUD_Nova"						"Nova"
+		"SFUI_WPNHUD_P250"						"P250"
+		"SFUI_WPNHUD_CZ75"						"CZ75-Auto"
+		"SFUI_WPNHUD_SCAR20"					"SCAR-20"
+		"SFUI_WPNHUD_SG556"						"SG 553"
+		"SFUI_WPNHUD_SSG08"						"SSG 08"
 		"SFUI_WPNHUD_HEAVYASSAULTSUIT"			"Raskas rynnäkköpuku"
 		"SFUI_WPNHUD_ASSAULTSUIT"				"Kevlar ja kypärä"
 		"SFUI_WPNHUD_ASSAULTSUIT_ONLY_HELMET"	"Kypärä"
 		"SFUI_WPNHUD_KEVLAR"					"Kevlar-liivi"
-		"SFUI_WPNHUD_DEFUSER"		"Pomminpurkupakkaus"
-		"SFUI_WPNHUD_CUTTERS"		"Pelastuspakkaus"
-		"SFUI_WPNHUD_REVOLVER"		"R8-revolveri"
-		"SFUI_WPNHUD_USP_SILENCER"	"USP-S"
-		"SFUI_WPNHUD_KnifeBayonet"	"Pistin"
-		"SFUI_WPNHUD_KnifeFlip"		"Taittoveitsi"
-		"SFUI_WPNHUD_KnifeGut"		"Metsästysveitsi"
-		"SFUI_WPNHUD_KnifeCSS"		"Klassinen veitsi"
-		"SFUI_WPNHUD_KnifeM9"		"M9-pistin"
-		"SFUI_WPNHUD_KnifeKaram"	"Karambit"
-		"SFUI_WPNHUD_KnifeTactical" "Metsämiehen veitsi"
-		"SFUI_WPNHUD_Knife_Butterfly" "Perhosveitsi"
-		"SFUI_WPNHUD_PartyPopper"		"Paukkuserpentiini!"
-		"SFUI_WPNHUD_knife_falchion_advanced" "Falchion-veitsi"
-		"SFUI_WPNHUD_knife_push" "Varjotikarit"
-		"SFUI_WPNHUD_knife_survival_bowie" "Bowie-puukko"
-		"SFUI_WPNHUD_Healthshot"			"Lääkepiikki"
-		"SFUI_WPNHUD_TAGrenade"	"Taktinen tiedustelukranaatti"
-		"SFUI_WPNHUD_Exploding_Barrel"	"Räjähtävä tynnyri"
-		"SFUI_WPNHUD_Snowball"	"Lumipallo"
-		"SFUI_WPNHUD_StompDamageKillString"	"murskasi kallosi"
+		"SFUI_WPNHUD_DEFUSER"					"Pomminpurkupakkaus"
+		"SFUI_WPNHUD_CUTTERS"					"Pelastuspakkaus"
+		"SFUI_WPNHUD_REVOLVER"					"R8-revolveri"
+		"SFUI_WPNHUD_USP_SILENCER"				"USP-S"
+		"SFUI_WPNHUD_KnifeBayonet"				"Pistin"
+		"SFUI_WPNHUD_KnifeFlip"					"Taittoveitsi"
+		"SFUI_WPNHUD_KnifeGut"					"Metsästysveitsi"
+		"SFUI_WPNHUD_KnifeCSS"					"Klassinen veitsi"
+		"SFUI_WPNHUD_KnifeM9"					"M9-pistin"
+		"SFUI_WPNHUD_KnifeKaram"				"Karambit"
+		"SFUI_WPNHUD_KnifeTactical" 			"Metsämiehen veitsi"
+		"SFUI_WPNHUD_Knife_Butterfly" 			"Perhosveitsi"
+		"SFUI_WPNHUD_PartyPopper"				"Paukkuserpentiini!"
+		"SFUI_WPNHUD_knife_falchion_advanced" 	"Falchion-veitsi"
+		"SFUI_WPNHUD_knife_push" 				"Varjotikarit"
+		"SFUI_WPNHUD_knife_survival_bowie" 		"Bowie-puukko"
+		"SFUI_WPNHUD_Healthshot"				"Lääkepiikki"
+		"SFUI_WPNHUD_TAGrenade"					"Taktinen tiedustelukranaatti"
+		"SFUI_WPNHUD_Exploding_Barrel"			"Räjähtävä tynnyri"
+		"SFUI_WPNHUD_Snowball"					"Lumipallo"
+
+		"SFUI_WPNHUD_StompDamageKillString"		"murskasi kallosi"
 
 		"SFUI_WPNHUD_DangerZone"	"Vaaravyöhyke"
 		"SFUI_WPNHUD_AutoSentry"	"Automatisoitu vartiotykki"
@@ -1843,7 +1862,7 @@
 		"Player_Cash_Award_Bomb_Planted"		" +$%s1 C4-räjähteen virittämisestä"
 		"Player_Cash_Award_Bomb_Defused"		" +$%s1 C4-räjähteen purkamisesta"
 		"Player_Cash_Award_Rescued_Hostage"		" +$%s1 panttivangin pelastamisesta"
-		"Player_Cash_Award_Interact_Hostage"	" +%s1 $ panttivangin löytämisestä"
+		"Player_Cash_Award_Interact_Hostage"	" +%s1 $ panttivangin löyt��misestä"
 		"Player_Cash_Award_Respawn"				" +%s1 $ uudelleensyntymisestä"
 		"Player_Cash_Award_Get_Killed"			"+%s1 $ kuolemisesta"
 
@@ -2060,6 +2079,7 @@
 		"CSGO_Weapon_Possessive"				"Pelaajan <span class=\"possessive-player-name\">%s1</span> %s2"
 		"CSGO_Weapon_Possessive_T"				"%s2 <span class=\"possessive-player-name\">(T %s1)</span>"
 		"CSGO_Weapon_Possessive_CT"				"%s2 <span class=\"possessive-player-name\">(CT %s1)</span>"
+		"CSGO_Possessive"						"Pelaajan <span class=\"possessive-player-name\">%s1</span>"
 
 		"DeathPanel_Killer2"			" "
 		"DeathPanel_HappyHolidays"		"TOIVOTTAA SINULLE HYVIÄ JUHLAPYHIÄ"
@@ -2266,6 +2286,10 @@
 		"Econ_Loot_List_AndSomeMoreItems" "... ja %s1 lisää"
 
 		"Econ_Revolving_Loot_List"				"Sisältää yhden seuraavista:"
+		"Econ_Revolving_Loot_List_Single"		"Avaamalla laatikon saat yhden seuraavista esineistä"
+		"Econ_Revolving_Loot_List_Rental"		"<img src='file://{images}/icons/ui/hourglass.svg' class='popup-decodable-lootlist-single-icon'/> Vuokraa laatikon kaikki aseet (erittäin harvinaista asetta lukuunottamatta) seitsemäksi päiväksi "
+
+		
 		"Econ_Revolving_Loot_List_Rare_Item"	"tai erittäin harvinaisen erikoisesineen!"
 		"Exceedingly_Rare_Item"					"★ Harvinainen erikoisesine ★"
 
@@ -2309,22 +2333,11 @@
 		"Item_GiftWrapped"						" %s1 paketoi lahjan: %s2"
 		"Item_PeriodicScoreReward"				" %s1 on ansainnut: %s2"
 		"Item_Named"							" %s1 on antanut esineelleen %s2 nimen %s3"
-
-		"Item_GiftsSent1Anon"					" %s1 on antanut lahjan!"
-		"Item_GiftsSent1Name"					" %s1 on antanut lahjan, jonka sai %s2!"
-		"Item_GiftsSentMany"					" %s1 on antanut %s2 lahjaa!"
-		"Item_GiftsYouSentGift"					" Lahjasi sai %s1!"
-		"Item_GiftsYouGotGift"					" Olet saanut lahjan pelaajalta %s1! Lahja on nyt varusteluettelossa odottamassa vahvistusta."
+		"Item_Rental"							" %s1 on vuokrannut esineen %s2"
 
 		"Item_NotConnected"						"Sinun täytyy olla ottelussa käyttääksesi tätä esinettä!"
 		"Item_Need2Players"						"Ottelussasi täytyy olla muita pelaajia käyttääksesi tätä esinettä!"
 		"Item_NeedSpectators"					"Ottelullasi täytyy olla katsojia käyttääksesi tätä esinettä!"
-
-		"Item_GiftNoPlayers"					"Tämänhetkisessä pelissäsi ei ole pelaajia, jotka voisivat vastaanottaa lahjasi!"
-		"Item_GiftedItems"						"%s1 on antanut lahjan pelaajalle %s2!"
-		"Item_GifterText_Random"				"%recipient% valittiin satunnaisesti vastaanottamaan lahjan pelaajalta %giver%!"
-		"Item_GifterText_All"					"%giver% on antanut tukun lahjoja!"
-		"Item_GifterText_SelfOpen"				"%giver% on avannut lahjapaketin!"
 
 		"Item_Received_Event_Local"					"Sait esineen: %s1!"
 
@@ -2337,6 +2350,7 @@
 		"NewItemMethod_Traded"			"Sinä sait vaihdossa:"
 		"NewItemMethod_Purchased"		"Sinä ostit:"
 		"NewItemMethod_FoundInCrate"	"Sinä avasit laatikosta:"
+		"NewItemMethod_Rental"			"Vuokrasit seuraavaa:"
 		"NewItemMethod_Gifted"			"Sinä sait lahjan:"
 		"NewItemMethod_Promotion"		"Sinä sait kaupan tarjousesineen:"
 		"NewItemMethod_Earned"			"Sinä ansaitsit:"
@@ -2413,6 +2427,7 @@
 		"ItemHistory_Transaction_Delete"								"Sinä poistit"
 		"ItemHistory_Transaction_Craft"									"Luotu"
 		"ItemHistory_Transaction_UnlockCrate"							"Avasi säiliön"
+		"ItemHistory_Transaction_UnlockCrateForRental"					"Avasi vuokrattavan säiliön"
 		"ItemHistory_Transaction_UnsealGraffiti"						"Avattu"
 		"ItemHistory_Transaction_SupportUndo"							"Counter-Strike -tuki perui yhden tai useamman aikaisemmista toiminnoistasi"
 		"ItemHistory_Transaction_UpgradeChallengeCoin"					"Päivitti haastekolikon"
@@ -2475,7 +2490,6 @@
 		"LoadoutSlot_customplayer"					"Agentit"
 
 		"LoadoutSlot_MusicKit"						"Musiikkipakkaus"
-
 
 		// Weapon Rarity Names
 		"Rarity_Default_Weapon"						"Tavallinen"
@@ -2577,6 +2591,7 @@
 		"Attrib_ReferencedItem"						"Sisältää: %s1"
 		"Attrib_TimeLocalization_Hours"				"%s1 tuntia"
 		"Attrib_TimeLocalization_Minutes"			"%s1 minuuttia"
+		"Attrib_CanOpenForRental"					"Tämän säiliön esineitä voi vuokrata."
 
 		"Attrib_CompetitiveMinutesPlayedAsHrs"		"Kilpailullista aikaa kirjattu: %s1"
 		"Attrib_CompetitiveWins"					"Kilpailullisia otteluvoittoja: %s1"
@@ -2603,6 +2618,7 @@
 		"Attrib_ModificationDate"					"Muokkauspäivämäärä: %s1"
 		"Attrib_OperationBonusXP"					"Operaatiobonus ansaittu: +%s1 XP"
 		"Attrib_IssueDate"							"Antamispäivämäärä: %s1"
+		"Attrib_ExpirationDate"						"Vuokra-aika päättyy %s1"
 
 		"Attrib_SpraysRemaining"					"Käyttökertoja jäljellä: %s1"
 		"Attrib_SpraysRemaining_Unlimited"			"Rajattomasti graffiteja"
@@ -2808,7 +2824,7 @@
 		"CSGO_official_leaderboard_season_7_xp_guardian"	"Saavutetut suojelijakokemuspisteet"
 		"CSGO_official_leaderboard_season_7_xp_events"	"tapahtumien ansaitut kokemuspisteet"
 
-		// premier 1
+		// premier
 		"official_leaderboard_premier_season1_name"			"Ensimmäinen kausi"
 
 		//
@@ -3177,6 +3193,17 @@
 		"CSGO_Collectible_MapTokenBlagai"				"Blagai-karttakolikko"
 		"CSGO_Collectible_MapTokenBoyard"				"Boyard-karttakolikko"
 		"CSGO_Collectible_MapTokenChalice"				"Chalice-karttakolikko"
+		"CSGO_Collectible_MapTokenPoolDay"				"Pool Day -karttakolikko"
+		"CSGO_Collectible_MapTokenPoolDay_Desc"			"Muistona CS2:n Pool Day -kartan luomisesta."
+		"CSGO_Collectible_MapTokenMemento"				"Memento-karttakolikko"
+		"CSGO_Collectible_MapTokenMemento_Desc"			"Muistona CS2:n Memento-kartan luomisesta."
+		"CSGO_Collectible_MapTokenAssembly"				"Assembly-karttakolikko"
+		"CSGO_Collectible_MapTokenAssembly_Desc"		"Muistona CS2:n Assembly-kartan luomisesta."
+		"CSGO_Collectible_MapTokenMills"				"Mills-karttakolikko"
+		"CSGO_Collectible_MapTokenMills_Desc"			"Muistona CS2:n Mills-kartan luomisesta."
+		"CSGO_Collectible_MapTokenThera"				"Thera-karttakolikko"
+		"CSGO_Collectible_MapTokenThera_Desc"			"Muistona CS2:n Thera-kartan luomisesta."
+
 		"CSGO_CollectibleCoin_FortiusQuoFidelius"	"Uskollisuusmerkki"
 		"CSGO_CollectibleCoin_FortiusQuoFidelius_Desc"	"Merkki juhlistaa Counter-Strike-yhteisön uskollisia jäseniä, jotka olivat mukana jo ennen Vaaravyöhyke-päivitystä.\n\n <i>Vahvuus tulee uskollisuuden kautta.</i>"
 		"CSGO_CollectibleCoin_FiveYearService"		"Viiden vuoden veteraanikolikko"
@@ -3590,7 +3617,7 @@
 		"CSGO_crate_sticker_pack_hlalyx_capsule_desc" "Kapseli sisältää lajitelman Half-Life: Alyx -tarroja, jotka juhlistavat Valven VR-peliä ja paluuta Half-Life -sarjaan."
 //
 		
-		"CSGO_LoadingScreen_Overwatch" "Valvomotehtävä\n\nTodistusaineiston katsomisen jälkeen teet\npäätöksen siitä, käyttikö epäilty huijauskeinoja\ntai käyttäytyikö hän häiritsevästi.\n\nValvomopisteytyksesi määräytyy\nantamasi tuomion tarkkuudesta\nverrattuna muiden valvojien antamiin tuomioihin.\n\nKiitos palveluksestasi valvojana."
+		"CSGO_LoadingScreen_Overwatch" "Valvomotehtävä\n\nTodistusaineiston katsomisen jälkeen \nteet päätöksen siitä,\nhuijasiko tai häiritsikö epäilty muita.\n\nValvomopisteet määräytyvät\nantamasi tuomion tarkkuuden perusteella\nmuihin valvojiin verrattuna.\n\nKiitos, että toimit valvojana."
 		"CSGO_LoadingScreen_CommunityMapCredits" "Yhteisökartta, luonut:"
 
 		"CSGO_MessageBox_CommunitySeasonOneSpring2013_Desc"        "ANNA TAKAISIN YHTEISÖN KARTANTEKIJÖILLE\n LIITY YHTEISÖN PARHAITA KARTTOJA KÄYTTÄVIIN PELEIHIN\n ANSAITSE HAASTEKOLIKKOJA"
@@ -3601,6 +3628,54 @@
 		"CSGO_MessageBox_CommunitySeasonSix2015_desc"      				"- Operaatio Verikoira -kolikko, jota voi päivittää suorittamalla tehtäviä\n- Kaksi operaation kampanjaa, valitse yli 60 tehtävästä\n- Ansaitse lisää XP:tä suorittamalla tehtäviä\n- Mahdollisuus löytää Operaatio Verikoira -aselaatikoita ja -aseita\n- Aktiivipalveluksen tuloskortti, Operaatio Verikoira -tuloskortti ja kavereiden tilastotaulukko"
 		
 		"CSGO_MessageBox_More_Info_Button"                         "Lisätietoja"
+
+		"csgo_item_usage_desc_glock"										"• Tehokas lähietäisyydeltä, hyödytön kaukotaistelussa<br>• Sopii puoliskon ensimmäiseen erään<br><i>• Vaikeustaso: <font color=\"#BFBF40\">★★</font></i>"
+		"csgo_item_usage_desc_hkp2000"										"• Tarkka kaukoetäisyydeltä, räiskintäominaisuus lähitaistelussa<br>• Sopii puoliskon ensimmäiseen erään<br><i>• Vaikeustaso: <font color=\"#BFBF40\">★★</font></i>"
+		"csgo_item_usage_desc_usp_silencer"									"• Tarkka, hiljainen ja jokseenkin tappava<br>• Sopii puoliskon ensimmäiseen erään<br><i>• Vaikeustaso: <font color=\"#BFBF40\">★★</font></i>"
+		"csgo_item_usage_desc_elite"										"• Kaksi sarjatulipistoolia yhden hinnalla<br>• Sopii puoliskon ensimmäiseen erään<br><i>• Vaikeustaso: <font color=\"#BFBF40\">★★</font></i>"
+		"csgo_item_usage_desc_p250"											"• Suosittu vaikkakin vaatimaton vahinkolisä<br>• Sopii rahansäästöeriin<br><i>• Vaikeustaso: <font color=\"#40BF40\"`>★</font></i>"
+		"csgo_item_usage_desc_fiveseven"									"• Voimallla, vauhdilla ja tarkkuudella on hintansa <br>• Sopii rahansäästöeriin <br><i>• Vaikeustaso: <font color=\"#BFBF40\">★★</font></i>"
+		"csgo_item_usage_desc_cz75a"										"• Tulivoiman ryöppy riisuu viholliset aseista<br>• Sopii rahansäästöeriin<br><i>• Vaikeustaso: <font color=\"#BF4040\">★★★★</font></i>"
+		"csgo_item_usage_desc_tec9"											"• Helposti kannettava, tehokas sekä läheltä että kaukaa<br>• Sopii rahansäästöeriin<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_revolver"										"• Aiheuttaa massiivista vahinkoa pienellä viiveellä<br>• Sopii rahansäästöeriin<br><i>• Vaikeustaso: <font color=\"#BF4040\">★★★★</font></i>"
+		"csgo_item_usage_desc_deagle"										"• Pääosumat tappavat läheltä tai kaukaa<br>• Sopii rahansäästöeriin<br><i>• Vaikeustaso: <font color=\"#BF4040\">★★★★</font></i>"
+		"csgo_item_usage_desc_taser"										"• Kertakäyttöinen yhdellä osumalla tappava lähiase<br>• Kokeile omalla vastuulla<br><i>• Vaikeustaso: <font color=\"#BF4040\">★★★★</font></i>"
+		"csgo_item_usage_desc_bizon"										"• Luotisade lahtaa panssaria vailla olevat viholliset hetkessä<br>• Sopii puoliskon kolmeen ensimmäiseen erään<br><i>• Vaikeustaso: <font color=\"#BFBF40\">★★</font></i>"
+		"csgo_item_usage_desc_mac10"										"• Pommialueiden rynnäköihin soveltuva ase<br>• Sopii puoliskon kolmeen ensimmäiseen erään<br><i>• Vaikeustaso: <font color=\"#40BF40\">★</font></i>"
+		"csgo_item_usage_desc_mp9"											"• Tulinopeus ja -voima hidastavat vihollisten hyökkäystä<br>• Sopii puoliskon kolmeen ensimmäiseen erään <br><i>• Vaikeustaso: <font color=\"#40BF40\">★</font></i>"
+		"csgo_item_usage_desc_mp7"											"• Helppokäyttöinen ja luotettava keskietäisyydeltä<br>• Sopii ostopakkoeriin<br><i>• Vaikeustaso: <font color=\"#BFBF40\">★★</font></i>"
+		"csgo_item_usage_desc_mp5sd"										"• Helppokäyttöinen ja matalaprofiilinen keskipitkällä kantamalla<br>• Sopii ostopakkoeriin<br><i>• Vaikeustaso: <font color=\"#BFBF40\">★★</font></i>"
+		"csgo_item_usage_desc_ump45"										"• Hyvä panssarinläpäisykyky keskietäisyydellä<br>• Sopii ostopakkoeriin<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_p90"											"• Loputon luotisade, jonka peittoavat vain kiväärit<br>• Sopii täysostoeriin<br><i>• Vaikeustaso: <font color=\"#40BF40\">★</font></i>"
+		"csgo_item_usage_desc_galilar"										"• Halpa, mutta tehokas läpäisemään vihollisten panssareja<br>• Sopii ostopakkoeriin<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_famas"										"• Halpa, mutta tehokas läpäisemään vihollisten panssareja<br>• Sopii ostopakkoeriin<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_ak47"											"• Tarkka ja tappava klassikko<br>• Sopii täysostoeriin<br><i>• Vaikeustaso: <font color=\"#BF4040\">★★★★</font></i>"
+		"csgo_item_usage_desc_m4a1"											"• Hyvä tarkkuus ja reilusti ammuksia<br>• Sopii täysostoeriin<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_m4a1_silencer"								"• Tarkka, hiljainen eikä jätä valojuovia<br>• Sopii ostopakkoeriin<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_aug"											"• Erityisen tarkka valinnaisen kiikaritähtäimen kera<br>• Sopii täysostoseriin<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_sg556"										"• Tappava ase, joka on entistä vaarallisempi kiikaritähtäimen kera<br>• Sopii täysostoeriin<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_awp"											"• Järisyttävän tehokas kokeneen tarkka-ampujan käsissä<br>• Sopii täysostoeriin<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_g3sg1"										"• Automaattinen tarkkuuskivääri, jonka hyöty-laatusuhde riippuu tilanteesta<br>• Sopii vain erikoistilanteisiin<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_scar20"										"• Vahva mutta riskaabeli työkalu tuliaseman turvaamiseen<br>• Sopii vain erikoistilanteisiin<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_ssg08"										"• Kevyt ja vahva ase, jolla ammutaan kaukaa<br>• Sopii ostopakkoeriin<br><i>• Vaikeustaso: <font color=\"#BF4040\">★★★★</font></i>"	
+		"csgo_item_usage_desc_mag7"											"• Yllätä vihollinen, lataa ase ja toista sama kuvio!<br>• Sopii ostopakkoeriin<br><i>• Vaikeustaso: <font color=\"#BFBF40\">★★</font></i>"
+		"csgo_item_usage_desc_nova"											"• Monikäyttöinen haulikko lähitaisteluihin<br>• Sopii ostopakkoeriin<br><i>• Vaikeustaso: <font color=\"#BFBF40\">★★</font></i>"
+		"csgo_item_usage_desc_sawedoff"										"• Erittäin tehokas haulikko lähitaisteluihin<br>• Sopii ostopakkoeriin<br><i>• Vaikeustaso: <font color=\"#BFBF40\">★★</font></i>"
+		"csgo_item_usage_desc_xm1014"										"• Nopea ja tappava konetuliase<br>• Sopii ostopakkoeriin<br><i>• Vaikeustaso: <font color=\"#40BF40\">★</font></i>"
+		"csgo_item_usage_desc_m249"											"• Tätä ei sentään tarvitse ladata<br>• Sopii vain erikoistilanteisiin<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_negev"										"• Äärimmäisen tarkka, sopii taustatuleen ja vihollisen hidastamiseen<br>• Sopii ostopakkoeriin<br><i>• Vaikeustaso: <font color=\"#BF4040\">★★★★</font></i>"
+
+		"csgo_item_usage_desc_hegrenade"									"• Tee vahinkoa tai hankkiudu eroon savukranaattien savupilvistä<br>• Käytä varoen<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_flashbang"									"• Sokaisee ja kuurouttaa lähellä olevat pelaajat<br>• Heitä ennen hyökkäystä<br><i>• Vaikeustaso: <font color=\"#BF4040\">★★★★</font></i>"
+		"csgo_item_usage_desc_smokegrenade"									"• Luo suuren savupilven<br>• Heitä sabotoidaksesi vihollisten näkökenttää<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_decoy"										"• Imitoi ampumisääniä<br>• Heitä aikaisessa vaiheessa hämätäksesi vihollisia<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_molotov"										"• Häätää viholliset ulos piiloistaan tulella<br>• Heitä ennen pommialueelle hyökkäämistä<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_incgrenade"									"• Hidastaa vihollisten hyökkäystä sytyttämällä alueen tuleen<br>• Heitä heti, kun olet pulassa<br><i>• Vaikeustaso: <font color=\"#BF9240\">★★★</font></i>"
+
+		"csgo_item_usage_desc_assaultsuit"									"• Pysäyttää useimmat luodit<br>• Sopii täysosto- ja ostopakkoeriin <br><i>• Vaikeustaso: <font color=\"#40BF40\">★</font></i>"
+		"csgo_item_usage_desc_kevlar"										"• Suojaa koko vartaloa päätä lukuun ottamatta<br>• Sopii puoliskon ensimmäiseen erään<br><i>• Vaikeustaso: <font color=\"#40BF40\">★</font></i>"
+		"csgo_item_usage_desc_defuser"										"• Pura pommi kaksi kertaa nopeammin<br>• Osta pomminpurkupakkaus ja säästy posauksilta!<br><i>• Vaikeustaso: <font color=\"#40BF40\">★</font></i>"
+		"csgo_item_usage_desc_cutters"										"• Kanna panttivangit turvaan vauhdilla<br>• Sopii tilanteisiin, joissa rahaa on yllin kyllin<br><i>• Vaikeustaso: <font color=\"#40BF40\">★</font></i>"
 
 		"CSGO_Item_Desc_HKP2000"											"Tarkka ja hallittava saksalaisvalmisteinen P2000 on hyödyllinen ensimmäisen erän pistooli, joka toimii parhaiten suojattomia vihollisia vastaan."
 		"CSGO_Item_Desc_AK47"												"Voimakas ja aina yhtä luotettava AK-47 on eräs maailman suosituimpia rynnäkkökivääreitä. Se on tappavimmillaan pieniä, hallittuja tulipurskeita ammuttaessa."
@@ -4005,7 +4080,6 @@
 		"CSGO_crate_key_community_21"		"Vaaravyöhyke-aselaatikon avain"
 		"CSGO_crate_key_community_21_desc"		"Tällä avaimella saa auki vain Vaaravyöhyke-aselaukkuja"
 
-
 		"CSGO_crate_community_22"				"Prisma-aselaatikko"
 		"CSGO_crate_key_community_22"			"Prisma-aselaatikon avain"
 		"CSGO_crate_key_community_22_desc"		"Tämä avain käy vain Prisma-aselaatikoihin."
@@ -4091,7 +4165,6 @@
 		"CSGO_crate_sticker_pack_op_riptide_capsule"	    		"Operaatio Ristiaallokko -tarrakokoelma"
 		"CSGO_crate_sticker_pack_op_riptide_capsule_desc"			"Kokoelma sisältää tarroja, jotka juhlistavat Operaatio Ristiaallokkoa."
 
-		
 		"CSGO_crate_community_30"		"Unelmia ja painajaisia -aselaatikko"
 		"CSGO_crate_key_community_30"			"Unelmia ja painajaisia -aselaatikon avain"
 		"CSGO_crate_key_community_30_desc"		"Tämä avain avaa vain Unelmia ja painajaisia -aselaatikoita"
@@ -4125,7 +4198,6 @@
 		
 		"CSGO_crate_sticker_pack_community_2024_capsule"	    	"Väijytys-tarrakapseli"
 		"CSGO_crate_sticker_pack_community_2024_capsule_desc"		"Kapseli sisältää lajitelman erilaisia tarroja Steam Workshop -taiteilijoilta. Se julkaistiin helmikuussa 2024."
-		
 		"coupon_community_2024_sticker_capsule"						"Väijytys-tarrakapseli"
 		
 
@@ -4279,7 +4351,7 @@
 		"CSGO_FakePlayer_Donkey"			"Donkey"
 		"CSGO_FakePlayer_Duck"				"Duck"
 		"CSGO_FakePlayer_Emu"				"Emu"
-		"CSGO_FakePlayer_Eclipse"				"Eclipse"
+		"CSGO_FakePlayer_Eclipse"			"Eclipse"
 		"CSGO_FakePlayer_Flamingo"			"Flamingo"
 		"CSGO_FakePlayer_Flute"				"Flute"
 		"CSGO_FakePlayer_Frog"				"Frog"
@@ -4302,9 +4374,9 @@
 		"CSGO_FakePlayer_Ostrich"			"Ostrich"
 		"CSGO_FakePlayer_Octopus"			"Octopus"
 		"CSGO_FakePlayer_Pelican"			"Pelican"
-		"CSGO_FakePlayer_Puffin"				"Puffin"
+		"CSGO_FakePlayer_Puffin"			"Puffin"
 		"CSGO_FakePlayer_Pyramid"			"Pyramid"
-		"CSGO_FakePlayer_Rattle"				"Rattle"
+		"CSGO_FakePlayer_Rattle"			"Rattle"
 		"CSGO_FakePlayer_Robin"				"Robin"
 		"CSGO_FakePlayer_Rose"				"Rose"
 		"CSGO_FakePlayer_Salmon"			"Salmon"
@@ -4317,14 +4389,14 @@
 		"CSGO_FakePlayer_Toaster"			"Toaster"
 		"CSGO_FakePlayer_Toucan"			"Toucan"
 		"CSGO_FakePlayer_Torus"				"Torus"
-		"CSGO_FakePlayer_Violet"				"Violet"
-		"CSGO_FakePlayer_Vortex"				"Vortex"
+		"CSGO_FakePlayer_Violet"			"Violet"
+		"CSGO_FakePlayer_Vortex"			"Vortex"
 		"CSGO_FakePlayer_Vulture"			"Vulture"
 		"CSGO_FakePlayer_Wagon"				"Wagon"
 		"CSGO_FakePlayer_Whale"				"Whale"
 		"CSGO_FakePlayer_Woodpecker"			"Woodpecker"
 		"CSGO_FakePlayer_Zebra"				"Zebra"
-		"CSGO_FakePlayer_Zigzag"				"Zigzag"
+		"CSGO_FakePlayer_Zigzag"			"Zigzag"
 
 		//
 		// Coop and guardian bots localized names
@@ -4519,6 +4591,8 @@
 		"CSGO_SupportGameAuthKey_Desc_19"		"Kolmannen osapuolen verkkosivustot ja sovellukset voivat käyttää todennuskoodia nähdäkseen 2022 Antwerpen Pick'Em -haasteen ennusteesi sekä auttamaan 2022 Antwerpen CS2 -turnauksen veikkauksissa."
 		"CSGO_SupportGameAuthKey_Type_20"		"Rio 2022 Pick'Em -hallinta"
 		"CSGO_SupportGameAuthKey_Desc_20"		"Kolmannen osapuolen verkkosivut ja sovellukset voivat käyttää tätä todennuskoodia nähdäkseen veikkauksesi Rio 2022 Pick'Em -haasteessa ja auttaakseen sinua tekemään veikkauksesi Rio 2022 -CS2-turnauksessa."
+		"CSGO_SupportGameAuthKey_Type_21"		"Paris 2023 Pick'Em -hallinta"
+		"CSGO_SupportGameAuthKey_Desc_21"		"Kolmannen osapuolen verkkosivut ja sovellukset voivat käyttää tätä todennuskoodia nähdäkseen veikkauksesi Paris 2023 Pick'Em -haasteessa ja auttaakseen sinua tekemään veikkauksesi Paris 2023 -CS2-turnauksessa."
 		"CSGO_SupportGameAuthKey_Type_1000001"	"Pääsy pelihistoriaasi"
 		"CSGO_SupportGameAuthKey_Desc_1000001"	"Kolmannen osapuolen verkkosivut ja sovellukset voivat käyttää tätä varmistuskoodia saadakseen pääsyn sinun otteluhistoriaan, otteluiden kokonaissuorituskykyyn, otteluiden uusintojen lataukseen ja pelisi analyyseihin."
 		"CSGO_SupportGameAuthKey_MatchShareCode" "Viimeisin suoritettu ottelumerkkisi:"
@@ -4585,6 +4659,7 @@
 		"CSGO_Tournament_Event_Name_20"			"IEM Rio 2022 CS2 -turnaus"
 		"CSGO_Tournament_Event_NameShort_20"	"IEM Rio 2022"
 		"CSGO_Tournament_Event_Location_20"		"Rio 2022"
+		"CSGO_Tournament_Event_Name_21"			"BLAST.tv Paris 2023 CS2 -turnaus"
 		"CSGO_Tournament_Event_NameShort_21"	"BLAST.tv Paris 2023"
 		"CSGO_Tournament_Event_Location_21"		"Paris 2023"
 
@@ -5510,8 +5585,8 @@
 		"musickit_twerl_01_desc"				"Valokeilassa paistattelua ei voita mikään. Under Bright Lightsin rumpu- ja bassorytmit nostavat sinut tiimeinesi uusiin korkeuksiin."
 		"coupon_twerl_01"						"Musiikkipakkaus | TWERL, Ekko & Sidetrack: Under Bright Lights"
 		"coupon_twerl_01_stattrak"				"StatTrak™-musiikkipakkaus | TWERL, Ekko & Sidetrack: Under Bright Lights"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"," // Note: This only supports , and .
 
@@ -8992,7 +9067,7 @@
 	"StickerKit_desc_eslcologne2015_signature_nbk_gold" "Tämän kultatarran on nimikirjoittanut ammattilaispelaaja Nathan Schmitt, joka pelasi Team EnVyUsissa ESL One Cologne 2015 -turnauksessa.\n\n50 % tämän tarran myyntituloista käytetään mukana olleiden pelaajien ja järjestöjen tukemiseen."
 
 	"StickerKit_eslcologne2015_signature_karrigan" "karrigan | Cologne 2015"
-	"StickerKit_desc_eslcologne2015_signature_karrigan" "Tämän tarran on nimikirjoittanut ammattilaispelaaja Finn Andersen, joka pelasi Team SoloMidissä ESL One Cologne 2015 -turnauksessa.\n\n50 % tämän tarran myyntituloista käytetään mukana olleiden pelaajien ja järjestöjen tukemiseen."
+	"StickerKit_desc_eslcologne2015_signature_karrigan" "Tämän tarran on nimikirjoittanut ammattilaispelaaja Finn Andersen, joka pelasi Team SoloMidiss�� ESL One Cologne 2015 -turnauksessa.\n\n50 % tämän tarran myyntituloista käytetään mukana olleiden pelaajien ja järjestöjen tukemiseen."
 	"StickerKit_eslcologne2015_signature_karrigan_foil" "karrigan (kiilto) | Cologne 2015"
 	"StickerKit_desc_eslcologne2015_signature_karrigan_foil" "Tämän kiiltotarran on nimikirjoittanut ammattilaispelaaja Finn Andersen, joka pelasi Team SoloMidissä ESL One Cologne 2015 -turnauksessa.\n\n50 % tämän tarran myyntituloista käytetään mukana olleiden pelaajien ja järjestöjen tukemiseen."
 	"StickerKit_eslcologne2015_signature_karrigan_gold" "karrigan (kulta) | Cologne 2015"
@@ -9034,7 +9109,7 @@
 	"StickerKit_desc_eslcologne2015_signature_neo_gold" "Tämän kultatarran on nimikirjoittanut ammattilaispelaaja Filip Kubski, joka pelasi Virtus.Prossa ESL One Cologne 2015 -turnauksessa.\n\n50 % tämän tarran myyntituloista käytetään mukana olleiden pelaajien ja järjestöjen tukemiseen."
 
 	"StickerKit_eslcologne2015_signature_pasha" "pashaBiceps | Cologne 2015"
-	"StickerKit_desc_eslcologne2015_signature_pasha" "Tämän tarran on nimikirjoittanut ammattilaispelaaja Jarosław Jarząbkowski, joka pelasi Virtus.Prossa ESL One Cologne 2015 -turnauksessa.\n\n50 % täm��n tarran myyntituloista käytetään mukana olleiden pelaajien ja järjestöjen tukemiseen."
+	"StickerKit_desc_eslcologne2015_signature_pasha" "Tämän tarran on nimikirjoittanut ammattilaispelaaja Jarosław Jarząbkowski, joka pelasi Virtus.Prossa ESL One Cologne 2015 -turnauksessa.\n\n50 % tämän tarran myyntituloista käytetään mukana olleiden pelaajien ja järjestöjen tukemiseen."
 	"StickerKit_eslcologne2015_signature_pasha_foil" "pashaBiceps (kiilto) | Cologne 2015"
 	"StickerKit_desc_eslcologne2015_signature_pasha_foil" "Tämän kiiltotarran on nimikirjoittanut ammattilaispelaaja Jarosław Jarząbkowski, joka pelasi Virtus.Prossa ESL One Cologne 2015 -turnauksessa.\n\n50 % tämän tarran myyntituloista käytetään mukana olleiden pelaajien ja järjestöjen tukemiseen."
 	"StickerKit_eslcologne2015_signature_pasha_gold" "pashaBiceps (kulta) | Cologne 2015"
@@ -19385,6 +19460,7 @@
 	"CSGO_TournamentJournal_rio2022_Silver" "Rio 2022 -hopeakolikko"
 	"CSGO_TournamentJournal_rio2022_Gold" "Rio 2022 -kultakolikko"
 	"CSGO_TournamentJournal_rio2022_Crystal" "Rio 2022 -timanttikolikko"
+
 	"CSGO_storageunit_rio2022_tinyname"		"Varastolaatikot"
 	"CSGO_storageunit0_rio2022"			"Rio 2022 -paperitarralaatikko"
 	"CSGO_storageunit0_rio2022_tinyname"		"Paperitarralaatikko"
@@ -20856,7 +20932,7 @@
 	"CSGO_crate_signature_pack_paris2023_group_champions"     "Paris 2023 – Mestareiden nimikirjoituskapseli"
 	"CSGO_crate_signature_pack_paris2023_group_champions_tinyname" "Mestarien nimikirjoitukset"
 	"CSGO_crate_signature_pack_paris2023_group_champions_desc" "Tämä kapseli sisältää yhden paperi-, holo-, hile-, kulta- tai korkean tason tarran, jossa on Paris 2023 -mestarin nimikirjoitus.\n\n50 % tämän paketin myyntituloista käytetään mukana olleiden pelaajien ja järjestöjen tukemiseen.\n\nVoit kiinnittää tarran mihin tahansa aseeseen ja saada sen näyttämään kuluneemmalta raaputtamalla sitä. Samaa tarraa voi raaputtaa kuluneemman näköiseksi useaan kertaan, kunnes tarra on täysin kulunut pois."
-	
+
 	"StickerKit_paris2023_signature_apex_champion" "apEX (mestari) | Paris 2023"
 	"StickerKit_desc_paris2023_signature_apex_champion" "Tarrassa on ammattilaispelaaja Dan Madesclairen nimikirjoitus. Hän pelasi Vitalityssä, joka voitti BLAST.tv Paris 2023 CS2 Major -mestaruusturnauksen."
 	"StickerKit_paris2023_signature_apex_glitter_champion" "apEX (hile, mestari) | Paris 2023"
@@ -22017,14 +22093,14 @@
 
 	"CSGO_TournamentPass_cph2024" "Kööpenhamina 2024 -katsojapassi"
 	"CSGO_TournamentPass_cph2024_tinyname" "Passi"
-	"CSGO_TournamentPass_cph2024_Desc" "Tämä on sinetöity PGL Kööpenhamina 2024 CS2-majorin katsojapassi. Avaamalla passin saat Kööpenhamina 2024 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Kööpenhamina 2024 Pick'Em-haasteeseen, Steam.tv-chatin kannustuslogoihin ja kolikkohaasteisiin sekä rajoittamattoman joukkuegraffitin käytön tapahtuman aikana.\n\nVoit päivittää Kööpenhamina 2024 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.\n\nPuolet myyntituloista käytetään joukkueiden ja taustavoimien tukemiseen."
+	"CSGO_TournamentPass_cph2024_Desc" "Tämä on sinetöity PGL Kööpenhamina 2024 CS2 Major -turnauksen katsojapassi. Avaamalla passin saat Kööpenhamina 2024 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Kööpenhamina 2024 Pick'Em-haasteeseen, Steam.tv-chatin kannustuslogoihin ja kolikkohaasteisiin sekä rajoittamattoman joukkuegraffitin käytön tapahtuman aikana.\n\nVoit päivittää Kööpenhamina 2024 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.\n\nPuolet myyntituloista käytetään joukkueiden ja taustavoimien tukemiseen."
 	"CSGO_TournamentPass_cph2024_pack" "Kööpenhamina 2024 -katsojapassi + 3 tuliaispolettia"
 	"CSGO_TournamentPass_cph2024_pack_tinyname" "Passi ja poletit"
-	"CSGO_TournamentPass_cph2024_pack_Desc" "Tämä on sinetöity PGL Kööpenhamina 2024 CS2-majorin katsojapassi. Avaamalla passin saat Kööpenhamina 2024 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Kööpenhamina 2024 Pick'Em-haasteeseen, Steam.tv-chatin kannustuslogoihin ja kolikkohaasteisiin sekä rajoittamattoman joukkuegraffitin käytön tapahtuman aikana.\n\nVoit nostaa Kööpenhamina 2024 -kolikkosi tasoa suorittamalla tehtäviä. Jokaisesta kolikon tason korotuksesta ansaitset tuliaispoletin.\n\nKatsojapassi aktivoi Kööpenhamina 2024 -kolikkosi ja saat samalla kolme tuliaispolettia.\n\n50 % myyntituotosta käytetään joukkueiden ja taustavoimien tukemiseen."
+	"CSGO_TournamentPass_cph2024_pack_Desc" "Tämä on sinetöity PGL Kööpenhamina 2024 CS2 Major -turnauksen katsojapassi. Avaamalla passin saat Kööpenhamina 2024 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Kööpenhamina 2024 Pick'Em-haasteeseen, Steam.tv-chatin kannustuslogoihin ja kolikkohaasteisiin sekä rajoittamattoman joukkuegraffitin käytön tapahtuman aikana.\n\nVoit nostaa Kööpenhamina 2024 -kolikkosi tasoa suorittamalla tehtäviä. Jokaisesta kolikon tason korotuksesta ansaitset tuliaispoletin.\n\nKatsojapassi aktivoi Kööpenhamina 2024 -kolikkosi ja saat samalla kolme tuliaispolettia.\n\n50 % myyntituotosta käytetään joukkueiden ja taustavoimien tukemiseen."
 	"CSGO_TournamentPass_cph2024_charge" "Kööpenhamina 2024 -tuliaispaketti"
-	"CSGO_TournamentPass_cph2024_charge_Desc" "Tämä on sinetöity PGL Kööpenhamina 2024 CS2-majorin tuliaispaketti."
+	"CSGO_TournamentPass_cph2024_charge_Desc" "Tämä on sinetöity PGL Kööpenhamina 2024 CS2 Major -turnauksen tuliaispaketti."
 	"CSGO_TournamentJournal_cph2024" "Kööpenhamina 2024 -kolikko"
-	"CSGO_TournamentJournal_cph2024_Desc" "Tämä on PGL Kööpenhamina 2024 CS2-majorin mestaruuskolikko, jolla seuraat edistystäsi kisoissa. Se sisältää pääsyn Kööpenhamina 2024 Pick'Em -haasteeseen, kolikkohaasteisiin, Steam.tv-chatin kannustuslogoihin ja joukkuegraffitin käyttöön tapahtuman aikana.\n\nVoit päivittää Kööpenhamina 2024 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin."
+	"CSGO_TournamentJournal_cph2024_Desc" "Tämä on PGL Kööpenhamina 2024 CS2 Major -turnauksen mestaruuskolikko, jolla seuraat edistystäsi kisoissa. Se sisältää pääsyn Kööpenhamina 2024 Pick'Em -haasteeseen, kolikkohaasteisiin, Steam.tv-chatin kannustuslogoihin ja joukkuegraffitin käyttöön tapahtuman aikana.\n\nVoit päivittää Kööpenhamina 2024 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin."
 	"CSGO_TournamentJournal_cph2024_Silver" "Kööpenhamina 2024 -hopeakolikko"
 	"CSGO_TournamentJournal_cph2024_Gold" "Kööpenhamina 2024 -kultakolikko"
 	"CSGO_TournamentJournal_cph2024_Crystal" "Kööpenhamina 2024 -timanttikolikko"
@@ -22095,6 +22171,10 @@
 	"StickerKit_cph2024_team_apex_glitter" "Apeks (hile) | Kööpenhamina 2024"
 	"StickerKit_cph2024_team_apex_holo" "Apeks (holo) | Kööpenhamina 2024"
 	"StickerKit_cph2024_team_apex_gold" "Apeks (kulta) | Kööpenhamina 2024"
+	"StickerKit_cph2024_team_gl" "GamerLegion | Kööpenhamina 2024"
+	"StickerKit_cph2024_team_gl_glitter" "GamerLegion (hile) | Kööpenhamina 2024"
+	"StickerKit_cph2024_team_gl_holo" "GamerLegion (holo) | Kööpenhamina 2024"
+	"StickerKit_cph2024_team_gl_gold" "GamerLegion (kulta) | Kööpenhamina 2024"
 	"StickerKit_cph2024_team_saw" "SAW | Kööpenhamina 2024"
 	"StickerKit_cph2024_team_saw_glitter" "SAW (hile) | Kööpenhamina 2024"
 	"StickerKit_cph2024_team_saw_holo" "SAW (holo) | Kööpenhamina 2024"
@@ -22169,6 +22249,51 @@
 	"CSGO_crate_signature_pack_cph2024_group_champions"     "Kööpenhamina 2024 – Mestareiden nimikirjoituskapseli"
 	"CSGO_crate_signature_pack_cph2024_group_champions_tinyname" "Mestarien nimikirjoitukset"
 	"CSGO_crate_signature_pack_cph2024_group_champions_desc" "Tämä kapseli sisältää yhden paperi-, holo-, hile-, kulta- tai korkean tason tarran, jossa on Kööpenhamina 2024 -mestarin nimikirjoitus.\n\n50 % tämän paketin myyntituloista käytetään mukana olleiden pelaajien ja taustavoimien tukemiseen.\n\nVoit kiinnittää tarran mihin tahansa aseeseen ja saada sen näyttämään kuluneemmalta raaputtamalla sitä. Samaa tarraa voi raaputtaa kuluneemman näköiseksi useaan kertaan, kunnes tarra on täysin kulunut pois."
+
+	"StickerKit_cph2024_signature_jl_champion" "jL (mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_jl_champion" "Tarrassa on ammattilaispelaaja Justinas Lekaviciusin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_jl_glitter_champion" "jL (hile, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_jl_glitter_champion" "Hiletarrassa on ammattilaispelaaja Justinas Lekaviciusin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_jl_holo_champion" "jL (holo, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_jl_holo_champion" "Holotarrassa on ammattilaispelaaja Justinas Lekaviciusin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_jl_gold_champion" "jL (kulta, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_jl_gold_champion" "Kultatarrassa on ammattilaispelaaja Justinas Lekaviciusin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+
+	"StickerKit_cph2024_signature_aleksib_champion" "Aleksib (mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_champion" "Tarrassa on ammattilaispelaaja Aleksi Virolaisen nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_aleksib_glitter_champion" "Aleksib (hile, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_glitter_champion" "Hiletarrassa on ammattilaispelaaja Aleksi Virolaisen nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_aleksib_holo_champion" "Aleksib (holo, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_holo_champion" "Holotarrassa on ammattilaispelaaja Aleksi Virolaisen nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_aleksib_gold_champion" "Aleksib (kulta, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_gold_champion" "Kultatarrassa on ammattilaispelaaja Aleksi Virolaisen nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+
+	"StickerKit_cph2024_signature_b1t_champion" "b1t (mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_b1t_champion" "Tarrassa on ammattilaispelaaja Valerii Vakhovskyin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_b1t_glitter_champion" "b1t (hile, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_b1t_glitter_champion" "Hiletarrassa on ammattilaispelaaja Valerii Vakhovskyin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_b1t_holo_champion" "b1t (holo, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_b1t_holo_champion" "Holotarrassa on ammattilaispelaaja Valerii Vakhovskyin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_b1t_gold_champion" "b1t (kulta, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_b1t_gold_champion" "Kultatarrassa on ammattilaispelaaja Valerii Vakhovskyin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+
+	"StickerKit_cph2024_signature_im_champion" "iM (mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_im_champion" "Tarrassa on ammattilaispelaaja Mihai Ivanin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_im_glitter_champion" "iM (hile, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_im_glitter_champion" "Hiletarrassa on ammattilaispelaaja Mihai Ivanin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_im_holo_champion" "iM (holo, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_im_holo_champion" "Holotarrassa on ammattilaispelaaja Mihai Ivanin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_im_gold_champion" "iM (kulta, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_im_gold_champion" "Kultatarrassa on ammattilaispelaaja Mihai Ivanin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+
+	"StickerKit_cph2024_signature_w0nderful_champion" "w0nderful (mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_champion" "Tarrassa on ammattilaispelaaja Ihor Zhdanovin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_w0nderful_glitter_champion" "w0nderful (hile, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_glitter_champion" "Hiletarrassa on ammattilaispelaaja Ihor Zhdanovin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_w0nderful_holo_champion" "w0nderful (holo, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_holo_champion" "Holotarrassa on ammattilaispelaaja Ihor Zhdanovin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
+	"StickerKit_cph2024_signature_w0nderful_gold_champion" "w0nderful (kulta, mestari) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_gold_champion" "Kultatarrassa on ammattilaispelaaja Ihor Zhdanovin nimikirjoitus. Hän pelasi Natus Vinceressä, joka voitti PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksen."
 
 
 	"StickerKit_cph2024_signature_jl" "jL | Kööpenhamina 2024"
@@ -22801,50 +22926,50 @@
 	"StickerKit_cph2024_signature_styko_gold" "STYKO (kulta) | Kööpenhamina 2024"
 	"StickerKit_desc_cph2024_signature_styko_gold" "Kultatarrassa on ammattilaispelaaja Martin Stykin nimikirjoitus. Hän pelasi Apeksissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
 
-	"StickerKit_cph2024_signature_clax" "clax | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_clax" "Tarrassa on ammattilaispelaaja Timur Sabirovin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_clax_glitter" "clax (hile) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_clax_glitter" "Hiletarrassa on ammattilaispelaaja Timur Sabirovin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_clax_holo" "clax (holo) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_clax_holo" "Holotarrassa on ammattilaispelaaja Timur Sabirovin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_clax_gold" "clax (kulta) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_clax_gold" "Kultatarrassa on ammattilaispelaaja Timur Sabirovin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_acor" "acoR | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_acor" "Tarrassa on ammattilaispelaaja Frederik Gyldstrandin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_acor_glitter" "acoR (hile) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_acor_glitter" "Hiletarrassa on ammattilaispelaaja Frederik Gyldstrandin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_acor_holo" "acoR (holo) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_acor_holo" "Holotarrassa on ammattilaispelaaja Frederik Gyldstrandin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_acor_gold" "acoR (kulta) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_acor_gold" "Kultatarrassa on ammattilaispelaaja Frederik Gyldstrandin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
 
-	"StickerKit_cph2024_signature_d1ledez" "d1Ledez | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez" "Tarrassa on ammattilaispelaaja Daniil Kustovin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_d1ledez_glitter" "d1Ledez (hile) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez_glitter" "Hiletarrassa on ammattilaispelaaja Daniil Kustovin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_d1ledez_holo" "d1Ledez (holo) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez_holo" "Holotarrassa on ammattilaispelaaja Daniil Kustovin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_d1ledez_gold" "d1Ledez (kulta) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez_gold" "Kultatarrassa on ammattilaispelaaja Daniil Kustovin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_isak" "isak | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_isak" "Tarrassa on ammattilaispelaaja Isak Fahlénin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_isak_glitter" "isak (hile) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_isak_glitter" "Hiletarrassa on ammattilaispelaaja Isak Fahlénin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_isak_holo" "isak (holo) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_isak_holo" "Holotarrassa on ammattilaispelaaja Isak Fahlénin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_isak_gold" "isak (kulta) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_isak_gold" "Kultatarrassa on ammattilaispelaaja Isak Fahlénin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
 
-	"StickerKit_cph2024_signature_glowiing" "glowiing | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_glowiing" "Tarrassa on ammattilaispelaaja Aleksandr Matsievichin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_glowiing_glitter" "glowiing (hile) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_glowiing_glitter" "Hiletarrassa on ammattilaispelaaja Aleksandr Matsievichin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_glowiing_holo" "glowiing (holo) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_glowiing_holo" "Holotarrassa on ammattilaispelaaja Aleksandr Matsievichin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_glowiing_gold" "glowiing (kulta) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_glowiing_gold" "Kultatarrassa on ammattilaispelaaja Aleksandr Matsievichin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_keoz" "Keoz | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_keoz" "Tarrassa on ammattilaispelaaja Nicolas Dgusin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_keoz_glitter" "Keoz (hile) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_keoz_glitter" "Hiletarrassa on ammattilaispelaaja Nicolas Dgusin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_keoz_holo" "Keoz (holo) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_keoz_holo" "Holotarrassa on ammattilaispelaaja Nicolas Dgusin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_keoz_gold" "Keoz (kulta) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_keoz_gold" "Kultatarrassa on ammattilaispelaaja Nicolas Dgusin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
 
-	"StickerKit_cph2024_signature_idisbalance" "iDISBALANCE | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance" "Tarrassa on ammattilaispelaaja Artem Egorovin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_idisbalance_glitter" "iDISBALANCE (hile) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance_glitter" "Hiletarrassa on ammattilaispelaaja Artem Egorovin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_idisbalance_holo" "iDISBALANCE (holo) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance_holo" "Holotarrassa on ammattilaispelaaja Artem Egorovin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_idisbalance_gold" "iDISBALANCE (kulta) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance_gold" "Kultatarrassa on ammattilaispelaaja Artem Egorovin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_snax" "Snax | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_snax" "Tarrassa on ammattilaispelaaja Janusz Pogorzelskin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_snax_glitter" "Snax (hile) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_snax_glitter" "Hiletarrassa on ammattilaispelaaja Janusz Pogorzelskin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_snax_holo" "Snax (holo) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_snax_holo" "Holotarrassa on ammattilaispelaaja Janusz Pogorzelskin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_snax_gold" "Snax (kulta) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_snax_gold" "Kultatarrassa on ammattilaispelaaja Janusz Pogorzelskin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
 
-	"StickerKit_cph2024_signature_seized" "seized | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_seized" "Tarrassa on ammattilaispelaaja Denis Kostinin nimikirjoitus. Hän pelasi joukkueessa joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_seized_glitter" "seized (hile) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_seized_glitter" "Hiletarrassa on ammattilaispelaaja Denis Kostinin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_seized_holo" "seized (holo) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_seized_holo" "Holotarrassa on ammattilaispelaaja Denis Kostinin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
-	"StickerKit_cph2024_signature_seized_gold" "seized (kulta) | Kööpenhamina 2024"
-	"StickerKit_desc_cph2024_signature_seized_gold" "Kultatarrassa on ammattilaispelaaja Denis Kostinin nimikirjoitus. Hän pelasi joukkueessa 9Pandas PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_volt" "volt | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_volt" "Tarrassa on ammattilaispelaaja Sebastian Constantin Malosin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_volt_glitter" "volt (hile) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_volt_glitter" "Hiletarrassa on ammattilaispelaaja Sebastian Constantin Malosin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_volt_holo" "volt (holo) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_volt_holo" "Holotarrassa on ammattilaispelaaja Sebastian Constantin Malosin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
+	"StickerKit_cph2024_signature_volt_gold" "volt (kulta) | Kööpenhamina 2024"
+	"StickerKit_desc_cph2024_signature_volt_gold" "Kultatarrassa on ammattilaispelaaja Sebastian Constantin Malosin nimikirjoitus. Hän pelasi GamerLegionissa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
 
 	"StickerKit_cph2024_signature_arrozdoce" "arrozdoce | Kööpenhamina 2024"
 	"StickerKit_desc_cph2024_signature_arrozdoce" "Tarrassa on ammattilaispelaaja Rafael Wingin nimikirjoitus. Hän pelasi SAW:ssa PGL Kööpenhamina 2024 CS2 Major -mestaruusturnauksessa."
@@ -24350,7 +24475,7 @@
 		"SprayKit_std2_lightbulb"				"Hehkulamppu"
 		"SprayKit_std2_little_crown"			"Pieni kruunu"
 		"SprayKit_std2_little_ez"				"Vähän helppoa"
-		"SprayKit_std2_littlebirds"				"Pää pyörällä"
+		"SprayKit_std2_littlebirds"				"P��ä pyörällä"
 		"SprayKit_std2_nt"						"Hyvä yritys"
 		"SprayKit_std2_okay"					"OK"
 		"SprayKit_std2_omg"						"OMG"
@@ -27878,26 +28003,63 @@
 	"PaintKit_cu_tec9_freedom_Tag"									"Rebel"
 
 // END COMMUNITY_32
+
 // ANUBIS
 
 	"PaintKit_gs_revolver_acanthus_bronze"							"Aseen maalaus muistuttaa lehväkaiverruksia ja kahva marmoria.\n\n<i>Kuin kourallinen ylellisyyttä</i>"
 	"PaintKit_gs_revolver_acanthus_bronze_Tag"						"Koristeupotus"
 
 	"PaintKit_gs_ak47_strone"										"Maalauksen linjat muistuttavat topagrafisen kartan syvänteitä.\n\n<i>Veri on vettä sakeampaa</i>"
+	"PaintKit_gs_ak47_strone_Tag"									"Teräksinen delta"
+
+	"PaintKit_gs_awp_strone"										"Maalauksen linjat muistuttavat topografisen kartan syvänteitä.\n\n<i>Veri on vettä sakeampaa</i>"
+	"PaintKit_gs_awp_strone_Tag"									"Musta Niili"
+
+	"PaintKit_cu_glock_ramzes"										"Luistiin on maalattu Niili ja kahvaan Ramses I, joka perusti Egyptin 19. dynastian.\n\n<i>\"Kansani kurottaa kohti jumalia, ja minä autan heitä\"</i>"
+	"PaintKit_cu_glock_ramzes_Tag"									"Ramseksen valtakunta"
+
 	"PaintKit_cu_famas_holo_ocean"									"Aseen sinisen sävyt vaihtelevat valaistuksen mukaan.\n\n<i> Vesi vanhin voitehista</i>"
+	"PaintKit_cu_famas_holo_ocean_Tag"								"Neftyksen laineet"
+
 	"PaintKit_cu_m249_scarab"										"Ase on maalattu tummin sinivihrein sävyin, ja kuvio on aavikkomainen.\n\n<i> \"Se oli ansa! Niitä tulee joka suunnasta!\"</i>"
 	"PaintKit_cu_m249_scarab_Tag"									"Maastoutuminen"
 
 	"PaintKit_gs_m4a1s_milspec"										"Aseessa on mustaruskea maastokuviointi. \n\n<i>Tukijoukot paikalla!</i>"
+	"PaintKit_gs_m4a1s_milspec_Tag"									"Mutanaamio"
+	
 	"PaintKit_gs_m4a4_ra"											"Valkoiselle pohjalle on maalattu kultakuvioita ja Egyptin haukkajumala Horus\n\n<i>. Muiden yläpuolella</i>"
+	"PaintKit_gs_m4a4_ra_Tag"										"Horuksen silmä"
+
 	"PaintKit_cu_mac10_scarab"										"Aseessa on aavikkomainen kuviointi, ja perää koristaa pillerinpyörittäjä.\n\n<i>\"Se oli ansa! Niitä tulee joka suunnasta!\"</i>"
 	"PaintKit_cu_mac10_scarab_Tag"									"Aavikolla kaikuu"
 
 	"PaintKit_gs_mag7_goold"										"Skini näyttää siltä kuin aseen päälle olisi valutettu nestemäistä kuparia.\n\n<i>Tämä oli vahinko, ei virhe...</i>"
+	"PaintKit_gs_mag7_goold_Tag"									"Kupariroiske"
+
+	"PaintKit_gs_mp7_strone"										"Maalauksen linjat muistuttavat topografisen kartan syvänteitä.\n\n<i>Veri on vettä sakeampaa</i>"
+	"PaintKit_gs_mp7_strone_Tag"									"Aurinkokuivattu"
+
+	"PaintKit_gs_nova_sobek"										"Asetta koristavat kultaiset ja mustat Egyptin inspiroimat kuviot.\n\n<i> Vedestä nousee kaaos</i>"
+	"PaintKit_gs_nova_sobek_Tag"									"Sobekin puraisu"
+
+	"PaintKit_gs_p250_apep"											"Maalaus perustuu egyptiläisiin kuvioihin ja materiaaleihin.\n\n<i>Ra saa tuta</i>"
+	"PaintKit_gs_p250_apep_Tag"										"Apepin kirous"
+
+	"PaintKit_hy_dune_trap"											"Kuviossa luikertelevat käärmeet ja sammakkoeläimet.\n\n<i>Pahat mielessä</i>"
+	"PaintKit_hy_dune_trap_Tag"										"Käärmeenpesä"
+
 	"PaintKit_cu_p90_scarab_of_wisdom"								"Skinistä löytyy pillerinpyörittäjiä ja muita egyptiläisiä kuvioita.\n\n<i> Ylösnousemus vaatii kuoleman, eikä kuolema odota</i>"
 	"PaintKit_cu_p90_scarab_of_wisdom_Tag"							"Pillerinpyörittäjä"
 
 	"PaintKit_gs_ssg08_anubis"										"Kuviointi koostuu hieroglyfeistä merensinisellä pohjalla ja koko aseen kattavasta puukuviosta.\n\n<i>Tulvavaroitus</i>"
+	"PaintKit_gs_ssg08_anubis_Tag"									"Merensiniset hieroglyfit"
+
+	"PaintKit_cu_tec9_mummy"										"Maalauksen kuvio muistuttaa muumiota. Perästä, tähtäimen alapuolelta löytyy vihreäsilmäinen kobra. \n\n<i>Pidetään tämä salassa</i>"
+	"PaintKit_cu_tec9_mummy_Tag"									"Maatuva muumio"
+
+	"PaintKit_gs_usps_tactical_camo"								"Asetta koristaa oliivimaisen vihreä maastokuvio.\n\n<i>Ei perusmalli ole välttämättä tylsä</i>"
+	"PaintKit_gs_usps_tactical_camo_Tag"							"Aavikkokuvio"
+
 	"PaintKit_cu_xm1014_pharaoh"									"Skinissä on egyptiläisiä hieroglyfejä ja ornamentteja.\n\n<i>Tarinan opetus</i>"
 	"PaintKit_cu_xm1014_pharaoh_Tag"								"Hieroglyfi"
 
@@ -27947,7 +28109,7 @@
 	"PaintKit_ump45_assembled_engine"								"Ase on maalattu näyttämään polttomoottorilta, joka on muutettu aseeksi.\n\n<i>\"Säännöllisellä huollolla tällä voi ampua ainakin 500 000 luotia!\"</i>"
 	"PaintKit_ump45_assembled_engine_Tag"							"Moottoroitu"
 	
-	"PaintKit_usps_doggy"											"Aseessa on kiiltäväll�� maalilla maalattu haukkuva koira. Äänenvaimentimessa lukee Good Doggy.\n\n<i>Istu!</i>"
+	"PaintKit_usps_doggy"											"Aseessa on kiiltävällä maalilla maalattu haukkuva koira. Äänenvaimentimessa lukee Good Doggy.\n\n<i>Istu!</i>"
 	"PaintKit_usps_doggy_Tag"										"Jawbreaker"
 	
 	"PaintKit_xm1014_irezumi"										"Asetta koristaa kullanväriselle pohjalle maalattu käärme, joka pohjautuu japanilaiseen tatuointityyliin, irezumiin.\n\n<i>Käärmeet symboloivat viisautta ja profetiaa ja kuvaavat siksi täydellisesti XM1014:n käyttäjiä</i>"
@@ -28048,7 +28210,13 @@
 		"store_nav_home"		"PÄÄSIVU"
 		"store_nav_items"		"KATEGORIAT"
 		"store_nav_coupon"		"YLEISTÄ"
+		"store_nav_tournament_21"	"PARIS 2023"
 		"store_nav_market"		"MARKKINAPAIKKA"
+		"store_nav_prime"		"PRIME"
+		"store_nav_key"			"AVAIMET"
+		"store_nav_store"		"TYÖKALUT"
+		"store_nav_popular"		"UUDET SUOSIKIT"
+		"store_linked_item_tooltip"		"Klikkaa nähdäksesi esineen molemmat versiot"
 		"store_nav_more"		"Näytä lisää"
 
 		"StoreCheckout_NoItems"			"Ostoskorisi on tyhjä!"
@@ -28301,6 +28469,8 @@
 		"SFUI_GameMode_new_user_training"		"Peruskurssi"
 
 		"ForceNewUserTraining_title"			"Peruskurssi"
+		"ForceNewUserTraining_text"				"Oletko valmis aloittamaan lyhyen harjoituspelin?"
+
 		"SFUI_GameModeGGProgressive"	"Arms Race"
 		"SFUI_GameModeGGBomb"			"Demolition"
 		"SFUI_GameModeCooperative"		"Vartija"
@@ -28423,6 +28593,8 @@
 		"SFUI_Mapgroup_reserves"	"Vararyhmä"
 		"SFUI_Mapgroup_casualdelta"	"Purkuryhmä delta"
 		"SFUI_Mapgroup_casualsigma"	"Purkuryhmä sigma"
+		"SFUI_Mapgroup_limitedtest"	"Rajoitettu testiryhmä"
+
 		"SFUI_mapgroup_op_payback"	"Operaatio Vastaisku"
 		"SFUI_mapgroup_op_bravo"	"Operaatio Bravo"
 		"SFUI_mapgroup_op_phoenix"	"Operaatio Feeniks"
@@ -28568,6 +28740,7 @@
 
 		"SFUI_Map_de_boyard"	"Boyard"
 		"SFUI_Map_de_chalice"	"Chalice"
+
 		"SFUI_Map_de_mutiny"		"Mutiny"
 		"SFUI_Map_de_swamp"			"Swamp"
 		"SFUI_Map_de_anubis"		"Anubis"
@@ -28597,7 +28770,17 @@
 		"SFUI_Map_de_hive"		"Hive"
 		"SFUI_Map_dz_vineyard"	"Vineyard"
 		"SFUI_Map_dz_ember"		"Ember"
+
+		"SFUI_Map_de_thera"		"Thera"
+		"SFUI_Map_de_mills"		"Mills"
+		"SFUI_Map_de_assembly"		"Assembly"
+		"SFUI_Map_de_memento"		"Memento"
+		"SFUI_Map_ar_pool_day"		"Pool Day"
 		
+		"SFUI_Map_workshop_preview_dust2"	"Dust II:n esikatselu"
+		"SFUI_Map_workshop_preview_ancient"	"Ancientin esikatselu"
+		"SFUI_Map_workshop_preview_inferno"	"Infernon esikatselu"
+
 		"SFUI_Map_warehouse"	"Varasto"
 		"SFUI_Map_mainmenu"		"Päävalikko (tällä hetkellä {s:mainmenu_bkgnd})"
 		
@@ -28625,6 +28808,8 @@
 		"SFUI_MMStatus_Title"					"HAETAAN"
 		"SFUI_MMStatus_Searching"				"Haetaan..."
 		"SFUI_MMStatus_Creating"				"Luodaan peliä..."
+		"SFUI_MMStatus_GOTVRelayStart"			"Tukeaksemme useampia CSTV-katsojia kyseiselle pelille olemme pystyttämässä viiveellä toimivaa CSTV-välityspalvelinta"
+		"SFUI_MMStatus_GOTVRelayStarting"		"Määritämme edelleen viiveellä toimivaa CSTV-välityspalvelinta tukeaksemme useampia CSTV-katsojia kyseiselle pelille. Odota hetki..."
 		"SFUI_MMStatus_Joining"					"Liitytään peliin..."
 		"SFUI_MMStatus_Legend"					"${cancel} Peruuta"
 		"SFUI_MMStatus_JoinFailed"				"Peliin liittyminen epäonnistui."
@@ -28674,10 +28859,19 @@
 		"SFUI_Workshop_Desc_Sp"				"Counter-Striken kartta-workshop on yhteisön luomien karttojen keskus. Voit tilata karttoja ja kokeilla niitä paikallisesti bottien kanssa."
 		"SFUI_Workshop_Desc"				"Counter-Striken kartta-workshop on yhteisön luomien karttojen keskus. Voit tilata karttoja ja käyttää yhteisön pikapeliä löytääksesi parhaat mahdolliset karttaa käyttävät yhteisön tarjoamat pelipalvelimet."
 
+		"Workshop_Confirm_Download_Popup_Title" "Vahvista Workshop-lataus"
+		"Workshop_Confirm_New_Download" "Workshop-kartan lataus on pakollinen. Et ole ladannut tätä karttaa ennen. Haluatko ladata ja pelata kartan?"
+		"Workshop_Subscriptions" "Tilaukset:"
 		"Workshop_favorites" "Suosikit:"
+		"Workshop_upvotes" "Kannatusäänet"
+		"Workshop_downvotes" "Vastaäänet"
 		"Workshop_score" "Pisteet"
 		"Workshop_created" "Luotu"
 		"Workshop_size" "Koko"
+		"Workshop_View" "Katso Workshopissa"
+		"Workshop_Allow" "Salli"
+		"Workshop_Deny" "Hylkää"
+
 		"SFUI_Workshop_Desc_Pw"				"Tilaamasi Workshop-kartat on lueteltu täällä. Yhteisön pikapelin avulla löydät parhaan karttaa pyörittävän yhteisöpalvelimen."
 		"SFUI_Workshop_Desc_Sp_Pw"			"Tilaamasi Workshop-kartat on lueteltu täällä. Voit kokeilla niitä paikallisesti bottien kanssa."
 		"SFUI_Workshop_Filter_Prompt"		"Suodata karttoja"
@@ -28724,6 +28918,8 @@
 		"SFUI_MapGroup_Tooltip_Desc_Dust2"    "Tämä kartta on osa Dust II -ryhmää."
 		"SFUI_MapGroup_Tooltip_Desc_Hostage"  "Tämä karttaryhmä sisältää panttivankikarttoja."
 		"SFUI_MapGroup_Tooltip_Desc_Skirmish"  "Tämä karttatyyppi sisältää Sotapelejä."
+		"SFUI_MapGroup_Tooltip_Desc_LimitedTest"  "Karttaryhmä sisältää rajoitetun testin karttoja."
+
 		//Hydra Maps
 		"SFUI_Map_Tooltip_Desc_austria"		"Uuden lumisateen rauhallisuus ja hiljaisuus sortuvat, kun terroristit hyökkäävät vuoristokylään."
 		"SFUI_Map_Tooltip_Desc_lite"		"Terroristien kohteena on yhdysvaltalainen öljynjalostamo. Pysäytä heidät, ennen kuin hinnat lähtevät nousemaan pilviin."
@@ -28823,6 +29019,8 @@
 		"SFUI_MainMenu_Vac_Info"			"Sinulta on estetty suojatuilla palvelimilla pelaaminen tämän tai linkitetyn tilin rikkeen vuoksi."
 		"SFUI_MainMenu_GameBan_Title"		"Pelikielto"
 		"SFUI_MainMenu_GameBan_Info"		"Sinulta on estetty suojatuilla palvelimilla pelaaminen tämän tai linkitetyn tilin rikkeen vuoksi."
+		"SFUI_MainMenu_AccountLocked_Title"	"Tili lukittu"
+		"SFUI_MainMenu_AccountLocked_Info"	"Tilisi on lukittu ja estetty pelaamasta suojatuilla palvelimilla, koska rikoit Steamin tilaussopimusta. Voit kysyä lisätietoja ottamalla yhteyttä Steamin tukeen."
 		"SFUI_MainMenu_News_Title"			"Uutiset"
 		"SFUI_MainMenu_News_Title_uppercase"  "UUTISET"
 		"SFUI_MainMenu_Last_Match"			"Viimeisimmän ottelun raportti"
@@ -28859,7 +29057,7 @@
 		"SFUI_MainMenu_Rollback_Ban_Title"		"Ryhmän jäsen on porttikiellossa"
 		"SFUI_MainMenu_Global_Ban_Title"		"Globaali jäähy"
 		"SFUI_MainMenu_Temporary_Ban_Title"		"Väliaikainen jäähy"
-		"SFUI_MainMenu_Competitive_Ban_Confirm_Title"		"Kilpailullisen jäähy on loppunut"
+		"SFUI_MainMenu_Competitive_Ban_Confirm_Title"		"Kilpailullinen jäähy on päättynyt"
 		"SFUI_MainMenu_OfficalBanTimerDesc_Text"	"Rikkomusjäähy"
 		"SFUI_MainMenu_Days_Text"					"Päivää"
 		"SFUI_MainMenu_ServerBrowserWarning_Legend" "${cancel} Takaisin  ${confirm} OK"
@@ -28966,6 +29164,8 @@
 		
 		"SFUI_Store_Hint_Gift_-_1_Player"          "Anna lahja satunnaiselle pelaajalle ottelussasi"
 		"SFUI_Store_Hint_Gift_-_9_Players"         "Anna lahjoja yhdeksälle muulle pelaajalle ottelussasi"
+		"SFUI_Store_Hint_Gift_-_25_Spectators"     "Lahjoita esineitä 25 CSTV-katsojalle, jotka seuraavat peliäsi."
+		
 		"SFUI_Store_Hint_E-Sports_Weapon_Case_Key_1" "Avaa minkä tahansa eSports-laatikon"
 		"SFUI_Store_Hint_Weapon_Case_Key"           "Avaa Arms Deal- ja Bravo-laatikoita"
 		"SFUI_Store_Hint_Community_Case_Key_1"      "Avaa Winter Offensive -aselaatikko"
@@ -29057,54 +29257,54 @@
 
 		"SFUI_PlayMenu_CreateLobbyButton"	"PELAA KAVEREIDEN KANSSA"
 		"SFUI_Overwatch_Title"				"Valvomo"
-		"SFUI_Overwatch_Faq_Link"			"Valvomon U.K.K."
+		"SFUI_Overwatch_Faq_Link"			"Usein kysytyt kysymykset"
 		"SFUI_Overwatch_Download"			"LATAA TODISTUSAINEISTO"
-		"SFUI_Overwatch_Investigate"		"KATSO TODISTUSAINEISTOA"
-		"SFUI_Overwatch_Download_Desc"		"Sinulla on tarkastelua odottava tapaus."
+		"SFUI_Overwatch_Investigate"		"KATSO TODISTUSAINEISTO"
+		"SFUI_Overwatch_Download_Desc"		"Sinulla on Valvomo-tapaus odottamassa."
 		"SFUI_Overwatch_Watch_Desc"			"Käsittely kestää noin 10 minuuttia."
-		"SFUI_Overwatch_Case_Number"		"Tapausnro:"
+		"SFUI_Overwatch_Case_Number"		"Tapausnumero:"
 		"SFUI_Overwatch_Downloading"		"...Ladataan"
 		"SFUI_Overwatch_Beta"               "Beta"
-		"SFUI_Overwatch_Tooltip"		"<b>Tervetuloa Valvomoon.</b>\n\nValvomo antaa CS2-yhteisölle mahdollisuuden säännellä käytöstään antamalla kokeneille ja ammattitaitoisille yhteisön jäsenille (valvojille) työkalut arvioida ilmiantoja häiriökäyttäytymisestä, päättää ilmiantojen paikkansapitävyydestä ja antaa tarvittaessa kieltoja.\n\nJos suostut mukaan toimintaan, sinulle annetaan katsottavaksi noin 10 minuuttia kestävä uusinta ilmiannetusta pelaajasta. Sen katsomisen jälkeen teet ratkaisupäätöksen.\n\n1. Klikkaa \"LATAA TODISTUSAINEISTO\" -painiketta ja odota, kunnes uusinta on latautunut.\n2. Klikkaa \"KATSO TODISTUSAINEISTOA\" ja katso uusinta.\n3. Lopuksi valitse annetuista vaihtoehdoista sopivin.\n4. Valmista!\n\nTapausten ratkettua saat tuomioidesi tarkkuuden perusteella <b>ansaitun XP-palkkion</b>, jonka voit kerätä virallisilla pelipalvelimilla pelatun pelin päätteeksi. CS2-yhteisö kiittää avustasi."
+		"SFUI_Overwatch_Tooltip"		"<b>Tervetuloa Valvomoon.</b>\n\nValvomo antaa CS2-yhteisölle mahdollisuuden säännellä käytöstään antamalla kokeneille ja ammattitaitoisille yhteisön jäsenille (valvojille) työkalut arvioida ilmiantoja häiriökäyttäytymisestä, päättää ilmiantojen paikkansapitävyydestä ja antaa tarvittaessa kieltoja.\n\nJos suostut mukaan toimintaan, sinulle annetaan katsottavaksi noin 10 minuuttia kestävä uusinta ilmiannetusta pelaajasta. Sen katsomisen jälkeen teet ratkaisupäätöksen.\n\n1. Klikkaa Lataa todistusaineisto -painiketta ja odota, kunnes uusinta on latautunut.\n2. Klikkaa Katso todistusaineistoa ja katso uusinta.\n3. Lopuksi valitse annetuista vaihtoehdoista sopivin.\n4. Valmista!\n\nTapausten ratkettua saat tuomioidesi tarkkuuden perusteella <b>ansaitun XP-palkkion</b>, jonka voit kerätä virallisilla pelipalvelimilla pelatun pelin päätteeksi. CS2-yhteisö kiittää avustasi."
 
 		"PlayMenu_guardian_tooltip"			"Vartija- ja yhteistyötehtävät ovat saatavilla nettipeliin käyttämällä operaatiolokia."
 
 		"PlayMenu_dangerzone_onlineonly"	"Tämä pelimuoto on saatavilla vain virallisessa pelihaussa."
 		"PlayMenu_unavailable_locked_mode_title"	"Pelimuoto lukittu"
 		"PlayMenu_unavailable_newuser"		"Tämä pelimuoto aukeaa, kun saavutat sotamiestason 2."
+		"PlayMenu_unavailable_newuser_2"	"Avaa tämä pelimuoto pelaamalla otteluita muissa pelimuodoissa."
+		"PlayMenu_unavailable_newuser_2_nonprime"	"Osta Prime-tila ja avaa tämä pelimuoto pelaamalla otteluita muissa pelimuodoissa."
 		"PlayMenu_unavailable_newuser_2_nogcconnection"	"Ei yhteyttä Counter-Strike-verkkoon."
 
 
-		"SFUI_Overwatch_Res_Postpone_Label"		"Päätä myöhemmin"
+		"SFUI_Overwatch_Res_Postpone_Label"		"Peruuta"
 
-		"SFUI_Overwatch_Res_Instructions"		"Nähtyäsi todistusaineiston on aika selvittää, mikäli kategorian mukainen rike on tapahtunut. Huomaa kuitenkin, että sinun <b>tulisi olettaa pelaajan olevan syytön</b>. Ainoastaan ollessasi varma, että kyseessä on <b>selkeästi häiritsevä, epäkilpailullinen ja/tai epäsosiaalinen</b> käytös, valitse \"<b>Selkeästi syyllinen</b>\". Ellet ole täysin varma asiasta, tulee sinun valita \"<b>Todisteet eivät riitä</b>\".\n\nJos sinusta tuntuu, ettet kiinnittänyt tarpeeksi paljon huomiota kyetäksesi päättämään asiasta, valitse \"<b>Päätä myöhemmin</b>\". Voit palata todistusaineiston pariin uudelleen."
+		"SFUI_Overwatch_Res_Instructions"		"Olet nähnyt todisteet, joten on aika päättää."
 
 		"SFUI_Overwatch_Res_Major_Label"	"Selkeästi syyllinen"
 
-		"SFUI_Overwatch_Res_Major_Desc"	"Tarkastelluissa todisteissa huomasit epäillyn harjoittavan käytöstä, jonka CS2-yhteisö yleisesti määrittelisi erittäin häiritseväksi, epäurheilijamaiseksi ja/tai epäsosiaaliseksi. Tällaista käytöstä ovat esimerkiksi <font color='#FFFFFF'><b>avustettu tähtäys, suurempi liikkumisnopeus, esteiden läpi näkeminen ja muut ulkoiset ohjelmat</b></font>, joilla muokataan epäillyn tai muiden toimintaa pelissä."
+		"SFUI_Overwatch_Res_Minor_Label"	"Lievä häirintä"
 
-		"SFUI_Overwatch_Res_Minor_Label"	"Hieman häiritsevä"
+		"SFUI_Overwatch_Res_NotGuilty_Label"	"Ei riittävästi todisteita"
 
-		"SFUI_Overwatch_Res_Minor_Desc"		"Tarkastelemassasi todistusaineistossa et huomannut syytetyn käyttäytyneen erittäin häiritsevällä tavalla, joka täsmäisi Vakava häirintä -päätöksen kanssa. Huomasit kuitenkin käyttäytymistä, joka myös CS2-yhteisön yleisen mielipiteen mukaan olisi jollain tapaa häiritsevää, epäkilpailullista ja/tai epäsosiaalista. Esimerkkejä tällaisesta käytöksestä: <b><font color='#FFFFFF'><b>tarkoituksellinen oman joukkueen jäsenten pelin häirintä, heidän vahingoittamisensa tai yritys tulla heidän vahingoittamakseen.</b></font>"
+		"SFUI_Overwatch_Res_Griefing"				"Lievä häirintä: kiusaaminen"
+		"SFUI_Overwatch_Res_AimHacking"				"Vakava häirintä: avustettu tähtäys"
+		"SFUI_Overwatch_Res_WallHacking"			"Vakava häirintä: avustettu näkymä"
+		"SFUI_Overwatch_Res_SpeedHacking"			"Vakava häirintä: muu ulkopuolinen avustus"
 
-		"SFUI_Overwatch_Res_NotGuilty_Label"	"Todisteet eivät riitä"
-
-		"SFUI_Overwatch_Res_NotGuilty_Desc"		"Tarkastelluissa todisteissa et huomannut epäillyn harjoittavan käytöstä, joka yllä luokiteltaisiin häiritseväksi, tai tapauksessa <font color='#FFFFFF'><b>ei ollut riittävästi todisteita, että olisi perusteltua epäillä epäiltyä häiritsevästä käytöksestä.</b></font>"
-
-		"SFUI_Overwatch_Res_Griefing"				"Lievä häirintä: Ilkivalta"
-		"SFUI_Overwatch_Res_AimHacking"				"Vakava häirintä: Avustettu tähtäys"
-		"SFUI_Overwatch_Res_WallHacking"			"Vakava häirintä: Avustettu näkymä"
-		"SFUI_Overwatch_Res_SpeedHacking"			"Vakava häirintä: Muu ulkopuolinen avustus"
-		"SFUI_Overwatch_Res_Griefing_Desc"		"Katsomasi todistusaineiston perusteella voi todeta, että epäilty pelaaja on käyttäytynyt <font color='#FFFFFF'><b>selkeästi häiritsevästi, epäkilpailullisesti ja/tai epäsosiaalisesti</b></font> esim. estämällä tai yrittämällä vahingoittaa/tulla joukkuelaisten vahingoittamaksi, olemalla osallistumatta peliin tai häviämällä pelin tahallaan."
-		"SFUI_Overwatch_Res_AimHacking_Desc"		"Katsomasi todistusaineiston perusteella voi todeta, että epäilty pelaaja on selkeästi <font color='#FFFFFF'><b>käyttänyt ulkoisia keinoja/ohjelmia parantaakseen tähtäystään</b></font> kuten mm. rekyylinpoistoa tai automaattitähtäystä."
-		"SFUI_Overwatch_Res_WallHacking_Desc"		"Katsomasi todistusaineiston perusteella voi todeta, että epäilty pelaaja on <font color='#FFFFFF'><b>selkeästi käyttänyt ulkoisia keinoja/ohjelmia saadakseen tietoonsa vastustajien sijainteja</b></font> kuten mm. seinien, savun tai valokranaatin läpi näkeminen."
-		"SFUI_Overwatch_Res_SpeedHacking_Desc"		"Katsomasi todistusaineiston perusteella voi todeta, että epäilty pelaaja on <font color='#FFFFFF'><b>selkeästi käyttänyt muita kuin yllä olevia keinoja/ohjelmia saadakseen etua vastustajiin nähden</b></font> kuten mm. kameran, liikenopeuden tai tekstuurien muokkauksia, automatisoitua hyppimistä, jne."
+		"SFUI_Overwatch_Res_Griefing_Desc"		"Katsomasi todistusaineiston perusteella kuka tahansa CS-yhteisön järkevä jäsen voisi todeta, että epäilty pelaaja on <font color='#FFFFFF'><b>selkeästi käyttäytynyt häiritsevästi, kilpailua rajoittavasti ja/tai epäsosiaalisesti</b></font> esim. estämällä tai yrittämällä vahingoittaa, tulla itse joukkuetoverien vahingoittamaksi, olemalla osallistumatta peliin tai häviämällä pelin tahallaan."
+	
+		"SFUI_Overwatch_Res_AimHacking_Desc"		"Lue harjoitteludokumentaatiosta lisää siitä, miten arvioida ulkoisen tähtäysavustuksen käyttöä."
+	
+		"SFUI_Overwatch_Res_WallHacking_Desc"		"Katsomasi todistusaineiston perusteella kuka tahansa CS-yhteisön järkevä jäsen voisi todeta, että <font color='#FFFFFF'><b>selvittääkseen vastustajiensa sijaintitietoja epäilty pelaaja on käyttänyt ulkoisia keinoja tai ohjelmia, </b></font> kuten seinien tai savun läpi näkemistä, valokranaatin vaikutuksen vähennystä tai poistoa jne."
+	
+		"SFUI_Overwatch_Res_SpeedHacking_Desc"		"Katsomasi todistusaineiston perusteella kuka tahansa CS-yhteisön järkevä jäsen voisi todeta, että <font color='#FFFFFF'><b>saadakseen etua vastustajiinsa nähden epäilty pelaaja on selkeästi käyttänyt muita kuin yllä lueteltuja keinoja tai ohjelmia,</b></font> kuten kameran, liikenopeuden tai tekstuurien muokkauksia, automatisoitua hyppimistä jne."
 
 
 		"SFUI_Overwatch_Submit_label"			"Lähetä tuomio"
 		"SFUI_Overwatch_Resolution_Title"		"Valvomon päätös"
-		"SFUI_Overwatch_Submit_Thanks"			"Tuomiosi on vastaanotettu.\n\nKiitos toiminnastasi valvojana."
-		"SFUI_Overwatch_Submitting"				"Lähetetään tuomiotasi..."
+		"SFUI_Overwatch_Submit_Thanks"			"Kiitos tuomiosta."
+		"SFUI_Overwatch_Submitting"				"Tuomiota lähetetään"
 		
 		"SFUI_Mission_Title"	                "Tehtävä %s1"
 
@@ -29297,9 +29497,18 @@
 		"SFUI_InvUse_Use_KeylessCapsule"	"Avaa kapseli"
 		"SFUI_InvUse_Use_KeylessCapsuleDefault"	"Avaa"
 
+		"popup_container_confirm_title_rent" "Vuokraa aseita"
+		"popup_container_confirm_title_expire" "Vuokra-aika päättynyt" 
+		"popup_container_confirm_warning_rent" "Vuokrattuja aseita voi käyttää seitsemän päivää." 
+		"popup_container_confirm_body_rent" "Saat jokaisen aseen laatikosta {s:name}.<br/><br/>Vuokratut aseet eivät tue StatTrakia™ eivätkä ole muokattavissa millään tavalla.<br/><br/>Erittäin harvinaiset aseet eivät ole vuokrattavissa." 
+		"popup_container_confirm_already_rented" "Vuokraat jo laatikkoa {s:name}.<br/><br/>Vuokra-aika päättyy {s:expiration-time}." 
+
+		"popup_container_confirm_title_open" "Avaa {s:name}" 
+		"popup_container_confirm_body_open" "Saat pitää yhden esineen laatikosta {s:name}." 
+
 		"SFUI_Item_Certificate_Title"		"Esinetodistus"
 		"SFUI_ItemInfo_ItemType"			"Esinetyyppi"
-		"SFUI_ItemInfo_FinishStyle"			"Viimeistelytyyli"
+		"SFUI_ItemInfo_FinishStyle"			"Maalaustyyli"
 		"SFUI_ItemInfo_FinishCatalog"		"Viimeistelyvalikoima"
 		"SFUI_ItemInfo_PatternTemplate"		"Kuviopohja"
 		"SFUI_ItemInfo_WearAmount"			"Kuluma"
@@ -29307,7 +29516,7 @@
 		"SFUI_ItemInfo_FinishStyle_0"		"Ei mitään"
 		"SFUI_ItemInfo_FinishStyle_1"		"Yksivärinen"
 		"SFUI_ItemInfo_FinishStyle_2"		"Hydrografi"
-		"SFUI_ItemInfo_FinishStyle_3"		"Spray-maalaus"
+		"SFUI_ItemInfo_FinishStyle_3"		"Spraymaalaus"
 		"SFUI_ItemInfo_FinishStyle_4"		"Anodisoitu"
 		"SFUI_ItemInfo_FinishStyle_5"		"Anodisoitu monivärinen"
 		"SFUI_ItemInfo_FinishStyle_6"		"Anodisoitu kynäruiskutettu"
@@ -29452,6 +29661,11 @@
 		"SFUI_Statrak_ContextMenu_Remove"   "Peru vaihto"
 		"SFUI_Inv_Name_Tag_Current"			"Nykyinen nimi:"
 		"SFUI_Inv_Name_Tag_New"				"Uusi nimi:"
+		"item-rental-time-remaining"		"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> Vuokra-aikaa jäljellä {s:time-remaining}"
+		"item-rental-time-expired"			"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> Vuokra-aika päättynyt"
+		"item-can-rent"						"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> Vuokrattavissa"
+		"RentalExpiredPopupTitle"			"Vuokra-aika päättynyt"
+		"RentalExpiredPopupMessage"			"Laatikon {s:rental_expired_crate_name} esineiden vuokra-aika on päättynyt. Jos jokin ase oli varustelastissasi, se on korvattu perusaseella.<br><br><b>Vuokrattu</b><br>{s:rental_expired_issue_date}<br><b>Vuokra-aika päättyi</b><br>{s:rental_expired_expiration_date}"
 		
 		
 		"SFUI_Sticker_Remove"           	"Poista tarra"
@@ -29500,6 +29714,7 @@
 		"CSGO_Watch_Cat_Tournament_18"      "Tukholma 2021"
 		"CSGO_Watch_Cat_Tournament_19"      "Antwerpen 2022"
 		"CSGO_Watch_Cat_Tournament_20"      "Rio 2022"
+		"CSGO_Watch_Cat_Tournament_21"      "Paris 2023"
 		"CSGO_Play_PickEm"					"Pelaa Pick'Em-haastetta"
 		"CSGO_Play_FantasyPickEm"			"Pelaa fantasiatiimiä/Pick'Emiä"
 		"CSGO_Watch_Copy_Url"				"Kopioi linkki"
@@ -29518,6 +29733,7 @@
 		"CSGO_Watch_Info_Status_error"		"Vioittunut lataus. Poista ottelu ja lataa se uudelleen"
 		"CSGO_Watch_Info_Status_delete"		"Poistetaan ottelulatausta"
 		"CSGO_Watch_Info_download"			"Lataa"
+		"CSGO_Watch_Info_gotv"				"Katso CSTV:ssä"
 		"CSGO_Watch_Info_fullsreen"			"Katso Kokoruutu-tilassa"
 		"CSGO_Watch_Info_Tournament_7"		"Tietoja ESL Cologne 2015:stä"
 		"CSGO_Watch_Info_Tournament_8"		"Tietoja DreamHack Cluj-Napoca 2015:stä"
@@ -29532,6 +29748,7 @@
 		"CSGO_Watch_Info_Tournament_18"		"Tietoja PGL Tukholma 2021 -turnauksesta"
 		"CSGO_Watch_Info_Tournament_19"		"Tietoa PGL Antwerpen 2022 -turnauksesta"
 		"CSGO_Watch_Info_Tournament_20"		"Tietoa IEM Rio 2022 -turnauksesta"
+		"CSGO_Watch_Info_Tournament_21"		"Tietoa BLAST.tv Paris 2023 -turnauksesta"
 		"CSGO_Watch_Stream_Provided"		"Lähetyksen tarjoaa"
 		"CSGO_Watch_External_Stream"		"Katso selaimessa"
 		"CSGO_Watch_External_YouTube"		"YouTube"
@@ -29541,6 +29758,7 @@
 		"CSGO_Watch_External_SteamTV"		"Steam.tv"
 		"CSGO_Watch_Download"               "Lataa"
 		"CSGO_Watch_Delete"                 "Poista"
+		"CSGO_Watch_Watch_GOTV"             "Katso CSTV:tä"
 		"CSGO_Watch_Watch"                  "Katso demo"
 		"CSGO_Watch_Your_Highlights"        "Katso kohokohtasi"
 		"CSGO_Watch_Selected_Highlights"    "Katso kohokohdat: %s1"
@@ -29566,6 +29784,8 @@
 		"CSGO_Watch_Loading_PickEm"			"Ladataan Pick'Em-dataa..."
 		"CSGO_Watch_ReDownload_MetaData"  	"Päivitä peli"
 		"CSGO_Watch_Loading_MatchData"		"Ladataan pelin dataa..."
+		"CSGO_Watch_Gotv_Theater"			"CSTV-teatteri"
+		"CSGO_Watch_Gotv_Theater_tip"       "Käynnistä CSTV-teatteri ja katso parhaimpia suoria otteluita kerta toisensa jälkeen."
 		"CSGO_Watch_Error_Download"         "Viallinen lataus. Poista ja lataa peli uudelleen"
 		"CSGO_Watch_Error_RoundStats_MetaData"  "Päivitä lataus, jotta näet kierrostilastot"
 		"CSGO_Watch_Error_RoundStats_Live"  "Kierrostilastot eivät ole saatavilla käynnissä oleville peleille"
@@ -29576,6 +29796,7 @@
 		"CSGO_Watch_NoMatchData"           "Ilmeisesti tästä ottelusta ei ole näytettävää tietoa."
 		"CSGO_Watch_Not_Linked"             "Liitä Steam-tilisi Twitch.tv-tilisi kanssa, niin voit saada turnausesineitä katsoessasi virallisia turnauslähetyksiä."
 		"CSGO_Watch_Linked"                 "Steam- ja Twitch.tv-tilit ovat liitetty. Voit nyt saada esineitä katsellessasi virallisten tapahtumien live-lähetyksiä Twitch.tv:n kautta."
+		"CSGO_Watch_Item_Explanation"		"Voit saada tapahtumien esineitä katsomalla virallisia tapahtumia CSTV:ssä tai Twitchissä Steam-tiliisi liitetyllä Twitch-tililläsi."
 		"CSGO_Watch_More_Twitch"            "Lisää lähetyksiä"
 		"CSGO_Watch_NotLinked_Twitch"   "<font color='#E1C111'>Linkitä Twitch.tv-tilisi saadaksesi mahdollisuuden saada esineitä virallisisten tapahtumien lähetyksistä."
 		"CSGO_Watch_NotLinked_Twitch_Btn"   "Liitä Twitch.tv"
@@ -29669,6 +29890,10 @@
 		"CSGO_Watch_Tournament_Info_20"      "Tapahtumapaikka: Rio de Janeiro, Brasilia \n31.10.–13.11."
 		"CSGO_Watch_NoMatch_Tournament_20"   "IEM Rio 2022 -ottelut luetellaan tässä. \nLive-otteluita tai ladattavia otteluita ei ole tällä hetkellä tarjolla."
 		"CSGO_Watch_Loading_Tournament_20"   "Ladataan IEM Rio 2022 -otteluita..."
+		"CSGO_Watch_Tournament_Desc_21"      "BLAST.tv Paris 2023 CS:GO -turnaus oli BLAST.tv:n viimeinen Counter-Strike-major."
+		"CSGO_Watch_Tournament_Info_21"      "Sijainti: Pariisi \n8.–21.5."
+		"CSGO_Watch_NoMatch_Tournament_21"   "BLAST.tv Paris 2023 -ottelut luetellaan tässä. \nLive-otteluita tai ladattavia otteluita ei ole tällä hetkellä tarjolla."
+		"CSGO_Watch_Loading_Tournament_21"   "Ladataan BLAST.tv Paris 2023 -otteluita"
 		"CSGO_Watch_Tournament_Items"       "EMS One 2014 -lukottomat tarrakapselit"
 		"CSGO_Watch_Tournament_Info_Link"   "Turnauksen tiedot"
 		"CSGO_Watch_Tournament_Market_Link" "Selaa EMS One -tarroja Steamin yhteisön kauppapaikalla"
@@ -30069,6 +30294,9 @@
 		"CSGO_Fantasy_Player_Status_byeday"	"<font color='##89B2D2'>Välipäivä</font>"
 		
 		"CSGO_Fantasy_NoSTickers_In_Table" "Et omista tällä hetkellä yhtään tapahtuman <b>%s1</b> pelaajien nimikirjoittamaa tarraa.\nVoit ostaa joukkueen nimikirjoituskapselin tai hankkia nimikirjoitetun tarran suoraan kauppapaikalta."
+		"major_hub_souvenir_package_desc"	"Klikkaa mitä tahansa pelattua ottelua alta ja lunasta tai osta matkamuisto hintaan <span class=\"major-hub-store__souvenir__price\">{s:souvenir_price}</span>"
+		"major_hub_souvenir_package_desc_no_price"	"Klikkaa mitä tahansa pelattua ottelua alta ja lunasta matkamuisto."
+		
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Journal
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -30336,8 +30564,9 @@
 
 		"SFUI_PauseMenu_HelpAndOptionsTitle"			"OHJE & ASETUKSET"
 
+		"SFUI_PauseMenu_ExitGameConfirmation_Title"		"POISTU OTTELUSTA"
 		"SFUI_PauseMenu_ExitGameConfirmation_TitleWatch"	"PALAA PÄÄVALIKKOON"
-		"SFUI_PauseMenu_ExitGameConfirmation_TitleOverwatch" "POISTU VALVOMOSTA?"
+		"SFUI_PauseMenu_ExitGameConfirmation_TitleOverwatch" "Lopeta katselu?"
 		"SFUI_PauseMenu_ExitGameConfirmation_TitleQueuedMatchmaking"		"POISTU KILPAILULLISESTA?"
 		"SFUI_PauseMenu_ExitGameConfirmation_TitleQueuedGuardian"			"LOPETA SUOJELUSTEHTÄVÄ?"
 		"SFUI_PauseMenu_ExitGameConfirmation_Message"		"Haluatko lopettaa pelaamisen?"
@@ -30369,22 +30598,31 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Demo Playback Control
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-		"CSGO_Demo_Title"					"Demon toisto"
-		"CSGO_Demo_Restart"					"|<"
 		"CSGO_Demo_MinusSeconds"			"-{d:timestep_value} s"
-		"CSGO_Demo_Prev"					"<"
-		"CSGO_Demo_Play"					"Toista"
-		"CSGO_Demo_Pause"					"Keskeytä"
-		"CSGO_Demo_Next"					">"
 		"CSGO_Demo_PlusSeconds"				"+{d:timestep_value} s"
-		"CSGO_Demo_End"						">|"
+		"CSGO_Demo_TimeScale_OneFourth"		"¼x"
+		"CSGO_Demo_TimeScale_OneHalf"		"½x"
 		"CSGO_Demo_TimeScale_One"			"1x"
 		"CSGO_Demo_TimeScale_Two"			"2x"
 		"CSGO_Demo_TimeScale_Four"			"4x"
-		"CSGO_Demo_Death"					"Kuolema"
+		"CSGO_Demo_TimeScale_Eight"			"8x"
 
-		"CSGO_Demo_Round"					"Erä:"
-		"CSGO_Demo_Warmup"					"Lämmittely"
+		"CSGO_Demo_Toggle"							"[Shift+F2]"
+		"CSGO_Demo_Time"							"{s:current_time} / {s:total_time}"
+		"CSGO_Demo_Round"							"Erä:"
+		"CSGO_Demo_Highlight"						"Kohokohta:"
+		"CSGO_Demo_End_Playback"					"Lopeta toistaminen"
+		"CSGO_Demo_End_Playback_Overwatch"			"Siirry tuomioon"
+		"CSGO_Demo_End_Playback_Overwatch_Finished"	"Siirry tuomioon"
+
+		"CSGO_Demo_Enable_Mouse_Cursor"				"[{s:bind_drop}]: Ota hiiren kursori käyttöön"
+		"CSGO_Demo_Enable_Mouse_Camera"				"[{s:bind_drop}]: Hallitse kameraa hiirellä"
+		"CSGO_Demo_Player_Next"						"[{s:bind_attack}]: Seuraava pelaaja"
+		"CSGO_Demo_Player_Prev"						"[{s:bind_attack2}]: Edellinen pelaaja"
+		"CSGO_Demo_Next_Camera"						"[{s:bind_jump}]: Seuraava kamera"
+		"CSGO_Demo_Toggle_XRay"						"[{s:bind_slot12}]: Röntgennäkymä päälle/pois"
+		"CSGO_Demo_Toggle_Overview"					"[{s:bind_duck}]: Yleisnäkymä päälle/pois"
+
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Date formatting
@@ -30597,7 +30835,6 @@
 		"SFUI_How_to_Play_Controller_Select"			"Tulostaulukko"
 		"SFUI_How_to_Play_Controller_Start"				"Valikko"
 
-		"SFUI_HOW TO PLAY"								"OPI PELAAMAAN"
 		"SFUI_HOW_TO_PLAY"								"Opi pelaamaan"
 		"SFUI_How_to_Play_Navigation"					"${cancel} Peruuta  ${dpad} Navigoi ${rstick} Vieritä"
 		"SFUI_HowToPlay_IntroductionLabel"				"Esittely"
@@ -30810,7 +31047,7 @@
 		"SFUI_XP_Bonus_2_op07"						"Saat <b>%s1</b>-esineen seuraavan kerran, kun nouset uudelle tasolle!"
 		"SFUI_XP_Bonus_2_op08"						"Saat <b>%s1</b> esinelöydön ensi kerralla, kun nouset uudelle tasolle!"
 		"SFUI_XP_Bonus_3"							"Saat vähemmän kokemuspisteitä ensi viikkoon asti."
-		"SFUI_XP_Bonus_4"							"Valvojen kokemuspistepalkkio saatavilla!"
+		"SFUI_XP_Bonus_4"							"Valvomon XP-palkkio saatavilla!"
 		
 		//for rank up display
 		"SFUI_XP_Bonus_RankUp_Old"							"<b>%s1 </b>Nykyinen XP"
@@ -30827,7 +31064,7 @@
 		"SFUI_XP_Bonus_RankUp_10"							"<b> %s1 </b> operaation kokemuspistettä (voitetut kierrokset x tapahtuman kertoja)"
 		"SFUI_XP_Bonus_RankUp_51"							"<b> %s1 </b> Ansaittu XP (Pisteesi x vähennetty %s2 kerroin)"
 		"SFUI_XP_Bonus_RankUp_52"							"<b> %s1 </b> Ansaittu XP (Voitetut erät x vähennetty %s2 kerroin)"
-		"SFUI_XP_Bonus_RankUp_54"							"<b> %s1 </b> Valvomon XP (Palkkiosi x vähennetty kerroin)"
+		"SFUI_XP_Bonus_RankUp_54"							"<b> %s1 </b> Valvomon XP (palkkiosi x vähennetty kerroin)"
 		"SFUI_XP_Bonus_RankUp_58"							"<b> %s1 </b> Salamatehtävän XP (Palkkiosi x vähennetty kerroin)"
 		"SFUI_XP_Bonus_RankUp_59"							"<b> %s1 </b> operaation kokemuspisteet (tapahtuman kokemuspisteet kulutettuna loppuun)"
 		"SFUI_XP_Bonus_RankUp_81"							"<b> %s1 </b> Ansaittu XP (Pisteesi x \"Sotamies taso %s2\" -kerroin)"
@@ -30871,8 +31108,9 @@
 		"SFUI_Redeem_Service_XpBarToolTip"					"Onneksi olkoon, olet saavuttanut tason Kansainvälinen kenraali! Olet oikeutettu palvelusmitaliin, jolla voit esitellä saavutustasi. Mitalin lunastamalla pääset kapuamaan uudelleen tasoja kohti Kansainvälisen kenraalin arvoa ja uutta palvelusmitalia."
 		"SFUI_Redeem_Service_Medal_NewYear"					"Jos haluat seuraavan vuoden palvelusmitalin, odota %s1 tuntia ennen jatkamista."
 		//for main menu display
-		"SFUI_PersonaNotification_Msg_4"			"Olet langettanut oikeudenmukaisia tuomioita ja täten saanut valvojan XP-palkkion! Lunasta palkkiosi virallisella palvelimella ottelun lopuksi. Kiitos Valvomon auttamisesta."
+		"SFUI_PersonaNotification_Msg_4"			"Olet langettanut oikeudenmukaisia tuomioita, mistä hyvästä saat valvojan XP-palkkion! Lunasta palkkiosi virallisella palvelimella ottelun lopuksi. Kiitos, että toimit valvojana."
 		"SFUI_PersonaNotification_Msg_5"			"Yksi tai useampi ilmiantamasi pelaaja on saanut pysyvän porttikiellon virallisille Counter-Strike-palvelimille. Kiitos, että autat Counter-Strike-yhteisöä."
+		"SFUI_PersonaNotification_Msg_6"			"Viimeaikaisten joukkueidesi yksi tai useampi jäsen on tuomittu huijauksesta ja estetty lopullisesti virallisilta Counter-Strike-palvelimilta. Kaikkia osanottajia, myös sinua, on rangaistu. Counter-Strike-profiilitasoasi, voittojasi, taitotasoasi ja CS-sijoitustasi on korjattu eikä ehkä näytetä, ennen kuin voitat pelin."
 		"SFUI_PersonaNotification_Msg_7"			"Sinut on raportoitu loukkaavasta kommunikoinnista useammin kuin pelaajia yleensä. Jos saat niitä vielä jatkossa, se vaikuttaa kommunikointioikeuksiisi."
 		"SFUI_PersonaNotification_Msg_8"			"Sinusta on tehty merkittävästi enemmän häirintäilmoituksia kuin muista pelaajista. Jos tämä jatkuu, siitä aiheutuu pelinhaun jäähyrangaistus."
 		
@@ -30936,6 +31174,11 @@
 		"popup_elevated_status_title"					"PRIME-TILAPÄIVITYS"
 		"popup_elevated_status_desc"					"Päivitä tilisi ja saa Prime-toiminnot."
 		"popup_elevated_status_xp_title"				"Ansaitse kokemuspisteitä"
+		"popup_elevated_status_xp_desc"					"Pelaa ja ansaitse kokemuspisteitä nostaaksesi tasoasi. Nouse tasolta toiselle ansaitaksesi ja päivittääksesi palvelusmitalin, jota voidaan näyttää profiilissa."
+		"popup_elevated_status_drops_title"				"Viikkopalkinnot"
+		"popup_elevated_status_drops_desc"				"Ansaitse palkintoja joka viikko. Tarjolla aselaatikoita, skinejä ja paljon muuta."
+		"popup_elevated_status_rank_title"				"Premier-kokemus"
+		"popup_elevated_status_rank_desc"				"Saat pääsyn Premier-tilaan ja nosta CS-sijoitustasi. Katso, missä olet maailmanlaajuisissa ja aluellisissa tulostaulukoissa. Pelaa kilpailullista ja Asetoveri-tilaa muiden Prime-pelaajien kanssa."
 		"elevated_status_toggle_prime_only"				"Ranked-pelit"
 		"elevated_status_toggle_prime_all"				"Tavalliset pelit"
 		"elevated_status_toggle_non_prime"				"Prime käytössä"
@@ -31101,6 +31344,7 @@
 
 		"SFUI_Player_Wants_Restart"		"%s1 haluaa aloittaa pelin uudelleen."
 		"SFUI_bot_decorated_name"				"%s1 BOTTI"
+		"SFUI_bot_decorated_name_controlled"	"BOT %s1 (%s2)"
 		"SFUI_bot_undecorated_name_controlled"	"%s1 (%s2)"
 		"SFUI_npc_name_guardian"				"Hyökkääjä %s1"
 		"SFUI_npc_name_guardianheavy"			"Vahva hyökkääjä %s1"
@@ -31109,8 +31353,6 @@
 
 		"SFUI_scoreboard_lbl_bot"	"BOTTI"
 		"SFUI_scoreboard_lbl_spec"	"KATSOJA"
-		"SFUI_scoreboard_lbl_dc"  	"Yhteys katkaistu"
-
 		"SFUI_Scoreboard_1st"		"1."
 		"SFUI_Scoreboard_2nd"		"2."
 		"SFUI_Scoreboard_1st_Half"		"1. puoliaika"
@@ -31141,6 +31383,7 @@
 		"SFUI_ScoreControl_PausedScore"		"Keskeytetty"
 		"SFUI_ScoreControl_FinalScore"		"Tallenna lopulliset pisteet"
 
+		"SFUI_Scoreboard_HLTV"				"CSTV-katsojia: %s1"
 		"SFUI_Scoreboard_Viewers"			"Katsojia: %s1"
 
 		"SFUI_RoundWin_Defused"			"Pommi purettiin"
@@ -31150,6 +31393,7 @@
 		"SFUI_RoundWin_Kill"			"Tiimi eliminoitiin"
 		"SFUI_RoundWin_Survivors"			"Pelaajat selviytyivät"
 
+		"GOTV_Reconnecting"					"CSTV yhdistetään uudelleen"
 		"GOTV_Please_Wait_for_Broadcast_to_Start"	"Odotetaan lähetyksen alkamista..."
 
 		///////////////////////////////////////////////////////////////////////
@@ -31266,6 +31510,11 @@
 		"SFUI_vote_rematch"				"Uusintaottelu? Vaatii 10 ääntä."
 		"SFUI_vote_passed_rematch"		"Uusi peli alkaa."
 		"SFUI_vote_failed_rematch_explain"		"Äänestystä uusintamatsista ei voitu aloittaa, koska kaikki pelaajat eivät ole palvelimella."
+		"SFUI_match_cancelled"			"Ottelu peruttu"
+		"SFUI_match_abort_match_network_event"	"Verkkokatkos johti ottelun perumiseen.\nOttelu ei vaikuta taitotasoosi."
+		"SFUI_match_abort_match_vac_live"	"VAC Live on havainnut huijarin ja päättänyt ottelun.\nOttelu ei vaikuta taitotasoosi."
+		"SFUI_match_abort_match_abnormal_behavior"	"VAC on havainnut sääntöjenvastaista pelaamista ja perunut ottelun.\nVäärin toimineelle pelaajalle ja hänen seurueelleen on annettu jäähy."
+		"SFUI_match_vac_live_partied_with_cheater"	"Ottelusta ei myönnetä edistymistä, koska joukkueesi pelaaja sai porttikiellon."
 		"SFUI_match_abort_match_missing_player"	" Ottelu peruutetaan, koska osa pelaajista ei yhdistänyt ajoissa."
 		"SFUI_match_abort_match_player_abandoned"	" Ottelu perutaan, koska pelaaja on poistunut palvelimelta."
 		"SFUI_vote_failed_rematch_mmsvr"		"Pelaajahaun ehtoja tarkennettu: uudelleenottelua ei tarjota."
@@ -31370,7 +31619,10 @@
 
 		"SFUIHUD_InfoPanel_DefuseTitle"			"Purkuaika:"
 		"SFUIHUD_InfoPanel_DefuseText"			"Olet purkamassa pommia."
+		"SFUIHUD_InfoPanel_DefuseText_NoKit"	"Purat pommia ilman pomminpurkupakkausta."
 		"SFUIHUD_InfoPanel_Spec_DefuseText"			"{s:s1} on purkamassa pommia."
+		"SFUIHUD_InfoPanel_Spec_DefuseText_NoKit"	"{s:s1} purkaa pommia ilman pomminpurkupakkausta."
+
 		"SFUIHUD_InfoPanel_HostageTitle"		"Aika:"
 		"SFUIHUD_InfoPanel_HostageText"				"Olet pelastamassa panttivankia."
 		"SFUIHUD_InfoPanel_Spec_HostageText"		"{s:s1} poimii panttivankia."
@@ -31511,7 +31763,9 @@
 		
 		"SFUIHUD_Spectate_SpecMode_Skipping"		"Kelataan eteenpäin..."		
 		"SFUIHUD_Spectate_SpecMode_Skipping_Highlight"		"Hypätään seuraavaan kohokohtaan..."		
-		"SFUIHUD_Spectate_SpecMode_SuspectReview"	"Valvomotarkkailu"
+		"SFUIHUD_Spectate_SpecMode_SuspectReview"	"Valvomotutkinta"
+
+		"SFUIHUD_Spectate_SpecMode_Transmitting"	"<font color='#FF0000'>OLET AKTIIVINEN CSTV-KAMERAMIES</font>"
 
 		"SFUIHUD_Spectate_StringColor_CT"	"<font color='#617B99'>%s1%s2%s3</font>"
 		"SFUIHUD_Spectate_StringColor_T"	"<font color='#7D6324'>%s1%s2%s3</font>"
@@ -31521,16 +31775,6 @@
 		"SFUIHUD_Spec_Event_DroppingItemsAndOthers"			"...ja %s1 muulle!"
 		"SFUIHUD_Spec_Event_DroppingItemsRewarded"			"%s1 katsojaa palkittu!"
 		"SFUIHUD_Spec_Event_DroppingItemsTotalDropped"		"Tässä ottelussa on jaettu %s1 esinettä"
-
-		"SFUIHUD_GiftDrop_GiftGivenLastXMinutes"		"Viimeisen %s1 minuutin aikana yhden lahjan antoi..."
-		"SFUIHUD_GiftDrop_GiftsGivenLastXMinutes"		"Viimeisen %s1 minuutin aikana %s2 lahjaa antoi..."
-		"SFUIHUD_GiftDrop_GiftGivenLastXHours"		"Viimeisen %s1 tunnin aikana jaettiin yksi lahja..."
-		"SFUIHUD_GiftDrop_GiftsGivenLastXHours"		"Viimeisen %s1 tunnin aikana jaettiin %s2 lahjaa..."		
-		"SFUIHUD_GiftDrop_AndOtherPlayer"		"...ja eräs toinen antelias pelaaja!"		
-		"SFUIHUD_GiftDrop_AndOtherPlayers"		"...ja %s1 muuta anteliasta pelaajaa!"	
-		"SFUIHUD_GiftDrop_NameGiftGiverFormat"		"%s1%s2</font>"	
-		"SFUIHUD_GiftDrop_SingleGiftFormat"		"<font color='#e3e3e3'>1 lahja</font>"	
-		"SFUIHUD_GiftDrop_GiftAmountFormat"		"<font color='#e3e3e3'>%s1 lahjaa</font>"	
 
 		"SFUIHUD_GiftDrop_Name_ColorDefault"	"<font color='#b1eeff'>"
 		"SFUIHUD_GiftDrop_Name_Color1"	"<font color='#90ff9a'>"
@@ -31572,6 +31816,8 @@
 		"SFUI_SpecStat_type_objective"		"OBJ"
 		"SFUI_SpecStat_First_Half"			"1."
 		"SFUI_SpecStat_Second_Half"			"2."
+
+		"HudSpecPlayer_WeaponName"				"<span class=\"possessive-player-name\">{s:possessive_player_name}</span><br><span class=\"weapon-name\">{s:weapon_name}</span><br><font color=\"{s:rarity_color}\"><span class=\"weapon-kit-name\">{s:weapon_kit_name}</span><br><span class=\"weapon-name-custom\">\"{s:weapon_name_custom}\"</span></font>"
 
 		"heatmap_t"								"T"
 		"heatmap_ct"							"CT"
@@ -31750,8 +31996,8 @@
 		"SFUI_CoopSB_Bonus_Prev"	"EDELLINEN BONUS"
 		"SFUI_CoopSB_Score"			"JOUKKUEPISTEET"
 
-		"Overwatch_Error_FilesAccess"					"Ei tarpeeksi levytilaa todistusaineiston tallentamista varten."
-		"Overwatch_Error_DownloadFailed"				"Todisteiden lataaminen epäonnistui.\nYritä myöhemmin uudelleen."
+		"Overwatch_Error_FilesAccess"					"Levytila ei riitä todistusaineiston lataamiseen."
+		"Overwatch_Error_DownloadFailed"				"Todistusaineiston lataaminen epäonnistui.\nYritä myöhemmin uudelleen."
 		"Overwatch_Error_ExtractionFailed"				"Ladattu todistusaineisto oli virheellinen tai korruptoitunut.\nYritä myöhemmin uudelleen."
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -31778,7 +32024,7 @@
 		"SFUI_Notice_Report_Server_Failed"				" Palvelimen ilmoitus epäonnistui, ole hyvä ja yritä myöhemmin uudelleen.\n"
 		"SFUI_Notice_Report_Player_Success"				" Ilmoitit pelaajan %s1, ilmoituksen tunnus %s2.\n"
 		"SFUI_Notice_Report_Player_Failed"				" Pelaajan ilmoittaminen epäonnistui, ole hyvä ja yritä myöhemmin uudelleen.\n"
-		"SFUI_Notice_Commend_Player_Success"			" Kiitos, että suosittelit pelaajaa %s1.\n"
+		"SFUI_Notice_Commend_Player_Success"			" Kehu lähetetty pelaajalle %s1\n"
 		"SFUI_Notice_Commend_Player_TooEarly"			" Olet lähettänyt liian monta suositusta viime aikoina, ole hyvä ja yritä uudelleen huomenna.\n"
 		"SFUI_Notice_Commend_Player_Failed"				" Pelaajan suosittelu epäonnistui, ole hyvä ja yritä myöhemmin uudelleen.\n"
 		"SFUI_Notice_Commend_Player_YouGotNewCommendation" " Onnittelut! Olet saanut suosituksen.\n"
@@ -31825,10 +32071,12 @@
 		"SFUI_CooldownExplanationReason_OfficialBan"		"Tilisi tila on lopullisesti epäluotettava"
 		"SFUI_CooldownExplanationReason_KickedTooMuch"	"Sinut on potkittu viime aikoina liian monesta ottelusta"
 		"SFUI_CooldownExplanationReason_KickAbuse"		"Olet potkinut liian monta tiimikaveria otteluista viime aikoina"
-		"SFUI_CooldownExplanationReason_ConvictedForCheating"	"Valvomon tuomitsema - Erittäin häiritsevä"
-		"SFUI_CooldownExplanationReason_ConvictedForBehavior"	"Valvomon tuomitsema - Hieman häiritsevä"
+		"SFUI_CooldownExplanationReason_ConvictedForCheating"	"Valvomon tuomio: selkeä häirintä"
+		"SFUI_CooldownExplanationReason_ConvictedForBehavior"	"Valvomon tuomio: lievä häirintä"
 		"SFUI_CooldownExplanationReason_GsltViolation"		"Palvelin, joka käyttää pelipalvelimen kirjautumistunnuksiasi on saanut porttikiellon. Tilisi on saanut pysyvän porttikiellon pelipalvelimien isännöintiin ja olet saanut jäähyn pelipalvelimille yhdistämiseen."
 		"SFUI_CooldownExplanationReason_GriefingReports"	"Sinusta on tehty merkittävästi enemmän häirintäilmiantoja kuin muista pelaajista."
+		"SFUI_CooldownExplanationReason_VacNetCulprit"		"VAC on todennut, että pelaat sääntöjenvastaisesti"
+		"SFUI_CooldownExplanationReason_VacNetAffiliate"	"VAC on todennut joukkueesi jäsenen pelaavan sääntöjenvastaisesti"
 		"SFUI_CooldownExplanationReason_Expired_Cooldown"		"<b>Jäähysi on päättynyt. Tulevaisuudessa jäähyt voivat olla pidempiä.\nJäähyn syy:</b>"
 		"SFUI_Notice_Killed_Teammate"					"Tapoit tiimikaverin!"
 		"SFUI_Notice_Game_teammate_kills"				"VAROITUS: Saat porttikiellon palvelimelle jos tapat vielä %s1 tiimikaveria!"
@@ -31870,6 +32118,8 @@
 		"SFUI_Notice_Stolen_Leader"				"%s1 on ottanut johtoaseman sinulta!"
 		"SFUI_Notice_Gun_Game_Leader"			"Olet uusi ottelun johtaja."
 		"SFUI_Notice_Gun_Game_Team_Leader"			"Olet nyt tiimisi johtaja."
+		"SFUI_Notice_CTs_Clinched_Match"		"Erikoisjoukot saivat pelipisteen erävoitoillaan."
+		"SFUI_Notice_Ts_Clinched_Match"			"Terroristit saivat pelipisteen erävoitoillaan."
 		"SFUI_ARFlashAlert_ReachedLevel"			"Taso %s1 / %s2"
 		"SFUI_ARFlashAlert_BonusGrenade"			"Lisäkranaatti ansaittu!"
 		"SFUI_ARFlashAlert_NextWeapon"				"Seuraava ase saatu"
@@ -31954,6 +32204,8 @@
 
 		"SFUI_Notice_Warmup_Has_Ended"					"> Lämmittely on päättynyt."
 
+		"SFUI_Notice_All_Players_Connected"				"Kaikki pelaajat ovat linjoilla. Ottelu alkaa %s1 sekunnin kuluttua."
+
 		"Hint_you_have_the_defuser"						"Sinulla on pomminpurkupakkaus."
 
 		// should phase these out
@@ -32020,11 +32272,12 @@
 		"SFUI_Rebuy"					"Osta uudelleen"
 		"SFUI_JoystickSpeedMode"		"Kävelytila"
 		"ZoomButtonHold"				"Zoom-painikkeen pito"
+		"ZoomButtonHold_Desc"			"Määrittää sen, vastaako zoomauspainikkeen pohjassa pitäminen sen toistuvaa painamista."
 		"SFUI_MouseZoomSensitivity"     "Zoomauksen herkkyyskerroin"
 		"SFUI_ControllerZoomSensitivity" "Zoomauksen herkkyyskerroin"
 
 		"SFUI_TaserSlot"				"Zeus x27"
-		"SFUI_MolotovSlot"				"Polttopullo"
+		"SFUI_MolotovSlot"				"Polttopullot ja palopommit"
 		"SFUI_DecoySlot"				"Harhautuskranaatti"
 		"SFUI_CycleGrenades"			"Selaa kranaatteja"
 		"SFUI_CycleWeapons"				"Valitse ensisijainen/toissijainen ase"
@@ -32056,6 +32309,7 @@
 		"SFUI_JoystickDuckMode"			"Kumartumistila"
 		"SFUI_Toggle"					"Vaihda"
 		"SFUI_Hold"						"Pidä painettuna"
+		"RepeatEnabled"					"Toisto käytössä"
 		"RepeatDisabled"				"Toisto pois käytöstä"
 		"SFUI_JoystickLookSpeedPitch"	"Pystysuora herkkyys"
 		"SFUI_JoystickLookSpeedYaw"		"Vaakasuora herkkyys"
@@ -32065,8 +32319,9 @@
 		"SFUI_Jump"						"Hyppää"
 		"SFUI_Duck"						"Kumarru"
 		"SFUI_Pickup_Use_Objects"		"Käytä"
-		"SFUI_TitlesTXT_Menu_Scoreboard"     "Tulostaulukko"
-        "SFUI_ShowTeamEquipment"        "Näytä tiimin varusteet"
+		"SFUI_TitlesTXT_Menu_Scoreboard"	"Tulostaulukko"
+		"SFUI_ShowTeamEquipment" 		"Näytä tiimin varusteet"
+		"SFUI_ToggleRadarScale"			"Vaihda tutkan zoomaus päälle/pois"
 		"SFUI_Walk"						"Kävele"
 		"SFUI_180Spin"					"Käänny ympäri"
 		"SFUI_Drop_Weapon"				"Pudota ase"
@@ -32302,6 +32557,7 @@
 		"SFUI_Settings_Color_Correction"	"Värinkorjaus"
 		"SFUI_Settings_Antialiasing_Mode"	"Reunanpehmennystila"
 		"SFUI_Settings_CSM"					"Yleinen varjojen laatu"
+		"SFUI_Settings_DynamicShadows"		"Dynaamiset varjot"
 		"SFUI_Settings_FXAA"				"FXAA-reunanpehmennys"
 		"SFUI_Settings_ParticleDetail"		"Partikkelitiedot"
 		"SFUI_Screen_Resize"				"HUDin koon muutos"
@@ -32326,6 +32582,8 @@
 		"GameUI_Voice_Disabled"				"Puhe pois päältä"
 
 		"GameUI_Undo_Changes"				"Kumoa muutokset"
+		"GameUI_Settings_Promoted"			"Korostetut asetukset"
+
 		"SFUI_Settings_Triple_Monitor"		"Kolmen monitorin pelitila"
 		"GameUI_TripleMonitor_Tooltip"		"Rajoita UI ja HUD keskimmäiseen kolmannekseen koko näytön leveydestä. Hyödyllinen kolmea näyttöä käytettäessä."
 
@@ -32352,9 +32610,16 @@
 		"SFUI_Settings_HDR"					"High Dynamic Range"
 		"SFUI_Settings_HDR_Info"			"High Dynamic Range (HDR) säätää kirkkauden vaihteluväliä kirkkaimman ja tummimman välillä. Suorituskyvyn valinta heikentää HDR-renderöinnin laatua, mutta saattaa lisätä suorituskykyä ja vähentää grafiikkasuorittimen muistin käyttöä."  
 		
+		"SFUI_Settings_GSync"				"NVIDIA G-Sync"
+		"SFUI_Settings_GSync_Info"			"NVIDIA G-Sync mahdollistaa näytön virkistystaajuuden muuttumisen pelin aikana vastaamaan pelin kuvataajuutta aina kun mahdollista. Tuloksena on visuaalisesti juohevampi käyttökokemus. G-sync on saatavilla vain tietyillä näytöillä, ja toimii parhaiten, kun pelin kuvataajuus on alhaisempi kuin kuvatilan korkein mahdollinen virkistystaajuus. Asetus otetaan käyttöön pelin ulkopuolella NVIDIAn ohjauspaneelista. Muutokset voivat tulla voimaan vasta, kun peli on käynnistetty uudelleen."
+		"GSyncHelpLinkURL"					"https://www.nvidia.com/content/Control-Panel-Help/vLatest/en-us/mergedProjects/nvdsp/Variable_Refresh_Rate.htm"
+
 		"SFUI_Settings_Reflex"				"NVIDIA Reflex alhaisella viiveellä"
 		"SFUI_Settings_Reflex_Info"			"NVIDIA Reflex vähentää järjestelmän viivettä, mikä lisää tietokoneen responsiivisuutta. Boost-tila sisältää tekniikoita, jotka saattavat lisätä näytönohjaimen virrankäyttöä, vaikuttaa ruudunpäivitykseen ja vähentää latenssia mahdollisimman paljon."
 		"SFUI_Settings_Reflex_Boost"		"Käytössä + Boost"
+
+		"SFUI_Settings_AntiLag"				"AMD Anti-Lag 2.0"
+		"SFUI_Settings_AntiLag_Info"		"AMD Anti-Lag 2.0 madaltaa järjestelmän viivettä ja nopeuttaa näin tietokoneen responsiivisuutta."
 		
 		"SFUI_Settings_Ultra_Quality"		"Ultralaatu"
 		"SFUI_Settings_Quality"				"Laatu"
@@ -32362,13 +32627,17 @@
 		"SFUI_Settings_Performance"			"Suorituskyky"
 
 		"SFUI_Settings_Resolution"			"Resoluutio"
+		"SFUI_Settings_Refresh"				"Päivitystaajuus"
+
 		"SFUI_Settings_Display_Mode"		"Näyttötila"
 		"SFUI_Settings_Fullscreen"			"Kokoruutu"
 		"SFUI_Settings_Windowed"			"Ikkuna"
 		"SFUI_Settings_Fullscreen_Windowed"	"Koko näyttö ikkunoitu"
 
 		"SFUI_Settings_Laptop_Power"		"Virransäästötila"
-		"SFUI_Settings_Vertical_Sync"		"Odota pystysynkronointia"
+		"SFUI_Settings_Vertical_Sync"		"V-Sync"
+		"SFUI_Settings_FPS_Max"				"Kuvataajuuden maksimi pelissä"
+		"SFUI_Settings_FPS_Max_UI"			"Kuvataajuuden maksimi valikoissa"
 
 		"SFUI_SteamToast_Location"			"Yhteisöilmoituksen sijainti"
 		"SFUI_SteamToast_Location_Horz"		"Yhteisöilmoituksen vaakasuora siirtymä"
@@ -32385,8 +32654,9 @@
 		"SFUI_Settings_Low"					"Alhainen"
 
 		"SFUI_Settings_Choice_Custom"			"Mukautettu"
-		"SFUI_Settings_Presets"				"Tämänhetkiset videoasetukset:"
+		"SFUI_Settings_Presets"				"Tämänhetkiset videoasetukset"
 
+		"SFUI_Settings_Audio_Tip"	"CS2 on parasta stereokuulokkeilla. CS2:ssa on korkeatasoinen sisäänrakennettu 3D-äänenkäsittely ja malli, joka perustuu yksittäisiin äänilähteisiin ja pelin geometriaan. Kannattaa poistaa käytöstä kaikki ulkoiset äänentoiston parannukset tai virtuaalikaiuttimet parhaan kuuntelukokemuksen saavuttamiseksi."
 		"SFUI_Settings_Master_Volume"		"Yleinen äänenvoimakkuus"
 		"SFUI_Settings_Music_Volume"		"Musiikin pää-äänenvoimakkuus"
 		"SFUI_Settings_Music_Volume_InOverlay"	"Musiikin äänenvoimakkuus Steam-yhteisönäkymässä"
@@ -32394,6 +32664,21 @@
 		"SFUI_Settings_Audio_Device"		"Äänilaite"
 		"SFUI_Settings_Audio_Device_Tip"	"Hallinnoi Counter-Striken käyttämää äänilaitetta."
 	
+		"SFUI_Settings_Input_Audio_Device"	"Äänensyöttölaite"
+		"SFUI_Settings_Input_Audio_Device_Tip"	"Määrittää, mitä äänilaitetta Counter-Strike käyttää mikrofonin äänen tallennukseen."
+
+		"SFUI_Settings_Headphone_EQ"		"EQ-profiili"
+		"SFUI_Settings_Headphone_EQ_Tip"	"Muuttaa yleistä äänen väriä CS2:ssa. Voi auttaa kompensoimaan erilaisten laitteisto- ja ohjelmistoyhdistelmien aiheuttamaa äänen väriä. Anna itsellesi aikaa sopeutua uuteen EQ-profiiliin. <br/><br/><b>Luonnollinen (oletus):</b> Ei lisäväriä.<br/><br/><b>Terävä:</b> Parantaa keski- ja korkeataajuuskaistoja. Voi auttaa äänen paikannuksessa ja vaimennuksessa. Voi kuulostaa tietyissä tilanteissa kovalta.<br/><br/><b>Pehmeä:</b> Vähentää keski- ja korkeita taajuuksia. Voi auttaa vähentämään kovuutta, äänenvoimakkuuspiikkejä ja kuunteluväsymystä pitkien pelijaksojen aikana. Ihanteellinen studiolaatuisille kuulokkeille ja pelaajille, jotka käyttävät korkeaa äänenvoimakkuutta."
+		"SFUI_Settings_Headphone_NoOverride"	"Oletus"
+		"SFUI_Settings_Headphone_Gamer"		"Terävä"
+		"SFUI_Settings_Headphone_None"		"Luonnollinen"
+		"SFUI_Settings_Headphone_Studio"	"Pehmeä"
+		"SFUI_Settings_GameModeVolume_Competitive_Tip"		"Äänenvoimakkuuden säätämisen ja taajuuskorjaimen jättäminen huomiotta kilpailullisessa pelitilassa."
+		"SFUI_Settings_GameModeVolume_Casual_Tip"		"Äänenvoimakkuuden säätämisen ja taajuuskorjaimen jättäminen huomiotta rennossa pelitilassa."
+		"SFUI_Settings_GameModeVolume_Spectator_Tip"		"Äänenvoimakkuuden säätämisen ja taajuuskorjaimen jättäminen huomiotta katseltaessa peliä hahmon kuoltua rennossa ja kilpailullisessa pelitilassa."
+		"SFUI_Settings_GameModeVolume_Deathmatch_Tip"		"Äänenvoimakkuuden säätämisen ja taajuuskorjaimen jättäminen huomiotta Deathmatch-pelitilassa."
+		"SFUI_Settings_GameModeVolume_Armsrace_Tip"		"Äänenvoimakkuuden säätämisen ja taajuuskorjaimen jättäminen huomiotta Arms Race -pelitilassa."	
+
 		"SFUI_Settings_Speaker_Config"		"Äänen ulostulolaite"
 		"SFUI_Settings_Speaker_Config_Tip"	"Määrittää Counter-Striken äänen ulostulokanavien määrän."
 		"SFUI_Settings_Headphones"			"Stereokuulokkeet"
@@ -32402,12 +32687,16 @@
 		"SFUI_Settings_51_Speakers"			"5.1-kaiuttimet"
 
 		"SFUI_Settings_Enable_Audio_HWCompat"	"Edistyksellisen 3D-äänen prosessointi"
+		"SFUI_Settings_Enable_Audio_HWCompat_Tip"	"Käyttää HRTF:ää pelin 3D-äänitehosteissa. Kannattaa ottaa äänilaitteiston äänen käsittely pois käytöstä, koska se voi häiritä pelin tehosteita. Pelin äänikäsittelyn käytöstä poistaminen auttaa diagnosoimaan laitteistojen yhteensopivuusongelmia."
 		"SFUI_Settings_Audio3D_Enabled"		"Päällä"
 		"SFUI_Settings_Audio3D_Disabled"	"Pois päältä (Yhteensopivuustila)"
 
 		"SFUI_Settings_Sound_Quality"		"Äänenlaatu"
 
 		"SFUI_Settings_OS_Default_Device"	"Oletusäänilaite"
+
+		"SFUI_Settings_GOTV_Caster_Volume"		"CSTV-juontajan äänenvoimakkuus"
+		"SFUI_Settings_GOTV_Caster_Volume_Tip"	"Säätää juontajan äänenvoimakkuutta, kun katsot peliä CSTV:n kautta."
 
 		"SFUI_Settings_ScoreboardMouseEnable" "Käytä hiirtä pistetaulukossa /\nPelin jälkeisen tulostaulukon vaihto"
 		"SFUI_Settings_ScoreboardSurvivorsAlwaysOn" "Selviytyjät aina näkyvillä"
@@ -32447,17 +32736,40 @@
 		"SFUI_Settings_VOIP_Volume_Tip"								"Säätää muilta pelaajilta tulevien puheviestien äänenvoimakkuutta (VOIP)."
 
 		"SFUI_Settings_voice_always_sample_mic"						"Virtaviivaistettu puhepainike"
-		"SFUI_Settings_voice_always_sample_mic_tooltip"				"Pitää tallennuslaitteen aktiivisena, jotta pelattavuus ei jäätyisi joissakin laitteissa."
+		"SFUI_Settings_voice_always_sample_mic_tooltip"				"Avaa tallennuslaitteen pelin alkaessa eikä vasta sitten, kun mikrofonia käytetään ensimmäisen kerran."
 
 		"SFUI_Settings_VOIP_Positional"								"Toisen pelaajan äänen sijainti"
+		"SFUI_Settings_VOIP_Positional_Tip"							"Toistaa pelin sisäisen VOIP-äänen siten, että se perustuu äänen tulosijaintiin."
+
 		"SFUI_Settings_VOIP_Threshold"								"Mikrofonin käynnistymiskynnys"
 		"SFUI_Settings_VOIP_Threshold_Tip"							"Lähetä ääni vain, kun äänenvoimakkuus on tämän tason yläpuolella ja Paina ja puhu on aktiivinen."
 
 		"SFUI_Settings_Enable_Mic_Monitor"							"Oman äänen kuuleminen"
 		"GameUI_Settings_Enable_Mic_Monitor"							"Ota tämä käyttöön, jos haluat kuunnella mikrofonia, kun säädät ääniasetuksia."
 
+		"SFUI_Settings_Pan_Behavior"			"Vasen ja oikea erikseen"
+		"SFUI_Settings_Pan_Behavior_Tip"		"<b>0 % – Fyysisesti tarkka (oletus):</b> Fyysisesti mallinnettu äänen panorointikäyttäytyminen, joka heijastaa tarkimmin lähettimen sijaintia.<br/><br/><b>100 % – Eristetty vasen ja oikea:</b> Äänilähteet, jotka ovat pelaajan vieressä. Sulautuvat mahdollisimman vähän vastakkaiseen vasempaan tai oikeaan kanavaan. Ääni tulee selkeästi joko vasemmalta tai oikealta, mikä voi luoda harhaanjohtavan sijainnin tietyissä kulmissa kuuntelijaan nähden. Pelaajille, jotka pitävät perinteisestä äänen panorointikäyttäytymisestä."
+		"SFUI_Settings_Audio_FOV"			"Perspektiivin korjaus"
+		"SFUI_Settings_Audio_FOV_Tip"			"<b>Kyllä (oletus):</b> Äänilähteet toistetaan tarkasti suhteessa tietokoneen näyttöön. Näkökentän reunalla olevat äänilähteet soivat aivan kuin olisivat edessäsi. Äänilähteet, jotka ovat näytön ulkopuolella ja vieressäsi, kuuluvat täysin panoroituna joko vasemmalle tai oikealle.<br/><br/><b>Ei:</b> Näkökenttäsi reunassa olevat äänilähettimet antavat voimakkaan panoroinnin joko vasemmalle tai oikealle. Ihanteellinen niille, jotka pelaavat hyvin lähellä näyttöä tai käyttävät puettavia näyttöjä, tai vanhoja äänilähteitä suosiville pelaajille. Voi olla sijainnillisesti harhaanjohtava tietyissä kulmissa kuuntelijaan nähden."
 		"SFUI_Settings_Audio_FOV_Off"			"Ei"
 		"SFUI_Settings_Audio_FOV_On"			"Kyllä"
+
+		"SFUI_Settings_Arms_Race_Volume"	"Arms Racen äänenvoimakkuus"
+		"SFUI_Settings_Deathmatch_Volume"	"Deathmatchin äänenvoimakkuus"
+		"SFUI_Settings_Competitive_Volume"	"Kilpailullisen pelitilan äänenvoimakkuus"
+		"SFUI_Settings_Casual_Volume"		"Rennon pelitilan äänenvoimakkuus"
+		"SFUI_Settings_Spectator_Volume"	"Äänenvoimakkuus katseltaessa peliä hahmon kuoltua"
+
+		"SFUI_Settings_GameModeEQ_Tip"		"Mahdollistaa tiettyjen taajuuden korjausprofiilien määrittämisen kullekin pelitilalle erikseen. Ominaisuus helpottaa äänten kuuntelua ja tekee siitä miellyttävämpää Arms Racen ja Deathmatchin kaltaisissa pelitiloissa, joissa tapahtuu paljon samanaikaisesti. Äänet kuuluvat selvästi myös rennossa ja kilpailullisessa pelitilassa."
+		"SFUI_Settings_Arms_Race_EQ"		"Arms Race -taajuuden korjaus"
+		"SFUI_Settings_Arms_Race_EQ_Tip"	"Käyttää taajuuden korjausprofiilia Arms Race -pelitilassa"
+		"SFUI_Settings_Deathmatch_EQ"		"Deathmatch-taajuuden korjaus"
+		"SFUI_Settings_Deathmatch_EQ_Tip"	"Käyttää taajuuden korjausprofiilia Deathmatch-pelitilassa"
+		"SFUI_Settings_Competitive_EQ"		"Kilpailullisen tilan taajuuden korjaus"
+		"SFUI_Settings_Competitive_EQ_Tip"	"Käyttää taajuuden korjausprofiilia kilpailullisissa otteluissa"
+		"SFUI_Settings_Casual_EQ"		"Rennon tilan taajuuden korjaus"
+		"SFUI_Settings_Casual_EQ_Tip"		"Käyttää taajuuden korjausprofiilia rennon tilan otteluissa"
+
 
 		"SFUI_Settings_Menu_Music_Volume"							"Päävalikon äänenvoimakkuus"	
 		"SFUI_Settings_Start_Round_Music_Volume"					"Kierroksen aloituksen äänenvoimakkuus"
@@ -32509,6 +32821,8 @@
 		"SFUI_CSM_Med"					"Keskitaso"
 		"SFUI_CSM_High"					"Korkea"
 		"SFUI_CSM_VeryHigh"				"Erittäin korkea"
+		"SFUI_Shadows_SunOnly"			"Pelkästään auringosta"
+		"SFUI_Shadows_All"				"Kaikki"
 		"SFUI_FXAA_Enabled"				"Päällä"
 		"SFUI_FXAA_Disabled"				"Pois päältä"
 		"SFUI_Settings_Choice_Autodetect"	"Autom."
@@ -32544,11 +32858,6 @@
 		"SFUI_Settings_HudTelemetry_Show_Never" "Ei koskaan"
 		"SFUI_Settings_HudTelemetry_Show_OnlyInPoorConditions" "Jos tulos on heikko"
 		"SFUI_Settings_HudTelemetry_Show_Always" "Aina"
-
-		"SFUI_Settings_Network_ProblemAutoShow"   "Näytä verkkoyhteysongelmat"
-		"SFUI_Settings_Network_ProblemAutoShow_Info"   "Sallii pelin näyttää automaattisesti verkkoyhteysongelmien ilmaisimen oikeassa yläkulmassa, kun pelaaja menettää suuria määriä paketteja tai havaitsee yleistä verkon epävakautta."
-		"SFUI_Settings_Network_ProblemAutoShow_Auto"  "Automaattisesti"
-		"SFUI_Settings_Network_ProblemAutoShow_Off"   "Ei käytössä"
 
 		"SFUI_Settings_Network_ExtraBuffering"   "Puskurointi pakettihäviön tasoittamiseksi"
 		"SFUI_Settings_Network_ExtraBuffering_Info"   "Puskuroi tilannekuvat palvelimelta ja komennot asiakasohjelmasta.\n\nVähentää pakettien katoamisen aiheuttamaa nyintää, mutta lisää tehokasta ping-aikaa."
@@ -32609,12 +32918,15 @@
 		"Spectator_Best_Of_Series"				"Paras {d:count} ottelun sarjassa" // {d:numtowin} can be used for a "2 To Win" style string in place of "Best of 3"
 
 		"SFUI_Settings_ClanTag_In_Death_Notice"		"Näytä tiimitunnukset kuolinilmoituksissa"
-		"SFUI_Settings_Identify_Teammates"		"Näytä joukkueiden paikat HUDissa"
+		"SFUI_Settings_Identify_Teammates"		"Näytä joukkueen nimitunnisteet seinien läpi"
 
 		"SFUI_Settings_Radar_Rotate"			"Tutka pyörii"
 		"SFUI_Settings_Radar_Rotate_Info"		"Vaihtaa pyörivän ja paikalleen lukitun tutkan välillä."
 		"SFUI_Settings_Radar_Scale"				"Tutkan zoomi"
+		"SFUI_Settings_Radar_Scale_Alternate"	"Kartan tutkan vaihtoehtoinen zoomaus"
 		"SFUI_Settings_Radar_Scale_Info"		"Kartan zoomi määrittää, kuinka suuri alue kartasta tutkassa näytetään."
+		"SFUI_Settings_Radar_Scale_Alternate_Info"	"Vaihtoehtoinen kartan zoomaustaso, jota voi vaihtaa näppäimestä."
+		"SFUI_Go_To_Radar_Toggle_Key_Binding"	"Siirry tutkan zoomaustason näppäinmäärityksiin"
 
 		"SFUI_Settings_Radar_Centered"			"Tutka keskittää pelaajaan"
 		"SFUI_Settings_Radar_Centered_Info"		"Tutkan keskittäminen pelaajan sijainnin tai kokonaiskuvan mukaan."
@@ -32642,6 +32954,8 @@
 		"SFUI_Settings_HUD_Color_9"					"Vihreä"
 		"SFUI_Settings_HUD_Color_10"				"Sinivihreä"
 		"SFUI_Settings_HUD_Color_11"				"Vaaleanpunainen"
+		"SFUI_Settings_HUD_Color_12"				"Pelaajan väri"
+
 		"SFUI_Settings_HUD_BackgroundAlpha"			"HUD-taustan läpinäkyvyys"
 		"SFUI_Settings_HUD_BackgroundAlpha_Info"	"Muuttaa raha-, terveys-, paikka- ja ammusilmaisimien taustan läpinäkyvyyttä."
 		"SFUI_Settings_HUD_Style"					"Terveyden ja ammuksien tyyli"
@@ -32665,8 +32979,13 @@
 		"SFUI_Settings_AccountPrivacy_Profile_valEnabled" "Jaa aina"
 		"SFUI_Settings_AccountPrivacy_Profile_valDisabled" "Älä jaa"
 
+		"SFUI_Settings_UniqueTeammateColors"	"Näytä pelaajien värit kilpailullisessa tilassa"
 		"SFUI_Settings_TeammateColorsShow"		"Näytä värit"
 		"SFUI_Settings_TeammateColorsShowLetters"		"Värit ja kirjaimet"
+		"SFUI_Settings_OverheadIdTeammateColors" "Käytä pelaajien värejä tiimitunnuksessa"
+
+		"SFUI_Settings_TeammateColorsLetters"	"Näytä kirjaimet pelaajien värien päällä"
+
 		"SFUI_Settings_LobbyDefaultAccess"		"Kaverit-aulan oletusoikeudet"
 		"SFUI_Settings_LobbyAccessFGN"			"Kaverit, ryhmä ja lähellä olevat"
 		"SFUI_Settings_LobbyAccessNearby"		"Kaverit ja lähellä olevat pelaajat voivat liittyä"
@@ -32687,7 +33006,7 @@
 		
 		"SFUI_Settings_PlayerPingMuteVisuals_Title"	"Piilota pelaajan ping -näyttö"
 		"SFUI_Settings_MuteEnemies_Title"		"Mykistä vihollisjoukkue"
-		"SFUI_Settings_HideAvatars_Title"		"Piilota avatar-kuvat"
+		"SFUI_Settings_HideAvatars_Title"		"Piilota avatar-kuvat ja mukautetut esineet"
 		"SFUI_Settings_HideAvatars_All"			"Näytä kaikki"
 		"SFUI_Settings_HideAvatars_None"		"Piilota kaikki"
 		"SFUI_Settings_HideAvatars_Friends"		"Näytä vain kaverit"
@@ -32696,6 +33015,9 @@
 		"SFUI_Settings_FilterText_Title" 		"Tekstin suodatus"
 		"SFUI_Settings_FilterText_Button" 		"Tilin asetukset"
 		"SFUI_Settings_FilterText_Title_Tooltip" 	"Säädä tekstin suodatuksen asetuksia Steamin yhteisösisällön asetuksissa."
+
+		"Settings_AllowAnimatedAvatars_Title"			"Salli animoidut avatarit"
+		"Settings_AllowAnimatedAvatars_Title_Tooltip"	"Määrittää, sallitaanko animoidut Steam-avatarit."
 
 		"SFUI_Settings_SanitizeNames_Title" 	"Tyhjennä pelaajien nimet"
 		"SFUI_Settings_SanitizeNames_Title_Tooltip" 	"Muuta nimet joksikin neutraaliksi pelaajilta, jotka eivät ole kaverilistallasi."
@@ -32708,6 +33030,10 @@
 		"SFUI_Settings_TeamOverheadID_default"	"Kun näkyvissä"
 		"SFUI_Settings_TeamOverheadID_minimal"	"Aina käytössä"
 		"SFUI_Settings_TeamOverheadID_maximal"	"Näytä aina varusteiden kanssa"
+
+		"SFUI_Settings_MiniScoreboardPlayerCount"	"Suuri pelaajamäärä"
+		"SFUI_Settings_MiniScoreboardPlayerCount_Tooltip"	"Korvaa kierroksen aktiivisen osion aikana pelaajien avatarit joukkueen pelaajamäärällä minitulostaulukossa."
+
 
 		"SFUI_TeamOverheadID"					"Näytä joukkueen varustus"
 
@@ -32723,6 +33049,13 @@
 		"SFUI_Settings_ViewmodelPosDesktop"		"Työpöytä"
 		"SFUI_Settings_ViewmodelPosCouch"		"Olohuone"
 		"SFUI_Settings_ViewmodelPosClassic"		"Perinteinen"
+		
+		"Cstrike_SwitchHandedness"					"Vaihda näkymämalli – vasen tai oikea käsi"
+		"Cstrike_PreferredHandedness"				"Ensisijainen näkymämalli – vasen tai oikea käsi"
+		"Cstrike_PreferredHandedness_Desc"			"Aseta oletusnäkymän vasen- tai oikeakätisyys. Voit myös asettaa näppäinmäärityksen, joka vaihtaa käsiä väliaikaisesti pelin aikana."
+		"Cstrike_PreferredHandedness_Right"			"Oikea"
+		"Cstrike_PreferredHandedness_Left"			"Vasen"
+		"Cstrike_GoToSwitchHandednessKeyBinding"	"Siirry kohtaan Vaihda vasen- tai oikeakätisyyttä"
 
 		"Cstrike_FirstPersonTracers"		"Ensimmäisen persoonan valojuovat"
 		"Cstrike_FirstPersonTracers_Desc"	"Teetpä omat luotien valojuovasi paikallisesti tai et, muut pelaajat näkevät ne silti."
@@ -32736,7 +33069,9 @@
 		"SFUI_Settings_PowerSavings_Info"	"Virransäästötilassa peli toimii tarkoituksella alhaisella ruudunpäivitysnopeudella säästääkseen akkua ja pidentääkseen aikaa, jonka voit käyttää akkuvirralla pelaamiseen."
 		"SFUI_Settings_Antialiasing_Info"	"Reunanpehmennys tasoittaa geometrian rajoja, poistaen rosoiset reunat. Reunanpehmennyksen tason nostaminen saattaa heikentää graafista suorituskykyä."
 		"SFUI_Settings_Filtering_Info"		"Tekstuurien suodatusasetuksen nostaminen parantaa tekstuurien ulkonäköä. Suodatuslaadun nostaminen saattaa heikentää graafista suoristuskykyä."
-		"SFUI_Settings_WaitForVSync_Info"	"Pystysynkronointia suositellaan sulavimman kokemuksen saavuttamiseksi. Käytöstä poistaminen saattaa aiheuttaa visuaalisia häiriöitä."
+		"SFUI_Settings_WaitForVSync_Info"	"V-Sync auttaa varmistamaan, että pelin kuvataajuus vastaa näytön virkistystaajuutta. Tuloksena on usein visuaalisesti juohevampi käyttökokemus ilman näytön repeämistä."
+		"SFUI_Settings_FPS_Max_Info"		"Aseta pelinaikaisen kuvataajuuden maksimiarvo."
+		"SFUI_Settings_FPS_Max_UI_Info"		"Aseta valikkojen kuvataajuuden maksimiarvo."
 		"SFUI_Settings_QueuedMode_Info"		"Moniydinrenderöinti sallii Counter-Striken käyttää useampia prosessoreita, mikäli saatavilla. Käytöstä poistaminen saattaa tarjota korkeamman ruudunpäivityksen, mutta alentaa visuaalista laatua."
 		"SFUI_Settings_ShaderDetail_Info"	"Varjostimen tarkkuus kontrolloi pinnoille heijastuvan valon ja varjojen monimutkaisuutta. Korkeampi tarkkuus parantaa visuaalista laatua mutta saattaa heikentää graafista suorityskykyä."
 		"SFUI_Settings_CPUDetail_Info"		"Tehosteiden laatu kontrolloi tiettyjen visuaalisten tehosteiden laatua ja piirtoetäisyyttä. Tehosteiden laadun alentaminen saattaa parantaa suorituskykyä, mutta lisää kohteiden ilmestymishäiriöitä (pop-in)."
@@ -32748,8 +33083,9 @@
 		"SFUI_Settings_TripleMonitor_Info"	"Kolmen näytön tilan käyttöönotto rajoittaa tiettyjä käyttöliittymäelementtejä, mukaan lukien HUD:n, näytön keskimmäiseen 33 %:iin. Tämä on hyödyllistä, kun laajennetaan näyttö kolmeen näyttöön."	
 		"SFUI_Edit_Profile"					"MUOKKAA PROFIILIA"
 		"SFUI_Settings_ColorMode"			"Muuta näytön väritilaa. Käytettävissä vain koko näytön tilassa."
-		"SFUI_Settings_Brightness"			"Vaihda näytön gammakorjausta säätääksesi kokonaiskirkkautta. Käytössä vain koko näytön tilassa."
+		"SFUI_Settings_Brightness"			"Muuta pelin sisäisen renderöinnin gammakorjausta säätämällä yleistä kirkkautta."
 		"SFUI_Settings_TextureStreaming_Info"	"Tekstuurien optimointi -asetuksen ollessa päällä korkearesoluutioiset tekstuurit ladataan vasta silloin, kun niitä tarvitaan pelikuvan renderöintiin. Asetuksen poiskytkeminen kasvattaa tekstuureihin vaadittavan muistin käyttöä. Hitaan levynkäyttönopeuden omaavissa järjestelmissä huonolaatuisempia tekstuureja voi esiintyä hetkellisesti."
+		"SFUI_Settings_DynamicShadows_Info"	"Valitse valon lähteet, joista pelaajien ja savun kaltaiset dynaamiset objektit luovat varjoja. Pelkästään auringosta -asetus voi parantaa pelin grafiikan suorituskykyä, mutta olla haitaksi etenkin sisätiloissa."
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Chat
@@ -32760,6 +33096,8 @@
 		"SFUI_Settings_Chat_SayTeam" "Sano tiimille"
 		"SFUI_Settings_Chat_SayParty" "Sano joukkueelle"
 		"SFUI_Settings_Chat_SayPartyEmpty" "Sano joukkueelle (olet tällä hetkellä yksin)"
+		"SFUI_Settings_Chat_EnableGotv" "CSTV-keskustelu"
+		
 		"SFUI_Settings_Chat_NotePartyChat" "[JOUKKUE]"
 		"SFUI_Settings_Chat_NotePartyInvited" "kutsuttu"
 
@@ -32791,9 +33129,9 @@
 		"SFUI_BuyMenu_Flair"        "ESITTELY"
 		"SFUI_BuyMenu_Melee"        "LÄHITAISTELUASE"
 
+		"BuyMenu_Sellback"						"Palauta"
+		"BuyMenu_NewUserExperience_Recommended"	"SUOSITELTU"
 		"BuyMenu_Promoted"						"ALENNETTU"
-
-
 
 		"SFUI_BuyMenu_SelectWeapon" "Valitse\nase"
 
@@ -32846,16 +33184,17 @@
 		"SFUI_BuyMenu_Header" "OSTOVALIKKO"
 		"SFUI_BuyMenu_WeaponClass" "ASEVALIKKO"
 
-		"SFUI_BuyMenu_CanOnlyCarryXGrenades"	"Voit kantaa vain {s:s1} kranaattia"
-		"SFUI_BuyMenu_MaxItemsOfType"			"Voit kantaa vain {s:s1} tämän tyyppistä esinettä"
-		"SFUI_BuyMenu_MaxItemsOfTypePurchased"	"Voit ostaa enintään {s:s1} tämän tyyppistä esinettä"
+		"SFUI_BuyMenu_CanOnlyCarryXGrenades:p{s1}"		"Voit kantaa vain {s:s1} kranaatin#|#Voit kantaa vain {s:s1} kranaattia"
+		"SFUI_BuyMenu_MaxItemsOfType:p{s1}"				"Voit kantaa vain {s:s1} tämäntyyppisen esineen#|#Voit kantaa vain {s:s1} tämäntyyppistä esinettä"
+		"SFUI_BuyMenu_MaxItemsOfTypePurchased:p{s1}"	"Voit ostaa enintään {s:s1} tämäntyyppisen esineen#|#Voit ostaa enintään {s:s1} tämäntyyppistä esinettä"
 		"SFUI_BuyMenu_AlreadyCarrying"			"Varusteluettelossa."
 		"SFUI_BuyMenu_AlreadyPurchased"			"Ostit jo yhden tämän erän aikana."
 		"SFUI_BuyMenu_NotAllowedByMap"			"Ei sallittu tällä karttatyypillä."
 		"SFUI_BuyMenu_NotAllowedByMode"			"Kielletty tässä pelimuodossa."
 		"SFUI_BuyMenu_NotAllowedByTeam"			"Kielletty nykyisessä tiimissäsi."
-        "SFUI_BuyMenu_ReachedWeaponsExpertLimit""{s:s1} ostettu jo tähän peliin"
+		"SFUI_BuyMenu_ReachedWeaponsExpertLimit:p{s1}"	"{s:s1} jo ostettu tämän ottelun aikana#|#{s:s1} jo ostettu tämän ottelun aikana"
 		"SFUI_BuyMenu_Cannot_Afford"			"{s:s1} $ puuttuu"
+		"SFUI_BuyMenu_OnlyOneArmor"				"Sinulla on jo luotiliivi"
 		"SFUI_BuyMenu_NotAllowed_Short"			"EI SALLITTU"
 		"SFUI_BuyMenu_Owned_Short"				"ON JO"
 		"SFUI_BuyMenu_AtLimit_Short"			"ENIMMÄISMÄÄRÄ"
@@ -32865,6 +33204,8 @@
 		"buymenu_prohibited_weapon_hint"		"<b>{s:s1}</b> ei ole saatavilla tässä pelitilassa"
 		"buymenu_weaponsexpert_reminder"		"Kerran pelissä voit ostaa tämän asteen."
 		"buymenu_weaponsexpert_supply"			"Tiimin tarvikkeet: <b>%s1</b>"
+
+		"buymenu_groundweapons"					"Pudotetut aseet"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy menu text information
@@ -33159,9 +33500,21 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"SFUI_OfficialDatacenterID_42"		"Chengdu, Kiina"
 		"SFUI_OfficialDatacenterID_43"		"New York, USA"
 		"SFUI_OfficialDatacenterID_44"		"Eurooppa, Suomi"
+		"SFUI_OfficialDatacenterID_45"		"Yhdistynyt kuningaskunta"
 
 		"SFUI_UserAlert_HighPings"			"Pienin viiveesi virallisille palvelimille on %s1 millisekuntia."
 		"SFUI_UserAlert_Unreachable"		"Virallisiin pelipalvelimiin ei saatu yhteyttä."
+		"SFUI_UserAlert_UnreachableText"	"Virallisten palvelimien tavoittaminen epäonnistui. Internetyhteydessäsi tai palomuurimäärityksissäsi saattaa olla ongelma. Tarkista verkkoasetukset ja yritä uudelleen."
+		"SFUI_UserAlert_Unreachable_Reason-102"	"Tarvittavat verkkoresurssit eivät ole käytettävissä eikä verkkomäärityksiä päivitetty."
+		"SFUI_UserAlert_Unreachable_Reason-101"	"Tarvittavien verkkoresurssien hakeminen epäonnistui useita kertoja."
+		"SFUI_UserAlert_Unreachable_Reason-100"	"Tarvittavat verkkoresurssit eivät ole tällä hetkellä käytettävissä."
+		"SFUI_UserAlert_Unreachable_Reason-10"	"Yritämme edelleen muodostaa yhteyttä taustalla."
+		"SFUI_UserAlert_Unreachable_Reason1"	"Verkkoyhteyden muodostaminen epäonnistui."
+		"SFUI_UserAlert_Unreachable_Reason2"	"Odotetaan tarvittavia verkkoresursseja."
+		"SFUI_UserAlert_Unreachable_Reason3"	"Aikakatkaisu verkkoyhteyden muodostamisyrityksen yhteydessä."
+		"SFUI_UserAlert_Unreachable_Reason100"	"Verkkoyhteys muodostettiin onnistuneesti, mutta viralliset palvelimet eivät ole tavoitettavissa."
+		"SFUI_UserAlert_Unreachable_Reason0"	"Tuntematon verkkovirhe havaittu."
+
 		"SFUI_UserAlertNoteType_1"			"Palvelimet alueella %s1 ovat rasituksen alla."
 		"SFUI_UserAlertNoteType_2"			"Palvelimet alueella %s1 poissa käytöstä huollon vuoksi."
 
@@ -33180,6 +33533,8 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"SFUI_QMM_ERROR_OperationQuestIdInactive"	"Pelihakua ei voida aloittaa, koska valittu tehtävä on ensin aktivoitava käyttämällä operaatiolokia."
 		"SFUI_QMM_ERROR_SkillGroupMissing"		"Joidenkin ryhmäsi pelaajien taitotasot ovat liian suuret osallistumaan kilpailulliseen peliin taitotasottoman pelaajan kanssa."
 		"SFUI_QMM_ERROR_SkillGroupLargeDelta"	"Ryhmäsi taitotasoerot ovat liian suuret kilpailullisen pelin etsimiseen ilman täyttä viiden pelaajan ryhmää."
+		"SFUI_QMM_ERROR_PremierRatingMissing"		"Joukkueesi pelaajien CS-luokitukset ovat liian korkeita pelihakuun sellaisen pelaajan kanssa, jolla ei ole CS-luokitusta."
+		"SFUI_QMM_ERROR_PremierRatingLargeDelta"	"Joukkueesi pelaajien CS-luokitukset ovat liian kaukana toisistaan, jotta he voisivat liittyä samaan pelihakuun."
 		"SFUI_QMM_ERROR_FullTeamRequired" "Pelihakua ei voida aloittaa, koska pelihaun ryhmän tulee olla täysi."
 		"SFUI_QMM_ERROR_TournamentTeamAccounts"	"Pelihakua ei voida aloittaa, koska kaikkien ryhmän jäsenten tulee olla samassa turnausjoukkueessa."
 		"SFUI_QMM_ERROR_TournamentTeamSize"	"Pelihakua ei voida aloittaa, koska turnausjoukkueessasi on oltava 5 pelaajaa."
@@ -33220,6 +33575,28 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"SFUI_QMM_ERROR_X_InsecureBlocked"	"Pelaajalla %s1 on pelitiedostoja, joiden tunniste ei kelpaa, eikä hän siksi saa liittyä VAC-suojatuille palvelimille."
 		"SFUI_QMM_ERROR_X_InsufficientLevelNP"	"Pelaajan %s1 tulee avata tämä pelimuoto pelaamalla otteluita muissa pelimuodoissa. Rento- ja Deathmatch-pelimuodoista on hyvä aloittaa."
 		"SFUI_QMM_ERROR_1_InsufficientLevelNP"	"Tämä pelimuoto avautuu, kun olet pelannut otteluita muissa pelimuodoissa. Rento- ja Deathmatch-pelimuodoista on hyvä aloittaa."
+		"SFUI_QMM_ERROR_X_InsufficientLevel"	"Käyttäjän %s1 on saavutettava korkeampi Counter-Strike-profiilitaso tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_1_InsufficientLevel"	"Sinun on saavutettava korkeampi Counter-Strike-profiilitaso tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_X_InsufficientLevel02"	"Käyttäjän %s1 on saavutettava vähintään sotamiestaso 2 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_1_InsufficientLevel02"	"Sinun on saavutettava vähintään sotamiestaso 2 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_X_InsufficientLevel03"	"Käyttäjän %s1 on saavutettava vähintään sotamiestaso 3 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_1_InsufficientLevel03"	"Sinun on saavutettava vähintään sotamiestaso 3 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_X_InsufficientLevel04"	"Käyttäjän %s1 on saavutettava vähintään sotamiestaso 4 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_1_InsufficientLevel04"	"Sinun on saavutettava vähintään sotamiestaso 4 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_X_InsufficientLevel05"	"Käyttäjän %s1 on saavutettava vähintään korpraalitaso 5 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_1_InsufficientLevel05"	"Sinun on saavutettava vähintään korpraalitaso 5 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_X_InsufficientLevel06"	"Käyttäjän %s1 on saavutettava vähintään korpraalitaso 6 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_1_InsufficientLevel06"	"Sinun on saavutettava vähintään korpraalitaso 6 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_X_InsufficientLevel07"	"Käyttäjän %s1 on saavutettava vähintään korpraalitaso 7 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_1_InsufficientLevel07"	"Sinun on saavutettava vähintään korpraalitaso 7 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_X_InsufficientLevel08"	"Käyttäjän %s1 on saavutettava vähintään korpraalitaso 8 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_1_InsufficientLevel08"	"Sinun on saavutettava vähintään korpraalitaso 8 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_X_InsufficientLevel09"	"Käyttäjän %s1 on saavutettava vähintään kersanttitaso 9 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_1_InsufficientLevel09"	"Sinun on saavutettava vähintään kersanttitaso 9 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_X_InsufficientLevel10"	"Käyttäjän %s1 on saavutettava vähintään kersanttitaso 10 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_1_InsufficientLevel10"	"Sinun on saavutettava vähintään kersanttitaso 10 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_X_InsufficientLevel11"	"Käyttäjän %s1 on saavutettava vähintään kersanttitaso 11 tämän pelimuodon avaamiseksi."
+		"SFUI_QMM_ERROR_1_InsufficientLevel11"	"Sinun on saavutettava vähintään kersanttitaso 11 tämän pelimuodon avaamiseksi."
 		"SFUI_QMM_ERROR_X_AccountWarningTrustMinor"	"Pelaajan %s1 luottamuskerroin on alempi kuin sinun, mikä saattaa hieman vaikuttaa pelikokemukseesi."
 		"SFUI_QMM_ERROR_X_AccountWarningTrustMajor"	"Pelaajan %s1 luottamuskerroin on huomattavasti alempi kuin sinun, mikä tulee merkittävästi vaikuttamaan pelikokemukseesi."
 		"SFUI_QMM_ERROR_X_AccountWarningTrustMajor_Summary"	"Counter-Striken pelinhaku priorisoi sellaisten vastustajien löytämistä, joilla on samanlainen huomattavasti alhaisempi luottamuskerroin."
@@ -33620,6 +33997,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"SFUI_Lobby_StatusInLobby"			"Aulassa"
 		"SFUI_Lobby_StatusInLevel"			"Tasolla"
 		"SFUI_Lobby_StatusInGame"			"Muussa pelissä"
+		"SFUI_Lobby_StatusPlayingSteamRP"	"Pelaa Counter-Strike 2 -peliä"
 		"SFUI_Lobby_StatusPlayingCSGO"		"Pelaa Counter-Strikea"
 		"SFUI_Lobby_StatusWatchingCSGO"		"Katsoo peliä"
 		"SFUI_Lobby_StatusOverwatch"		"Valvomo-istunnossa"
@@ -33671,6 +34049,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"SFUI_Lobby_StatusRichPresence_casual_watch_op08"			"Katsoo Hydraa"
 		"SFUI_Lobby_StatusRichPresence_casual_review_op08"			"Toistaa Hydraa"
 		"SFUI_Lobby_StatusRichPresence_competitive_lobby"				"Kilpailullisessa aulassa"
+		"SFUI_Lobby_StatusRichPresence_competitive_lobby_1"				"Premier-aulassa"
 		"SFUI_Lobby_StatusRichPresence_competitive_game"				"Kilpailullinen"
 		"SFUI_Lobby_StatusRichPresence_competitive_game_1"				"Premier"
 		"SFUI_Lobby_StatusRichPresence_competitive_community"			"Yhteisön kilpailullinen tila"
@@ -33755,6 +34134,11 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"SFUI_Lobby_StatusRichPresence_survival_watch"					"Katsoo Vaaravyöhykettä"
 		"SFUI_Lobby_StatusRichPresence_survival_review"					"Toistaa Vaaravyöhykettä"
 		"SFUI_Lobby_StatusRichPresence_survival_community"				"Vaaravyöhyke (yhteisö)"
+		"SFUI_Lobby_StatusRichPresence_new_user_training_lobby"			"Harjoitteluaulassa"
+		"SFUI_Lobby_StatusRichPresence_new_user_training_game"			"Harjoittelussa"
+		"SFUI_Lobby_StatusRichPresence_new_user_training_community"		"Yhteisöharjoittelu"
+		"SFUI_Lobby_StatusRichPresence_new_user_training_watch"			"Harjoittelun katselu"
+		"SFUI_Lobby_StatusRichPresence_new_user_training_review"		"Harjoittelun toistaminen"
 		"SFUI_PSNPresence_SinglePlayer"		"Yksinpeli"
 		"SFUI_PSNPresence_InLobby"			"Aulassa"
 		"SFUI_PSNPresence_InGame"			"Verkkopelissä"
@@ -33969,6 +34353,10 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"SFUI_MajorEventVenue_Title_20_2"		"Livelähetys Riosta"
 		"SFUI_MajorEventVenue_Subtitle_20_2"	"Seuraa maailman parhaiden joukkueiden kamppailua IEM Rio 2022 CS2 Major -turnauksessa"
 		"SFUI_MajorEventVenue_StreamTitle_20_2" "Rio 2022 – PGL Major – Livelähetys"
+
+		"SFUI_MajorEventVenue_Title_21_2"		"Suorana Pariisista"
+		"SFUI_MajorEventVenue_Subtitle_21_2"	"Seuraa maailman parhaiden joukkueiden kamppailua BLAST.tv Paris 2023 CS2 Major -turnauksessa"
+		"SFUI_MajorEventVenue_StreamTitle_21_2" "Paris 2023 – BLAST.tv Major – Livelähetys"
 
 		"SFUI_MajorEventVenue_StreamTitle_21_11" "Tie Kööpenhaminaan 2024 – Livelähetys"
 
@@ -35102,6 +35490,9 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"SFUI_GameUI_LostServerXLSP"				"Palvelu %s ei ole saatavilla tällä hetkellä. Yritä myöhemmin uudestaan."
 		"SFUI_GameUI_LostConnectionToLIVE"			"Yhteytesi Xbox LIVEen katkesi. Kirjaudu sisään ja kokeile uudestaan."
 		"SFUI_GameUI_DedicatedSearchFailed"			"Oman palvelimen löytäminen epäonnistui."
+		"SFUI_GameUI_NoWatchInfo"					"Vaaditun tiedon hakeminen CSTV-yhteyttä varten epäonnistui. Yritä myöhemmin uudelleen."
+		"SFUI_GameUI_NoWatchSlots"					"Kaikki CSTV-yhteyspaikat tälle ottelulle ovat täynnä. Yritä myöhemmin uudelleen."
+
 		"SFUI_GameUI_MatchDl_Title"					"Counter-Strike-ottelun jakaminen"
 		"SFUI_GameUI_MatchDlCode"					"Counter-Striken ottelunjaon pääsykoodin tarkistus epäonnistui."
 		"SFUI_GameUI_MatchDlPending"				"Ottelua ei voida ladata Counter-Striken ottelunjakopalvelimilta muiden otteluiden latausten ollessa käynnissä."
@@ -35112,6 +35503,11 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"SFUI_GameUI_MatchDlStartExpired"			"Ottelun lataaminen Counter-Strike-ottelunjakopalvelimilta epäonnistui, koska ottelun toistomahdollisuus on päättynyt."
 		"SFUI_GameUI_MatchDl_Requesting"			"Varmistetaan Counter-Strike-ottelunjakamisen pääsykoodia ja pyydetään ottelun yksityiskohtia Counter-Strike-ottelunjakopalvelimilta..."
 		"SFUI_GameUI_MatchDlDownloading"			"Ladataan ottelua Counter-Striken ottelunjakopalvelimilta..."
+
+		"SFUI_GameUI_GOTV_Title"					"CSTV"
+		"SFUI_GameUI_GOTV_Searching"				"Etsitään CSTV-yhteyttä"
+		"SFUI_GameUI_GOTV_Theater"					"CSTV-teatteri"
+		"SFUI_GameUI_GOTV_Theater_Info"				"Aloitetaan CSTV-teatterin esitystä"
 
 		"SFUI_GameUI_ChatRestrictionPS3_Title"		"Keskustelu pois käytöstä"
 		"SFUI_GameUI_ChatRestrictionPS3_Message"	"Keskustelu on poissa käytöstä PlayStation®Network-tililläsi keskustelurajoitusten takia."
@@ -35161,10 +35557,12 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"SFUI_DisconnectReason_PWServerDenied"				"Istuntoon liittyminen epäonnistui, koska palvelin on varattu Perfect Worldin Counter-Strike-pelaajille."
 		"SFUI_DisconnectReason_PrimeOnlyServer"				"Peliin liittyminen epäonnistui, koska pelipalvelin on varattu Counter-Strike Prime -pelaajille."
 		"SFUI_DisconnectReason_OnClientInsecureTitle_init"			"Valven huijauksenesto"
+		"SFUI_DisconnectReason_OnClientInsecureTitle_tools"			"Työkalutila"
 		"SFUI_DisconnectReason_OnClientInsecureTitle_connect"		"Yhteys katkaistu"
 		"SFUI_DisconnectReason_OnClientInsecureTitle_competitive"	"Perinteinen kilpailullinen"
 		"SFUI_DisconnectReason_OnClientInsecureBlocked_init"		"Joillakin pelitiedostoillasi ei ole allekirjoitusta tai allekirjoitus on virheellinen. Et voi liittyä VAC-suojatuille palvelimille.\n\nTarkista käynnistysasetukset, pelitiedostojen eheys ja käynnistä peli uudelleen."
 		"SFUI_DisconnectReason_OnClientInsecureBlocked_init_cmd"	"Käynnistit pelin suojaamattomassa tilassa Steamin ulkopuolelta tai määritteellä -insecure. Pelitiedostojesi tunnisteita ei tarkisteta, etkä saa liittyä VAC-suojatuille palvelimille.\n\nJos haluat pelata VAC-suojatuilla palvelimilla, tarkista käynnistysasetuksesi, käynnistä peli uudelleen ja yritä uudestaan."
+		"SFUI_DisconnectReason_OnClientInsecureBlocked_init_tools"	"Olet käynnistänyt pelin työkalutilassa. Sinulla ei ole oikeutta liittyä VAC-suojattuihin palvelimiin."
 		"SFUI_DisconnectReason_OnClientInsecureBlocked_connect"		"Joillakin pelitiedostoillasi ei ole allekirjoitusta tai allekirjoitus on virheellinen. Yhteytesi katkaistiin, koska et voi liittyä tälle VAC-suojatulle palvelimelle.\n\nTarkista käynnistysasetuksesi, tarkista pelitietojesi eheys, käynnistä peli uudestaan ja yritä uudelleen."
 		"SFUI_DisconnectReason_OnClientInsecureBlocked_connect_cmd"	"Käynnistit pelin suojaamattomassa tilassa Steamin ulkopuolelta tai määritteellä -insecure. Pelitiedostojesi tunnisteita ei tarkisteta, etkä saa liittyä tälle VAC-suojatulle palvelimelle.\n\nJos haluat pelata VAC-suojatuilla palvelimilla, tarkista pelin käynnistysasetukset, käynnistä peli uudelleen ja yritä uudestaan."
 		"SFUI_DisconnectReason_OnClientInsecureBlocked_competitive"	"Joillakin pelitiedostoillasi ei ole allekirjoitusta tai allekirjoitus on virheellinen. Et voi pelata perinteistä kilpailullista pelitilaa, koska et voi liittyä tälle VAC-suojatulle palvelimelle.\n\nTarkista pelin käynnistysasetukset ja pelitiedostojen eheys, käynnistä peli uudelleen ja yritä uudestaan."
@@ -35223,7 +35621,6 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"Player_DisconnectReason_NoSteamLogin"				"Käyttäjä ei ole kirjautunut"
 		"Player_DisconnectReason_NoSteamTicket"				"Pelin todennus epäonnistui"
 		"Player_DisconnectReason_ConnectionClosing"			"Yhteyttä suljetaan"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Profile Text
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -35663,12 +36060,22 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"SFUI_Rules_TRBomb_CT"			"Pommin purkaminen: \nPieni kartta lyhyillä erillä\nja ilman aseiden ostamista.\nAnsaitse uusi ase joka erä tappamalla vihollisia tai suorittamalla tavoitteita.\nVoita peli voittamalla suurimman osan kahdestakymmenestä erästä."
 		"SFUI_Rules_TRBomb_Loading"						"Pommitehtävä\n\nSaat uusia aseita\n\nerän alussa, jos tapoit\nvihollisen edellisessä erässä.\n\nAsetukset:\n· Aseet annetaan erän alussa\n· Omien tulitus POIS PÄÄLTÄ\n· Tiimikavereiden läpi VOI kulkea"
 
+		"SFUI_Rules_ScrimComp2v2_Loading"						"Pommitehtävä\n\nPieni kartta lyhyillä erillä.\nOsta uusia aseita ansaituilla rahoilla\n jokaisen erän alussa.\n\nAsetukset:\n· Oma tuli PÄÄLLÄ\n· Tiimikavereiden läpi EI VOI kulkea\n· Suojavarusteet ja pomminpurkupakkaus\nostettavissa"
+		"SFUI_Rules_ScrimComp5v5_Loading"						"Pommitehtävä\n\nJokainen ase on ostettavissa vain kerran.\nOsta uusia aseita ansaituilla rahoilla\n jokaisen erän alussa.\n\nAsetukset:\n· Oma tuli PÄÄLLÄ\n· Tiimikavereiden läpi EI VOI kulkea\n· Suojavarusteet ja pomminpurkupakkaus\nostettavissa"
 		"SFUI_Rules_Skirmish_Loading"						"Sotapeli\n\nErilaisia karttoja muokatuilla pelisäännöillä."
 
 		"SFUI_Rules_Bomb_T"			"Pommin asettaminen:\nTiimisi tehtävänä on räjäyttää pommi yhdellä kartan pommialueista. Voittaaksenne erän teidän tulee räjäyttää pommi tai eliminoida kaikki erikoisjoukkojen jäsenet."
 		"SFUI_Rules_Bomb_CT"			"Pommin purkaminen:\nTiimisi tulee estää terroristeja räjäyttämästä pommia millään pommialueella. Voittaaksenne erän teidän tulee purkaa pommi tai eliminoida kaikki terroristit."
+		"SFUI_Rules_Bomb_Loading_Classic"				"Pommitehtävä\n\nOsta uusia aseita ansaituilla\nrahoilla erien alussa.\n\nAsetukset:\n· Oma tuli POIS PÄÄLTÄ\n· Tiimikavereiden läpi VOI kulkea\n· Palkkio taposta 50 %"
+		"SFUI_Rules_Bomb_Loading_Competetive"			"Pommitehtävä\n\nOsta uusia aseita ansaituilla\nrahoilla erien alussa.\n\nAsetukset:\n· Oma tuli PÄÄLLÄ\n· Tiimikavereiden läpi VOI kulkea\n· Suojavarusteet ja pomminpurkupakkaus\nostettavissa"
+		"SFUI_Rules_ClassicCas_Unknown"					"Tappotehtävä\n\nOsta uusia aseita ansaituilla\nrahoilla erien alussa.\n\nAsetukset:\n· Oma tuli POIS PÄÄLTÄ\n· Tiimikavereiden läpi VOI kulkea\n· Palkkio taposta 50 %"
+		"SFUI_Rules_ClassicComp_Unknown"				"Tappotehtävä\n\nOsta uusia aseita ansaituilla\nrahoilla erien alussa.\n\nAsetukset:\n· Oma tuli PÄÄLLÄ\n· Tiimikavereiden läpi VOI kulkea\n· Suojavarusteet ja pomminpurkupakkaus\n ostettavissa"
+
 		"SFUI_Rules_Hostage_T"							"Panttivankien pelastamisen estäminen:\nTiimilläsi on useita panttivankeja. Voittaaksenne erän teidän tulee estää panttivankien pelastaminen tai eliminoida kaikki erikoisjoukkojen jäsenet."
 		"SFUI_Rules_Hostage_CT"							"Panttivankien pelastaminen:\nPelastakaa panttivangit kantamalla heidät pelastuspisteeseen. Voittaaksenne erän teidän tulee pelastaa yksi panttivanki tai eliminoida kaikki terroristit."
+		"SFUI_Rules_Hostage_Loading_Classic"			"Panttivankitehtävä\n\nOsta uusia aseita ansaituilla\nrahoilla erien alussa.\n\nAsetukset:\n· Oma tuli POIS PÄÄLTÄ\n· Tiimikavereiden läpi VOI kulkea\n· Palkkio taposta 50 %"
+		"SFUI_Rules_Hostage_Loading_Competetive"		"Panttivankitehtävä\n\nOsta uusia aseita ansaituilla\nrahoilla erien alussa.\n\nAsetukset:\n· Oma tuli PÄÄLLÄ\n· Tiimikavereiden läpi VOI kulkea\n· Suojavarusteet ja pomminpurkupakkaus\n ostettavissa"
+
 		"SFUI_Rules_Deathmatch_Loading"				"Kaikki aseet ovat ilmaisia ja valittavissa\njonkin aikaa uudelleensyntymisen jälkeen.\n\nVoita ottelu korkeimmilla \npisteillä erän päättyessä.\n\nAsetukset:\n· Ammu kaikkea, mikä liikkuu.\n· Kaikki pelaajat ovat kohteita.\n· Välitön, satunnainen uudelleensyntyminen.\n· Ottelun pituus: 10 minuuttia."
 		"SFUI_Rules_DeathmatchFFA_Loading"			"Kaikki aseet ovat ilmaisia ja valittavissa\njonkin aikaa uudelleensyntymisen jälkeen.\n\nVoita ottelu omaamalla korkeimmat \npisteet erän päättyessä.\n\\Asetukset:\n· Ammu kaikkea, mikä liikkuu\n· Kaikki pelaajat ovat kohteita\n· Välitön, satunnainen uudelleensyntyminen\n· Ottelun pituus: 10 minuuttia"
 		"SFUI_Rules_DeathmatchTMM_Loading"			"Kaikki aseet ovat ilmaisia ja valittavissa\njonkin aikaa uudelleensyntymisen jälkeen.\n\nEnsimmäinen tiimi, joka saa ${d:mp_fraglimit} tappoa, voittaa.\n\nAsetukset:\n· Toimi yhdessä tiimikaverien kanssa\n· Tiimin buustaus on PÄÄLLÄ\n· +1 voittopiste bonusaseista\n· Välitön, satunnainen uudelleensyntyminen\n· Ottelun pituus: 10 minuuttia"
@@ -35681,6 +36088,8 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 
 		"SFUI_GameModeSurvival"					"Vaaravyöhyke"
 		"SFUI_Rules_Survival_Loading"			"· Valitse aloitussijaintisi.\n· Löydä tai osta varusteita.\n· Kerää tietoa tabletistasi.\n· Varo laajenevaa vaaravyöhykettä.\n· Ole viimeinen pelaaja elossa voittaaksesi!"
+
+		"SFUI_Rules_NewUserTraining_Loading"	"Tervetuloa Counter-Strikeen!\n\nPelaat pian 12 kierrosta bottien kanssa.\n\nTapa kullakin kierroksella viholliset tai suorita pommitehtävä."
 
 		// Team Select Screen
 		"SFUI_Rules_TS_GunGame_Progressive"		"Tapa vihollisia ja ole ensimmäinen, joka saa tapon kultaisella veitsellä."
@@ -36730,6 +37139,10 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 	"Panorama_Vote_Failed"						"<font color='#ff0000'>Äänestys epäonnistui</font>"
 	"Panorama_vote_yes_pc_instruction"			"<font color='#00ff00'>F1</font> tarkoittaa KYLLÄ"
 	"Panorama_vote_no_pc_instruction"			"<font color='#ff0000'>F2</font> tarkoittaa EI"
+	"Panorama_Vote_Header_AutoInstantSurrender"	"Antaudutaanko heti?"
+	"Panorama_Vote_Text_AutoInstantSurrender"	"Tiimikaveri hylkäsi ottelun.<br/>• Jos antaudut, ottelu lasketaan tappioksi.<br/>• Kyllä-ääni lopettaa välittömästi ottelun."
+	"Panorama_Vote_Text_AutoInstantSurrender2"	"Tiimikaveri hylkäsi ottelun.<br/>• Jos antaudut, ottelu lasketaan tappioksi."
+
 	"Survival_SpawnSelect_ChooseDeployment"		"Valitse aloituspaikkasi"
     "Survival_SpawnSelect_ReadyCount"           "VALMIINA: {d:spawnselect-player-select-count}/{d:spawnselect-player-total-count}"
 	"Survival_SpawnSelect_NotReady"						"ET OLE VALMIINA"
@@ -36913,6 +37326,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"CSGO_MainMenu_Options"				"ASETUKSET"
 		"CSGO_MainMenu_Online"				"PELIHAKU"
 		"CSGO_MainMenu_Stats"				"CS360"
+		"CSGO_MainMenu_Store"				"KAUPPA"
 		"CSGO_MainMenu_Offline"				"YKSINPELI"
 		"CSGO_MainMenu_QuickMatchButton"	"PIKAPELI"
 		"CSGO_MainMenu_CustomMatchButton"	"ETSI PELI"
@@ -36977,8 +37391,16 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"cs_rating_generic"								"CS-sijoitus"
 		"cs_rating_rank"								"{d:o:rank} koko maailmassa"
 		"cs_rating_percentile"							"Parhaat {d:o:percentile} %"
+		"cs_rating_promotion_nextmatch"					"<i>Seuraava ottelu on ylennysottelu</i>"
+		"cs_rating_relegation_nextmatch"				"<i>Seuraava ottelu on putoamissottelu.</i>"
+		"cs_rating_promotion_match"						"Ylennysottelu"
+		"cs_rating_relegation_match"					"Pudotusottelu"
+
 		"cs_rating_expired"								"CS-sijoitus vanhentunut"
 		"cs_rating_none"								"Ei CS-sijoitusta"
+		"cs_rating_wins_needed:p{winsneeded}"			"Voita vielä <b>{d:winsneeded}</b> ottelu#|#Voita vielä <b>{d:winsneeded}</b> ottelua"
+		"cs_rating_wins_needed_verbose:p{winsneeded}"	"Voita vielä <b>{d:winsneeded}</b> ottelu CS-sijoituksen vakiinnuttamiseksi#|#Voita vielä <b>{d:winsneeded}</b> ottelua CS-sijoituksen vakiinnuttamiseksi"
+		"cs_rating_wins_needed_verbose_intro:p{winsneeded}"	"Voita <b>{d:winsneeded}</b> ottelu CS-sijoituksen vakiinnuttamiseksi#|#Voita <b>{d:winsneeded}</b> ottelua CS-sijoituksen vakiinnuttamiseksi"
 		"cs_rating_need_wins:p{wins-needed}"							"Tarvitaan {d:wins-needed} voitto#|#Tarvitaan {d:wins-needed} voittoa"
 
 		"cs_rating_rating_established"					"Voimassaoleva CS-sijoitus"
@@ -37070,6 +37492,11 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"AddFriend_not_found"					"Koodilla '{s:code}' ei löytynyt yhtään kaveria"
 		"AddFriend_tooltip"						"Lisää kaveri"
 		"FriendsLobby_tooltip"					"Lue lisää auloista"
+		"friends_lobby_count"					"+ {s:lobby_count}"
+
+		"contextmenu_lobby-count:p{lobby_count}"	"{d:lobby_count} peliaula #|#{d:lobby_count} peliaulaa"
+
+
 		"PopupGoTeamMatchmaking_Title"			"VIRALLINEN PELIHAKU"
 		"PopupGoTeamMatchmaking_Tooltip_SearchUI"	"Viiden pelaajan aula voi pelata toisia vastaan pelihaun kautta tai se voi haastaa suoraan toisen viiden pelaajan aulan."
 		"PopupGoTeamMatchmaking_RegularMM"		"Tavallinen ottelu"
@@ -37077,13 +37504,23 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"PopupGoTeamMatchmaking_TeamMM"			"Tiimipelihaku"
 		"PopupGoTeamMatchmaking_TeamMM_Help"			"<b>Aktiivipalveluksen tiimipelihaku</b> löytää automaattisesti toisen täyden tiimin pelaamaan tiimiäsi vastaan. Tiimit päättävät kartan ja ottelun aloituspuolen kilpailullisen kartan valitse/kiellä-prosessin avulla."
 
+		"PlayMenu_NewUser_title"					"Valmiina pelaamaan verkossa?"
+		"PlayMenu_NewUser_text"						"<b>Rento</b> on matalan panoksen pelitila, jossa pelaajat voivat vapaasti liittyä ja lähteä kesken ottelua."
+		"PlayMenu_NewUser_training"					"Toista harjoittelu"
+		"PlayMenu_NewUser_casual"					"Pelaa rentoa tilaa"
+		"PlayMenu_NewUser_other"					"Näytä kaikki pelitilat"
+
 		"PlayMenu_GraphicsDriverWarning_Title"		"Varoitus: näytönohjaimen ajuri ei ole ajan tasalla"
 		"PlayMenu_GraphicsDriverWarning_AMD"		"Pelikokemuksesta tulee paras mahdollinen, kun lataat ajurin viimeisimmän version AMD:n verkkosivuilta."
-		"PlayMenu_GraphicsDriverWarning_Nvidia"		"Pelikokemuksesta tulee paras mahdollinen, kun lataat ajurin viimeisimmän version Nvidian verkkosivuilta."
+		"PlayMenu_GraphicsDriverWarning_Nvidia"		"Optimoi pelikokemus lataamalla viimeisin ajuri NVIDIAn tukisivustolta."
 		"PlayMenu_GraphicsDriverLink_AMD"			"Siirry AMD:n sivuille"
-		"PlayMenu_GraphicsDriverLink_Nvidia"		"Siirry Nvidian sivuille"
+		"PlayMenu_GraphicsDriverLink_Nvidia"		"Siirry NVIDIAn sivulle"
 
-		
+		"SettingsRecommendation"					"Suositellut asetukset"
+		"VariableRefreshRateRecommendation_Nvidia"	"Näyttää siltä, että NVIDIA G-Sync on tuettu näytölläsi, mutta sitä ei ole otettu käyttöön. G-Synciä suositellaan pelikokemuksen optimoimiseksi. Voit ottaa sen käyttöön pelin ulkopuolella NVIDIAn ohjauspaneelista. Muutokset voivat tulla voimaan vasta, kun peli on käynnistetty uudelleen."
+		"RefreshRateRecommendation"					"Näyttää siltä, että näyttösi tukee {d:max_refresh_rate} hertsin virkistystaajuutta, mutta nykyinen asetuksesi on {d:curr_refresh_rate} hertsiä. Parhaan pelikokemuksen kannalta on yleisesti suositeltavaa, että käytät korkeinta mahdollista virkistystaajuutta, jota näyttösi tukee."
+		"LowLatencyVSyncRecommendation_Nvidia"		"Näyttää siltä, että NVIDIA G-Sync on käytössä, mutta V-Sync ja NVIDIA Reflex eivät. Suosittelemme käyttämään kaikkia kolmea pelikokemuksen optimoimiseksi."
+
 		"PlayMenu_GraphicsDriverWarning_RemindMeLater"	"Muistuta myöhemmin"
 		"PlayMenu_GraphicsDriverWarning_DontShowAgain"	"Älä näytä uudelleen"
 
@@ -37215,6 +37652,10 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"op_pass_id_title"											"Operaattoritunnus"
 		"op_reward_requires_active_pass" 				"Vaatii operaatiopassin"
 		"op_reward_no_requirement" 							"Kaikkien saatavilla"
+		"op_reward_claimed" 										"LUNASTETTU"
+		"op_reward_free" 										"Ilmainen"
+
+
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Inventory
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -37310,9 +37751,15 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"inv_filter_both_teams"				"Molemmat tiimit"
 		"inv_filter_ct"						"Erikoisjoukot"
 		"inv_filter_t"						"Terroristi"
+		"inv_filter_all_secondary0"			"Kaikki aloituspistoolit"
+		"inv_filter_all_secondary"			"Kaikki muut pistoolit"
+		"inv_filter_all_smg"				"Kaikki keskitason aseet"
+		"inv_filter_all_rifle"				"Kaikki kiväärit"
+
 		"inv_sort_age"						"Uusin"
 		"inv_sort_rarity"					"Harvinaisin"
 		"inv_sort_alpha"					"A-Ö"
+		"inv_sort_slot"						"Paikka"
 		"inv_sort_collection"				"Kokoelma"
 		"inv_sort_equipped"					"Käytössä"
 		"inv_sort_wear"						"Kuluminen"
@@ -37321,6 +37768,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"inv_sort_type"						"Tyyppi"
 		"inv_search_default"				"Kirjoita haku tähän"
 		"inv_nav_all"						"KAIKKI"
+		"inv_nav_rentals"					"VUOKRAUS"
 		"inv_nav_weapons"					"Aseet"
 		"inv_nav_graphics"					"GRAFIIKKA"
 		"inv_nav_equipment"					"VARUSTEET"
@@ -37348,12 +37796,33 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"inv_nav_items"						"ESINEET"
 		"inv_nav_market"					"STEAMIN KAUPPAPAIKKA"
 		"inv_nav_search"					"Hae esineitä"
+		"inv_nav_filter_rentals"			"Piilota vuokratut esineet"
 
 		"loadout_wedge_weapon_name"			"<b> {s:item-name}</b>"
+		"loadout_clear_filters"				"Tyhjennä suodattimet"
+		"loadout_equip_t"				"VARUSTA T"
+		"loadout_equip_ct"				"VARUSTA CT"
+
+		"inv_context_equip_replace"			"Korvaa käytössä oleva ase"
+
+		"inv_context_equip"					"Korvaa käytössä oleva {s:item_name}"
+		"inv_context_equip_team"			"Korvaa käytössä oleva <b>{s:item_name}</b>"
+
 		"inv_context_swap_stock_weapon"		"{s:item-name}"
+		"inv_context_swap_finish_both"		"Korvaa kummallekin joukkueelle"
 		"inv_context_equip_spray"			"Ota graffiti käyttöön"
 		"inv_context_equip_tournament_spray"	"Valitse joukkuegraffiti"
 		"inv_context_equip_musickit"		"Ota musiikkipakkaus käyttöön"
+		"inv_context_swap_finish_t"			"Korvaa <b>terroristeille</b>"
+		"inv_context_swap_finish_ct"		"Korvaa <b>erikoisjoukoille</b>"
+		"inv_context_add_to_favorites_both"		"Lisää kummankin joukkueen suosikkeihin"
+		"inv_context_add_to_favorites_t"	"Lisää <b>terroristien</b> suosikiksi"
+		"inv_context_add_to_favorites_ct"	"Lisää <b>erikoisjoukkojen</b> suosikiksi"
+		"inv_context_add_to_favorites_noteam"	"Lisää suosikkeihin"
+		"inv_context_remove_from_favorites_both"	"Poista kummankin joukkueen suosikeista"
+		"inv_context_remove_from_favorites_ct"		"Poista <b>erikoisjoukkojen</b> suosikeista"
+		"inv_context_remove_from_favorites_t"		"Poista <b>terroristien</b> suosikeista"
+		"inv_context_remove_from_favorites_noteam"	"Poista suosikeista"
 		"inv_context_nameable"				"Käytä nimitunnistetta"
 		"inv_context_bulkretrieve"			"Hae esineet"
 		"inv_context_bulkstore"				"Talleta esineet"
@@ -37364,6 +37833,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"inv_context_remove_sticker"		"Raaputa tarra"
 		"inv_context_can_patch"				"Käytä kangasmerkki"
 		"inv_context_remove_patch"			"Poista kangasmerkki"		
+		"inv_context_openloadout"			"Näytä varustelastissa"
 		"inv_context_sell"					"Myy kauppapaikalla"
 		"inv_context_tradeup_add"			"Käytä vaihtosopimuksessa"
 		"inv_context_tradeup_remove"		"Poista vaihtosopimuksesta"
@@ -37384,6 +37854,23 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"inv_context_xray"					"Käytä röntgenskanneria"
 		"inv_context_goto_xray"				"Mene röntgenskannerille"
 		"inv_context_unequip"				"Poista käytöstä"
+		"inv_context__DEV_DELETE_ITEM"				"VAIN KEHITTÄJÄ – poista esine"
+
+		"inv_context_loadout_slot_reset_t"			"Palauta oletustilaan"
+		"inv_context_loadout_slot_reset_ct"			"Palauta oletustilaan"
+		"inv_context_loadout_slot_reset_weapon_t"	"Palauta oletusaseeseen"
+		"inv_context_loadout_slot_reset_weapon_ct"	"Palauta oletusaseeseen"
+		"inv_context_loadout_slot_reset_finish_t"	"Palauta oletusskiniin"
+		"inv_context_loadout_slot_reset_finish_ct"	"Palauta oletusskiniin"
+
+		
+
+		"inv_context_enable_shuffle_slot"		"Sekoita suosikit"
+		"inv_context_disable_shuffle_slot"		"Poista sekoitus käytöstä"
+
+		"inv_context_enable_weapon_shuffle"		"Sekoita asetyypin {s:weapon_type} suosikit"
+		"inv_context_disable_weapon_shuffle"	"Poista asetyypin {s:weapon_type} suosikkien sekoittaminen käytöstä"
+
 		"inv_search_placeholder"			"Hae esineitä"
 		"inv_search_popular"				"Ehdotettu"
 		"inv_search_no_results"				"Hakusi <span class=\"context-menu-search__no-results__searchtext\">{s:search_text}</span> ei tuottanut tuloksia."
@@ -37421,7 +37908,8 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 
 		"CSGO_ItemName_Base"				"<span class=\"fontWeight-Bold\">{s:item_name}</span>"
 		"CSGO_ItemName_Painted"				"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>{s:paintkit_name}"
-		"CSGO_ItemName_Custom"				"{s:item_name}"
+		"CSGO_ItemName_Custom_Painted"		"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>{s:paintkit_name}<br>\"<i>{s:custom_item_name}</i>\""
+		"CSGO_ItemName_Custom_Simple"		"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>\"<i>{s:custom_item_name}</i>\""
 
 		"popup_casket_action_remove"		"Hae"
 		"popup_casket_title_add"			"Siirretään varastolaatikkoon"
@@ -37429,8 +37917,12 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"popup_casket_title_loadcontents"	"Avataan varastolaatikkoa"
 
 		"popup_inv_lootlist_header"		"Tutkitaan säiliötä {s:container}"
+		"popup_inv_lootlist_rental_header"		"Tutkitaan vuokrattua asetta"
 		"popup_inv_lootlist_count"		"{d:index}/{d:total}"
 		"popup_inv_lootlist_inspect_all"	"TUTKI ESINEITÄ"
+
+		"popup_inspect_header_name"			"{s:item_name}"
+		"popup_inspect_header_customname"	"{s:item_custom_name}"
 
 		"popup_casket_title_error_casket_too_full"		"Varastolaatikko täynnä"
 		"popup_casket_message_error_casket_too_full"	"Ei voitu siirtää esinettä, sillä valittu varastolaatikko on täynnä. Varastolaatikoita voi ostaa lisää pelin kaupasta."
@@ -37553,15 +38045,22 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"popup_decodeable_async_desc"	"Käytä esinettä <b>{s:itemname}</b>"
 		"popup_decodeable_async_xray_desc"		"Selvitä röntgenskannerilla säiliön sisältö."
 		"popup_decodeable_err_restricted"	"Esineen <b>{s:itemname}</b> avaaminen ei ole sallittua maassasi."
+		"popup_decodable_open_case"		"Avaa ja pidä"
+		"popup_decodable_keep_weapon"	"Pidä yksi ase itselläsi"
+		"popup_decodable_rent_weapons"		"Avaa ja vuokraa"
+		"popup_decodable_rent_get_key"		"Vaatii esineen {s:itemname} <b>{s:price}</b>"
+		"popup_decodable_rent_weapon_count:p{numlootlist}"	"Vuokraa {d:numlootlist} ase seitsemäksi päiväksi#|#Vuokraa {d:numlootlist} asetta seitsemäksi päiväksi"
 
 		//Capability
 		"popup_capability_upsell"	"Toimintoon vaaditaan esinettä: <b>{s:itemname}</b>"
+		"popup_capability_upsell_rental"	"<b>{s:itemname}</b>vaaditaan säiliön avaamiseen, yhden esineen pitämiseen tai kaikkien vuokraamiseen"
 		"popup_capability_use"		"<b>{s:itemname}</b>"
 		"popup_totool_nameable_header"	"Esikatsele nimitunnistetta"
 		"popup_totool_decodeable_header"	"Avaa säiliö"
 		"popup_totool_decodeable_header_graffiti"	"Avaa graffiti"
 		"popup_totool_decodeable_header_fantoken"	"Aktivoi esine"
 		"popup_totool_purchase_header"	"Osta"
+		"popup_totool_purchase_header2"	"OSTA JA LUNASTA"
 
 		//Purchase
 		"popup_cartpreview_button"		"Esikatsele"
@@ -37588,11 +38087,16 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"popup_xray_ready_for_use"		"Röntgenskanneri on valmis skannaamaan säiliösi"
 		"popup_xray_already_in_use"		"Esine on valmis lunastettavaksi"
 		"popup_xray_reveal_warning"  	"Käytä röntgenskanneria paljastaaksesi tämän säiliön sisällön ja saadaksesi esineet."
+		"popup_xray_reveal_warning_short"  	"Paljastaa sisällä olevan esineen."
 		"popup_xray_in_use_title"		"Röntgenskanneri"
 		"popup_xray_in_use_desc"		"Röngenskannerisi paljastaa tällä hetkellä aiemmin ladatun säiliön sisällön. \n\nSinun tulee lunastaa tämä esine ensin, jotta voit käyttää röntgenskanneria uudelleen."
 		"popup_xray_first_use_title"	"Röntgenskanneri"
 		"popup_xray_first_use_desc"		"Röntgenskannerin avulla voit paljastaa säiliön sisällä olevan esineen. <br><br>Röntgenskanneriin on laitettu kertaluonteinen ainutlaatuinen esine, joka ei ole vaihdettavissa: <b>{s:itemname}</b>. <br><br>Sinun tulee lunastaa tämä esine ensin, jotta voit käyttää röntgenskanneria uudelleen."
-//tournament coin
+
+		// equip
+		"popup_equip_title"				"Valitse, mihin {s:item_name} varustetaan"
+
+		//tournament coin
 		"tournament_coin_desc"			"Suorita tehtäviä ja päivitä kolikkoa. Saat tuliaispaketin joka päivityksestä."
 		"tournament_coin_desc_token"			"Suorita haasteita tapahtuman loppuun mennessä, jotta voit päivittää kolikkosi. Ansaitse tuliaispoletti joka päivityksestä."
 		"tournament_coin_completed_challenges"	"Suoritetut tehtävät"
@@ -37609,6 +38113,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tournament_coin_redeem_souvenir_18"	"Lunasta tuliaispoletti, jolla voit lunastaa tuliaispaketin mistä tahansa turnauksen ottelusta. Käytä polettisi 20.12. mennessä."
 		"tournament_coin_redeem_souvenir_19"	"Lunasta tuliaispoletti, jolla voit lunastaa tuliaispaketin mistä tahansa turnauksen ottelusta. Käytä polettisi 20.6. mennessä."
 		"tournament_coin_redeem_souvenir_20"	"Lunasta tuliaispoletti, jolla voit lunastaa tuliaispaketin mistä tahansa turnauksen ottelusta. Käytä polettisi 15.12. mennessä."
+		"tournament_coin_redeem_souvenir_21"	"Lunasta tuliaispoletti, jolla voit lunastaa tuliaispaketin mistä tahansa turnauksen ottelusta. Käytä polettisi 30.6. mennessä."
 		"tournament_coin_team_graffiti"		"Joukkuegraffiti"
 		"tournament_coin_select_team_graffiti"		"Valitse suosikkijoukkue ja käytä sen graffitia. Joukkuegraffitit ovat ladattavissa vapaasti turnauksen ajan."
 		"tournament_coin_select_team_graffiti-2"	"Valitse suosikkijoukkue ja käytä sen graffitia turnauksen ajan."
@@ -37633,7 +38138,14 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tournament_items_not_released_1"		"Nämä mestareiden nimikirjoituksilla varustetut esineet julkaistaan major-turnauksen päätyttyä."
 		"tournament_items_not_released"		"Nämä mestareiden ja finalistien nimikirjoituksilla varustetut esineet julkaistaan major-turnauksen päätyttyä."
 		"tournament_items_notice"		"Vain yksi passi voidaan aktivoida.\nOstettu passi ei ole vaihdettavissa/myytävissä viikkoon."
-"popup_redeem_souvenir_action_price" "Hanki matkamuisto: {s:price}"
+
+		//redeem souvenir
+		"popup_redeem_souvenir_title" "Lunasta ottelun matkamuisto"
+		"popup_redeem_souvenir_action" "Hanki matkamuisto"
+		"popup_redeem_souvenir_action_redeem" "Lunasta matkamuisto"
+		"popup_redeem_souvenir_action_price" "Hanki matkamuisto: {s:price}"
+		"popup_redeem_souvenir_desc:p{redeems}" "<span class=\"get-souvenir-redeem-count\">{d:redeems}</span> lunastettava matkamuisto jäljellä#|#<span class=\"get-souvenir-redeem-count\">{d:redeems}</span> lunastettavaa matkamuistoa jäljellä"
+
 		//operation popup
 		"op9_name"							"Pirstaleinen verkko"
 		"op10_name"							"Katkennut torahammas"
@@ -37827,6 +38339,8 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"settings_account_conn_section"		"Twitch.tv"
 		"settings_crosshair"				"Tähtäin"
 		"settings_crosshair_info"			"Muokkaa tähtäinristikon kokoa, muotoa ja väriä. Jaa tähtäimesi kavereidesi kanssa tai kokeile jonkun muun asetuksia."
+		"settings_grenadecrosshair"			"Kranaattien tähtäinristikko"
+		"settings_grenadecrosshair_info"	"Aputähtäinristikko kranaatinheittojen linjaukseen"
 		"settings_radar_section"			"Tutka"
 		"settings_radarandtablet_section"	"Tutka / Tabletti"
 		"settings_items_section"			"Esine"
@@ -37838,9 +38352,12 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"settings_telemetry_section_info"	"Muokkaa HUDissa näytettävät tiedot suorituskyvystä, kuten ruudunpäivityksen nopeus (FPS), viive ja pakettihävikki."
 		"settings_audio_section"			"Ääni"
 		"settings_music_section"			"Musiikki"
+		"settings_voice_section"			"Ääni"
+		"settings_audio_advanced_section"		"Pelitilojen taajuuden korjaus"
 		"settings_video_section"			"Grafiikka"
 		"settings_video_advanced_section"	"Videon lisäasetukset"
-		"settings_video_individual_presets"	"Yksittäiset esiasetukset:"
+		"settings_video_frame_pacing"		"Kuvan rytmitys"
+		"settings_video_presets"			"Esiasetukset"
 		"settings_video_hud_edge_positions"	"HUDin reunojen paikat"
 		"settings_video_hud_edge_x"			"Leveyden säätö"
 		"settings_video_hud_edge_y"			"Korkeuden säätö"
@@ -38108,6 +38625,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"CSGO_Workshop_Mode_coopstrike"				"Yhteistyötehtävä"
 		"CSGO_Workshop_Mode_custom"					"Mukautettu"
 		"CSGO_Workshop_Mode_armsrace"				"Arms Race"
+		"CSGO_Workshop_Mode_gungameprogressive"		"Arms Race"
 		"CSGO_Workshop_Mode_demolition"				"Demolition"
 		"CSGO_Workshop_Mode_flyingscoutsman"		"Lentävä tiedustelija"
 		"CSGO_Workshop_Mode_retakes"				"Uudelleenvaltaus"
@@ -38129,6 +38647,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"matchdraft_phase_4"			"Kiellä 1 kartta"
 		"matchdraft_phase_5"			"Valitse aloittava joukkue"
 		"matchdraft_phase_6"			"Aloita ottelu"
+		"matchdraft_phase_7"			"Antaa palaa!"
 		"matchdraft_arena_name"			"Valitse/kiellä"
 		"matchdraft_vote_status_ban"	"Kiellä"
 		"matchdraft_vote_status_banned"	"Kielletty"
@@ -38143,10 +38662,15 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"matchdraft_phase_action_wait_4"		"Odotetaan, että vastustaja kieltää 1 kartan"
 		"matchdraft_phase_action_wait_5"		"Odotetaan, että vastustaja valitsee aloittajan"
 		"matchdraft_phase_action_wait_6"		"Aloitetaan ottelu"
+		"matchdraft_phase_action_wait_7"		"Antaa palaa!"
 		"matchdraft_phase_starting_team"		"Ottelun aloittaja: {s:teamname}"
 
 		"matchdraft_keybinds_legend"		"[{s:bind_voicerecord}] Äänichat mikrofonilla\n[{s:bind_messagemode2}] Tekstichat tiimin kanssa"
 
+		"matchdraft_phase_action_1"			"Kiellä ensin tai ohita"
+		"matchdraft_phase_action_2"			"<span class=\"premier-pickban__title__text-red\">Kiellä</span> {d:maps}/2 <span class=\"premier-pickban__title__text-red\">karttaa</span>"
+		"matchdraft_phase_action_3"			"<span class=\"premier-pickban__title__text-red\">Kiellä</span> {d:maps}/3 <span class=\"premier-pickban__title__text-red\">karttaa</span>"
+		"matchdraft_phase_action_4"			"<span class=\"premier-pickban__title__text-red\">Kiellä</span> {d:maps}/1 <span class=\"premier-pickban__title__text-red\">kartta</span>"
 		"matchdraft_phase_action_5"			"<span class=\"premier-pickban__title__text-green\">Valitse aloittava puoli</span>"
 		"matchdraft_phase_action_6"			"Aloitetaan ottelu"
 		"matchdraft_final_map"				"Pelataan karttaa {s:mapname}"
@@ -38178,6 +38702,8 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"party_player_invited"				"Kutsuttu"
 		"party_lobby_started"				"Aula luotiin. Avaa keskustelu klikkaamalla."
 		"party_lobby_connected"				"Yhdistetty aulaan. Avaa keskustelu klikkaamalla."
+		"party_chat_placeholder_pickban"	"Tiimichat"
+
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Anti-Addiction
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -38202,6 +38728,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_navbar_overwatch"		"Valvomo"
 		"tooltip_navbar_watch"			"Katso pelejä ja turnauksia"
 		"tooltip_navbar_inventory"		"Varusteluettelo"
+		"tooltip_navbar_loadout"		"Ota käyttöön aseita ja esineitä"
 		"tooltip_navbar_quit"			"Lopeta työpöydälle"
 		"tooltip_invite_to_lobby"		"Kutsu kavereita pelaamaan"
 		"tooltip_navbar_resume_game"	"Jatka peliä"
@@ -38211,6 +38738,9 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_navbar_switch_teams"	"Valitse joukkue"
 		"tooltip_navbar_report_server"	"Ilmianna palvelin"
 		"tooltip_navbar_stats"			"Tarkastele otteluiden tilastoja yhdessä paikassa"
+		"tooltip_navbar_store"			"Osta pelinsisäisiä esineitä"
+
+
 		"tooltip_inspect_weapon_model"	"Tutki asemallia"
 		"tooltip_inspect_weapon_model_faction"	"Tutki pelaajan mallia"
 		"tooltip_inspect_play_mvp_anthem"	"Toista MVP-hymni"
@@ -38228,13 +38758,18 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_teaching"				"Kerrat, jolloin sinua on kehuttu <b>opettajaksi</b>"
 		"tooltip_comp_wins"				"<b>Kilpailullisia pelejä</b> voitettu:"
 
+		"tooltip_skill_group_generic"	"Taitotasoa käytetään taitotasolle sopivien otteluiden löytämiseksi."
+		"tooltip_skill_group_none:p{winsneeded}"		"Voita <b>{d:winsneeded}</b> ottelu taitotasosi vakiinnuttamiseksi.#|#Voita <b>{d:winsneeded}</b> ottelua taitotasosi vakiinnuttamiseksi."
 		"tooltip_skill_group_expired"	"Taitotasosi on vanhentunut vähäisen käytön vuoksi. Saat sen uudelleen näkyviin voittamalla yhden pelin."
 		"tooltip_skill_group_recalibrating"	"Taitotasoasi kalibroidaan uudelleen. Näet sen taas voitettuasi yhden ottelun."
 		"tooltip_skill_group_locked"	"Taitotasot päivittyvät pelaamalla ranked-pelejä. Osta Prime-tilapäivitys aktivoidaksesi taitotasosi."
 
+		"tooltip_cs_rating_generic"		"CS-sijoitus kertoo pelaajan Counter-Strike-taidoista Premier-tilassa mitattuina."
+		"tooltip_cs_rating_none:p{winsneeded}"		"Voita vielä <b>{d:winsneeded}</b> ottelu CS-sijoituksen vakiinnuttamiseksi.#|#Voita vielä <b>{d:winsneeded}</b> ottelua CS-sijoituksen vakiinnuttamiseksi."
 		"tooltip_cs_rating_expired"		"CS-sijoituksesi on vanhentunut vähäisen pelaamisen vuoksi. Saat sen uudelleen näkyviin voittamalla yhden ottelun."
 
 		"tooltip_skill_group_genericwingman"	"Asetoverissa taitotasoa käytetään taitotasolle sopivien otteluiden löytämiseksi."
+		"tooltip_skill_group_nonewingman:p{winsneeded}"		"Voita <b>{d:winsneeded}</b> ottelu Asetoveri-taitotasosi vakiinnuttamiseksi.#|#Voita <b>{d:winsneeded}</b> ottelua Asetoveri-taitotasosi vakiinnuttamiseksi."
 		"tooltip_skill_group_expiredwingman"	"Asetoveri-taitotaso on vanhentunut vähäisen käytön takia. Saat sen uudelleen näkyviin voittamalla yhden pelin."
 		"tooltip_skill_group_recalibratingwingman"	"Asetoverin taitotasoa kalibroidaan uudelleen. Näet sen taas voitettuasi yhden ottelun."
 
@@ -38252,6 +38787,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_xp_how_to_earn"		"Ansaitset XP:tä pelaamalla minkä tahansa pelimuodon otteluita ja suorittamalla tehtäviä."
 		"tooltip_xp_bonuses_title"		"Aktiiviset XP-lisäsi"
 		"tooltip_xp_bonus_1"			"- Viikon XP-lisä saatavilla!"
+		"tooltip_xp_bonus_2"			"– Seuraavasta tasokorotuksesta saat viikoittaisen apupaketin!"
 		"tooltip_xp_bonus_2_op06"		"- Saat esineen <b>%s1</b> seuraavalla kerralla, kun nouset uudelle tasolle!"
 		"tooltip_xp_bonus_2_op07"		"- Saat esineen <b>%s1</b> seuraavalla kerralla, kun nouset uudelle tasolle!"
 		"tooltip_xp_bonus_2_op08"		"- Saat esineen <b>%s1</b> seuraavalla kerralla, kun nouset uudelle tasolle!"
@@ -38263,6 +38799,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_suggested_lobby"		"Tämä aula on avoinna vain sen Steam-ryhmän jäsenille."
 
 		"tooltip_invite"				"Kutsu kaveri pelaamaan"
+		"tooltip_disabled_invite"		"Peruuta kutsuttavan kaverin haku"
 		"tooltip_Join"					"Liity kaverin peliin"
 		"tooltip_watch"					"Katso menossa olevaa peliä"
 		"tooltip_steamprofile"			"Katso yhteisöprofiilia"
@@ -38284,7 +38821,11 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_cancelinvite"			"Peruuta kaveripyyntö"
 		"tooltip_canelsearch"			"Peruuta haku"
 		"tooltip_discard_invite"		"Hylkää tämä kutsu"
+		"tooltip_accept_invite"			"Hyväksy kutsu"
+		"tooltip_friend_invited_you"	"<b>Kutsu</b> käyttäjältä <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
+		"tooltip_lobby_count"			"Näytä kaikki aulakutsut"
+
 		"tooltip_short_invite"				"Kutsu"
 		"tooltip_short_Join"				"Liity"
 		"tooltip_short_watch"				"Katso"
@@ -38326,6 +38867,8 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_prime_upgrade_available"			"Päivitys Prime-tilaan on saatavilla"
 		"tooltip_prime_not_enrolled_1"				"Prime-tilassa pelaat muita Prime-tilan pelaajia vastaan ja voit saada vain Prime-pelaajille tarkoitettuja esineitä.<br><br>Päivitä tilisi pääsemällä Luutnantin tasolle 21 tai osta Prime-tilapäivitys."
 		"tooltip_prime_not_enrolled_pw_1"			"Prime-tilassa pelaat muita Prime-tilan pelaajia vastaan ja voit saada vain Prime-pelaajille tarkoitettuja esineitä.<br><br>Päivitä tilisi saavuttamalla luutnanttitaso 21 tai suorita henkilöllisyyden varmistus loppuun ja saat Counter-Strike-pelin Prime-tilan heti."
+		"tooltip_prime_not_enrolled_2"				"Päivitä Prime-tilaan saadaksesi kokemuspisteitä, viikoittaisia palkintoja, Premier-tilan ja paljon muuta."
+
 		"tooltip_permission_settings_explain"		"Kun <b>käytössä</b>: kaverisi voivat liittyä ryhmään päävalikosta.\n\nKun <b>pois käytöstä</b>: kaverit pitää kutsua, ennen kuin he voivat liittyä ryhmään."
 
 		"tooltip_prime-playing-offline"				"Prime on saatavilla viralliseen pelihakuun"
@@ -38343,6 +38886,9 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_unequip_flair"						"Poista tämä esine käytöstä"
 		"tooltip_prime"								"Tilillä on Prime-tila"
 
+		"tooltip_demo_highlights_toggle"			"Kohokohtien toistaminen päälle/pois"
+
+		"mainmenu_go_to_character_loadout"			"Näytä agentti varustelastissa"
 		"mainmenu_switch_vanity_to_t"				"Näytä varustettu T-agentti"
 		"mainmenu_switch_vanity_to_ct"				"Näytä varustettu CT-agentti"
 		"mainmenu_change_vanity_map"				"Vaihda päävalikon maisemaa"
@@ -38445,14 +38991,14 @@ Voita erä eliminoimalla vastustajajoukkue tai suorittamalla tehtävä."
 		"BuyMenu_Buyprev"				"[{s:bind_rebuy}] Osta uudelleen edelliset"
 		"BuyMenu_Buyprev_Key"			"{s:rebuy}"
 		"BuyMenu_Back"					"[{s:bind_cancelselect}] Takaisin"
-		"BuyMenu_BuyForTeammate"		"Pidä painettuna: [{s:buywheel_donate_key}] Osta tiimikaverille"
+		"BuyMenu_BuyForTeammate"		"Pidä painettuna: [{s:buywheel_donate_key}] Osta ja heitä"
 		"BuyMenu_BuyForTeammate_Donate"		"[{s:csgo_donate}] Lahjoita"
 
 		"BuyMenu_Sellbackall"			"[{s:bind_sellbackall}] Hyvitä kaikki"
 
 
 		"BuyMenu_BuyForTeammate_Key"	"{s:autobuy}"
-		"BuyMenu_BuyForTeammate_hint"	"Ostettu ase tiputetaan maahan tiimikaverin poimittavaksi"
+		"BuyMenu_BuyForTeammate_hint"	"Osta ja heitä"
 
 		"BuyMenu_Done"					"${cancel} Sulje"
 
@@ -38469,6 +39015,7 @@ Voita erä eliminoimalla vastustajajoukkue tai suorittamalla tehtävä."
 		"BuyMenu_NotInBuyZone"			"Olet poistunut ostoalueelta"
 		"BuyMenu_CantBuyTilNextWave"	"Et voi ostaa aallon aikana"
 		"BuyMenu_CantBuy"				"Et voi ostaa"
+		"BuyMenu_MinMoneyNextRound"		"Seuraavan erän minimi: ${d:next-round-min-money}"
 
 		"BuyMenu_Header"				"OSTOVALIKKO"
 		"BuyMenu_WeaponClass"			"ASEVALIKKO"
@@ -38499,6 +39046,7 @@ Voita erä eliminoimalla vastustajajoukkue tai suorittamalla tehtävä."
 		"buymenu_tooltip_tagging"				"Osuman saaneiden vihollisten liikenopeutta vähennetty."
 
 		"buymenu_money"							"{d:r:money} $"
+		"buymenu_money_digitpanel_digits"		" 0123456789$"
 		"buymenu_cost_amount"					"{d:r:item_price} $"
 		"buymenu_killaward_amount"				"{d:r:kill_reward} $ ({d:r:kill_reward_pct} %)"
 
@@ -38711,9 +39259,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"Scoreboard_money_val"							"{d:r:stat_d_money} $"
 		"Scoreboard_damage"								"Vahinko"
 		"Scoreboard_knifekills"							"T (veitsi)"	
-		"Scoreboard_taserkills"							"T (Zeus)"		
-
-
+		"Scoreboard_taserkills"							"T (Zeus)"
 		"Scoreboard_lossmoneybonus_tooltip"				"{s:round_loss_income_team} saa <b>{d:round_loss_income_amount} $</b> häviöstä"
 
 		"Scoreboard_ping_tooltip"		 				"Viive"
@@ -38781,6 +39327,8 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 
 		"team-intro-1st-half"							"Ensimmäinen puoliaika"
 		"team-intro-2nd-half"							"Toinen puoliaika"
+		"team-intro-overtime-1st-half:p{overtime_num}"	"Jatkoaika: ensimmäinen puoliaika#|#Jatkoaika {d:overtime_num}: ensimmäinen puoliaika"
+		"team-intro-overtime-2nd-half:p{overtime_num}"	"Jatkoaika: toinen puoliaika#|#Jatkoaika {d:overtime_num}: toinen puoliaika"
 		"team-intro-starting-as-t"						"Aloitat terroristina"
 		"team-intro-starting-as-ct"						"Aloitat erikoisjoukoissa"
 		"team-intro-playing-as-t"						"Pelaa terroristina"
@@ -38794,6 +39342,9 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 
 		"eom-win"										"PELITULOS"
 		"eom-voting"									"ÄÄNESTYS"
+		"eom-rank"										"NOSTA TASOASI"
+		"eom-skillgroup"								"TAITOLUOKITUS"
+
 		"eom-victory"									"VOITTO!"
 		"eom-defeat"									"TAPPIO!"
 		"eom-tie"										"TASAPELI"
@@ -38839,18 +39390,44 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"scoreboard_arsenal_1"							"2. sija"
 		"scoreboard_arsenal_2"							"3. sija"
 
+		"scoreboard_timeline_ot:p{scoreboard_ot}"		"Jatkoaika#|#Jatkoaikaa{d:scoreboard_ot}"
+ 
+
 		// RANK UP REDEMPTION STORE 
 
 		"rankup_redemption_store_popup_title"						"Viikoittainen apupaketti"
+		"rankup_redemption_store_popup_desc"						"Olet ansainnut ilmaisia palkintoja.\n\nJos et lunasta kaikkia palkintojasi nyt, voit lunastaa ne myöhemmin kaupassa.\n\nPalkinnot katoavat, jos et lunasta niitä ennen kuin ansaitset uusia."
+
+		"rankup_redemption_store_timeout_desc"						"Palvelin ei vastaa.\n\n.Yritä myöhemmin uudelleen."
+		"rankup_redemption_store_timeout_title"						"Virhe"
+
+
+		"rankup_redemption_store_closed"							"Viikkopalkinnot lunastettu"
+		"rankup_redemption_store_directive:p{redeemable_balance}"	"Valitse <font color='#000000'>{d:redeemable_balance} palkinnoksi</font>#|#Valitse korkeintaan <font color='#000000'>{d:redeemable_balance} palkinnoksi</font>"
+		"rankup_redemption_store_earn_xp"							"Ansaitse kokemustaso"
+
 		"rankup_redemption_store_rollover_wait"						"Voit alkaa ansaita uusia palkintoja: {s:time-to-week-rollover}."
 		"rankup_redemption_store_refresh"							"Saat apupaketin, kun saat tarpeeksi kokemuspisteitä saavuttaaksesi seuraavan tason."
 
+		"rankup_redemption_case_warning"							"Avaamiseen vaaditaan ostettu avain"
 		"rankup_redemption_store_claimed"							"LUNASTETTU"	
-//
-//
-"eom-skillgroup-expired"						"Voita <b>yksi</b> ottelu pelitilassa {s:rating_type} päivittääksesi vanhentunut taitotasosi"
+
+
+		//////////////////////////////////////////////////////////////////
+		//
+		//	END OF MATCH
+		//
+		///////////////////////////////////////////////////////////
+		
+		"eom-skillgroup-win:p{matcheswon}"				"Voitettu ottelu: {s:rating_type}#|#Voitetut ottelut: {s:rating_type}"
+		"eom-skillgroup-map-win:p{matcheswon}"			"{s:rating_type} {s:map} ottelu voitettu#|#{s:rating_type} {s:map} ottelua voitettu"
+
+		"eom-skillgroup-needed-wins:p{winsneeded}"		"Voita {d:winsneeded} ottelu näyttääksesi taitotasosi#|#Voita {d:winsneeded} ottelua näyttääksesi taitotasosi"
+		"eom-skillgroup-expired"						"Voita <b>yksi</b> ottelu pelitilassa {s:rating_type} päivittääksesi vanhentunut taitotasosi"
 		"eom-skillgroup-expired-premier"				"Voita <b>yksi</b> ottelu pelitilassa {s:rating_type} päivittääksesi vanhentunut CS-sijoituksesi"
+		"eom-skillgroup-recalibrating"					"Taitotasoa kalibroidaan uudelleen. Näet sen taas voitettuasi <b>1</b> ottelun: {s:rating_type}."
 		"eom-skillgroup-higher"							"Korkeampi taitotaso"
+		"eom-skillgroup-map-name"						"Oma {s:rating_type} {s:map} taitotasosi"
 		"eom-skillgroup-name"							"Oma {s:rating_type} taitotasosi"
 		"eom-skillgroup-needed-dzgames"					"Pelaa lisää Vaaravyöhyke-pelejä, jotta taitotasosi näytetään"
 
@@ -39063,8 +39640,8 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"XP_Bonus_RankUp_1"								"Ansaittu"
 		"XP_Bonus_RankUp_2"								"Ansaittu"
 		"XP_Bonus_RankUp_3"								"Viikon bonus"
-		"XP_Bonus_RankUp_4"								"Valvomon palkinto"
-		"XP_Bonus_RankUp_5"								"Viikon bonus (Valvomolta)"
+		"XP_Bonus_RankUp_4"								"Valvomon palkkio"
+		"XP_Bonus_RankUp_5"								"Viikon bonus (Valvomo)"
 		"XP_Bonus_RankUp_6"								"Tehtävien suoritus"
 		"XP_Bonus_RankUp_7"								"Tehtäväbonus"
 		"XP_Bonus_RankUp_8"								"Salamatehtävä"
@@ -39389,8 +39966,6 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"eom-survival-damage-taken"						"Otettu vahinko"
 		"eom-survival-damage-given"						"Aiheutettu vahinko"
 
-		"versus"										"VS"
-
 
 
 		//////////////////////////////////////////////////////////////////
@@ -39610,14 +40185,20 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		///////////////////////////////////////////////////////////
 
 		"Panorama_winpanel_mvp_award"				"Tähtipelaaja"
-		"Panorama_winpanel_mvp_award_kills"			"Tähtipelaaja: eniten tappoja"
+		"Panorama_winpanel_mvp_award_kills"			"Tähtipelaaja"
 		"Panorama_winpanel_mvp_award_ace"			"Tähtipelaaja: ässäkierros"
 		"Panorama_winpanel_mvp_award_bombplant"		"Tähtipelaaja: asetti pommin"
 		"Panorama_winpanel_mvp_award_bombdefuse"	"Tähtipelaaja: purki pommin"
 		"Panorama_winpanel_mvp_award_rescue"		"Tähtipelaaja: pelasti panttivangin"
 		"Panorama_winpanel_mvp_award_score"			"Tähtipelaaja: korkein pistemäärä"
-		"Panorama_winpanel_mvp_award_gungame"		"{s:mvp}"
-		"Panorama_winpanel_mvp_winner"				"{s:mvp}"
+		"Panorama_winpanel_mvp_award_inferno"		"Tähtipelaaja, joka aiheutti merkittävästi tulivahinkoa"
+		"Panorama_winpanel_mvp_award_blast"			"Tähtipelaaja, joka aiheutti merkittävästi vahinkoa räjähdyksillä"
+		"Panorama_winpanel_mvp_award_bombdefuse_clutch"	"Tähtipelaaja, joka purki pommin viimeisenä erikoisjoukkojen selviytyjänä"
+		"Panorama_winpanel_mvp_award_bombplant_clutch"	"Tähtipelaaja, joka asetti pommin ja puolusti sitä"
+		"Panorama_winpanel_mvp_award_gungame"		"Tähtipelaaja"
+		"Panorama_winpanel_mvp_winner"				"Tähtipelaaja"
+		"Panorama_winpanel_mvp_award_kills_three"	"Tähtipelaaja, joka sai eniten tappoja (3)"
+		"Panorama_winpanel_mvp_award_kills_four"	"Tähtipelaaja, joka sai eniten tappoja (4)"
 
 		"Panorama_WinPanel_rank_awarded_multi"	"Saavutit {d:rank_increase} uutta tasoa!"
 
@@ -39723,6 +40304,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"pickem_save_all" 			"TALLENNA VEIKKAUKSET"
 		"pickem_make_picks" 		"VEIKKAUKSET: {d:user-picks}/{d:total-picks}"
 		"pickem_drag_picks" 		"Veikkaa vetämällä ja pudottamalla joukkueita"
+		"pickem_reveal_all_results" "Näytä lopulliset sijoitukset"
 		"pickem_saved" 		"Veikkaukset tallennettu"
 		"pickem_teams_tbd" 	"Päätä joukkueet"
 		"pickem_challenge_section_title" "PICK'EM-HAASTE"
@@ -39732,9 +40314,12 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"pickem_items_tab_playoff_stage" "PUDOTUSPELIT"
 		"pickem_teams_remove_all_tooltip" 	"Tyhjennä kaikki veikkaukset"
 		"pickem_teams_fill_tooltip" 	"Täytä tyhjät valinnat satunnaisesti"
-		"pickem_teams_remove_all_tooltip" 	"Clear all picks"
+		"pickem_versus"				"VS"
+		"contextmenu_pickem_souvenir_title" 	"Valitse ottelu, jonka tuliaispaketin haluat"
 		"contextmenu_pickem_souvenir_no_result" 	"Palaa ottelun päätyttyä lunastamaan tuliaispaketti"
 		"mainmenu_major_hub"	"KÖÖPENHAMINA 2024 -SIVUSTO JA -ESINEET"
+		"mainmenu_major_hub_items"	"Tarrat nyt saatavilla"
+		"mainmenu_major_hub_no_items" "KÖÖPENHAMINAN MAJOR -SIVUSTO"
 
 		"pickem_swiss_group_00"									"0–0"
 		"pickem_swiss_group_10"									"1–0"
@@ -39773,6 +40358,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"eventsched_match_link"									"Ottelun tiedot osoitteessa HLTV.org"
 		"eventsched_team_link"									"Joukkueen tiedot osoitteessa HLTV.org"	
 		"eventsched_no_streams"									"Ei saatavilla olevia lähetyksiä"
+		"eventsched_watch_on_gotv"								"Katso CSTV:ssä"
 		"eventsched_favorite_tt"								"{s:favorite_tooltip}"
 		"eventsched_favorite_tooltip_prime"			"Jos laitat tapahtuman suosikiksi,\nsen liveottelut näytetään päävalikossa."
 		"eventsched_favorite_tooltip_not_prime" "Tapahtuman lisäämiseksi suosikkeihin vaaditaan Prime-tilaa."
@@ -39823,21 +40409,19 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		//
 		///////////////////////////////////////////////////////////
 		
-		"Panorama_Overwatch_Downloading"		"Ladataan tapaustiedostoja..."
-		"Panorama_Overwatch_Review"				"Tapauksen arviointi kestää suunnilleen 10 minuuttia."
-		"Panorama_Overwatch_Welcome"			"Tervetuloa Valvomoon"
-		"Panorama_Overwatch_Tooltip_p1"		"Valvomo antaa CS2-yhteisölle mahdollisuuden säännellä käytöstään antamalla kokeneille ja ammattitaitoisille yhteisön jäsenille (valvojille) työkalut arvioida ilmiantoja häiriökäyttäytymisestä, päättää ilmiantojen paikkansapitävyydestä ja antaa tarvittaessa kieltoja.\nJos suostut mukaan toimintaan, sinulle annetaan katsottavaksi noin 10 minuuttia kestävä uusinta ilmiannetusta pelaajasta. Sen katsomisen jälkeen teet ratkaisun."
+		"Panorama_Overwatch_Downloading"		"Ladataan tapauksen tiedostoja"
+		"Panorama_Overwatch_Review"				"Tapauksen arviointi kestää muutaman minuutin."
+		"Panorama_Overwatch_Welcome"			"Counter-Strike-valvomo"
+		"Panorama_Overwatch_Tooltip_p1"			"Counter-Strike-yhteisön jäsenenä lataat ja katsot CS2-pelien uusintoja virallisilla Valve-palvelimilla epäilyttävän käyttäytymisen löytämiseksi. Katseltuasi uusinnan teet päätöksen epäillyn pelistä."
 		"Panorama_Overwatch_Tooltip_sh1"		"1. vaihe"
-		"Panorama_Overwatch_Tooltip_p2"		"Klikkaa <b>Lataa todistusaineisto</b> -painiketta. Tapauksen uusintatiedosto alkaa latautua."
+		"Panorama_Overwatch_Tooltip_p2"			"Klikkaa Lataa todistusaineisto -painiketta Valvomo-tapauksen oikeasta alakulmasta."
 		"Panorama_Overwatch_Tooltip_sh2"		"2. vaihe"
-		"Panorama_Overwatch_Tooltip_p3"			"Klikkaa <b>Katso todistusaineisto</b> ja katso uusinta."
+		"Panorama_Overwatch_Tooltip_p3"			"Klikkaa Katso todistusaineisto ja katso palvelimelle tallennettu uusinta pelistä pelaajan näkökulmasta."
 		"Panorama_Overwatch_Tooltip_sh3"		"3. vaihe"
-		"Panorama_Overwatch_Tooltip_p4"			"Valitse lopuksi annetuista vaihtoehdoista sopivin."
-		"Panorama_Overwatch_Tooltip_sh4"		"4. vaihe"
-		"Panorama_Overwatch_Tooltip_p5"			"Valmista tuli!\n\nTapaustesi ratkaisujen jälkeen saat tuomioidesi tarkkuuden perusteella <b>ansaittuja kokemuspisteitä</b>. Voit käyttää kokemuspistepalkintosi virallisilta palvelimilta pelin lopuksi. CS2-yhteisö kiittää avustasi."
+		"Panorama_Overwatch_Tooltip_p4"			"Valitse lopuksi kuhunkin kysymykseen vastaus ja klikkaa Lähetä tuomio."
 		"Panorama_Overwatch_Major_Disruption"	"Vakava häirintä"
 		"Panorama_Overwatch_Minor_Disruption"	"Lievä häirintä"
-		"Panorama_Overwatch_Res_Griefing"		"Häirintä"
+		"Panorama_Overwatch_Res_Griefing"		"Kiusaaminen"
 		"Panorama_Overwatch_Res_AimHacking"		"Avustettu tähtäys"
 		"Panorama_Overwatch_Res_WallHacking"	"Avustettu näkymä"
 		"Panorama_Overwatch_Res_SpeedHacking"	"Muu ulkopuolinen avustus"
@@ -40087,15 +40671,42 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"LoadoutLockedPopupTitle"				"Varustelasti lukittu"
 		"LoadoutLockedPopupText"				"Muutokset varustelastiin eivät ole sallittuja kilpailullisen pelihaun aikana."
 
-		"Workshop_tournament_item_title" "Turnausesineiden lähettämistyökalu"
-		"Workshop_tournament_item_error_title" "Anna tuotteellesi nimi, joka sisältää pelaajan nimen tai muut tunnistetiedot."
-		"Workshop_tournament_item_error_image" "Valitse hyväksyttävä jpeg- tai png-kuva, jonka koko on alle {s:max_size} ja vähimmäisleveys ja -korkeus on {d:min_height}."
-		"Workshop_tournament_item_ready" "Lähetys on valmis lähetettäväksi"
+		"Workshop_item_title" "Esineiden lähetystyökalu"
+		"Workshop_item_error_title" "Anna tuotteellesi nimi, joka sisältää pelaajan nimen tai muut tunnistetiedot."
+		"Workshop_item_error_image" "Valitse hyväksyttävä jpeg- tai png-kuva, jonka koko on alle {s:max_size} ja vähimmäisleveys ja -korkeus on {d:min_height}."
+		"Workshop_item_ready" "Esine on valmis lähetettäväksi"
 		"SFUI_Go_To_Mic_Enable_key" "Siirry mikrofonin näppäinmääritykseen"
 		"SFUI_Go_To_Console_Key_Binding" "Siirry konsolin näppäinmääritykseen"
 
-// crow_mask_41910_comment
-// crow_mask_41911_comment
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Steam Video
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"SteamVideo_Player_Kill_Title"					"Tapoit pelaajan %s1"
+		"SteamVideo_Player_Kill_Description"			"aseella %s1"
+				
+		"SteamVideo_Player_Double_Kill_Title"			"Tuplatappo"
+		"SteamVideo_Player_Multi_Kill_Title"			"Useita tappoja"
+		
+		"SteamVideo_Player_Death_Title"					"%s1 tappoi sinut"
+		"SteamVideo_Player_Death_Description"			"aseella %s1"
+		"SteamVideo_Player_Death_Description_Plural"	"aseilla %s1"
+		"SteamVideo_Player_Killed_Self_Title"			"Tapoit itsesi"
+		
+		"SteamVideo_Bomb_Planted_Title"					"Pommi asetettu"
+		"SteamVideo_Bomb_Planted"						"%s1 asetti pommin"
+		"SteamVideo_Bomb_Planted_LocalPlayer"			"Asetit pommin"
+		
+		"SteamVideo_Bomb_Defused_Title"					"Pommi purettiin"
+		"SteamVideo_Bomb_Defused"						"%s1 purki pommin"
+		"SteamVideo_Bomb_Defused_LocalPlayer"			"Purit pommin"
+		
+		"SteamVideo_Bomb_Exploded_Title"				"Pommi räjähti"
+		
+		"SteamVideo_Round_Number_Label"					"Erä %s1"
+		"SteamVideo_Start_Of_Round_Title"				"%s1. erän alku"
+
+// crow_mask_42161_comment
+// crow_mask_42162_comment
 }
 
 

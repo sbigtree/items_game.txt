@@ -75,7 +75,18 @@
 		"GameUI_Always" 	"Her Zaman"
 		"GameUI_ObservedBotCrosshair_Takeover" 	"Botu kontrol ettiğimde"
 		"GameUI_ObservedBotCrosshair_Default" 	"Asla"
-
+		"GameUI_KeepCrosshair"	"Normal nişangâhı göster"
+		"GameUI_KeepCrosshairInfo" "El bombası hedef göstergesi görünürken normal nişangâh işareti görünmeye devam eder."
+		"GameUI_GrenadeCrosshairFlash"	"Flaş bombaları"
+		"GameUI_GrenadeCrosshairHE"	"El bombaları"
+		"GameUI_GrenadeCrosshairFire"	"Molotof kokteylleri / Yanıcı bombalar"
+		"GameUI_GrenadeCrosshairSmoke"	"Sis bombaları"
+		"GameUI_GrenadeCrosshairDecoy"	"Yanıltıcı bombalar"
+		"GameUI_GrenadeCrosshairInfoTooltipFlash" "Flaş bombalarının hedef göstergesi görünsün mü? Görünecekse, pim çekildikten ne kadar süre sonra görünsün?"
+		"GameUI_GrenadeCrosshairInfoTooltipHE" "El bombalarının hedef göstergesi görünsün mü? Görünecekse, pim çekildikten ne kadar süre sonra görünsün?"
+		"GameUI_GrenadeCrosshairInfoTooltipFire" "Molotofların ve yanıcı bombaların hedef göstergesi görünsün mü? Görünecekse, pim çekildikten ne kadar süre sonra görünsün?"
+		"GameUI_GrenadeCrosshairInfoTooltipSmoke" "Sis bombalarının hedef göstergesi görünsün mü? Görünecekse, pim çekildikten ne kadar süre sonra görünsün?"
+		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Yanıltıcı bombaların hedef göstergesi görünsün mü? Görünecekse, pim çekildikten ne kadar süre sonra görünsün?"
 
 
 		"GameUI_Xhair_Reset_Tooltip" 		"Tüm nişangâh değerlerini varsayılanlara sıfırla."
@@ -231,7 +242,7 @@
 		"GameUI_Disconnect_SteamTicket"						"STEAM UserID verisi geçersiz."
 		"GameUI_Disconnect_SteamLogon"						"Steam girişi yapılmadı."
 		"GameUI_Disconnect_SteamInUse"						"Bu Steam hesabı başka bir konumda kullanılıyor."
-		"GameUI_Disconnect_SteamOwnership"					"Bu Steam hesabı bu oyuna sahip değil.\nLütfen doğru Steam hesabıyla giriş yapın."
+		"GameUI_Disconnect_SteamOwnership"					"Bu Steam hesabında oyunun sahiplik durumu doğrulanamadı."
 		"GameUI_Disconnect_SteamVAC"						"VAC korumalı sunuculardan yasaklı."
 		"GameUI_Disconnect_SteamTimeOut"					"Valve Anti-Hile zaman aşımına uğradı. Lütfen VAC ile etkileşime girebilecek herhangi bir program kullanmadığınızdan ve Steam'in düzgün yüklendiğinden emin olun."
 		"GameUI_Disconnect_StringTableMessage"				"Karakter katarı tablosu güncelleme mesajı yazma hatası."
@@ -515,8 +526,9 @@
 		"loadingscreen_title_ar_shoots_3"		"Shoots"
 		"loadingscreen_title_ar_shoots_4"		"Shoots"
 
-		"GameUI_Settings_ShowLocation"		"Yeri Göster"
-		"GameUI_Settings_ShowLocationAndEquipment"		"Yeri ve Ekipmanı Göster"
+		"GameUI_Settings_ShowLocation"					"Üçgenler"
+		"GameUI_Settings_ShowLocationAndName"			"Üçgenler, Adlar ve Sağlık"
+		"GameUI_Settings_ShowLocationAndEquipment"		"Üçgenler, Adlar, Sağlık ve Ekipman"
 
 		"GameUI_ReportBug"		"HATA BİLDİR"
 		"GameUI_Bug_Successful"		"Hata başarıyla bildirildi!"
@@ -1085,6 +1097,7 @@
 		"Cstrike_TitlesTXT_Game_added_position"								"5 pozisyondan %s1. sıraya eklendin"
 		"Cstrike_TitlesTXT_Game_bomb_drop"									"%s1 bombayı bıraktı."
 		"Cstrike_TitlesTXT_Game_afk_bomb_drop"								"Bombayı bıraktım."
+		"Cstrike_TitlesTXT_Game_get_out_of_there"							"Oradan uzaklaşın!"
 		"Cstrike_TitlesTXT_Game_bomb_pickup"								"%s1 bombayı aldı."
 		"Cstrike_TitlesTXT_Game_connected"									"%s1 bağlandı."
 		"Cstrike_TitlesTXT_Game_disconnected"								"%s1 oyundan ayrıldı."
@@ -1148,7 +1161,7 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"Cstrike_TitlesTXT_Hint_terrorist_vip_zone"							"VIP kaçış bölgesindesin. VIP'nin bu bölgelerden birine ulaşmasına engel ol."
 		"Cstrike_TitlesTXT_Hint_DZPartner"									"Manga arkadaşın %s1"
 		"Cstrike_TitlesTXT_Hint_try_not_to_injure_teammates"				"Takım arkadaşlarına zarar vermemeye çalış."
-		"Cstrike_TitlesTXT_Hint_use_nightvision"							"GECE GÖRÜ��Ü tuşu ile gece görüş gözlüğünü aç/kapa. Gece görüşü konsola \"+nvgadjust\" ya da \"-nvgadjust\" komutları yazılarak ayarlanabilir."
+		"Cstrike_TitlesTXT_Hint_use_nightvision"							"GECE GÖRÜŞÜ tuşu ile gece görüş gözlüğünü aç/kapa. Gece görüşü konsola \"+nvgadjust\" ya da \"-nvgadjust\" komutları yazılarak ayarlanabilir."
 		"Cstrike_TitlesTXT_Hint_win_round_by_killing_enemy"					"Bir düşmanı öldürdün! Karşı takımı ortadan kaldırarak raundu kazanabilirsin."
 		"Cstrike_TitlesTXT_Hold_this_position"								"Burayı koruyun."
 		"Cstrike_TitlesTXT_Hostage"											"Rehine"
@@ -1362,6 +1375,8 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"CTBar"				"AT Bar"
 		"UpperCatwalks"		"Üst Geçit"
 		"LowerCatwalks"		"Alt Geçit"
+		"UpperCatwalk"		"Üst Geçit"
+		"UpperConveyor"		"Üst Konveyör"
 		"GroundLevel"		"Yer Seviyesi"
 		"LockerRoom"		"Soyunma Odası"
 		"BackEntrance"		"Arka Giriş"
@@ -1569,88 +1584,92 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"item_cooldown_rounds"			"%s1 (%s2 raunt içinde ikmal)"
 		"item_cooldown_minutes"			"%s1 (%s2 dakika içinde ikmal)"
 
-		"SFUI_WPNHUD_Pistol"		"Tabanca"
-		"SFUI_WPNHUD_SMG"			"Hafif Makineli"
-		"SFUI_WPNHUD_Rifle"			"Tüfek"
-		"SFUI_WPNHUD_Heavy"			"Ağır Silahlar"
-		"SFUI_WPNHUD_Grenade"		"El bombası"
-		"SFUI_WPNHUD_SniperRifle"	"Keskin Nişancı Tüfeği"
-		"SFUI_WPNHUD_Sniper"		"Keskin Nişancı"
-		"SFUI_WPNHUD_Shotgun"		"Pompalı Tüfek"
-		"SFUI_WPNHUD_AK47"			"AK-47"
-		"SFUI_WPNHUD_Aug"			"AUG"
-		"SFUI_WPNHUD_AWP"			"AWP"
-		"SFUI_WPNHUD_DesertEagle"	"Desert Eagle"
-		"SFUI_WPNHUD_Deagle"		"Desert Eagle"
-		"SFUI_WPNHUD_Elites"		"Çift Beretta"
-		"SFUI_WPNHUD_Elite"			"Çift Beretta"
-		"SFUI_WPNHUD_Famas"			"FAMAS"
-		"SFUI_WPNHUD_FiveSeven"		"Five-SeveN"
-		"SFUI_WPNHUD_Flashbang"		"Flaş Bombası"
-		"SFUI_WPNHUD_G3SG1"			"G3SG1"
-		"SFUI_WPNHUD_GalilAR"		"Galil AR"
-		"SFUI_WPNHUD_Glock18"		"Glock-18"
-		"SFUI_WPNHUD_HE_Grenade"	"El Bombası"
-		"SFUI_WPNHUD_HEGrenade"		"El Bombası"
-		"SFUI_WPNHUD_Knife"			"Bıçak"
-		"SFUI_WPNHUD_Knife_T"		"Bıçak"
-		"SFUI_WPNHUD_Knife_GG"		"Altın Bıçak"
-		"SFUI_WPNHUD_Knife_Ghost"	"Hayalet Kaması"
-		"SFUI_WPNHUD_M249"			"M249"
-		"SFUI_WPNHUD_M4A1"			"M4A4"
-		"SFUI_WPNHUD_M4_SILENCER"	"M4A1-S"
-		"SFUI_WPNHUD_M4A1_silencer"	"M4A1-S"
-		"SFUI_WPNHUD_MAC10"			"MAC-10"
-		"SFUI_WPNHUD_P90"			"P90"
-		"SFUI_WPNHUD_Smoke_Grenade"	"Sis Bombası"
-		"SFUI_WPNHUD_SmokeGrenade"	"Sis Bombası"
-		"SFUI_WPNHUD_UMP45"			"UMP-45"
-		"SFUI_WPNHUD_xm1014"		"XM1014"
-		"SFUI_WPNHUD_C4"			"C4 Patlayıcı"
-		"SFUI_WPNHUD_Bizon"			"PP-Bizon"
-		"SFUI_WPNHUD_Mag7"			"MAG-7"
-		"SFUI_WPNHUD_Negev"			"Negev"
-		"SFUI_WPNHUD_Sawedoff"		"Sawed-Off"
-		"SFUI_WPNHUD_Tec9"			"Tec-9"
-		"SFUI_WPNHUD_Taser"			"Zeus x27"
-		"SFUI_WPNHUD_Molotov"		"Molotof"
-		"SFUI_WPNHUD_IncGrenade"	"Yanıcı Bomba"
-		"SFUI_WPNHUD_Decoy"			"Yanıltıcı Bomba"
-		"SFUI_WPNHUD_HKP2000"		"P2000"
-		"SFUI_WPNHUD_MP7"			"MP7"
-		"SFUI_WPNHUD_MP5SD"			"MP5-SD"
-		"SFUI_WPNHUD_MP9"			"MP9"
-		"SFUI_WPNHUD_Nova"			"Nova"
-		"SFUI_WPNHUD_P250"			"P250"
-		"SFUI_WPNHUD_CZ75"			"CZ75-Otomatik"
-		"SFUI_WPNHUD_SCAR20"		"SCAR-20"
-		"SFUI_WPNHUD_SG556"			"SG 553"
-		"SFUI_WPNHUD_SSG08"			"SSG 08"
+		"SFUI_WPNHUD_Pistol"					"Tabanca"
+		"SFUI_WPNHUD_SMG"						"Hafif Makineli"
+		"SFUI_WPNHUD_Rifle"						"Tüfek"
+		"SFUI_WPNHUD_Heavy"						"Ağır Silahlar"
+		"SFUI_WPNHUD_Grenade"					"El bombası"
+		"SFUI_WPNHUD_SniperRifle"				"Keskin Nişancı Tüfeği"
+		"SFUI_WPNHUD_Sniper"					"Keskin Nişancı"
+		"SFUI_WPNHUD_Shotgun"					"Pompalı Tüfek"
+		"SFUI_WPNHUD_AK47"						"AK-47"
+		"SFUI_WPNHUD_Aug"						"AUG"
+		"SFUI_WPNHUD_AWP"						"AWP"
+		"SFUI_WPNHUD_DesertEagle"				"Desert Eagle"
+		"SFUI_WPNHUD_Deagle"					"Desert Eagle"
+		"SFUI_WPNHUD_Elites"					"Çift Beretta"
+		"SFUI_WPNHUD_Elite"						"Çift Beretta"
+		"SFUI_WPNHUD_Famas"						"FAMAS"
+		"SFUI_WPNHUD_FiveSeven"					"Five-SeveN"
+		"SFUI_WPNHUD_Flashbang"					"Flaş Bombası"
+		"SFUI_WPNHUD_G3SG1"						"G3SG1"
+		"SFUI_WPNHUD_GalilAR"					"Galil AR"
+		"SFUI_WPNHUD_Glock18"					"Glock-18"
+		"SFUI_WPNHUD_HE_Grenade"				"El Bombası"
+		"SFUI_WPNHUD_HE_Grenade_short"			"El Bombası"		
+		"SFUI_WPNHUD_HEGrenade"					"El Bombası"
+		"SFUI_WPNHUD_Knife"						"Bıçak"
+		"SFUI_WPNHUD_Knife_T"					"Bıçak"
+		"SFUI_WPNHUD_Knife_GG"					"Altın Bıçak"
+		"SFUI_WPNHUD_Knife_Ghost"				"Hayalet Kaması"
+		"SFUI_WPNHUD_M249"						"M249"
+		"SFUI_WPNHUD_M4A1"						"M4A4"
+		"SFUI_WPNHUD_M4_SILENCER"				"M4A1-S"
+		"SFUI_WPNHUD_M4A1_silencer"				"M4A1-S"
+		"SFUI_WPNHUD_MAC10"						"MAC-10"
+		"SFUI_WPNHUD_P90"						"P90"
+		"SFUI_WPNHUD_Smoke_Grenade"				"Sis Bombası"
+		"SFUI_WPNHUD_SmokeGrenade"				"Sis Bombası"
+		"SFUI_WPNHUD_UMP45"						"UMP-45"
+		"SFUI_WPNHUD_xm1014"					"XM1014"
+		"SFUI_WPNHUD_C4"						"C4 Patlayıcı"
+		"SFUI_WPNHUD_Bizon"						"PP-Bizon"
+		"SFUI_WPNHUD_Mag7"						"MAG-7"
+		"SFUI_WPNHUD_Negev"						"Negev"
+		"SFUI_WPNHUD_Sawedoff"					"Sawed-Off"
+		"SFUI_WPNHUD_Tec9"						"Tec-9"
+		"SFUI_WPNHUD_Taser"						"Zeus x27"
+		"SFUI_WPNHUD_Molotov"					"Molotof"
+		"SFUI_WPNHUD_IncGrenade"				"Yanıcı Bomba"
+		"SFUI_WPNHUD_IncGrenade_short"			"Yanıcı"
+		"SFUI_WPNHUD_Decoy"						"Yanıltıcı Bomba"
+		"SFUI_WPNHUD_Decoy_short"				"Yanıltıcı"
+		"SFUI_WPNHUD_HKP2000"					"P2000"
+		"SFUI_WPNHUD_MP7"						"MP7"
+		"SFUI_WPNHUD_MP5SD"						"MP5-SD"
+		"SFUI_WPNHUD_MP9"						"MP9"
+		"SFUI_WPNHUD_Nova"						"Nova"
+		"SFUI_WPNHUD_P250"						"P250"
+		"SFUI_WPNHUD_CZ75"						"CZ75-Otomatik"
+		"SFUI_WPNHUD_SCAR20"					"SCAR-20"
+		"SFUI_WPNHUD_SG556"						"SG 553"
+		"SFUI_WPNHUD_SSG08"						"SSG 08"
 		"SFUI_WPNHUD_HEAVYASSAULTSUIT"			"Ağır Saldırı Zırhı"
 		"SFUI_WPNHUD_ASSAULTSUIT"				"Çelik Yelek ve Kask"
 		"SFUI_WPNHUD_ASSAULTSUIT_ONLY_HELMET"	"Kask"
 		"SFUI_WPNHUD_KEVLAR"					"Çelik Yelek"
-		"SFUI_WPNHUD_DEFUSER"		"İmha Teçhizatı"
-		"SFUI_WPNHUD_CUTTERS"		"Kurtarma Teçhizatı"
-		"SFUI_WPNHUD_REVOLVER"		"R8 Revolver"
-		"SFUI_WPNHUD_USP_SILENCER"	"USP-S"
-		"SFUI_WPNHUD_KnifeBayonet"	"Bayonet"
-		"SFUI_WPNHUD_KnifeFlip"		"Sustalı Bıçak"
-		"SFUI_WPNHUD_KnifeGut"		"Kancalı Bıçak"
-		"SFUI_WPNHUD_KnifeCSS"		"Klasik Bıçak"
-		"SFUI_WPNHUD_KnifeM9"		"M9 Bayonet"
-		"SFUI_WPNHUD_KnifeKaram"	"Karambit"
-		"SFUI_WPNHUD_KnifeTactical" "Avcı Bıçağı"
-		"SFUI_WPNHUD_Knife_Butterfly" "Kelebek Bıçak"
-		"SFUI_WPNHUD_PartyPopper"		"Parti Patlatıcı!"
-		"SFUI_WPNHUD_knife_falchion_advanced" "Pala Bıçağı"
-		"SFUI_WPNHUD_knife_push" "Gölge Hançerler"
-		"SFUI_WPNHUD_knife_survival_bowie" "Bowie Bıçağı"
-		"SFUI_WPNHUD_Healthshot"			"Sağlık Aşısı"
-		"SFUI_WPNHUD_TAGrenade"	"Taktiksel Farkındalık Bombası"
-		"SFUI_WPNHUD_Exploding_Barrel"	"Patlayan Varil"
-		"SFUI_WPNHUD_Snowball"	"Kartopu"
-		"SFUI_WPNHUD_StompDamageKillString"	"kafatasını parçaladı"
+		"SFUI_WPNHUD_DEFUSER"					"İmha Teçhizatı"
+		"SFUI_WPNHUD_CUTTERS"					"Kurtarma Teçhizatı"
+		"SFUI_WPNHUD_REVOLVER"					"R8 Revolver"
+		"SFUI_WPNHUD_USP_SILENCER"				"USP-S"
+		"SFUI_WPNHUD_KnifeBayonet"				"Bayonet"
+		"SFUI_WPNHUD_KnifeFlip"					"Sustalı Bıçak"
+		"SFUI_WPNHUD_KnifeGut"					"Kancalı Bıçak"
+		"SFUI_WPNHUD_KnifeCSS"					"Klasik Bıçak"
+		"SFUI_WPNHUD_KnifeM9"					"M9 Bayonet"
+		"SFUI_WPNHUD_KnifeKaram"				"Karambit"
+		"SFUI_WPNHUD_KnifeTactical" 			"Avcı Bıçağı"
+		"SFUI_WPNHUD_Knife_Butterfly" 			"Kelebek Bıçak"
+		"SFUI_WPNHUD_PartyPopper"				"Parti Patlatıcı!"
+		"SFUI_WPNHUD_knife_falchion_advanced" 	"Pala Bıçağı"
+		"SFUI_WPNHUD_knife_push" 				"Gölge Hançerler"
+		"SFUI_WPNHUD_knife_survival_bowie" 		"Bowie Bıçağı"
+		"SFUI_WPNHUD_Healthshot"				"Sağlık Aşısı"
+		"SFUI_WPNHUD_TAGrenade"					"Taktiksel Farkındalık Bombası"
+		"SFUI_WPNHUD_Exploding_Barrel"			"Patlayan Varil"
+		"SFUI_WPNHUD_Snowball"					"Kartopu"
+
+		"SFUI_WPNHUD_StompDamageKillString"		"kafatasını parçaladı"
 
 		"SFUI_WPNHUD_DangerZone"	"Tehlikeli Bölge"
 		"SFUI_WPNHUD_AutoSentry"	"Otomatik Taret"
@@ -2064,6 +2083,7 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"CSGO_Weapon_Possessive"				"<span class=\"possessive-player-name\">%s1 oyuncusuna ait</span> %s2"
 		"CSGO_Weapon_Possessive_T"				"<span class=\"possessive-player-name\">T %s1 oyuncusuna ait</span> %s2"
 		"CSGO_Weapon_Possessive_CT"				"<span class=\"possessive-player-name\">AT %s1 oyuncusuna ait</span> %s2"
+		"CSGO_Possessive"						"<span class=\"possessive-player-name\">%s1</span>:"
 
 		"DeathPanel_HappyHolidays"		"MUTLU YILLAR DİLER"
 		"DeathPanel_ScreenShot"		"[{s:bind_jpeg}] Bu anı kaydet"
@@ -2269,6 +2289,10 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"Econ_Loot_List_AndSomeMoreItems" "... Ve %s1 tane daha"
 
 		"Econ_Revolving_Loot_List"				"Aşağıdaki eşyalardan birini içerir:"
+		"Econ_Revolving_Loot_List_Single"		"Aç ve aşağıdakilerden birini kazan."
+		"Econ_Revolving_Loot_List_Rental"		"<img src='file://{images}/icons/ui/hourglass.svg' class='popup-decodable-lootlist-single-icon'/> Bu kasadaki her silahı (son derece nadir eşyalar hariç) 7 gün boyunca kirala. "
+
+		
 		"Econ_Revolving_Loot_List_Rare_Item"	"ya da Son Derece Nadir Özel Bir Eşya!"
 		"Exceedingly_Rare_Item"					"★ Nadir Özel Eşya ★"
 
@@ -2312,22 +2336,11 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"Item_GiftWrapped"						"%s1 şu hediyeyi paketledi: %s2"
 		"Item_PeriodicScoreReward"				" %s1 tarafından kazanılan: %s2"
 		"Item_Named"							"%s1, %s2 eşyasını %s3 olarak yeniden adlandırdı"
-
-		"Item_GiftsSent1Anon"					" %s1 bir hediye gönderdi!"
-		"Item_GiftsSent1Name"					" %s1 tarafından gönderilen hediye %s2 adlı kişiye teslim edildi!"
-		"Item_GiftsSentMany"					" %s1 %s2 hediye gönderdi!"
-		"Item_GiftsYouSentGift"					"Hediyeniz %s1 adlı kişiye ulaştırıldı!"
-		"Item_GiftsYouGotGift"					"%s1 adlı kişiden bir hediye aldınız! Hediyeniz envanterinizde onaylanmayı bekliyor."
+		"Item_Rental"							" %s1 şunu kiraladı: %s2"
 
 		"Item_NotConnected"						"Bu eşyayı kullanabilmek için bir maçta olmalısınız!"
 		"Item_Need2Players"						"Bu eşyayı kullanabilmeniz için maçınızda başka oyuncular da olmalı!"
 		"Item_NeedSpectators"					"Bu eşyayı kullanabilmeniz için maçınızı seyreden izleyiciler olmalı!"
-
-		"Item_GiftNoPlayers"					"Oyunda hediyenizi alabilecek oyuncu bulunmuyor."
-		"Item_GiftedItems"						"%s1, %s2 adlı kişiye bir hediye verdi!"
-		"Item_GifterText_Random"				"%recipient%, %giver% tarafından gönderilen hediyeyi almak üzere rastgele seçildi!"
-		"Item_GifterText_All"					"%giver% birkaç hediye dağıttı!"
-		"Item_GifterText_SelfOpen"				"%giver% bir paket açtı!"
 
 		"Item_Received_Event_Local"					"Şunu aldınız: %s1!"
 
@@ -2340,6 +2353,7 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"NewItemMethod_Traded"			"Takasla Aldın:"
 		"NewItemMethod_Purchased"		"Satın Aldıkların:"
 		"NewItemMethod_FoundInCrate"	"Kasadan Çıkardın:"
+		"NewItemMethod_Rental"			"Şunu kiraladın:"
 		"NewItemMethod_Gifted"			"Bir Hediye Aldın:"
 		"NewItemMethod_Promotion"		"Bir Mağaza Promosyon Eşyası Kazandın:"
 		"NewItemMethod_Earned"			"Kazandın:"
@@ -2416,6 +2430,7 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"ItemHistory_Transaction_Delete"								"Sildiğiniz öğe"
 		"ItemHistory_Transaction_Craft"									"Oluşturuldu"
 		"ItemHistory_Transaction_UnlockCrate"							"Bir kasa açıldı"
+		"ItemHistory_Transaction_UnlockCrateForRental"					"Kiralamak için bir kasa açıldı"
 		"ItemHistory_Transaction_UnsealGraffiti"						"Mührü kırılmış"
 		"ItemHistory_Transaction_SupportUndo"							"Counter-Strike Destek önceki eylemlerinizden birisini veya daha fazlasını geri aldı"
 		"ItemHistory_Transaction_UpgradeChallengeCoin"					"Bir mücadele jetonu seviye atladı"
@@ -2478,7 +2493,6 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"LoadoutSlot_customplayer"					"Ajanlar"
 
 		"LoadoutSlot_MusicKit"						"Müzik Kiti"
-
 
 		// Weapon Rarity Names
 		"Rarity_Default_Weapon"						"Standart"
@@ -2580,6 +2594,7 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"Attrib_ReferencedItem"						"İçeriği: %s1"
 		"Attrib_TimeLocalization_Hours"				"%s1 Saat"
 		"Attrib_TimeLocalization_Minutes"			"%s1 Dakika"
+		"Attrib_CanOpenForRental"					"Bu kasanın içindeki eşyalar kiralanabilir."
 
 		"Attrib_CompetitiveMinutesPlayedAsHrs"		"Rekabetçi Maç Oturum Süresi: %s1"
 		"Attrib_CompetitiveWins"					"Rekabetçi Maç Galibiyeti: %s1"
@@ -2606,6 +2621,7 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"Attrib_ModificationDate"					"Değiştirme Tarihi: %s1"
 		"Attrib_OperationBonusXP"					"Operasyon Bonusu Kazanıldı: +%s1 XP"
 		"Attrib_IssueDate"							"Düzenlenme tarihi: %s1"
+		"Attrib_ExpirationDate"						"Son kullanma tarihi: %s1"
 
 		"Attrib_SpraysRemaining"					"Kalan Kullanım: %s1"
 		"Attrib_SpraysRemaining_Unlimited"			"Sınırsız Grafiti"
@@ -2811,7 +2827,7 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"CSGO_official_leaderboard_season_7_xp_guardian"	"Kazanılan Muhafız TP'si"
 		"CSGO_official_leaderboard_season_7_xp_events"	"Kazanılan Etkinlik TP'si"
 
-		// premier 1
+		// premier
 		"official_leaderboard_premier_season1_name"			"Birinci Sezon"
 
 		//
@@ -3150,6 +3166,17 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"CSGO_Collectible_MapTokenBlagai"				"Blagai Harita Jetonu"
 		"CSGO_Collectible_MapTokenBoyard"				"Boyard Harita Jetonu"
 		"CSGO_Collectible_MapTokenChalice"				"Chalice Harita Jetonu"
+		"CSGO_Collectible_MapTokenPoolDay"				"Pool Day Harita Jetonu"
+		"CSGO_Collectible_MapTokenPoolDay_Desc"			"CS2 haritası \"Pool Day\"i oluşturduğu için verildi."
+		"CSGO_Collectible_MapTokenMemento"				"Memento Harita Jetonu"
+		"CSGO_Collectible_MapTokenMemento_Desc"			"CS2 haritası \"Memento\"yu oluşturduğu için verildi."
+		"CSGO_Collectible_MapTokenAssembly"				"Assembly Haritası Jetonu"
+		"CSGO_Collectible_MapTokenAssembly_Desc"		"CS2 haritası \"Assembly\"yi oluşturduğu için verildi."
+		"CSGO_Collectible_MapTokenMills"				"Mills Harita Jetonu"
+		"CSGO_Collectible_MapTokenMills_Desc"			"CS2 haritası \"Mills\"i oluşturduğu için verildi."
+		"CSGO_Collectible_MapTokenThera"				"Thera Haritası Jetonu"
+		"CSGO_Collectible_MapTokenThera_Desc"			"CS2 haritası \"Thera\"yı oluşturduğu için verildi."
+
 		"CSGO_CollectibleCoin_FortiusQuoFidelius"	"Sadakat Rozeti"
 		"CSGO_CollectibleCoin_FortiusQuoFidelius_Desc"	"Bu rozet, Tehlikeli Bölge güncellemesinden önce Counter-Strike topluluğuna gösterdiğin sadakatin anısınadır.\n\n<i>Kuvvet sadakatten doğar.</i>"
 		"CSGO_CollectibleCoin_FiveYearService"		"5 Yıllık Tecrübe Jetonu"
@@ -4008,7 +4035,6 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"CSGO_crate_key_community_21"		"Tehlikeli Bölge Kasası Anahtarı"
 		"CSGO_crate_key_community_21_desc"		"Bu anahtar sadece Tehlikeli Bölge kasalarını açar"
 
-
 		"CSGO_crate_community_22"				"Prizma Kasası"
 		"CSGO_crate_key_community_22"			"Prizma Kasası Anahtarı"
 		"CSGO_crate_key_community_22_desc"		"Bu anahtar sadece Prizma Kasalarını açar."
@@ -4094,7 +4120,6 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"CSGO_crate_sticker_pack_op_riptide_capsule"	    		"Girdap Operasyonu Çıkartma Koleksiyonu"
 		"CSGO_crate_sticker_pack_op_riptide_capsule_desc"			"Bu koleksiyon Girdap Operasyonu'nu kutlayan çeşitli çıkartmalar içerir."
 
-		
 		"CSGO_crate_community_30"		"Rüyalar ve Kâbuslar Kasası"
 		"CSGO_crate_key_community_30"			"Rüyalar ve Kâbuslar Kasası Anahtarı"
 		"CSGO_crate_key_community_30_desc"		"Bu anahtar sadece Rüyalar ve Kâbuslar Kasalarını açar"
@@ -4128,7 +4153,6 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		
 		"CSGO_crate_sticker_pack_community_2024_capsule"	    	"Pusu Çıkartma Kapsülü"
 		"CSGO_crate_sticker_pack_community_2024_capsule_desc"		"Şubat 2024'te çıkan bu kapsülde, Steam Atölyesi'nden çeşitli sanatçılara ait birçok çıkartma vardır."
-		
 		"coupon_community_2024_sticker_capsule"						"Pusu Çıkartma Kapsülü"
 		
 
@@ -4220,7 +4244,7 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"CSGO_FakePlayer_Donkey"			"Donkey"
 		"CSGO_FakePlayer_Duck"				"Duck"
 		"CSGO_FakePlayer_Emu"				"Emu"
-		"CSGO_FakePlayer_Eclipse"				"Eclipse"
+		"CSGO_FakePlayer_Eclipse"			"Eclipse"
 		"CSGO_FakePlayer_Flamingo"			"Flamingo"
 		"CSGO_FakePlayer_Flute"				"Flute"
 		"CSGO_FakePlayer_Frog"				"Frog"
@@ -4243,9 +4267,9 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"CSGO_FakePlayer_Ostrich"			"Ostrich"
 		"CSGO_FakePlayer_Octopus"			"Octopus"
 		"CSGO_FakePlayer_Pelican"			"Pelican"
-		"CSGO_FakePlayer_Puffin"				"Puffin"
+		"CSGO_FakePlayer_Puffin"			"Puffin"
 		"CSGO_FakePlayer_Pyramid"			"Pyramid"
-		"CSGO_FakePlayer_Rattle"				"Rattle"
+		"CSGO_FakePlayer_Rattle"			"Rattle"
 		"CSGO_FakePlayer_Robin"				"Robin"
 		"CSGO_FakePlayer_Rose"				"Rose"
 		"CSGO_FakePlayer_Salmon"			"Salmon"
@@ -4258,14 +4282,14 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"CSGO_FakePlayer_Toaster"			"Toaster"
 		"CSGO_FakePlayer_Toucan"			"Toucan"
 		"CSGO_FakePlayer_Torus"				"Torus"
-		"CSGO_FakePlayer_Violet"				"Violet"
-		"CSGO_FakePlayer_Vortex"				"Vortex"
+		"CSGO_FakePlayer_Violet"			"Violet"
+		"CSGO_FakePlayer_Vortex"			"Vortex"
 		"CSGO_FakePlayer_Vulture"			"Vulture"
 		"CSGO_FakePlayer_Wagon"				"Wagon"
 		"CSGO_FakePlayer_Whale"				"Whale"
 		"CSGO_FakePlayer_Woodpecker"			"Woodpecker"
 		"CSGO_FakePlayer_Zebra"				"Zebra"
-		"CSGO_FakePlayer_Zigzag"				"Zigzag"
+		"CSGO_FakePlayer_Zigzag"			"Zigzag"
 
 		//
 		// Coop and guardian bots localized names
@@ -5374,8 +5398,8 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"musickit_twerl_01_desc"				"Canlanmak için spot ışığında olmaktan daha iyi bir zaman olamaz. TWERL ve Ekko & Sidetrack'in davul ve bas marşı \"Under Bright Lights\"ın sizi ve ekibinizi yeni zirvelere taşımasına izin verin."
 		"coupon_twerl_01"						"Müzik Kiti | TWERL ve Ekko & Sidetrack, Under Bright Lights"
 		"coupon_twerl_01_stattrak"				"StatTrak™ Müzik Kiti | TWERL ve Ekko & Sidetrack, Under Bright Lights"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"." // Note: This only supports , and .
 
@@ -5950,7 +5974,7 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 // OP11 Week 7 Sub-Missions			
 		"quest_1271_var_desc"                              "{d:points} maç kazan"
 		"quest_1272_var_desc"                              "{d:points} raunt kazan"
-		"quest_1273_var_desc"                              "Orta kapılardan düşman ��ldür"
+		"quest_1273_var_desc"                              "Orta kapılardan düşman öldür"
 		"quest_1274_var_desc"                              "Geçitten düşman öldür"
 		"quest_1275_var_desc"                              "Ortanın üstünden düşman öldür"
 		"quest_1276_var_desc"                              "Çukurdan düşman öldür"
@@ -8196,7 +8220,7 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 	"StickerKit_eslcologne2015_signature_edward_foil" "Edward (Parlak) | Köln 2015"
 	"StickerKit_desc_eslcologne2015_signature_edward_foil" "Bu parlak çıkartma, Natus Vincere için ESL One Cologne 2015'de oynayan profesyonel oyuncu Ioann Sukhariev tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
 	"StickerKit_eslcologne2015_signature_edward_gold" "Edward (Altın) | Köln 2015"
-	"StickerKit_desc_eslcologne2015_signature_edward_gold" "Bu altın çıkartma, Natus Vincere için ESL One Cologne 2015'de oynayan profesyonel oyuncu Ioann Sukhariev tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
+	"StickerKit_desc_eslcologne2015_signature_edward_gold" "Bu altın çıkartma, Natus Vincere için ESL One Cologne 2015'de oynayan profesyonel oyuncu Ioann Sukhariev tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek i��in kullanılır."
 
 	"StickerKit_eslcologne2015_signature_flamie" "flamie | Köln 2015"
 	"StickerKit_desc_eslcologne2015_signature_flamie" "Bu çıkartma, Natus Vincere için ESL One Cologne 2015'de oynayan profesyonel oyuncu Egor Vasilyev tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
@@ -10799,7 +10823,7 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 	"StickerKit_cologne2016_signature_guardian" "GuardiaN | Köln 2016"
 	"StickerKit_desc_cologne2016_signature_guardian" "Bu çıkartma, Natus Vincere için Köln 2016'da oynayan profesyonel oyuncu Ladislav Kovács tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
 	"StickerKit_cologne2016_signature_guardian_foil" "GuardiaN (Parlak) | Köln 2016"
-	"StickerKit_desc_cologne2016_signature_guardian_foil" "Bu parlak çıkartma, Natus Vincere için K��ln 2016'da oynayan profesyonel oyuncu Ladislav Kovács tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
+	"StickerKit_desc_cologne2016_signature_guardian_foil" "Bu parlak çıkartma, Natus Vincere için Köln 2016'da oynayan profesyonel oyuncu Ladislav Kovács tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
 	"StickerKit_cologne2016_signature_guardian_gold" "GuardiaN (Altın) | Köln 2016"
 	"StickerKit_desc_cologne2016_signature_guardian_gold" "Bu altın çıkartma, Natus Vincere için Köln 2016'da oynayan profesyonel oyuncu Ladislav Kovács tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
 
@@ -11747,7 +11771,7 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 	"StickerKit_atlanta2017_signature_hobbit" "Hobbit | Atlanta 2017"
 	"StickerKit_desc_atlanta2017_signature_hobbit" "Bu çıkartma, Gambit Gaming için Atlanta 2017'de oynayan profesyonel oyuncu Abay Khassenov tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
 	"StickerKit_atlanta2017_signature_hobbit_foil" "Hobbit (Parlak) | Atlanta 2017"
-	"StickerKit_desc_atlanta2017_signature_hobbit_foil" "Bu parlak çıkartma, Gambit Gaming için Atlanta 2017'de oynayan profesyonel oyuncu Abay Khassenov tarafından imzalandı.\n\nBu çıkartman��n satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
+	"StickerKit_desc_atlanta2017_signature_hobbit_foil" "Bu parlak çıkartma, Gambit Gaming için Atlanta 2017'de oynayan profesyonel oyuncu Abay Khassenov tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
 	"StickerKit_atlanta2017_signature_hobbit_gold" "Hobbit (Altın) | Atlanta 2017"
 	"StickerKit_desc_atlanta2017_signature_hobbit_gold" "Bu altın çıkartma, Gambit Gaming için Atlanta 2017'de oynayan profesyonel oyuncu Abay Khassenov tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
 
@@ -14909,7 +14933,7 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 	"StickerKit_katowice2019_signature_tabsen_foil" "tabseN (Parlak) | Katowice 2019"
 	"StickerKit_desc_katowice2019_signature_tabsen_foil" "Bu parlak çıkartma, BIG için Katowice 2019'da oynayan profesyonel oyuncu Johannes Wodarz tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
 	"StickerKit_katowice2019_signature_tabsen_gold" "tabseN (Altın) | Katowice 2019"
-	"StickerKit_desc_katowice2019_signature_tabsen_gold" "Bu altın ��ıkartma, BIG için Katowice 2019'da oynayan profesyonel oyuncu Johannes Wodarz tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
+	"StickerKit_desc_katowice2019_signature_tabsen_gold" "Bu altın çıkartma, BIG için Katowice 2019'da oynayan profesyonel oyuncu Johannes Wodarz tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
 
 	"StickerKit_katowice2019_signature_tizian" "tiziaN | Katowice 2019"
 	"StickerKit_desc_katowice2019_signature_tizian" "Bu çıkartma, BIG için Katowice 2019'da oynayan profesyonel oyuncu Tizian Feldbusch tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
@@ -15203,7 +15227,7 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 	"StickerKit_katowice2019_signature_malta_foil" "malta (Parlak) | Katowice 2019"
 	"StickerKit_desc_katowice2019_signature_malta_foil" "Bu parlak çıkartma, Grayhound Gaming için Katowice 2019'da oynayan profesyonel oyuncu Liam Schembri tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
 	"StickerKit_katowice2019_signature_malta_gold" "malta (Altın) | Katowice 2019"
-	"StickerKit_desc_katowice2019_signature_malta_gold" "Bu altın çıkartma, Grayhound Gaming için Katowice 2019'da oynayan profesyonel oyuncu Liam Schembri tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
+	"StickerKit_desc_katowice2019_signature_malta_gold" "Bu altın çıkartma, Grayhound Gaming için Katowice 2019'da oynayan profesyonel oyuncu Liam Schembri tarafından imzalandı.\n\nBu çıkartman��n satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
 
 	"StickerKit_katowice2019_signature_dickstacy" "DickStacy | Katowice 2019"
 	"StickerKit_desc_katowice2019_signature_dickstacy" "Bu çıkartma, Grayhound Gaming için Katowice 2019'da oynayan profesyonel oyuncu Oliver Tierney tarafından imzalandı.\n\nBu çıkartmanın satışından elde edilen gelirin %50'si oyuncuları ve organizasyonları desteklemek için kullanılır."
@@ -18316,7 +18340,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 	"StickerKit_antwerp2022_signature_xfl0ud" "xfl0ud | Antwerp 2022"
 	"StickerKit_desc_antwerp2022_signature_xfl0ud" "Bu çıkartma Eternal Fire takımında oynayan ve PGL Antwerp 2022 Major Şampiyonası'na katılan profesyonel oyuncu Yasin Koç tarafından imzalanmıştır."
 	"StickerKit_antwerp2022_signature_xfl0ud_glitter" "xfl0ud (Parıltılı) | Antwerp 2022"
-	"StickerKit_desc_antwerp2022_signature_xfl0ud_glitter" "Bu parıltılı çıkartma Eternal Fire takımında oynayan ve PGL Antwerp 2022 Major Şampiyonası'na katılan profesyonel oyuncu Yasin Koç tarafından imzalanmıştır."
+	"StickerKit_desc_antwerp2022_signature_xfl0ud_glitter" "Bu parıltılı çıkartma Eternal Fire takımında oynayan ve PGL Antwerp 2022 Major Şampiyonası'na kat��lan profesyonel oyuncu Yasin Koç tarafından imzalanmıştır."
 	"StickerKit_antwerp2022_signature_xfl0ud_holo" "xfl0ud (Holo) | Antwerp 2022"
 	"StickerKit_desc_antwerp2022_signature_xfl0ud_holo" "Bu holografik çıkartma Eternal Fire takımında oynayan ve PGL Antwerp 2022 Major Şampiyonası'na katılan profesyonel oyuncu Yasin Koç tarafından imzalanmıştır."
 	"StickerKit_antwerp2022_signature_xfl0ud_gold" "xfl0ud (Altın) | Antwerp 2022"
@@ -18410,7 +18434,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 	"StickerKit_antwerp2022_signature_fl1t_holo" "FL1T (Holo) | Antwerp 2022"
 	"StickerKit_desc_antwerp2022_signature_fl1t_holo" "Bu holografik çıkartma Outsiders takımında oynayan ve PGL Antwerp 2022 Major Şampiyonası'na katılan profesyonel oyuncu Evgenii Lebedev tarafından imzalanmıştır."
 	"StickerKit_antwerp2022_signature_fl1t_gold" "FL1T (Altın) | Antwerp 2022"
-	"StickerKit_desc_antwerp2022_signature_fl1t_gold" "Bu altın ��ıkartma Outsiders takımında oynayan ve PGL Antwerp 2022 Major Şampiyonası'na katılan profesyonel oyuncu Evgenii Lebedev tarafından imzalanmıştır."
+	"StickerKit_desc_antwerp2022_signature_fl1t_gold" "Bu altın çıkartma Outsiders takımında oynayan ve PGL Antwerp 2022 Major Şampiyonası'na katılan profesyonel oyuncu Evgenii Lebedev tarafından imzalanmıştır."
 
 	"StickerKit_antwerp2022_signature_fang" "FaNg | Antwerp 2022"
 	"StickerKit_desc_antwerp2022_signature_fang" "Bu çıkartma Complexity Gaming takımında oynayan ve PGL Antwerp 2022 Major Şampiyonası'na katılan profesyonel oyuncu Justin Coakley tarafından imzalanmıştır."
@@ -18532,7 +18556,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 	"StickerKit_antwerp2022_signature_hatz" "hatz | Antwerp 2022"
 	"StickerKit_desc_antwerp2022_signature_hatz" "Bu çıkartma Renegades takımında oynayan ve PGL Antwerp 2022 Major Şampiyonası'na katılan profesyonel oyuncu Jordan Bajic tarafından imzalanmıştır."
 	"StickerKit_antwerp2022_signature_hatz_glitter" "hatz (Parıltılı) | Antwerp 2022"
-	"StickerKit_desc_antwerp2022_signature_hatz_glitter" "Bu parıltılı çıkartma Renegades takım��nda oynayan ve PGL Antwerp 2022 Major Şampiyonası'na katılan profesyonel oyuncu Jordan Bajic tarafından imzalanmıştır."
+	"StickerKit_desc_antwerp2022_signature_hatz_glitter" "Bu parıltılı çıkartma Renegades takımında oynayan ve PGL Antwerp 2022 Major Şampiyonası'na katılan profesyonel oyuncu Jordan Bajic tarafından imzalanmıştır."
 	"StickerKit_antwerp2022_signature_hatz_holo" "hatz (Holo) | Antwerp 2022"
 	"StickerKit_desc_antwerp2022_signature_hatz_holo" "Bu holografik çıkartma Renegades takımında oynayan ve PGL Antwerp 2022 Major Şampiyonası'na katılan profesyonel oyuncu Jordan Bajic tarafından imzalanmıştır."
 	"StickerKit_antwerp2022_signature_hatz_gold" "hatz (Altın) | Antwerp 2022"
@@ -18682,6 +18706,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 	"CSGO_TournamentJournal_rio2022_Silver" "Rio 2022 Gümüş Jetonu"
 	"CSGO_TournamentJournal_rio2022_Gold" "Rio 2022 Altın Jetonu"
 	"CSGO_TournamentJournal_rio2022_Crystal" "Rio 2022 Elmas Jetonu"
+
 	"CSGO_storageunit_rio2022_tinyname"		"Depolar"
 	"CSGO_storageunit0_rio2022"			"Kâğıt Çıkartma İçeren Rio 2022 Deposu"
 	"CSGO_storageunit0_rio2022_tinyname"		"Kâğıt Çıkartmalar İçerir"
@@ -19845,7 +19870,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 	"StickerKit_desc_rio2022_signature_techno4k_gold" "Bu altın çıkartma IHC Esports takımında oynayan ve IEM Rio 2022 Major Şampiyonası'na katılan profesyonel oyuncu Munkhbold Sodbayar tarafından imzalanmıştır."
 
 	"StickerKit_rio2022_signature_kabal" "kabal | Rio 2022"
-	"StickerKit_desc_rio2022_signature_kabal" "Bu çıkartma IHC Esports takımında oynayan ve IEM Rio 2022 Major Şampiyonası'na katılan profesyonel oyuncu Batbayar Bat-Enkh tarafından imzalanmıştır."
+	"StickerKit_desc_rio2022_signature_kabal" "Bu çıkartma IHC Esports takımında oynayan ve IEM Rio 2022 Major Şampiyonas��'na katılan profesyonel oyuncu Batbayar Bat-Enkh tarafından imzalanmıştır."
 	"StickerKit_rio2022_signature_kabal_glitter" "kabal (Parıltılı) | Rio 2022"
 	"StickerKit_desc_rio2022_signature_kabal_glitter" "Bu parıltılı çıkartma IHC Esports takımında oynayan ve IEM Rio 2022 Major Şampiyonası'na katılan profesyonel oyuncu Batbayar Bat-Enkh tarafından imzalanmıştır."
 	"StickerKit_rio2022_signature_kabal_holo" "kabal (Holo) | Rio 2022"
@@ -20153,7 +20178,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 	"CSGO_crate_signature_pack_paris2023_group_champions"     "Paris 2023 Şampiyonlar İmza Kapsülü"
 	"CSGO_crate_signature_pack_paris2023_group_champions_tinyname" "Şampiyon İmzaları"
 	"CSGO_crate_signature_pack_paris2023_group_champions_desc" "Bu kapsül tek bir Paris 2023'teki Şampiyonlar oyuncularından birisi tarafından imzalanmış kâğıt, parıltılı, holo veya altın çıkartması içerir.\n\nBu kapsülün satışından elde edilecek gelirin %50'si ilgili oyuncular ve organizasyonlara destek amacıyla aktarılacaktır.\n\nBu çıkartma sahip olduğun herhangi bir silaha yapıştırılabilir ve eskimiş görünmesi için kazınabilir. Aynı çıkartmayı birkaç kez kazıyabilirsin, her kazıyışında çıkartma biraz daha eskimiş görünür. Çıkartmayı yeterince kazırsan eşyandan tamamen sökülecektir."
-	
+
 	"StickerKit_paris2023_signature_apex_champion" "apEX (Şampiyon) | Paris 2023"
 	"StickerKit_desc_paris2023_signature_apex_champion" "Bu çıkartma, BLAST.tv Paris 2023 CS:GO Major Şampiyonası'nda şampiyon olan Vitality takımında oynayan profesyonel oyuncu Dan Madesclaire tarafından imzalanmıştır."
 	"StickerKit_paris2023_signature_apex_glitter_champion" "apEX (Parıltılı, Şampiyon) | Paris 2023"
@@ -21265,7 +21290,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 	"StickerKit_paris2023_signature_sk0r" "sk0R | Paris 2023"
 	"StickerKit_desc_paris2023_signature_sk0r" "Bu çıkartma, The MongolZ takımı için BLAST.tv Paris 2023 CS:GO Major Şampiyonasında oynayan profesyonel oyuncu Tengis Batjargal tarafından imzalanmıştır."
 	"StickerKit_paris2023_signature_sk0r_glitter" "sk0R (Parıltılı) | Paris 2023"
-	"StickerKit_desc_paris2023_signature_sk0r_glitter" "Bu parıltılı çıkartma, The MongolZ tak��mı için BLAST.tv Paris 2023 CS:GO Major Şampiyonasında oynayan profesyonel oyuncu Tengis Batjargal tarafından imzalanmıştır."
+	"StickerKit_desc_paris2023_signature_sk0r_glitter" "Bu parıltılı çıkartma, The MongolZ takımı için BLAST.tv Paris 2023 CS:GO Major Şampiyonasında oynayan profesyonel oyuncu Tengis Batjargal tarafından imzalanmıştır."
 	"StickerKit_paris2023_signature_sk0r_holo" "sk0R (Holo) | Paris 2023"
 	"StickerKit_desc_paris2023_signature_sk0r_holo" "Bu holografik çıkartma, The MongolZ takımı için BLAST.tv Paris 2023 CS:GO Major Şampiyonasında oynayan profesyonel oyuncu Tengis Batjargal tarafından imzalanmıştır."
 	"StickerKit_paris2023_signature_sk0r_gold" "sk0R (Altın) | Paris 2023"
@@ -21470,6 +21495,51 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 	"CSGO_crate_signature_pack_cph2024_group_champions"     "Kopenhag 2024 Şampiyonlar İmza Kapsülü"
 	"CSGO_crate_signature_pack_cph2024_group_champions_tinyname" "Şampiyon İmzaları"
 	"CSGO_crate_signature_pack_cph2024_group_champions_desc" "Bu kapsül Kopenhag 2024'teki bir Şampiyonlar oyuncusu tarafından imzalanmış tek bir kâğıt, parıltılı, holo veya altın çıkartma içerir.\n\nBu kapsülün satışından elde edilecek gelirin %50'si ilgili oyuncular ve organizasyonlara destek amacıyla aktarılacaktır.\n\nBu çıkartma sahip olduğun herhangi bir silaha yapıştırılabilir ve eskimiş görünmesi için kazınabilir. Aynı çıkartmayı birkaç kez kazıyabilirsin; Her kazıyışında çıkartma biraz daha eskimiş görünür. Çıkartmayı yeterince kazırsan silahından tamamen sökülecektir."
+
+	"StickerKit_cph2024_signature_jl_champion" "jL (Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_jl_champion" "Bu çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Justinas Lekavicius tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_jl_glitter_champion" "jL (Parıltılı, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_jl_glitter_champion" "Bu parıltılı çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Justinas Lekavicius tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_jl_holo_champion" "jL (Holo, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_jl_holo_champion" "Bu holografik çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Justinas Lekavicius tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_jl_gold_champion" "jL (Altın, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_jl_gold_champion" "Bu altın çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Justinas Lekavicius tarafından imzalanmıştır."
+
+	"StickerKit_cph2024_signature_aleksib_champion" "Aleksib (Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_champion" "Bu çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Aleksi Virolainen tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_aleksib_glitter_champion" "Aleksib (Parıltılı, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_glitter_champion" "Bu parıltılı çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Aleksi Virolainen tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_aleksib_holo_champion" "Aleksib (Holo, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_holo_champion" "Bu holografik çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Aleksi Virolainen tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_aleksib_gold_champion" "Aleksib (Altın, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_aleksib_gold_champion" "Bu altın çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Aleksi Virolainen tarafından imzalanmıştır."
+
+	"StickerKit_cph2024_signature_b1t_champion" "b1t (Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_b1t_champion" "Bu çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Valerii Vakhovskyi tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_b1t_glitter_champion" "b1t (Parıltılı, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_b1t_glitter_champion" "Bu parıltılı çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Valerii Vakhovskyi tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_b1t_holo_champion" "b1t (Holo, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_b1t_holo_champion" "Bu holografik çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Valerii Vakhovskyi tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_b1t_gold_champion" "b1t (Altın, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_b1t_gold_champion" "Bu altın çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Valerii Vakhovskyi tarafından imzalanmıştır."
+
+	"StickerKit_cph2024_signature_im_champion" "iM (Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_im_champion" "Bu çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Mihai Ivan tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_im_glitter_champion" "iM (Parıltılı, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_im_glitter_champion" "Bu parıltılı çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Mihai Ivan tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_im_holo_champion" "iM (Holo, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_im_holo_champion" "Bu holografik çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Mihai Ivan tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_im_gold_champion" "iM (Altın, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_im_gold_champion" "Bu altın çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Mihai Ivan tarafından imzalanmıştır."
+
+	"StickerKit_cph2024_signature_w0nderful_champion" "w0nderful (Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_champion" "Bu çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Ihor Zhdanov tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_w0nderful_glitter_champion" "w0nderful (Parıltılı, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_glitter_champion" "Bu parıltılı çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Ihor Zhdanov tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_w0nderful_holo_champion" "w0nderful (Holo, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_holo_champion" "Bu holografik çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Ihor Zhdanov tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_w0nderful_gold_champion" "w0nderful (Altın, Şampiyon) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_w0nderful_gold_champion" "Bu altın çıkartma PGL Kopenhag 2024 CS2 Major Şampiyonası şampiyonu Natus Vincere takımında oynayan profesyonel oyuncu Ihor Zhdanov tarafından imzalanmıştır."
 
 
 	"StickerKit_cph2024_signature_jl" "jL | Kopenhag 2024"
@@ -22102,50 +22172,50 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 	"StickerKit_cph2024_signature_styko_gold" "STYKO (Altın) | Kopenhag 2024"
 	"StickerKit_desc_cph2024_signature_styko_gold" "Bu altın çıkartma Apeks takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Martin Styk tarafından imzalanmıştır."
 
-	"StickerKit_cph2024_signature_clax" "clax | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_clax" "Bu çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Timur Sabirov tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_clax_glitter" "clax (Parıltılı) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_clax_glitter" "Bu parıltılı çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Timur Sabirov tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_clax_holo" "clax (Holo) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_clax_holo" "Bu holografik çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Timur Sabirov tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_clax_gold" "clax (Altın) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_clax_gold" "Bu altın çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Timur Sabirov tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_acor" "acoR | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_acor" "Bu çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Frederik Gyldstrand tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_acor_glitter" "acoR (Parıltılı) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_acor_glitter" "Bu parıltılı çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Frederik Gyldstrand tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_acor_holo" "acoR (Holo) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_acor_holo" "Bu holografik çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Frederik Gyldstrand tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_acor_gold" "acoR (Altın) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_acor_gold" "Bu altın çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Frederik Gyldstrand tarafından imzalanmıştır."
 
-	"StickerKit_cph2024_signature_d1ledez" "d1Ledez | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez" "Bu çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Daniil Kustov tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_d1ledez_glitter" "d1Ledez (Parıltılı) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez_glitter" "Bu parıltılı çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Daniil Kustov tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_d1ledez_holo" "d1Ledez (Holo) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez_holo" "Bu holografik çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Daniil Kustov tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_d1ledez_gold" "d1Ledez (Altın) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_d1ledez_gold" "Bu altın çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Daniil Kustov tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_isak" "isak | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_isak" "Bu çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Isak Fahlén tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_isak_glitter" "isak (Parıltılı) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_isak_glitter" "Bu parıltılı çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Isak Fahlén tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_isak_holo" "isak (Holo) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_isak_holo" "Bu holografik çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Isak Fahlén tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_isak_gold" "isak (Altın) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_isak_gold" "Bu altın çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Isak Fahlén tarafından imzalanmıştır."
 
-	"StickerKit_cph2024_signature_glowiing" "glowiing | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_glowiing" "Bu çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Aleksandr Matsievich tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_glowiing_glitter" "glowiing (Parıltılı) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_glowiing_glitter" "Bu parıltılı çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Aleksandr Matsievich tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_glowiing_holo" "glowiing (Holo) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_glowiing_holo" "Bu holografik çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Aleksandr Matsievich tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_glowiing_gold" "glowiing (Altın) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_glowiing_gold" "Bu altın çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Aleksandr Matsievich tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_keoz" "Keoz | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_keoz" "Bu çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Nicolas Dgus tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_keoz_glitter" "Keoz (Parıltılı) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_keoz_glitter" "Bu parıltılı çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Nicolas Dgus tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_keoz_holo" "Keoz (Holo) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_keoz_holo" "Bu holografik çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Nicolas Dgus tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_keoz_gold" "Keoz (Altın) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_keoz_gold" "Bu altın çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Nicolas Dgus tarafından imzalanmıştır."
 
-	"StickerKit_cph2024_signature_idisbalance" "iDISBALANCE | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance" "Bu çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Artem Egorov tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_idisbalance_glitter" "iDISBALANCE (Parıltılı) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance_glitter" "Bu parıltılı çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Artem Egorov tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_idisbalance_holo" "iDISBALANCE (Holo) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance_holo" "Bu holografik çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Artem Egorov tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_idisbalance_gold" "iDISBALANCE (Altın) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_idisbalance_gold" "Bu altın çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Artem Egorov tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_snax" "Snax | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_snax" "Bu çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Janusz Pogorzelski tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_snax_glitter" "Snax (Parıltılı) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_snax_glitter" "Bu parıltılı çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Janusz Pogorzelski tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_snax_holo" "Snax (Holo) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_snax_holo" "Bu holografik çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Janusz Pogorzelski tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_snax_gold" "Snax (Altın) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_snax_gold" "Bu altın çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Janusz Pogorzelski tarafından imzalanmıştır."
 
-	"StickerKit_cph2024_signature_seized" "seized | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_seized" "Bu çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Denis Kostin tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_seized_glitter" "seized (Parıltılı) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_seized_glitter" "Bu parıltılı çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Denis Kostin tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_seized_holo" "seized (Holo) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_seized_holo" "Bu holografik çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Denis Kostin tarafından imzalanmıştır."
-	"StickerKit_cph2024_signature_seized_gold" "seized (Altın) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_seized_gold" "Bu altın çıkartma 9Pandas takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Denis Kostin tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_volt" "volt | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_volt" "Bu çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Sebastian Constantin tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_volt_glitter" "volt (Parıltılı) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_volt_glitter" "Bu parıltılı çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Sebastian Constantin tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_volt_holo" "volt (Holo) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_volt_holo" "Bu holografik çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Sebastian Constantin tarafından imzalanmıştır."
+	"StickerKit_cph2024_signature_volt_gold" "volt (Altın) | Kopenhag 2024"
+	"StickerKit_desc_cph2024_signature_volt_gold" "Bu altın çıkartma GamerLegion takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Sebastian Constantin tarafından imzalanmıştır."
 
 	"StickerKit_cph2024_signature_arrozdoce" "arrozdoce | Kopenhag 2024"
 	"StickerKit_desc_cph2024_signature_arrozdoce" "Bu çıkartma SAW takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Rafael Wing tarafından imzalanmıştır."
@@ -22483,7 +22553,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 	"StickerKit_cph2024_signature_dumau" "dumau | Kopenhag 2024"
 	"StickerKit_desc_cph2024_signature_dumau" "Bu çıkartma Legacy takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Eduardo Wolkmer tarafından imzalanmıştır."
 	"StickerKit_cph2024_signature_dumau_glitter" "dumau (Parıltılı) | Kopenhag 2024"
-	"StickerKit_desc_cph2024_signature_dumau_glitter" "Bu parıltılı çıkartma Legacy takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Eduardo Wolkmer tarafından imzalanmıştır."
+	"StickerKit_desc_cph2024_signature_dumau_glitter" "Bu par��ltılı çıkartma Legacy takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Eduardo Wolkmer tarafından imzalanmıştır."
 	"StickerKit_cph2024_signature_dumau_holo" "dumau (Holo) | Kopenhag 2024"
 	"StickerKit_desc_cph2024_signature_dumau_holo" "Bu holografik çıkartma Legacy takımında oynayan ve PGL Kopenhag 2024 CS2 Major Şampiyonası'na katılan profesyonel oyuncu Eduardo Wolkmer tarafından imzalanmıştır."
 	"StickerKit_cph2024_signature_dumau_gold" "dumau (Altın) | Kopenhag 2024"
@@ -23748,7 +23818,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 
 		"PaintKit_hy_ocean_bravo"					"Seaside haritasından kalma bu hatıra mavi kamufle hidrografi kullanılarak boyanmıştır.\n\n<i>Bizimkisi gizlenme dünyasıdır... fakat bazen kamuflaj göstermek içindir. - Booth, Silah Taciri</i>"
 
-		"PaintKit_cu_season_elites_bravo"			"Agency haritasından kalma bu hatıra kara limba ağacından bir tutacağa ve siyah küflemelere sahiptir.\n\n<i>Klasik inşaatın modern mimari ile buluşması</i>"
+		"PaintKit_cu_season_elites_bravo"			"Agency haritasından kalma bu hatıra kara limba ağacından bir tutacağa ve siyah patinalara sahiptir.\n\n<i>Klasik inşaatın modern mimari ile buluşması</i>"
 		"PaintKit_cu_season_elites_bravo_Tag"		"Siyah Limba"
 
 		"PaintKit_hy_seaside_bravo"					"Seaside haritasından kalma bu hatıra dalga ve bulut motif hidrografisi kullanılarak boyanmıştır.\n\n<i>Bir fırtına yaklaşıyor</i>"
@@ -23933,7 +24003,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 		"PaintKit_hy_kami"                          "Hidrografi kullanılarak Japon manga deseninde boyanmıştır.\n\n<i>Bazı hayaletler gömülü kalmayacak</i>"
 		"PaintKit_hy_kami_tag"                      "Kami"
 
-		"PaintKit_aq_obsidian"                      "Sodyum klorid ve yüksek ısı kullanılarak kırmızı eskitme efekti ve magma tasarımı verilmiş bakır kaplanmış parçaları vardır. Boyanmamış bölgeler daha sonradan boyanarak sülfür kullanılarak oksitleme yöntemiyle karartılmıştır.\n\n<i>Ateşli bir atış hızı</i>"
+		"PaintKit_aq_obsidian"                      "Sodyum klorid ve yüksek ısı kullanılarak kırmızı patina efekti ve magma tasarımı verilmiş bakır kaplanmı�� parçaları vardır. Boyanmamış bölgeler daha sonradan boyanarak sülfür kullanılarak oksitleme yöntemiyle karartılmıştır.\n\n<i>Ateşli bir atış hızı</i>"
 		"PaintKit_aq_obsidian_tag"                  "Magma"
 
 		"PaintKit_am_turqoise_halftone"             "Turkuaz metalik renk ana katmanının üstüne fazlaca büyütülmüş noktalı efekt tasarım hidrografisi kullanılarak boyanmıştır.\n\n<i>Felix, sen ve ben biliyoruz ki Valeria yakında savaşa girecek. Tek soru hazır mısın? -Booth, Silah Taciri</i>"
@@ -23963,7 +24033,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 			"PaintKit_cu_nova_antique"				"Bu silah, hidrografik ve ahşap - altın görünümü oluşturmak için kullanılan dekoratif çıkartmalarla kaplanmıştır.\n\n<i>Yaşlanmak yanında bilgelik ve durdurucu kuvvet getirir</i>"
 
 			"PaintKit_an_famas_sgt_tag"				"Çavuş"
-			"PaintKit_an_famas_sgt"					"Askeri bir motif ortaya çıkarmak için kaplayıcı sıvı kullanılmış, pürüzsüz bir düzey ile üstü kaplanmış ve derinlik çeşitliliği sağlayan küf kalıbı verilmiştir.\n\n<i>Bir örnek ile devam eder</i>"
+			"PaintKit_an_famas_sgt"					"Askeri bir motif ortaya çıkarmak için kaplayıcı sıvı kullanılmış, pürüzsüz bir düzey ile üstü kaplanmış ve derinlik çeşitliliği sağlayan patina verilmiştir.\n\n<i>Bir örnek ile devam eder</i>"
 
 			"PaintKit_cu_mag7_heaven_tag"			"Gökyüzü Muhafızı"
 			"PaintKit_cu_mag7_heaven"				"Zarifçe tasarlanmış hidrografiler ile kuru baskı kanat desenlerinin birlikte kullanılmasıyla boyanmıştır.\n\n<i>Bazen bir meleği kanatları kurtuluş anlamına gelmez</i>	"
@@ -24387,7 +24457,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 	"PaintKit_cu_medusa_awp"									"Bir gorgon resmi ile özel olarak boyanmıştır.\n\n<i>Eğer beni gördüysen zaten ölüsün</i>"
 	"PaintKit_cu_medusa_awp_Tag"								"Medusa"
 	
-	"PaintKit_gs_mother_of_pearl_elite"							"Kabzası karanlık bir küflendirmeye sahip ve sedef ile boyanmıştır.\n\n<i>Sakız içermez</i>"
+	"PaintKit_gs_mother_of_pearl_elite"							"Kabzası karanlık bir patinaya sahip ve sedef ile boyanmıştır.\n\n<i>Sakız içermez</i>"
 	"PaintKit_gs_mother_of_pearl_elite_Tag"						"Düellocu"
 	
 	"PaintKit_aa_pandora"										"Karikatür ruhlar ile hava fırçasıyla boyanmıştır.\n\n<i>Dünya ateşler içinde, ama bizim en azından umudumuz var</i>"
@@ -24486,7 +24556,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 	"PaintKit_cu_galilar_particles"										"Pikselleştirilmiş parçacıkların ve çizgili grafik tasarımları ile özel olarak boyanmıştır.\n\n<i>Sıcak bir yaz günü için mükemmel şey</i>"
 	"PaintKit_cu_galilar_particles_Tag"									"Roket Patlaması"
 
-	"PaintKit_aq_glock18_flames_blue"										"Sürgünün yan kısımlarının mavi bir küflendirme ile grafik ateş tasarımı oluşturacak şekilde boyanmıştır.\n\n<i>TAK TAK</i>"
+	"PaintKit_aq_glock18_flames_blue"										"Sürgünün yan kısımlarının mavi bir patina ile grafik ateş tasarımı oluşturacak şekilde boyanmıştır.\n\n<i>TAK TAK</i>"
 	"PaintKit_aq_glock18_flames_blue_Tag"									"Bunsen Lambası"
 
 	"PaintKit_cu_m4a4_evil_daimyo"										"Kırmızı ve siyah renkler içeren grafik tasarımı ile özel olarak boyanmıştır.\n\n<i>Carmen. Onu buldum...- Oni ve Valkür Bölüm 1</i>"
@@ -24741,7 +24811,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 	"Paintkit_cu_stonewash_Tag"								"Siyah Laminant"
 	
 	"PaintKit_am_marbleized_g"								"Mermerleştirici bir araç kullanılarak siyah ve gümüş metalik renkler ile boyanmış daha sonra kaplanmıştır."
-	"PaintKit_am_marbleized_g_Tag"							"Gamma Çoğaltıcı"
+	"PaintKit_am_marbleized_g_Tag"							"Gamma Doppler"
 	
 	"PaintKit_gs_autotronic"								"Kırmızı ile andonize edilmiştir ve ağırlığı azaltmak için çelik ağ kullanılmıştır."
 	"PaintKit_gs_autotronic_Tag"							"Ototronik"
@@ -24871,7 +24941,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 		// FBI
 
 		"CSGO_CustomPlayer_ctm_fbi_variantb"					"Özel Ajan Ava | FBI"
-		"CSGO_CustomPlayer_ctm_fbi_variantb_Desc"				"İlk başlarda göz ard�� edilen Özel Ajan Ava daha sonra takımı tarafından en üst düzey gizli silah olarak nitelendirilmeye başladı.\n\nAlabileceği toplam beş FBI Onur Madalyası'ndan üçünü almış olmasına rağmen Ava, başarılarına pek odaklanmaz. Ona göre bu durum, New Jersey şehrinde dört büyük erkek kardeşle büyümekle kıyaslanamaz.\n\nÖzel Ajan Ava basit şeylerden zevk alır; net zaferler, soğuk bira ve kötü adamları kevgire çevirmek.\n\n<i>Beni görürler. Kafaları karışır. Sonra da ölürler.</i>"
+		"CSGO_CustomPlayer_ctm_fbi_variantb_Desc"				"İlk başlarda göz ardı edilen Özel Ajan Ava daha sonra takımı tarafından en üst düzey gizli silah olarak nitelendirilmeye başladı.\n\nAlabileceği toplam beş FBI Onur Madalyası'ndan üçünü almış olmasına rağmen Ava, başarılarına pek odaklanmaz. Ona göre bu durum, New Jersey şehrinde dört büyük erkek kardeşle büyümekle kıyaslanamaz.\n\nÖzel Ajan Ava basit şeylerden zevk alır; net zaferler, soğuk bira ve kötü adamları kevgire çevirmek.\n\n<i>Beni görürler. Kafaları karışır. Sonra da ölürler.</i>"
 
 		"CSGO_CustomPlayer_ctm_fbi_varianth"					"Michael Syfers  | FBI Keskin Nişancısı"
 		"CSGO_CustomPlayer_ctm_fbi_varianth_Desc"				"Eski bir profesyonel atlet olan Syfers, geçirdiği korkunç diz sakatlığı yüzünden spor kariyeri erkenden sona erince sonra FBI tarafından işe alındı. Yaşadığı bütün zorluklara rağmen hayatta dimdik kalmayı becerebildi.\n\nBaşarı ve iyilik yapma gayreti eşit olan birini bulmak oldukça enderdir ancak Syfers tam da böyle biri.\n\n<i>Tekrarlarımı bitirdim tabii ki.</i>"
@@ -25028,7 +25098,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 		// DIVER
 
         "CSGO_Customplayer_ctm_diver_varianta"                "Bnb. Davida \"Gözlük\" Fernandez | SEAL Kurbağa Adamı"
-        "CSGO_Customplayer_ctm_diver_varianta_Desc"           "Memelilere özgü dalma refleksleri harikulade olan Bnb. Fernandez, kalp atışı hızını tespit edilemez seviyelere düşürebilir ve karanlıkta, buzun altında ve derin deniz savunmas�� sistemlerinde yolunu bulabilir. İnsan olarak suyun içinde ilerleme senaryolarında oldukça yetkindir, usta bir nişancı ve askerdir. Ona tam kitini almasını \"son bir defa\" hatırlatan \"Islak Çorap\" sayesinde o gün sol gözlüğünden vurulmaktan döndü ve \"Gözlük\" lakabını aldı. Bnb. Fernandez, nadiren sergilediği unutkanlığına rağmen, gizli su altı operasyonlarında Navy Cross alan iki seçkin SEAL savaş dalgıcından biri oldu. \n\n<i>Atan kalbim, biraz yavaşla.</i>"
+        "CSGO_Customplayer_ctm_diver_varianta_Desc"           "Memelilere özgü dalma refleksleri harikulade olan Bnb. Fernandez, kalp atışı hızını tespit edilemez seviyelere düşürebilir ve karanlıkta, buzun altında ve derin deniz savunması sistemlerinde yolunu bulabilir. İnsan olarak suyun içinde ilerleme senaryolarında oldukça yetkindir, usta bir nişancı ve askerdir. Ona tam kitini almasını \"son bir defa\" hatırlatan \"Islak Çorap\" sayesinde o gün sol gözlüğünden vurulmaktan döndü ve \"Gözlük\" lakabını aldı. Bnb. Fernandez, nadiren sergilediği unutkanlığına rağmen, gizli su altı operasyonlarında Navy Cross alan iki seçkin SEAL savaş dalgıcından biri oldu. \n\n<i>Atan kalbim, biraz yavaşla.</i>"
 		
 		"CSGO_Customplayer_ctm_diver_variantb"                "Bnb. Frank \"Islak Çorap\" Baroud | SEAL Kurbağa Adamı"
         "CSGO_Customplayer_ctm_diver_variantb_Desc"           "Güverteye ilk çıkan ve güverteden en son ayrılan Bnb. Frank Baroud, oldukça detaycı üçüncü nesil bir SEAL'dır ve aynı zamanda Navy Cross madalyasına layık görülmüş ikinci savaş dalgıcıdır; ilki Bnb. \"Gözlük\" Fernandez'dir. Baroud'a en karmaşık su altı ve kara çatışmalarını çözmek için güvenilebilir. Örneğin, bir ABD büyükelçiliğinin altındaki su basmış mağaralara döşenmiş birden fazla el yapımı patlayıcıyı imha etmek onun için biçilmiş kaftandır. Baroud bunu oldukça detaycı olmasına bağlıyor. Ancak hayatla ölüm arasındaki ince çizgi kuşandığın ekipmana bağlı olunca, yapılacak en basit hata bile son hatan olabilir. Amansız detaycılığı ona \"Islak Çoraplar\" lakabını kazandırdı.\n\n<i>Tekrar kontrol et. Ardından yine kontrol et. Sonra bir defa daha kontrol et.</i>"
@@ -26917,6 +26987,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 	"PaintKit_cu_tec9_freedom_Tag"									"İsyancı"
 
 // END COMMUNITY_32
+
 // ANUBIS
 
 	"PaintKit_gs_revolver_acanthus_bronze"							"Akantus işlemelerine ve mermer bir kabzaya benzeyecek şekilde özel olarak boyanmıştır.\n\n<i>Avucunuzun içindeki zenginlik</i>"
@@ -27653,6 +27724,7 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 
 		"SFUI_Map_de_boyard"	"Boyard"
 		"SFUI_Map_de_chalice"	"Chalice"
+
 		"SFUI_Map_de_mutiny"		"Mutiny"
 		"SFUI_Map_de_swamp"			"Swamp"
 		"SFUI_Map_de_anubis"		"Anubis"
@@ -27682,6 +27754,12 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 		"SFUI_Map_de_hive"		"Hive"
 		"SFUI_Map_dz_vineyard"	"Vineyard"
 		"SFUI_Map_dz_ember"		"Ember"
+
+		"SFUI_Map_de_thera"		"Thera"
+		"SFUI_Map_de_mills"		"Mills"
+		"SFUI_Map_de_assembly"		"Assembly"
+		"SFUI_Map_de_memento"		"Memento"
+		"SFUI_Map_ar_pool_day"		"Pool Day"
 		
 		"SFUI_Map_workshop_preview_dust2"	"Dust II Ön İzlemesi"
 		"SFUI_Map_workshop_preview_ancient"	"Ancient Ön İzlemesi"
@@ -27925,6 +28003,8 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 		"SFUI_MainMenu_Vac_Info"			"Bu hesap tarafından ya da bu hesapla ilişkili olarak yapılan bir ihlâlden ötürü güvenli sunuculardan yasaklandınız."
 		"SFUI_MainMenu_GameBan_Title"		"Oyun Yasağı"
 		"SFUI_MainMenu_GameBan_Info"		"Bu hesap tarafından ya da bu hesapla ilişkili olarak yapılan bir ihlâlden ötürü güvenli sunuculardan yasaklandınız."
+		"SFUI_MainMenu_AccountLocked_Title"	"Hesap Kilitlendi"
+		"SFUI_MainMenu_AccountLocked_Info"	"Steam Abonelik Sözleşmesi ihlâl edildiği için hesap kilitlendi ve güvenli sunucularda oynaması yasaklandı. Bunun çözümü için hesabın sahibi Steam Destek ile irtibata geçmelidir."
 		"SFUI_MainMenu_News_Title"			"Haberler"
 		"SFUI_MainMenu_News_Title_uppercase"  "HABERLER"
 		"SFUI_MainMenu_Last_Match"			"Son Maç Raporu"
@@ -28182,35 +28262,33 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"PlayMenu_unavailable_newuser_2_nogcconnection"	"Counter-Strike ağına bağlantı yok."
 
 
-		"SFUI_Overwatch_Res_Postpone_Label"		"Kararı Ertele"
+		"SFUI_Overwatch_Res_Postpone_Label"		"İptal Et"
 
-		"SFUI_Overwatch_Res_Instructions"		"Delilleri gözden geçirdiğine göre, şimdiki görevin aşağıdaki seçeneklerde doğru kararı vermek. Unutma ki <b>Şüpheli aşağıdaki konularda masum da olabilir.</b> Sadece, Şüpheli'nin CS:GO topluluğu tarafından rahatsız edici bulunan, sosyal ve/veya rekabetçi olmayan davranışlar sergilediğine <b>şahit olduysan</b> '<b>Şüpheye Yer Bırakmayacak Şekilde Bariz</b>' seçeneğini seçmelisin.\n\nEğer kararından %100 emin değilsen '<b>Yetersiz Delil</b>' seçeneğini seçmelisin. Eğer şu anda kendini bu kararı verecek kadar dikkatli ve hazır hissetmiyorsan lütfen <b>KARARI ERTELE</b>'ye tıkla. Vakayı daha sonra tekrar inceleyebilirsin."
+		"SFUI_Overwatch_Res_Instructions"		"Kanıtları incelediğinize göre lütfen bir karar verin."
 
-		"SFUI_Overwatch_Res_Major_Label"	"Şüpheye Yer Bırakmayacak Şekilde Bariz"
-
-		"SFUI_Overwatch_Res_Major_Desc"	"İncelediğin delilde açıkça görülüyor ki Şüpheli, CS:GO topluluğu tarafından rahatsız edici bulunan, sosyal ve/veya rekabetçi olmayan davranışlar sergilemiştir. Bu davranışlara örnek olarak; <font color='#FFFFFF'><b>otomatik nişan alma hilesi, hız hilesi, duvarlardan görme hilesi kullanmak veya Şüpheli ya da diğer oyuncuları etkileyecek diğer harici yazılımlar kullanmak</b></font> gösterilebilir."
+		"SFUI_Overwatch_Res_Major_Label"	"Şüpheye Yer Bırakmayacak Şekilde Suçlu"
 
 		"SFUI_Overwatch_Res_Minor_Label"	"Küçük Derecede Suçlu"
 
-		"SFUI_Overwatch_Res_Minor_Desc"		"İncelediğin delilde açıkça görülüyor ki Şüpheli, CS:GO topluluğu tarafından rahatsız edici bulunan, sosyal ve/veya rekabetçi olmayan davranışlar sergilemiştir. Bu davranışlara örnek olarak; <b><font color='#FFFFFF'><b>kasten takımını engelleme, bilerek takım arkadaşlarına zarar verme veya takım arkadaşlarından zarar alma</b></font> gösterilebilir."
-
 		"SFUI_Overwatch_Res_NotGuilty_Label"	"Yetersiz Delil"
-
-		"SFUI_Overwatch_Res_NotGuilty_Desc"		"İncelediğin delilde açıkça görülüyor ki Şüpheli, yukarıdaki tanımlamadan yola çıkarak rahatsız edici davranış olarak kategorize edebileceğin herhangi bir davranış sergilememiştir veya <font color='#FFFFFF'><b>şahit olduğun olayın makul bir şüpheden ziyade, rahatsız edici davranış olduğuna karar vermen için yeterli delil bulamadın.</b></font>"
 
 		"SFUI_Overwatch_Res_Griefing"				"Küçük Suç: Oyunbozanlık"
 		"SFUI_Overwatch_Res_AimHacking"				"Büyük Suç: Nişan Desteği"
 		"SFUI_Overwatch_Res_WallHacking"			"Büyük Suç: Görüş Desteği"
 		"SFUI_Overwatch_Res_SpeedHacking"			"Büyük Suç: Diğer Dış Destekler"
-		"SFUI_Overwatch_Res_Griefing_Desc"		"CS:GO topluluğunun dürüst bir üyesi olarak incelediğin delilde açıkça görülüyor ki, Şüpheli; <font color='#FFFFFF'><b>rahatsız edici, sosyal ve/veya rekabetçi olmayan davranışlar sergilemiştir.</b></font> Örneğin; kasten takımını engelleme, takım arkadaşlarına zarar verme, takım arkadaşlarından zarar alma, uzunca bir süre oyuna katılmama veya bilerek maçı kaybetme gibi."
-		"SFUI_Overwatch_Res_AimHacking_Desc"		"CS:GO topluluğunun dürüst bir üyesi olarak incelediğin delilde açıkça görülüyor ki, Şüpheli; <font color='#FFFFFF'><b>nişanını iyileştirmeye yarayan harici bir yazılım kullanmıştır.</b></font> Örneğin; otomatik nişan alma, geri tepmenin azaltılması veya tamamen iptali gibi."
-		"SFUI_Overwatch_Res_WallHacking_Desc"		"CS:GO topluluğunun dürüst bir üyesi olarak incelediğin delilde açıkça görülüyor ki, Şüpheli; <font color='#FFFFFF'><b>rakiplerinin yerini öğrenmesini sağlayan harici bir yazılım kullanmıştır.</b></font> Örneğin; rakiplerini duvarların veya sis bombasının içinden görme, flaş bombasının etkisini azaltma veya tamamen iptali gibi."
-		"SFUI_Overwatch_Res_SpeedHacking_Desc"		"CS:GO topluluğunun dürüst bir üyesi olarak incelediğin delilde açıkça görülüyor ki, Şüpheli; <font color='#FFFFFF'><b>rakiplerinin üzerinde avantaj sağlamak için yukarıda listelenenlerden farklı harici bir yazılım kullanmıştır.</b></font> Örneğin; hız hilesi, otomatik zıplama, baş aşağı görüntü gibi."
+
+		"SFUI_Overwatch_Res_Griefing_Desc"		"CS topluluğunun dürüst bir üyesi olarak incelediğin delilde şüphelinin <font color='#FFFFFF'><b>rahatsız edici, sosyal uyuma ve/veya rekabetçiliğe aykırı davranışlar sergilediği</b></font> açıkça görülüyor. Örneğin; kasıtlı olarak takım arkadaşlarını engellemek, onlara hasar vermek veya onlardan hasar almak, uzun bir süre oyuna katılmamak ya da bilerek maçı kaybetmek."
+	
+		"SFUI_Overwatch_Res_AimHacking_Desc"		"Harici nişan yardımının varlığını değerlendirme konusunda rehberlik için lütfen eğitim dokümanına danış."
+	
+		"SFUI_Overwatch_Res_WallHacking_Desc"		"CS topluluğunun dürüst bir üyesi olarak incelediğin delilde şüphelinin <font color='#FFFFFF'><b>rakiplerinin konumunu öğrenmek için haricî bir yazılım kullandığı</b></font> açıkça görülüyor. Örneğin; rakiplerini duvarların veya sis bombasının içinden görme, flaş bombasının etkisini azaltma veya tamamen ortadan kaldırma vb."
+	
+		"SFUI_Overwatch_Res_SpeedHacking_Desc"		"CS topluluğunun dürüst bir üyesi olarak incelediğin delilde şüphelinin <font color='#FFFFFF'><b>rakiplerinin karşısında avantaj sahibi olmak için yukarıda listelenenlerden farklı bir haricî bir yazılım kullandığı</b></font> açıkça görülüyor. Örneğin; hız hilesi, otomatik zıplama komutları, baş aşağı görüntü vb."
 
 
 		"SFUI_Overwatch_Submit_label"			"Kararı Bildir"
 		"SFUI_Overwatch_Resolution_Title"		"Overwatch Kararı"
-		"SFUI_Overwatch_Submit_Thanks"			"Kararın iletildi.\n\nOverwatch müfettişi olarak görev aldığın için teşekkür ederiz."
+		"SFUI_Overwatch_Submit_Thanks"			"Kararını gönderdiğin için teşekkür ederiz."
 		"SFUI_Overwatch_Submitting"				"Kararın iletiliyor..."
 		
 		"SFUI_Mission_Title"	                "%s1 Görevi"
@@ -28404,6 +28482,15 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_InvUse_Use_KeylessCapsule"	"Kapsülü Aç"
 		"SFUI_InvUse_Use_KeylessCapsuleDefault"	"Aç"
 
+		"popup_container_confirm_title_rent" "Silah Kiralama"
+		"popup_container_confirm_title_expire" "Kiralama Süresi Bitti" 
+		"popup_container_confirm_warning_rent" "Kiralanan silahlar 7 gün boyunca kullanılabilir." 
+		"popup_container_confirm_body_rent" "{s:name}'na ait her silahı al.<br/><br/>Kiralanan silahlar StatTrak™ için uygun değildir ve üzerlerinde hiçbir şekilde değişiklik yapılamaz.<br/><br/>Son derece nadir eşyalar kiralanan silahlar arasında değildir." 
+		"popup_container_confirm_already_rented" "{s:name}'nı zaten kiraladın.<br/><br/> Kiralamanın bitiş zamanı: {s:expiration-time}" 
+
+		"popup_container_confirm_title_open" "Aç: {s:name}" 
+		"popup_container_confirm_body_open" "{s:name}'ndan bir eşyayı kalıcı olarak al." 
+
 		"SFUI_Item_Certificate_Title"		"Öğe Sertifikası"
 		"SFUI_ItemInfo_ItemType"			"Öğe Türü"
 		"SFUI_ItemInfo_FinishStyle"			"Tasarım Tarzı"
@@ -28419,7 +28506,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_ItemInfo_FinishStyle_5"		"Anotlanmış Çok Renkli"
 		"SFUI_ItemInfo_FinishStyle_6"		"Anotlanmış Boya Tabancası ile Boyanmış"
 		"SFUI_ItemInfo_FinishStyle_7"		"Özel Boya Tasarımı"
-		"SFUI_ItemInfo_FinishStyle_8"		"Küflendirilmiş"
+		"SFUI_ItemInfo_FinishStyle_8"		"Patina"
 		"SFUI_ItemInfo_FinishStyle_9"		"Silah Ustası"
 		"SFUI_ItemInfo_FinishStyle_Unknown" "Bilinmeyen"
 
@@ -28559,6 +28646,11 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Statrak_ContextMenu_Remove"   "Değiştirmeden Çıkar"
 		"SFUI_Inv_Name_Tag_Current"			"Geçerli İsim:"
 		"SFUI_Inv_Name_Tag_New"				"Yeni İsim:"
+		"item-rental-time-remaining"		"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> {s:time-remaining} sonra kiralama süresi bitecek."
+		"item-rental-time-expired"			"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> Kiralama Süresi Bitti"
+		"item-can-rent"						"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> Kiralanabilir"
+		"RentalExpiredPopupTitle"			"Kiralama Süresi Bitti"
+		"RentalExpiredPopupMessage"			"{s:rental_expired_crate_name}'ndaki eşyaların kiralama süresi bitti. Bunlardan biri ekipmanların arasındaysa, varsayılan silah modeliyle değiştirildi.<br><br><b>Kiralama Tarihi:</b><br>{s:rental_expired_issue_date}<br><b>Bitiş Tarihi:</b><br>{s:rental_expired_expiration_date}"
 		
 		
 		"SFUI_Sticker_Remove"           	"Çıkartmayı Sök"
@@ -29189,6 +29281,9 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"CSGO_Fantasy_Player_Status_byeday"	"<font color='##89B2D2'>Tur atladı</font>"
 		
 		"CSGO_Fantasy_NoSTickers_In_Table" "Şu anda hiç <b>%s1</b> oyuncu imza çıkartman yok.\nTakım imza kapsüllerini satın alabilir ya da imza çıkartmalarını doğrudan pazardan alabilirsin."
+		"major_hub_souvenir_package_desc"	"Bir hatıra paketi elde etmek veya <span class=\"major-hub-store__souvenir__price\">{s:souvenir_price}</span> karşılığında satın almak için aşağıdan bitmiş bir maçı seç."
+		"major_hub_souvenir_package_desc_no_price"	"Bir hatıra paketi elde etmek İçin aşağıdan bitmiş bir maç seç."
+		
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Journal
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -29490,27 +29585,31 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Demo Playback Control
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-		"CSGO_Demo_Title"					"Demoyu Oynat"
-		"CSGO_Demo_Restart"					"|<"
 		"CSGO_Demo_MinusSeconds"			"-{d:timestep_value} sn"
-		"CSGO_Demo_Prev"					"<"
-		"CSGO_Demo_Play"					"Oyna"
-		"CSGO_Demo_Pause"					"Durdur"
-		"CSGO_Demo_Next"					">"
 		"CSGO_Demo_PlusSeconds"				"+{d:timestep_value} sn"
-		"CSGO_Demo_End"						">|"
 		"CSGO_Demo_TimeScale_OneFourth"		"¼x"
 		"CSGO_Demo_TimeScale_OneHalf"		"½x"
 		"CSGO_Demo_TimeScale_One"			"1x"
 		"CSGO_Demo_TimeScale_Two"			"2x"
 		"CSGO_Demo_TimeScale_Four"			"4x"
 		"CSGO_Demo_TimeScale_Eight"			"8x"
-		"CSGO_Demo_Death"					"Ölüm"
 
-		"CSGO_Demo_Toggle"					"[Shift+F2]"
-		"CSGO_Demo_Time"					"{s:current_time}/{s:total_time}"
-		"CSGO_Demo_Round"					"Raunt:"
-		"CSGO_Demo_Warmup"					"Isınma"
+		"CSGO_Demo_Toggle"							"[Shift+F2]"
+		"CSGO_Demo_Time"							"{s:current_time}/{s:total_time}"
+		"CSGO_Demo_Round"							"Raunt:"
+		"CSGO_Demo_Highlight"						"Önemli An"
+		"CSGO_Demo_End_Playback"					"Demoyu Bitir"
+		"CSGO_Demo_End_Playback_Overwatch"			"Karara Atla"
+		"CSGO_Demo_End_Playback_Overwatch_Finished"	"Karara Git"
+
+		"CSGO_Demo_Enable_Mouse_Cursor"				"[{s:bind_drop}]: Fare imlecini etkinleştir"
+		"CSGO_Demo_Enable_Mouse_Camera"				"[{s:bind_drop}]: Fareyle kamera kontrolünü etkinleştir"
+		"CSGO_Demo_Player_Next"						"[{s:bind_attack}]: Sonraki Oyuncu"
+		"CSGO_Demo_Player_Prev"						"[{s:bind_attack2}]: Önceki Oyuncu"
+		"CSGO_Demo_Next_Camera"						"[{s:bind_jump}]: Sonraki Kamera"
+		"CSGO_Demo_Toggle_XRay"						"[{s:bind_slot12}]: X Işınını Aç/Kapat"
+		"CSGO_Demo_Toggle_Overview"					"[{s:bind_duck}]: Arayüzü Aç/Kapat"
+
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Date formatting
@@ -29722,7 +29821,6 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_How_to_Play_Controller_Select"			"Skor Tablosu"
 		"SFUI_How_to_Play_Controller_Start"				"Duraklatma Menüsü"
 
-		"SFUI_HOW TO PLAY"								"NASIL OYNANIR"
 		"SFUI_HOW_TO_PLAY"								"Nasıl Oynanır"
 		"SFUI_How_to_Play_Navigation"					"${cancel} İptal ${dpad} Git ${rstick} Kaydır"
 		"SFUI_HowToPlay_IntroductionLabel"				"Tanıtım"
@@ -30060,7 +30158,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"popup_elevated_status_desc"					"Hesabını yükselt ve Seçkin özelliklerine sahip ol."
 		"popup_elevated_status_xp_title"				"TP Kazan"
 		"popup_elevated_status_xp_desc"					"Seviye atlamak için oyna ve TP kazan. Rütbeler arasında yüksel ve profilinde gösterilebilen bir hizmet madalyası kazan."
-		"popup_elevated_status_drops_title"				"Haftalık Öd��ller"
+		"popup_elevated_status_drops_title"				"Haftalık Ödüller"
 		"popup_elevated_status_drops_desc"				"Her hafta ödüller kazan. Silah kasaları, Silah kaplamaları ve daha fazlası arasından seçim yap."
 		"popup_elevated_status_rank_title"				"Seçkin Deneyimi"
 		"popup_elevated_status_rank_desc"				"Seçkin'e erişim elde et ve CS dereceni geliştir. Dünya ve bölgesel sıralama listelerinde nerede olduğuna bak. Rekabetçi ve Yoldaş oyun modlarını diğer Seçkin oyuncular ile oyna."
@@ -30238,8 +30336,6 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 
 		"SFUI_scoreboard_lbl_bot"	"BOT"
 		"SFUI_scoreboard_lbl_spec"	"İZLYC"
-		"SFUI_scoreboard_lbl_dc"  	"DC"
-
 		"SFUI_Scoreboard_1st"		"1."
 		"SFUI_Scoreboard_2nd"		"2."
 		"SFUI_Scoreboard_1st_Half"		"İlk Yarı"
@@ -30394,6 +30490,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_match_cancelled"			"Maç İptal Edildi"
 		"SFUI_match_abort_match_network_event"	"Bir ağ kesintisi maçın iptal edilmesine neden oldu.\nBu maç yetenek derecenizi etkilemeyecek."
 		"SFUI_match_abort_match_vac_live"	"VAC Live, bir hileci tespit etti ve maçı sonlandırdı.\nBu maç yetenek dereceni etkilemeyecek."
+		"SFUI_match_abort_match_abnormal_behavior"	"VAC, maçta düzensiz oynanış tespit etti ve maçı iptal etti.\nVAC tarafından işaretlenen oyuncu ve partisine bekleme süresi verildi."
 		"SFUI_match_vac_live_partied_with_cheater"	"Partindeki bir oyuncu yasaklandığı için bu maçtan herhangi bir ilerleme ödülü verilmeyecek."
 		"SFUI_match_abort_match_missing_player"	"Bir oyuncu bağlanmadığı için maç iptal ediliyor."
 		"SFUI_match_abort_match_player_abandoned"	" Bir oyuncunun bağlantısı kesildiği için maç iptal ediliyor."
@@ -30649,16 +30746,6 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUIHUD_Spec_Event_DroppingItemsRewarded"			"%s1 izleyici ödüllendirildi!"
 		"SFUIHUD_Spec_Event_DroppingItemsTotalDropped"		"Bu maçta düşen toplam eşya sayısı: %s1"
 
-		"SFUIHUD_GiftDrop_GiftGivenLastXMinutes"		"Son %s1 dakikada, 1 hediye veren..."
-		"SFUIHUD_GiftDrop_GiftsGivenLastXMinutes"		"Son %s1 dakikada, %s2 hediye veren..."
-		"SFUIHUD_GiftDrop_GiftGivenLastXHours"		"Son %s1 saatte, 1 hediye veren..."
-		"SFUIHUD_GiftDrop_GiftsGivenLastXHours"		"Son %s1 saatte, %s2 hediye veren..."		
-		"SFUIHUD_GiftDrop_AndOtherPlayer"		"...ve diğer 1 cömert oyuncu!"		
-		"SFUIHUD_GiftDrop_AndOtherPlayers"		"...ve diğer %s1 cömert oyuncu!"	
-		"SFUIHUD_GiftDrop_NameGiftGiverFormat"		"%s1%s2</font>"	
-		"SFUIHUD_GiftDrop_SingleGiftFormat"		"<font color='#e3e3e3'>1 hediye</font>"	
-		"SFUIHUD_GiftDrop_GiftAmountFormat"		"<font color='#e3e3e3'>%s1 hediye</font>"	
-
 		"SFUIHUD_GiftDrop_Name_ColorDefault"	"<font color='#b1eeff'>"
 		"SFUIHUD_GiftDrop_Name_Color1"	"<font color='#90ff9a'>"
 		"SFUIHUD_GiftDrop_Name_Color2"	"<font color='#eb7d7d'>"
@@ -30699,6 +30786,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_SpecStat_type_objective"		"HDF"
 		"SFUI_SpecStat_First_Half"			"1."
 		"SFUI_SpecStat_Second_Half"			"2."
+
+		"HudSpecPlayer_WeaponName"				"<span class=\"possessive-player-name\">{s:possessive_player_name}</span><br><span class=\"weapon-name\">{s:weapon_name}</span><br><font color=\"{s:rarity_color}\"><span class=\"weapon-kit-name\">{s:weapon_kit_name}</span><br><span class=\"weapon-name-custom\">\"{s:weapon_name_custom}\"</span></font>"
 
 		"heatmap_t"								"T"
 		"heatmap_ct"							"AT"
@@ -30905,7 +30994,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Notice_Report_Server_Failed"				" Bu sunucu rapor edilemedi, daha sonra tekrar dene.\n"
 		"SFUI_Notice_Report_Player_Success"				" %s1 rapor edildi, rapor numarası %s2.\n"
 		"SFUI_Notice_Report_Player_Failed"				" Bu oyuncu rapor edilemedi, daha sonra tekrar dene.\n"
-		"SFUI_Notice_Commend_Player_Success"			"%s1 oyuncusuna övgü gönderildi.\nTeşekkürler\n"
+		"SFUI_Notice_Commend_Player_Success"			"  %s1 oyuncusuna övgü gönderildi.\n"
 		"SFUI_Notice_Commend_Player_TooEarly"			" Son zamanlarda çok fazla övgü gönderdin, yarın tekrar dene.\n"
 		"SFUI_Notice_Commend_Player_Failed"				" Bu oyuncuya övgü gönderilemedi, daha sonra tekrar dene.\n"
 		"SFUI_Notice_Commend_Player_YouGotNewCommendation" " Tebrikler! Bir övgü aldın.\n"
@@ -30956,6 +31045,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_CooldownExplanationReason_ConvictedForBehavior"	"Overwatch Tarafından Suçlu Bulundu - Az Hatalı"
 		"SFUI_CooldownExplanationReason_GsltViolation"		"Oyun sunucu giriş fişinizi kullanan bir sunucu yasaklandı. Hesabınız, oyun sunucularından süresiz yasaklandı ve oyun sunucularına bağlanabilmek için bir dolum süreniz var."
 		"SFUI_CooldownExplanationReason_GriefingReports"	"Birçok oyuncuya kıyasla çok daha fazla oyunbozanlık şikâyeti aldın."
+		"SFUI_CooldownExplanationReason_VacNetCulprit"		"VAC, oynayış şeklini düzensiz olarak işaretledi."
+		"SFUI_CooldownExplanationReason_VacNetAffiliate"	"Oyun şekli VAC tarafından düzensiz olarak işaretlenmiş bir oyuncuyla parti olarak oyun oynadın."
 		"SFUI_CooldownExplanationReason_Expired_Cooldown"		"<b>Bekleme süren sona erdi. Sonraki bekleme süreleri daha uzun olabilir.\nBekleme Süresi Nedeni</b>: "
 		"SFUI_Notice_Killed_Teammate"					"Takım arkadaşını öldürdün!"
 		"SFUI_Notice_Game_teammate_kills"				"UYARI: Eğer %s1 takım arkadaşı daha öldürürsen sunucudan yasaklanacaksın!"
@@ -31156,7 +31247,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_ControllerZoomSensitivity" "Yakınlaştırma Hassasiyeti Çarpanı"
 
 		"SFUI_TaserSlot"				"Zeus x27"
-		"SFUI_MolotovSlot"				"Molotof Kokteyli"
+		"SFUI_MolotovSlot"				"Molotof Kokteyli / Yanıcı Bomba"
 		"SFUI_DecoySlot"				"Yanıltıcı Bomba"
 		"SFUI_CycleGrenades"			"Bombaları Değiştir"
 		"SFUI_CycleWeapons"				"Birincil/İkincil Silaha Geç"
@@ -31198,8 +31289,9 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Jump"						"Zıplama"
 		"SFUI_Duck"						"Çömelme"
 		"SFUI_Pickup_Use_Objects"		"Kullan"
-		"SFUI_TitlesTXT_Menu_Scoreboard"     "Skor Tablosu"
-        "SFUI_ShowTeamEquipment"        "Takım Ekipmanını Göster"
+		"SFUI_TitlesTXT_Menu_Scoreboard"	"Skor Tablosu"
+		"SFUI_ShowTeamEquipment" 		"Takım Ekipmanını Göster"
+		"SFUI_ToggleRadarScale"			"Radar Yakınlaştırmasını Aç/Kapat"
 		"SFUI_Walk"						"Yürü"
 		"SFUI_180Spin"					"180 Derece Dön"
 		"SFUI_Drop_Weapon"				"Silahı Bırak"
@@ -31435,6 +31527,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Settings_Color_Correction"	"Renk Düzeltme"
 		"SFUI_Settings_Antialiasing_Mode"	"Keskinliği Yumuşatma Modu"
 		"SFUI_Settings_CSM"					"Evrensel Gölge Kalitesi"
+		"SFUI_Settings_DynamicShadows"		"Dinamik Gölgeler"
 		"SFUI_Settings_FXAA"				"FXAA Keskinliği Yumuşatma"
 		"SFUI_Settings_ParticleDetail"		"Parçacık Detayı"
 		"SFUI_Screen_Resize"				"Göstergeyi Yeniden Boyutlandır"
@@ -31487,9 +31580,16 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Settings_HDR"					"Yüksek Dinamik Aralık"
 		"SFUI_Settings_HDR_Info"			"Yüksek Dinamik Aralık (HDR) en parlak ve en karanlık pikseller arasındaki parlaklık aralığını kontrol eder. Performans değerini seçmek HDR çizimlerinin kalitesini düşürür ancak potansiyel olarak performansı artırır ve GPU hafıza kullanımını düşürür.” "  
 		
+		"SFUI_Settings_GSync"				"NVIDIA G-Sync"
+		"SFUI_Settings_GSync_Info"			"NVIDIA G-Sync, ekranın yenileme hızını mümkün olduğunda oyunun kare hızına uyacak şekilde dinamik olarak değiştirerek daha akıcı bir görsel deneyim sunar. Sadece belirli ekranlarda kullanılabilir ve oyunun kare hızının ekranın maksimum yenileme hızının altında olduğu durumlarda en etkilidir. NVIDIA Denetim Masası aracılığıyla oyun dışından etkinleştirilebilir. Değişikliklerin devreye girmesi için oyunu yeniden başlatman gerekebilir."
+		"GSyncHelpLinkURL"					"https://www.nvidia.com/content/Control-Panel-Help/vLatest/tr-tr/mergedProjects/nvdspTRK/Variable_Refresh_Rate.htm"
+
 		"SFUI_Settings_Reflex"				"NVIDIA Reflex Düşük Gecikme"
 		"SFUI_Settings_Reflex_Info"			"NVIDIA Reflex sistem gecikmesini düşürerek PC cevaplarını artırır. Boost modu GPU'ya daha çok güç çekerek FPS değerlerine küçük etki ederek gecikmeyi olabildiğinde düşüren teknikler içerir."
 		"SFUI_Settings_Reflex_Boost"		"Etkinleştirildi + Yükseltildi"
+
+		"SFUI_Settings_AntiLag"				"AMD Anti-Lag 2.0"
+		"SFUI_Settings_AntiLag_Info"		"AMD Anti-Lag 2.0, sistemin gecikme süresini azaltmak ve böylece bilgisayarın yanıt verme hızını artırmak için kullanılır."
 		
 		"SFUI_Settings_Ultra_Quality"		"Ultra Kaliteli"
 		"SFUI_Settings_Quality"				"Kaliteli"
@@ -31506,6 +31606,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 
 		"SFUI_Settings_Laptop_Power"		"Dizüstü Enerji Tasarrufu"
 		"SFUI_Settings_Vertical_Sync"		"Dikey Eşitleme"
+		"SFUI_Settings_FPS_Max"				"Oyun İçi Maksimum FPS"
+		"SFUI_Settings_FPS_Max_UI"			"Menülerde Maksimum FPS"
 
 		"SFUI_SteamToast_Location"			"Topluluk Bildirimi Konumu"
 		"SFUI_SteamToast_Location_Horz"		"Yatay Düzlemde Topluluk Bildirimi"
@@ -31522,7 +31624,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Settings_Low"					"Düşük"
 
 		"SFUI_Settings_Choice_Custom"			"Özel"
-		"SFUI_Settings_Presets"				"Mevcut Görüntü Değerleri Ön Ayarı:"
+		"SFUI_Settings_Presets"				"Mevcut Görüntü Değerleri Ön Ayarı"
 
 		"SFUI_Settings_Audio_Tip"	"CS2'nin keyfi en iyi stereo kulaklıklar ile çıkar. CS2, tekil ses kaynaklarına ve oyun geometrisine dayalı gelişmiş yerleşik 3 boyutlu ses işleme ve modelleme özelliğine sahiptir. En iyi dinleme deneyimi için tüm haricî ses geliştirmelerini veya sanal surround sesi devre dışı bırakmanı öneririz."
 		"SFUI_Settings_Master_Volume"		"Ana Ses"
@@ -31537,9 +31639,15 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 
 		"SFUI_Settings_Headphone_EQ"		"Ekolayzer Profili"
 		"SFUI_Settings_Headphone_EQ_Tip"	"CS2'deki genel ses rengini değiştirir. Çeşitli donanım ve yazılım kombinasyonlarının neden olduğu ses renklerinin dengelenmesine yardımcı olabilir. Yeni bir ekolayzer profiline alışmak için kendine zaman tanı. <br/><br/><b>Doğal (varsayılan):</b> Ek ses renklendirmesi yoktur.<br/><br/><b>Net:</b> Orta ve yüksek frekans bantlarını geliştirir. Ses lokalizasyonuna yardımcı olabilir ve boğukluğu azaltabilir. Bazı durumlarda sert gelebilir.<br/><br/><b>Yumuşak:</b> Orta ve yüksek frekansları azaltır. Uzun oyun seansları sırasında sertliğin, ses seviyesindeki ani artışların ve kulak yorgunluğunun azaltılmasına yardımcı olabilir. Stüdyo sınıfı kulaklıklar ve daha yüksek ses seviyelerinde müzik dinleyen oyuncular için idealdir."
+		"SFUI_Settings_Headphone_NoOverride"	"Varsayılan"
 		"SFUI_Settings_Headphone_Gamer"		"Net"
 		"SFUI_Settings_Headphone_None"		"Doğal"
-		"SFUI_Settings_Headphone_Studio"	"Yumuşak"	
+		"SFUI_Settings_Headphone_Studio"	"Yumuşak"
+		"SFUI_Settings_GameModeVolume_Competitive_Tip"		"Rekabetçi oyun modu için ses düzeyi ölçeklendirme ve ekolayzeri geçersiz kılma."
+		"SFUI_Settings_GameModeVolume_Casual_Tip"		"Basit Eğlence oyun modu için ses düzeyi ölçeklendirme ve ekolayzeri geçersiz kılma."
+		"SFUI_Settings_GameModeVolume_Spectator_Tip"		"Hem Basit Eğlence hem de Rekabetçi oyun modlarında ölüyken diğer oyuncuları izlerken ses seviyesi ölçeklendirme ve ekolayzeri geçersiz kılma."
+		"SFUI_Settings_GameModeVolume_Deathmatch_Tip"		"Ölüm Maçı oyun modu için ses düzeyi ölçeklendirme ve ekolayzeri geçersiz kılma."
+		"SFUI_Settings_GameModeVolume_Armsrace_Tip"		"Silah Yarışı oyun modu için ses düzeyi ölçeklendirme ve ekolayzeri geçersiz kılma."	
 
 		"SFUI_Settings_Speaker_Config"		"Ses Çıkışı Yapılandırması"
 		"SFUI_Settings_Speaker_Config_Tip"	"Counter-Strike'tan ses çıkışı yapan kanalların sayısını kontrol eder."
@@ -31598,7 +31706,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Settings_VOIP_Volume_Tip"								"Diğer oyunculardan gelen sesli iletişimlerin (VOIP) genel ses düzeyini ayarlar."
 
 		"SFUI_Settings_voice_always_sample_mic"						"Kolay Bas Konuş"
-		"SFUI_Settings_voice_always_sample_mic_tooltip"				"Bazı donanımlarda oyunun donmasını önlemek için kayıt aygıtını sürekli açık tutar."
+		"SFUI_Settings_voice_always_sample_mic_tooltip"				"Kayıt aygıtını mikrofon ilk kullanıldığında değil oyun başladığında açar."
 
 		"SFUI_Settings_VOIP_Positional"								"Diğer Oyuncuların Ses Konumu"
 		"SFUI_Settings_VOIP_Positional_Tip"							"Oyun içi sesli iletişimi konumsal olarak oynatır."
@@ -31615,6 +31723,23 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Settings_Audio_FOV_Tip"			"<b>Evet (varsayılan):</b> Bilgisayar ekranına baktığında ses kaynakları görüş alanına göre doğru bir şekilde işlenecektir. Görüş alanı sınırının sonunda bulunan ses vericiler hafif önünde ses çıkaracaktır. Ekranın dışında ve doğrudan yanında bulunan ses vericiler, sesi tamamen sola veya sağa kaydıracaktır.<br/><br/><b>Hayır:</b> Görüş alanı sınırının sonundaki ses vericiler, sesi sola veya sağa doğru güçlü bir şekilde kaydıracaktır. Ekrana çok yakın oynayan, giyilebilir ekranlar kullanan veya eski ses motorlarını kullanan oyuncular için idealdir. Dinleyici için belirli açılardan konumsal olarak yanıltıcı olabilir."
 		"SFUI_Settings_Audio_FOV_Off"			"Hayır"
 		"SFUI_Settings_Audio_FOV_On"			"Evet"
+
+		"SFUI_Settings_Arms_Race_Volume"	"Silah Yarışı Ses Düzeyi"
+		"SFUI_Settings_Deathmatch_Volume"	"Ölüm Maçı Ses Düzeyi"
+		"SFUI_Settings_Competitive_Volume"	"Rekabetçi Ses Düzeyi"
+		"SFUI_Settings_Casual_Volume"		"Basit Eğlence Ses Düzeyi"
+		"SFUI_Settings_Spectator_Volume"	"Ölüyken İzleyici Ses Düzeyi"
+
+		"SFUI_Settings_GameModeEQ_Tip"		"Her bir oyun moduna özel ekolayzer profili ayarlanmasını sağlar. Basit Eğlence veya Rekabetçi oyun modlarında ses netliğini korurken, Silah Yarışı ve Ölüm Maçı gibi kalabalık oyun modlarında kulak yorgunluğunu azaltmak ve konfor seviyesini artırmak için kullanılabilir"
+		"SFUI_Settings_Arms_Race_EQ"		"Silah Yarışı Ekolayzeri"
+		"SFUI_Settings_Arms_Race_EQ_Tip"	"Bu ekolayzer profilini Silah Yarışı süresince uygular."
+		"SFUI_Settings_Deathmatch_EQ"		"Ölüm Maçı Ekolayzeri"
+		"SFUI_Settings_Deathmatch_EQ_Tip"	"Bu ekolayzer profilini Ölüm Maçı süresince uygular."
+		"SFUI_Settings_Competitive_EQ"		"Rekabetçi Ekolayzeri"
+		"SFUI_Settings_Competitive_EQ_Tip"	"Bu ekolayzer profilini Rekabetçi maç süresince uygular."
+		"SFUI_Settings_Casual_EQ"		"Basit Eğlence Ekolayzeri"
+		"SFUI_Settings_Casual_EQ_Tip"		"Bu ekolayzer profilini Basit Eğlence maçı süresince uygular."
+
 
 		"SFUI_Settings_Menu_Music_Volume"							"Ana Menü Sesi"	
 		"SFUI_Settings_Start_Round_Music_Volume"					"Raunt Başlangıcı Sesi"
@@ -31666,6 +31791,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_CSM_Med"					"Orta"
 		"SFUI_CSM_High"					"Yüksek"
 		"SFUI_CSM_VeryHigh"				"Çok Yüksek"
+		"SFUI_Shadows_SunOnly"			"Sadece Güneş"
+		"SFUI_Shadows_All"				"Tümü"
 		"SFUI_FXAA_Enabled"				"Etkin"
 		"SFUI_FXAA_Disabled"				"Devre Dışı"
 		"SFUI_Settings_Choice_Autodetect"	"Otomatik"
@@ -31702,11 +31829,6 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Settings_HudTelemetry_Show_OnlyInPoorConditions" "Koşullar zayıfsa"
 		"SFUI_Settings_HudTelemetry_Show_Always" "Her Zaman"
 
-		"SFUI_Settings_Network_ProblemAutoShow"   "Ağ Bağlantısı Sorunlarını Göster"
-		"SFUI_Settings_Network_ProblemAutoShow_Info"   "Oyuncu yüksek paket kaybı veya genel ağ kararsızlığı yaşadığında oyunun, sağ üst köşede ağ bağlantısı sorunları göstergesini otomatik olarak göstermesini sağlar."
-		"SFUI_Settings_Network_ProblemAutoShow_Auto"  "Otomatik Olarak"
-		"SFUI_Settings_Network_ProblemAutoShow_Off"   "Devre Dışı"
-
 		"SFUI_Settings_Network_ExtraBuffering"   "Paket kaybını düzeltmek için ara belleğe alma"
 		"SFUI_Settings_Network_ExtraBuffering_Info"   "Sunucudaki anlık görüntüleri ve istemciden gelen komutları ara belleğe alır.\n\nBu, paket kaybından kaynaklanan takılma miktarını azaltır ancak etkin ping sürenizi artırır."
 		"SFUI_Settings_Network_ExtraBuffering_0"   "Yok"
@@ -31727,7 +31849,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Settings_Network_Bandwidth_40mbps"   "4 Mbps"
 		"SFUI_Settings_Network_Bandwidth_Max"	   "Sınırlandırılmamış"
 
-		"SFUI_FeatureUnavailableDuringBeta"		"Beta Süresince Erişilemez"
+		"SFUI_FeatureUnavailableDuringBeta"		"Beta Süresince Eri��ilemez"
 
 		"SFUI_Settings_Always_Show_Inventory"	"Envanteri Sürekli Göster"
 		"SFUI_Settings_Enable_Game_Instructor"	"Oyun Talimat İletilerini Aç"
@@ -31766,12 +31888,15 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"Spectator_Best_Of_Series"				"{d:count} Maçlık Seri" // {d:numtowin} can be used for a "2 To Win" style string in place of "Best of 3"
 
 		"SFUI_Settings_ClanTag_In_Death_Notice"		"Ölme Listesinde Takım Etiketini Göster"
-		"SFUI_Settings_Identify_Teammates"		"Göstergede Takımın Pozisyonlarını Göster"
+		"SFUI_Settings_Identify_Teammates"		"Takım Kimliklerini Duvarların Ötesinden Göster"
 
 		"SFUI_Settings_Radar_Rotate"			"Radar Dönüyor"
 		"SFUI_Settings_Radar_Rotate_Info"		"Dönen radar ile sabit radar arasında geçiş yapar."
 		"SFUI_Settings_Radar_Scale"				"Radar Harita Yakınlaştırması"
+		"SFUI_Settings_Radar_Scale_Alternate"	"Radar Haritası Alternatif Yakınlaştırması"
 		"SFUI_Settings_Radar_Scale_Info"		"Harita yakınlaştırması haritanın radarındaki görünen miktarına etki eder."
+		"SFUI_Settings_Radar_Scale_Alternate_Info"	"Bir tuşla açıp kapatabileceğiniz alternatif bir harita yakınlaştırması düzeyi."
+		"SFUI_Go_To_Radar_Toggle_Key_Binding"	"RADAR YAKINLAŞTIRMASI TUŞ ATAMASINA GİT"
 
 		"SFUI_Settings_Radar_Centered"			"Radar Oyuncuya Odaklanır"
 		"SFUI_Settings_Radar_Centered_Info"		"Oyuncuya merkezli ya da en uygun şekilde duran radar arasında geçiş yapar."
@@ -31851,7 +31976,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		
 		"SFUI_Settings_PlayerPingMuteVisuals_Title"	"Oyuncu Ping Göstergesini Sakla"
 		"SFUI_Settings_MuteEnemies_Title"		"Düşman Takımını Sustur"
-		"SFUI_Settings_HideAvatars_Title"		"Avatar Görsellerini Sakla"
+		"SFUI_Settings_HideAvatars_Title"		"Avatar Görsellerini ve Özelleştirilmiş Eşyaları Gizle"
 		"SFUI_Settings_HideAvatars_All"			"Tümünü Göster"
 		"SFUI_Settings_HideAvatars_None"		"Tümünü Gizle"
 		"SFUI_Settings_HideAvatars_Friends"		"Sadece Arkadaşları Göster"
@@ -31894,6 +32019,13 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Settings_ViewmodelPosDesktop"		"Masaüstü"
 		"SFUI_Settings_ViewmodelPosCouch"		"Kanepe"
 		"SFUI_Settings_ViewmodelPosClassic"		"Klasik"
+		
+		"Cstrike_SwitchHandedness"					"Birinci şahıs modelinin baskın elini değiştir (sol/sağ)"
+		"Cstrike_PreferredHandedness"				"Birinci Şahıs Modeli için Sol/Sağ El Tercihi"
+		"Cstrike_PreferredHandedness_Desc"			"Varsayılan birinci şahıs modelinin sol veya sağ elini kullanmasını seçin. Oyun sırasında geçici olarak el değiştirmek için bir tuş ataması da vardır."
+		"Cstrike_PreferredHandedness_Right"			"Sağ"
+		"Cstrike_PreferredHandedness_Left"			"Sol"
+		"Cstrike_GoToSwitchHandednessKeyBinding"	"El değiştirme tuş atamasına git"
 
 		"Cstrike_FirstPersonTracers"		"Birinci Şahıs İzleri"
 		"Cstrike_FirstPersonTracers_Desc"	"Kendi mermi izlerinizi yerel olarak oluşturup oluşturmayacağınızı belirler. Diğer oyuncular görmeye devam edecek."
@@ -31907,7 +32039,9 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Settings_PowerSavings_Info"	"Güç Tasarrufu Modundayken oyun, pil gücünü korumak ve oynayabileceğin süreyi arttırmak için düşük çerçeve hızında çalışır."
 		"SFUI_Settings_Antialiasing_Info"	"Keskinliği Yumuşatma, objelerin kenarlarındaki tırtıkları yok ederek pürüzsüz bir görüntü sağlar. Keskinliği yumuşatma kalitesini arttırmak ekran kartı performansını düşürebilir."
 		"SFUI_Settings_Filtering_Info"		"Doku Filtresi ayarını arttırmak dokuların oyun içindeki görünümünü iyileştirir. Filtre kalitesini arttırmak ekran kartı performansını düşürebilir."
-		"SFUI_Settings_WaitForVSync_Info"	"Dikey eşitleme, daha pürüzsüz bir deneyim için tavsiye edilir. Bu ayarın devre dışı bırakılması görsel yırtılmaların oluşmasına neden olabilir."
+		"SFUI_Settings_WaitForVSync_Info"	"V-Sync oyunun kare hızının ekranın yenileme hızıyla eşleşmesini sağlar ve ekran yırtılmasını ortadan kaldırarak genellikle daha akıcı bir deneyim sunar."
+		"SFUI_Settings_FPS_Max_Info"		"Oyunu oynadığın sıradaki maksimum kare hızını belirle."
+		"SFUI_Settings_FPS_Max_UI_Info"		"Oyunun menülerindeki maksimum kare hızını belirle."
 		"SFUI_Settings_QueuedMode_Info"		"Çoklu CPU Kullanımı, Counter-Strike'ın sistemindeki çoklu işlemcileri kullanmasına izin verir. Bu ayarın devre dışı bırakılması daha fazla kare almanı sağlayabilir fakat görsel kalitenin düşmesine neden olur."
 		"SFUI_Settings_ShaderDetail_Info"	"Shader Detayı, oyundaki ışıklandırmaların geliştirilmesini ve yüzeylerin gölgelendirilmesini kontrol eder. Yüksek ayarlar görsel kaliteyi arttırır fakat ekran kartı performansını düşürebilir."
 		"SFUI_Settings_CPUDetail_Info"		"Efekt Detayı, oyundaki bazı görsel efektlerin karmaşıklığını ve çizim uzaklığını kontrol eder. Efekt detayını azaltmak performansı arttırabilir fakat objelerin birden ortaya çıkması gibi sorunlara yol açar."
@@ -31919,8 +32053,9 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Settings_TripleMonitor_Info"	"Üçlü monitör modu etkinleştirildiğinde gösterge gibi arayüz unsurları görüntünün %33'lük orta kısmına kısıtlanır. Görüntünün üç monitöre yayıldığı durumlar için işe yarar bir ayardır."	
 		"SFUI_Edit_Profile"					"PROFİLİ DÜZENLE"
 		"SFUI_Settings_ColorMode"			"Ekranın renk modunu değiştirir. Sadece tam ekran modunda kullanılabilir."
-		"SFUI_Settings_Brightness"			"Ekranın gamma düzeltmesini değiştirerek genel parlaklığı ayarlayın. Sadece tam ekran modu için geçerlidir."
+		"SFUI_Settings_Brightness"			"Oyun içi grafiklerin gama düzeltmesini değiştirerek genel parlaklığı ayarlayın."
 		"SFUI_Settings_TextureStreaming_Info"	"Doku akışı, işleme için gerekli olana kadar yüksek çözünürlüklü dokuların yüklenmesinin oyun tarafından ertelenmesini sağlar. Bunu devre dışı bırakmak doku belleği tüketimini artmasına neden olur. Yavaş disk erişimine sahip sistemlerde akan dokular anlık da olsa görünebilir."
+		"SFUI_Settings_DynamicShadows_Info"	"Oyuncular ve sis gibi dinamik nesnelerin gölgesini oluşturacak ışık kaynaklarını seçin. \"Sadece Güneş\" grafik performansını artırabilir ancak özellikle iç mekanlarda rekabet açısından dezavantajlı duruma düşmenize neden olabilir."
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Chat
@@ -31967,8 +32102,6 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"BuyMenu_Sellback"						"İade Et"
 		"BuyMenu_NewUserExperience_Recommended"	"ÖNERİLEN"
 		"BuyMenu_Promoted"						"TERFİ EDİLDİ"
-
-
 
 		"SFUI_BuyMenu_SelectWeapon" "Silah\nSeç"
 
@@ -32021,15 +32154,15 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_BuyMenu_Header" "SATIN ALMA MENÜSÜ"
 		"SFUI_BuyMenu_WeaponClass" "SİLAH SEÇİM MENÜSÜ"
 
-		"SFUI_BuyMenu_CanOnlyCarryXGrenades"	"Sadece {s:s1} bomba taşıyabilirsin."
-		"SFUI_BuyMenu_MaxItemsOfType"			"Bu tür teçhizattan sadece {s:s1} tane taşıyabilirsin."
-		"SFUI_BuyMenu_MaxItemsOfTypePurchased"	"Bu tür teçhizattan sadece {s:s1} tane satın alabilirsin."
+		"SFUI_BuyMenu_CanOnlyCarryXGrenades:p{s1}"		"Sadece {s:s1} bomba taşıyabilirsin.#|#Sadece {s:s1} bomba taşıyabilirsin."
+		"SFUI_BuyMenu_MaxItemsOfType:p{s1}"				"Bu tür teçhizattan sadece {s:s1} tane taşıyabilirsin.#|#Bu tür teçhizattan sadece {s:s1} tane taşıyabilirsin."
+		"SFUI_BuyMenu_MaxItemsOfTypePurchased:p{s1}"	"Bu tür teçhizattan sadece {s:s1} tane satın alabilirsin.#|#Bu tür teçhizattan sadece {s:s1} tane satın alabilirsin."
 		"SFUI_BuyMenu_AlreadyCarrying"			"Şu anki envanterde mevcut."
 		"SFUI_BuyMenu_AlreadyPurchased"			"Bu rauntta zaten bir tane satın aldın."
 		"SFUI_BuyMenu_NotAllowedByMap"			"Bu harita türünde kullanılamaz."
 		"SFUI_BuyMenu_NotAllowedByMode"			"Bu oyun modunda kullanılamaz."
 		"SFUI_BuyMenu_NotAllowedByTeam"			"Mevcut takımında kullanılamaz."
-        "SFUI_BuyMenu_ReachedWeaponsExpertLimit""Bu maçta zaten {s:s1} satın alındı."
+		"SFUI_BuyMenu_ReachedWeaponsExpertLimit:p{s1}"	"Bu maçta zaten {s:s1} satın alındı.#|#Bu maçta zaten {s:s1} satın alındı."
 		"SFUI_BuyMenu_Cannot_Afford"			"${s:s1} daha gerekli."
 		"SFUI_BuyMenu_OnlyOneArmor"				"Zaten zırhın var."
 		"SFUI_BuyMenu_NotAllowed_Short"			"İZİN YOK"
@@ -32041,6 +32174,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"buymenu_prohibited_weapon_hint"		"<b>{s:s1}</b> bu oyun modunda kullanılamaz."
 		"buymenu_weaponsexpert_reminder"		"Bu silahı maç başına bir kez satın alın"
 		"buymenu_weaponsexpert_supply"			"Takım Tedariği: <b>%s1</b>"
+
+		"buymenu_groundweapons"					"Bırakılan Silahlar"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy menu text information
@@ -32333,6 +32468,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_OfficialDatacenterID_42"		"Çin, Chengdu"
 		"SFUI_OfficialDatacenterID_43"		"ABD, New York"
 		"SFUI_OfficialDatacenterID_44"		"AB, Finlandiya"
+		"SFUI_OfficialDatacenterID_45"		"Birleşik Krallık"
 
 		"SFUI_UserAlert_HighPings"			"Resmî sunuculardaki en iyi ping değerin %s1 ms."
 		"SFUI_UserAlert_Unreachable"		"Herhangi bir resmî sunucuya bağlanmak başarısız oldu."
@@ -32821,6 +32957,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Lobby_StatusInLobby"			"Lobide"
 		"SFUI_Lobby_StatusInLevel"			"Bölümde"
 		"SFUI_Lobby_StatusInGame"			"Başka Oyun Oynuyor"
+		"SFUI_Lobby_StatusPlayingSteamRP"	"Counter-Strike 2 Oynuyor"
 		"SFUI_Lobby_StatusPlayingCSGO"		"Counter-Strike Oynuyor"
 		"SFUI_Lobby_StatusWatchingCSGO"		"Maç Seyrediyor"
 		"SFUI_Lobby_StatusOverwatch"		"Overwatch Oturumunda"
@@ -34443,7 +34580,6 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"Player_DisconnectReason_NoSteamLogin"				"kullanıcı, Steam'e bağlı değil"
 		"Player_DisconnectReason_NoSteamTicket"				"Oyun kimlik doğrulaması başarısız oldu"
 		"Player_DisconnectReason_ConnectionClosing"			"bağlantı kapanıyor"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Profile Text
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -36335,9 +36471,13 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"PlayMenu_GraphicsDriverWarning_AMD"		"En iyi oyun deneyimi için lütfen en son sürücüyü indirmek üzere AMD desteğini ziyaret edin."
 		"PlayMenu_GraphicsDriverWarning_Nvidia"		"En iyi oyun deneyimi için lütfen en son sürücüyü indirmek üzere NVIDIA desteğini ziyaret edin."
 		"PlayMenu_GraphicsDriverLink_AMD"			"AMD sitesine git"
-		"PlayMenu_GraphicsDriverLink_Nvidia"		"NVIDIA sitesine git"
+		"PlayMenu_GraphicsDriverLink_Nvidia"		"NVIDIA'yı ziyaret et"
 
-		
+		"SettingsRecommendation"					"Ayar Tavsiyesi"
+		"VariableRefreshRateRecommendation_Nvidia"	"NVIDIA G-Sync'i destekleyen bir monitörün var ancak bu özellik etkin değil. En iyi oyun deneyimi için G-Sync'i etkinleştirmeyi tavsiye ediyoruz. Bunu NVIDIA Denetim Masası aracılığıyla oyun dışından etkinleştirebilirsin. Değişikliklerin devreye girmesi için oyunu yeniden başlatman gerekebilir."
+		"RefreshRateRecommendation"					"Monitöründe {d:max_refresh_rate} Hz modu var ancak şu anda {d:curr_refresh_rate} Hz olarak çalışıyor. En iyi oyun deneyimi için monitörünün sunduğu en yüksek yenileme hızını kullanmanı tavsiye ediyoruz."
+		"LowLatencyVSyncRecommendation_Nvidia"		"Görünüşe göre NVIDIA G-Sync'i etkinleştirmişsin ancak dikey eşitleme ve NVIDIA Reflex'in her ikisini etkinleştirmemişsin. En iyi oyun deneyimi için bu üç ayarı etkinleştirmeni tavsiye ediyoruz."
+
 		"PlayMenu_GraphicsDriverWarning_RemindMeLater"	"Daha sonra hatırlat"
 		"PlayMenu_GraphicsDriverWarning_DontShowAgain"	"Bir daha gösterme"
 
@@ -36585,6 +36725,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"inv_sort_type"						"Tür"
 		"inv_search_default"				"Burada ara"
 		"inv_nav_all"						"HER ŞEY"
+		"inv_nav_rentals"					"KİRALAMALAR"
 		"inv_nav_weapons"					"Silahlar"
 		"inv_nav_graphics"					"GRAFİK"
 		"inv_nav_equipment"					"EKİPMAN"
@@ -36612,6 +36753,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"inv_nav_items"						"EŞYALAR"
 		"inv_nav_market"					"STEAM PAZARI"
 		"inv_nav_search"					"Eşyaları Ara"
+		"inv_nav_filter_rentals"			"Kiralanmış Eşyaları Gizle"
 
 		"loadout_wedge_weapon_name"			"<b>{s:item-name}</b>"
 		"loadout_clear_filters"				"Filtreleri temizle"
@@ -36723,7 +36865,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 
 		"CSGO_ItemName_Base"				"<span class=\"fontWeight-Bold\">{s:item_name}</span>"
 		"CSGO_ItemName_Painted"				"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>{s:paintkit_name}"
-		"CSGO_ItemName_Custom"				"{s:item_name}"
+		"CSGO_ItemName_Custom_Painted"		"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>{s:paintkit_name}<br>\"<i>{s:custom_item_name}</i>\""
+		"CSGO_ItemName_Custom_Simple"		"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>\"<i>{s:custom_item_name}</i>\""
 
 		"popup_casket_action_remove"		"Al"
 		"popup_casket_title_add"			"Depoya Kaldırılıyor"
@@ -36731,8 +36874,12 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"popup_casket_title_loadcontents"	"Depoya Erişiliyor"
 
 		"popup_inv_lootlist_header"		"{s:container} inceleniyor"
+		"popup_inv_lootlist_rental_header"		"Kiraladığın silahı inceliyorsun"
 		"popup_inv_lootlist_count"		"{d:index}/{d:total}"
 		"popup_inv_lootlist_inspect_all"	"EŞYALARI İNCELE"
+
+		"popup_inspect_header_name"			"{s:item_name}"
+		"popup_inspect_header_customname"	"\"{s:item_custom_name}\""
 
 		"popup_casket_title_error_casket_too_full"		"Depo Dolu"
 		"popup_casket_message_error_casket_too_full"	"Seçili depo dolu olduğu için eşyan kaldırılamadı. Oyun içinden ilave depo alabilirsin."
@@ -36853,17 +37000,24 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"popup_decodeable_button_graffiti"	"Grafitinin Mührünü Kır"
 		"popup_decodeable_button_fantoken"	"Öğeyi Etkinleştir"
 		"popup_decodeable_async_desc"	"<b>{s:itemname}</b> öğesini kullanın"
-		"popup_decodeable_async_xray_desc"		"İçindeki öğeyi görebilmek için röntgen cihazın�� kullan"
+		"popup_decodeable_async_xray_desc"		"İçindeki öğeyi görebilmek için röntgen cihazını kullan"
 		"popup_decodeable_err_restricted"	"Ülkenizde <b>{s:itemname}</b> açmanıza izin verilmiyor"
+		"popup_decodable_open_case"		"Aç ve Al"
+		"popup_decodable_keep_weapon"	"Bir Silaha Sahip Ol"
+		"popup_decodable_rent_weapons"		"Aç ve Kirala"
+		"popup_decodable_rent_get_key"		"Gerekenler: {s:itemname} - <b>{s:price}</b>"
+		"popup_decodable_rent_weapon_count:p{numlootlist}"	"{d:numlootlist} Silahı 7 Günlüğüne Kirala#|#{d:numlootlist} Silahı 7 Günlüğüne Kirala"
 
 		//Capability
 		"popup_capability_upsell"	"Bu eylem bir <b>{s:itemname}</b> gerektirir"
+		"popup_capability_upsell_rental"	"Kasayı açıp içinden bir eşyayı almak veya tümünü kiralamak için <b>{s:itemname}</b> gerektirir."
 		"popup_capability_use"		"<b>{s:itemname}</b>"
 		"popup_totool_nameable_header"	"İsim Etiketini Ön İzle"
 		"popup_totool_decodeable_header"	"Kasayı Aç"
 		"popup_totool_decodeable_header_graffiti"	"Grafitiyi Aç"
 		"popup_totool_decodeable_header_fantoken"	"Öğeyi Etkinleştir"
 		"popup_totool_purchase_header"	"Satın Al"
+		"popup_totool_purchase_header2"	"ELDE ETMEK İÇİN SATIN AL"
 
 		//Purchase
 		"popup_cartpreview_button"		"Ön İzleme"
@@ -36890,6 +37044,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"popup_xray_ready_for_use"		"Röntgen cihazı kasanı taramaya hazır"
 		"popup_xray_already_in_use"		"Öğe alınabilir"
 		"popup_xray_reveal_warning"  	"Bu kutuyu tüketmek ve içindeki öğeyi açığa çıkarmak için röntgen cihazını kullan."
+		"popup_xray_reveal_warning_short"  	"İçindeki eşyayı görebilmek için kullan."
 		"popup_xray_in_use_title"		"Röntgen Cihazı"
 		"popup_xray_in_use_desc"		"Röntgen cihazın şu anda bir önceki kasanın içindeki öğeyi gösteriyor. \n\nRöntgen cihazını tekrar kullanmak için öncelikle bu öğeyi almalısın."
 		"popup_xray_first_use_title"	"Röntgen Cihazı"
@@ -36943,6 +37098,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 
 		//redeem souvenir
 		"popup_redeem_souvenir_title" "Bu maçtan bir hatıra al"
+		"popup_redeem_souvenir_action" "Hatıra Paketini Al"
 		"popup_redeem_souvenir_action_redeem" "Hatırayı Al"
 		"popup_redeem_souvenir_action_price" "{s:price} - Hatıra Paketi Al"
 		"popup_redeem_souvenir_desc:p{redeems}" "<span class=\"get-souvenir-redeem-count\">{d:redeems}</span> hatıra alınabilir#|#<span class=\"get-souvenir-redeem-count\">{d:redeems}</span> hatıra alınabilir"
@@ -37140,6 +37296,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"settings_account_conn_section"		"Twitch.tv"
 		"settings_crosshair"				"Nişangâh"
 		"settings_crosshair_info"			"Retikül boyutunu, biçimini ve rengini özelleştir. Nişangâh kodunu arkadaşlarınla paylaş veya başka birinin ayarlarını dene."
+		"settings_grenadecrosshair"			"El Bombası Hedef Göstergesi"
+		"settings_grenadecrosshair_info"	"El bombası atışlarını hizalamaya yardımcı olan bir gösterge."
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / Tablet"
 		"settings_items_section"			"Eşya"
@@ -37151,9 +37309,12 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"settings_telemetry_section_info"	"FPS, ping ve paket kaybı gibi performans ölçümlerinin hangilerinin göstergede gösterileceğini özelleştirin."
 		"settings_audio_section"			"Ses"
 		"settings_music_section"			"Müzik"
+		"settings_voice_section"			"Ses"
+		"settings_audio_advanced_section"		"Oyun Modu Ekolayzerleri"
 		"settings_video_section"			"Görüntü"
 		"settings_video_advanced_section"	"Gelişmiş Görüntü"
-		"settings_video_individual_presets"	"Bireysel Ön Ayar Değerleri:"
+		"settings_video_frame_pacing"		"Kare Sıralama (Frame Pacing)"
+		"settings_video_presets"			"Ön Ayarlar"
 		"settings_video_hud_edge_positions"	"Gösterge Kenar Konumları"
 		"settings_video_hud_edge_x"			"Yatay Düzeltme"
 		"settings_video_hud_edge_y"			"Dikey Düzeltme"
@@ -37421,6 +37582,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"CSGO_Workshop_Mode_coopstrike"				"Eşli Saldırı"
 		"CSGO_Workshop_Mode_custom"					"Özel"
 		"CSGO_Workshop_Mode_armsrace"				"Silah Yarışı"
+		"CSGO_Workshop_Mode_gungameprogressive"		"Silah Yarışı"
 		"CSGO_Workshop_Mode_demolition"				"Yıkım"
 		"CSGO_Workshop_Mode_flyingscoutsman"		"Uçan Gözcü"
 		"CSGO_Workshop_Mode_retakes"				"Geri Alışlar"
@@ -37538,7 +37700,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 
 		"tooltip_inspect_weapon_model"	"Silah modelini incele"
 		"tooltip_inspect_weapon_model_faction"	"Oyuncu modelini incele"
-		"tooltip_inspect_play_mvp_anthem"	"EDO marş��nı çal"
+		"tooltip_inspect_play_mvp_anthem"	"EDO marşını çal"
 
 		"tooltip_lookat_weapon_model"	"Birinci şahıs inceleme animasyonu"
 		
@@ -37683,6 +37845,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"tooltip_unequip_flair"						"Bu eşyayı çıkart"
 		"tooltip_prime"								"Seçkin hesap etkin"
 
+		"tooltip_demo_highlights_toggle"			"Önemli anlar oynatmasını aç/kapat"
+
 		"mainmenu_go_to_character_loadout"			"Ajanı Teçhizatta Görüntüle"
 		"mainmenu_switch_vanity_to_t"				"Seçili T Ajanını Göster"
 		"mainmenu_switch_vanity_to_ct"				"Seçili AT Ajanını Göster"
@@ -37782,14 +37946,14 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"BuyMenu_Buyprev"				"[{s:bind_rebuy}] Öncekini Tekrar Al"
 		"BuyMenu_Buyprev_Key"			"{s:rebuy}"
 		"BuyMenu_Back"					"[{s:bind_cancelselect}] Geri"
-		"BuyMenu_BuyForTeammate"		"Bir takım arkadaşına almak için [{s:buywheel_donate_key}] tuşuna basılı tut"
+		"BuyMenu_BuyForTeammate"		"[{s:buywheel_donate_key}] tuşunu basılı tutarak satın al ve at"
 		"BuyMenu_BuyForTeammate_Donate"		"{s:csgo_donate} Bağışla"
 
 		"BuyMenu_Sellbackall"			"[{s:bind_sellbackall}] Tümünü İade Et"
 
 
 		"BuyMenu_BuyForTeammate_Key"	"{s:autobuy}"
-		"BuyMenu_BuyForTeammate_hint"	"Satın alınan silah takım arkadaşının alabilmesi için yere atılır"
+		"BuyMenu_BuyForTeammate_hint"	"Satın al ve at"
 
 		"BuyMenu_Done"					"${cancel} Kapat"
 
@@ -37806,6 +37970,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"BuyMenu_NotInBuyZone"			"Satın alma bölgesinden çıktın"
 		"BuyMenu_CantBuyTilNextWave"	"Saldırı dalgası sırasında satın alım yapamazsın"
 		"BuyMenu_CantBuy"				"Satın alım yapamazsın"
+		"BuyMenu_MinMoneyNextRound"		"Sonraki Raunt için Minimum: ${d:next-round-min-money}"
 
 		"BuyMenu_Header"				"SATIN ALMA MENÜSÜ"
 		"BuyMenu_WeaponClass"			"SİLAH SEÇİM MENÜSÜ"
@@ -37836,6 +38001,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"buymenu_tooltip_tagging"				"İsabet alan düşmanların hareket hızı yavaşlar."
 
 		"buymenu_money"							"${d:r:money}"
+		"buymenu_money_digitpanel_digits"		" $0123456789"
 		"buymenu_cost_amount"					"${d:r:item_price}"
 		"buymenu_killaward_amount"				"${d:r:kill_reward} (%{d:r:kill_reward_pct})"
 
@@ -38043,9 +38209,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"Scoreboard_money_val"							"${d:r:stat_d_money}"
 		"Scoreboard_damage"								"HSR"
 		"Scoreboard_knifekills"							"Bıçak L"	
-		"Scoreboard_taserkills"							"Zeus L"		
-
-
+		"Scoreboard_taserkills"							"Zeus L"
 		"Scoreboard_lossmoneybonus_tooltip"				"Bir raunt kaybetme sonucu {s:round_loss_income_team} <b>${d:round_loss_income_amount}</b> kazanacak"
 
 		"Scoreboard_ping_tooltip"		 				"Ping"
@@ -38206,11 +38370,14 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		///////////////////////////////////////////////////////////
 		
 		"eom-skillgroup-win:p{matcheswon}"				"{s:rating_type} Maç Kazanıldı#|#{s:rating_type} Maç Kazanıldı"
+		"eom-skillgroup-map-win:p{matcheswon}"			"{s:rating_type} {s:map} maçı kazanıldı#|#{s:rating_type}{s:map} maçı kazanıldı"
+
 		"eom-skillgroup-needed-wins:p{winsneeded}"		"Yetenek grubunu göstermek için {d:winsneeded} maç kazan.#|#Yetenek grubunu göstermek için {d:winsneeded} maç kazan."
 		"eom-skillgroup-expired"						"Zamanı geçmiş yetenek grubunu yenilemek için <b>1</b> {s:rating_type} maçı kazan."
 		"eom-skillgroup-expired-premier"				"Zamanı geçmiş CS dereceni yenilemek için <b>1</b> {s:rating_type} maçı kazan."
 		"eom-skillgroup-recalibrating"					"Yetenek grubu yeniden ölçülüyor, tekrar göstermek için <b>1</b> {s:rating_type} maçı kazan."
 		"eom-skillgroup-higher"							"Üst Yetenek Grubu"
+		"eom-skillgroup-map-name"						"{s:rating_type}{s:map} Yetenek Grubun"
 		"eom-skillgroup-name"							"{s:rating_type} Yetenek Grubun"
 		"eom-skillgroup-needed-dzgames"					"Yetenek grubunu göstermek için daha fazla Tehlikeli Bölge maçı yap"
 
@@ -38749,8 +38916,6 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"eom-survival-damage-taken"						"Alınan Hasar"
 		"eom-survival-damage-given"						"Verilen Hasar"
 
-		"versus"										"VS."
-
 
 
 		//////////////////////////////////////////////////////////////////
@@ -38970,14 +39135,20 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		///////////////////////////////////////////////////////////
 
 		"Panorama_winpanel_mvp_award"				"EDO"
-		"Panorama_winpanel_mvp_award_kills"			"EDO: En çok kişiyi öldürdüğü için"
+		"Panorama_winpanel_mvp_award_kills"			"EDO"
 		"Panorama_winpanel_mvp_award_ace"			"EDO: Herkesi öldürdüğü için"
 		"Panorama_winpanel_mvp_award_bombplant"		"EDO: Bombayı kurduğu için"
 		"Panorama_winpanel_mvp_award_bombdefuse"	"EDO: Bombayı imha ettiği için"
 		"Panorama_winpanel_mvp_award_rescue"		"EDO: Bir rehine kurtardığı için"
 		"Panorama_winpanel_mvp_award_score"			"EDO: En yüksek skoru elde ettiği için"
-		"Panorama_winpanel_mvp_award_gungame"		"{s:mvp}"
-		"Panorama_winpanel_mvp_winner"				"{s:mvp}"
+		"Panorama_winpanel_mvp_award_inferno"		"EDO: Ateşle çok yüksek hasar verme"
+		"Panorama_winpanel_mvp_award_blast"			"EDO: Bombayla çok yüksek hasar verme"
+		"Panorama_winpanel_mvp_award_bombdefuse_clutch"	"EDO: Takımında hayatta kalan tek oyuncuyken bombayı imha etme"
+		"Panorama_winpanel_mvp_award_bombplant_clutch"	"EDO: Bombayı kurduğu ve savunduğu için"
+		"Panorama_winpanel_mvp_award_gungame"		"EDO"
+		"Panorama_winpanel_mvp_winner"				"EDO"
+		"Panorama_winpanel_mvp_award_kills_three"	"EDO: En fazla leş (3'lü)"
+		"Panorama_winpanel_mvp_award_kills_four"	"EDO: En fazla leş (4'lü)"
 
 		"Panorama_WinPanel_rank_awarded_multi"	"{d:rank_increase} yeni rütbe kazandın!"
 
@@ -39083,6 +39254,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"pickem_save_all" 			"TÜM SEÇİMLERİ KAYDET"
 		"pickem_make_picks" 		"YAPILAN SEÇİMLER: {d:user-picks}/{d:total-picks}"
 		"pickem_drag_picks" 		"Takımları sürükleyerek seçim yap"
+		"pickem_reveal_all_results" "Son sıralamayı göster"
 		"pickem_saved" 		"Seçimler Kaydedildi"
 		"pickem_teams_tbd" 	"Takımlar Belirlenecek"
 		"pickem_challenge_section_title" "SEÇİM MÜCADELESİ"
@@ -39092,10 +39264,12 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"pickem_items_tab_playoff_stage" "PLAYOFF'LAR"
 		"pickem_teams_remove_all_tooltip" 	"Tüm seçimleri temizle"
 		"pickem_teams_fill_tooltip" 	"Boş seçimleri rastgele doldur"
-		"pickem_teams_remove_all_tooltip" 	"Clear all picks"
+		"pickem_versus"				"VS."
 		"contextmenu_pickem_souvenir_title" 	"Hatıra paketinin alınacağı maçı seç"
 		"contextmenu_pickem_souvenir_no_result" 	"Hatıra paketi almak için maç bittikten sonra tekrar gel"
 		"mainmenu_major_hub"	"KOPENHAG MAJOR MERKEZİ VE EŞYALARI"
+		"mainmenu_major_hub_items"	"Çıkartmalar Şimdi Alınabilir"
+		"mainmenu_major_hub_no_items" "KOPENHAG MAJOR MERKEZİ"
 
 		"pickem_swiss_group_00"									"0:0"
 		"pickem_swiss_group_10"									"1:0"
@@ -39176,7 +39350,6 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 
 
 		"digitpanel_digits"			 " 0123456789,.-+?"
-		"digitpanel_digits_hudmoney" " $0123456789"
 		"digitpanel_digits_premier" " 1234567890,?"
 
 
@@ -39187,17 +39360,15 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		///////////////////////////////////////////////////////////
 		
 		"Panorama_Overwatch_Downloading"		"Vaka dosyaları indiriliyor..."
-		"Panorama_Overwatch_Review"				"Bir vakayı incelemek yaklaşık 10 dakika sürer."
-		"Panorama_Overwatch_Welcome"			"Overwatch'a Hoş Geldin"
-		"Panorama_Overwatch_Tooltip_p1"		"Overwatch, CS:GO topluluğunun düzenini sağlayacak nitelikli ve tecrübeli topluluk üyelerinin, (\"müfettişler\") bazı olaylar sonucu gönderilen raporların doğruluğunu kontrol etmelerini sağlayan ve raporların sonucunda gerekirse, rapor edilen kullanıcıların geçici olarak oyundan yasaklandığı bir programdır. \n\nEğer katılmayı seçersen; sana bir kayıt sunulacak ve senden bunu izlemen (yaklaşık 10 dakika) ve şüpheli oyuncunun gerçekten oyunu bozan hareketler sergileyip sergilemediğini tespit etmen ve sonunda bir karar vermen istenecektir."
+		"Panorama_Overwatch_Review"				"Bir vakayı incelemek birkaç dakika sürer."
+		"Panorama_Overwatch_Welcome"			"Counter-Strike Overwatch"
+		"Panorama_Overwatch_Tooltip_p1"			"Counter-Strike çalışmanın bir parçası olarak, şüpheli davranışları tespit etmek için resmî Valve sunucularında oynanan Counter-Strike 2 maçlarının tekrarlarını indirecek ve inceleyeceksin. Tekrar sona erdiğinde, oyuncunun oynayışıyla ilgili kararlar vermen istenecek."
 		"Panorama_Overwatch_Tooltip_sh1"		"Adım 1"
-		"Panorama_Overwatch_Tooltip_p2"		"\"<b>Delilleri İndir</b>\"e tıkla. Vaka dosyası indirilmeye başlayacaktır."
+		"Panorama_Overwatch_Tooltip_p2"			"Bir Overwatch vakasını indirmek için sağ alttaki DELİLLERİ İNDİR'e tıkla."
 		"Panorama_Overwatch_Tooltip_sh2"		"Adım 2"
-		"Panorama_Overwatch_Tooltip_p3"			"\"<b>Delilleri İncele</b>\"ye tıkla. Şimdi vakanın tekrarını izleyeceksin."
+		"Panorama_Overwatch_Tooltip_p3"			"Sunucunun kaydettiği tekrarı oyuncunun bakış açısından izlemek için DELİLLERİ İNCELE'ye tıkla."
 		"Panorama_Overwatch_Tooltip_sh3"		"Adım 3"
-		"Panorama_Overwatch_Tooltip_p4"			"Son olarak, olası seçeneklerden uygun kararı seç."
-		"Panorama_Overwatch_Tooltip_sh4"		"Adım 4"
-		"Panorama_Overwatch_Tooltip_p5"			"Bu kadar!\n\nVakaların çözüldükten sonra, verdiğin kararların doğruluğuna göre bir <b>TP ödülü</b> alacaksın. Ödüllerini resmî sunucularda oynadığın bir maç sonrasında toplayabilirsin. CS:GO topluluğuna yardım ettiğin için teşekkür ederiz."
+		"Panorama_Overwatch_Tooltip_p4"			"Vaka sonuçlandığında, her soru için bir karar seç ve KARARI BİLDİR'e tıkla."
 		"Panorama_Overwatch_Major_Disruption"	"Büyük Suç"
 		"Panorama_Overwatch_Minor_Disruption"	"Küçük Suç"
 		"Panorama_Overwatch_Res_Griefing"		"Oyunbozanlık"
@@ -39423,7 +39594,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"GameUI_Retake_Card_4BadGuysLeft"		"4 Kötü Adam Kaldı"
 		"GameUI_Retake_Card_LookAway"			"Başka Yere Bak!"
 		"GameUI_Retake_Card_WhenThereIsSmoke"	"Duman Olan Yerde..."
-		"GameUI_Retake_Card_BlindFire"			"Kör Ate��"
+		"GameUI_Retake_Card_BlindFire"			"Kör Ateş"
 		"GameUI_Retake_Card_QueOta"				"Qué ota?"
 		"GameUI_Retake_Card_SmokeScreen"		"Sis Perdesi"
 		"GameUI_Retake_Card_TecTecBoom"			"TEC, TEC, BUM!"
@@ -39450,15 +39621,42 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"LoadoutLockedPopupTitle"				"Ekipman Kilitli"
 		"LoadoutLockedPopupText"				"Rekabetçi eşleştirme süresince ekipman değişikliklerine izin verilmez."
 
-		"Workshop_tournament_item_title" "Turnuva Eşyası Gönderme Aracı"
-		"Workshop_tournament_item_error_title" "Eşyanız için bir başlık girin. Bu, oyuncu adını veya diğer tanımlayıcı bilgileri içermelidir."
-		"Workshop_tournament_item_error_image" "{s:max_size} boyutundan küçük ve en az {d:min_height} genişlik/yüksekliğe sahip JPEG veya PNG türünde geçerli bir görseli seçin."
-		"Workshop_tournament_item_ready" "Gönderim yüklenmeye hazır"
+		"Workshop_item_title" "Eşya Gönderme Aracı"
+		"Workshop_item_error_title" "Eşyanız için bir başlık girin. Bu, oyuncu adını veya diğer tanımlayıcı bilgileri içermelidir."
+		"Workshop_item_error_image" "{s:max_size} boyutundan küçük ve en az {d:min_height} genişlik/yüksekliğe sahip JPEG veya PNG türünde geçerli bir görseli seçin."
+		"Workshop_item_ready" "Gönderim yüklenmeye hazır"
 		"SFUI_Go_To_Mic_Enable_key" "Mikrofon Tuş Atamasına Git"
 		"SFUI_Go_To_Console_Key_Binding" "Konsol Tuş Atamasına Git"
 
-// crow_mask_41910_comment
-// crow_mask_41911_comment
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Steam Video
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"SteamVideo_Player_Kill_Title"					"%s1 adlı oyuncuyu öldürdün"
+		"SteamVideo_Player_Kill_Description"			"Silah: %s1"
+				
+		"SteamVideo_Player_Double_Kill_Title"			"İki leş"
+		"SteamVideo_Player_Multi_Kill_Title"			"Çoklu leş"
+		
+		"SteamVideo_Player_Death_Title"					"%s1 tarafından öldürüldün"
+		"SteamVideo_Player_Death_Description"			"Silah: %s1"
+		"SteamVideo_Player_Death_Description_Plural"	"Silah: %s1"
+		"SteamVideo_Player_Killed_Self_Title"			"Kendini öldürdün"
+		
+		"SteamVideo_Bomb_Planted_Title"					"Bomba kuruldu"
+		"SteamVideo_Bomb_Planted"						"%s1 bombayı kurdu"
+		"SteamVideo_Bomb_Planted_LocalPlayer"			"Bombayı kurdun"
+		
+		"SteamVideo_Bomb_Defused_Title"					"Bomba imha edildi"
+		"SteamVideo_Bomb_Defused"						"%s1 bombayı imha etti"
+		"SteamVideo_Bomb_Defused_LocalPlayer"			"Bombayı imha ettin"
+		
+		"SteamVideo_Bomb_Exploded_Title"				"Bomba patladı"
+		
+		"SteamVideo_Round_Number_Label"					"Raunt %s1"
+		"SteamVideo_Start_Of_Round_Title"				"%s1. raundun başı"
+
+// crow_mask_42161_comment
+// crow_mask_42162_comment
 }
 
 

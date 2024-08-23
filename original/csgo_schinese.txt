@@ -65,7 +65,7 @@
 		"GameUI_SplitRatio" 		"扩散范围比例"
 		"GameUI_TStyle" 			"T 形准星"
 		"GameUI_ShowWeaponGap" 		"启用准星间距设置"
-		"GameUI_ShowWeaponGap_Tooltip" 	"准星会根据当前装备的武器动态调整"
+		"GameUI_ShowWeaponGap_Tooltip" 	"准星会根据当前装备的武���动态调整"
 		"GameUI_ShowObserverCrosshair" 	"显示玩家所用准星"
 		"GameUI_ShowObserverCrosshair_Tooltip" "显示你观战的玩家所使用的准星"
 		"GameUI_Everyone" 			"所有人"
@@ -75,7 +75,18 @@
 		"GameUI_Always" 	"总是"
 		"GameUI_ObservedBotCrosshair_Takeover" 	"当我可以接管电脑玩家时"
 		"GameUI_ObservedBotCrosshair_Default" 	"从不"
-
+		"GameUI_KeepCrosshair"	"保持常规准星"
+		"GameUI_KeepCrosshairInfo" "显示投掷物瞄点准星时，保持常规准星可见"
+		"GameUI_GrenadeCrosshairFlash"	"闪光震撼弹"
+		"GameUI_GrenadeCrosshairHE"	"高爆手雷"
+		"GameUI_GrenadeCrosshairFire"	"燃烧瓶/燃烧弹"
+		"GameUI_GrenadeCrosshairSmoke"	"烟雾弹"
+		"GameUI_GrenadeCrosshairDecoy"	"诱饵弹"
+		"GameUI_GrenadeCrosshairInfoTooltipFlash" "我们应该在投掷闪光震撼弹时显示投掷物瞄点准星吗？如果应该，按住投掷键后我们应该等多久才显示它。"
+		"GameUI_GrenadeCrosshairInfoTooltipHE" "我们应该在投掷高爆手雷时显示投掷物瞄点准星吗？如果应该，按住投掷键后我们应该等多久才显示它。"
+		"GameUI_GrenadeCrosshairInfoTooltipFire" "我们应该在投掷燃烧瓶和燃烧弹时显示投掷物瞄点准星吗？如果应该，按住投掷键后我们应该等多久才显示它。"
+		"GameUI_GrenadeCrosshairInfoTooltipSmoke" "我们应该在投掷烟雾弹时显示投掷物瞄点准星吗？如果应该，按住投掷键后我们应该等多久才显示它。"
+		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "我们应该在投掷诱饵弹时显示投掷物瞄点准星吗？如果应该，按住投掷键后我们应该等多久才显示它。"
 
 
 		"GameUI_Xhair_Reset_Tooltip" 		"重置所有准星参数至默认"
@@ -231,7 +242,7 @@
 		"GameUI_Disconnect_SteamTicket"						"来自 STEAM 用户 ID 的工单无效"
 		"GameUI_Disconnect_SteamLogon"						"没有 Steam 登录"
 		"GameUI_Disconnect_SteamInUse"						"此 Steam 帐户正在另一个位置使用"
-		"GameUI_Disconnect_SteamOwnership"					"这个 Steam 帐户并未拥有该游戏。\n请用正确的 Steam 帐户登录。"
+		"GameUI_Disconnect_SteamOwnership"					"无法在此Steam账号上验证游戏所有权。"
 		"GameUI_Disconnect_SteamVAC"						"VAC 已被安全服务器封禁"
 		"GameUI_Disconnect_SteamTimeOut"					"Valve 反作弊挑战已超时。 请确保您不会使用任何可能干扰 VAC 的程序，并确认 Steam 已正确安装。"
 		"GameUI_Disconnect_StringTableMessage"				"写入字符串表更新消息出错"
@@ -307,7 +318,7 @@
 		"Publish_Button"				"发布"
 		"Update_Button"					"更新"
 		"Preview_Image"					"预览图片："
-		"Title_Heading"					"标题："
+		"Title_Heading"					"标题���"
 		"Description_Heading"			"描述："
 		"Workshop_Agreement"			"我已阅读创意工坊常见问题，并接受《Steam 创意工坊投稿协议》的有关条款"
 		"Workshop_Contest"				"把该作品加入至“CS:GO 10周年”大赛中"
@@ -435,7 +446,7 @@
 		"LoadingProgress_CSFunLoading41"	"正在丢枪给队友……"
 		"LoadingProgress_CSFunLoading42"	"正在交朋友……"
 		"LoadingProgress_CSFunLoading43"	"正在擦除涂鸦……"
-		"LoadingProgress_CSFunLoading44"	"正在关上吱吱作响的门……"
+		"LoadingProgress_CSFunLoading44"	"正在关上吱吱作响的门���…"
 		"LoadingProgress_CSFunLoading45"	"正在换窗户……"
 		"LoadingProgress_CSFunLoading46"	"正在划分购买区域……"
 		"LoadingProgress_CSFunLoading47"	"正在安装消音器……"
@@ -515,8 +526,9 @@
 		"loadingscreen_title_ar_shoots_3"		"山林小寨"
 		"loadingscreen_title_ar_shoots_4"		"山林小寨"
 
-		"GameUI_Settings_ShowLocation"		"显示位置"
-		"GameUI_Settings_ShowLocationAndEquipment"		"显示位置和装备"
+		"GameUI_Settings_ShowLocation"					"图标"
+		"GameUI_Settings_ShowLocationAndName"			"图标、名字和生命值"
+		"GameUI_Settings_ShowLocationAndEquipment"		"图标、名字、生命值和装备"
 
 		"GameUI_ReportBug"		"报告游戏错误"
 		"GameUI_Bug_Successful"		"错误报告提交成功！"
@@ -527,7 +539,7 @@
 		"GameUI_Bug_Title"		"标题："
 		"GameUI_Bug_Description"	"描述："
 		"GameUI_Bug_Position"		"位置："
-		"GameUI_Bug_Map"		"地图："
+		"GameUI_Bug_Map"		"地���："
 		"GameUI_Bug_Orientation"	"方向："
 		"GameUI_Bug_ReportType"		"报告类型："
 		"GameUI_Bug_EmailAddress"	"电子邮件地址："
@@ -627,7 +639,7 @@
 		"GAMEUI_Stat_WinsMapDEDust"         "炙热沙城地图胜利次数"
 		"GAMEUI_Stat_WinsMapDEInferno"      "炼狱小镇地图胜利次数"
 		"GAMEUI_Stat_WinsMapDENuke"         "核子危机地图胜利次数"
-		"GAMEUI_Stat_WinsMapDEPiranesi"     "皮诺内西城堡地图胜利次数"
+		"GAMEUI_Stat_WinsMapDEPiranesi"     "皮���内西城堡地图胜利次数"
 		"GAMEUI_Stat_WinsMapDEPort"         "运输港口地图胜利次数"
 		"GAMEUI_Stat_WinsMapDEProdigy"      "通信中心地图胜利次数"
 		"GAMEUI_Stat_WinsMapDETides"        "古镇危机地图胜利次数"
@@ -648,7 +660,7 @@
 		"GAMEUI_Stat_RoundsMapCSOffice"       "办公室地图回合数"
 		"GAMEUI_Stat_RoundsMapDEAztec"        "雨林遗迹地图回合数"
 		"GAMEUI_Stat_RoundsMapDECbble"        "古堡激战地图回合数"
-		"GAMEUI_Stat_RoundsMapDEChateau"      "废弃庄园地图回合数"
+		"GAMEUI_Stat_RoundsMapDEChateau"      "废弃庄园地图��合数"
 		"GAMEUI_Stat_RoundsMapDEDust2"        "炙热沙城2地图回合数"
 		"GAMEUI_Stat_RoundsMapDEDust"         "炙热沙城地图回合数"
 		"GAMEUI_Stat_RoundsMapDEInferno"      "炼狱小镇地图回合数"
@@ -670,7 +682,7 @@
 		"GAMEUI_Stat_NumBrokenWindows"      "打破窗户数"
 		"GAMEUI_Stat_BlindedEnemyKills"     "击杀被致盲的敌人数"
 		"GAMEUI_Stat_KnifeFightKills"       "刀战胜利次数"
-		"GAMEUI_Stat_ZoomedSniperKills"     "击杀打开瞄准镜的狙击手数"
+		"GAMEUI_Stat_ZoomedSniperKills"     "击杀打开瞄��镜的狙击手数"
 		"GAMEUI_Stat_NightvisionDamage"     "在开启夜视仪时造成的伤害值"
 		"GAMEUI_Stat_Dominations"           "控制次数"
 		"GAMEUI_Stat_DominationOverkills"   "控制杀敌数"
@@ -694,7 +706,7 @@
 		"GameUI_Stat_LastMatch_Dominations"	"上场比赛控制数"
 		"GameUI_Stat_LastMatch_Revenges"	"上场比赛复仇数"
 
-		"GameUI_Stats_KillHistory"		"杀敌记录"
+		"GameUI_Stats_KillHistory"		"杀���记录"
 		"GameUI_Stats_RoundsPlayed"		"游戏回合数"
 		"GameUI_Stats_RoundsWon"		"胜利回合数"
 		"GameUI_Stats_WinRatio"			"胜率"
@@ -774,7 +786,7 @@
 		"GameUI_LostConnectionToLive"				"与 Xbox LIVE 的连接丢失。"
 		"GameUI_Leaderboards_Not_Signed_In"			"您必须登录到 Xbox LIVE 才能发布您的得分到排行榜上。您想继续吗？"
 		"GameUI_Leaderboards_Lost_Connection"		"现在按下 Xbox Guide 键并且连接到 Xbox LIVE 这样才能发布你的得分到排行榜上。"
-		"Menu_Dlg_Leaderboards_Lost_Connection"		"您必须连接至 Steam 以查看排行榜。请检查您的连接并重试。"
+		"Menu_Dlg_Leaderboards_Lost_Connection"		"您必���连接至 Steam 以查看排行榜。请检查您的连接并重试。"
 		"GameUI_DedicatedSearchFailed"				"寻找专用服务器失败。"
 
 		"GameUI_ProfileReadFailed"		"您的档案数据无法载入。如果您选择继续，您的进度、奖章勋章、成就以及排行榜项目将不会保存。您想继续吗？"
@@ -789,7 +801,7 @@
 
 		"GameUI_Console_NoUserProfileSelectedTitle" "未选择玩家档案"
 		"GameUI_Console_NoUserProfileSelectedBody" "是否要选择一个玩家档案？\n选择“否”您依然可以进行游戏，但您的游戏进度将无法保存。"
-		"GameUI_Console_UserProfileRequiredBody" "此操作要求您进行登录。\n是否要选择一个玩家档案？"
+		"GameUI_Console_UserProfileRequiredBody" "��操作要求您进行登录。\n是否要选择一个玩家档案？"
 
 		// Xbox 360
 		"GameUI_A_BUTTON"		"A 键"
@@ -966,7 +978,7 @@
 	"FileOpenDialog_Col_Name"	"名称"
 	"FileOpenDialog_Col_Size"	"大小"
 	"FileOpenDialog_Col_Type"	"类型"
-	"FileOpenDialog_Col_DateModified" "修改日期"
+	"FileOpenDialog_Col_DateModified" "修改���期"
 	"FileOpenDialog_Col_DateCreated" "创建日期"
 	"FileOpenDialog_Col_Attributes"	"属性"
 	"FileOpenDialog_FileType_Folder" "文件夹"
@@ -1085,6 +1097,7 @@
 		"Cstrike_TitlesTXT_Game_added_position"								"你已经被添加到 5 个空位中的第 %s1 个位置"
 		"Cstrike_TitlesTXT_Game_bomb_drop"									"%s1 掉落了炸弹。"
 		"Cstrike_TitlesTXT_Game_afk_bomb_drop"								"我扔掉了炸弹。"
+		"Cstrike_TitlesTXT_Game_get_out_of_there"							"快离开那儿！"
 		"Cstrike_TitlesTXT_Game_bomb_pickup"								"%s1 捡起了炸弹。"
 		"Cstrike_TitlesTXT_Game_connected"									"%s1 已连接。"
 		"Cstrike_TitlesTXT_Game_disconnected"								"%s1 离开了游戏。"
@@ -1355,6 +1368,8 @@
 		"CTBar"				"CT侧酒吧"
 		"UpperCatwalks"		"小路上方"
 		"LowerCatwalks"		"小路下方"
+		"UpperCatwalk"		"小路上方"
+		"UpperConveyor"		"传送带上方"
 		"GroundLevel"		"地面层"
 		"LockerRoom"		"衣帽间"
 		"BackEntrance"		"后门"
@@ -1386,7 +1401,7 @@
 		"FrontCourtyard"	"前院"
 		//DUST2
 		"MidArch"		"中部拱门"
-		"OutsideLong"	"A 点大门外"
+		"OutsideLong"	"大门外"
 		"LongDoors"		"A 点大门"
 		"AbovePit"		"A 坑上方"
 		"Pit"			"A 坑"
@@ -1562,88 +1577,92 @@
 		"item_cooldown_rounds"			"%s1（%s2 回合后重新补给）"
 		"item_cooldown_minutes"			"%s1（%s2 分钟后重新补给）"
 
-		"SFUI_WPNHUD_Pistol"		"手枪"
-		"SFUI_WPNHUD_SMG"			"微型冲锋枪"
-		"SFUI_WPNHUD_Rifle"			"步枪"
-		"SFUI_WPNHUD_Heavy"			"重装"
-		"SFUI_WPNHUD_Grenade"		"投掷物"
-		"SFUI_WPNHUD_SniperRifle"	"狙击步枪"
-		"SFUI_WPNHUD_Sniper"		"狙击手"
-		"SFUI_WPNHUD_Shotgun"		"霰弹枪"
-		"SFUI_WPNHUD_AK47"			"AK-47"
-		"SFUI_WPNHUD_Aug"			"AUG"
-		"SFUI_WPNHUD_AWP"			"AWP"
-		"SFUI_WPNHUD_DesertEagle"	"沙漠之鹰"
-		"SFUI_WPNHUD_Deagle"		"沙漠之鹰"
-		"SFUI_WPNHUD_Elites"		"双持贝瑞塔"
-		"SFUI_WPNHUD_Elite"			"双持贝瑞塔"
-		"SFUI_WPNHUD_Famas"			"法玛斯"
-		"SFUI_WPNHUD_FiveSeven"		"FN57"
-		"SFUI_WPNHUD_Flashbang"		"闪光震撼弹"
-		"SFUI_WPNHUD_G3SG1"			"G3SG1"
-		"SFUI_WPNHUD_GalilAR"		"加利尔 AR"
-		"SFUI_WPNHUD_Glock18"		"格洛克 18 型"
-		"SFUI_WPNHUD_HE_Grenade"	"高爆手雷"
-		"SFUI_WPNHUD_HEGrenade"		"高爆手雷"
-		"SFUI_WPNHUD_Knife"			"匕首"
-		"SFUI_WPNHUD_Knife_T"		"匕首"
-		"SFUI_WPNHUD_Knife_GG"		"黄金匕首"
-		"SFUI_WPNHUD_Knife_Ghost"	"幽灵之刃"
-		"SFUI_WPNHUD_M249"			"M249"
-		"SFUI_WPNHUD_M4A1"			"M4A4"
-		"SFUI_WPNHUD_M4_SILENCER"	"M4A1 消音型"
-		"SFUI_WPNHUD_M4A1_silencer"	"M4A1 消音型"
-		"SFUI_WPNHUD_MAC10"			"MAC-10"
-		"SFUI_WPNHUD_P90"			"P90"
-		"SFUI_WPNHUD_Smoke_Grenade"	"烟雾弹"
-		"SFUI_WPNHUD_SmokeGrenade"	"烟雾弹"
-		"SFUI_WPNHUD_UMP45"			"UMP-45"
-		"SFUI_WPNHUD_xm1014"		"XM1014"
-		"SFUI_WPNHUD_C4"			"C4 炸弹"
-		"SFUI_WPNHUD_Bizon"			"PP-野牛"
-		"SFUI_WPNHUD_Mag7"			"MAG-7"
-		"SFUI_WPNHUD_Negev"			"内格夫"
-		"SFUI_WPNHUD_Sawedoff"		"截短霰弹枪"
-		"SFUI_WPNHUD_Tec9"			"Tec-9"
-		"SFUI_WPNHUD_Taser"			"宙斯 X27 电击枪"
-		"SFUI_WPNHUD_Molotov"		"燃烧瓶"
-		"SFUI_WPNHUD_IncGrenade"	"燃烧弹"
-		"SFUI_WPNHUD_Decoy"			"诱饵弹"
-		"SFUI_WPNHUD_HKP2000"		"P2000"
-		"SFUI_WPNHUD_MP7"			"MP7"
-		"SFUI_WPNHUD_MP5SD"			"MP5-SD"
-		"SFUI_WPNHUD_MP9"			"MP9"
-		"SFUI_WPNHUD_Nova"			"新星"
-		"SFUI_WPNHUD_P250"			"P250"
-		"SFUI_WPNHUD_CZ75"			"CZ75"
-		"SFUI_WPNHUD_SCAR20"		"SCAR-20"
-		"SFUI_WPNHUD_SG556"			"SG 553"
-		"SFUI_WPNHUD_SSG08"			"SSG 08"
+		"SFUI_WPNHUD_Pistol"					"手枪"
+		"SFUI_WPNHUD_SMG"						"微型冲锋枪"
+		"SFUI_WPNHUD_Rifle"						"步枪"
+		"SFUI_WPNHUD_Heavy"						"重装"
+		"SFUI_WPNHUD_Grenade"					"投掷物"
+		"SFUI_WPNHUD_SniperRifle"				"狙击步枪"
+		"SFUI_WPNHUD_Sniper"					"狙击手"
+		"SFUI_WPNHUD_Shotgun"					"霰弹枪"
+		"SFUI_WPNHUD_AK47"						"AK-47"
+		"SFUI_WPNHUD_Aug"						"AUG"
+		"SFUI_WPNHUD_AWP"						"AWP"
+		"SFUI_WPNHUD_DesertEagle"				"沙漠之鹰"
+		"SFUI_WPNHUD_Deagle"					"沙漠之鹰"
+		"SFUI_WPNHUD_Elites"					"双持贝瑞塔"
+		"SFUI_WPNHUD_Elite"						"双持贝瑞塔"
+		"SFUI_WPNHUD_Famas"						"法玛斯"
+		"SFUI_WPNHUD_FiveSeven"					"FN57"
+		"SFUI_WPNHUD_Flashbang"					"闪光震撼弹"
+		"SFUI_WPNHUD_G3SG1"						"G3SG1"
+		"SFUI_WPNHUD_GalilAR"					"加利尔 AR"
+		"SFUI_WPNHUD_Glock18"					"格洛克 18 型"
+		"SFUI_WPNHUD_HE_Grenade"				"高爆手雷"
+		"SFUI_WPNHUD_HE_Grenade_short"			"高爆手雷"		
+		"SFUI_WPNHUD_HEGrenade"					"高爆手雷"
+		"SFUI_WPNHUD_Knife"						"匕首"
+		"SFUI_WPNHUD_Knife_T"					"匕首"
+		"SFUI_WPNHUD_Knife_GG"					"黄金匕首"
+		"SFUI_WPNHUD_Knife_Ghost"				"幽灵之刃"
+		"SFUI_WPNHUD_M249"						"M249"
+		"SFUI_WPNHUD_M4A1"						"M4A4"
+		"SFUI_WPNHUD_M4_SILENCER"				"M4A1 消音型"
+		"SFUI_WPNHUD_M4A1_silencer"				"M4A1 消音型"
+		"SFUI_WPNHUD_MAC10"						"MAC-10"
+		"SFUI_WPNHUD_P90"						"P90"
+		"SFUI_WPNHUD_Smoke_Grenade"				"烟雾弹"
+		"SFUI_WPNHUD_SmokeGrenade"				"烟雾弹"
+		"SFUI_WPNHUD_UMP45"						"UMP-45"
+		"SFUI_WPNHUD_xm1014"					"XM1014"
+		"SFUI_WPNHUD_C4"						"C4 炸弹"
+		"SFUI_WPNHUD_Bizon"						"PP-野牛"
+		"SFUI_WPNHUD_Mag7"						"MAG-7"
+		"SFUI_WPNHUD_Negev"						"内格夫"
+		"SFUI_WPNHUD_Sawedoff"					"截短霰弹枪"
+		"SFUI_WPNHUD_Tec9"						"Tec-9"
+		"SFUI_WPNHUD_Taser"						"宙斯 X27 电击枪"
+		"SFUI_WPNHUD_Molotov"					"燃烧瓶"
+		"SFUI_WPNHUD_IncGrenade"				"燃烧弹"
+		"SFUI_WPNHUD_IncGrenade_short"			"燃烧弹"
+		"SFUI_WPNHUD_Decoy"						"诱饵弹"
+		"SFUI_WPNHUD_Decoy_short"				"诱饵弹"
+		"SFUI_WPNHUD_HKP2000"					"P2000"
+		"SFUI_WPNHUD_MP7"						"MP7"
+		"SFUI_WPNHUD_MP5SD"						"MP5-SD"
+		"SFUI_WPNHUD_MP9"						"MP9"
+		"SFUI_WPNHUD_Nova"						"新星"
+		"SFUI_WPNHUD_P250"						"P250"
+		"SFUI_WPNHUD_CZ75"						"CZ75"
+		"SFUI_WPNHUD_SCAR20"					"SCAR-20"
+		"SFUI_WPNHUD_SG556"						"SG 553"
+		"SFUI_WPNHUD_SSG08"						"SSG 08"
 		"SFUI_WPNHUD_HEAVYASSAULTSUIT"			"重型护甲"
 		"SFUI_WPNHUD_ASSAULTSUIT"				"防弹背心 & 头盔"
 		"SFUI_WPNHUD_ASSAULTSUIT_ONLY_HELMET"	"头盔"
 		"SFUI_WPNHUD_KEVLAR"					"防弹背心"
-		"SFUI_WPNHUD_DEFUSER"		"拆弹器"
-		"SFUI_WPNHUD_CUTTERS"		"营救工具包"
-		"SFUI_WPNHUD_REVOLVER"		"R8 左轮手枪"
-		"SFUI_WPNHUD_USP_SILENCER"	"USP 消音版"
-		"SFUI_WPNHUD_KnifeBayonet"	"刺刀"
-		"SFUI_WPNHUD_KnifeFlip"		"折叠刀"
-		"SFUI_WPNHUD_KnifeGut"		"穿肠刀"
-		"SFUI_WPNHUD_KnifeCSS"		"海豹短刀"
-		"SFUI_WPNHUD_KnifeM9"		"M9 刺刀"
-		"SFUI_WPNHUD_KnifeKaram"	"爪子刀"
-		"SFUI_WPNHUD_KnifeTactical" "猎杀者匕首"
-		"SFUI_WPNHUD_Knife_Butterfly" "蝴蝶刀"
-		"SFUI_WPNHUD_PartyPopper"		"派对烟花！"
-		"SFUI_WPNHUD_knife_falchion_advanced" "弯刀"
-		"SFUI_WPNHUD_knife_push" "暗影双匕"
-		"SFUI_WPNHUD_knife_survival_bowie" "鲍伊猎刀"
-		"SFUI_WPNHUD_Healthshot"			"医疗针"
-		"SFUI_WPNHUD_TAGrenade"	"战术探测手雷"
-		"SFUI_WPNHUD_Exploding_Barrel"	"炸药桶"
-		"SFUI_WPNHUD_Snowball"	"雪球"
-		"SFUI_WPNHUD_StompDamageKillString"	"砸碎你的头盖骨"
+		"SFUI_WPNHUD_DEFUSER"					"拆弹器"
+		"SFUI_WPNHUD_CUTTERS"					"营救工具包"
+		"SFUI_WPNHUD_REVOLVER"					"R8 左轮手枪"
+		"SFUI_WPNHUD_USP_SILENCER"				"USP 消音版"
+		"SFUI_WPNHUD_KnifeBayonet"				"刺刀"
+		"SFUI_WPNHUD_KnifeFlip"					"折叠刀"
+		"SFUI_WPNHUD_KnifeGut"					"穿肠刀"
+		"SFUI_WPNHUD_KnifeCSS"					"海豹短刀"
+		"SFUI_WPNHUD_KnifeM9"					"M9 刺刀"
+		"SFUI_WPNHUD_KnifeKaram"				"爪子刀"
+		"SFUI_WPNHUD_KnifeTactical" 			"猎杀者匕首"
+		"SFUI_WPNHUD_Knife_Butterfly" 			"蝴蝶刀"
+		"SFUI_WPNHUD_PartyPopper"				"派对烟花！"
+		"SFUI_WPNHUD_knife_falchion_advanced" 	"弯刀"
+		"SFUI_WPNHUD_knife_push" 				"暗影双匕"
+		"SFUI_WPNHUD_knife_survival_bowie" 		"鲍伊猎刀"
+		"SFUI_WPNHUD_Healthshot"				"医疗针"
+		"SFUI_WPNHUD_TAGrenade"					"战术探测手雷"
+		"SFUI_WPNHUD_Exploding_Barrel"			"炸药桶"
+		"SFUI_WPNHUD_Snowball"					"雪球"
+
+		"SFUI_WPNHUD_StompDamageKillString"		"砸碎你的头盖骨"
 
 		"SFUI_WPNHUD_DangerZone"	"头号特训"
 		"SFUI_WPNHUD_AutoSentry"	"自动哨戒枪"
@@ -1673,7 +1692,7 @@
 		"SFUI_WPNHUD_Shield"				"防暴盾牌"
 		"SFUI_Shield_Destroyed"				"您的防暴盾牌已损坏！"
 		
-		"SFUI_WPNHUD_Zone_Repulsor"			"���斥装置"
+		"SFUI_WPNHUD_Zone_Repulsor"			"排斥装置"
 		"CSGO_Item_Desc_Zone_Repulsor"		"放射性颗粒物屏蔽原型装置"
 		
 		"SFUI_ArmorEquipped"				"已装备 护甲。"
@@ -1934,7 +1953,7 @@
 		"winpanel_end_escaping_terrorists_neutralized"	"在逃的T已被消灭"
 		"winpanel_end_bomb_defused"						"炸弹已被拆除"
 		"winpanel_end_cts_win"							"T已被消灭"
-		"winpanel_end_all_hostages_rescued"				"人��已被营救"
+		"winpanel_end_all_hostages_rescued"				"人质已被营救"
 		"winpanel_end_target_saved"						"引爆炸弹失败"
 		"winpanel_end_terrorists_not_escaped"			"T逃脱失败"
 		"winpanel_end_terrorists_surrender"					"T投降"
@@ -2057,6 +2076,7 @@
 		"CSGO_Weapon_Possessive"				"<span class=\"possessive-player-name\">%s1 的</span> %s2"
 		"CSGO_Weapon_Possessive_T"				"<span class=\"possessive-player-name\">T %s1 的</span> %s2"
 		"CSGO_Weapon_Possessive_CT"				"<span class=\"possessive-player-name\">CT %s1 的</span> %s2"
+		"CSGO_Possessive"						"<span class=\"possessive-player-name\">%s1的</span>"
 
 		"DeathPanel_HappyHolidays"		"祝您节日快乐"
 		"DeathPanel_ScreenShot"		"[{s:bind_jpeg}] 保存这一时刻"
@@ -2262,6 +2282,10 @@
 		"Econ_Loot_List_AndSomeMoreItems" "... 和 %s1 更多"
 
 		"Econ_Revolving_Loot_List"				"包含下列物品之一："
+		"Econ_Revolving_Loot_List_Single"		"开启并获得以下之一"
+		"Econ_Revolving_Loot_List_Rental"		"<img src='file://{images}/icons/ui/hourglass.svg' class='popup-decodable-lootlist-single-icon'/> 租赁此武器箱中的所有武器（不包括稀有特殊物品）7天"
+
+		
 		"Econ_Revolving_Loot_List_Rare_Item"	"或一件极其罕见的特殊物品！"
 		"Exceedingly_Rare_Item"					"★ 罕见的特殊物品 ★"
 
@@ -2305,22 +2329,11 @@
 		"Item_GiftWrapped"						" %s1 包装了一份礼物：%s2"
 		"Item_PeriodicScoreReward"				" %s1 获得了：%s2"
 		"Item_Named"							" %s1 已将自己的 %s2 重命名为 %s3"
-
-		"Item_GiftsSent1Anon"					" %s1 送出了一份礼物！"
-		"Item_GiftsSent1Name"					" %s1 送出了一份礼物，派发给了 %s2！"
-		"Item_GiftsSentMany"					" %s1 送出了 %s2 份礼物！"
-		"Item_GiftsYouSentGift"					" 您的礼物已派发给了 %s1！"
-		"Item_GiftsYouGotGift"					" 您收到了一份来自 %s1 的礼物！这份礼物已经在您的库存中等待确认。"
+		"Item_Rental"							" %s1 已租赁： %s2"
 
 		"Item_NotConnected"						"您只有在比赛中才能使用该物品！"
 		"Item_Need2Players"						"只有您的比赛中有其他玩家时才能使用该物品！"
 		"Item_NeedSpectators"					"只有您的比赛有观看者时才能使用该物品！"
-
-		"Item_GiftNoPlayers"					"您当前的游戏中没有其他玩家在场以接收您的礼物！"
-		"Item_GiftedItems"						"%s1 送给 %s2 一份礼物！"
-		"Item_GifterText_Random"				"%recipient% 被系统随机抽中收到一份来自 %giver% 的礼物！"
-		"Item_GifterText_All"					"%giver% 送出了一大堆礼物！"
-		"Item_GifterText_SelfOpen"				"%giver% 打开了一个包裹！"
 
 		"Item_Received_Event_Local"					"您收到了：%s1！"
 
@@ -2333,6 +2346,7 @@
 		"NewItemMethod_Traded"			"您通过交易获得了："
 		"NewItemMethod_Purchased"		"您购买了："
 		"NewItemMethod_FoundInCrate"	"您从武器箱中发现了："
+		"NewItemMethod_Rental"			"你租赁了："
 		"NewItemMethod_Gifted"			"您收到了一份礼物："
 		"NewItemMethod_Promotion"		"您收到了一件商店促销物品："
 		"NewItemMethod_Earned"			"您获得了："
@@ -2363,7 +2377,7 @@
 		"ItemHistory_Action_UseItem"									"被使用"
 		"ItemHistory_Action_SupportRename_Remove"						"被 Steam 客服重命名"
 		"ItemHistory_Action_UnpackItemBundle"							"打开"
-		"ItemHistory_Action_Unpurchase"									"退款"
+		"ItemHistory_Action_Unpurchase"									"退��"
 		"ItemHistory_Action_PackageItem_Revoked"						"被撤销"
 		"ItemHistory_Action_CafeOrSchoolItem_Remove"					"移除网吧或学校物品"
 		"ItemHistory_Action_VACBanned_Remove"							"因 VAC 封禁而被移除"
@@ -2409,6 +2423,7 @@
 		"ItemHistory_Transaction_Delete"								"被本人删除"
 		"ItemHistory_Transaction_Craft"									"被合成"
 		"ItemHistory_Transaction_UnlockCrate"							"已开启武器箱"
+		"ItemHistory_Transaction_UnlockCrateForRental"					"解锁了一个租赁武器箱"
 		"ItemHistory_Transaction_UnsealGraffiti"						"已启封"
 		"ItemHistory_Transaction_SupportUndo"							"反恐精英 客服撤销了您之前的一个或多个操作"
 		"ItemHistory_Transaction_UpgradeChallengeCoin"					"已提升挑战币等级"
@@ -2471,7 +2486,6 @@
 		"LoadoutSlot_customplayer"					"探员"
 
 		"LoadoutSlot_MusicKit"						"音乐盒"
-
 
 		// Weapon Rarity Names
 		"Rarity_Default_Weapon"						"基础"
@@ -2573,6 +2587,7 @@
 		"Attrib_ReferencedItem"						"包含：%s1"
 		"Attrib_TimeLocalization_Hours"				"%s1 小时"
 		"Attrib_TimeLocalization_Minutes"			"%s1 分钟"
+		"Attrib_CanOpenForRental"					"这个武器箱中的物品可供租赁。"
 
 		"Attrib_CompetitiveMinutesPlayedAsHrs"		"已记录的竞技模式时间：%s1"
 		"Attrib_CompetitiveWins"					"竞技模式比赛胜利次数：%s1"
@@ -2599,6 +2614,7 @@
 		"Attrib_ModificationDate"					"修改日期: %s1"
 		"Attrib_OperationBonusXP"					"获取大行动奖励：+%s1 点经验值"
 		"Attrib_IssueDate"							"签发日期：%s1"
+		"Attrib_ExpirationDate"						"到期日期：%s1"
 
 		"Attrib_SpraysRemaining"					"剩余次数：%s1"
 		"Attrib_SpraysRemaining_Unlimited"			"无限次涂鸦"
@@ -2691,7 +2707,7 @@
 		
 
 		"CSGO_Operation_Leaderboard_Friends"	"名称"
-		"CSGO_Operation_Leaderboard_Type"		"排���榜"
+		"CSGO_Operation_Leaderboard_Type"		"排行榜"
 		"CSGO_Operation_Leaderboard_Prev"		"上一页"
 		"CSGO_Operation_Leaderboard_Next"		"下一页"
 		"CSGO_Operation_Leaderboard_Active"		"好友竞技模式排行榜"
@@ -2804,7 +2820,7 @@
 		"CSGO_official_leaderboard_season_7_xp_guardian"	"守护模式已获得经验值"
 		"CSGO_official_leaderboard_season_7_xp_events"	"事件已获得经验值"
 
-		// premier 1
+		// premier
 		"official_leaderboard_premier_season1_name"			"第1赛季"
 
 		//
@@ -2947,9 +2963,9 @@
 		// Item names/descriptions
 		"CSGO_Ticket_CommunitySeasonOneSpring2013"					"“回赠大行动”通行证"
 		"CSGO_Ticket_CommunitySeasonOneSpring2013_Desc"				"“回赠大行动”活动于2013年4月25日开始，9月2日结束，帮助社区地图制作者筹集了 $180,000 美元。虽然您无法再使用该通行证加入与“回赠”活动相关的匹配，但您可以将其兑换成“回赠大行动硬币”，聊以纪念。"
-		"CSGO_Collectible_CommunitySeasonOneSpring2013_Coin1"		"“回赠大行动”挑战币"
+		"CSGO_Collectible_CommunitySeasonOneSpring2013_Coin1"		"“回赠大行动”挑���币"
 		"CSGO_Collectible_CommunitySeasonOneSpring2013_Coin1_Desc"	"参与“回赠大行动”以支持社区地图制作者。"
-		"CSGO_Collectible_CommunitySeasonOneSpring2013_Coin2"		"“回���大行动”银币"
+		"CSGO_Collectible_CommunitySeasonOneSpring2013_Coin2"		"“回赠大行动”银币"
 		"CSGO_Collectible_CommunitySeasonOneSpring2013_Coin2_Desc"	"参与 10 小时的“回赠大行动”以支持社区地图制作者。"
 		"CSGO_Collectible_CommunitySeasonOneSpring2013_Coin3"		"“回赠大行动”金币"
 		"CSGO_Collectible_CommunitySeasonOneSpring2013_Coin3_Desc"	"参与 50 小时的“回赠大行动”以支持社区地图制作者。"
@@ -3143,6 +3159,17 @@
 		"CSGO_Collectible_MapTokenBlagai"				"布拉盖修道院地图币"
 		"CSGO_Collectible_MapTokenBoyard"				"博涯堡垒地图币"
 		"CSGO_Collectible_MapTokenChalice"				"圣杯村庄地图币"
+		"CSGO_Collectible_MapTokenPoolDay"				"泳池派对地图硬币"
+		"CSGO_Collectible_MapTokenPoolDay_Desc"			"纪念CS地图“泳池派对”的创作"
+		"CSGO_Collectible_MapTokenMemento"				"婚礼会馆地图硬币"
+		"CSGO_Collectible_MapTokenMemento_Desc"			"纪念CS地图“婚礼会馆”的创作"
+		"CSGO_Collectible_MapTokenAssembly"				"装配车间地图硬币"
+		"CSGO_Collectible_MapTokenAssembly_Desc"		"纪念CS地图“装配车间”的创作"
+		"CSGO_Collectible_MapTokenMills"				"风情磨坊地图硬币"
+		"CSGO_Collectible_MapTokenMills_Desc"			"纪念CS地图“风情磨坊”的创作"
+		"CSGO_Collectible_MapTokenThera"				"假日锡拉地图硬币"
+		"CSGO_Collectible_MapTokenThera_Desc"			"纪念CS地图“假日锡拉”的创作"
+
 		"CSGO_CollectibleCoin_FortiusQuoFidelius"	"忠诚徽章"
 		"CSGO_CollectibleCoin_FortiusQuoFidelius_Desc"	"此徽章旨在纪念“头号特训”更新前您已在 反恐精英 社区拥有的忠实会员资格。\n\n<i>忠诚的力量。</i>"
 		"CSGO_CollectibleCoin_FiveYearService"		"5 年老兵硬币"
@@ -3281,7 +3308,7 @@
 		"CSGO_CollectibleCoin_Columbus2016_Quarterfinalist"			"2016年 MLG 哥伦布锦标赛四分之一决赛选手"
 		"CSGO_CollectibleCoin_Columbus2016_Quarterfinalist_Desc"	"这块锦标赛奖牌授予晋级到2016年 MLG 哥伦布CS:GO锦标赛四分之一决赛的选手。"
 
-		"CSGO_CollectibleCoin_Cologne2016_PickEmBronze"			"2016年科隆锦标赛��猜青铜级纪念奖牌"
+		"CSGO_CollectibleCoin_Cologne2016_PickEmBronze"			"2016年科隆锦标赛竞猜青铜级纪念奖牌"
 		"CSGO_CollectibleCoin_Cologne2016_PickEmBronze_Desc"		"这块青铜级纪念奖牌于2016年 ESL One 科隆锦标赛竞猜挑战环节授予。"
 		"CSGO_CollectibleCoin_Cologne2016_PickEmSilver"			"2016年科隆锦标赛竞猜白银级纪念奖牌"
 		"CSGO_CollectibleCoin_Cologne2016_PickEmSilver_Desc"		"这块白银级纪念奖牌于2016年 ESL One 科隆锦标赛竞猜挑战环节授予。"
@@ -3452,7 +3479,7 @@
 		"CSGO_Collectible_Pin_valeria_desc"		"这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。"
 		
 		"CSGO_Collectible_Pin_chroma"			"幻彩胸章"
-		"CSGO_Collectible_Pin_chroma_desc"		"这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。"
+		"CSGO_Collectible_Pin_chroma_desc"		"这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸���。"
 		
 		"CSGO_Collectible_Pin_guardian_3"			"守护者 3 号胸章"
 		"CSGO_Collectible_Pin_guardian_3_desc"		"这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。"
@@ -3604,7 +3631,7 @@
 		"csgo_item_usage_desc_m249"											"• 至少你不必重新装弹……<br>• 建议只在特殊情况下购入<br><i>• 上手难度：<font color=\"#BF9240\">★★★</font></i>"
 		"csgo_item_usage_desc_negev"										"• 精准火力压制，可争取一些时间<br>• 建议在强起局中购入<br><i>• 上手难度：<font color=\"#BF4040\">★★★★</font></i>"
 
-		"csgo_item_usage_desc_hegrenade"									"• 造成伤害或清除烟雾弹<br>• 建议谨慎购入<br><i>• 上手难度：<font color=\"#BF9240\">★★��</font></i>"
+		"csgo_item_usage_desc_hegrenade"									"• 造成伤害或清除烟雾弹<br>• 建议谨慎购入<br><i>• 上手难度：<font color=\"#BF9240\">★★★</font></i>"
 		"csgo_item_usage_desc_flashbang"									"• 使附近玩家致盲/耳鸣<br>• 攻击前投掷<br><i>• 上手难度：<font color=\"#BF4040\">★★★★</font></i>"
 		"csgo_item_usage_desc_smokegrenade"									"• 产生大量烟云<br>• 抛出以阻碍敌人的视线<br><i>• 上手难度：<font color=\"#BF9240\">★★★</font></i>"
 		"csgo_item_usage_desc_decoy"										"• 模仿武器射击的声音<br>• 提前投掷以迷惑敌方<br><i>• 上手难度：<font color=\"#BF9240\">★★★</font></i>"
@@ -3695,7 +3722,7 @@
 		"CSGO_Item_Desc_Survival_VestHelm"			"提供伤害抵御"
 		"CSGO_Item_Desc_Survival_Shield"			"防暴盾牌在被破坏前可以抵御大量伤害。"
 		"CSGO_Item_Desc_Survival_Parachute"			"可以在坠落中部署，以防止坠落伤害。"
-		"CSGO_Item_Desc_Survival_Exojump"			"显著增加跳跃高度"
+		"CSGO_Item_Desc_Survival_Exojump"			"��著增加跳跃高度"
 		"CSGO_Item_Desc_Survival_C4"				"在任意地点安置进行爆破，可以用来打开保险箱。"
 		"CSGO_Item_Desc_Survival_DronePilot"		"给予控制无人机的能力，运用平板来选择一个无人机接管"
 		"CSGO_Item_Desc_Survival_Exploremoney"		"每次探索新区域，将给予额外的金钱。"
@@ -3967,6 +3994,14 @@
 		"CSGO_crate_musickit_nightmode_stattrak_capsule_desc"	"该集合包含来自艺术家“夜间模式”的各种StatTrak™音乐盒"
 		"coupon_nightmode_stattrak_musickit_capsule"		"StatTrak™ 夜间模式音乐盒集"
 		
+		"CSGO_crate_musickit_masterminds2_capsule"	    	"决策大师2号音乐盒集"
+		"CSGO_crate_musickit_masterminds2_capsule_desc"		"该集合包含来自各种作曲家的音乐盒。"
+		"coupon_masterminds2_musickit_capsule"				"决策大师2号音乐盒集"
+		
+		"CSGO_crate_musickit_masterminds2_stattrak_capsule"	    	"StatTrak™ 决策大师2号音乐盒集"
+		"CSGO_crate_musickit_masterminds2_stattrak_capsule_desc"	"该集合包含来自各种作曲家的StatTrak™音乐盒。"
+		"coupon_masterminds2_stattrak_musickit_capsule"				"StatTrak™ 决策大师2号音乐盒集"
+		
 		//
 		// Sprays capsule vcap1
 		//
@@ -4000,7 +4035,6 @@
 		"CSGO_crate_community_21"			"“头号特训”武器箱"
 		"CSGO_crate_key_community_21"		"“头号特训”武器箱钥匙"
 		"CSGO_crate_key_community_21_desc"		"该钥匙只能打开“头号特训”武器箱"
-
 
 		"CSGO_crate_community_22"				"棱彩武器箱"
 		"CSGO_crate_key_community_22"			"棱彩武器箱钥匙"
@@ -4087,7 +4121,6 @@
 		"CSGO_crate_sticker_pack_op_riptide_capsule"	    		"“激流大行动”印花收藏品"
 		"CSGO_crate_sticker_pack_op_riptide_capsule_desc"			"这个收藏品中包含各种印花，来庆祝“激流大行动”。"
 
-		
 		"CSGO_crate_community_30"		"梦魇武器箱"
 		"CSGO_crate_key_community_30"			"梦魇武器箱钥匙"
 		"CSGO_crate_key_community_30_desc"		"该钥匙只能打开梦魇武器箱"
@@ -4121,7 +4154,6 @@
 		
 		"CSGO_crate_sticker_pack_community_2024_capsule"	    	"伏击印花胶囊"
 		"CSGO_crate_sticker_pack_community_2024_capsule_desc"		"这个胶囊包含多张由 Steam 创意工坊艺术家创作的印花，并于2024年2月上架。"
-		
 		"coupon_community_2024_sticker_capsule"						"伏击印花胶囊"
 		
 
@@ -4213,7 +4245,7 @@
 		"CSGO_FakePlayer_Donkey"			"驴子"
 		"CSGO_FakePlayer_Duck"				"鸭子"
 		"CSGO_FakePlayer_Emu"				"鸸鹋"
-		"CSGO_FakePlayer_Eclipse"				"藏羚"
+		"CSGO_FakePlayer_Eclipse"			"藏羚"
 		"CSGO_FakePlayer_Flamingo"			"火烈鸟"
 		"CSGO_FakePlayer_Flute"				"白虎"
 		"CSGO_FakePlayer_Frog"				"青蛙"
@@ -4236,9 +4268,9 @@
 		"CSGO_FakePlayer_Ostrich"			"鸵鸟"
 		"CSGO_FakePlayer_Octopus"			"章鱼"
 		"CSGO_FakePlayer_Pelican"			"鹈鹕"
-		"CSGO_FakePlayer_Puffin"				"海雀"
+		"CSGO_FakePlayer_Puffin"			"海雀"
 		"CSGO_FakePlayer_Pyramid"			"猎豹"
-		"CSGO_FakePlayer_Rattle"				"鲨鱼"
+		"CSGO_FakePlayer_Rattle"			"鲨鱼"
 		"CSGO_FakePlayer_Robin"				"知更鸟"
 		"CSGO_FakePlayer_Rose"				"恐龙"
 		"CSGO_FakePlayer_Salmon"			"鲑鱼"
@@ -4251,14 +4283,14 @@
 		"CSGO_FakePlayer_Toaster"			"泰迪犬"
 		"CSGO_FakePlayer_Toucan"			"犀鸟"
 		"CSGO_FakePlayer_Torus"				"萨摩耶"
-		"CSGO_FakePlayer_Violet"				"海蛞蝓"
-		"CSGO_FakePlayer_Vortex"				"仓鼠"
+		"CSGO_FakePlayer_Violet"			"海蛞蝓"
+		"CSGO_FakePlayer_Vortex"			"仓鼠"
 		"CSGO_FakePlayer_Vulture"			"秃鹫"
 		"CSGO_FakePlayer_Wagon"				"乌龟"
 		"CSGO_FakePlayer_Whale"				"鲸鱼"
 		"CSGO_FakePlayer_Woodpecker"			"啄木鸟"
 		"CSGO_FakePlayer_Zebra"				"斑马"
-		"CSGO_FakePlayer_Zigzag"				"波斑鹭"
+		"CSGO_FakePlayer_Zigzag"			"波斑鹭"
 
 		//
 		// Coop and guardian bots localized names
@@ -5100,7 +5132,7 @@
 		"coupon_proxy_01_stattrak"			"StatTrak™ 音乐盒 | Proxy - 万夫莫敌包"
 
 		"musickit_kitheory_01"					"Ki:Theory - 莫洛托夫烈火"
-		"musickit_kitheory_01_desc"				"身为唱片艺术家和 DOTA TI4 的音乐表演者，Ki:Theory 融刀锋的炙热和黑暗的电子摇滚乐为一体，投下了“重磅炸弹”。"
+		"musickit_kitheory_01_desc"				"身为唱片艺术家和 DOTA TI4 的音乐��演者，Ki:Theory 融刀锋的炙热和黑暗的电子摇滚乐为一体，投下了“重磅炸弹”。"
 		"coupon_kitheory_01"				"音乐盒 | Ki:Theory - 莫洛托夫烈火"		
 		"coupon_kitheory_01_stattrak"		"StatTrak™ 音乐盒 | Ki:Theory - 莫洛托夫烈火"
 
@@ -5367,6 +5399,46 @@
 		"musickit_twerl_01_desc"				"聚光灯就位，动起来。让TWERL和Ekko & Sidetrack的电音舞曲“万众瞩目”带领你和你的队伍冲向新高度。"
 		"coupon_twerl_01"						"音乐盒 | TWERL, Ekko & Sidetrack - 万众瞩目"
 		"coupon_twerl_01_stattrak"				"StatTrak™ 音乐盒 | TWERL, Ekko & Sidetrack - 万众瞩目"
+		
+		"musickit_austinwintory_04"				"Austin Wintory，恶魔舞厅"
+		"musickit_austinwintory_04_desc"		"Austin Wintory 和撒旦做了笔交易，将恶魔般的小提琴音乐与火力全开的电子舞曲碰撞融合在一起。"
+		"coupon_austinwintory_04"				"音乐盒 | Austin Wintory，恶魔舞厅"
+		"coupon_austinwintory_04_stattrak"		"StatTrak™音乐盒 | Austin Wintory，恶魔舞厅"
+		
+		"musickit_benbromfield_01"				"Ben Bromfield，兔子洞"
+		"musickit_benbromfield_01_desc"			"你被耍了！体验惊险刺激、灵感来自爵士音乐的配乐，由电影和电视作曲家Ben Bromfield创作，兔子洞到底有多深，等你来揭晓..."
+		"coupon_benbromfield_01"				"音乐盒 | Ben Bromfield，兔子洞"
+		"coupon_benbromfield_01_stattrak"		"StatTrak™音乐盒 | Ben Bromfield，兔子洞"
+		
+		"musickit_danielsadowski_05"			"Daniel Sadowski，致命一击"
+		"musickit_danielsadowski_05_desc"		"Daniel Sadowski 邀请玩家进入《致命一击》的世界，这是一首融合动作、嘻哈、管弦乐、电子、复古、情绪和音效设计的大杂烩。别听上头了！"
+		"coupon_danielsadowski_05"				"音乐盒 | Daniel Sadowski，致命一击"
+		"coupon_danielsadowski_05_stattrak"		"StatTrak™音乐盒 | Daniel Sadowski，致命一击"
+		
+		"musickit_dren_03"						"Dren McDonald，咖啡！加非！磕肥！"
+		"musickit_dren_03_desc"					"除了你的敌人之外，咖啡因可以是任何人的朋友，当然也包括你！《咖啡！加非！磕肥！》是《枪炮卷饼卡车》和《骷髅爆破》的作者Dren Mcdonald创作的巴尔干街头派对铜管音乐，这可是在旧金山湾区巴尔干西斯科现场录制的！"
+		"coupon_dren_03"						"音乐盒 | Dren McDonald，咖啡！加非！磕肥！"
+		"coupon_dren_03_stattrak"				"StatTrak™音乐盒 | Dren McDonald，咖啡！加非！磕肥！"
+		
+		"musickit_mattlevine_02"				"Matt Levine，特工"
+		"musickit_mattlevine_02_desc"			"跟随作曲家Matt Levine，进入危险的间谍世界，体验《特工》音乐盒的魅力。"
+		"coupon_mattlevine_02"					"音乐盒 | Matt Levine，特工"
+		"coupon_mattlevine_02_stattrak"			"StatTrak™音乐盒 | Matt Levine，特工"
+		
+		"musickit_sammarshall_02"				"Sam Marshall，危在旦夕"
+		"musickit_sammarshall_02_desc"			"作为《大胆尝试》的非正式续作，赛博放克风格的《危在旦夕》是Sam Marshall通过炼金术和神秘仪式复活的迷幻怪胎。"
+		"coupon_sammarshall_02"					"音乐盒 | Sam Marshall，危在旦夕"
+		"coupon_sammarshall_02_stattrak"		"StatTrak™音乐盒 | Sam Marshall，危在旦夕"
+		
+		"musickit_timhuling_02"					"Tim Huling，恶魔油漆刷"
+		"musickit_timhuling_02_desc"			"从Tim Huling的《恶魔油漆刷》中感受肾上腺素的冲击，一次充满能量的蛊戮金属体验。"
+		"coupon_timhuling_02"					"音乐盒 | Tim Huling，恶魔油漆刷"
+		"coupon_timhuling_02_stattrak"			"StatTrak™音乐盒 | Tim Huling，恶魔油漆刷"
+		
+		"musickit_treeadams_01"					"Tree Adams，柒月"
+		"musickit_treeadams_01_desc"			"在《柒月》中，Tree Adams丝滑地将星际放克和激烈的战斗配乐融合在一起，打造出独特的音乐体验。"
+		"coupon_treeadams_01"					"音乐盒 | Tree Adams，柒月"
+		"coupon_treeadams_01_stattrak"			"StatTrak™音乐盒 | Tree Adams，柒月"
 
 //////////////////
 
@@ -5710,7 +5782,7 @@
 		"quest_1007_var_desc" 	 "
 在<b>{s:gamemode}</b>中使用{s:weapon}{s:actions}破坏{d:points}道锁住的门"
 		"quest_1008_var_desc" 	 "
-在<b>{s:gamemode}: {s:location}</b>使用AK-47或M4A4取���{d:points}次击杀。"
+在<b>{s:gamemode}: {s:location}</b>使用AK-47或M4A4取得{d:points}次击杀。"
 		"quest_1009_var_desc" 	 "
 在<b>{s:gamemode}: {s:location}</b>中取得{d:points}次回合胜利"
 		"quest_1010_var_desc"	 "
@@ -5909,7 +5981,7 @@
 // OP11 Week 2 Sub-Missions
 		"quest_1221_var_desc"                              "赢得 {d:points} 比赛"
 		"quest_1222_var_desc"                              "赢得 {d:points} 回合"
-		"quest_1223_var_desc"                              "在<i>单场比赛</i>中，获得 {d:points} 精准打击击杀"
+		"quest_1223_var_desc"                              "���<i>单场比赛</i>中，获得 {d:points} 精准打击击杀"
 		"quest_1224_var_desc"                              "获得 {d:points} 精准打击击杀"
 		"quest_1225_var_desc"                              "使用投掷物造成伤害"
 		"quest_1226_var_desc"                              "获得 {d:points} 击杀"
@@ -6415,7 +6487,7 @@
 
 	"Quest_Chicken_Kills_Mapgroup"				"运送物资：<b>%gamemode%</b>下的<b>%mapgroup%</b>"
 	"Quest_Chicken_Kills_Map"							"运送物资：<b>%gamemode%</b>下的<b>%map%</b>"
-	"Quest_Chicken_Kills"						"运送物资"
+	"Quest_Chicken_Kills"						"运���物资"
 
 // generic string tokens
 
@@ -6730,7 +6802,7 @@
 	"Op_bloodhound_Valeria_Two_Sides_sub"					"<b>瓦莱里娅.琴纳</b>：邪恶、犯罪、恐怖主义。事实是这些与我毫不相关。我是瓦莱里娅.琴纳，我即是凤凰战士之声…… 而凤凰战士…… 即是自由之声。据说你有着能够帮助抗争者的能力。是时候向我证明你有着如你所说一般的技能了。"
 	"Op_bloodhound_Valeria_spark_sub"						"<b>瓦莱里娅.琴纳</b>：你不是第一个把目光投向我们周围存在的伪善的人。要明白如果想让自由真正地统治天下，我们必须烧毁政府、烧毁宗教、烧毁资产阶级…… 人类只有在这些灰烬之中才能纯净地崛起。现在是该由你来追随凤凰战士所走的路了…… 是该由你点燃革命的火种了。"
 	"Op_bloodhound_Valeria_Flames_sub"						"<b>瓦莱里娅.琴纳</b>：火焰是革命的武器。和我们一样，火焰会呼吸。和我们一样，火焰会蔓延。火焰会夺取人的生命，但没有火焰，我们将坐在黑暗之下，死于严寒之中。不要害怕火焰…… 去控制火焰。"
-	"Op_bloodhound_Valeria_tyrants_sub"						"<b>瓦莱里娅.琴纳</b>：我们为推翻那些资源远胜过我们的暴君而战。这也是为什么我们要发动袭击的原因；突击得又快又狠。拿着霰弹枪埋伏好��� 然后果断发起进攻。"
+	"Op_bloodhound_Valeria_tyrants_sub"						"<b>瓦莱里娅.琴纳</b>：我们为推翻那些资源远胜过我们的暴君而战。这也是为什么我们要发动袭击的原因；突击得又快又狠。拿着霰弹枪埋伏好… 然后果断发起进攻。"
 	"Op_bloodhound_Valeria_booth_sub"						"<b>瓦莱里娅.琴纳</b>：不管你喜不喜欢，那个叫布兹的军火商在抗争者中有着举足轻重的作用。是的，他是一个双面人，但没有他的商品我们就无法推翻暴君。与他合作。利用他。但永远不要信任他。"
 	"Op_bloodhound_Valeria_meet_mentor_sub"					"<b>瓦莱里娅.琴纳</b>：我想让你见个人，联合特遣队的叛逃者蔡斯.特纳。但在你见他前，我还得给你来一次最后的考验。和你新的兄弟姐妹站在一起，对抗你的老战友…… 不要让他们夺走我们的人质。"
 	"Op_bloodhound_Valeria_labels_turner"					"<b>瓦莱里娅.琴纳</b>：媒体喜欢给所有的事情都贴上标签。平民伤亡… 军队人员伤亡… 而事实上生命就是生命。地球上的所有人都扮演着抗争者的角色… 我们所有人都应该为我们的行为负有责任。我们抓来的男人和女人绝不是无辜的百姓，他们在错误的时间被困在了错误的地方。他们被盯上是有原因的… 我们决不能让他们被救走。"
@@ -7414,7 +7486,7 @@
 	"vcd_op09_coopmission_web_felix_mission_new_lz_02"					" 费利克斯·莱利：直升飞机改道，降落在新的着陆区域。沿着海岸线前进。\n"
 	"vcd_op09_coopmission_web_felix_mission_radar_station_01"			" 费利克斯·莱利：附近有一处直升机升降坪。保卫那里，我们将救你出来。\n"
 	"vcd_op09_coopmission_web_m2_felix_all_bombs_planted"				" 费利克斯·莱利: 干的好！现在我们去高处以便寻找Franz的踪迹吧。\n"
-	"vcd_op09_coopmission_web_m2_felix_attack_heli_01"					" 费利克斯·莱利: 友军！别开枪！集中火力进攻船体！别打我们的直升机！\n"
+	"vcd_op09_coopmission_web_m2_felix_attack_heli_01"					" 费利克斯·莱利: 友军！别开枪！集中火力进���船体！别打我们的直升机！\n"
 	"vcd_op09_coopmission_web_m2_felix_attack_heli_02"					" 费利克斯·莱利: 你在干什么！那直升机是我们自己的！\n"
 	"vcd_op09_coopmission_web_m2_felix_boat_destroy_01"					" 费利克斯·莱利: 干的漂亮！鱼儿们会对付他留下的一切。上直升机，让我们离开这！\n"
 	"vcd_op09_coopmission_web_m2_felix_boat_escape_01"					" 费利克斯·莱利: 靠！他跑了。\n"
@@ -8157,7 +8229,7 @@
 	"StickerKit_eslcologne2015_signature_fallen" "FalleN | 2015年科隆锦标赛"
 	"StickerKit_desc_eslcologne2015_signature_fallen" "这张印花由2015年 ESL One 科隆锦标赛中 Luminosity Gaming 战队的职业选手 Gabriel Toledo 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_eslcologne2015_signature_fallen_foil" "FalleN（闪亮）| 2015年科隆锦标赛"
-	"StickerKit_desc_eslcologne2015_signature_fallen_foil" "这张闪亮印花由2015年 ESL One 科隆锦标赛中 Luminosity Gaming 战队的职业选手 Gabriel Toledo 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于���持该印花的选手和俱乐部。"
+	"StickerKit_desc_eslcologne2015_signature_fallen_foil" "这张闪亮印花由2015年 ESL One 科隆锦标赛中 Luminosity Gaming 战队的职业选手 Gabriel Toledo 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_eslcologne2015_signature_fallen_gold" "FalleN（金色）| 2015年科隆锦标赛"
 	"StickerKit_desc_eslcologne2015_signature_fallen_gold" "这张金色印花由2015年 ESL One 科隆锦标赛中 Luminosity Gaming 战队的职业选手 Gabriel Toledo 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
@@ -8262,7 +8334,7 @@
 	"StickerKit_eslcologne2015_signature_kennys" "kennyS | 2015年科隆锦标赛"
 	"StickerKit_desc_eslcologne2015_signature_kennys" "这张印花由2015年 ESL One 科隆锦标赛中 Team EnVyUs 战队的职业选手 Kenny Schrub 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_eslcologne2015_signature_kennys_foil" "kennyS（闪亮）| 2015年科隆锦标赛"
-	"StickerKit_desc_eslcologne2015_signature_kennys_foil" "这张闪亮印花由2015年 ESL One 科隆锦标赛中 Team EnVyUs 战队的职业选手 Kenny Schrub 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部��"
+	"StickerKit_desc_eslcologne2015_signature_kennys_foil" "这张闪亮印花由2015年 ESL One 科隆锦标赛中 Team EnVyUs 战队的职业选手 Kenny Schrub 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_eslcologne2015_signature_kennys_gold" "kennyS（金色）| 2015年科隆锦标赛"
 	"StickerKit_desc_eslcologne2015_signature_kennys_gold" "这张金色印花由2015年 ESL One 科隆锦标赛中 Team EnVyUs 战队的职业选手 Kenny Schrub 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
@@ -8477,7 +8549,7 @@
 	"StickerKit_desc_eslcologne2015_signature_markeloff_gold" "这张金色印花由2015年 ESL One 科隆锦标赛中 Flipsid3 Tactics 战队的职业选手 Yegor Markelov 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_eslcologne2015_signature_b1ad3" "B1ad3 | 2015年科隆锦标赛"
-	"StickerKit_desc_eslcologne2015_signature_b1ad3" "这张印花由2015年 ESL One 科隆锦标赛中 Flipsid3 Tactics 战队的职业选手 Andrey Gorodenskiy 亲笔签名。\n\n销售此印花的 50% 所得部分���项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_eslcologne2015_signature_b1ad3" "这张印花由2015年 ESL One 科隆锦标赛中 Flipsid3 Tactics 战队的职业选手 Andrey Gorodenskiy 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_eslcologne2015_signature_b1ad3_foil" "B1ad3（闪亮）| 2015年科隆锦标赛"
 	"StickerKit_desc_eslcologne2015_signature_b1ad3_foil" "这张闪亮印花由2015年 ESL One 科隆锦标赛中 Flipsid3 Tactics 战队的职业选手 Andrey Gorodenskiy 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_eslcologne2015_signature_b1ad3_gold" "B1ad3（金色）| 2015年科隆锦标赛"
@@ -8583,7 +8655,7 @@
 
 	"StickerKit_eslcologne2015_signature_ex6tenz" "Ex6TenZ | 2015年科隆锦标赛"
 	"StickerKit_desc_eslcologne2015_signature_ex6tenz" "这张印花由2015年 ESL One 科隆锦标赛中 Titan 战队的职业选手 Kévin Droolans 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
-	"StickerKit_eslcologne2015_signature_ex6tenz_foil" "Ex6TenZ（闪���）| 2015年科隆锦标赛"
+	"StickerKit_eslcologne2015_signature_ex6tenz_foil" "Ex6TenZ（闪亮）| 2015年科隆锦标赛"
 	"StickerKit_desc_eslcologne2015_signature_ex6tenz_foil" "这张闪亮印花由2015年 ESL One 科隆锦标赛中 Titan 战队的职业选手 Kévin Droolans 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_eslcologne2015_signature_ex6tenz_gold" "Ex6TenZ（金色）| 2015年科隆锦标赛"
 	"StickerKit_desc_eslcologne2015_signature_ex6tenz_gold" "这张金色印花由2015年 ESL One 科隆锦标赛中 Titan 战队的职业选手 Kévin Droolans 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
@@ -8697,7 +8769,7 @@
 	"StickerKit_desc_eslcologne2015_team_virtuspro_gold" "销售此印花的 50% 所得部分款项将用于支持该印花的俱乐部。"
 	"StickerKit_eslcologne2015_team_mousesports" "mousesports | 2015年科隆锦标赛"
 	"StickerKit_desc_eslcologne2015_team_mousesports" "销售此印花的 50% 所得部分款项将用于支持该印花的俱乐部。"
-	"StickerKit_eslcologne2015_team_mousesports_foil" "mousesports（���亮）| 2015年科隆锦标赛"
+	"StickerKit_eslcologne2015_team_mousesports_foil" "mousesports（闪亮）| 2015年科隆锦标赛"
 	"StickerKit_desc_eslcologne2015_team_mousesports_foil" "销售此印花的 50% 所得部分款项将用于支持该印花的俱乐部。"
 	"StickerKit_eslcologne2015_team_mousesports_gold" "mousesports（金色）| 2015年科隆锦标赛"
 	"StickerKit_desc_eslcologne2015_team_mousesports_gold" "销售此印花的 50% 所得部分款项将用于支持该印花的俱乐部。"
@@ -8995,7 +9067,7 @@
 	"StickerKit_cluj2015_signature_jw_foil" "JW（闪亮）| 2015年卢日-纳波卡锦标赛"
 	"StickerKit_desc_cluj2015_signature_jw_foil" "这张闪亮印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Fnatic 战队的职业选手 Jesper Wecksell 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cluj2015_signature_jw_gold" "JW（金色）| 2015年卢日-纳波卡锦标赛"
-	"StickerKit_desc_cluj2015_signature_jw_gold" "这张金色印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Fnatic 战队的职业选手 Jesper Wecksell 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印��的选手和俱乐部。"
+	"StickerKit_desc_cluj2015_signature_jw_gold" "这张金色印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Fnatic 战队的职业选手 Jesper Wecksell 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_cluj2015_signature_krimz" "KRIMZ | 2015年卢日-纳波卡锦标赛"
 	"StickerKit_desc_cluj2015_signature_krimz" "这张印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Fnatic 战队的职业选手 Lars Freddy Johansson 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
@@ -9005,7 +9077,7 @@
 	"StickerKit_desc_cluj2015_signature_krimz_gold" "这张金色印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Fnatic 战队的职业选手 Lars Freddy Johansson 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_cluj2015_signature_olofmeister" "olofmeister | 2015年卢日-纳波卡锦标赛"
-	"StickerKit_desc_cluj2015_signature_olofmeister" "这张印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Fnatic 战队的职业选手 Olof Kajbjer 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_cluj2015_signature_olofmeister" "这张印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Fnatic 战队的职业选手 Olof Kajbjer 亲笔签名。\n\n销售此印��的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cluj2015_signature_olofmeister_foil" "olofmeister（闪亮）| 2015年卢日-纳波卡锦标赛"
 	"StickerKit_desc_cluj2015_signature_olofmeister_foil" "这张闪亮印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Fnatic 战队的职业选手 Olof Kajbjer 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cluj2015_signature_olofmeister_gold" "olofmeister（金色）| 2015年卢日-纳波卡锦标赛"
@@ -9098,7 +9170,7 @@
 	"StickerKit_cluj2015_signature_denis" "denis | 2015年卢日-纳波卡锦标赛"
 	"StickerKit_desc_cluj2015_signature_denis" "这张印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 mousesports 战队的职业选手 Denis Howell 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cluj2015_signature_denis_foil" "denis（闪亮）| 2015年卢日-纳波卡锦标赛"
-	"StickerKit_desc_cluj2015_signature_denis_foil" "这张闪亮印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 mousesports 战队的职业选手 Denis Howell 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印���的选手和俱乐部。"
+	"StickerKit_desc_cluj2015_signature_denis_foil" "这张闪亮印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 mousesports 战队的职业选手 Denis Howell 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cluj2015_signature_denis_gold" "denis（金色）| 2015年卢日-纳波卡锦标赛"
 	"StickerKit_desc_cluj2015_signature_denis_gold" "这张金色印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 mousesports 战队的职业选手 Denis Howell 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
@@ -9210,7 +9282,7 @@
 	"StickerKit_cluj2015_signature_msl" "MSL | 2015年卢日-纳波卡锦标赛"
 	"StickerKit_desc_cluj2015_signature_msl" "这张印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Team Dignitas 战队的职业选手 Mathias Sommer Lauridsen 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cluj2015_signature_msl_foil" "MSL（闪亮）| 2015年卢日-纳波卡锦标赛"
-	"StickerKit_desc_cluj2015_signature_msl_foil" "这张闪亮印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Team Dignitas 战队的职业选手 Mathias Sommer Lauridsen 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_cluj2015_signature_msl_foil" "这张闪亮印花由2015年 DreamHack 克卢日-纳���卡锦标赛中 Team Dignitas 战队的职业选手 Mathias Sommer Lauridsen 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cluj2015_signature_msl_gold" "MSL（金色）| 2015年卢日-纳波卡锦标赛"
 	"StickerKit_desc_cluj2015_signature_msl_gold" "这张金色印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Team Dignitas 战队的职业选手 Mathias Sommer Lauridsen 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
@@ -9313,7 +9385,7 @@
 	"StickerKit_desc_cluj2015_signature_device_gold" "这张金色印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Team SoloMid 战队的职业选手 Nicolai Reedtz 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_cluj2015_signature_dupreeh" "dupreeh | 2015年克卢日-纳波卡锦标赛"
-	"StickerKit_desc_cluj2015_signature_dupreeh" "这张印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Team SoloMid 战队的职业选手 Peter Rasmussen 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_cluj2015_signature_dupreeh" "这张印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Team SoloMid 战队的职业选手 Peter Rasmussen 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用���支持该印花的选手和俱乐部。"
 	"StickerKit_cluj2015_signature_dupreeh_foil" "dupreeh（闪亮）| 2015年克卢日-纳波卡锦标赛"
 	"StickerKit_desc_cluj2015_signature_dupreeh_foil" "这张闪亮印花由2015年 DreamHack 克卢日-纳波卡锦标赛中 Team SoloMid 战队的职业选手 Peter Rasmussen 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cluj2015_signature_dupreeh_gold" "dupreeh（金色）| 2015年卢日-纳波卡锦标赛"
@@ -9739,7 +9811,7 @@
 	"CSGO_crate_signature_pack_columbus2016_nv" "亲笔签名胶囊 | Team EnVyUs | 2016年 MLG 哥伦布锦标赛"
 	"CSGO_crate_signature_pack_columbus2016_nv_desc" "这个胶囊包含一张由2016年 MLG 哥伦布锦标赛中 Team EnVyUs 战队的一名选手亲笔签名的印花。\n\n销售此胶囊的 50% 所得部分款项将用于支持该胶囊的选手和俱乐部。\n\n这张印花可以应用在您所拥有的任何武器上，您也可以刮掉它，使其显得更为老旧。您可以多次刮除同一张印花，刮得次数越多，磨损程度越大。直到您将其完全从武器上刮去为止。"
 	"CSGO_crate_signature_pack_columbus2016_fntc" "亲笔签名胶囊 | Fnatic | 2016年 MLG 哥伦布锦标赛"
-	"CSGO_crate_signature_pack_columbus2016_fntc_desc" "这个胶囊包含一张由2016年 MLG 哥伦布锦标赛中 Fnatic 战队的一名选手亲笔签名的印花。\n\n销售此胶囊的 50% 所得部分款项将用于���持该胶囊的选手和俱乐部。\n\n这张印花可以应用在您所拥有的任何武器上，您也可以刮掉它，使其显得更为老旧。您可以多次刮除同一张印花，刮得次数越多，磨损程度越大。直到您将其完全从武器上刮去为止。"
+	"CSGO_crate_signature_pack_columbus2016_fntc_desc" "这个胶囊包含一张由2016年 MLG 哥伦布锦标赛中 Fnatic 战队的一名选手亲笔签名的印花。\n\n销售此胶囊的 50% 所得部分款项将用于支持该胶囊的选手和俱乐部。\n\n这张印花可以应用在您所拥有的任何武器上，您也可以刮掉它，使其显得更为老旧。您可以多次刮除同一张印花，刮得次数越多，磨损程度越大。直到您将其完全从武器上刮去为止。"
 	"CSGO_crate_signature_pack_columbus2016_lumi" "亲笔签名胶囊 | Luminosity Gaming | 2016年 MLG 哥伦布锦标赛"
 	"CSGO_crate_signature_pack_columbus2016_lumi_desc" "这个胶囊包含一张由2016年 MLG 哥伦布锦标赛中 Luminosity Gaming 战队的一名选手亲笔签名的印花。\n\n销售此胶囊的 50% 所得部分款项将用于支持该胶囊的选手和俱乐部。\n\n这张印花可以应用在您所拥有的任何武器上，您也可以刮掉它，使其显得更为老旧。您可以多次刮除同一张印花，刮得次数越多，磨损程度越大。直到您将其完全从武器上刮去为止。"
 
@@ -9845,7 +9917,7 @@
 	"StickerKit_columbus2016_signature_devil_foil" "DEVIL（闪亮）| 2016年 MLG 哥伦布锦标赛"
 	"StickerKit_desc_columbus2016_signature_devil_foil" "这张闪亮印花由2016年 MLG 哥伦布锦标赛中 Team EnVyUs 战队的职业选手 Timothée Démolon 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_columbus2016_signature_devil_gold" "DEVIL（金色）| 2016年 MLG 哥伦布锦标赛"
-	"StickerKit_desc_columbus2016_signature_devil_gold" "这张金色印花由2016年 MLG 哥伦布锦标赛中 Team EnVyUs 战队的职业选手 Timothée Démolon 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_columbus2016_signature_devil_gold" "这张金色印花由2016年 MLG 哥伦布锦标赛中 Team EnVyUs 战队的职业选手 Timothée Démolon 亲笔签名。\n\n销售此印花的 50% 所得部���款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_columbus2016_signature_kennys" "kennyS | 2016年 MLG 哥伦布锦标赛"
 	"StickerKit_desc_columbus2016_signature_kennys" "这张印花由2016年 MLG 哥伦布锦标赛中 Team EnVyUs 战队的职业选手 Kenny Schrub 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
@@ -10048,7 +10120,7 @@
 	"StickerKit_columbus2016_signature_flamie_foil" "flamie（闪亮）| 2016年 MLG 哥伦布锦标赛"
 	"StickerKit_desc_columbus2016_signature_flamie_foil" "这张闪亮印花由2016年 MLG 哥伦布锦标赛中 Natus Vincere 战队的职业选手 Egor Vasilyev 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_columbus2016_signature_flamie_gold" "flamie（金色）| 2016年 MLG 哥伦布锦标赛"
-	"StickerKit_desc_columbus2016_signature_flamie_gold" "这张金���印花由2016年 MLG 哥伦布锦标赛中 Natus Vincere 战队的职业选手 Egor Vasilyev 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_columbus2016_signature_flamie_gold" "这张金色印花由2016年 MLG 哥伦布锦标赛中 Natus Vincere 战队的职业选手 Egor Vasilyev 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_columbus2016_signature_guardian" "GuardiaN | 2016年 MLG 哥伦布锦标赛"
 	"StickerKit_desc_columbus2016_signature_guardian" "这张印花由2016年 MLG 哥伦布锦标赛中 Natus Vincere 战队的职业选手 Ladislav Kovács 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
@@ -10153,7 +10225,7 @@
 	"StickerKit_columbus2016_signature_elige_foil" "EliGE（闪亮）| 2016年 MLG 哥伦布锦标赛"
 	"StickerKit_desc_columbus2016_signature_elige_foil" "这张闪亮印花由2016年 MLG 哥伦布锦标赛中 Team Liquid 战队的职业选手 Jonathan Jablonowski 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_columbus2016_signature_elige_gold" "EliGE（金色）| 2016年 MLG 哥伦布锦标赛"
-	"StickerKit_desc_columbus2016_signature_elige_gold" "这张金色印花由2016年 MLG 哥伦���锦标赛中 Team Liquid 战队的职业选手 Jonathan Jablonowski 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_columbus2016_signature_elige_gold" "这张金色印花由2016年 MLG 哥伦布锦标赛中 Team Liquid 战队的职业选手 Jonathan Jablonowski 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_columbus2016_signature_s1mple" "s1mple | 2016年 MLG 哥伦布锦标赛"
 	"StickerKit_desc_columbus2016_signature_s1mple" "这张印花由2016年 MLG 哥伦布锦标赛中 Team Liquid 战队的职业选手 Oleksandr Kostyliev 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
@@ -10163,7 +10235,7 @@
 	"StickerKit_desc_columbus2016_signature_s1mple_gold" "这张金色印花由2016年 MLG 哥伦布锦标赛中 Team Liquid 战队的职业选手 Oleksandr Kostyliev 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_columbus2016_signature_hiko" "Hiko | 2016年 MLG 哥伦布锦标赛"
-	"StickerKit_desc_columbus2016_signature_hiko" "这张印花由2016年 MLG 哥伦布锦标赛中 Team Liquid 战队的职业选手 Spencer Martin 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_columbus2016_signature_hiko" "这张印花��2016年 MLG 哥伦布锦标赛中 Team Liquid 战队的职业选手 Spencer Martin 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_columbus2016_signature_hiko_foil" "Hiko（闪亮）| 2016年 MLG 哥伦布锦标赛"
 	"StickerKit_desc_columbus2016_signature_hiko_foil" "这张闪亮印花由2016年 MLG 哥伦布锦标赛中 Team Liquid 战队的职业选手 Spencer Martin 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_columbus2016_signature_hiko_gold" "Hiko（金色）| 2016年 MLG 哥伦布锦标赛"
@@ -10268,7 +10340,7 @@
 	"StickerKit_desc_columbus2016_signature_hooch_gold" "这张金色印花由2016年 MLG 哥伦布锦标赛中 Gambit Gaming 战队的职业选手 Dmitry Bogdanov 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_columbus2016_signature_mou" "mou | 2016年 MLG 哥伦布锦标赛"
-	"StickerKit_desc_columbus2016_signature_mou" "这张印花由2016年 MLG 哥伦布锦标赛中 Gambit Gaming 战队的职业选手 Rustem Telepov 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_columbus2016_signature_mou" "这张印花由2016年 MLG 哥伦布锦标赛中 Gambit Gaming 战队的职业选手 Rustem Telepov 亲笔��名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_columbus2016_signature_mou_foil" "mou（闪亮）| 2016年 MLG 哥伦布锦标赛"
 	"StickerKit_desc_columbus2016_signature_mou_foil" "这张闪亮印花由2016年 MLG 哥伦布锦标赛中 Gambit Gaming 战队的职业选手 Rustem Telepov 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_columbus2016_signature_mou_gold" "mou（金色）| 2016年 MLG 哥伦布锦标赛"
@@ -10409,7 +10481,7 @@
 	"StickerKit_cologne2016_team_navi_foil" "Natus Vincere（闪亮）| 2016年科隆锦标赛"
 	"StickerKit_desc_cologne2016_team_navi_foil" "销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cologne2016_team_navi_gold" "Natus Vincere（金色）| 2016年科隆锦标赛"
-	"StickerKit_desc_cologne2016_team_navi_gold" "销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_cologne2016_team_navi_gold" "销售此印花的 50% 所得部分款项将用于支持该��花的选手和俱乐部。"
 	"StickerKit_cologne2016_team_vp" "Virtus.Pro | 2016年科隆锦标赛"
 	"StickerKit_desc_cologne2016_team_vp" "销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cologne2016_team_vp_holo" "Virtus.Pro（全息）| 2016年科隆锦标赛"
@@ -10720,7 +10792,7 @@
 	"StickerKit_cologne2016_signature_rain" "rain | 2016年科隆锦标赛"
 	"StickerKit_desc_cologne2016_signature_rain" "这张印花由2016年科隆锦标赛中 FaZe Clan 战队的职业选手 Håvard Nygaard 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cologne2016_signature_rain_foil" "rain（闪亮）| 2016年科隆锦标赛"
-	"StickerKit_desc_cologne2016_signature_rain_foil" "这张闪亮印花由2016年科隆锦标赛中 FaZe Clan 战队的职业选手 Håvard Nygaard 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_cologne2016_signature_rain_foil" "这张闪亮印花由2016年科隆锦标赛中 FaZe Clan ���队的职业选手 Håvard Nygaard 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cologne2016_signature_rain_gold" "rain（金色）| 2016年科隆锦标赛"
 	"StickerKit_desc_cologne2016_signature_rain_gold" "这张金色印花由2016年科隆锦标赛中 FaZe Clan 战队的职业选手 Håvard Nygaard 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
@@ -10823,7 +10895,7 @@
 	"StickerKit_desc_cologne2016_signature_guardian_gold" "这张金色印花由2016年科隆锦标赛中 Natus Vincere 战队的职业选手 Ladislav Kovács 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_cologne2016_signature_seized" "seized | 2016年科隆锦标赛"
-	"StickerKit_desc_cologne2016_signature_seized" "这张印花��2016年科隆锦标赛中 Natus Vincere 战队的职业选手 Denis Kostin 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_cologne2016_signature_seized" "这张印花由2016年科隆锦标赛中 Natus Vincere 战队的职业选手 Denis Kostin 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cologne2016_signature_seized_foil" "seized（闪亮）| 2016年科隆锦标赛"
 	"StickerKit_desc_cologne2016_signature_seized_foil" "这张闪亮印花由2016年科隆锦标赛中 Natus Vincere 战队的职业选手 Denis Kostin 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cologne2016_signature_seized_gold" "seized（金色）| 2016年科隆锦标赛"
@@ -10942,7 +11014,7 @@
 	"StickerKit_desc_cologne2016_signature_nitro_gold" "这张金色印花由2016年科隆锦标赛中 Team Liquid 战队的职业选手 Nicholas Cannella 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_cologne2016_signature_bodyy" "bodyy | 2016年科隆锦标赛"
-	"StickerKit_desc_cologne2016_signature_bodyy" "这张印花由2016年科隆锦标赛中 G2 Esports  战队的职业选手 Alexandre Pianaro 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_cologne2016_signature_bodyy" "这张印花由2016年科隆锦标赛中 G2 Esports  战队的职业选手 Alexandre Pianaro 亲笔签名。\n\n销售此��花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cologne2016_signature_bodyy_foil" "bodyy（闪亮）| 2016年科隆锦标赛"
 	"StickerKit_desc_cologne2016_signature_bodyy_foil" "这张闪亮印花由2016年科隆锦标赛中 G2 Esports 战队的职业选手 Alexandre Pianaro 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cologne2016_signature_bodyy_gold" "bodyy（金色）| 2016年科隆锦标赛"
@@ -11054,7 +11126,7 @@
 	"StickerKit_desc_cologne2016_signature_byali_gold" "这张金色印花由2016年科隆锦标赛中 Virtus.Pro 战队的职业选手 Pawel Bielinsky 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_cologne2016_signature_neo" "NEO | 2016年科隆锦标赛"
-	"StickerKit_desc_cologne2016_signature_neo" "这张印花由2016年科隆锦标赛中 Virtus.Pro 战队的职业选手 Filip Kubski 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_cologne2016_signature_neo" "这张印花由2016年科隆锦标���中 Virtus.Pro 战队的职业选手 Filip Kubski 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cologne2016_signature_neo_foil" "NEO（闪亮）| 2016年科隆锦标赛"
 	"StickerKit_desc_cologne2016_signature_neo_foil" "这张闪亮印花由2016年科隆锦标赛中 Virtus.Pro 战队的职业选手 Filip Kubski 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_cologne2016_signature_neo_gold" "NEO（金色）| 2016年科隆锦标赛"
@@ -11216,7 +11288,7 @@
 	"CSGO_crate_signature_pack_atlanta2017_astr" "亲笔签名胶囊 | Astralis | 2017年亚特兰大锦标赛"
 	"CSGO_crate_signature_pack_atlanta2017_astr_desc" "这个胶囊包含一张由2017年亚特兰大锦标赛中 Astralis 战队的一名选手亲笔签名的印花。\n\n销售此胶囊的 50% 所得部分款项将用于支持该胶囊的选手和俱乐部。\n\n这张印花可以应用在您所拥有的任何武器上，您也可以刮掉它，使其显得更为老旧。您可以多次刮除同一张印花，刮得次数越多，磨损程度越大。直到您将其完全从武器上刮去为止。"
 	"CSGO_crate_signature_pack_atlanta2017_nv" "亲笔签名胶囊 | Team EnVyUs | 2017年亚特兰大锦标赛"
-	"CSGO_crate_signature_pack_atlanta2017_nv_desc" "这个胶囊包含一张由2017年亚特兰大锦标赛中 Team EnVyUs 战队的一名选手亲笔签名的印花。\n\n销售此胶囊的 50% 所得部分款项将用于支持该胶囊的选手和俱乐部。\n\n这张印花可以应用在您所拥有的任何武器上，您也可以刮掉它，使其显得更为老旧。您可以多次刮除同一张印花，刮得次数越多，磨损程度越大。直到您将其完全从武器上刮去为止。"
+	"CSGO_crate_signature_pack_atlanta2017_nv_desc" "这个胶��包含一张由2017年亚特兰大锦标赛中 Team EnVyUs 战队的一名选手亲笔签名的印花。\n\n销售此胶囊的 50% 所得部分款项将用于支持该胶囊的选手和俱乐部。\n\n这张印花可以应用在您所拥有的任何武器上，您也可以刮掉它，使其显得更为老旧。您可以多次刮除同一张印花，刮得次数越多，磨损程度越大。直到您将其完全从武器上刮去为止。"
 	"CSGO_crate_signature_pack_atlanta2017_faze" "亲笔签名胶囊 | FaZe Clan | 2017年亚特兰大锦标赛"
 	"CSGO_crate_signature_pack_atlanta2017_faze_desc" "这个胶囊包含一张由2017年亚特兰大锦标赛中 FaZe Clan 战队的一名选手亲笔签名的印花。\n\n销售此胶囊的 50% 所得部分款项将用于支持该胶囊的选手和俱乐部。\n\n这张印花可以应用在您所拥有的任何武器上，您也可以刮掉它，使其显得更为老旧。您可以多次刮除同一张印花，刮得次数越多，磨损程度越大。直到您将其完全从武器上刮去为止。"
 	"CSGO_crate_signature_pack_atlanta2017_flip" "亲笔签名胶囊 | Flipsid3 Tactics | 2017年亚特兰大锦标赛"
@@ -11288,7 +11360,7 @@
 	"StickerKit_desc_atlanta2017_signature_bondik_gold" "这张金色印花由2017年亚特兰大锦标赛中 HellRaisers 战队的职业选手 Vladyslav Nechyporchuk 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_atlanta2017_signature_angel" "ANGE1 | 2017年亚特兰大锦标赛"
-	"StickerKit_desc_atlanta2017_signature_angel" "这张印花由2017年亚特兰大锦标赛中 HellRaisers 战队的职业选手 Kyrylo Karasov 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_atlanta2017_signature_angel" "这张印花由2017年亚特兰大锦标赛中 HellRaisers 战队的职业选手 Kyrylo Karasov 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花���选手和俱乐部。"
 	"StickerKit_atlanta2017_signature_angel_foil" "ANGE1（闪亮）| 2017年亚特兰大锦标赛"
 	"StickerKit_desc_atlanta2017_signature_angel_foil" "这张闪亮印花由2017年亚特兰大锦标赛中 HellRaisers 战队的职业选手 Kyrylo Karasov 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_atlanta2017_signature_angel_gold" "ANGE1（金色）| 2017年亚特兰大锦标赛"
@@ -11502,7 +11574,7 @@
 	"StickerKit_atlanta2017_signature_taco_foil" "TACO（闪亮）| 2017年亚特兰大锦标赛"
 	"StickerKit_desc_atlanta2017_signature_taco_foil" "这张闪亮印花由2017年亚特兰大锦标赛中 SK Gaming 战队的职业选手 Tacio Filho 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_atlanta2017_signature_taco_gold" "TACO（金色）| 2017年亚特兰大锦标赛"
-	"StickerKit_desc_atlanta2017_signature_taco_gold" "这张金色印花由2017年亚特兰大锦标赛中 SK Gaming 战队的职业选手 Tacio Filho 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_atlanta2017_signature_taco_gold" "这张金色印花由2017年亚特兰大锦标赛中 SK Gaming 战队的职业选手 Tacio Filho 亲笔签名。\n\n销售此���花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_atlanta2017_signature_chrisj" "chrisJ | 2017年亚特兰大锦标赛"
 	"StickerKit_desc_atlanta2017_signature_chrisj" "这张印花由2017年亚特兰大锦标赛中 mousesports 战队的职业选手 Chris de Jong 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
@@ -11600,7 +11672,7 @@
 	"StickerKit_atlanta2017_signature_jw_foil" "JW（闪亮）| 2017年亚特兰大锦标赛"
 	"StickerKit_desc_atlanta2017_signature_jw_foil" "这张闪亮印花由2017年亚特兰大锦标赛中 GODSENT 战队的职业选手 Jesper Wecksell 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_atlanta2017_signature_jw_gold" "JW（金色）| 2017年亚特兰大锦标赛"
-	"StickerKit_desc_atlanta2017_signature_jw_gold" "这张金色印花由2017年亚特兰大锦标赛中 GODSENT 战队的职业选手 Jesper Wecksell 亲笔签名。\n\n销售此印花的 50% 所得部��款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_atlanta2017_signature_jw_gold" "这张金色印花由2017年亚特兰大锦标赛中 GODSENT 战队的职业选手 Jesper Wecksell 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_atlanta2017_signature_flusha" "flusha | 2017年亚特兰大锦标赛"
 	"StickerKit_desc_atlanta2017_signature_flusha" "这张印花由2017年亚特兰大锦标赛中 GODSENT 战队的职业选手 Robin Rönnquist 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
@@ -11610,7 +11682,7 @@
 	"StickerKit_desc_atlanta2017_signature_flusha_gold" "这张金色印花由2017年亚特兰大锦标赛中 GODSENT 战队的职业选手 Robin Rönnquist 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_atlanta2017_signature_cajunb" "cajunb | 2017年亚特兰大锦标赛"
-	"StickerKit_desc_atlanta2017_signature_cajunb" "这张印花由2017年亚特兰大锦标赛中 North 战队的职业选手 René Borg 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_atlanta2017_signature_cajunb" "这张印花由2017年亚特兰大锦标赛中 North 战队的职业选手 René Borg 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的���手和俱乐部。"
 	"StickerKit_atlanta2017_signature_cajunb_foil" "cajunb（闪亮）| 2017年亚特兰大锦标赛"
 	"StickerKit_desc_atlanta2017_signature_cajunb_foil" "这张闪亮印花由2017年亚特兰大锦标赛中 North 战队的职业选手 René Borg 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_atlanta2017_signature_cajunb_gold" "cajunb（金色）| 2017年亚特兰大锦标赛"
@@ -11718,7 +11790,7 @@
 	"StickerKit_desc_atlanta2017_signature_gla1ve" "这张印花由2017年亚特兰大锦标赛中 Astralis 战队的职业选手 Lukas Rossander 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_atlanta2017_signature_gla1ve_foil" "gla1ve（闪亮）| 2017年亚特兰大锦标赛"
 	"StickerKit_desc_atlanta2017_signature_gla1ve_foil" "这张闪亮印花由2017年亚特兰大锦标赛中 Astralis 战队的职业选手 Lukas Rossander 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
-	"StickerKit_atlanta2017_signature_gla1ve_gold" "gla1ve（金色）| 2017年亚特兰大锦标赛"
+	"StickerKit_atlanta2017_signature_gla1ve_gold" "gla1ve（金色）| 2017年亚特��大锦标赛"
 	"StickerKit_desc_atlanta2017_signature_gla1ve_gold" "这张金色印花由2017年亚特兰大锦标赛中 Astralis 战队的职业选手 Lukas Rossander 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_atlanta2017_signature_device" "device | 2017年亚特兰大锦标赛"
@@ -11842,7 +11914,7 @@
 //
 
 	"CSGO_crate_krakow2017_bundle_of_all" "2017年克拉科夫锦标赛超值捆绑包"
-	"CSGO_crate_krakow2017_bundle_of_all_desc" "该活动捆绑包内含 50 件物品，用于纪念2017年 PGL 克拉科夫 CS:GO 特级锦标赛的参赛选手与战队:\n ● 16支参赛战队的印花各一张。\n ● 16支参赛战队的涂鸦各一件。\n ● 8支传奇战队的选手亲笔签名胶囊各一个。\n ● 8支挑战组战队的选手亲笔签名胶囊各一个。\n ● PGL 印花一张。\n ● PGL 涂鸦一件。\n （不包含传奇/挑战组或全息/闪亮胶囊）\n\n销售此活动捆绑包的 50% 所得部分款项将用于支持相关的选手和俱乐部。"
+	"CSGO_crate_krakow2017_bundle_of_all_desc" "该活动捆绑包内含 50 件物品，用于纪念2017年 PGL 克拉科夫 CS:GO 特级锦标赛的参赛选手与战队:\n ● 16��参赛战队的印花各一张。\n ● 16支参赛战队的涂鸦各一件。\n ● 8支传奇战队的选手亲笔签名胶囊各一个。\n ● 8支挑战组战队的选手亲笔签名胶囊各一个。\n ● PGL 印花一张。\n ● PGL 涂鸦一件。\n （不包含传奇/挑战组或全息/闪亮胶囊）\n\n销售此活动捆绑包的 50% 所得部分款项将用于支持相关的选手和俱乐部。"
 
 	"EventItemDesc_krakow2017_sticker_team" "销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"EventItemDesc_krakow2017_sticker_org" "销售此印花的 50% 所得部分款项将用于支持该印花的俱乐部。"
@@ -12493,7 +12565,7 @@
 	"StickerKit_krakow2017_signature_chopper" "chopper | 2017年克拉科夫锦标赛"
 	"StickerKit_desc_krakow2017_signature_chopper" "这张印花由2017年克拉科夫锦标赛中 Vega Squadron 战队的职业选手 Leonid Vishnyakov 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_krakow2017_signature_chopper_foil" "chopper（闪亮）| 2017年克拉科夫锦标赛"
-	"StickerKit_desc_krakow2017_signature_chopper_foil" "这张闪亮印花由2017年克拉科夫锦标赛中 Vega Squadron 战队的职业选手 Leonid Vishnyakov 亲笔签名。\n\n销售此印花的 50% ��得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_krakow2017_signature_chopper_foil" "这张闪亮印花由2017年克拉科夫锦标赛中 Vega Squadron 战队的职业选手 Leonid Vishnyakov 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_krakow2017_signature_chopper_gold" "chopper（金色）| 2017年克拉科夫锦标赛"
 	"StickerKit_desc_krakow2017_signature_chopper_gold" "这张金色印花由2017年克拉科夫锦标赛中 Vega Squadron 战队的职业选手 Leonid Vishnyakov 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
@@ -12532,7 +12604,7 @@
 	"CSGO_crate_krakow2017_promo_de_overpass"		"2017年克拉科夫锦标赛死亡游乐园纪念包"
 	"CSGO_crate_krakow2017_promo_de_cache"		"2017年克拉科夫锦标赛死城之迷纪念包"
 	"CSGO_crate_krakow2017_promo_de_train"		"2017年克拉科夫锦标赛列车停放站纪念包"
-	"CSGO_crate_krakow2017_promo_de_nuke"		"2017年克拉科夫锦标赛核子危机纪念包"
+	"CSGO_crate_krakow2017_promo_de_nuke"		"2017年克拉科夫锦标赛核子危机纪念���"
 
 		// ======================================
 		// PGL Krakow 2017 Strings Block End
@@ -12811,7 +12883,7 @@
 	"StickerKit_boston2018_signature_device_foil" "device（闪亮）| 2018年波士顿锦标赛"
 	"StickerKit_desc_boston2018_signature_device_foil" "这张闪亮印花由2018年波士顿锦标赛中 Astralis 战队的职业选手 Nicolai Reedtz 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_boston2018_signature_device_gold" "device（金色）| 2018年波士顿锦标赛"
-	"StickerKit_desc_boston2018_signature_device_gold" "这张金色印花由2018年波士顿锦标赛中 Astralis 战队的职业选手 Nicolai Reedtz 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_boston2018_signature_device_gold" "这张金色印花由2018年波士顿锦标赛中 Astralis 战队的职业选手 Nicolai Reedtz 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该��花的选手和俱乐部。"
 
 	"StickerKit_boston2018_signature_dupreeh" "dupreeh | 2018年波士顿锦标赛"
 	"StickerKit_desc_boston2018_signature_dupreeh" "这张印花由2018年波士顿锦标赛中 Astralis 战队的职业选手 Peter Rasmussen 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
@@ -12886,7 +12958,7 @@
 	"StickerKit_boston2018_signature_golden" "Golden | 2018年波士顿锦标赛"
 	"StickerKit_desc_boston2018_signature_golden" "这张印花由2018年波士顿锦标赛中 Fnatic 战队的职业选手 Maikil Selim 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_boston2018_signature_golden_foil" "Golden（闪亮）| 2018年波士顿锦标赛"
-	"StickerKit_desc_boston2018_signature_golden_foil" "这张闪亮印花由2018年波士顿锦标赛中 Fnatic 战队的职业选手 Maikil Selim 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支���该印花的选手和俱乐部。"
+	"StickerKit_desc_boston2018_signature_golden_foil" "这张闪亮印花由2018年波士顿锦标赛中 Fnatic 战队的职业选手 Maikil Selim 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_boston2018_signature_golden_gold" "Golden（金色）| 2018年波士顿锦标赛"
 	"StickerKit_desc_boston2018_signature_golden_gold" "这张金色印花由2018年波士顿锦标赛中 Fnatic 战队的职业选手 Maikil Selim 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
@@ -12998,7 +13070,7 @@
 	"StickerKit_boston2018_signature_k0nfig" "k0nfig | 2018年波士顿锦标赛"
 	"StickerKit_desc_boston2018_signature_k0nfig" "这张印花由2018年波士顿锦标赛中 North 战队的职业选手 Kristian Wienecke 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_boston2018_signature_k0nfig_foil" "k0nfig（闪亮）| 2018年波士顿锦标赛"
-	"StickerKit_desc_boston2018_signature_k0nfig_foil" "这张闪亮印花由2018年波士顿锦标赛中 North 战队的职业选手 Kristian Wienecke 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于��持该印花的选手和俱乐部。"
+	"StickerKit_desc_boston2018_signature_k0nfig_foil" "这张闪亮印花由2018年波士顿锦标赛中 North 战队的职业选手 Kristian Wienecke 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_boston2018_signature_k0nfig_gold" "k0nfig（金色）| 2018年波士顿锦标赛"
 	"StickerKit_desc_boston2018_signature_k0nfig_gold" "这张金色印花由2018年波士顿锦标赛中 North 战队的职业选手 Kristian Wienecke 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
@@ -14288,7 +14360,7 @@
 	"StickerKit_desc_london2018_signature_shox_gold" "这张金色印花由2018年伦敦锦标赛中 G2 Esports 战队的职业选手 Richard Papillon 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_london2018_signature_ex6tenz" "Ex6TenZ | 2018年伦敦锦标赛"
-	"StickerKit_desc_london2018_signature_ex6tenz" "这张印花��2018年伦敦锦标赛中 G2 Esports 战队的职业选手 Kévin Droolans 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_london2018_signature_ex6tenz" "这张印花由2018年伦敦锦标赛中 G2 Esports 战队的职业选手 Kévin Droolans 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_london2018_signature_ex6tenz_foil" "Ex6TenZ（闪亮）| 2018年伦敦锦标赛"
 	"StickerKit_desc_london2018_signature_ex6tenz_foil" "这张闪亮印花由2018年伦敦锦标赛中 G2 Esports 战队的职业选手 Kévin Droolans 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_london2018_signature_ex6tenz_gold" "Ex6TenZ（金色）| 2018年伦敦锦标赛"
@@ -14400,7 +14472,7 @@
 	"StickerKit_desc_london2018_signature_nex_gold" "这张金色印花由2018年伦敦锦标赛中 BIG 战队的职业选手 Johannes Maget 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_london2018_signature_smooya" "smooya | 2018年伦敦锦标赛"
-	"StickerKit_desc_london2018_signature_smooya" "这张印花由2018年伦敦锦标赛中 BIG 战队的职业选手 Owen Butterfield 亲笔��名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_london2018_signature_smooya" "这张印花由2018年伦敦锦标赛中 BIG 战队的职业选手 Owen Butterfield 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_london2018_signature_smooya_foil" "smooya（闪亮）| 2018年伦敦锦标赛"
 	"StickerKit_desc_london2018_signature_smooya_foil" "这张闪亮印花由2018年伦敦锦标赛中 BIG 战队的职业选手 Owen Butterfield 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_london2018_signature_smooya_gold" "smooya（金色）| 2018年伦敦锦标赛"
@@ -14437,7 +14509,7 @@
 	"StickerKit_london2018_signature_azr" "AZR | 2018年伦敦锦标赛"
 	"StickerKit_desc_london2018_signature_azr" "这张印花由2018年伦敦锦标赛中 Renegades 战队的职业选手 Aaron Ward 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_london2018_signature_azr_foil" "AZR（闪亮）| 2018年伦敦锦标赛"
-	"StickerKit_desc_london2018_signature_azr_foil" "这张闪亮印花由2018年伦敦锦标赛中 Renegades 战队的职业选手 Aaron Ward 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_london2018_signature_azr_foil" "这张闪亮印花由2018年伦敦锦标赛中 Renegades 战队��职业选手 Aaron Ward 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_london2018_signature_azr_gold" "AZR（金色）| 2018年伦敦锦标赛"
 	"StickerKit_desc_london2018_signature_azr_gold" "这张金色印花由2018年伦敦锦标赛中 Renegades 战队的职业选手 Aaron Ward 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
@@ -14549,7 +14621,7 @@
 	"StickerKit_london2018_signature_coldzera" "coldzera | 2018年伦敦锦标赛"
 	"StickerKit_desc_london2018_signature_coldzera" "这张印花由2018年伦敦锦标赛中 MIBR 战队的职业选手 Marcelo David 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_london2018_signature_coldzera_foil" "coldzera（闪亮）| 2018年伦敦锦标赛"
-	"StickerKit_desc_london2018_signature_coldzera_foil" "这张闪亮印花由2018年伦敦锦标赛中 MIBR 战队的职业选手 Marcelo David 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_london2018_signature_coldzera_foil" "这张闪亮印��由2018年伦敦锦标赛中 MIBR 战队的职业选手 Marcelo David 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_london2018_signature_coldzera_gold" "coldzera（金色）| 2018年伦敦锦标赛"
 	"StickerKit_desc_london2018_signature_coldzera_gold" "这张金色印花由2018年伦敦锦标赛中 MIBR 战队的职业选手 Marcelo David 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
@@ -14795,7 +14867,7 @@
 	"StickerKit_katowice2019_team_spir" "Team Spirit | 2019年卡托维兹锦标赛"
 	"StickerKit_katowice2019_team_spir_holo" "Team Spirit（全息）| 2019年卡托维兹锦标赛"
 	"StickerKit_katowice2019_team_spir_foil" "Team Spirit（闪亮）| 2019年卡托维兹锦标赛"
-	"StickerKit_katowice2019_team_spir_gold" "Team Spirit（金��）| 2019年卡托维兹锦标赛"
+	"StickerKit_katowice2019_team_spir_gold" "Team Spirit（金色）| 2019年卡托维兹锦标赛"
 	"StoreItem_katowice2019_team_spir_sticker" "印花 | Team Spirit | 2019年卡托维兹锦标赛"
 	"StickerKit_katowice2019_team_tyl" "Tyloo | 2019年卡托维兹锦标赛"
 	"StickerKit_katowice2019_team_tyl_holo" "Tyloo（全息）| 2019年卡托维兹锦标赛"
@@ -15015,7 +15087,7 @@
 	"StickerKit_desc_katowice2019_signature_dephh_gold" "这张金色印花由2019年卡托维兹锦标赛中 compLexity Gaming 战队的职业选手 Rory Jackson 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_katowice2019_signature_shahzam" "ShahZaM | 2019年卡托维兹锦标赛"
-	"StickerKit_desc_katowice2019_signature_shahzam" "这张印���由2019年卡托维兹锦标赛中 compLexity Gaming 战队的职业选手 Shahzeeb Khan 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_katowice2019_signature_shahzam" "这张印花由2019年卡托维兹锦标赛中 compLexity Gaming 战队的职业选手 Shahzeeb Khan 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_shahzam_foil" "ShahZaM（闪亮）| 2019年卡托维兹锦标赛"
 	"StickerKit_desc_katowice2019_signature_shahzam_foil" "这张闪亮印花由2019年卡托维兹锦标赛中 compLexity Gaming 战队的职业选手 Shahzeeb Khan 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_shahzam_gold" "ShahZaM（金色）| 2019年卡托维兹锦标赛"
@@ -15050,7 +15122,7 @@
 	"StickerKit_desc_katowice2019_signature_aleksib_gold" "这张金色印花由2019年卡托维兹锦标赛中 ENCE 战队的职业选手 Aleksi Virolainen 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_katowice2019_signature_sergej" "sergej | 2019年卡托维兹锦标赛"
-	"StickerKit_desc_katowice2019_signature_sergej" "这张印花由2019年卡托维兹锦标赛中 ENCE 战队的职业选手 Jere Salo 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_katowice2019_signature_sergej" "这张印花由2019年卡托维兹锦标赛��� ENCE 战队的职业选手 Jere Salo 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_sergej_foil" "sergej（闪亮）| 2019年卡托维兹锦标赛"
 	"StickerKit_desc_katowice2019_signature_sergej_foil" "这张闪亮印花由2019年卡托维兹锦标赛中 ENCE 战队的职业选手 Jere Salo 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_sergej_gold" "sergej（金色）| 2019年卡托维兹锦标赛"
@@ -15122,7 +15194,7 @@
 	"StickerKit_katowice2019_signature_brollan" "Brollan | 2019年卡托维兹锦标赛"
 	"StickerKit_desc_katowice2019_signature_brollan" "这张印花由2019年卡托维兹锦标赛中 Fnatic 战队的职业选手 Ludvig Brolin 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_brollan_foil" "Brollan（闪亮）| 2019年卡托维兹锦标赛"
-	"StickerKit_desc_katowice2019_signature_brollan_foil" "这张闪亮印花由2019年卡托维兹锦标赛中 Fnatic 战队的职业选手 Ludvig Brolin 亲笔签���。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_katowice2019_signature_brollan_foil" "这张闪亮印花由2019年卡托维兹锦标赛中 Fnatic 战队的职业选手 Ludvig Brolin 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_brollan_gold" "Brollan（金色）| 2019年卡托维兹锦标赛"
 	"StickerKit_desc_katowice2019_signature_brollan_gold" "这张金色印花由2019年卡托维兹锦标赛中 Fnatic 战队的职业选手 Ludvig Brolin 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
@@ -15157,7 +15229,7 @@
 	"StickerKit_katowice2019_signature_yuurih" "yuurih | 2019年卡托维兹锦标赛"
 	"StickerKit_desc_katowice2019_signature_yuurih" "这张印花由2019年卡托维兹锦标赛中 FURIA 战队的职业选手 Yuri Boian 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_yuurih_foil" "yuurih（闪亮）| 2019年卡托维兹锦标赛"
-	"StickerKit_desc_katowice2019_signature_yuurih_foil" "这张闪亮印花由2019年卡托维兹锦标赛中 FURIA 战队的职业选手 Yuri Boian 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_katowice2019_signature_yuurih_foil" "这张闪亮印花由2019年卡托维兹锦标赛中 FURIA 战队的职业选手 Yuri Boian 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于���持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_yuurih_gold" "yuurih（金色）| 2019年卡托维兹锦标赛"
 	"StickerKit_desc_katowice2019_signature_yuurih_gold" "这张金色印花由2019年卡托维兹锦标赛中 FURIA 战队的职业选手 Yuri Boian 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
@@ -15264,7 +15336,7 @@
 	"StickerKit_katowice2019_signature_woxic_foil" "woxic（闪亮）| 2019年卡托维兹锦标赛"
 	"StickerKit_desc_katowice2019_signature_woxic_foil" "这张闪亮印花由2019年卡托维兹锦标赛中 HellRaisers 战队的职业选手 Özgür Eker 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_woxic_gold" "woxic（金色）| 2019年卡托维兹锦标赛"
-	"StickerKit_desc_katowice2019_signature_woxic_gold" "这张金色印花由2019年卡托维兹锦标赛中 HellRaisers 战队的职业选手 Özgür Eker 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_katowice2019_signature_woxic_gold" "这张金色印花由2019年卡托维兹锦标赛中 HellRaisers 战队的职业选手 Özgür Eker 亲笔签名。\n\n销售此印花的 50% 所得部分款项���用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_katowice2019_signature_fallen" "FalleN | 2019年卡托维兹锦标赛"
 	"StickerKit_desc_katowice2019_signature_fallen" "这张印花由2019年卡托维兹锦标赛中 MIBR 战队的职业选手 Gabriel Toledo 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
@@ -15337,7 +15409,7 @@
 	"StickerKit_desc_katowice2019_signature_flamie_gold" "这张金色印花由2019年卡托维兹锦标赛中 Natus Vincere 战队的职业选手 Egor Vasilyev 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_katowice2019_signature_forest" "f0rest | 2019年卡托维兹锦标赛"
-	"StickerKit_desc_katowice2019_signature_forest" "这张印花由2019年卡托维兹锦标赛中 Ninjas in Pyjamas 战队的职业选手 Patrik Lindberg 亲笔签名。\n\n销售此印花的 50% 所得部分款项���用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_katowice2019_signature_forest" "这张印花由2019年卡托维兹锦标赛中 Ninjas in Pyjamas 战队的职业选手 Patrik Lindberg 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_forest_foil" "f0rest（闪亮）| 2019年卡托维兹锦标赛"
 	"StickerKit_desc_katowice2019_signature_forest_foil" "这张闪亮印花由2019年卡托维兹锦标赛中 Ninjas in Pyjamas 战队的职业选手 Patrik Lindberg 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_forest_gold" "f0rest（金色）| 2019年卡托维兹锦标赛"
@@ -15372,7 +15444,7 @@
 	"StickerKit_desc_katowice2019_signature_dennis_gold" "这张金色印花由2019年卡托维兹锦标赛中 Ninjas in Pyjamas 战队的职业选手 Dennis Edman 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
 	"StickerKit_katowice2019_signature_daps" "daps | 2019年卡托维兹锦标赛"
-	"StickerKit_desc_katowice2019_signature_daps" "这张印花由2019年卡托维兹锦标赛中 NRG 战队的职业选手 Damian Steele 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
+	"StickerKit_desc_katowice2019_signature_daps" "这张印花由2019年卡托维兹��标赛中 NRG 战队的职业选手 Damian Steele 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_daps_foil" "daps（闪亮）| 2019年卡托维兹锦标赛"
 	"StickerKit_desc_katowice2019_signature_daps_foil" "这张闪亮印花由2019年卡托维兹锦标赛中 NRG 战队的职业选手 Damian Steele 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_daps_gold" "daps（金色）| 2019年卡托维兹锦标赛"
@@ -15444,7 +15516,7 @@
 	"StickerKit_katowice2019_signature_nitro" "nitr0 | 2019年卡托维兹锦标赛"
 	"StickerKit_desc_katowice2019_signature_nitro" "这张印花由2019年卡托维兹锦标赛中 Team Liquid 战队的职业选手 Nicholas Cannella 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_nitro_foil" "nitr0（闪亮）| 2019年卡托维兹锦标赛"
-	"StickerKit_desc_katowice2019_signature_nitro_foil" "这张闪亮印花由2019年卡托维兹锦标赛中 Team Liquid 战队的职业选手 Nicholas Cannella 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和��乐部。"
+	"StickerKit_desc_katowice2019_signature_nitro_foil" "这张闪亮印花由2019年卡托维兹锦标赛中 Team Liquid 战队的职业选手 Nicholas Cannella 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 	"StickerKit_katowice2019_signature_nitro_gold" "nitr0（金色）| 2019年卡托维兹锦标赛"
 	"StickerKit_desc_katowice2019_signature_nitro_gold" "这张金色印花由2019年卡托维兹锦标赛中 Team Liquid 战队的职业选手 Nicholas Cannella 亲笔签名。\n\n销售此印花的 50% 所得部分款项将用于支持该印花的选手和俱乐部。"
 
@@ -15708,7 +15780,7 @@
 //
 
 	"CSGO_TournamentPass_berlin2019" "柏林2019观众通行证"
-	"CSGO_TournamentPass_berlin2019_Desc" "这是一张封装的 2019 年 StarLadder 柏林 CS:GO 锦标赛 观众通行证。通行证一旦启封，您将获得一枚在赛事全程中为您追踪竞猜进度的柏林 2019 硬币，参与柏林 2019 竞猜挑战的所有权限，纪念包独家权限，Steam.tv 聊天胸章，以及赛事期间无限次战队涂鸦。\n\n您可通过完成挑战来升级柏林 2019 硬币。硬币每升级一次您都可获得一枚纪念品代币。"
+	"CSGO_TournamentPass_berlin2019_Desc" "这是一张封装的 2019 年 StarLadder 柏林 CS:GO 锦标赛 观众通行证。通行证一旦启封，您将获得一枚在赛事全程中为您追踪竞猜进度的柏林 2019 硬币，参与柏林 2019 竞猜挑战的所有权限，纪念包独家权限，Steam.tv 聊天胸章，以及赛事期间无限次战队涂鸦。\n\n您可���过完成挑战来升级柏林 2019 硬币。硬币每升级一次您都可获得一枚纪念品代币。"
 	"CSGO_TournamentPass_berlin2019_pack" "柏林2019观众通行证+3枚纪念品代币"
 	"CSGO_TournamentPass_berlin2019_pack_Desc" "这是一张封装的 2019 年 StarLadder 柏林 CS:GO 锦标赛 观众通行证。通行证一旦启封，您将获得一枚在赛事全程中为您追踪竞猜进度的柏林 2019 硬币，参与柏林 2019 竞猜挑战的所有权限，纪念包独家权限，Steam.tv 聊天胸章，以及赛事期间无限次战队涂鸦。\n\n您可通过完成挑战来升级柏林 2019 硬币。硬币每升级一次您都可获得一枚纪念品代币。\n\n这张观众通行证会附送三枚柏林2019纪念品代币。"
 	"CSGO_TournamentPass_berlin2019_charge" "柏林2019纪念品代币"
@@ -16709,7 +16781,7 @@
 	"StickerKit_berlin2019_signature_xand" "xand | 2019年柏林锦标赛"
 	"StickerKit_desc_berlin2019_signature_xand" "这张印花由2019年柏林锦标赛中INTZ E-SPORTS CLUB战队的职业选手Alexandre Zizi亲笔签名。"
 	"StickerKit_berlin2019_signature_xand_foil" "xand（闪亮）| 2019年柏林锦标赛"
-	"StickerKit_desc_berlin2019_signature_xand_foil" "这张闪亮印花由2019年柏林锦标���中INTZ E-SPORTS CLUB战队的职业选手Alexandre Zizi亲笔签名。"
+	"StickerKit_desc_berlin2019_signature_xand_foil" "这张闪亮印花由2019年柏林锦标赛中INTZ E-SPORTS CLUB战队的职业选手Alexandre Zizi亲笔签名。"
 	"StickerKit_berlin2019_signature_xand_gold" "xand（金色）| 2019年柏林锦标赛"
 	"StickerKit_desc_berlin2019_signature_xand_gold" "这张金色印花由2019年柏林锦标赛中INTZ E-SPORTS CLUB战队的职业选手Alexandre Zizi亲笔签名。"
 
@@ -17056,7 +17128,7 @@
 	"StickerKit_stockh2021_signature_perfecto" "Perfecto | 2021年斯德哥尔摩锦标赛"
 	"StickerKit_desc_stockh2021_signature_perfecto" "这张印花由来自 Natus Vincere 战队的职业选手 Ilya Zalutskiy 亲笔签名，他是此次2021年 PGL 斯德哥尔摩 CS:GO 锦标赛冠军选手。"
 	"StickerKit_stockh2021_signature_perfecto_holo" "Perfecto （全息） | 2021年斯德哥尔摩锦标赛"
-	"StickerKit_desc_stockh2021_signature_perfecto_holo" "这张全息印花由来自 Natus Vincere 战队的职业选手 Ilya Zalutskiy 亲笔签名，他是此次2021年 PGL 斯德哥���摩 CS:GO 锦标赛冠军选手。"
+	"StickerKit_desc_stockh2021_signature_perfecto_holo" "这张全息印花由来自 Natus Vincere 战队的职业选手 Ilya Zalutskiy 亲笔签名，他是此次2021年 PGL 斯德哥尔摩 CS:GO 锦标赛冠军选手。"
 	"StickerKit_stockh2021_signature_perfecto_gold" "Perfecto（金色）| 2021年斯德哥尔摩锦标赛"
 	"StickerKit_desc_stockh2021_signature_perfecto_gold" "这张金色印花由来自 Natus Vincere 战队的职业选手 Ilya Zalutskiy 亲笔签名，他是此次2021年 PGL 斯德哥尔摩 CS:GO 锦标赛冠军选手。"
 
@@ -17257,7 +17329,7 @@
 	"StickerKit_desc_stockh2021_signature_fl1t_gold" "这张金色印花由来自 Virtus.Pro 战队的职业选手 Evgenii Lebedev 亲笔签名，他是此次2021年 PGL 斯德哥尔摩 CS:GO 锦标赛四分之一决赛选手。"
 
 	"StickerKit_stockh2021_signature_hampus" "hampus | 2021年斯德哥尔摩锦标赛"
-	"StickerKit_desc_stockh2021_signature_hampus" "这张印花由来自 Ninjas in Pyjamas 战队的职业选手 Hampus Poser 亲笔签名，他是此次2021年 PGL 斯德哥尔摩 CS:GO 锦标赛四分之一决赛选手。"
+	"StickerKit_desc_stockh2021_signature_hampus" "这张印花由来自 Ninjas in Pyjamas 战��的职业选手 Hampus Poser 亲笔签名，他是此次2021年 PGL 斯德哥尔摩 CS:GO 锦标赛四分之一决赛选手。"
 	"StickerKit_stockh2021_signature_hampus_holo" "hampus （全息） | 2021年斯德哥尔摩锦标赛"
 	"StickerKit_desc_stockh2021_signature_hampus_holo" "这张全息印花由来自 Ninjas in Pyjamas 战队的职业选手 Hampus Poser 亲笔签名，他是此次2021年 PGL 斯德哥尔摩 CS:GO 锦标赛四分之一决赛选手。"
 	"StickerKit_stockh2021_signature_hampus_gold" "hampus（金色）| 2021年斯德哥尔摩锦标赛"
@@ -17457,7 +17529,7 @@
 	"StickerKit_antwerp2022_team_out" "Outsiders | 2022年安特卫普锦标赛"
 	"StickerKit_antwerp2022_team_out_glitter" "Outsiders（闪耀）| 2022年安特卫普锦标赛"
 	"StickerKit_antwerp2022_team_out_holo" "Outsiders（全息）| 2022年安特卫普锦标赛"
-	"StickerKit_antwerp2022_team_out_gold" "Outsiders（金色）| 2022年安特卫普锦��赛"
+	"StickerKit_antwerp2022_team_out_gold" "Outsiders（金色）| 2022年安特卫普锦标赛"
 	"StickerKit_antwerp2022_team_cplx" "Complexity Gaming | 2022年安特卫普锦标赛"
 	"StickerKit_antwerp2022_team_cplx_glitter" "Complexity Gaming（闪耀）| 2022年安特卫普锦标赛"
 	"StickerKit_antwerp2022_team_cplx_holo" "Complexity Gaming（全息）| 2022年安特卫普锦标赛"
@@ -17654,7 +17726,7 @@
 	"StickerKit_desc_antwerp2022_signature_nicoodoz_gold" "这张金色印花由来自 Copenhagen Flames 战队的职业选手 Nico Tamjidi 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 
 	"StickerKit_antwerp2022_signature_tabsen" "tabseN | 2022年安特卫普锦标赛"
-	"StickerKit_desc_antwerp2022_signature_tabsen" "这张印花由来自 BIG 战队的职业选手 Johannes Wodarz 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
+	"StickerKit_desc_antwerp2022_signature_tabsen" "这张印花由来自 BIG 战队的职业选手 Johannes Wodarz 亲笔签名，他是此次2022年 PGL ���特卫普 CS:GO 锦标赛选手。"
 	"StickerKit_antwerp2022_signature_tabsen_glitter" "tabseN（闪耀） | 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_tabsen_glitter" "这张闪耀印花由来自 BIG 战队的职业选手 Johannes Wodarz 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 	"StickerKit_antwerp2022_signature_tabsen_holo" "tabseN（全息） | 2022年安特卫普锦标赛"
@@ -17699,7 +17771,7 @@
 	"StickerKit_desc_antwerp2022_signature_syrson_gold" "这张金色印花由来自 BIG 战队的职业选手 Florian Rische 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 
 	"StickerKit_antwerp2022_signature_interz" "interz | 2022年安特卫普锦标赛"
-	"StickerKit_desc_antwerp2022_signature_interz" "这张印花由来自 Cloud9 战队的职业选手 Iakushin Timofei 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标��选手。"
+	"StickerKit_desc_antwerp2022_signature_interz" "这张印花由来自 Cloud9 战队的职业选手 Iakushin Timofei 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 	"StickerKit_antwerp2022_signature_interz_glitter" "interz（闪耀） | 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_interz_glitter" "这张闪耀印花由来自 Cloud9 战队的职业选手 Iakushin Timofei 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 	"StickerKit_antwerp2022_signature_interz_holo" "interz（全息） | 2022年安特卫普锦标赛"
@@ -17777,7 +17849,7 @@
 	"StickerKit_antwerp2022_signature_drop_holo" "drop（全息） | 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_drop_holo" "这张全息印花由来自 FURIA 战队的职业选手 André Wagner de Abreu 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 	"StickerKit_antwerp2022_signature_drop_gold" "drop（金色） | 2022年安特卫普锦标赛"
-	"StickerKit_desc_antwerp2022_signature_drop_gold" "这张金色印花由来自 FURIA 战队的职业选手 André Wagner de Abreu 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
+	"StickerKit_desc_antwerp2022_signature_drop_gold" "这张金色印花由来自 FURIA 战队的职业选手 André Wagner de Abreu 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手���"
 
 	"StickerKit_antwerp2022_signature_saffee" "saffee | 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_saffee" "这张印花由来自 FURIA 战队的职业选手 Rafael Costa 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
@@ -17943,7 +18015,7 @@
 
 	"StickerKit_antwerp2022_signature_spinx" "Spinx | 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_spinx" "这张印花由来自 ENCE 战队的职业选手 Lotan Giladi 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
-	"StickerKit_antwerp2022_signature_spinx_glitter" "Spinx（闪耀） | 2022���安特卫普锦标赛"
+	"StickerKit_antwerp2022_signature_spinx_glitter" "Spinx（闪耀） | 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_spinx_glitter" "这张闪耀印花由来自 ENCE 战队的职业选手 Lotan Giladi 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 	"StickerKit_antwerp2022_signature_spinx_holo" "Spinx（全息）| 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_spinx_holo" "这张全息印花由来自 ENCE 战队的职业选手 Lotan Giladi 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
@@ -18308,7 +18380,7 @@
 	"StickerKit_antwerp2022_signature_imorr_holo" "imoRR（全息）| 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_imorr_holo" "这张全息印花由来自 Eternal Fire 战队的职业选手 Ömer Karatas 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 	"StickerKit_antwerp2022_signature_imorr_gold" "imoRR（金色）| 2022年安特卫普锦标赛"
-	"StickerKit_desc_antwerp2022_signature_imorr_gold" "这张金色印花由来自 Eternal Fire 战队���职业选手 Ömer Karatas 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
+	"StickerKit_desc_antwerp2022_signature_imorr_gold" "这张金色印花由来自 Eternal Fire 战队的职业选手 Ömer Karatas 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 
 	"StickerKit_antwerp2022_signature_calyx" "Calyx | 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_calyx" "这张印花由来自 Eternal Fire 战队的职业选手 Bugra Arkın 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
@@ -18430,7 +18502,7 @@
 	"StickerKit_antwerp2022_signature_floppy" "floppy | 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_floppy" "这张印花由来自 Complexity Gaming 战队的职业选手 Ricky Kemery 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 	"StickerKit_antwerp2022_signature_floppy_glitter" "floppy（闪耀） | 2022年安特卫普锦标赛"
-	"StickerKit_desc_antwerp2022_signature_floppy_glitter" "这张闪耀印花由来自 Complexity Gaming 战队的职业选手 Ricky Kemery 亲笔签名，他是��次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
+	"StickerKit_desc_antwerp2022_signature_floppy_glitter" "这张闪耀印花由来自 Complexity Gaming 战队的职业选手 Ricky Kemery 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 	"StickerKit_antwerp2022_signature_floppy_holo" "floppy（全息） | 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_floppy_holo" "这张全息印花由来自 Complexity Gaming 战队的职业选手 Ricky Kemery 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 	"StickerKit_antwerp2022_signature_floppy_gold" "floppy（金色） | 2022年安特卫普锦标赛"
@@ -18506,7 +18578,7 @@
 	"StickerKit_antwerp2022_signature_techno4k_holo" "Techno4K（全息）| 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_techno4k_holo" "这张全息印花由来自 IHC Esports 战队的职业选手 Munkhbold Sodbayar 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 	"StickerKit_antwerp2022_signature_techno4k_gold" "Techno4K（金色） | 2022年安特卫普锦标赛"
-	"StickerKit_desc_antwerp2022_signature_techno4k_gold" "这张金色印花由来自 IHC Esports 战队的职业选手 Munkhbold Sodbayar 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
+	"StickerKit_desc_antwerp2022_signature_techno4k_gold" "这张金色印花由来自 IHC Esports 战队的职业选手 Munkhbold Sodbayar 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手��"
 
 	"StickerKit_antwerp2022_signature_ins" "ins | 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_ins" "这张印花由来自 Renegades 战队的职业选手 Joshua Potter 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
@@ -18551,7 +18623,7 @@
 	"StickerKit_antwerp2022_signature_alistair_holo" "aliStair（全息） | 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_alistair_holo" "这张全息印花由来自 Renegades 战队的职业选手 Alistair Johnston 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 	"StickerKit_antwerp2022_signature_alistair_gold" "aliStair（金色） | 2022年安特卫普锦标赛"
-	"StickerKit_desc_antwerp2022_signature_alistair_gold" "这张金色印花由来自 Renegades 战队的职业选手 Alistair Johnston 亲笔签名，他是此次2022年 PGL ��特卫普 CS:GO 锦标赛选手。"
+	"StickerKit_desc_antwerp2022_signature_alistair_gold" "这张金色印花由来自 Renegades 战队的职业选手 Alistair Johnston 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
 
 	"StickerKit_antwerp2022_signature_shox" "shox | 2022年安特卫普锦标赛"
 	"StickerKit_desc_antwerp2022_signature_shox" "这张印花由来自 Team Liquid 战队的职业选手 Richard Papillon 亲笔签名，他是此次2022年 PGL 安特卫普 CS:GO 锦标赛选手。"
@@ -18684,10 +18756,11 @@
 	"CSGO_TournamentPass_rio2022_charge" "里约 2022 纪念品代币"
 	"CSGO_TournamentPass_rio2022_charge_Desc" "这是一枚密封的2022年 IEM 里约热内卢锦标赛纪念品代币。 一旦此代币被使用，它将为您的2022年里约热内卢锦标赛硬币增加一次选择纪念包的机会。\n\n纪念币只能应用于您现有的2022年里约热内卢锦标赛硬币。"
 	"CSGO_TournamentJournal_rio2022" "里约 2022 硬币"
-	"CSGO_TournamentJournal_rio2022_Desc" "这是一枚2022年 IEM 里约热内卢锦标赛的纪念硬币。它将记录您在整个活动中的进展，同时提供2022年里约热内卢锦标赛的赛事竞猜机会、Steam.tv上的战队标志、硬币任务挑战以及赛事期间无限次数的战队涂鸦。通过完成硬币任务挑战升级您的2022年里约热内卢锦标赛硬币。\n\n每次升级硬��时都会获得一枚纪念币。"
+	"CSGO_TournamentJournal_rio2022_Desc" "这是一枚2022年 IEM 里约热内卢锦标赛的纪念硬币。它将记录您在整个活动中的进展，同时提供2022年里约热内卢锦标赛的赛事竞猜机会、Steam.tv上的战队标志、硬币任务挑战以及赛事期间无限次数的战队涂鸦。通过完成硬币任务挑战升级您的2022年里约热内卢锦标赛硬币。\n\n每次升级硬币时都会获得一枚纪念币。"
 	"CSGO_TournamentJournal_rio2022_Silver" "里约 2022 银色硬币"
 	"CSGO_TournamentJournal_rio2022_Gold" "里约 2022 金色硬币"
 	"CSGO_TournamentJournal_rio2022_Crystal" "里约 2022 钻石硬币"
+
 	"CSGO_storageunit_rio2022_tinyname"		"库存存储组件"
 	"CSGO_storageunit0_rio2022"			"含普通印花的 2022 里约库存存储组件"
 	"CSGO_storageunit0_rio2022_tinyname"		"含普通印花"
@@ -18839,7 +18912,7 @@
 	"CSGO_crate_signature_pack_rio2022_group_contenders_desc" "这个胶囊包含一张由2022年里约热内卢锦标赛中一名竞争组选手亲笔签名的普通、闪耀、全息或金色印花。\n\n销售此胶囊的 50% 所得部分款项将用于支持该胶囊的俱乐部。\n\n这张印花可以应用在您所拥有的任何武器上，您也可以刮掉它，使其显得更为老旧。您可以多次刮除同一张印花，刮得次数越多，磨损程度越大。直到您将其完全从武器上刮去为止。"
 	"CSGO_crate_signature_pack_rio2022_group_champions"     "2022年里约热内卢锦标赛冠军亲笔签名胶囊"
 	"CSGO_crate_signature_pack_rio2022_group_champions_tinyname" "冠军亲笔签名"
-	"CSGO_crate_signature_pack_rio2022_group_champions_desc" "这个胶囊包含一张由2022年里约热内卢锦标赛中一名��军选手亲笔签名的普通、闪耀、全息或金色印花。\n\n销售此胶囊的 50% 所得部分款项将用于支持该胶囊的俱乐部。\n\n这张印花可以应用在您所拥有的任何武器上，您也可以刮掉它，使其显得更为老旧。您可以多次刮除同一张印花，刮得次数越多，磨损程度越大。直到您将其完全从武器上刮去为止。"
+	"CSGO_crate_signature_pack_rio2022_group_champions_desc" "这个胶囊包含一张由2022年里约热内卢锦标赛中一名冠军选手亲笔签名的普通、闪耀、全息或金色印花。\n\n销售此胶囊的 50% 所得部分款项将用于支持该胶囊的俱乐部。\n\n这张印花可以应用在您所拥有的任何武器上，您也可以刮掉它，使其显得更为老旧。您可以多次刮除同一张印花，刮得次数越多，磨损程度越大。直到您将其完全从武器上刮去为止。"
 
 	"StickerKit_rio2022_signature_fl1t_champion" "FL1T（冠军）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_fl1t_champion" "这张印花由来自 Outsiders 战队的职业选手 Evgenii Lebedev 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛冠军。"
@@ -19087,7 +19160,7 @@
 
 	"StickerKit_rio2022_signature_rez" "REZ | 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_rez" "这张印花由来自 Ninjas in Pyjamas 战队的职业选手 Fredrik Sterner 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
-	"StickerKit_rio2022_signature_rez_glitter" "REZ（闪耀）| 2022年里约��内卢锦标赛"
+	"StickerKit_rio2022_signature_rez_glitter" "REZ（闪耀）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_rez_glitter" "这张闪耀印花由来自 Ninjas in Pyjamas 战队的职业选手 Fredrik Sterner 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_rez_holo" "REZ（全息）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_rez_holo" "这张全息印花由来自 Ninjas in Pyjamas 战队的职业选手 Fredrik Sterner 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
@@ -19166,7 +19239,7 @@
 	"StickerKit_rio2022_signature_yekindar_gold" "YEKINDAR（金色）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_yekindar_gold" "这张金色印花由来自 Team Liquid 战队的职业选手 Mareks Galinskis 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 
-	"StickerKit_rio2022_signature_osee" "oSee | 2022年里约热内卢锦标赛"
+	"StickerKit_rio2022_signature_osee" "oSee | 2022年里约热内卢��标赛"
 	"StickerKit_desc_rio2022_signature_osee" "这张印花由来自 Team Liquid 战队的职业选手 Josh Ohm 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_osee_glitter" "oSee（闪耀）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_osee_glitter" "这张闪耀印花由来自 Team Liquid 战队的职业选手 Josh Ohm 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
@@ -19212,7 +19285,7 @@
 	"StickerKit_desc_rio2022_signature_chopper_gold" "这张金色印花由来自 Team Spirit 战队的职业选手 Leonid Vishnyakov 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 
 	"StickerKit_rio2022_signature_magixx" "magixx | 2022年里约热内卢锦标赛"
-	"StickerKit_desc_rio2022_signature_magixx" "这张印花由来自 Team Spirit 战队的���业选手 Borislav Vorobev 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
+	"StickerKit_desc_rio2022_signature_magixx" "这张印花由来自 Team Spirit 战队的职业选手 Borislav Vorobev 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_magixx_glitter" "magixx（闪耀）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_magixx_glitter" "这张闪耀印花由来自 Team Spirit 战队的职业选手 Borislav Vorobev 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_magixx_holo" "magixx（全息）| 2022年里约热内卢锦标赛"
@@ -19292,7 +19365,7 @@
 	"StickerKit_rio2022_signature_buda_gold" "BUDA（金色）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_buda_gold" "这张金色印花由来自 9z Team 战队的职业选手 Nicolás Kramer 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 
-	"StickerKit_rio2022_signature_gxx" "gxx- | 2022年里约热内卢锦标赛"
+	"StickerKit_rio2022_signature_gxx" "gxx- | 2022���里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_gxx" "这张印花由来自 Bad News Eagles 战队的职业选手 Genc Kolgeci 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_gxx_glitter" "gxx-（闪耀）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_gxx_glitter" "这张闪耀印花由来自 Bad News Eagles 战队的职业选手 Genc Kolgeci 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
@@ -19335,7 +19408,7 @@
 	"StickerKit_rio2022_signature_sinnopsyy_holo" "sinnopsyy（全息） | 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_sinnopsyy_holo" "这张全息印花由来自 Bad News Eagles 战队的职业选手 Dionis Budeci 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_sinnopsyy_gold" "sinnopsyy（金色） | 2022年里约热内卢锦标赛"
-	"StickerKit_desc_rio2022_signature_sinnopsyy_gold" "这张金色印花由来自 Bad News Eagles 战队的职业选手 Dionis Budeci 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手��"
+	"StickerKit_desc_rio2022_signature_sinnopsyy_gold" "这张金色印花由来自 Bad News Eagles 战队的职业选手 Dionis Budeci 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 
 	"StickerKit_rio2022_signature_faven" "faveN | 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_faven" "这张印花由来自 BIG 战队的职业选手 Josef Baumann 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
@@ -19419,7 +19492,7 @@
 	"StickerKit_desc_rio2022_signature_interz_gold" "这张金色印花由来自 Cloud9 战队的职业选手 Iakushin Timofei 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 
 	"StickerKit_rio2022_signature_hobbit" "Hobbit | 2022年里约热内卢锦标赛"
-	"StickerKit_desc_rio2022_signature_hobbit" "这张印花由来自 Cloud9 战队的职业选手 Abay Khassenov 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
+	"StickerKit_desc_rio2022_signature_hobbit" "这张印花由来��� Cloud9 战队的职业选手 Abay Khassenov 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_hobbit_glitter" "Hobbit（闪耀）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_hobbit_glitter" "这张闪耀印花由来自 Cloud9 战队的职业选手 Abay Khassenov 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_hobbit_holo" "Hobbit（全息）| 2022年里约热内卢锦标赛"
@@ -19673,7 +19746,7 @@
 	"StickerKit_rio2022_signature_fashr" "FASHR | 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_fashr" "这张印花由来自 Fnatic 战队的职业选手 Dion Derksen 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_fashr_glitter" "FASHR（闪耀）| 2022年里约热内卢锦标赛"
-	"StickerKit_desc_rio2022_signature_fashr_glitter" "这张闪耀印花由来自 Fnatic 战队的职业选手 Dion Derksen 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
+	"StickerKit_desc_rio2022_signature_fashr_glitter" "这张闪耀印花由来自 Fnatic ��队的职业选手 Dion Derksen 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_fashr_holo" "FASHR（全息）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_fashr_holo" "这张全息印花由来自 Fnatic 战队的职业选手 Dion Derksen 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_fashr_gold" "FASHR（金色）| 2022年里约热内卢锦标赛"
@@ -19719,7 +19792,7 @@
 	"StickerKit_desc_rio2022_signature_drop" "这张印花由来自 FURIA 战队的职业选手 André Wagner de Abreu 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_drop_glitter" "drop（闪耀）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_drop_glitter" "这张闪耀印花由来自 FURIA 战队的职业选手 André Wagner de Abreu 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
-	"StickerKit_rio2022_signature_drop_holo" "drop（全��）| 2022年里约热内卢锦标赛"
+	"StickerKit_rio2022_signature_drop_holo" "drop（全息）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_drop_holo" "这张全息印花由来自 FURIA 战队的职业选手 André Wagner de Abreu 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_drop_gold" "drop（金色）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_drop_gold" "这张金色印花由来自 FURIA 战队的职业选手 André Wagner de Abreu 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
@@ -19801,7 +19874,7 @@
 	"StickerKit_rio2022_signature_vexite_glitter" "vexite（闪耀）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_vexite_glitter" "这张闪耀印花由来自 Grayhound Gaming 战队的职业选手 Declan Portelli 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_vexite_holo" "vexite（全息）| 2022年里约热内卢锦标赛"
-	"StickerKit_desc_rio2022_signature_vexite_holo" "这张全息印花由来自 Grayhound Gaming 战队的职业选手 Declan Portelli 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
+	"StickerKit_desc_rio2022_signature_vexite_holo" "这张全息印��由来自 Grayhound Gaming 战队的职业选手 Declan Portelli 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 	"StickerKit_rio2022_signature_vexite_gold" "vexite（金色）| 2022年里约热内卢锦标赛"
 	"StickerKit_desc_rio2022_signature_vexite_gold" "这张金色印花由来自 Grayhound Gaming 战队的职业选手 Declan Portelli 亲笔签名，他是此次2022年 IEM 里约热内卢锦标赛选手。"
 
@@ -19973,7 +20046,7 @@
 	"CSGO_crate_rio2022_promo_de_dust2"		"2022年里约热内卢锦标赛炙热沙城 II 纪念包"
 	"CSGO_crate_rio2022_promo_de_overpass"		"2022年里约热内卢锦标赛死亡游乐园纪念包"
 	"CSGO_crate_rio2022_promo_de_ancient"		"2022年里约热内卢锦标赛远古遗迹纪念包"
-	"CSGO_crate_rio2022_promo_de_nuke"		"2022年里约热内卢锦标���核子危机纪念包"
+	"CSGO_crate_rio2022_promo_de_nuke"		"2022年里约热内卢锦标赛核子危机纪念包"
 	"CSGO_crate_rio2022_promo_de_vertigo"		"2022年里约热内卢锦标赛殒命大厦纪念包"
 
 	"CSGO_CollectibleCoin_rio2022_Champion"				"2022年 IEM 里约热内卢锦标赛冠军"
@@ -20159,7 +20232,7 @@
 	"CSGO_crate_signature_pack_paris2023_group_champions"     "2023年巴黎锦标赛冠军亲笔签名胶囊"
 	"CSGO_crate_signature_pack_paris2023_group_champions_tinyname" "冠军亲笔签名"
 	"CSGO_crate_signature_pack_paris2023_group_champions_desc" "这个胶囊包含一张由2023年巴黎锦标赛中一名冠军选手亲笔签名的普通、闪耀、全息或金色印花。\n\n销售此胶囊的 50% 所得部分款项将用于支持该胶囊的俱乐部。\n\n这张印花可以应用在您所拥有的任何武器上，您也可以刮掉它，使其显得更为老旧。您可以多次刮除同一张印花，刮得次数越多，磨损程度越大。直到您将其完全从武器上刮去为止。"
-	
+
 	"StickerKit_paris2023_signature_apex_champion" "apEX（冠军）| 2023年巴黎锦标赛"
 	"StickerKit_desc_paris2023_signature_apex_champion" "这张印花由来自 Vitality 战队的职业选手 Dan Madesclaire 亲笔签名，他是此次2023年 BLAST.tv 巴黎锦标赛冠军选手。"
 	"StickerKit_paris2023_signature_apex_glitter_champion" "apEX（闪耀，冠军）| 2023年巴黎锦标赛"
@@ -20915,7 +20988,7 @@
 	"StickerKit_paris2023_signature_sdy_holo" "sdy（全息）| 2023年巴黎锦标赛"
 	"StickerKit_desc_paris2023_signature_sdy_holo" "这张全息印花由来自 Monte 战队的职业选手 Viktor Orudzhev 亲笔签名，他是此次2023年 BLAST.tv 巴黎锦标赛选手。"
 	"StickerKit_paris2023_signature_sdy_gold" "sdy（金色）| 2023年巴黎锦标赛"
-	"StickerKit_desc_paris2023_signature_sdy_gold" "这张金色印花由来自 Monte 战队的职业选手 Viktor Orudzhev 亲笔签���，他是此次2023年 BLAST.tv 巴黎锦标赛选手。"
+	"StickerKit_desc_paris2023_signature_sdy_gold" "这张金色印花由来自 Monte 战队的职业选手 Viktor Orudzhev 亲笔签名，他是此次2023年 BLAST.tv 巴黎锦标赛选手。"
 
 	"StickerKit_paris2023_signature_woro2k" "Woro2k | 2023年巴黎锦标赛"
 	"StickerKit_desc_paris2023_signature_woro2k" "这张印花由来自 Monte 战队的职业选手 Volodymyr Veletniuk 亲笔签名，他是此次2023年 BLAST.tv 巴黎锦标赛选手。"
@@ -21260,12 +21333,12 @@
 	"StickerKit_desc_paris2023_signature_bart4k_gold" "这张金色印花由来自 The MongolZ 战队的职业选手 Baatarkhuu Batbold 亲笔签名，他是此次2023年 BLAST.tv 巴黎锦标赛选手。"
 
 	"StickerKit_paris2023_signature_blitz" "bLitz | 2023年巴黎锦标赛"
-	"StickerKit_desc_paris2023_signature_blitz" "这张印花由来自 The MongolZ 战队的职业选手 Garidmagnai Byambasuren 亲笔签名，他是此次2023年 BLAST.tv 巴黎锦标赛选手。"
+	"StickerKit_desc_paris2023_signature_blitz" "这张印��由来自 The MongolZ 战队的职业选手 Garidmagnai Byambasuren 亲笔签名，他是此次2023年 BLAST.tv 巴黎锦标赛选手。"
 	"StickerKit_paris2023_signature_blitz_glitter" "bLitz（闪耀）| 2023年巴黎锦标赛"
 	"StickerKit_desc_paris2023_signature_blitz_glitter" "这张闪耀印花由来自 The MongolZ 战队的职业选手 Garidmagnai Byambasuren 亲笔签名，他是此次2023年 BLAST.tv 巴黎锦标赛选手。"
 	"StickerKit_paris2023_signature_blitz_holo" "bLitz（全息）| 2023年巴黎锦标赛"
 	"StickerKit_desc_paris2023_signature_blitz_holo" "这张全息印花由来自 The MongolZ 战队的职业选手 Garidmagnai Byambasuren 亲笔签名，他是此次2023年 BLAST.tv 巴黎锦标赛选手。"
-	"StickerKit_paris2023_signature_blitz_gold" "bLitz（金色）| 2023年巴���锦标赛"
+	"StickerKit_paris2023_signature_blitz_gold" "bLitz（金色）| 2023年巴黎锦标赛"
 	"StickerKit_desc_paris2023_signature_blitz_gold" "这张金色印花由来自 The MongolZ 战队的职业选手 Garidmagnai Byambasuren 亲笔签名，他是此次2023年 BLAST.tv 巴黎锦标赛选手。"
 
 	"StickerKit_paris2023_signature_sk0r" "sk0R | 2023年巴黎锦标赛"
@@ -21438,7 +21511,7 @@
 	"StickerKit_cph2024_team_lynn_glitter" "Lynn Vision（闪耀）| 2024年哥本哈根锦标赛"
 	"StickerKit_cph2024_team_lynn_holo" "Lynn Vision（全息）| 2024年哥本哈根锦标赛"
 	"StickerKit_cph2024_team_lynn_gold" "Lynn Vision（金色）| 2024年哥本哈根锦标赛"
-	"StickerKit_cph2024_team_pgl" "PGL | 2024年哥本哈根锦���赛"
+	"StickerKit_cph2024_team_pgl" "PGL | 2024年哥本哈根锦标赛"
 	"StickerKit_cph2024_team_pgl_glitter" "PGL（闪耀）| 2024年哥本哈根锦标赛"
 	"StickerKit_cph2024_team_pgl_holo" "PGL（全息）| 2024年哥本哈根锦标赛"
 	"StickerKit_cph2024_team_pgl_gold" "PGL（金色）| 2024年哥本哈根锦标赛"
@@ -21476,6 +21549,51 @@
 	"CSGO_crate_signature_pack_cph2024_group_champions"     "2024年哥本哈根锦标赛冠军亲笔签名胶囊"
 	"CSGO_crate_signature_pack_cph2024_group_champions_tinyname" "冠军亲笔签名"
 	"CSGO_crate_signature_pack_cph2024_group_champions_desc" "这个胶囊包含一张由2024年哥本哈根锦标赛中一名冠军选手亲笔签名的普通、闪耀、全息或金色印花。\n\n销售此胶囊的 50% 所得部分款项将用于支持该胶囊的选手和俱乐部。\n\n这张印花可以应用在您所拥有的任何武器上，您也可以刮掉它，使其显得更为老旧。您可以多次刮除同一张印花，刮得次数越多，磨损程度越大，直到您将其完全从武器上刮去为止。"
+
+	"StickerKit_cph2024_signature_jl_champion" "jL（冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_jl_champion" "这张印花由来自 Natus Vincere 战队的职业选手 Justinas Lekavicius 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_jl_glitter_champion" "jL（闪耀，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_jl_glitter_champion" "这张闪耀印花由来自 Natus Vincere 战队的职业选手 Justinas Lekavicius 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_jl_holo_champion" "jL（全息，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_jl_holo_champion" "这张全息印花由来自 Natus Vincere 战队的职业选手 Justinas Lekavicius 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_jl_gold_champion" "jL（金色，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_jl_gold_champion" "这张金色印花由来自 Natus Vincere 战队的职业选手 Justinas Lekavicius 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+
+	"StickerKit_cph2024_signature_aleksib_champion" "Aleksib（冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_aleksib_champion" "这张印花由来自 Natus Vincere 战队的职业选手 Aleksi Virolainen 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_aleksib_glitter_champion" "Aleksib（闪耀，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_aleksib_glitter_champion" "这张闪耀印花由来自 Natus Vincere 战队的职业选手 Aleksi Virolainen 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_aleksib_holo_champion" "Aleksib（全息，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_aleksib_holo_champion" "这张全息印花由来自 Natus Vincere 战队的职业选手 Aleksi Virolainen 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_aleksib_gold_champion" "Aleksib（金色，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_aleksib_gold_champion" "这张金色印花由来自 Natus Vincere 战队的职业选手 Aleksi Virolainen 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+
+	"StickerKit_cph2024_signature_b1t_champion" "b1t（冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_b1t_champion" "这张印花由来自 Natus Vincere 战队的职业选手 Valerii Vakhovskyi 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_b1t_glitter_champion" "b1t（闪耀，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_b1t_glitter_champion" "这张闪耀印花由来自 Natus Vincere 战队的职业选手 Valerii Vakhovskyi 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_b1t_holo_champion" "b1t（全息，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_b1t_holo_champion" "这张全息印花由来自 Natus Vincere 战队的职业选手 Valerii Vakhovskyi 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_b1t_gold_champion" "b1t（金色，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_b1t_gold_champion" "这张金色印花由来自 Natus Vincere 战队的职业选手 Valerii Vakhovskyi 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+
+	"StickerKit_cph2024_signature_im_champion" "iM（冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_im_champion" "这张印花由来自 Natus Vincere 战队的职业选手 Mihai Ivan 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_im_glitter_champion" "iM（闪耀，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_im_glitter_champion" "这张闪耀印花由来自 Natus Vincere 战队的职业选手 Mihai Ivan 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_im_holo_champion" "iM（全息，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_im_holo_champion" "这张全息印花由来自 Natus Vincere 战队的职业选手 Mihai Ivan 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_im_gold_champion" "iM（金色，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_im_gold_champion" "这张金色印花由来自 Natus Vincere 战队的职业选手 Mihai Ivan 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+
+	"StickerKit_cph2024_signature_w0nderful_champion" "w0nderful（冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_w0nderful_champion" "这张印花由来自 Natus Vincere 战队的职业选手 Ihor Zhdanov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_w0nderful_glitter_champion" "w0nderful（闪耀，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_w0nderful_glitter_champion" "这张闪耀印花由来自 Natus Vincere 战队的职业选手 Ihor Zhdanov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_w0nderful_holo_champion" "w0nderful（全息，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_w0nderful_holo_champion" "这张全息印花由来自 Natus Vincere 战队的职业选手 Ihor Zhdanov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
+	"StickerKit_cph2024_signature_w0nderful_gold_champion" "w0nderful（金色，冠军）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_w0nderful_gold_champion" "这张金色印花由来自 Natus Vincere 战队的职业选手 Ihor Zhdanov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛的冠军。"
 
 
 	"StickerKit_cph2024_signature_jl" "jL | 2024年哥本哈根锦标赛"
@@ -21516,7 +21634,7 @@
 
 	"StickerKit_cph2024_signature_w0nderful" "w0nderful | 2024年哥本哈根锦标赛"
 	"StickerKit_desc_cph2024_signature_w0nderful" "这张印花由来自 Natus Vincere 战队的职业选手 Ihor Zhdanov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_w0nderful_glitter" "w0nderly（闪耀）| 2024年哥本哈根锦标赛"
+	"StickerKit_cph2024_signature_w0nderful_glitter" "w0nderful（闪耀）| 2024年哥本哈根锦标赛"
 	"StickerKit_desc_cph2024_signature_w0nderful_glitter" "这张闪耀印花由来自 Natus Vincere 战队的职业选手 Ihor Zhdanov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 	"StickerKit_cph2024_signature_w0nderful_holo" "w0nderful（全息）| 2024年哥本哈根锦标赛"
 	"StickerKit_desc_cph2024_signature_w0nderful_holo" "这张全息印花由来自 Natus Vincere 战队的职业选手 Ihor Zhdanov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
@@ -21560,7 +21678,7 @@
 	"StickerKit_desc_cph2024_signature_mir_gold" "这张金色印花由来自 Virtus.Pro 战队的职业选手 Nikolai Bitiukov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 
 	"StickerKit_cph2024_signature_n0rb3r7" "n0rb3r7 | 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_n0rb3r7" "这张印花由��自 Virtus.Pro 战队的职业选手 David Danielyan 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_desc_cph2024_signature_n0rb3r7" "这张印花由来自 Virtus.Pro 战队的职业选手 David Danielyan 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 	"StickerKit_cph2024_signature_n0rb3r7_glitter" "n0rb3r7（闪耀）| 2024年哥本哈根锦标赛"
 	"StickerKit_desc_cph2024_signature_n0rb3r7_glitter" "这张闪耀印花由来自 Virtus.Pro 战队的职业选手 David Danielyan 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 	"StickerKit_cph2024_signature_n0rb3r7_holo" "n0rb3r7（全息）| 2024年哥本哈根锦标赛"
@@ -21814,7 +21932,7 @@
 	"StickerKit_cph2024_signature_floppy" "floppy | 2024年哥本哈根锦标赛"
 	"StickerKit_desc_cph2024_signature_floppy" "这张印花由来自 Complexity Gaming 战队的职业选手 Ricky Kemery 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 	"StickerKit_cph2024_signature_floppy_glitter" "floppy（闪耀）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_floppy_glitter" "这张闪耀印��由来自 Complexity Gaming 战队的职业选手 Ricky Kemery 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_desc_cph2024_signature_floppy_glitter" "这张闪耀印花由来自 Complexity Gaming 战队的职业选手 Ricky Kemery 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 	"StickerKit_cph2024_signature_floppy_holo" "floppy（全息）| 2024年哥本哈根锦标赛"
 	"StickerKit_desc_cph2024_signature_floppy_holo" "这张全息印花由来自 Complexity Gaming 战队的职业选手 Ricky Kemery 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 	"StickerKit_cph2024_signature_floppy_gold" "floppy（金色）| 2024年哥本哈根锦标赛"
@@ -22069,7 +22187,7 @@
 	"StickerKit_desc_cph2024_signature_nawwk_glitter" "这张闪耀印花由来自 Apeks 战队的职业选手 Tim Carl Jonasson 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 	"StickerKit_cph2024_signature_nawwk_holo" "nawwk（全息）| 2024年哥本哈根锦标赛"
 	"StickerKit_desc_cph2024_signature_nawwk_holo" "这张全息印花由来自 Apeks 战队的职业选手 Tim Carl Jonasson 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_nawwk_gold" "nawwk���金色）| 2024年哥本哈根锦标赛"
+	"StickerKit_cph2024_signature_nawwk_gold" "nawwk（金色）| 2024年哥本哈根锦标赛"
 	"StickerKit_desc_cph2024_signature_nawwk_gold" "这张金色印花由来自 Apeks 战队的职业选手 Tim Carl Jonasson 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 
 	"StickerKit_cph2024_signature_cacanito" "CacaNito | 2024年哥本哈根锦标赛"
@@ -22108,50 +22226,50 @@
 	"StickerKit_cph2024_signature_styko_gold" "STYKO（金色）| 2024年哥本哈根锦标赛"
 	"StickerKit_desc_cph2024_signature_styko_gold" "这张金色印花由来自 Apeks 战队的职业选手 Martin Styk 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 
-	"StickerKit_cph2024_signature_clax" "clax | 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_clax" "这张印花由来自 9Pandas 战队的职业选手 Timur Sabirov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_clax_glitter" "clax（闪耀）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_clax_glitter" "这张闪耀印花由来自 9Pandas 战队的职业选手 Timur Sabirov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_clax_holo" "clax（全息）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_clax_holo" "这张全息印花由来自 9Pandas 战队的职业选手 Timur Sabirov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_clax_gold" "clax（金色）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_clax_gold" "这张金色印花由来自 9Pandas 战队的职业选手 Timur Sabirov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_acor" "acoR | 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_acor" "这张印花由来自 GamerLegion 战队的职业选手 Frederik Gyldstrand 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_acor_glitter" "acoR（闪耀）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_acor_glitter" "这张闪耀印花由来自 GamerLegion 战队的职业选手 Frederik Gyldstrand 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_acor_holo" "acoR（全息）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_acor_holo" "这张全息印花由来自 GamerLegion 战队的职业选手 Frederik Gyldstrand 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_acor_gold" "acoR（金色）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_acor_gold" "这张金色印花由来自 GamerLegion 战队的职业选手 Frederik Gyldstrand 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 
-	"StickerKit_cph2024_signature_d1ledez" "d1Ledez | 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_d1ledez" "这张印花由来自 9Pandas 战队的职业选手 Daniil Kustov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_d1ledez_glitter" "d1Ledez（闪耀）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_d1ledez_glitter" "这张闪耀印花由来自 9Pandas 战队的职业选手 Daniil Kustov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_d1ledez_holo" "d1Ledez（全息）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_d1ledez_holo" "这张全息印花由来自 9Pandas 战队的职业选手 Daniil Kustov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_d1ledez_gold" "d1Ledez（金色）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_d1ledez_gold" "这张金色印花由来自 9Pandas 战队的职业选手 Daniil Kustov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_isak" "isak | 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_isak" "这张印花由来自 GamerLegion 战队的职业选手 Isak Fahlén 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_isak_glitter" "isak（闪耀）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_isak_glitter" "这张闪耀印花由来自 GamerLegion 战队的职业选手 Isak Fahlén 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_isak_holo" "isak（全息）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_isak_holo" "这张全息印花由来自 GamerLegion 战队的职业选手 Isak Fahlén 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_isak_gold" "isak（金色）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_isak_gold" "这张金色印花由来自 GamerLegion 战队的职业选手 Isak Fahlén 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 
-	"StickerKit_cph2024_signature_glowiing" "glowiing | 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_glowiing" "这张印花由来自 9Pandas 战队的职业选手 Aleksandr Matsievich 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_glowiing_glitter" "glowiing（闪耀）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_glowiing_glitter" "这张闪耀印花由来自 9Pandas 战队的职业选手 Aleksandr Matsievich 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_glowiing_holo" "glowiing（全息）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_glowiing_holo" "这张全息印花由来自 9Pandas 战队的职业选手 Aleksandr Matsievich 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_glowiing_gold" "glowiing（金色）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_glowiing_gold" "这张金色印花由来自 9Pandas 战队的职业选手 Aleksandr Matsievich 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_keoz" "Keoz | 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_keoz" "这张印花由来自 GamerLegion 战队的职业选手 Nicolas Dgus 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_keoz_glitter" "Keoz（闪耀）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_keoz_glitter" "这张闪耀印花由来自 GamerLegion 战队的职业选手 Nicolas Dgus 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_keoz_holo" "Keoz（全息）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_keoz_holo" "这张全息印花由来自 GamerLegion 战队的职业选手 Nicolas Dgus 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_keoz_gold" "Keoz（金色）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_keoz_gold" "这张金色印花由来自 GamerLegion 战队的职业选手 Nicolas Dgus 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 
-	"StickerKit_cph2024_signature_idisbalance" "iDISBALANCE | 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_idisbalance" "这张印花由来自 9Pandas 战队的职业选手 Artem Egorov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_idisbalance_glitter" "iDISBALANCE（闪耀）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_idisbalance_glitter" "这张闪耀印花由来自 9Pandas 战队的职业选手 Artem Egorov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_idisbalance_holo" "iDISBALANCE（全息）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_idisbalance_holo" "这张全息印花由来自 9Pandas 战队的职业选手 Artem Egorov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_idisbalance_gold" "iDISBALANCE（金色）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_idisbalance_gold" "这张金色印花由来自 9Pandas 战队的职业选手 Artem Egorov 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_snax" "Snax | 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_snax" "这张印花由来自 GamerLegion 战队的职业选手 Janusz Pogorzelski 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_snax_glitter" "Snax（闪耀）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_snax_glitter" "这张闪耀印花由来自 GamerLegion 战队的职业选手 Janusz Pogorzelski 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_snax_holo" "Snax（全息）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_snax_holo" "这张全息印花由来自 GamerLegion 战队的职业选手 Janusz Pogorzelski 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_snax_gold" "Snax（金色）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_snax_gold" "这张金色印花由来自 GamerLegion 战队的职业选手 Janusz Pogorzelski 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 
-	"StickerKit_cph2024_signature_seized" "seized | 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_seized" "这张印花由来自 9Pandas 战队的职业选手 Denis Kosti 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_seized_glitter" "seized（闪耀）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_seized_glitter" "这张闪耀印花由来自 9Pandas 战队的职业选手 Denis Kosti 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_seized_holo" "seized（全息）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_seized_holo" "这张全息印花由来自 9Pandas 战队的职业选手 Denis Kosti 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
-	"StickerKit_cph2024_signature_seized_gold" "seized（金色）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_seized_gold" "这张金色印花由来自 9Pandas 战队的职业选手 Denis Kosti 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_volt" "volt | 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_volt" "这张印花由来自 GamerLegion 战队的职业选手 Sebastian Constantin Malos 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_volt_glitter" "volt（闪耀）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_volt_glitter" "这张闪耀印花由来自 GamerLegion 战队的职业选手 Sebastian Constantin Malos 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_volt_holo" "volt（全息）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_volt_holo" "这张全息印花由来自 GamerLegion 战队的职业选手 Sebastian Constantin Malos 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_cph2024_signature_volt_gold" "volt（金色）| 2024年哥本哈根锦标赛"
+	"StickerKit_desc_cph2024_signature_volt_gold" "这张金色印花由来自 GamerLegion 战队的职业选手 Sebastian Constantin Malos 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 
 	"StickerKit_cph2024_signature_arrozdoce" "arrozdoce | 2024年哥本哈根锦标赛"
 	"StickerKit_desc_cph2024_signature_arrozdoce" "这张印花由来自 SAW 战队的职业选手 Rafael Wing 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
@@ -22196,7 +22314,7 @@
 	"StickerKit_cph2024_signature_story_holo" "story（全息）| 2024年哥本哈根锦标赛"
 	"StickerKit_desc_cph2024_signature_story_holo" "这张全息印花由来自 SAW 战队的职业选手 João Vieira 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 	"StickerKit_cph2024_signature_story_gold" "story（金色）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_story_gold" "这张金色印花由来自 SAW 战队的职业选手 João Vieira 亲笔签名，他是此次2024年 PGL 哥本哈�� CS 锦标赛选手。"
+	"StickerKit_desc_cph2024_signature_story_gold" "这张金色印花由来自 SAW 战队的职业选手 João Vieira 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 
 	"StickerKit_cph2024_signature_biguzera" "biguzera | 2024年哥本哈根锦标赛"
 	"StickerKit_desc_cph2024_signature_biguzera" "这张印花由来自 paiN Gaming 战队的职业选手 Rodrigo Bittencourt 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
@@ -22266,7 +22384,7 @@
 	"StickerKit_cph2024_signature_hen1_glitter" "HEN1（闪耀）| 2024年哥本哈根锦标赛"
 	"StickerKit_desc_cph2024_signature_hen1_glitter" "这张闪耀印花由来自 Imperial Esports 战队的职业选手 Henrique Teles Ferreira da Fonseca 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 	"StickerKit_cph2024_signature_hen1_holo" "HEN1（全息）| 2024年哥本哈根锦标赛"
-	"StickerKit_desc_cph2024_signature_hen1_holo" "这张全息印花由来自 Imperial Esports 战队的职业选手 Henrique Teles Ferreira da Fonseca 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
+	"StickerKit_desc_cph2024_signature_hen1_holo" "这张全息印花由来自 Imperial Esports 战队的职业选手 Henrique Teles Ferreira da Fonseca 亲笔签名��他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 	"StickerKit_cph2024_signature_hen1_gold" "HEN1（金色）| 2024年哥本哈根锦标赛"
 	"StickerKit_desc_cph2024_signature_hen1_gold" "这张金色印花由来自 Imperial Esports 战队的职业选手 Henrique Teles Ferreira da Fonseca 亲笔签名，他是此次2024年 PGL 哥本哈根 CS 锦标赛选手。"
 
@@ -22581,7 +22699,7 @@
 		"CSGO_SupportGameAuthKey_Type_22"		"2024年哥本哈根锦标赛竞猜挑战管理"
 		"CSGO_SupportGameAuthKey_Desc_22"		"第三方网站和应用程序可以使用此身份验证代码访问您的2024年哥本哈根锦标赛竞猜挑战，并帮助您在2024年 PGL 哥本哈根 CS 锦标赛期间进行预测。"
 		"CSGO_Tournament_Event_Name_22"			"2024年 PGL 哥本哈根 CS 锦标赛"
-		"CSGO_Tournament_Event_NameShort_22"	"关于2024年 PGL 哥本哈根"
+		"CSGO_Tournament_Event_NameShort_22"	"2024年 PGL 哥本哈根"
 		"CSGO_Tournament_Event_Location_22"		"2024年哥本哈根"
 		"store_nav_tournament_22"	"2024年哥本哈根"
 		"CSGO_Watch_Cat_Tournament_22"      "2024年哥本哈根"
@@ -22764,7 +22882,7 @@
 		"StickerKit_comm2018_01_devouring_flame_holo"						"火焰吞噬（全息）"
 		"StickerKit_comm2018_01_friendly_fire_holo"							"萌军伤害（全息）"
 		"StickerKit_comm2018_01_retake_expert_holo"							"拆弹专家（全息）"
-		"StickerKit_comm2018_01_small_arms_holo"							"小短手~（全息）"
+		"StickerKit_comm2018_01_small_arms_holo"							"小短手~（���息）"
 		"StickerKit_comm2018_01_bullet_rain_normal"							"弹雨（闪亮）"
 		"StickerKit_comm2018_01_camper_normal"								"露营（闪亮）"
 		//Skill Group Sticker Capsule
@@ -23359,7 +23477,7 @@
 		"PatchKit_desc_patch_hlalyx_headcrab_green" "《半衰期：爱莉克斯》布章包"
 		"PatchKit_patch_hlalyx_vort"                "弗地岗人"
 		"PatchKit_desc_patch_hlalyx_vort"           "《半衰期：爱莉克斯》布章包"
-		"PatchKit_patch_hlalyx_headcrab_teal"       "猎头��符文"
+		"PatchKit_patch_hlalyx_headcrab_teal"       "猎头蟹符文"
 		"PatchKit_desc_patch_hlalyx_headcrab_teal"  "《半衰期：爱莉克斯》布章包"
 		"PatchKit_patch_hlalyx_lambda_copper"       "铜质 λ"
 		"PatchKit_desc_patch_hlalyx_lambda_copper"  "《半衰期：爱莉克斯》布章包"
@@ -23535,7 +23653,7 @@
 		"PaintKit_hy_tiger"							"这把武器使用虎纹的花纹进行了涂装。"
 		"PaintKit_hy_tiger_Tag"						"孟加拉猛虎"
 
-		"PaintKit_hy_copperhead"					"这把武器使用铜斑蛇蛇皮图案的花纹进行了涂装。"
+		"PaintKit_hy_copperhead"					"这把武器使用铜斑蛇蛇皮图案���花纹进行了涂装。"
 		"PaintKit_hy_copperhead_Tag"				"铜斑蛇"
 
 		"PaintKit_hy_skulls"						"这把武器使用红调或黑调的骷髅图案的花纹进行了涂装。\n\n<i>一把握在你的手心里的很服帖的送葬利器</i>"
@@ -23790,7 +23908,7 @@
 
 		"PaintKit_so_tornado_bravo"					"这把来自阿里镇的纪念武器的部分零件以飓风的配色方案进行了整体喷漆。\n\n<i>言语像阵风，恶风却杀人</i>"
 
-		"PaintKit_so_sand_bravo"					"这把来自瓜廖尔堡的纪念武器的部分零件以沙丘的配色方案进行了整体喷漆。\n\n<i>疯狂的记者亚历克斯.金凯德在前往马格里布报道先锋大行动后便消失了</i>"
+		"PaintKit_so_sand_bravo"					"这把来自瓜廖尔堡的纪念武器的部分零件以沙丘的配色方案进行了整体喷漆。\n\n<i>疯狂的记者亚历克斯.金凯德在���往马格里布报道先锋大行动后便消失了</i>"
 
 		"PaintKit_so_olive_bravo"					"这把来自死城之谜的纪念武器的部分零件使用橄榄褐色的配色图案，外加数字迷彩（DDPAT）图案的花纹进行了整体喷漆。\n\n<i>永远不要认为胜利是理所当然的</i>"
 
@@ -23898,7 +24016,7 @@
 		"PaintKit_am_oval_hex"						"这把武器使用六边形图案进行了涂装，通过漏字板印上了金属鳞片涂料，然后覆上了椭圆形挖剪花纹。\n\n<i>磨砂！</i>"
 		"PaintKit_am_oval_hex_Tag"					"钢笼"
 		
-		"PaintKit_cu_pinstripe_ak47"				"这把武器附���了沼泽橡树的图案，然后涂上了白色和绿色的条纹。\n\n<i>审问伊莫金就像在审问我自己。现在放松，来点威士忌，然后我们讨论正事 - 《父亲与涅槃（下）》</i>"
+		"PaintKit_cu_pinstripe_ak47"				"这把武器附上了沼泽橡树的图案，然后涂上了白色和绿色的条纹。\n\n<i>审问伊莫金就像在审问我自己。现在放松，来点威士忌，然后我们讨论正事 - 《父亲与涅槃（下）》</i>"
 		"PaintKit_cu_pinstripe_ak47_Tag"			"翡翠细条纹"
 		
 		"PaintKit_sp_nightstripe"					"这把武器以黑夜配色的纸带图案进行了喷漆。\n\n<i>喷绘... 渲染... 上色... 刺杀。</i>"
@@ -24039,7 +24157,7 @@
 			"PaintKit_cu_bizon-osiris"				"这把武器使用底色为黑色、白色和琥珀色的高科技设计图案进行了自定义涂装。"
 
 			"PaintKit_cu_c75a-tiger_tag"			"猛虎"
-			"PaintKit_cu_c75a-tiger"				"这把武器使用光滑涂料，以虎纹的图案进行了自定义涂装。"
+			"PaintKit_cu_c75a-tiger"				"这把武器使用光滑涂料，以���纹的图案进行了自定义涂装。"
 
 			"PaintKit_cu_deagle_aureus_tag"			"阴谋者"
 			"PaintKit_cu_deagle_aureus"				"这把武器使用黑色、金属涂料和淡黄色调进行了涂装。"
@@ -24152,7 +24270,7 @@
 		"PaintKit_cu_luggage_p2000"					"这把武器使用格子呢花纹进行了涂装，枪的部分用棕色皮革包裹。\n\n<i>虽然很普通，但至少发挥了基本的作用</i>"
 		"PaintKit_cu_luggage_p2000_Tag"				"廉价皮革"
 		
-		"PaintKit_aq_pilot_deagle"					"我��武器使用飞行员的机翼图案，以黄铜进行了镶嵌。\n\n<i>做好坠机姿势</i>"
+		"PaintKit_aq_pilot_deagle"					"我把武器使用飞行员的机翼图案，以黄铜进行了镶嵌。\n\n<i>做好坠机姿势</i>"
 		"PaintKit_aq_pilot_deagle_Tag"				"飞行员"
 		
 		"PaintKit_cu_leather_xm1014"				"枪托和握把用红色皮革包裹。\n\n<i>整理好你的背包。让我们干翻那些狗娘养的… -《鬼与女武神（下）》</i>"
@@ -24277,7 +24395,7 @@
 		"PaintKit_cu_glock_deathtoll"							"这把武器以银色为外表，使用骷髅花纹进行了涂装。\n\n<i>恐吓是最真挚的奉承</i>"
 		"PaintKit_cu_glock_deathtoll_Tag"						"亡者之寝"
 		
-		"PaintKit_cu_m4a4_ancestral"							"这把武器使用蓝底红龙图像进行了自定义涂装。\n\n<i>这把武器和美猴王本人十分般配 - 军火商布兹</i>"
+		"PaintKit_cu_m4a4_ancestral"							"这把武器使用蓝底红龙图像进行了自定义涂装。\n\n<i>这��武器和美猴王本人十分般配 - 军火商布兹</i>"
 		"PaintKit_cu_m4a4_ancestral_Tag"						"龙王"
 		
 		"PaintKit_cu_m249_sektor"								"这把武器使用科幻设计进行了自定义涂装。\n\n<i>火力掩护时相当拉风</i>"
@@ -24375,7 +24493,7 @@
 	"PaintKit_hy_hades"											"这把武器使用古希腊头盔的花纹进行了涂装。\n\n<i>如果她有想让我接受一个采访，预约起来大概会有更简单的方法 -《盾牌和说书人（下）》</i>"
 	"PaintKit_hy_hades_Tag"										"哈迪斯"
 	
-	"PaintKit_hy_icarus"										"这把武器使用羽毛上的蜡在太阳图案周围融化的花纹进行了涂装。\n\n<i>特纳的背叛是我的过失…… 我一定会了解这个问题的 - 狙击手塞巴斯蒂安.���尼奎特</i>"
+	"PaintKit_hy_icarus"										"这把武器使用羽毛上的蜡在太阳图案周围融化的花纹进行了涂装。\n\n<i>特纳的背叛是我的过失…… 我一定会了解这个问题的 - 狙击手塞巴斯蒂安.轩尼奎特</i>"
 	"PaintKit_hy_icarus_Tag"									"伊卡洛斯殒落"
 	
 	"PaintKit_cu_labyrinth"										"这把武器使用等距迷宫的花纹进行了涂装。\n\n<i>你无处可逃</i>"
@@ -24714,7 +24832,7 @@
 	"PaintKit_hy_p2000_oceani"										"这件武器以黑色为基调，并使用蓝色图案进行装饰与强调。\n\n<i>有人有小太郎或者卡门的消息吗？ - 指挥官费利克斯.莱利</i>"
 	"PaintKit_hy_p2000_oceani_Tag"									"海洋"
 
-	"PaintKit_cu_p250_asiimov"										"这件武器使用了科幻设计进行了自定义涂装。\n\n<i>要是你觉得我要有步枪才杀得了人，那你简直是太孤陋寡闻了... - 凤凰战士狙击手米哈.比顿</i>"
+	"PaintKit_cu_p250_asiimov"										"这件武器使用了科幻设计进行了自定义涂装。\n\n<i>��是你觉得我要有步枪才杀得了人，那你简直是太孤陋寡闻了... - 凤凰战士狙击手米哈.比顿</i>"
 	"PaintKit_cu_p250_asiimov_Tag"									"二西莫夫"
 
 	"PaintKit_gs_sawedoff_fubar"										"这件霰弹枪历经沧桑，枪管上刻着计数符号。\n\n<i>轰轰烈烈地开始...悄无声息地结束</i>"
@@ -24917,7 +25035,7 @@
 		// SWAT 
 
 		"CSGO_CustomPlayer_ctm_swat_variante"                   "指挥官 梅 “极寒” 贾米森 | 特警"
-        "CSGO_CustomPlayer_ctm_swat_variante_Desc"              "指挥官梅“极寒”贾米森已经看穿了一切。由于她常在重要行动中表现出挖苦和刻薄态度，人们总误以为她是那种无法控制混乱局面的人。但其实他们错了，没有什么可以逃出这位指挥官的法眼，尤其是那些手持AK-47的坏蛋。每当那些年轻下级军官称呼她为“女士”时，她队伍里的精英队员们都会忍俊不禁，这算是高压生活下的一点小乐趣吧。\n\n<i>你们终究会懂我的。</i>"												
+        "CSGO_CustomPlayer_ctm_swat_variante_Desc"              "指挥官梅“极寒”贾米森已经看穿了一切。由于她常在重要行动中表现出挖苦和刻薄态度，人们总误���为她是那种无法控制混乱局面的人。但其实他们错了，没有什么可以逃出这位指挥官的法眼，尤其是那些手持AK-47的坏蛋。每当那些年轻下级军官称呼她为“女士”时，她队伍里的精英队员们都会忍俊不禁，这算是高压生活下的一点小乐趣吧。\n\n<i>你们终究会懂我的。</i>"												
 
 		"CSGO_CustomPlayer_ctm_swat_variantf"                   "第一中尉法洛 | 特警"
         "CSGO_CustomPlayer_ctm_swat_variantf_Desc"              "第一中尉法洛是一个彬彬有礼的小机灵鬼，她是特警队里最受欢迎、最受爱戴的军官之一。法洛被称为障碍排除及解救人质的战术大师，这让她很快在队内得到提拔。不要被她天性开朗的外表所欺骗，她可是拥有能在一瞬间搞定敌人的本领，行动果敢而迅速。\n\n<i>他们在那里搞什么呢？喝奶昔？！</i>"
@@ -24974,7 +25092,7 @@
 		"CSGO_CustomPlayer_tm_phoenix_varianth_Desc"			"一名有能力的射手，他受雇于凤凰网络，协助领土收复战。士兵们在单兵作战时已经及其致命，更比说群起而攻之的时候了。\n\n<i>何时可以射击？</i>"
 
 		"CSGO_CustomPlayer_tm_phoenix_variantf"					"执行者 | 凤凰战士"
-		"CSGO_CustomPlayer_tm_phoenix_variantf_Desc"			"一���受雇于凤凰商号的多面刺客。执行者们不会接下所有任务，而只会接他们感兴趣的任务。\n\n<i>时间就是金钱。</i>"
+		"CSGO_CustomPlayer_tm_phoenix_variantf_Desc"			"一名受雇于凤凰商号的多面刺客。执行者们不会接下所有任务，而只会接他们感兴趣的任务。\n\n<i>时间就是金钱。</i>"
 		
 		"CSGO_CustomPlayer_tm_phoenix_variantg"					"弹弓 | 凤凰战士"
 		"CSGO_CustomPlayer_tm_phoenix_variantg_Desc"			"“弹弓”是凤凰商号部署近距离作战的重要成员。\n\n死死缠绕对手的他，有能力在资源紧缺的情况下对敌人造成毁灭性的打击。在仅靠一把M9刺刀以及敌人武器的情况下，“弹弓”重新夺回凤凰工业基地，由此他获得了这个外号。\n\n<i>只要我还有一口气，就会战斗到底。</i>"
@@ -25054,7 +25172,7 @@
         "CSGO_Customplayer_tm_jungle_raider_variantb2_Desc"   "克拉斯沃特，前海豹突击队员，于1990年在中东服役期间被游击队俘获。海豹突击队第六分队营救失败，随后，美国海军通过各种军事掩盖手段，最终宣布克拉斯沃特死亡。在多年的监禁生活之后，他的爱国情怀以及“不放弃不抛弃”的口号逐渐转变为对任何美国有关事物的仇恨。之后，克拉斯沃特患上了严重的斯德哥尔摩综合征，他选择加入游击队捕兽者行列。在参与了一系列针对西方使馆的以“建立信任”为目的的攻击之后，克拉斯沃特成为了游击队最宝贵的资产——为原本混乱不堪的叛军团伙带来了军事纪律和组织建设。近年来，克拉斯沃特在中美洲各地的秘密基地建立新的游击小队。\n\n<i>我是如此的难以忘记。</i>"
 		
 		"CSGO_Customplayer_tm_jungle_raider_variantc"         "亚诺（野草） | 游击队"
-        "CSGO_Customplayer_tm_jungle_raider_variantc_Desc"    "亚诺（野草），这位备受羞辱的重量级拳击冠军，被住在山洞外的游击队捕猎者们发现。多年来，亚诺已成为生存专家和大型游戏狩猎者——能够仅���借一根燧石棒和一把锋利猎刀在野外无限期的生存下来。关于目击亚诺的谣言传到附近的小镇上，并成功吸引了游击队的注意。游击队希望招安亚诺，利用他完美的狩猎技巧和作战能力为组织服务，虽然游击队多次发现了他的踪迹，却未能成功诱使阿诺离开他的栖息地。最后，游击队只能威胁他不再每月来给他送来新鲜出炉的热奶油馅饼。\n\n<i>击杀你的不是孤独，而是奶油馅饼</i>"
+        "CSGO_Customplayer_tm_jungle_raider_variantc_Desc"    "亚诺（野草），这位备受羞辱的重量级拳击冠军，被住在山洞外的游击队捕猎者们发现。多年来，亚诺已成为生存专家和大型游戏狩猎者——能够仅凭借一根燧石棒和一把锋利猎刀在野外无限期的生存下来。关于目击亚诺的谣言传到附近的小镇上，并成功吸引了游击队的注意。游击队希望招安亚诺，利用他完美的狩猎技巧和作战能力为组织服务，虽然游击队多次发现了他的踪迹，却未能成功诱使阿诺离开他的栖息地。最后，游击队只能威胁他不再每月来给他送来新鲜出炉的热奶油馅饼。\n\n<i>击杀你的不是孤独，而是奶油馅饼</i>"
 		
 		"CSGO_Customplayer_tm_jungle_raider_variantd"         "上校曼戈斯·达比西 | 游击队"
         "CSGO_Customplayer_tm_jungle_raider_variantd_Desc"    "上校曼戈斯·达比西早年在乌干达军营里受训，并得到过晋升。他曾恐吓下属，威胁让他们支付“安睡费”——承诺给钱的人会睡个好觉，不付钱的则有罪受——所以最后，他以非常不光彩的退伍结束了自己的军事生涯。事实证明，能睡个安稳觉的原因是达比西不再故意折腾那些人。尽管如此，他令人敬畏的身材和军事素养使得他成为了游击队中一名非常有人气的“获取专家”。不断地过度使用暴力，并搭配上萝卜配大棒的拉扯方式，达比西成为了游击队中当之无愧的强力者。\n\n<i>砍哪儿，你说吧。</i>"
@@ -25554,7 +25672,7 @@
 	"PaintKit_gs_sg553_phantom"										"这把武器采用了蓝色与灰色的手绘，并用橙色加以点缀。\n\n<i>出于安全技术考量而采买</i>"
 	"PaintKit_gs_sg553_phantom_Tag"									"幻影"
 
-	"PaintKit_gs_cz75_tacticat"										"这把武器采用��粉色与紫色的手绘，并有小型猫科动物的贴花。\n\n<i>索命 24 颗子弹</i>"
+	"PaintKit_gs_cz75_tacticat"										"这把武器采用了粉色与紫色的手绘，并有小型猫科动物的贴花。\n\n<i>索命 24 颗子弹</i>"
 	"PaintKit_gs_cz75_tacticat_Tag"									"战术高手"
 
 	"PaintKit_cu_ump45_x-ray_machine"										"这把武器采用了一系列形象的定绘：X 射线、胸腔，和其他一切。\n\n<i>“请取出口袋内所有的金属物品”</i>"
@@ -26923,6 +27041,7 @@
 	"PaintKit_cu_tec9_freedom_Tag"									"叛逆"
 
 // END COMMUNITY_32
+
 // ANUBIS
 
 	"PaintKit_gs_revolver_acanthus_bronze"							"这把武器采用了类似于茛苕叶雕刻图案和大理石把手进行了自定义涂装。\n\n<i>掌心的财富</i>"
@@ -27150,7 +27269,7 @@
 		"StoreUpdate_NoGCResponse"			"商店目前处于关闭状态。"
 		"StoreUpdate_NewPriceSheetLoaded"	"产品列表已经更新至最新版本。"
 		"StoreUpdate_ContactSupport"		"请联系消费者客服来配置您的 Steam 钱包。"
-		"StoreUpdate_OverlayRequired"		"您需要启用 Steam “社区界面”功能以进行购买。请确认已启用游戏中的 Steam 社区，并重新启动游戏以使用商店。"
+		"StoreUpdate_OverlayRequired"		"您需要启用 Steam “社区叠加界面”功能以进行购买。请确认已启用游戏中的 Steam 社区，并重新启动游戏以使用商店。"
 		"StoreUpdate_SteamRequired"			"使用商店需要连接至 Steam。"
 		"StoreUpdate_PurchaseConfirmation_PW"	"确认购买吗？"
 
@@ -27659,6 +27778,7 @@
 
 		"SFUI_Map_de_boyard"	"博涯堡垒"
 		"SFUI_Map_de_chalice"	"圣杯村庄"
+
 		"SFUI_Map_de_mutiny"		"红帆要塞"
 		"SFUI_Map_de_swamp"			"失落沼泽"
 		"SFUI_Map_de_anubis"		"阿努比斯"
@@ -27688,6 +27808,12 @@
 		"SFUI_Map_de_hive"		"蜂巢研究所"
 		"SFUI_Map_dz_vineyard"	"葡萄庄园"
 		"SFUI_Map_dz_ember"		"余烬岛"
+
+		"SFUI_Map_de_thera"		"假日锡拉"
+		"SFUI_Map_de_mills"		"风情磨坊"
+		"SFUI_Map_de_assembly"		"装配车间"
+		"SFUI_Map_de_memento"		"婚礼会馆"
+		"SFUI_Map_ar_pool_day"		"泳池派对"
 		
 		"SFUI_Map_workshop_preview_dust2"	"炙热沙城 Ⅱ 预览"
 		"SFUI_Map_workshop_preview_ancient"	"远古遗迹预览"
@@ -27792,8 +27918,8 @@
 		"SFUI_Workshop_Online_Title"         "寻找一场游戏"
 		"SFUI_Workshop_Offline_Title"         "与电脑玩家进行离线游戏"
 		"SFUI_Workshop_Game_Mode_Desc"         "游戏模式描述："
-		"SFUI_Workshop_Error_Overlay_Disabled"       "Steam 界面功能已禁用。在您的 Steam 设置中开启界面功能以浏览创意工坊。"
-		"SFUI_Workshop_Error_Overlay_Disabled_Title"       "启用 Steam 界面"
+		"SFUI_Workshop_Error_Overlay_Disabled"       "Steam 叠加界面功能已禁用。在您的 Steam 设置中开启界面功能以浏览创意工坊。"
+		"SFUI_Workshop_Error_Overlay_Disabled_Title"       "启用 Steam 叠加界面"
 		"SFUI_Workshop_Error_NoSteam"           "反恐精英 无法与 Steam 连接。请重启游戏并再试一次。"
 		"SFUI_Workshop_Error_NoSteam_Title"     "无 Steam 连接"
 		"SFUI_Workshop_Downloading"             "正在下载..."
@@ -27873,7 +27999,7 @@
 		
 		//notice - key banners
 		"SFUI_notice_econ_desc_title"			"十类武器收藏品，两个武器箱"
-		"SFUI_notice_econ_desc"					"每个武器箱都包含一个独家收藏品中的涂装武器。��售此钥匙的所得部分款项将用于支持既定的社区举行的CS:GO锦标赛。请持续关注后续公告。"
+		"SFUI_notice_econ_desc"					"每个武器箱都包含一个独家收藏品中的涂装武器。销售此钥匙的所得部分款项将用于支持既定的社区举行的CS:GO锦标赛。请持续关注后续公告。"
 		"SFUI_Store_Disabled_Banner"			"欢迎来到 反恐精英 国服先锋封测"
 		"Store_Wallet_Balance"					"您的余额：%s1"
 		"Store_Wallet_Balance_dv"				"钱包余额： {s:balance}"
@@ -27896,7 +28022,7 @@
 		"SFUI_Blog_Body"			"您可以在这里阅读游戏新闻及更新内容。"
 		"SFUI_Blog_LinkHint"				"欲了解更多信息，请访问"
 		"SFUI_Blog_Link"					"blog.counter-strike.net/zh-hans/"
-		"SFUI_Blog_SteamOverlay_Hint"		"启用 Steam 界面以跟踪链接"
+		"SFUI_Blog_SteamOverlay_Hint"		"启用 Steam 叠加界面以跟踪链接"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Main Menu
@@ -27931,6 +28057,8 @@
 		"SFUI_MainMenu_Vac_Info"			"由于作弊违规，该 Steam 帐户已被安全服务器封禁。"
 		"SFUI_MainMenu_GameBan_Title"		"游戏封禁"
 		"SFUI_MainMenu_GameBan_Info"		"Steam 帐户已被监管系统封禁。"
+		"SFUI_MainMenu_AccountLocked_Title"	"账号已锁定"
+		"SFUI_MainMenu_AccountLocked_Info"	"由于违反了Steam用户协议，您的账户已被锁定。直至账户所有者联系Steam客服之前，您的账户都被限制在安全服务器上进行游戏。"
 		"SFUI_MainMenu_News_Title"			"新闻"
 		"SFUI_MainMenu_News_Title_uppercase"  "新闻"
 		"SFUI_MainMenu_Last_Match"			"上次比赛报告"
@@ -28187,35 +28315,33 @@
 		"PlayMenu_unavailable_newuser_2_nogcconnection"	"无法连接到反恐精英网络。"
 
 
-		"SFUI_Overwatch_Res_Postpone_Label"		"推迟判决"
+		"SFUI_Overwatch_Res_Postpone_Label"		"取消"
 
-		"SFUI_Overwatch_Res_Instructions"		"现在您已获得证据，您的责任是通过以下的每一个分类来弄清真相。请注意，在选择每一个破坏性分类时，您应该<b>假定嫌疑人是清白的</b>。只有当您确信您所目击的行为将被CS:GO社区商定为是极具破坏性的，反竞技性的，以及/或是反社会的行为，<b>符合无可置疑原则</b>时，您才应该选择‘<b>明显符合无可置疑原则</b>’。如果您对自己的决断无法 100% 确定，您应该选择‘<b>证据不足</b>’。\n\n如果您觉得自己无法投入足以做出判决的注意水平，请点击<b>推迟判决</b>。在稍后的时间里，事件将继续为您提供审议。"
+		"SFUI_Overwatch_Res_Instructions"		"您已经审议了证据，请做出判决。"
 
-		"SFUI_Overwatch_Res_Major_Label"	"明显符合无可置疑原则"
-
-		"SFUI_Overwatch_Res_Major_Desc"	"在您审议的证据中，您目击了嫌疑人的行为，将被普遍CS:GO社区商定为是极具破坏性的，反竞技性的，以及/或是反社会的行为。这些行为的案例将包括：使用<font color='#FFFFFF'><b>自瞄作弊、加速作弊、穿墙作弊或是使用其它的外部软件</b></font>修改嫌疑人的游戏结果，或是游戏中的其它操作。"
+		"SFUI_Overwatch_Res_Major_Label"	"有罪并符合无可置疑原则"
 
 		"SFUI_Overwatch_Res_Minor_Label"	"破坏性较小"
 
-		"SFUI_Overwatch_Res_Minor_Desc"		"在您审议的证据中，您并未目击嫌疑人有做出符合严重破坏判决的严重破坏行为，但您所目击的行为将被普遍CS:GO社区商定为是略有破坏性的，反竞技性的，以及/或是反社会的行为。这些行为的案例将包括：<b><font color='#FFFFFF'><b>故意干扰队友，试图恶意伤害队友或被队友伤害。</b></font>"
-
 		"SFUI_Overwatch_Res_NotGuilty_Label"	"证据不足"
-
-		"SFUI_Overwatch_Res_NotGuilty_Desc"		"在您审议的证据中，您并未目击嫌疑人有做出任何符合上述所列出的，被归类为具有破坏性之任一定义的行为，或是因<font color='#FFFFFF'><b>证据不足，无法确定您所目击的是否为符合无可置疑原则的破坏性行为。</b></font>"
 
 		"SFUI_Overwatch_Res_Griefing"				"次要破坏行为：骚扰"
 		"SFUI_Overwatch_Res_AimHacking"				"严重破坏行为：瞄准辅助"
 		"SFUI_Overwatch_Res_WallHacking"			"严重破坏行为：视野辅助"
 		"SFUI_Overwatch_Res_SpeedHacking"			"严重破坏行为：其他外部软件辅助"
-		"SFUI_Overwatch_Res_Griefing_Desc"		"您审议的证据将被CS:GO社区的任意合理成员判决，证据充分表明嫌疑人<font color='#FFFFFF'><b>所表现出的行为是具有破坏性的，反竞技性的，以及/或是反社会的行为</b></font>，如：故意干扰队友，试图恶意伤害队友或被队友伤害，在比赛中挂机，或是故意输掉比赛。"
-		"SFUI_Overwatch_Res_AimHacking_Desc"		"您审议的证据将被CS:GO社区的任意合理成员判决，证据充分表明嫌疑人<font color='#FFFFFF'><b>使用了外部软件来改善他的瞄准</b></font>，如：自动瞄准、减少或消除后坐力等。"
-		"SFUI_Overwatch_Res_WallHacking_Desc"		"您审议的证据将被CS:GO社区的任意合理成员判决，证据充分表明嫌疑人<font color='#FFFFFF'><b>使用了外部软件来获取他的对手的位置信息</b></font>，如：穿墙透视、减少或消除烟雾弹和闪光震撼弹的作用等。"
-		"SFUI_Overwatch_Res_SpeedHacking_Desc"		"您审议的证据将被CS:GO社区的任意合理成员判决，证据充分表明嫌疑人<font color='#FFFFFF'><b>使用了除上述所列的外部软件来获取足以超越他的对手的优势</b></font>，如：加速作弊、自动跳跃脚本、将视角上下颠倒等。"
+
+		"SFUI_Overwatch_Res_Griefing_Desc"		"您审议的证据将被CS社区的任意合理成员判决，证据充分表明嫌疑人<font color='#FFFFFF'><b>所表现出的行为是具有破坏性的，反竞技性的，以及/或是反社会的行为</b></font>，如：故意干扰队友，试图恶意伤害队友或被队友伤害，在比赛中挂机，或是故意输掉比赛。"
+	
+		"SFUI_Overwatch_Res_AimHacking_Desc"		"请参阅培训文件，了解如何评估外部瞄准辅助的存在。"
+	
+		"SFUI_Overwatch_Res_WallHacking_Desc"		"您审议的证据将被CS社区的任意合理成员判决，证据充分表明嫌疑人<font color='#FFFFFF'><b>使用了外部软件来获取他的对手的位置信息</b></font>，如：穿墙透视、减少或消除烟雾弹和闪光震撼弹的作用等。"
+	
+		"SFUI_Overwatch_Res_SpeedHacking_Desc"		"您审议的证据将被CS社区的任意合理成员判决，证据充分表明嫌疑人<font color='#FFFFFF'><b>使用了除上述所列的外部软件来获取足以超越他的对手的优势</b></font>，如：加速作弊、自动跳跃脚本、将视角上下颠倒等。"
 
 
 		"SFUI_Overwatch_Submit_label"			"提交判决"
 		"SFUI_Overwatch_Resolution_Title"		"监管决议"
-		"SFUI_Overwatch_Submit_Thanks"			"您的判决已被收到。\n\n感谢您担任监管调查员一职。"
+		"SFUI_Overwatch_Submit_Thanks"			"感谢提交您的判决。"
 		"SFUI_Overwatch_Submitting"				"正在提交您的判决..."
 		
 		"SFUI_Mission_Title"	                "%s1 任务"
@@ -28288,7 +28414,7 @@
 		"SFUI_InvPanel_filter_spray"		"涂鸦"
 		"SFUI_InvPanel_filter_equipped"		"隐藏已装备物品"
 		"SFUI_InvPanel_filter_default"		"隐藏默认物品"
-		"SFUI_InvPanel_filter_not_equipment" "合同、武器箱、钥匙���"
+		"SFUI_InvPanel_filter_not_equipment" "合同、武器箱、钥匙…"
 		"SFUI_InvPanel_filter_any_equipment" "所有武器"
 		"SFUI_InvPanel_filter_only_weapons" "所有武器"
 		"SFUI_InvPanel_empty_slot"          "空"
@@ -28408,6 +28534,15 @@
 		"SFUI_InvUse_Use_decodableKeyless"  "打开纪念包"
 		"SFUI_InvUse_Use_KeylessCapsule"	"打开胶囊"
 		"SFUI_InvUse_Use_KeylessCapsuleDefault"	"打开"
+
+		"popup_container_confirm_title_rent" "租赁武器"
+		"popup_container_confirm_title_expire" "租赁已过期" 
+		"popup_container_confirm_warning_rent" "租赁武器可供使用7天。" 
+		"popup_container_confirm_body_rent" "领取来自{s:name}的所有枪。<br/><br/>已租赁的武器不符合StatTrak™标准，不能以任何方式修改。<br/><br/>稀有特殊物品不包括在租赁范围内。" 
+		"popup_container_confirm_already_rented" "你已经在租赁{s:name}。<br/><br/> 这些武器将在{s:expiration-time}到期。" 
+
+		"popup_container_confirm_title_open" "开启 {s:name}" 
+		"popup_container_confirm_body_open" "获取{s:name}中的一个物品并保留。" 
 
 		"SFUI_Item_Certificate_Title"		"物品证书"
 		"SFUI_ItemInfo_ItemType"			"物品类型"
@@ -28536,7 +28671,7 @@
 		"SFUI_InvError_Delete_Item_Btn"		"删除物品"
 		"SFUI_InvError_Refuse_Item_Btn"		"删除任务"
 		"SFUI_InvError_Item_Not_Given"		"我们无法检索您的物品。请稍后再试。"
-		"SFUI_InvError_Steam_Overlay_Disabled"		"Steam 界面功能已禁用。在您的 Steam 设置中开启界面功能以浏览 Steam 社区市场。"
+		"SFUI_InvError_Steam_Overlay_Disabled"		"Steam 叠加界面功能已禁用。在您的 Steam 设置中开启界面功能以浏览 Steam 社区市场。"
 		"SFUI_InvError_OpenCrate_PauseMenu"	"您在比赛期间无法打开武器箱。您可以在“主菜单”中打开它们。"
 		"SFUI_InvError_InvValid_Error"      "从服务器获取您的物品失败。请稍后再访问您的库存。"
 		"SFUI_CraftContextMenu_Add"         "选择交换"
@@ -28564,6 +28699,11 @@
 		"SFUI_Statrak_ContextMenu_Remove"   "清除数据互换"
 		"SFUI_Inv_Name_Tag_Current"			"当前名称："
 		"SFUI_Inv_Name_Tag_New"				"新名称："
+		"item-rental-time-remaining"		"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> 在{s:time-remaining}后到期"
+		"item-rental-time-expired"			"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> 租赁已过期"
+		"item-can-rent"						"<img src='file://{images}/icons/ui/hourglass.svg' class='item-tile__rental-icon'/> 可租赁"
+		"RentalExpiredPopupTitle"			"租赁已过期"
+		"RentalExpiredPopupMessage"			"来自{s:rental_expired_crate_name}的租赁已过期。如果其中有任何武器在您的装备中，它们已被替换为原始武器。<br><br><b>租赁日期</b><br>{s:rental_expired_issue_date}<br><b>到期日期</b><br>{s:rental_expired_expiration_date}"
 		
 		
 		"SFUI_Sticker_Remove"           	"移除印花"
@@ -29161,7 +29301,7 @@
 		"CSGO_Fantasy_Team_Stat_Matches"		"已进行比赛"
 		"CSGO_Fantasy_Team_Stat_Add"			"添加"
 		"CSGO_Fantasy_Team_Action"				"作出您的选择"
-		"CSGO_Fantasy_Number_Picks"				"已选择 <b>%s1</b>/<b>5</b> 名选手"
+		"CSGO_Fantasy_Number_Picks"				"已选择 <b>%s1</b>/<b>5</b> 名选���"
 		"CSGO_Fantasy_Save_Team"				"提交战队"
 		"CSGO_Fantasy_Team_StickerFilter"		"印花"
 		"CSGO_Fantasy_Team_StickerFilter_Hint"	"仅显示您拥有的印花"
@@ -29188,6 +29328,9 @@
 		"CSGO_Fantasy_Player_Status_byeday"	"<font color='##89B2D2'>轮空</font>"
 		
 		"CSGO_Fantasy_NoSTickers_In_Table" "您目前没有任何<b>%s1</b>的选手亲笔签名印花。\n您可以购买战队亲笔签名胶囊，或是直接从市场入手亲笔签名印花。"
+		"major_hub_souvenir_package_desc"	"点击以下任何已结束的比赛，即可兑换纪念包或以 <span class=\"major-hub-store__souvenir__price\">{s:souvenir_price}</span> 的价格购买纪念包"
+		"major_hub_souvenir_package_desc_no_price"	"点击以下任何已结束的比赛兑换纪念包。"
+		
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Journal
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -29349,7 +29492,7 @@
 		"CSGO_Journal_Mission_Next_Day"      	"任务完毕。你可以在明天开始新的任务。"
 		"CSGO_Journal_Mission_Faq"              "<b>我多久可以完成任务？</b>\n<font size='8'>有了“先锋大行动”通行证，您可以每两周完成两个任务。\n如果您完成了所有的任务，请稍后再来看看 - 倒数计时器会显示距离\n在战役中完成更多的任务还剩多少小时。\n\n如果您购买了额外的战役，您的任务冷却时间将在剩下的\n大行动中减少，这样您就能每周多完成一个额外的任务了。</font>"    
 		
-		"CSGO_Journal_Mission_Faq5"             "<b>我多久可以完成任务？</b>\n有了“血猎大行动”通行证，您可以立即开始完成两个任务。您的可用任务池将每天增加 1 个。\n\n如果您完成了所有的任务，请稍后再来看看 - 倒数计时器会显示距离在战役中完成更多的任务还剩多少小时。\n\n<b>我该如何完成我的任务？</b>\n您可以使用官方的特定游戏模式和/或地图匹配来完成任务。如果您不确定如何加入到正确的比赛中，在主菜单中点击您的任务，然后选择“开始”。\n\n<b>我做了任务，但是没有看到任何进度，这是怎么回事？</b>\n任务进度只会在比赛结束时记录；如果您中场退出游戏就不会获得任何进度。\n\n如果您待到比赛结束却仍没看到人和进度，请确保您处于正确的游戏模式和/或地图中，并且确保您的服务器中至少有一名真人玩家。\n\n当您可以在任务中开展进度时，您的任务状态面板（计分板下方）将显示为“有效”。\n\n<b>我该如何获取经验值？</b>\n您将在官方服务器中的比赛结束时获取经验值。在竞技比赛中，您获得的经验值将根据您胜利的回合决定。在所有其他的游戏模式中，您获得的经验值将根据您的得分决定。此外，每周的一开始您将获得经验值奖励加成。在“血猎大行动”期间，您可以通过完成任务获得额外经验值。\n\n<b>如果我获得了拿到军衔所需的足够经验值会怎样？</b>\n不论您何时获得军衔，您的CS:GO个人资料军衔将会上升，并且您将获得新的个人资料图标。此外，您每周获得的第一个军衔会奖励您一个额外武器掉落。如果您拥有“血猎大行动”通行证，您获得的额外武器掉落将来自罕见的“血猎大行动”武器收藏品的其中之一，它们是：古堡激战收藏品、死城之谜收藏品、死亡游乐园收藏品、神魔收藏品、旭日收藏品和解体厂收藏品。\n\n<b>我没有获得过任何经验值。这是怎么回事？</b>\n经验值只能在官方服务器中获得，并且只能在比赛结束时获得；如果您中途离开比赛，您将不会获得经验值。您只有在服务器中至少有一名其他的真人玩家的情况下才能获得经验值。\n\n<b>提升个人资料军衔的次数有限制吗？</b>\n没有限制。不管您玩了多久，您都可以继续获得迈向新的军衔的经验值。\n\n<b>我该如何获得武器掉落？</b>\n想要获得武器掉落只有一个途径。您每周可以获得一个额外武器掉落。您将在一周中首次提升军衔时获得该掉落。您的等级进度条会显示您何时有资格获得额外武器。"
+		"CSGO_Journal_Mission_Faq5"             "<b>我多久可以完成任务？</b>\n有了“血猎大行动”通行证，您可以立即开始完成两个任务。您的可用任务池将每天增加 1 个。\n\n如果您完成了所有的任务，请稍后再来看看 - 倒数计时器会显示距离在战役中完成更多的任务还剩多少小时。\n\n<b>我该如何完成我的任务？</b>\n您可以使用官方的特定游戏模式和/或地图匹配来完成任务。如果您不确定如何加入到正确的比赛中，在主菜单中点击您的任务，然后选择“开始”。\n\n<b>我做了任务，但是没有看到任何进度，这是怎么回事？</b>\n任务进度只会在比赛结束时记录；如果您中场退出游戏就不会获得任何进度。\n\n如果您待到比赛结束却仍没看到人和进度，请确保您处于正确的游戏模式和/或地图中，并且确保您的服务器中至少有一名真人玩家。\n\n当您可以在任务中开展进度时，您的任务状态面板（计分板下方）将显示为“有效”。\n\n<b>我该如何获取经验值？</b>\n您将在官方服务器中的比赛结束时获取经验值。在竞技比赛中，您获得的经验值将根据您胜利的回合决定。在所有其他的游戏模式中，您获得的经验值将根据您的得分决定。此外，每周的一开始您将获得经验值奖励加成。在“血猎大行动”期间，您可以通过完成任务获得额外经验值。\n\n<b>如果我获得了拿到军衔所需的足够经验值会怎样？</b>\n不论您何时获得军衔，您的CS:GO个人资料军衔将会上升，并且您将获得新的个人资料图标。此外，您每周获得的第一个军衔会奖励您一个额外武器掉落。如果您拥有“血猎大行动”通行证，您获得的额外��器掉落将来自罕见的“血猎大行动”武器收藏品的其中之一，它们是：古堡激战收藏品、死城之谜收藏品、死亡游乐园收藏品、神魔收藏品、旭日收藏品和解体厂收藏品。\n\n<b>我没有获得过任何经验值。这是怎么回事？</b>\n经验值只能在官方服务器中获得，并且只能在比赛结束时获得；如果您中途离开比赛，您将不会获得经验值。您只有在服务器中至少有一名其他的真人玩家的情况下才能获得经验值。\n\n<b>提升个人资料军衔的次数有限制吗？</b>\n没有限制。不管您玩了多久，您都可以继续获得迈向新的军衔的经验值。\n\n<b>我该如何获得武器掉落？</b>\n想要获得武器掉落只有一个途径。您每周可以获得一个额外武器掉落。您将在一周中首次提升军衔时获得该掉落。您的等级进度条会显示您何时有资格获得额外武器。"
 
 		"CSGO_Journal_Mission_Faq6"             "<b>我多久可以完成任务？</b>\n有了“血猎大行动”通行证，您可以立即开始完成两个任务。您的可用任务池将每天增加 1 个。\n\n如果您完成了所有的任务，请稍后再来看看 - 倒数计时器会显示距离在战役中完成更多的任务还剩多少小时。\n\n<b>我该如何完成我的任务？</b>\n您可以使用官方的特定游戏模式和/或地图匹配来完成任务。如果您不确定如何加入到正确的比赛中，在主菜单中点击您的任务，然后选择“开始”。\n\n<b>我做了任务，但是没有看到任何进度，这是怎么回事？</b>\n任务进度只会在比赛结束时记录；如果您中场退出游戏就不会获得任何进度。\n\n如果您待到比赛结束却仍没看到人和进度，请确保您处于正确的游戏模式和/或地图中，并且确保您的服务器中至少有一名真人玩家。\n\n当您可以在任务中开展进度时，您的任务状态面板（计分板下方）将显示为“有效”。\n\n<b>我该如何获取经验值？</b>\n您将在官方服务器中的比赛结束时获取经验值。在竞技比赛中，您获得的经验值将根据您胜利的回合决定。在所有其他的游戏模式中，您获得的经验值将根据您的得分决定。此外，每周的一开始您将获得经验值奖励加成。在“血猎大行动”期间，您可以通过完成任务获得额外经验值。\n\n<b>如果我获得了拿到军衔所需的足够经验值会怎样？</b>\n不论您何时获得军衔，您的CS:GO个人资料军衔将会上升，并且您将获得新的个人资料图标。此外，您每周获得的第一个军衔会奖励您一个额外武器掉落。如果您拥有“血猎大行动”通行证，您获得的额外武器掉落将来自罕见的“血猎大行动”武器收藏品的其中之一，它们是：古堡激战收藏品、死城之谜收藏品、死亡游乐园收藏品、神魔收藏品、旭日收藏品和解体厂收藏品。\n\n<b>我没有获得过任何经验值。这是怎么回事？</b>\n经验值只能在官方服务器中获得，并且只能在比赛结束时获得；如果您中途离开比赛，您将不会获得经验值。您只有在服务器中至少有一名其他的真人玩家的情况下才能获得经验值。\n\n<b>提升个人资料军衔的次数有限制吗？</b>\n没有限制。不管您玩了多久，您都可以继续获得迈向新的军衔的经验值。\n\n<b>我该如何获得武器掉落？</b>\n想要获得武器掉落只有一个途径。您每周可以获得一个额外武器掉落。您将在一周中首次提升军衔时获得该掉落。您的等级进度条会显示您何时有资格获得额外武器。"
 
@@ -29489,27 +29632,31 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Demo Playback Control
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-		"CSGO_Demo_Title"					"录像回放"
-		"CSGO_Demo_Restart"					"|<"
 		"CSGO_Demo_MinusSeconds"			"-{d:timestep_value}秒"
-		"CSGO_Demo_Prev"					"<"
-		"CSGO_Demo_Play"					"播放"
-		"CSGO_Demo_Pause"					"暂停"
-		"CSGO_Demo_Next"					">"
 		"CSGO_Demo_PlusSeconds"				"+{d:timestep_value}秒"
-		"CSGO_Demo_End"						">|"
 		"CSGO_Demo_TimeScale_OneFourth"		"¼x"
 		"CSGO_Demo_TimeScale_OneHalf"		"½x"
 		"CSGO_Demo_TimeScale_One"			"1倍速"
 		"CSGO_Demo_TimeScale_Two"			"2倍速"
 		"CSGO_Demo_TimeScale_Four"			"4倍速"
 		"CSGO_Demo_TimeScale_Eight"			"8x"
-		"CSGO_Demo_Death"					"死亡数"
 
-		"CSGO_Demo_Toggle"					"[Shift+F2]"
-		"CSGO_Demo_Time"					"{s:current_time} / {s:total_time}"
-		"CSGO_Demo_Round"					"回合："
-		"CSGO_Demo_Warmup"					"热身"
+		"CSGO_Demo_Toggle"							"[Shift+F2]"
+		"CSGO_Demo_Time"							"{s:current_time} / {s:total_time}"
+		"CSGO_Demo_Round"							"回合："
+		"CSGO_Demo_Highlight"						"亮点时刻"
+		"CSGO_Demo_End_Playback"					"结束回放"
+		"CSGO_Demo_End_Playback_Overwatch"			"跳至判决"
+		"CSGO_Demo_End_Playback_Overwatch_Finished"	"前往判决"
+
+		"CSGO_Demo_Enable_Mouse_Cursor"				"[{s:bind_drop}]：启用鼠标光标"
+		"CSGO_Demo_Enable_Mouse_Camera"				"[{s:bind_drop}]：启用鼠标视角控制"
+		"CSGO_Demo_Player_Next"						"[{s:bind_attack}]：下一个玩家"
+		"CSGO_Demo_Player_Prev"						"[{s:bind_attack2}]：上一个玩家"
+		"CSGO_Demo_Next_Camera"						"[{s:bind_jump}]：下一个摄像头"
+		"CSGO_Demo_Toggle_XRay"						"[{s:bind_slot12}]：切换X射线视图"
+		"CSGO_Demo_Toggle_Overview"					"[{s:bind_duck}]：切换概览"
+
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Date formatting
@@ -29725,10 +29872,10 @@
 		"SFUI_HOW_TO_PLAY"								"游戏教学"
 		"SFUI_How_to_Play_Navigation"					"${cancel} 取消 ${dpad} 导览 ${rstick} 滚动"
 		"SFUI_HowToPlay_IntroductionLabel"				"介绍"
-		"SFUI_HowToPlay_IntroductionContents"			"<font size='24'>游戏模式</font><br/>反恐精英 有四种基本的游戏模式：经典休闲模式、经典竞技模式、军备竞赛模式以及爆破模式。<br/><br/><font size='30'>经典模式</font><br/>两种经典模式有着相同的基本规则。游戏在人质或炸弹地图中进行。在这两种类型的地图，每一场比赛都分为数个回合。您的队伍可以通过全歼敌队成员或完成地图任务目标来获得胜利。在人质地图中，CT试图找到四名人质，并背着他们到达营救区域。而T必须防止人质被救出。对于任何一支队伍来说，伤害人质将会降低您的得分，并减少提供给您在下一回合购买武器和装备的金钱。在炸弹地图中，T将尝试在两个引爆点中的其中一个安放并引爆炸弹。CT必须防止对方安放炸弹，或者在炸弹被安放后拆除它。<br/><br/>两种经典模式在四个主要的方面有所不同。在竞技模式中，友军伤害是开启的，不可穿过队友身体，您必须购买护甲及拆弹器（在休闲模式中，您会自动获得它们），并持续 30 回合而非 10 回合。<br/><br/><font size='30'>军备竞赛模式</font><br/> 军备竞赛模式只有一个回合，并且不像其他的三种模式，死亡的玩家会立即重生。重生后，在 5 秒之内您是无敌的，或直到您攻击才解除无敌。在军备竞赛模式中，武器和装备是不允许被购买的。取而代之的是，所有玩家在开局时都会得到相同的武器，每当击杀一名敌人就会得到一把新的武器。您所获得的最后武器是一把黄金匕首，第一名用黄金匕首杀敌的玩家将取得游戏的胜利。<br/><br/><font size='30'>爆破模式</font><br/>爆破模式是一种融合了经典模式和军备竞赛模式游戏规则的快节奏游戏模式。它包括两场含数个回合的比赛。在第一场比赛结束后，双方队伍互换。队伍可以通过全歼敌队成员或爆破 / 拆除炸弹来获得胜利。无法购买武器和装备。取而代之的是，当您消灭一名敌人后，您将在下一回合开始时获得一把新武器。在单一回合中，除了第一次击杀外，每获得一次额外的击杀都能额外奖励您一颗手雷。赢得回合数最多的队伍将获得比赛的胜利。"
+		"SFUI_HowToPlay_IntroductionContents"			"<font size='24'>游戏模式</font><br/>反恐精英 有四种基本的游戏模式：经典休闲模式、经典竞技模式、军备竞赛模式以及爆��模式。<br/><br/><font size='30'>经典模式</font><br/>两种经典模式有着相同的基本规则。游戏在人质或炸弹地图中进行。在这两种类型的地图，每一场比赛都分为数个回合。您的队伍可以通过全歼敌队成员或完成地图任务目标来获得胜利。在人质地图中，CT试图找到四名人质，并背着他们到达营救区域。而T必须防止人质被救出。对于任何一支队伍来说，伤害人质将会降低您的得分，并减少提供给您在下一回合购买武器和装备的金钱。在炸弹地图中，T将尝试在两个引爆点中的其中一个安放并引爆炸弹。CT必须防止对方安放炸弹，或者在炸弹被安放后拆除它。<br/><br/>两种经典模式在四个主要的方面有所不同。在竞技模式中，友军伤害是开启的，不可穿过队友身体，您必须购买护甲及拆弹器（在休闲模式中，您会自动获得它们），并持续 30 回合而非 10 回合。<br/><br/><font size='30'>军备竞赛模式</font><br/> 军备竞赛模式只有一个回合，并且不像其他的三种模式，死亡的玩家会立即重生。重生后，在 5 秒之内您是无敌的，或直到您攻击才解除无敌。在军备竞赛模式中，武器和装备是不允许被购买的。取而代之的是，所有玩家在开局时都会得到相同的武器，每当击杀一名敌人就会得到一把新的武器。您所获得的最后武器是一把黄金匕首，第一名用黄金匕首杀敌的玩家将取得游戏的胜利。<br/><br/><font size='30'>爆破模式</font><br/>爆破模式是一种融合了经典模式和军备竞赛模式游戏规则的快节奏游戏模式。它包括两场含数个回合的比赛。在第一场比赛结束后，双方队伍互换。队伍可以通过全歼敌队成员或爆破 / 拆除炸弹来获得胜利。无法购买武器和装备。取而代之的是，当您消灭一名敌人后，您将在下一回合开始时获得一把新武器。在单一回合中，除了第一次击杀外，每获得一次额外的击杀都能额外奖励您一颗手雷。赢得回合数最多的队伍将获得比赛的胜利。"
 
 		"SFUI_HowToPlay_GettingStartedLabel"			"新手入门"
-		"SFUI_HowToPlay_GettingStartedContents"			"<font size='24'>选择一支队伍</font><br/>只要有空位，你就可以选择加入CT或T中的任一队伍。点击“自动选择”选项将会被随机分配至其中的一支队伍中。每支队伍都拥有不同的武器以及不同的任务目标。<br/><br/><font size='24'>得分</font><br/>您可以通过按下 ${togglescores} 键来显示计分板，查看您的个人得分（以及您队友及敌人的得分）。评分标��：<br/>拆除一次炸弹 +6 分<br/>击杀一名敌人 +2 分<br/>安放一次炸弹 +2 分<br/>营救一名人质 +2 分<br/>助攻击杀一名敌人 +1 分<br/>自杀 -2 分<br/>击杀一名人质 -2 分<br/>击杀一名队友 -2 分<br/><br/><font size='24'>我的奖章</font><br/>成就、统计、奖章以及排行榜排名帮助您了解自己的表现。您必须登录您的 Steam 档案才能获得成就和奖章、保存您的统计资料或进入排行榜。<br/><br/><font size='24'>与电脑玩家进行离线游戏</font><br/>离线模式使您可以在自己的节奏中，通过对抗电脑控制的对手来探索游戏。您可以通过设置电脑对手的技巧等级，来调整离线模式的难度。<br/>"
+		"SFUI_HowToPlay_GettingStartedContents"			"<font size='24'>选择一支队伍</font><br/>只要有空位，你就可以选择加入CT或T中的任一队伍。点击“自动选择”选项将会被随机分配至其中的一支队伍中。每支队伍都拥有不同的武器以及不同的任务目标。<br/><br/><font size='24'>得分</font><br/>您可以通过按下 ${togglescores} 键来显示计分板，查看您的个人得分（以及您队友及敌人的得分）。评分标准：<br/>拆除一次炸弹 +6 分<br/>击杀一名敌人 +2 分<br/>安放一次炸弹 +2 分<br/>营救一名人质 +2 分<br/>助攻击杀一名敌人 +1 分<br/>自杀 -2 分<br/>击杀一名人质 -2 分<br/>击杀一名队友 -2 分<br/><br/><font size='24'>我的奖章</font><br/>成就、统计、奖章以及排行榜排名帮助您了解自己的表现。您必须登录您的 Steam 档案才能获得成就和奖章、保存您的统计资料或进入排行榜。<br/><br/><font size='24'>与电脑玩家进行离线游戏</font><br/>离线模式使您可以在自己的节奏中，通过对抗电脑控制的对手来探索游戏。您可以通过设置电脑对手的技巧等级，来调整离线模式的难度。<br/>"
 		"SFUI_HowToPlay_ClassicLabel"					"经典模式规则"
 		"SFUI_HowToPlay_ClassicContents"				"<font size='24'>获得胜利</font><br/>一场经典模式的比赛由数个回合组成。获得胜利的方式共有两种：达成您队伍的任务目标或是歼灭所有敌方玩家。赢得多数回合的队伍将获得最终胜利。<br/><br/><font size='30'>购买装备</font><br/>在每场比赛开始时，您都会获得一些基础装备与一些金钱。比赛的每一回合都会从“购买区域”开始，您可以在这里购买装备。允许购买装备的时间通常持续 45 秒； 在这之后，除非等到下一回合开始，您都没有再买装备的机会了。<br/><br/><font size='30'>赚取金钱</font><br/>玩家只需击杀敌人、达成任务目标并获得胜利就能获得金钱。误击队友和人质则会损失金钱。<br/><br/><font size='30'>死亡和观察模式</font><br/>您无法恢复额外的生命值。一旦您的生命值归零就代表您已经死了。一旦您死亡，您会失去到目前为止所拥有的装备。当您死亡并等待下一回合开始之前， 您可以通过其他玩家的视角来观察游戏，并且可以控制任何己方的电脑玩家。<br/><br/><font size='30'>营救人质</font><br/>如果您是CT的一员，您在人质地图中的目标就是要解救人质。要带领他们，只要面对着人质按下 ${+use} 键就能让他们跟随您，然后带领他们逃离至“营救区域”。“营救区域”在”迷你地图”中会以 H 符号来标识。它们同样由 HUD 左上角所出现的“营救区域”图标<img src = 'hud_hostage_zone_icon.png' width='24' height='24'/>进行标识。当所有人质都被护送至“营救区域”，就代表CT赢得该回合的胜利。双方队伍都可以靠歼灭所有敌人来赢得该回合的胜利。如果所有人质都被杀害，那么就只能靠歼灭所有敌人来赢得该回合的胜利。<br/><br/><font size='30'>安放与拆除炸弹</font><br/>在炸弹地图中，T需要安放并引爆炸弹。而CT则必须阻止他们。炸弹会随机分配给一名T。如果您携带着炸弹，您会在 HUD 和计分板上您的名称旁边看到炸弹携带的图标<img src = 'c4_inventory.png' width='24' height='24'/>。携带炸弹至两处炸弹安放地点的其中一处并安放炸弹。炸弹安放地点分为 A 点和 B 点两处。地图上会有记号痕迹帮助您前往该处。而”迷你地图雷达”上也有 A 点和 B 点符号作为标识。当您位于炸弹安放地点时，您的 HUD 上会出现炸弹闪烁的图标<img src = 'hud_bombzone.png' width='24' height='24'/>。按下使用键 ${+use} 安放炸弹，然后阻止CT将其拆除。CT可以通过在炸弹安放之前歼灭所有恐怖份子或是直接拆除炸弹来获取胜利。如要拆除炸弹，站在炸弹正上方前并面向炸弹，按住 ${+use} 键不放直到您看到炸弹已被拆除的信息提示。如果您拥有拆弹器，您会在 HUD 上及计分板您的名称旁边看到拆弹器的图标<img src = 'hud_defuser.png' width='24' height='24'/>。拆弹器可以节省拆弹时间，但在拆弹时并不一定需要它。<br/>"
 
@@ -30043,7 +30190,7 @@
 		"SFUI_Elevated_Status_Confirmed_1"			"优先帐户"
 		"SFUI_Elevated_Status_Desc_1"					"在优先状态下，您将与其他优先状态玩家相互匹配。此外，您将有资格获得优先状态专属的纪念物品、掉落物品以及武器箱。在您的帐户内添加优先状态还可以提高您的信任评价。\n\n添加帐户内的优先状态有两种方法；您可以挣取经验值达到第 21 级中尉军衔，或者您可以直接购买 CS:GO 优先状态升级。\n\n 一旦您达到了第 21 级中尉军衔或购买了 CS:GO 优先状态升级，一切将准备就绪！"
 		"SFUI_Elevated_Status_Desc_pw_1"				"在优先状态下，您将与其他优先状态玩家相互匹配。此外，您将有资格获得优先状态专属的纪念物品、掉落物品以及武器箱。在您的帐户内添加优先状态还可以提高您的信任评价。\n\n添加帐户内的优先状态有两种方法；您可以挣取经验值达到第 21 级中尉军衔，或者直接点击下方的“完成实名认证”按钮。\n\n一旦您达到了第 21级中尉军衔或完成了实名荣耀认证，一切将准备就绪！"
-		"SFUI_Elevated_Status_Faq_1"					"<b>非优先状态用户和优先状态用户可以一起匹配吗？</b>\n可以，但是这些用户需要组队在同一房间里寻找游戏。房间创建时会标为“非优先”或“仅限优先”。非优先用户与优先用户一起对战匹配时，其房间将始终降级为非优先房间。\n\n<b>如果我不升级我的 CS:GO 帐户会怎么样？</b>\n如果您不升级帐户，您将错失获得优先状态专属物品、与其他优先状态玩家相互匹配、以及提升信任评价的机会。但是您仍��参与信任评价匹配并享受访问游戏所有功能的相同权限。"
+		"SFUI_Elevated_Status_Faq_1"					"<b>非优先状态用户和优先状态用户可以一起匹配吗？</b>\n可以，但是这些用户需要组队在同一房间里寻找游戏。房间创建时会标为“非优先”或“仅限优先”。非优先用户与优先用户一起对战匹配时，其房间将始终降级为非优先房间。\n\n<b>如果我不升级我的 CS:GO 帐户会怎么样？</b>\n如果您不升级帐户，您将错失获得优先状态专属物品、与其他优先状态玩家相互匹配、以及提升信任评价的机会。但是您仍可参与信任评价匹配并享受访问游戏所有功能的相同权限。"
 		"SFUI_Elevated_Status_Faq_pw_1"				"<b>我该如何提高信任评价？</b>\n帐户的信任评价将因您关联一个完成实名验证的完美世界帐号而有所提升。\n\n<b>我是否需要 CS:GO 令牌手机验证器才能升级帐户至优先状态？</b>\n不，但您真的应该使用它！ 除了保护您的帐户之外，将 CS:GO 令牌手机验证器添加到帐户上能让您使用完整的交易功能。\n\n<b>如果我不对我的帐户进行实名验证会怎样？</b>\n如果您不升级帐户，您将错失获得优先状态专属物品、与其他优先状态玩家相互匹配、以及提升信任评价的机会。但是您仍可参与 信任评价匹配 并且对所有游戏功能的使用权限将不会受到影响。\n\n<b>我已经完成实名验证，但我的状态却没有改变？</b>\n在完成实名验证之后，您将需要重启游戏。"
 		"SFUI_Elevated_Status_Desc_Tooltip_1"				"您的帐户已升级为 <b>优先状态</b> ，可以使您与其他优先状态玩家互相匹配、有资格获得优先状态专属物品、并且提升信任评价。\n\n您无需做任何其他事情。"
 		"SFUI_Elevated_Status_Desc_Tooltip_pw_1"			"您的帐户已升级为 <b>优先状态</b> ，可以使您与其他优先状态玩家互相匹配、有资格获得优先状态专属物品、并且提升信任评价。\n\n您无需做任何其他事情。"
@@ -30237,8 +30384,6 @@
 
 		"SFUI_scoreboard_lbl_bot"	"电脑玩家"
 		"SFUI_scoreboard_lbl_spec"	"观察者"
-		"SFUI_scoreboard_lbl_dc"  	"DC"
-
 		"SFUI_Scoreboard_1st"		"上半场"
 		"SFUI_Scoreboard_2nd"		"下半场"
 		"SFUI_Scoreboard_1st_Half"		"上半场"
@@ -30393,6 +30538,7 @@
 		"SFUI_match_cancelled"			"比赛已取消"
 		"SFUI_match_abort_match_network_event"	"网络中断导致比赛被取消。\n这场比赛不会影响你的段位综合得分。"
 		"SFUI_match_abort_match_vac_live"	"VAC Live 已检测出作弊者，比赛已结束。\n这场比赛将不会影响你的段位综合得分。"
+		"SFUI_match_abort_match_abnormal_behavior"	"VAC检测到违规游戏行为并已取消比赛。\n被VAC标记的玩家及其队伍已被冷却。"
 		"SFUI_match_vac_live_partied_with_cheater"	"由于你队伍中的一名玩家被禁，这场比赛将不会获得任何奖励。"
 		"SFUI_match_abort_match_missing_player"	" 由于有玩家未能连接，比赛即将取消。"
 		"SFUI_match_abort_match_player_abandoned"	" 由于有玩家已断开连接，比赛即将取消。"
@@ -30648,16 +30794,6 @@
 		"SFUIHUD_Spec_Event_DroppingItemsRewarded"			"%s1 名观看者获得奖励！"
 		"SFUIHUD_Spec_Event_DroppingItemsTotalDropped"		"本场比赛共掉落物品：%s1"
 
-		"SFUIHUD_GiftDrop_GiftGivenLastXMinutes"		"在过去的 %s1 分钟内，以下玩家共赠送了 1 份礼物..."
-		"SFUIHUD_GiftDrop_GiftsGivenLastXMinutes"		"在过去的 %s1 分钟内，以下玩家共赠送了 %s2 份礼物..."
-		"SFUIHUD_GiftDrop_GiftGivenLastXHours"		"在过去的 %s1 小时内，以下玩家共赠送了 1 份礼物..."
-		"SFUIHUD_GiftDrop_GiftsGivenLastXHours"		"在过去的 %s1 小时内，以下玩家共赠送了 %s2 份礼物..."		
-		"SFUIHUD_GiftDrop_AndOtherPlayer"		"...以及其他 1 名慷慨的玩家！"		
-		"SFUIHUD_GiftDrop_AndOtherPlayers"		"...以及其他 %s1 名慷慨的玩家！"	
-		"SFUIHUD_GiftDrop_NameGiftGiverFormat"		"%s1%s2</font>"	
-		"SFUIHUD_GiftDrop_SingleGiftFormat"		"<font color='#e3e3e3'>1 份礼物</font>"	
-		"SFUIHUD_GiftDrop_GiftAmountFormat"		"<font color='#e3e3e3'>%s1 份礼物</font>"	
-
 		"SFUIHUD_GiftDrop_Name_ColorDefault"	"<font color='#b1eeff'>"
 		"SFUIHUD_GiftDrop_Name_Color1"	"<font color='#90ff9a'>"
 		"SFUIHUD_GiftDrop_Name_Color2"	"<font color='#eb7d7d'>"
@@ -30698,6 +30834,8 @@
 		"SFUI_SpecStat_type_objective"		"目标"
 		"SFUI_SpecStat_First_Half"			"上半场"
 		"SFUI_SpecStat_Second_Half"			"下半场"
+
+		"HudSpecPlayer_WeaponName"				"<span class=\"possessive-player-name\">{s:possessive_player_name}</span><br><span class=\"weapon-name\">{s:weapon_name}</span><br><font color=\"{s:rarity_color}\"><span class=\"weapon-kit-name\">{s:weapon_kit_name}</span><br><span class=\"weapon-name-custom\">\"{s:weapon_name_custom}\"</span></font>"
 
 		"heatmap_t"								"T"
 		"heatmap_ct"							"CT"
@@ -30784,8 +30922,8 @@
 		"SFUI_WinPanel_CT_Win"			"CT获胜"
 		"SFUI_WinPanel_T_Win"			"T获胜"
 
-		"WinPanel_RoundWon"				"胜利回合数"
-		"WinPanel_RoundLost"			"败北回合数"
+		"WinPanel_RoundWon"				"回合胜利"
+		"WinPanel_RoundLost"			"回合败北"
 
 		"SFUI_WinPanel_Team_Win_Team"		"{s:winpanel-title-s1} 赢得回合胜利"
 		"SFUI_WinPanel_Coop_Mission_Win"		"已完成的任务"
@@ -30812,7 +30950,7 @@
 		"SFUI_WinPanelProg_stat_progress_kills"				"您已击杀 {s:s1} 名敌人，共需击杀 {s:s2} 名才能获得“{s:s3}”勋章。"
 		"SFUI_WinPanelProg_stat_progress_wins"				"您已取得 {s:s1} 场回合的胜利，共需取得 {s:s2} 场才能获得“{s:s3}”勋章。"
 		"SFUI_WinPanelProg_stat_progress_played"			"您已进行 {s:s1} 场回合，共需进行 {s:s2} 场才能获得“{s:s3}”勋章。"
-		"SFUI_WinPanelProg_stat_progress_money"				"您已赚取 {s:s1} 金钱，共需赚取 {s:s2} 金钱才能获得“{s:s3}”勋章。"
+		"SFUI_WinPanelProg_stat_progress_money"				"您已赚��� {s:s1} 金钱，共需赚取 {s:s2} 金钱才能获得“{s:s3}”勋章。"
 		"SFUI_WinPanelProg_stat_progress_damage"			"您已造成 {s:s1} 点伤害，共需造成 {s:s2} 点伤害才能获得“{s:s3}”勋章。"
 		"SFUI_WinPanelProg_stat_progress_headshots"			"您已达成 {s:s1} 次精准打击，共需达成 {s:s2} 次精准打击才能获得“{s:s3}”勋章。"
 		"SFUI_WinPanelProg_stat_progress_bomb_plant"		"您已安放 {s:s1} 颗炸弹，共需安放 {s:s2} 颗炸弹才能获得“{s:s3}”勋章。"
@@ -30904,7 +31042,7 @@
 		"SFUI_Notice_Report_Server_Failed"				" 提交举报到服务器失败，请稍后再试。\n"
 		"SFUI_Notice_Report_Player_Success"				" 已提交对 %s1 的举报，举报编号为 %s2。\n"
 		"SFUI_Notice_Report_Player_Failed"				" 提交玩家举报失败，请稍后再试。\n"
-		"SFUI_Notice_Commend_Player_Success"			" 已提交对 %s1 的称赞\n谢谢\n"
+		"SFUI_Notice_Commend_Player_Success"			" 已提交对 %s1 的称赞\n"
 		"SFUI_Notice_Commend_Player_TooEarly"			" 您最近提交的称赞数过多，请明天再试。\n"
 		"SFUI_Notice_Commend_Player_Failed"				" 对玩家提交称赞失败，请稍后再试。\n"
 		"SFUI_Notice_Commend_Player_YouGotNewCommendation" " 恭喜！您已收到一个称赞。\n"
@@ -30955,6 +31093,8 @@
 		"SFUI_CooldownExplanationReason_ConvictedForBehavior"	"被监管系统定罪 - 破坏性较小"
 		"SFUI_CooldownExplanationReason_GsltViolation"		"使用您游戏服务器登录令牌的一个服务器已被封禁。您的帐户现已被永久禁止管理游戏服务器，并且连接游戏服务器时会产生冷却时间。"
 		"SFUI_CooldownExplanationReason_GriefingReports"	"您收到的恶意破坏报告明显多于大多数玩家。"
+		"SFUI_CooldownExplanationReason_VacNetCulprit"		"VAC已将您的游戏行为标记为违规。"
+		"SFUI_CooldownExplanationReason_VacNetAffiliate"	"您与一名被VAC标记为有违规游戏行为的玩家一起进行了游戏。"
 		"SFUI_CooldownExplanationReason_Expired_Cooldown"		"<b>您的冷却时间已过期。随后的冷却时间可能会更长。\n冷却原因</b>："
 		"SFUI_Notice_Killed_Teammate"					"你误杀了一名队友！"
 		"SFUI_Notice_Game_teammate_kills"				" 警告：如果再击杀 %s1 名队友，您将被服务器封禁！"
@@ -31155,7 +31295,7 @@
 		"SFUI_ControllerZoomSensitivity" "缩放灵敏度倍数"
 
 		"SFUI_TaserSlot"				"宙斯 X27 电击枪"
-		"SFUI_MolotovSlot"				"燃烧瓶"
+		"SFUI_MolotovSlot"				"燃烧瓶/燃烧弹"
 		"SFUI_DecoySlot"				"诱饵弹"
 		"SFUI_CycleGrenades"			"切换投掷物"
 		"SFUI_CycleWeapons"				"切换主/副武器"
@@ -31197,8 +31337,9 @@
 		"SFUI_Jump"						"跳跃"
 		"SFUI_Duck"						"下蹲"
 		"SFUI_Pickup_Use_Objects"		"使用"
-		"SFUI_TitlesTXT_Menu_Scoreboard"     "计分板"
-        "SFUI_ShowTeamEquipment"        "显示队友装备"
+		"SFUI_TitlesTXT_Menu_Scoreboard"	"计分板"
+		"SFUI_ShowTeamEquipment" 		"显示队友装备"
+		"SFUI_ToggleRadarScale"			"切换雷达缩放"
 		"SFUI_Walk"						"行走"
 		"SFUI_180Spin"					"旋转 180 度"
 		"SFUI_Drop_Weapon"				"丢弃武器"
@@ -31287,7 +31428,7 @@
 		"SFUI_ForwardSensitivity_Info"					"前移灵敏度倍率。"
 		"SFUI_StrafeSensitivity_Info"					"扫射移动灵敏度倍率。"
 
-		"SFUI_Joystick_DeadzoneMin_Info"				"摇杆偏移量小于此值时，将被重新映射为零。"
+		"SFUI_Joystick_DeadzoneMin_Info"				"摇杆偏移量小于此值时��将被重新映射为零。"
 		"SFUI_Joystick_DeadzoneMax_Info"				"摇杆偏移量大于此值时，将被重新映射为最大偏移量。"
 		"SFUI_JoystickAimTurningExtraYaw_Info"			"当瞄准摇杆在水平方向上完全偏移时，角速度会基于此值逐渐提升。"
 		"SFUI_JoystickAimTurningExtraRampUpTime_Info"	"当瞄准摇杆在水平方向上完全偏移时，获得完全额外角速度需要经过这些秒。"
@@ -31319,7 +31460,7 @@
 
 		"SFUI_GyroDeadzone_Info"						"每秒角度。小于这个值的陀螺仪控制器动作将被完全移除。不推荐。"
 		"SFUI_GyroPrecisionZone_Info"					"每秒角度。小于这个值的陀螺仪控制器动作将会降低。适用于会手抖的玩家。"
-		"SFUI_Gyro_PitchDeadzone_Info"					"每��角度。增加此值用于调整陀螺仪（瞄准）的水平偏斜。"
+		"SFUI_Gyro_PitchDeadzone_Info"					"每秒角度。增加此值用于调整陀螺仪（瞄准）的水平偏斜。"
 		"SFUI_Gyro_YawDeadzone_Info"					"每秒角度。增加此值用于调整陀螺仪（瞄准）的垂直偏斜。"
 
 		"SFUI_FlickStickActive_Info"					"在<b>快速转身瞄准</b>模式下，朝一个方向推动摇杆将使你的水平面瞄准<b>切换</b>至那个方向。<b>转动</b>摇杆会连贯地旋转你的角色朝向。"
@@ -31434,6 +31575,7 @@
 		"SFUI_Settings_Color_Correction"	"色彩修正"
 		"SFUI_Settings_Antialiasing_Mode"	"多重采样抗锯齿模式"
 		"SFUI_Settings_CSM"					"全局阴影效果"
+		"SFUI_Settings_DynamicShadows"		"动态阴影"
 		"SFUI_Settings_FXAA"				"快速近似抗锯齿"
 		"SFUI_Settings_ParticleDetail"		"粒子细节"
 		"SFUI_Screen_Resize"				"重设 HUD 尺寸"
@@ -31486,9 +31628,16 @@
 		"SFUI_Settings_HDR"					"高动态范围"
 		"SFUI_Settings_HDR_Info"			"高动态范围（HDR）可控制最亮和最暗像素之间的亮度范围。 选择性能可降低高动态范围渲染的质量，但有可能提高性能并减少使用GPU的内存。 "  
 		
+		"SFUI_Settings_GSync"				"NVIDIA G-Sync"
+		"SFUI_Settings_GSync_Info"			"NVIDIA G-Sync允许显示器动态更改其刷新率以尽可能匹配游戏的帧率，从而带来更流畅的视觉体验。它仅在某些显示器上可用，并且在游戏帧率低于显示模式的最大刷新率时效果最佳。可以在游戏外使用NVIDIA控制面板启用它。可能需要重新启动游戏以使更改生效。"
+		"GSyncHelpLinkURL"					"https://www.nvidia.com/content/Control-Panel-Help/vLatest/en-us/mergedProjects/nvdsp/Variable_Refresh_Rate.htm"
+
 		"SFUI_Settings_Reflex"				"NVIDIA Reflex 低延迟"
 		"SFUI_Settings_Reflex_Info"			"NVIDIA Reflex 用于减少系统延迟，从而提高个人计算机的反应能力。在加速模式的技术推动下，可能会使 GPU 产生更大功率并对 FPS 产生轻微影响以尽可能减少延迟。"
 		"SFUI_Settings_Reflex_Boost"		"已启用 + 加速"
+
+		"SFUI_Settings_AntiLag"				"AMD Anti-Lag 2.0"
+		"SFUI_Settings_AntiLag_Info"		"AMD Anti-Lag 2.0 用于降低系统延迟，提高PC响应速度。"
 		
 		"SFUI_Settings_Ultra_Quality"		"超高品质"
 		"SFUI_Settings_Quality"				"品质"
@@ -31504,7 +31653,9 @@
 		"SFUI_Settings_Fullscreen_Windowed"	"全屏窗口模式"
 
 		"SFUI_Settings_Laptop_Power"		"笔记本节能模式"
-		"SFUI_Settings_Vertical_Sync"		"等待垂直同步"
+		"SFUI_Settings_Vertical_Sync"		"V-Sync"
+		"SFUI_Settings_FPS_Max"				"游戏最高FPS"
+		"SFUI_Settings_FPS_Max_UI"			"菜单最高FPS"
 
 		"SFUI_SteamToast_Location"			"Steam 通知区域"
 		"SFUI_SteamToast_Location_Horz"		"社区通知水平偏移"
@@ -31521,24 +31672,30 @@
 		"SFUI_Settings_Low"					"低"
 
 		"SFUI_Settings_Choice_Custom"			"自定义"
-		"SFUI_Settings_Presets"				"当前视频值预设："
+		"SFUI_Settings_Presets"				"当前视频值预设"
 
 		"SFUI_Settings_Audio_Tip"	"使用立体声耳机进行游戏可获得最佳体验。游戏具有精密的 3D 音频内置处理效果和基于单独声源和游戏几何形状的建模。为了获得最佳听觉体验，我们建议禁用任何外部音频增强功能或虚拟环绕声。"
 		"SFUI_Settings_Master_Volume"		"主音量"
 		"SFUI_Settings_Music_Volume"		"主音乐音量"
-		"SFUI_Settings_Music_Volume_InOverlay"	"处于 Steam 界面时的音乐音量"
+		"SFUI_Settings_Music_Volume_InOverlay"	"处于 Steam 叠加界面时的音乐音量"
 
 		"SFUI_Settings_Audio_Device"		"音频设备"
 		"SFUI_Settings_Audio_Device_Tip"	"控制 反恐精英 所使用的音频设备。"
 	
-		"SFUI_Settings_Input_Audio_Device"	"语音输入音频设备"
+		"SFUI_Settings_Input_Audio_Device"	"语音��入音频设备"
 		"SFUI_Settings_Input_Audio_Device_Tip"	"控制 反恐精英 使用哪个音频设备来捕获麦克风语音。"
 
 		"SFUI_Settings_Headphone_EQ"		"均衡器简介"
 		"SFUI_Settings_Headphone_EQ_Tip"	"改变游戏中的整体声染色。可以帮助抵消各种硬件和软件组合造成的声染色。给自己一些时间来适应新的均衡器。 <br/><br/><b>自然（默认）：</b> 无额外着色。<br/><br/><b>清脆：</b> 增强中高频频段。可以帮助声音定位并减少消音。在某些情况下可能听起来很刺耳。<br/><br/><b>平滑：</b> 降低中高频。有助于减少长时间游戏过程中的刺耳声、音量峰值和耳朵疲劳。非常适合录音室级耳机和音量较大的播放器。"
+		"SFUI_Settings_Headphone_NoOverride"	"默认"
 		"SFUI_Settings_Headphone_Gamer"		"清脆"
 		"SFUI_Settings_Headphone_None"		"自然"
-		"SFUI_Settings_Headphone_Studio"	"平滑"	
+		"SFUI_Settings_Headphone_Studio"	"平滑"
+		"SFUI_Settings_GameModeVolume_Competitive_Tip"		"竞技模式中的音量调整和均衡器覆盖。"
+		"SFUI_Settings_GameModeVolume_Casual_Tip"		"休闲模式中的音量调整和均衡器覆盖。"
+		"SFUI_Settings_GameModeVolume_Spectator_Tip"		"在休闲模式和竞技模式中，当处于死亡观战状态时的音量缩放和均衡器覆盖。"
+		"SFUI_Settings_GameModeVolume_Deathmatch_Tip"		"死亡竞赛中的音量缩放和均衡器覆盖。"
+		"SFUI_Settings_GameModeVolume_Armsrace_Tip"		"军备竞赛中的音量缩放和均衡器覆盖。"	
 
 		"SFUI_Settings_Speaker_Config"		"音频输出配置"
 		"SFUI_Settings_Speaker_Config_Tip"	"控制 反恐精英 音频输出的声道数。"
@@ -31597,7 +31754,7 @@
 		"SFUI_Settings_VOIP_Volume_Tip"								"调整从其他玩家传入的语音通信（VOIP）总体音量。"
 
 		"SFUI_Settings_voice_always_sample_mic"						"简化按键通话"
-		"SFUI_Settings_voice_always_sample_mic_tooltip"				"保持录音设备处于活动状态，以免在某些硬件上出现游戏死机。"
+		"SFUI_Settings_voice_always_sample_mic_tooltip"				"在游戏开始时打开录音设备，而不是在第一次使用麦克风时打开。"
 
 		"SFUI_Settings_VOIP_Positional"								"其他玩家的语音位置"
 		"SFUI_Settings_VOIP_Positional_Tip"							"按位置播放游戏中的 VOIP。"
@@ -31614,6 +31771,23 @@
 		"SFUI_Settings_Audio_FOV_Tip"			"<b>是（默认）：</b> 当你查看电脑屏幕时，将根据你的视野精确地渲染声源。位于视野边缘的发声器在你面前会发出轻微的声音。屏幕外直接对着你身边的发声器听起来会分别完全平移到左或右。<br/><br/><b>否：</b> 视野边缘的发声器听起来会分别强烈平移到左或右。非常适合那些在离屏幕很近的地方玩游戏，或者使用可穿戴屏幕的玩家，或者喜欢传统声音引擎的玩家。在某些角度可能会对听众产生位置误导。"
 		"SFUI_Settings_Audio_FOV_Off"			"否"
 		"SFUI_Settings_Audio_FOV_On"			"是"
+
+		"SFUI_Settings_Arms_Race_Volume"	"军备竞赛音量"
+		"SFUI_Settings_Deathmatch_Volume"	"死亡竞赛音量"
+		"SFUI_Settings_Competitive_Volume"	"竞技模式音量"
+		"SFUI_Settings_Casual_Volume"		"休闲模式音量"
+		"SFUI_Settings_Spectator_Volume"	"死亡观战音量"
+
+		"SFUI_Settings_GameModeEQ_Tip"		"允许为每个游戏模式分配特定的均衡器配置文件。可以用于在繁忙的游戏模式（如军备竞赛和死亡竞赛）中减轻耳朵疲劳、增加舒适度，同时在休闲或竞技模式中保持清晰度。"
+		"SFUI_Settings_Arms_Race_EQ"		"军备竞赛均衡器"
+		"SFUI_Settings_Arms_Race_EQ_Tip"	"在军备竞赛期间应用此均衡器配置"
+		"SFUI_Settings_Deathmatch_EQ"		"死亡竞赛均衡器"
+		"SFUI_Settings_Deathmatch_EQ_Tip"	"在死亡竞赛期间应用此均衡器配置"
+		"SFUI_Settings_Competitive_EQ"		"竞技模式均衡器"
+		"SFUI_Settings_Competitive_EQ_Tip"	"在竞技模式比赛期间应用此均衡器配置"
+		"SFUI_Settings_Casual_EQ"		"休闲模式均衡器"
+		"SFUI_Settings_Casual_EQ_Tip"		"在休闲模式比赛期间应用此均衡器配置"
+
 
 		"SFUI_Settings_Menu_Music_Volume"							"主菜单音量"	
 		"SFUI_Settings_Start_Round_Music_Volume"					"回合开始音量"
@@ -31665,6 +31839,8 @@
 		"SFUI_CSM_Med"					"中"
 		"SFUI_CSM_High"					"高"
 		"SFUI_CSM_VeryHigh"				"非常高"
+		"SFUI_Shadows_SunOnly"			"仅限日光"
+		"SFUI_Shadows_All"				"全部"
 		"SFUI_FXAA_Enabled"				"已启用"
 		"SFUI_FXAA_Disabled"				"已禁用"
 		"SFUI_Settings_Choice_Autodetect"	"自动"
@@ -31700,11 +31876,6 @@
 		"SFUI_Settings_HudTelemetry_Show_Never" "从不"
 		"SFUI_Settings_HudTelemetry_Show_OnlyInPoorConditions" "如果条件恶劣"
 		"SFUI_Settings_HudTelemetry_Show_Always" "总是"
-
-		"SFUI_Settings_Network_ProblemAutoShow"   "显示网络连接问题"
-		"SFUI_Settings_Network_ProblemAutoShow_Info"   "当玩家遇到高丢包率或网络普遍不稳定时，允许游戏自动在右上角显示网络连接问题指示器。"
-		"SFUI_Settings_Network_ProblemAutoShow_Auto"  "自动"
-		"SFUI_Settings_Network_ProblemAutoShow_Off"   "已禁用"
 
 		"SFUI_Settings_Network_ExtraBuffering"   "数据包丢失，正在缓冲"
 		"SFUI_Settings_Network_ExtraBuffering_Info"   "缓冲来自服务器快照和客户端命令。\n\n减少由数据包丢失引起的卡顿现象，但会增加你的实际延迟时间。"
@@ -31765,12 +31936,15 @@
 		"Spectator_Best_Of_Series"				"BO{d:count} 赛制" // {d:numtowin} can be used for a "2 To Win" style string in place of "Best of 3"
 
 		"SFUI_Settings_ClanTag_In_Death_Notice"		"在死亡提示中显示队伍标签"
-		"SFUI_Settings_Identify_Teammates"		"在 HUD 中显示队友位置"
+		"SFUI_Settings_Identify_Teammates"		"通过墙壁显示队伍ID"
 
 		"SFUI_Settings_Radar_Rotate"			"雷达旋转"
 		"SFUI_Settings_Radar_Rotate_Info"		"切换为可旋转雷达或保持固定方向不动。"
 		"SFUI_Settings_Radar_Scale"				"雷达地图缩放"
+		"SFUI_Settings_Radar_Scale_Alternate"	"雷达地图切换缩放"
 		"SFUI_Settings_Radar_Scale_Info"		"地图缩放会影响雷达可视地图的范围。"
+		"SFUI_Settings_Radar_Scale_Alternate_Info"	"可以使用键盘按键切换的地图缩放级别"
+		"SFUI_Go_To_Radar_Toggle_Key_Binding"	"前往雷达缩放切换按键绑定"
 
 		"SFUI_Settings_Radar_Centered"			"雷达保持玩家居中"
 		"SFUI_Settings_Radar_Centered_Info"		"在雷达的两种模式：保持玩家居中 或 最佳适配 之间切换"
@@ -31831,7 +32005,7 @@
 		"SFUI_Settings_TeammateColorsLetters"	"在玩家颜色上方显示文字"
 
 		"SFUI_Settings_LobbyDefaultAccess"		"好友房间默认权限"
-		"SFUI_Settings_LobbyAccessFGN"			"好��、组和附近的玩家"
+		"SFUI_Settings_LobbyAccessFGN"			"好友、组和附近的玩家"
 		"SFUI_Settings_LobbyAccessNearby"		"好友和附近的玩家均可加入"
 		"SFUI_Settings_LobbyAccessClan"			"好友和组均可加入"
 		"SFUI_Settings_LobbyAccessPublic"		"所有好友均可加入"
@@ -31850,7 +32024,7 @@
 		
 		"SFUI_Settings_PlayerPingMuteVisuals_Title"	"隐藏玩家延迟显示"
 		"SFUI_Settings_MuteEnemies_Title"		"将敌方静音"
-		"SFUI_Settings_HideAvatars_Title"		"隐藏头像图片"
+		"SFUI_Settings_HideAvatars_Title"		"隐藏头像图片和自定义物品"
 		"SFUI_Settings_HideAvatars_All"			"全部显示"
 		"SFUI_Settings_HideAvatars_None"		"全部隐藏"
 		"SFUI_Settings_HideAvatars_Friends"		"只显示好友"
@@ -31893,6 +32067,13 @@
 		"SFUI_Settings_ViewmodelPosDesktop"		"默认"
 		"SFUI_Settings_ViewmodelPosCouch"		"写实"
 		"SFUI_Settings_ViewmodelPosClassic"		"经典"
+		
+		"Cstrike_SwitchHandedness"					"切换左/右手持枪视角"
+		"Cstrike_PreferredHandedness"				"首选左/右手持枪视角"
+		"Cstrike_PreferredHandedness_Desc"			"设置默认的左/右手持枪视角。游戏过程中还可以通过按键绑定临时切换持枪手。"
+		"Cstrike_PreferredHandedness_Right"			"右"
+		"Cstrike_PreferredHandedness_Left"			"左"
+		"Cstrike_GoToSwitchHandednessKeyBinding"	"前往切换持枪手按键绑定"
 
 		"Cstrike_FirstPersonTracers"		"第一人称追踪器"
 		"Cstrike_FirstPersonTracers_Desc"	"是否在本地渲染你自己的子弹轨迹。其他玩家仍然可以看到它们。"
@@ -31906,7 +32087,9 @@
 		"SFUI_Settings_PowerSavings_Info"	"在节能模式下，游戏刻意运行在较低的帧数以节约电池电力，延长在该电池电力下的游戏时间。"
 		"SFUI_Settings_Antialiasing_Info"	"抗锯齿设置通过消除锯齿状的边缘的方式，让游戏中物件模型的边缘看起来更平滑。提高抗锯齿质量将导至降低图形性能。"
 		"SFUI_Settings_Filtering_Info"		"增加的纹理滤波设置将改善游戏中纹理的外观。提高纹理过滤的质量会降低游戏流畅性。"
-		"SFUI_Settings_WaitForVSync_Info"	"为了最佳体验，建议使用垂直同步。禁用设置可能会导致视觉疲劳。"
+		"SFUI_Settings_WaitForVSync_Info"	"V-Sync帮助确保游戏的帧率与显示器的刷新率匹配，通常会带来更流畅的视觉体验，消除屏幕撕裂。"
+		"SFUI_Settings_FPS_Max_Info"		"设置你在游戏中体验的帧率上限。"
+		"SFUI_Settings_FPS_Max_UI_Info"		"设置你在浏览游戏菜单时体验的帧率上限。"
 		"SFUI_Settings_QueuedMode_Info"		"多核渲染可以让 反恐精英 善用您的系统中的多个中央处理器。禁用该选项可能会提高帧数，但是会降低画质。"
 		"SFUI_Settings_ShaderDetail_Info"	"光影细节控制游戏中的各种物件表面的照明复杂性和遮掩效果。较高的光影设置将增加视觉的质量，但会降低游戏流畅性。"
 		"SFUI_Settings_CPUDetail_Info"		"效果细节控制着游戏中某些视觉特效的复杂性及绘图距离。降低此效果会对游戏流畅性有一定的提高，但也会增加游戏中物品闪现的情况。"
@@ -31918,8 +32101,9 @@
 		"SFUI_Settings_TripleMonitor_Info"	"启用三倍显示模式，会限制相关UI元素的显示，包括HUD，显示范围会缩小到只有原来的33%。扩展到3台显示器时，会很有用。"	
 		"SFUI_Edit_Profile"					"编辑个人资料"
 		"SFUI_Settings_ColorMode"			"更改显示的颜色模式。仅在全屏模式下可用。"
-		"SFUI_Settings_Brightness"			"更改显示器的伽玛值，调节整体亮度。仅在全屏模式下可用。"
+		"SFUI_Settings_Brightness"			"更改游戏渲染的伽马值，以改变整体亮度。"
 		"SFUI_Settings_TextureStreaming_Info"	"纹理流技术使游戏可以在需要渲染时才开始高分辨率纹理的加载。禁用此设置将导致纹理内存消耗增加。在磁盘访问速度较慢的系统上，流纹理可能会立即可见。"
+		"SFUI_Settings_DynamicShadows_Info"	"选择玩家和烟雾等动态物体投射阴影的光源。“仅限日光”可以提高图形性能，但可能会让你在竞争中处于劣势，特别是在室内。"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Chat
@@ -31966,8 +32150,6 @@
 		"BuyMenu_Sellback"						"退款"
 		"BuyMenu_NewUserExperience_Recommended"	"推荐"
 		"BuyMenu_Promoted"						"促销"
-
-
 
 		"SFUI_BuyMenu_SelectWeapon" "选择\n武器"
 
@@ -32020,15 +32202,15 @@
 		"SFUI_BuyMenu_Header" "购买菜单"
 		"SFUI_BuyMenu_WeaponClass" "选择武器菜单"
 
-		"SFUI_BuyMenu_CanOnlyCarryXGrenades"	"您只能携带 {s:s1} 个投掷物"
-		"SFUI_BuyMenu_MaxItemsOfType"			"此类枪械您最多只能携带 {s:s1} 件"
-		"SFUI_BuyMenu_MaxItemsOfTypePurchased"	"此类物品只能购买 {s:s1} 件"
+		"SFUI_BuyMenu_CanOnlyCarryXGrenades:p{s1}"		"你只能携带{s:s1}颗投掷物#|#你只能携带{s:s1}颗投掷物"
+		"SFUI_BuyMenu_MaxItemsOfType:p{s1}"				"你只能携带此类型的{s:s1}个#|#你只能携带此类型的{s:s1}个"
+		"SFUI_BuyMenu_MaxItemsOfTypePurchased:p{s1}"	"你只能购买此类型的{s:s1}个#|#你只能购买此类型的{s:s1}个"
 		"SFUI_BuyMenu_AlreadyCarrying"			"于当前库存中。"
 		"SFUI_BuyMenu_AlreadyPurchased"			"你在本回合已经购买了此物品。"
 		"SFUI_BuyMenu_NotAllowedByMap"			"于此地图类型上不允许。"
 		"SFUI_BuyMenu_NotAllowedByMode"			"于此游戏模式中不允许。"
 		"SFUI_BuyMenu_NotAllowedByTeam"			"于您当前队伍中不允许。"
-        "SFUI_BuyMenu_ReachedWeaponsExpertLimit""本场比赛已经购买 {s:s1} 次"
+		"SFUI_BuyMenu_ReachedWeaponsExpertLimit:p{s1}"	"本场比赛已购买{s:s1}个#|#本场比赛已购买{s:s1}个"
 		"SFUI_BuyMenu_Cannot_Afford"			"还需$ {s:s1}"
 		"SFUI_BuyMenu_OnlyOneArmor"				"你已经有护甲了"
 		"SFUI_BuyMenu_NotAllowed_Short"			"不允许"
@@ -32040,6 +32222,8 @@
 		"buymenu_prohibited_weapon_hint"		"<b>{s:s1}</b> 在此模式下不可用"
 		"buymenu_weaponsexpert_reminder"		"每场比赛购买这把武器一次"
 		"buymenu_weaponsexpert_supply"			"队伍补给数：<b>%s1</b>"
+
+		"buymenu_groundweapons"					"掉落的武器"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy menu text information
@@ -32332,6 +32516,7 @@
 		"SFUI_OfficialDatacenterID_42"		"中国，成都"
 		"SFUI_OfficialDatacenterID_43"		"美国，纽约"
 		"SFUI_OfficialDatacenterID_44"		"欧洲，芬兰"
+		"SFUI_OfficialDatacenterID_45"		"英国"
 
 		"SFUI_UserAlert_HighPings"			"您连接官方服务器的最低延迟是 %s1 毫秒。"
 		"SFUI_UserAlert_Unreachable"		"连接到任意官方服务器失败。"
@@ -32602,7 +32787,7 @@
 		"SFUI_Lobby_GameSettingsCustom"		"%s1，%s2"
 
 		"SFUI_LobbyDisconnectError_NoMap"	"该房间载入指定地图时出现了一个问题。您已断开连接。"
-		"SFUI_LobbyDisconnectError_ListenServerDisabled"	"大��已关闭并且您已断开连接。"
+		"SFUI_LobbyDisconnectError_ListenServerDisabled"	"大厅已关闭并且您已断开连接。"
 		"SFUI_LobbyDisconnectError_CreationFailed"			"您的网络连接遇到问题，房间并未创建。"
 		"SFUI_LobbyDisconnectError_Kicked"					"您已被主机从房间中踢出游戏。"
 		"SFUI_LobbyDisconnectError_CreateLobbyFailed"		"大厅连接服务器超时。请检查您的网络连接并重试。"
@@ -32709,7 +32894,7 @@
 
 		"SFUI_Confirm_ActivateRequiredItem_season5_Purchased"		"<font color='#00FF00'>恭喜您购买“先锋大行动”通行证！</font>\n已激活的通行证能让您获得可升级的挑战币、包含 44 项可玩任务的两场大行动战役供您选择、“先锋大行动”武器箱掉落、一本记录服役生涯计分板、大行动计分板、好友排行榜的日志以及更多内容。是否立即激活？"
 
-		"SFUI_Confirm_ActivateRequiredItem_season5_Suggest"		"您有一份尚未激活的“先锋大行动”通行证。已激活的通行证能让您获得可升级的挑战币、包含 44 ���可玩任务的两场大行动战役供您选择、“先锋大行动”武器箱掉落、一本记录服役生涯计分板、大行动计分板、好友排行榜的日志以及更多内容。是否立即激活？"
+		"SFUI_Confirm_ActivateRequiredItem_season5_Suggest"		"您有一份尚未激活的“先锋大行动”通行证。已激活的通行证能让您获得可升级的挑战币、包含 44 项可玩任务的两场大行动战役供您选择、“先锋大行动”武器箱掉落、一本记录服役生涯计分板、大行动计分板、好友排行榜的日志以及更多内容。是否立即激活？"
 
 		"SFUI_Confirm_ActivateRequiredItem_season5_SuggestTime"		"您有一份尚未激活的“先锋大行动”通行证。已激活的通行证能让您获得可升级的挑战币、包含 44 项可玩任务的两场大行动战役供您选择、“先锋大行动”武器箱掉落、一本记录服役生涯计分板、大行动计分板、好友排行榜的日志以及更多内容。"
 		
@@ -32820,6 +33005,7 @@
 		"SFUI_Lobby_StatusInLobby"			"在房间中"
 		"SFUI_Lobby_StatusInLevel"			"在地图中"
 		"SFUI_Lobby_StatusInGame"			"正在玩其他游戏"
+		"SFUI_Lobby_StatusPlayingSteamRP"	"正在玩Counter-Strike"
 		"SFUI_Lobby_StatusPlayingCSGO"		"正在玩 反恐精英"
 		"SFUI_Lobby_StatusWatchingCSGO"		"正观看一场比赛"
 		"SFUI_Lobby_StatusOverwatch"		"在 CS:GO 监管会话中"
@@ -32901,7 +33087,7 @@
 		"SFUI_Lobby_StatusRichPresence_scrimcomp2v2_game"			"正在玩搭档模式"
 		"SFUI_Lobby_StatusRichPresence_scrimcomp2v2_community"	"社区搭档模式"
 		"SFUI_Lobby_StatusRichPresence_scrimcomp2v2_watch"		"正在观看搭档模式"
-		"SFUI_Lobby_StatusRichPresence_scrimcomp2v2_review"		"���在回放搭档模式"
+		"SFUI_Lobby_StatusRichPresence_scrimcomp2v2_review"		"正在回放搭档模式"
 		"SFUI_Lobby_StatusRichPresence_scrimcomp5v5_lobby"		"在武器专家模式房间中"
 		"SFUI_Lobby_StatusRichPresence_scrimcomp5v5_game"			"正在游玩武器专家模式"
 		"SFUI_Lobby_StatusRichPresence_scrimcomp5v5_community"	"社区武器专家模式"
@@ -33015,7 +33201,7 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		"SFUI_MajorEventVenue_Title_7_0"		"实况测试 - Valve 直播"
-		"SFUI_MajorEventVenue_Subtitle_7_0"		"这是 反恐精英 锦标赛实况系统测试"
+		"SFUI_MajorEventVenue_Subtitle_7_0"		"这是 反恐���英 锦标赛实况系统测试"
 		"SFUI_MajorEventVenue_Title_7_1"		"欧洲预选赛 - 德国直播"
 		"SFUI_MajorEventVenue_Subtitle_7_1"		"2015年 ESL One 科隆锦标赛的四支挑战组战队将在这场预选赛中脱颖而出"
 		"SFUI_MajorEventVenue_Title_7_2"		"北美预选赛 - 加利福尼亚直播"
@@ -33100,7 +33286,7 @@
 		"SFUI_MajorEventVenue_Subtitle_12_0"	"这是 CS:GO 锦标赛实况系统测试"
 		"SFUI_MajorEventVenue_Title_12_1"		"实况测试 - Valve 直播"
 		"SFUI_MajorEventVenue_Subtitle_12_1"	"这是 CS:GO 锦标赛实况系统测试"
-		"SFUI_MajorEventVenue_Title_12_2"		"2017年克拉科夫锦标赛 - 克拉���夫直播"
+		"SFUI_MajorEventVenue_Title_12_2"		"2017年克拉科夫锦标赛 - 克拉科夫直播"
 		"SFUI_MajorEventVenue_Subtitle_12_2"	"观看世界顶尖战队在 PGL 卡尔科夫锦标赛中一决高下"
 
 		// CS:GO Regional Championships for Winter 2018
@@ -33313,7 +33499,7 @@
 		"SFUI_Country_LA" "老挝人民民主共和国"
 		"SFUI_Country_LB" "黎巴嫩"
 		"SFUI_Country_LC" "圣卢西亚"
-		"SFUI_Country_LI" "列支敦士登"
+		"SFUI_Country_LI" "列���敦士登"
 		"SFUI_Country_LK" "斯里兰卡"
 		"SFUI_Country_LR" "利比里亚"
 		"SFUI_Country_LS" "莱索托"
@@ -34365,7 +34551,7 @@
 		"SFUI_DisconnectReason_LobbyBlockedYou"				"加入会话失败。原因：您在此会话中已被一名或多名玩家屏蔽。"
 		"SFUI_DisconnectReason_LobbyYouBlocked"				"加入会话失败。原因：您在此会话中已屏蔽一名或多名玩家。"
 		"SFUI_DisconnectReason_LobbyDoesntExist"			"加入会话失败。请重试。"
-		"SFUI_DisconnectReason_LobbyRatelimit"				"您短时间内尝试加入公开房间的次数过多。请稍候再试。"
+		"SFUI_DisconnectReason_LobbyRatelimit"				"您短时间内尝试加入公开房间的次数过多。��稍候再试。"
 		"SFUI_DisconnectReason_ListenServerDisabled"		"未找到服务器，且监听服务器被本客户端禁用。创建新会话失败。"
 		"SFUI_DisconnectReason_MustUseMatchmaking"			"连接到游戏服务器失败。您必须使用官方匹配系统寻找 Valve 官方服务器上的游戏。"
 		"SFUI_DisconnectReason_ServerLanRestricted"			"连接到游戏服务器失败。该游戏服务器限制客户端只能从内部局域网连接。"
@@ -34442,6 +34628,8 @@
 		"Player_DisconnectReason_NoSteamLogin"				"无效的用户登录"
 		"Player_DisconnectReason_NoSteamTicket"				"游戏验证失败"
 		"Player_DisconnectReason_ConnectionClosing"			"正在关闭连接"
+		"Player_DisconnectReason_InputAutomation"			"输入自动化"
+		"Player_DisconnectReason_InputAutomation_Detail"	"因输入自动化被踢出"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Profile Text
@@ -34557,7 +34745,7 @@
 		"KILL_ENEMY_DEAGLE_NAME"	"亚洲的雄鹰"
 		"KILL_ENEMY_DEAGLE_DESC"	"使用沙漠之鹰手枪累计击杀 200 名敌人"
 
-		"KILL_ENEMY_GLOCK_NAME"	"全自动火力"
+		"KILL_ENEMY_GLOCK_NAME"	"全自���火力"
 		"KILL_ENEMY_GLOCK_DESC"	"使用格洛克 18 型手枪累计击杀 100 名敌人"
 
 		"KILL_ENEMY_ELITE_NAME"	"左右开弓"
@@ -34683,7 +34871,7 @@
 		"KILL_WITH_EVERY_WEAPON_NAME"	"神枪手"
 		"KILL_WITH_EVERY_WEAPON_DESC"	"每一种武器都有过击杀记录"
 		"WIN_EVERY_GUNGAME_MAP_NAME"		"射手"
-		"WIN_EVERY_GUNGAME_MAP_DESC"		"在每���幅军备竞赛和爆破模式地图中都赢得一场比赛的胜利"
+		"WIN_EVERY_GUNGAME_MAP_DESC"		"在每一幅军备竞赛和爆破模式地图中都赢得一场比赛的胜利"
 		"PLAY_EVERY_GUNGAME_MAP_NAME"	"旅行家"
 		"PLAY_EVERY_GUNGAME_MAP_DESC"		"在每一幅军备竞赛和爆破模式地图上都进行过一回合游戏"
 		"GUN_GAME_KILL_KNIFER_NAME"			"予以否决！"
@@ -34896,7 +35084,7 @@
 		"SFUI_Rules_Hostage_T"							"人质看守任务：\n你的队伍看管着一些人质。阻止CT救走人质或是歼灭所有CT即可获得胜利。"
 		"SFUI_Rules_Hostage_CT"							"人质营救任务：\n营救人质，背着他们到人质营救点。成功解救所有人质或是歼灭所有T即可获得胜利。"
 		"SFUI_Rules_Hostage_Loading_Classic"			"人质场景任务\n\n可在每一回合开始\n用获得的金钱购买新武器。\n\n设定：\n· 友军伤害关闭\n· 可穿过队友身体\n· 杀敌奖励金额减半"
-		"SFUI_Rules_Hostage_Loading_Competetive"		"人质场景任务\n\n可在每一回合开始\n用获得的金钱购买新武器。\n\n设定：\n· 友军伤害开启\n· 不可穿过队友身体\n· 可购买��甲和\n 拆弹器"
+		"SFUI_Rules_Hostage_Loading_Competetive"		"人质场景任务\n\n可在每一回合开始\n用获得的金钱购买新武器。\n\n设定：\n· 友军伤害开启\n· 不可穿过队友身体\n· 可购买护甲和\n 拆弹器"
 
 		"SFUI_Rules_Deathmatch_Loading"				"在重生后的一段时间内，所有武器\n皆可免费选择。\n\n在回合时间结束时，通过\n得到最高分赢得比赛。\n\n设定：\n· 扫射所有移动对象\n· 所有玩家皆为有效目标\n· 立即随机重生\n· 比赛持续 10 分钟"
 		"SFUI_Rules_DeathmatchFFA_Loading"			"在重生后的一段时间内，所有武器\n皆可免费选择。\n\n在回合时间结束时，通过\n得到最高分赢得比赛。\n\n设定：\n· 扫射所有移动对象\n· 所有玩家皆为有效目标\n· 立即随机重生\n· 比赛持续 10 分钟"
@@ -35000,7 +35188,7 @@
 
 		"SFUI_Hint_Flashbang_Careful"	"闪光震撼弹能短暂地致盲所有看见它爆炸的人。请小心使用，因为它甚至还会影响到您的队友和您自己！"
 		"SFUI_Hint_BuyArmor"			"在竞技模式中，不要忘记购买护甲！穿上护甲能让您承受更多的伤害，并且能让您存活更久。"
-		"SFUI_Hint_BuyArmor2"			"请记得购买护甲。对于非完全护甲穿透的武器，护甲能降低受到的来自这些武器的伤害。"
+		"SFUI_Hint_BuyArmor2"			"请记得购买护甲。��于非完全护甲穿透的武器，护甲能降低受到的来自这些武器的伤害。"
 		"SFUI_Hint_Defusal_Speed"		"在竞技模式中不要忘记购买拆弹器！拆弹器能大大减少拆除炸弹所需的时间。"
 		"SFUI_Hint_Defuse_Wins"         "拆除炸弹就能赢得回合的胜利，无论还有多少敌人存活。"
 		"SFUI_Hint_AWP_Hint1"           "AWP 狙击步枪具有非常大的杀伤力，通常能够一击致命。利用它强大的瞄准镜优势，远距离解决敌人。"
@@ -36332,11 +36520,15 @@
 
 		"PlayMenu_GraphicsDriverWarning_Title"		"警告：显卡驱动程序已过期"
 		"PlayMenu_GraphicsDriverWarning_AMD"		"为了获得最佳游戏体验，请访问 AMD 支持下载最新驱动程序。"
-		"PlayMenu_GraphicsDriverWarning_Nvidia"		"为了获得最佳游戏体验，请访问 Nvidia 支持下载最新驱动程序。"
+		"PlayMenu_GraphicsDriverWarning_Nvidia"		"为了获得最佳的游戏体验，请访问NVIDIA支持网站下载最新的驱动程序。"
 		"PlayMenu_GraphicsDriverLink_AMD"			"访问 AMD"
-		"PlayMenu_GraphicsDriverLink_Nvidia"		"访问 Nvidia"
+		"PlayMenu_GraphicsDriverLink_Nvidia"		"访问NVIDIA"
 
-		
+		"SettingsRecommendation"					"设置推荐"
+		"VariableRefreshRateRecommendation_Nvidia"	"看起来你有一个支持NVIDIA G-Sync的显示器，但当前未启用。建议启用G-Sync以获得最佳的游戏体验。可以在游戏外使用NVIDIA控制面板启用它。可能需要重新启动游戏以使更改生效。"
+		"RefreshRateRecommendation"					"看起来你的显示器有一个{d:max_refresh_rate} Hz模式，但当前运行在{d:curr_refresh_rate} Hz。一般建议使用显示器支持的最高刷新率以获得最佳的游戏体验。"
+		"LowLatencyVSyncRecommendation_Nvidia"		"看起来你启用了NVIDIA G-Sync，但未启用V-Sync和NVIDIA Reflex。建议一起启用这三个设置以获得最佳的游戏体验。"
+
 		"PlayMenu_GraphicsDriverWarning_RemindMeLater"	"稍后提醒我"
 		"PlayMenu_GraphicsDriverWarning_DontShowAgain"	"不再显示"
 
@@ -36584,6 +36776,7 @@
 		"inv_sort_type"						"类型"
 		"inv_search_default"				"键入搜索"
 		"inv_nav_all"						"全部"
+		"inv_nav_rentals"					"租赁"
 		"inv_nav_weapons"					"武器"
 		"inv_nav_graphics"					"艺术作品"
 		"inv_nav_equipment"					"装备"
@@ -36611,6 +36804,7 @@
 		"inv_nav_items"						"物品"
 		"inv_nav_market"					"Steam 市场"
 		"inv_nav_search"					"搜索物品"
+		"inv_nav_filter_rentals"			"隐藏已租赁的物品"
 
 		"loadout_wedge_weapon_name"			"<b>{s:item-name}</b>"
 		"loadout_clear_filters"				"清除过滤器"
@@ -36722,7 +36916,8 @@
 
 		"CSGO_ItemName_Base"				"<span class=\"fontWeight-Bold\">{s:item_name}</span>"
 		"CSGO_ItemName_Painted"				"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>{s:paintkit_name}"
-		"CSGO_ItemName_Custom"				"{s:item_name}"
+		"CSGO_ItemName_Custom_Painted"		"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>{s:paintkit_name}<br>\"<i>{s:custom_item_name}</i>\""
+		"CSGO_ItemName_Custom_Simple"		"<span class=\"fontWeight-Bold\">{s:item_name}</span><br>\"<i>{s:custom_item_name}</i>\""
 
 		"popup_casket_action_remove"		"取回"
 		"popup_casket_title_add"			"正在存入库存存储组件"
@@ -36730,14 +36925,18 @@
 		"popup_casket_title_loadcontents"	"正在打开库存存储组件"
 
 		"popup_inv_lootlist_header"		"正在检视 {s:container}"
+		"popup_inv_lootlist_rental_header"		"检查你租赁的武器"
 		"popup_inv_lootlist_count"		"{d:index}/{d:total}"
 		"popup_inv_lootlist_inspect_all"	"检视物品"
+
+		"popup_inspect_header_name"			"{s:item_name}"
+		"popup_inspect_header_customname"	"\"{s:item_custom_name}\""
 
 		"popup_casket_title_error_casket_too_full"		"库存存储组件已满"
 		"popup_casket_message_error_casket_too_full"	"库存存储组件已满，存入物品失败。您可以从游戏内商店购买额外的库存存储组件。"
 
 		"popup_casket_title_error_casket_inv_full"		"库存已满"
-		"popup_casket_message_error_casket_inv_full"	"库存已满，取回物品失败。您可以从游戏内商店购买额外的库存存储组件。这样您就可以从库存中存入其他剩余物品，并在之后将该物品取回库存。"
+		"popup_casket_message_error_casket_inv_full"	"库存已满，取回物品失败。您可以从游戏内���店购买额外的库存存储组件。这样您就可以从库存中存入其他剩余物品，并在之后将该物品取回库存。"
 
 		"popup_casket_title_prompt_bulkstore"		"需要存放更多物品？"
 		"popup_casket_message_prompt_bulkstore"		"您想要从库存存入更多物品到这个库存存储组件吗？"
@@ -36854,15 +37053,22 @@
 		"popup_decodeable_async_desc"	"使用 <b>{s:itemname}</b>"
 		"popup_decodeable_async_xray_desc"		"使用 X 射线扫描仪以揭示内部的物品"
 		"popup_decodeable_err_restricted"	"无法在当前地区开启 <b>{s:itemname}</b>"
+		"popup_decodable_open_case"		"开启并保留"
+		"popup_decodable_keep_weapon"	"保留一把武器"
+		"popup_decodable_rent_weapons"		"开启并租赁"
+		"popup_decodable_rent_get_key"		"需要{s:itemname} <b>{s:price}</b>"
+		"popup_decodable_rent_weapon_count:p{numlootlist}"	"租赁{d:numlootlist}件武器7天#|#租赁{d:numlootlist}件武器7天"
 
 		//Capability
 		"popup_capability_upsell"	"这个操作需要一个 <b>{s:itemname}</b>"
+		"popup_capability_upsell_rental"	"需要一把 <b>{s:itemname}</b> 来打开武器箱并保留一件物品或租赁全部物品"
 		"popup_capability_use"		"<b>{s:itemname}</b>"
 		"popup_totool_nameable_header"	"预览名称标签"
 		"popup_totool_decodeable_header"	"开箱"
 		"popup_totool_decodeable_header_graffiti"	"开启涂鸦"
 		"popup_totool_decodeable_header_fantoken"	"激活物品"
 		"popup_totool_purchase_header"	"购买"
+		"popup_totool_purchase_header2"	"购买以获得"
 
 		//Purchase
 		"popup_cartpreview_button"		"预览"
@@ -36889,6 +37095,7 @@
 		"popup_xray_ready_for_use"		"X 射线扫描仪现可以用于扫描您的武器箱"
 		"popup_xray_already_in_use"		"您的物品现在可以获取"
 		"popup_xray_reveal_warning"  	"使用 X 射线扫描仪来消耗掉这个武器箱并揭示出其中的物品。"
+		"popup_xray_reveal_warning_short"  	"使用时可显示里面的物品。"
 		"popup_xray_in_use_title"		"X 射线扫描仪"
 		"popup_xray_in_use_desc"		"您的 X 射线扫描仪目前已经揭示出了上一个放在其中的武器内部的物品。 \n\n您必须先付费获取这个物品才能继续使用 X 射线扫描仪。"
 		"popup_xray_first_use_title"	"X 射线扫描仪"
@@ -36941,10 +37148,11 @@
 		"tournament_items_notice"		"仅可启封一张通行证。\n已购买的通行证需要等待一周才可交易/在市场上出售。"
 
 		//redeem souvenir
-		"popup_redeem_souvenir_title" "获取本场比赛纪念品"
-		"popup_redeem_souvenir_action_redeem" "获取纪念品"
-		"popup_redeem_souvenir_action_price" "{s:price} 获得纪念品"
-		"popup_redeem_souvenir_desc:p{redeems}" "<span class=\"get-souvenir-redeem-count\">{d:redeems}</span> 纪念品兑换剩余#|#<span class=\"get-souvenir-redeem-count\">{d:redeems}</span> 纪念品兑换剩余"
+		"popup_redeem_souvenir_title" "兑换本场比赛纪念品"
+		"popup_redeem_souvenir_action" "获得纪念包"
+		"popup_redeem_souvenir_action_redeem" "兑换纪念包"
+		"popup_redeem_souvenir_action_price" "{s:price} 获得纪念包"
+		"popup_redeem_souvenir_desc:p{redeems}" "<span class=\"get-souvenir-redeem-count\">{d:redeems}</span> 纪念包兑换剩余#|#<span class=\"get-souvenir-redeem-count\">{d:redeems}</span> 纪念包兑换剩余"
 
 		//operation popup
 		"op9_name"							"“裂网大行动”"
@@ -36983,7 +37191,7 @@
 		"op_select_mission_card"			"开始任务"
 		"op_unclaimed_rewards"				"{d:unclaimed_reward} 未领取的奖励。"
 		"op_reward_warning"					"来自 {s:container_name} 的一个道具"
-		"op_tiers_column_stars"				"总计大行动之星"
+		"op_tiers_column_stars"				"总计大行动���星"
 		"op_mission_card_xp_reward"			"<b>{d:xp_missions_completed}</b>/{d:xp_missions_needed} 下一次经验值加成"
 		"op_mission_card_points"			"<b>{d:card_points_earned}</b>/{d:card_points_needed} 获得的大行动之星"
 		"op_mission_card_quest_progress"	"<b>{d:mission_points_earned}</b>/{d:mission_points_goal}"
@@ -37026,7 +37234,7 @@
 		"op_rewards_xp_tooltip"				"完成任务来获得经验值加成。"
 		"op_rewards_star_tooltip"			"本周您可以获得的大行动之星的数量。<br><br>您可以完成额外任务来获得大行动挑战币的进度和经验值加成。"
 		"op_rewards_next_tooltip"			"你已经有足够的大行动之星来领取奖励。完成任务来获取大行动之星。"
-		"op_rewards_pass_tooltip"			"您需要一���大行动通行证来领取奖励。"
+		"op_rewards_pass_tooltip"			"您需要一张大行动通行证来领取奖励。"
 		"op_rewards_locked_tooltip"			"通过完成任务或直接购买，都可获得大行动之星。大行动之星用于解锁奖励。"
 		"op_missions_tooltip"				"完成任务可获得大行动之星，每周可获取的大行动之星有上限。<br><br>当你拥有足够多的大行动之星，你将获得下一个奖励。<br><br>完成任务，你还可获得大行动挑战币进度以及经验值加成。<br><br>任务会以“周”为单位公布。"
 		"op_missions_tooltip_op10"			"完成任务，获得大行动之星和经验值加成。每周都可以获得一定数量的大行动之星。<br><br>大行动之星可以用来兑换大行动商店里的奖品。<br><br>或者用来升级大行动钱币。<br><br>任务会以每周任务的形式发布。"
@@ -37139,6 +37347,8 @@
 		"settings_account_conn_section"		"Twitch.tv"
 		"settings_crosshair"				"准星"
 		"settings_crosshair_info"			"自定义您的准星十字线大小、形状以及颜色。和好友分享您的准星代码，或尝试其他玩家的准星设置。"
+		"settings_grenadecrosshair"			"投掷物瞄点准星"
+		"settings_grenadecrosshair_info"	"用于定位投掷时的辅助瞄点视界"
 		"settings_radar_section"			"雷达"
 		"settings_radarandtablet_section"	"雷达 / 平板"
 		"settings_items_section"			"物品"
@@ -37147,12 +37357,15 @@
 		"settings_hud_section"				"Hud"
 		"settings_game_settings_section"	"游戏"
 		"settings_telemetry_section"		"遥测"
-		"settings_telemetry_section_info"	"自定义在 HUD 上显示哪些性能指标（例如 FPS、延迟以及丢包率等）。"
+		"settings_telemetry_section_info"	"自定义HUD中显示的性能指标，例如FPS、延迟和丢包率。"
 		"settings_audio_section"			"音频"
 		"settings_music_section"			"音乐"
+		"settings_voice_section"			"语音"
+		"settings_audio_advanced_section"		"游戏模式均衡器"
 		"settings_video_section"			"视频"
 		"settings_video_advanced_section"	"高级视频选项"
-		"settings_video_individual_presets"	"个人预设值："
+		"settings_video_frame_pacing"		"帧节奏"
+		"settings_video_presets"			"预设"
 		"settings_video_hud_edge_positions"	"HUD 边缘位置"
 		"settings_video_hud_edge_x"			"水平调整"
 		"settings_video_hud_edge_y"			"垂直调整"
@@ -37420,6 +37633,7 @@
 		"CSGO_Workshop_Mode_coopstrike"				"合作精英"
 		"CSGO_Workshop_Mode_custom"					"自定义"
 		"CSGO_Workshop_Mode_armsrace"				"军备竞赛"
+		"CSGO_Workshop_Mode_gungameprogressive"		"军备竞赛"
 		"CSGO_Workshop_Mode_demolition"				"爆破模式"
 		"CSGO_Workshop_Mode_flyingscoutsman"		"跳狙飞人"
 		"CSGO_Workshop_Mode_retakes"				"回防模式"
@@ -37680,6 +37894,8 @@
 		"tooltip_unequip_flair"						"卸下这件物品"
 		"tooltip_prime"								"优先状态帐户"
 
+		"tooltip_demo_highlights_toggle"			"切换亮点时刻回放"
+
 		"mainmenu_go_to_character_loadout"			"在武器装备中查看探员"
 		"mainmenu_switch_vanity_to_t"				"显示已装备好的 T 探员"
 		"mainmenu_switch_vanity_to_ct"				"显示已装备好的 CT 探员"
@@ -37713,7 +37929,7 @@
 		"gamemode_scrimcomp2v2_descsp"			"2 对 2 的竞技模式比赛，单包点地图。<br><br>可在每一回合开始用获得的金钱购买新武器，<br>并通过消灭敌方队伍或者完成目标获胜。"
 		"gamemode_scrimcomp2v2_descsplist"        "· 友军伤害关闭<br>· 可穿过队友身体<br>· 可购买护甲和拆弹器<br>· 16 局 9 胜"
 		"gamemode_scrimcomp2v2_desc"				"在回合时间较短的小型地图中保证参与整场比赛。可在每一回合开始用获得的金钱购买新武器，并通过消灭敌方队伍或者完成目标获胜。"
-		"gamemode_scrimcomp2v2_desclist"          "· 友军伤害关闭<br>· 可穿过队友身体<br>�� 可购买护甲和拆弹器<br>· 16 局 9 胜"
+		"gamemode_scrimcomp2v2_desclist"          "· 友军伤害关闭<br>· 可穿过队友身体<br>· 可购买护甲和拆弹器<br>· 16 局 9 胜"
 		"gamemode_scrimcomp5v5_descsp"			"可在每一回合开始用获得的金钱购买新武器。<br><br>通过消灭敌方队伍或者完成目标获胜。"
 		"gamemode_scrimcomp5v5_descsplist"        "· 友军伤害开启<br>· 不可穿过队友身体<br>· 可购买护甲和拆弹器<br>· 20 局 11 胜<br>· 每场比赛武器只能购买一次"
 		"gamemode_scrimcomp5v5_desc"				"在每把武器仅能购买一次的情况下保证参与整场比赛。可在每一回合开始用获得的金钱购买新武器。通过消灭敌方队伍或者完成目标获胜。"
@@ -37779,14 +37995,14 @@
 		"BuyMenu_Buyprev"				"[{s:bind_rebuy}] 再次购买先前物品"
 		"BuyMenu_Buyprev_Key"			"{s:rebuy}"
 		"BuyMenu_Back"					"[{s:bind_cancelselect}] 返回"
-		"BuyMenu_BuyForTeammate"		"持有 [{s:buywheel_donate_key}] 为队友购买"
+		"BuyMenu_BuyForTeammate"		"按住[{s:buywheel_donate_key}] 购买并投掷"
 		"BuyMenu_BuyForTeammate_Donate"		"[{s:csgo_donate}] 捐赠"
 
 		"BuyMenu_Sellbackall"			"[{s:bind_sellbackall}] 全部退款"
 
 
 		"BuyMenu_BuyForTeammate_Key"	"{s:autobuy}"
-		"BuyMenu_BuyForTeammate_hint"	"已购买武器将掉落至地面，供队友拾取"
+		"BuyMenu_BuyForTeammate_hint"	"购买并投掷"
 
 		"BuyMenu_Done"					"${cancel} 关闭"
 
@@ -37803,6 +38019,7 @@
 		"BuyMenu_NotInBuyZone"			"您已离开购买区域"
 		"BuyMenu_CantBuyTilNextWave"	"你无法在敌潮期间购买物品"
 		"BuyMenu_CantBuy"				"你无法购买物品"
+		"BuyMenu_MinMoneyNextRound"		"下回合最低金额：${d:next-round-min-money}"
 
 		"BuyMenu_Header"				"购买菜单"
 		"BuyMenu_WeaponClass"			"选择武器菜单"
@@ -37833,6 +38050,7 @@
 		"buymenu_tooltip_tagging"				"当敌人被击中时的减速效果"
 
 		"buymenu_money"							"${d:r:money}"
+		"buymenu_money_digitpanel_digits"		" $0123456789"
 		"buymenu_cost_amount"					"${d:r:item_price}"
 		"buymenu_killaward_amount"				"${d:r:kill_reward}({d:r:kill_reward_pct}%)"
 
@@ -38040,9 +38258,7 @@
 		"Scoreboard_money_val"							"${d:r:stat_d_money}"
 		"Scoreboard_damage"								"伤害"
 		"Scoreboard_knifekills"							"匕首 K"	
-		"Scoreboard_taserkills"							"电击枪 K"		
-
-
+		"Scoreboard_taserkills"							"电击枪 K"
 		"Scoreboard_lossmoneybonus_tooltip"				"{s:round_loss_income_team} 输掉一局将获得<b>${d:round_loss_income_amount}</b>"
 
 		"Scoreboard_ping_tooltip"		 				"延迟"
@@ -38203,11 +38419,14 @@
 		///////////////////////////////////////////////////////////
 		
 		"eom-skillgroup-win:p{matcheswon}"				"{s:rating_type} 比赛胜利次数#|#{s:rating_type} 比赛胜利次数"
+		"eom-skillgroup-map-win:p{matcheswon}"			"{s:rating_type} {s:map} 比赛获胜#|#{s:rating_type} {s:map} 比赛获胜"
+
 		"eom-skillgroup-needed-wins:p{winsneeded}"		"赢得 {d:winsneeded} 场比赛来显示您的段位#|#赢得 {d:winsneeded} 场比赛来显示您的段位"
 		"eom-skillgroup-expired"						"赢得 <b>1</b> {s:rating_type} 场比赛来刷新您过期的段位"
 		"eom-skillgroup-expired-premier"				"赢得 <b>1</b> {s:rating_type} 场比赛来刷新您过期的 CS 综合得分"
 		"eom-skillgroup-recalibrating"					"段位重新校准中，赢得 <b>1</b> {s:rating_type} 场比赛即可显示"
 		"eom-skillgroup-higher"							"更高段位"
+		"eom-skillgroup-map-name"						"您的 {s:rating_type} {s:map} 段位"
 		"eom-skillgroup-name"							"您的 {s:rating_type} 段位"
 		"eom-skillgroup-needed-dzgames"					"完成更多头号特训比赛以显示您的段位"
 
@@ -38318,7 +38537,7 @@
 		"Survival_StatName_TimeToMelee"					"获取首件近战武器耗时"
 		"Survival_StatName_TimeToSecondary"				"获取首支手枪耗时"
 		"Survival_StatName_TimeToPrimary"				"获取首件主武器耗时"
-		"Survival_StatName_TimeToSniperRifle"			"获取狙击步枪耗时"
+		"Survival_StatName_TimeToSniperRifle"			"��取狙击步枪耗时"
 		"Survival_StatName_TimeToHeavyAssaultSuit"		"获取重型突击套装耗时"
 
 		"Survival_StatName_TimeToWin"					"胜利耗时"
@@ -38746,8 +38965,6 @@
 		"eom-survival-damage-taken"						"承受伤害"
 		"eom-survival-damage-given"						"造成伤害"
 
-		"versus"										"对阵"
-
 
 
 		//////////////////////////////////////////////////////////////////
@@ -38967,14 +39184,20 @@
 		///////////////////////////////////////////////////////////
 
 		"Panorama_winpanel_mvp_award"				"MVP"
-		"Panorama_winpanel_mvp_award_kills"			"回合多杀MVP"
+		"Panorama_winpanel_mvp_award_kills"			"MVP"
 		"Panorama_winpanel_mvp_award_ace"			"回合王牌MVP"
 		"Panorama_winpanel_mvp_award_bombplant"		"放置炸弹MVP"
 		"Panorama_winpanel_mvp_award_bombdefuse"	"拆除炸弹MVP"
 		"Panorama_winpanel_mvp_award_rescue"		"营救人质MVP"
 		"Panorama_winpanel_mvp_award_score"			"最高得分MVP"
-		"Panorama_winpanel_mvp_award_gungame"		"{s:mvp}"
-		"Panorama_winpanel_mvp_winner"				"{s:mvp}"
+		"Panorama_winpanel_mvp_award_inferno"		"造成大量火焰伤害MVP"
+		"Panorama_winpanel_mvp_award_blast"			"造成大量爆炸伤害MVP"
+		"Panorama_winpanel_mvp_award_bombdefuse_clutch"	"关键拆弹MVP"
+		"Panorama_winpanel_mvp_award_bombplant_clutch"	"安放及看守炸弹MVP"
+		"Panorama_winpanel_mvp_award_gungame"		"MVP"
+		"Panorama_winpanel_mvp_winner"				"MVP"
+		"Panorama_winpanel_mvp_award_kills_three"	"最多击杀MVP（3杀）"
+		"Panorama_winpanel_mvp_award_kills_four"	"最多击杀MVP（4杀）"
 
 		"Panorama_WinPanel_rank_awarded_multi"	"您已提升了 {d:rank_increase} 个新等级！"
 
@@ -39080,6 +39303,7 @@
 		"pickem_save_all" 			"保存所有选择"
 		"pickem_make_picks" 		"进行 {d:user-picks} / {d:total-picks} 选择"
 		"pickem_drag_picks" 		"拖动队伍做出选择"
+		"pickem_reveal_all_results" "显示最终排名"
 		"pickem_saved" 		"选择已保存"
 		"pickem_teams_tbd" 	"待定队伍"
 		"pickem_challenge_section_title" "赛事竞猜挑战"
@@ -39089,10 +39313,12 @@
 		"pickem_items_tab_playoff_stage" "决胜赛"
 		"pickem_teams_remove_all_tooltip" 	"清除所有选择"
 		"pickem_teams_fill_tooltip" 	"随机填充空白选择"
-		"pickem_teams_remove_all_tooltip" 	"Clear all picks"
+		"pickem_versus"				"对阵"
 		"contextmenu_pickem_souvenir_title" 	"选择你想要纪念包的比赛"
-		"contextmenu_pickem_souvenir_no_result" 	"比赛结束后来领取纪念包"
+		"contextmenu_pickem_souvenir_no_result" 	"比赛结束后来获取纪念包"
 		"mainmenu_major_hub"	"哥本哈根Major竞猜中心和物品"
+		"mainmenu_major_hub_items"	"印花胶囊现已推出"
+		"mainmenu_major_hub_no_items" "哥本哈根Major竞猜中心"
 
 		"pickem_swiss_group_00"									"0:0"
 		"pickem_swiss_group_10"									"1:0"
@@ -39173,7 +39399,6 @@
 
 
 		"digitpanel_digits"			 " 0123456789,.-+?"
-		"digitpanel_digits_hudmoney" " $0123456789"
 		"digitpanel_digits_premier" " 1234567890,?"
 
 
@@ -39184,17 +39409,15 @@
 		///////////////////////////////////////////////////////////
 		
 		"Panorama_Overwatch_Downloading"		"正在下载监管事件文件..."
-		"Panorama_Overwatch_Review"				"审议一个监管事件大约需要 10 分钟。"
-		"Panorama_Overwatch_Welcome"			"欢迎来到“监管”系统"
-		"Panorama_Overwatch_Tooltip_p1"		"监管允许 CS:GO 社区通过提供一些合格且经验丰富的社区成员（即“调查员”）来审议玩家举报的破坏性行为，判定举报是否有效，申请封禁（如适用），来进行自我调节。\n\n如果您选择参加，您将被提供涉嫌破坏性行为的玩家的一份回放（大约 10 分钟），并有机会在最后进行判决。"
+		"Panorama_Overwatch_Review"				"感谢提交您的判决。"
+		"Panorama_Overwatch_Welcome"			"《反恐精英》监管"
+		"Panorama_Overwatch_Tooltip_p1"			"作为您为《反恐精英》工作的一部分，您将下载并审议在Valve官方服务器上的《反恐精英》比赛回放，以寻找可疑行为。当回放结束时，您将被要求对玩家的游戏表现作出判决。"
 		"Panorama_Overwatch_Tooltip_sh1"		"第 1 步"
-		"Panorama_Overwatch_Tooltip_p2"		"点击按钮<b>“下载证据”</b>。事件回放将开始下载。"
+		"Panorama_Overwatch_Tooltip_p2"			"点击右下角的“下载证据”下载监管案件。"
 		"Panorama_Overwatch_Tooltip_sh2"		"第 2 步"
-		"Panorama_Overwatch_Tooltip_p3"			"点击<b>“审议证据”</b>。您将开始观看回放。"
+		"Panorama_Overwatch_Tooltip_p3"			"点击“审议证据”观看服务器记录的玩家视角回放。"
 		"Panorama_Overwatch_Tooltip_sh3"		"第 3 步"
-		"Panorama_Overwatch_Tooltip_p4"			"最后，从可能的选项中选择一个适当的决议。"
-		"Panorama_Overwatch_Tooltip_sh4"		"第 4 步"
-		"Panorama_Overwatch_Tooltip_p5"			"大功告成！\n\n当您的事件被解决后，系统将根据您判断的准确性让您<b>获得经验值奖励</b>。您可以在官方服务器比赛结束时获得经验值。感谢您帮助CS:GO社区。"
+		"Panorama_Overwatch_Tooltip_p4"			"案件审议结束后，为每个问题选择一个决议，并点击“提交判决”。"
 		"Panorama_Overwatch_Major_Disruption"	"严重破坏行为"
 		"Panorama_Overwatch_Minor_Disruption"	"次要破坏行为"
 		"Panorama_Overwatch_Res_Griefing"		"骚扰"
@@ -39407,7 +39630,7 @@
 		"GameUI_Retake_Card_TakeFive"			"稍事休息"
 		"GameUI_Retake_Card_OnlyTakesOne"		"只搞掉一个"
 		"GameUI_Retake_Card_SneakyBeakyLike"	"三寸鸟七寸嘴"
-		"GameUI_Retake_Card_UmpInSmoke"			"烟锁 UMP"
+		"GameUI_Retake_Card_UmpInSmoke"			"烟��� UMP"
 		"GameUI_Retake_Card_FunNGun"			"奇趣射击"
 		"GameUI_Retake_Card_Sharpshooter"		"神枪手"
 		"GameUI_Retake_Card_BurstBullpup"		"无托爆裂者"
@@ -39447,15 +39670,42 @@
 		"LoadoutLockedPopupTitle"				"装备锁定"
 		"LoadoutLockedPopupText"				"在竞技匹配中不允许更改装备。"
 
-		"Workshop_tournament_item_title" "锦标赛物品提交工具"
-		"Workshop_tournament_item_error_title" "输入一个标签。这应该包括玩家昵称或其他识别信息。"
-		"Workshop_tournament_item_error_image" "选择一个小于 {s:max_size} 且宽度/高度至少为 {d:min_height} 的有效jpeg或png图像。"
-		"Workshop_tournament_item_ready" "提交准备上传"
+		"Workshop_item_title" "物品提交工具"
+		"Workshop_item_error_title" "输入一个标签。这应该包括玩家昵称或其他识别信息。"
+		"Workshop_item_error_image" "选择一个小于 {s:max_size} 且宽度/高度至少为 {d:min_height} 的有效jpeg或png图像。"
+		"Workshop_item_ready" "提交准备上传"
 		"SFUI_Go_To_Mic_Enable_key" "前往麦克风按键绑定"
 		"SFUI_Go_To_Console_Key_Binding" "前往控制台按键绑定"
 
-// crow_mask_41910_comment
-// crow_mask_41911_comment
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Steam Video
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"SteamVideo_Player_Kill_Title"					"你击杀了%s1"
+		"SteamVideo_Player_Kill_Description"			"使用%s1"
+				
+		"SteamVideo_Player_Double_Kill_Title"			"双杀"
+		"SteamVideo_Player_Multi_Kill_Title"			"多重击杀"
+		
+		"SteamVideo_Player_Death_Title"					"你被%s1击杀"
+		"SteamVideo_Player_Death_Description"			"使用%s1"
+		"SteamVideo_Player_Death_Description_Plural"	"使用%s1"
+		"SteamVideo_Player_Killed_Self_Title"			"你自杀了"
+		
+		"SteamVideo_Bomb_Planted_Title"					"炸弹已安放"
+		"SteamVideo_Bomb_Planted"						"%s1安放了炸弹"
+		"SteamVideo_Bomb_Planted_LocalPlayer"			"你安放了炸弹"
+		
+		"SteamVideo_Bomb_Defused_Title"					"炸弹已被拆除"
+		"SteamVideo_Bomb_Defused"						"%s1拆除了炸弹"
+		"SteamVideo_Bomb_Defused_LocalPlayer"			"你拆除了炸弹"
+		
+		"SteamVideo_Bomb_Exploded_Title"				"炸弹已爆炸"
+		
+		"SteamVideo_Round_Number_Label"					"第%s1回合"
+		"SteamVideo_Start_Of_Round_Title"				"回合开始%s1"
+
+// crow_mask_42161_comment
+// crow_mask_42162_comment
 }
 
 
