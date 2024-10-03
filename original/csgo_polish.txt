@@ -2334,6 +2334,7 @@
 		"Item_PeriodicScoreReward"				" %s1 otrzymuje: %s2"
 		"Item_Named"							" Gracz %s1 zmienił nazwę swojego przedmiotu z %s2 na %s3"
 		"Item_Rental"							" %s1 wypożycza: %s2"
+		"Item_XpShopRedeem"						" %s1 otrzymuje ze zbrojowni: %s2"
 
 		"Item_NotConnected"						"Musisz być w grze, aby użyć tego przedmiotu!"
 		"Item_Need2Players"						"Inni gracze muszą być w twojej grze, aby użyć tego przedmiotu!"
@@ -2351,6 +2352,7 @@
 		"NewItemMethod_Purchased"		"Kupujesz:"
 		"NewItemMethod_FoundInCrate"	"Otwierasz i znajdujesz:"
 		"NewItemMethod_Rental"			"Wypożyczasz:"
+		"NewItemMethod_XpShopRedeem"	"Otrzymujesz ze zbrojowni:"
 		"NewItemMethod_Gifted"			"Otrzymujesz w prezencie:"
 		"NewItemMethod_Promotion"		"Otrzymujesz promocyjny przedmiot ze sklepu:"
 		"NewItemMethod_Earned"			"Zdobywasz:"
@@ -2620,6 +2622,8 @@
 		"Attrib_IssueDate"							"Data wydania: %s1"
 		"Attrib_ExpirationDate"						"Czas wygaśnięcia: %s1"
 
+		"Notify_KeychainRemoveTool_ChargesUseToRemove"	"Dostępne odczepiacze przywieszek: {d:item_count}<br>Odczepienie przywieszki zużywa jeden odczepiacz przywieszek."
+		"Attrib_KeychainRemoveTool_Charges"			"Dostępne odczepiacze przywieszek: {d:item_count}"
 		"Attrib_SpraysRemaining"					"Możliwe użycia: %s1"
 		"Attrib_SpraysRemaining_Unlimited"			"Nielimitowane graffiti"
 		"Attrib_SprayTintID"						"Kolor graffiti"
@@ -3417,6 +3421,9 @@
 		"CSGO_Purchasable_Game_License_Desc_PW"		"Counter-Strike jest dostępny za darmo dla użytkowników Perfect World, którzy ukończyli weryfikację tożsamości na swoich kontach. Konta Perfect World ze zweryfikowaną tożsamością otrzymują również status Prime w Counter-Strike.\n\nTa licencja pozwala na zakupienie gry w cenie 8800 点 użytkownikom, którzy nie mogli dokończyć weryfikacji tożsamości w celu otrzymania gry za darmo. Licencja zapewnia dostęp do oficjalnych serwerów o niskim opóźnieniu w Chinach oraz możliwość grania ze znajomymi w Counter-Strike poprzez program uruchamiający Counter-Strike od Perfect World."
 		"CSGO_Purchasable_Game_License_BannedInChina"	"To konto nie może grać w Counter-Strike: Global Offensive, używając licencji na grę od Perfect World."
 
+		"CSGO_Purchasable_XpShop_Ticket"			"Przepustka zbrojowni"
+		"CSGO_Purchasable_XpShop_Ticket_Desc40"		"Aktywowanie tej przepustki zbrojowni automatycznie przyzna ci jeden punkt zbrojowni. Za każdą aktywną przepustkę zbrojowni odblokujesz w sumie <b>40</b> punktów. Wystarczy, że będziesz grać i zdobywać PD."
+		"CSGO_Purchasable_XpShop_Ticket_TooManyTracks"	"Masz już maksymalną liczbę aktywowanych przepustek zbrojowni.<br/>Po zdobyciu wszystkich punktów zbrojowni w ramach jednej przepustki możesz ją skasować. Następnie możesz aktywować więcej przepustek."
 //
 /// Collectible pins		
 		"CSGO_Collectible_Pin_DustII"						"Odznaka Dust II"
@@ -3998,6 +4005,14 @@
 		"CSGO_crate_musickit_nightmode_stattrak_capsule_desc"	"Ta skrzynia zawiera różnorodne zestawy utworów w wersji StatTrak™ od artystów z grupy „NIGHTMODE”."
 		"coupon_nightmode_stattrak_musickit_capsule"		"Skrzynia z zestawem utworów „NIGHTMODE” StatTrak™"
 		
+		"CSGO_crate_musickit_masterminds2_capsule"	    	"Skrzynia z zestawem utworów „Masterminds 2”"
+		"CSGO_crate_musickit_masterminds2_capsule_desc"		"Ta skrzynia zawiera różnorodne zestawy utworów od wielu kompozytorów."
+		"coupon_masterminds2_musickit_capsule"				"Skrzynia z zestawem utworów „Masterminds 2”"
+		
+		"CSGO_crate_musickit_masterminds2_stattrak_capsule"	    	"Skrzynia z zestawem utworów „Masterminds 2” (StatTrak™)"
+		"CSGO_crate_musickit_masterminds2_stattrak_capsule_desc"	"Ta skrzynia zawiera różnorodne zestawy utworów w wersji StatTrak™ od wielu kompozytorów."
+		"coupon_masterminds2_stattrak_musickit_capsule"				"Skrzynia z zestawem utworów „Masterminds 2” (StatTrak™)"
+		
 		//
 		// Sprays capsule vcap1
 		//
@@ -4152,7 +4167,24 @@
 		"CSGO_crate_sticker_pack_community_2024_capsule_desc"		"Ten pojemnik zawiera różnorodne naklejki zaprojektowane przez artystów z Warsztatu Steam i został wydany w lutym 2024."
 		"coupon_community_2024_sticker_capsule"						"Pojemnik z naklejką zasadzki"
 		
-
+		"CSGO_crate_community_34"									"Skrzynia Galerii"
+		"CSGO_crate_key_community_34"								"Klucz do skrzyni Galerii"
+		"CSGO_crate_key_community_34_desc"							"Ten klucz otwiera tylko skrzynie Galerii."
+		
+		"CSGO_crate_keychain_pack_kc_missinglink_capsule"	    	"Kolekcja przywieszek Brakującego pęta"
+		"CSGO_crate_keychain_pack_kc_missinglink_capsule_desc"		"Ta kolekcja zawiera różnorodne przywieszki z motywem kiełbasy."
+		"CSGO_crate_keychain_pack_kc_missinglink_capsule_short"	    "Przywieszki Brakującego pęta"
+		
+		"CSGO_crate_keychain_pack_kc_weapon_01_capsule"	    		"Kolekcja przywieszek Miniaturowej broni"
+		"CSGO_crate_keychain_pack_kc_weapon_01_capsule_desc"		"Ta kolekcja zawiera różnorodne przywieszki z motywem broni."
+		"CSGO_crate_keychain_pack_kc_weapon_01_capsule_short"		"Przywieszki Miniaturowej broni"
+		
+		"CSGO_crate_sticker_pack_stkr_craft_01_capsule"				"Paczka z naklejką żywiołowego rzemiosła"
+		"CSGO_crate_sticker_pack_stkr_craft_01_short"	    		"Naklejki żywiołowego rzemiosła"
+		
+		"CSGO_crate_sticker_pack_stkr_craft_02_capsule"				"Paczka z naklejką charakternego rzemiosła"
+		"CSGO_crate_sticker_pack_stkr_craft_02_short"	    		"Naklejki charakternego rzemiosła"
+		
 "SprayKit_vcap1_ace_01"		"As"
 "SprayKit_vcap1_banana"		"Banan"
 "SprayKit_vcap1_cerberus"		"Cerber"
@@ -4976,9 +5008,16 @@
 		"CSGO_set_anubis_storepromo"	"Zestaw kolekcji Anubisa"
 		"CSGO_set_anubis_storepromo_key_contestwinner"			"Twórca przedmiotu z kolekcji Anubisa"
 		"CSGO_set_anubis_storepromo_key_contestwinner_desc"	"Przyznany twórcom przedmiotów w warsztacie wchodzących w skład kolekcji Anubisa."
-
 		
-		
+		"CSGO_set_graphic_design"		"Kolekcja Graficzna"
+		"CSGO_set_graphic_design_short"	"Kolekcja Graficzna"
+		"CSGO_set_overpass_2024"		"Kolekcja Overpass 2024"
+		"CSGO_set_overpass_2024_short"	"Overpass 2024"
+		"CSGO_set_realism_camo"			"Kolekcja Sportu i świeżego powietrza"
+		"CSGO_set_realism_camo_short"	"Kolekcja Sportu i świeżego powietrza"
+		"CSGO_set_xpshop_wpn_01"		"Przedmiot z edycji limitowanej"
+		"CSGO_set_xpshop_wpn_01_short"	"Przedmiot z edycji limitowanej"
+		"CSGO_set_community_34"			"Kolekcja Galerii"
 		/////////////////
 		// lootlist override strings
 		//////////////////
@@ -5149,7 +5188,7 @@
 
 		"musickit_danielsadowski_03"			"Daniel Sadowski, The 8-Bit Kit"
 		"musickit_danielsadowski_03_desc"		"Daniel Sadowski tworzy pierwszy w historii 8-bitowy zestaw utworów dla Counter-Strike, wypełniony autentycznymi 8-bitowymi dźwiękami."
-		"coupon_danielsadowski_03"			"Zestaw utwor��w | Daniel Sadowski, The 8-Bit Kit"
+		"coupon_danielsadowski_03"			"Zestaw utworów | Daniel Sadowski, The 8-Bit Kit"
 		"coupon_danielsadowski_03_stattrak""Zestaw utworów (StatTrak™) | Daniel Sadowski, The 8-Bit Kit"
 
 		"musickit_danielsadowski_04"			"Daniel Sadowski, Eye of the Dragon"
@@ -5396,7 +5435,47 @@
 		"coupon_twerl_01"						"Zestaw utworów | TWERL oraz Ekko & Sidetrack, Under Bright Lights"
 		"coupon_twerl_01_stattrak"				"Zestaw utworów (StatTrak™) | TWERL oraz Ekko & Sidetrack, Under Bright Lights"
 		
-		//////////////////
+		"musickit_austinwintory_04"				"Austin Wintory, The Devil Went Clubbing in Georgia"
+		"musickit_austinwintory_04_desc"		"Austin Wintory zawiązuje pakt z diabłem, mieszając diabelskie melodie skrzypiec z klubowymi brzmieniami EDM na całego."
+		"coupon_austinwintory_04"				"Zestaw utworów | Austin Wintory, The Devil Went Clubbing In Georgia"
+		"coupon_austinwintory_04_stattrak"		"Zestaw utworów (StatTrak™) | Austin Wintory, The Devil Went Clubbing In Georgia"
+		
+		"musickit_benbromfield_01"				"Ben Bromfield, Rabbit Hole"
+		"musickit_benbromfield_01_desc"			"Zostałeś wykiwany! Daj się ponieść tej zuchwałej, trzymającej w pełnej napięcia zadumie i inspirowanej jazzowymi brzmieniami ścieżce dźwiękowej od kompozytora tworzącego dla branży filmowej i telewizyjnej, odkrywając przy tym, jak głęboko sięga ta królicza nora…"
+		"coupon_benbromfield_01"				"Zestaw utworów | Ben Bromfield, Rabbit Hole"
+		"coupon_benbromfield_01_stattrak"		"Zestaw utworów (StatTrak™) | Ben Bromfield, Rabbit Hole"
+		
+		"musickit_danielsadowski_05"			"Daniel Sadowski, Dead Shot"
+		"musickit_danielsadowski_05_desc"		"Daniel Sadowski zaprasza graczy do świata „Dead Shot”, który stanowi hybrydową mieszankę akcji, hip-hopu, muzyki orkiestrowej, elektroniki, retro, emocji i kształtowania dźwięku. Strzeż się gnijącej głowy!"
+		"coupon_danielsadowski_05"				"Zestaw utworów | Daniel Sadowski, Dead Shot"
+		"coupon_danielsadowski_05_stattrak"		"Zestaw utworów (StatTrak™) | Daniel Sadowski, Dead Shot"
+		
+		"musickit_dren_03"						"Dren McDonald, Coffee! Kofe! Kahveh!"
+		"musickit_dren_03_desc"					"Kofeina to twój przyjaciel. To przyjaciel każdego, z wyjątkiem twojego nieprzyjaciela! Kawałek „Coffee! Kofe! Kahveh!” od Drena McDonalda (autora „Gunman Taco Truck” i „Death’s Head Demolition”) jest szczytem bałkańskich klimatów w ulicznej muzyce wykonywanej na instrumentach dętych nagranym na żywo w Balkancisco!"
+		"coupon_dren_03"						"Zestaw utworów | Dren McDonald, Coffee! Kofe! Kahveh!"
+		"coupon_dren_03_stattrak"				"Zestaw utworów (StatTrak™) | Dren McDonald, Coffee! Kofe! Kahveh!"
+		
+		"musickit_mattlevine_02"				"Matt Levine, Agency"
+		"musickit_mattlevine_02_desc"			"Wkrocz do pełnego niebezpieczeństw szpiegowskiego świata dzięki zestawowi utworów „Agency” autorstwa kompozytora Matta Levine'a."
+		"coupon_mattlevine_02"					"Music Kit | Matt Levine, Agency"
+		"coupon_mattlevine_02_stattrak"			"Zestaw utworów (StatTrak™) | Matt Levine, Agency"
+		
+		"musickit_sammarshall_02"				"Sam Marshall, Clutch"
+		"musickit_sammarshall_02_desc"			"„Clutch”, czyli samozwańcza kontynuacja „Bodacious”, to cyberfunkowa abominacja rodem z majaków w gorączce powołana do życia przez Sama Marshalla za pomocą alchemii i tajemnego rytuału."
+		"coupon_sammarshall_02"					"Zestaw utworów | Sam Marshall, Clutch"
+		"coupon_sammarshall_02_stattrak"		"Zestaw utworów (StatTrak™) | Sam Marshall, Clutch"
+		
+		"musickit_timhuling_02"					"Tim Huling, Devil's Paintbrush"
+		"musickit_timhuling_02_desc"			"Podnieś swój poziom adrenaliny dzięki „Devil's Paintbrush”, zastrzykowi niesamowitej energii groove metalu od Tima Hulinga."
+		"coupon_timhuling_02"					"Music Kit | Tim Huling, Devil's Paintbrush"
+		"coupon_timhuling_02_stattrak"			"Zestaw utworów (StatTrak™) | Tim Huling, Devil's Paintbrush"
+		
+		"musickit_treeadams_01"					"Tree Adams, Seventh Moon"
+		"musickit_treeadams_01_desc"			"Przy „Seventh Moon” Tree Adams ukręcił nam tłustą mieszankę międzygalaktycznego funku z intensywnymi brzmieniami batalii."
+		"coupon_treeadams_01"					"Zestaw utworów | Tree Adams, Seventh Moon"
+		"coupon_treeadams_01_stattrak"			"Zestaw utworów (StatTrak™) | Tree Adams, Seventh Moon"
+
+//////////////////
 
 	"csgo_thousands_separator"			" " // Note: This only supports , and .
 
@@ -5687,7 +5766,7 @@
 		"quest_972_var_desc" 	 "Zabij {d:points} wrogów strzałem w głowę w <i>pojedynczym</i> meczu. <b>Tryb: {s:gamemode}. Mapa: {s:location}</b>."
 		"quest_973_var_desc" 	 "Zabij {d:points} wrogów. <b>Tryb: {s:gamemode}. Mapa: {s:location}</b>."
 		"quest_974_var_desc" 	 "Zabij {d:points} wrogów strzałem w głowę. <b>Tryb: {s:gamemode}. Mapa: {s:location}</b>."
-		"quest_975_var_desc"     "Zabij {s:kills} wrogów, używając broni antyterrorystów. <b>Tryb: Obrońca. Mapa: {s:location}</b>."
+		"quest_975_var_desc"     "Zabij {s:kills} wrog��w, używając broni antyterrorystów. <b>Tryb: Obrońca. Mapa: {s:location}</b>."
 		"quest_976_var_desc" 	 "Wygraj w {d:points} rundach. <b>Tryb: {s:gamemode}. Mapa: {s:location}</b>."
 		"quest_977_var_desc"	 "Wygraj w {d:points} rundach. <b>Tryb: {s:gamemode}. Mapa: {s:location}</b>."
 		"quest_978_var_desc" 	 "Zabij {d:points} wrogów, używając: {s:weapon}. <b>Tryb: {s:gamemode}. Mapa: {s:location}</b>."
@@ -7580,6 +7659,9 @@
 		"CSGO_Tool_Gift9Players_desc"				"Po użyciu maksymalnie 9 innych graczy z twojego meczu otrzyma losowy przedmiot jako prezent od ciebie."
 		"CSGO_Tool_Gift25Spectators"				"Paczka dla uczestniczącej publiczności"
 		"CSGO_Tool_Gift25Spectators_desc"			"Po użyciu maksymalnie 25 oglądających twój mecz otrzyma losowy przedmiot jako prezent od ciebie."
+
+		"CSGO_Tool_Keychain"						"Przywieszka"
+		"CSGO_Tool_Keychain_Desc"					"Ta przywieszka może zostać dodana do dowolnej posiadanej przez ciebie broni. Każda dodana przywieszka może zostać zdjęta z użyciem odczepiacza. Odczepione przywieszki zostaną zwrócone do twojego ekwipunku."
 
 		"CSGO_Tool_Sticker"							"Naklejka"
 		"CSGO_Tool_Sticker_Desc"					"Ta naklejka może zostać naklejona na twoją dowolną broń. Naklejka może zostać podrapana, aby wyglądała na nieco zużytą. Możesz podrapać tę samą naklejkę kilkukrotnie, za każdym razem uszkadzając ją bardziej, dopóki nie zostanie ona usunięta z broni."
@@ -12432,7 +12514,7 @@
 	"StickerKit_krakow2017_signature_electronic" "electronic | Kraków 2017"
 	"StickerKit_desc_krakow2017_signature_electronic" "Na tej naklejce swój autograf zostawił profesjonalny gracz Dienis Szaripow z drużyny Flipsid3 Tactics na PGL Kraków 2017.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 	"StickerKit_krakow2017_signature_electronic_foil" "electronic (foliowana) | Kraków 2017"
-	"StickerKit_desc_krakow2017_signature_electronic_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Dienis Szaripow z drużyny Flipsid3 Tactics na PGL Kraków 2017.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
+	"StickerKit_desc_krakow2017_signature_electronic_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Dienis Szaripow z drużyny Flipsid3 Tactics na PGL Kraków 2017.\n\n50% wpływ��w ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 	"StickerKit_krakow2017_signature_electronic_gold" "electronic (złota) | Kraków 2017"
 	"StickerKit_desc_krakow2017_signature_electronic_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Dienis Szaripow z drużyny Flipsid3 Tactics na PGL Kraków 2017.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 
@@ -13491,7 +13573,7 @@
 	"StickerKit_desc_boston2018_signature_sgares" "Na tej naklejce swój autograf zostawił profesjonalny gracz Sean Gares z drużyny Misfits Gaming na ELEAGUE Boston 2018.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 	"StickerKit_boston2018_signature_sgares_foil" "seang@res (foliowana) | Boston 2018"
 	"StickerKit_desc_boston2018_signature_sgares_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Sean Gares z drużyny Misfits Gaming na ELEAGUE Boston 2018.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
-	"StickerKit_boston2018_signature_sgares_gold" "seang@res (złota) | Boston 2018"
+	"StickerKit_boston2018_signature_sgares_gold" "seang@res (z��ota) | Boston 2018"
 	"StickerKit_desc_boston2018_signature_sgares_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Sean Gares z drużyny Misfits Gaming na ELEAGUE Boston 2018.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 
 	"StickerKit_boston2018_signature_shahzam" "ShahZaM | Boston 2018"
@@ -14208,7 +14290,7 @@
 	"StickerKit_london2018_signature_jw" "JW | Londyn 2018"
 	"StickerKit_desc_london2018_signature_jw" "Na tej naklejce swój autograf zostawił profesjonalny gracz Jesper Wecksell z drużyny Fnatic na FACEIT London 2018.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 	"StickerKit_london2018_signature_jw_foil" "JW (foliowana) | Londyn 2018"
-	"StickerKit_desc_london2018_signature_jw_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Jesper Wecksell z drużyny Fnatic na FACEIT London 2018.\n\n50% wpływów ze sprzeda��y tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
+	"StickerKit_desc_london2018_signature_jw_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Jesper Wecksell z drużyny Fnatic na FACEIT London 2018.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 	"StickerKit_london2018_signature_jw_gold" "JW (złota) | Londyn 2018"
 	"StickerKit_desc_london2018_signature_jw_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Jesper Wecksell z drużyny Fnatic na FACEIT London 2018.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 
@@ -15166,7 +15248,7 @@
 	"StickerKit_katowice2019_signature_jackz" "JaCkz | Katowice 2019"
 	"StickerKit_desc_katowice2019_signature_jackz" "Na tej naklejce swój autograf zostawił profesjonalny gracz Audric Jug z drużyny G2 Esports na IEM Katowice 2019.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 	"StickerKit_katowice2019_signature_jackz_foil" "JaCkz (foliowana) | Katowice 2019"
-	"StickerKit_desc_katowice2019_signature_jackz_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Audric Jug z drużyny G2 Esports na IEM Katowice 2019.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udzia�� w tym turnieju."
+	"StickerKit_desc_katowice2019_signature_jackz_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Audric Jug z drużyny G2 Esports na IEM Katowice 2019.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 	"StickerKit_katowice2019_signature_jackz_gold" "JaCkz (złota) | Katowice 2019"
 	"StickerKit_desc_katowice2019_signature_jackz_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Audric Jug z drużyny G2 Esports na IEM Katowice 2019.\n\n50% wpływów ze sprzedaży tej naklejki zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju."
 
@@ -16620,7 +16702,7 @@
 	"StickerKit_berlin2019_signature_kjaerbye" "Kjaerbye | Berlin 2019"
 	"StickerKit_desc_berlin2019_signature_kjaerbye" "Na tej naklejce swój autograf zostawił profesjonalny gracz Markus Kjærbye z drużyny North na StarLadder Berlin 2019."
 	"StickerKit_berlin2019_signature_kjaerbye_foil" "Kjaerbye (foliowana) | Berlin 2019"
-	"StickerKit_desc_berlin2019_signature_kjaerbye_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Markus Kjærbye z drużyny North na StarLadder Berlin 2019."
+	"StickerKit_desc_berlin2019_signature_kjaerbye_foil" "Na tej foliowanej naklejce swój autograf zostawił profesjonalny gracz Markus Kj��rbye z drużyny North na StarLadder Berlin 2019."
 	"StickerKit_berlin2019_signature_kjaerbye_gold" "Kjaerbye (złota) | Berlin 2019"
 	"StickerKit_desc_berlin2019_signature_kjaerbye_gold" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Markus Kjærbye z drużyny North na StarLadder Berlin 2019."
 
@@ -17043,7 +17125,7 @@
 	
 	"CSGO_crate_signature_pack_stockh2021_group_champions"     "Pojemnik z autografem | Mistrzowie PGL Stockholm 2021"
 	"CSGO_crate_signature_pack_stockh2021_group_champions_tinyname" "Autografy mistrzów"
-	"CSGO_crate_signature_pack_stockh2021_group_champions_desc" "Ten pojemnik zawiera pojedynczą wysokiej jakości, hologramową lub złotą naklejkę z autografem jednego z graczy będącego mistrzem PGL Stockholm 2021.\n\n50% wpływów ze sprzedaży tego pojemnika zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju.\n\nTa naklejka może zostać naklejona na twoją dowolną broń. Naklejka może zostać podrapana, aby wyglądała na nieco zużytą. Możesz podrapać tę samą naklejkę kilkukrotnie, za każdym razem uszkadzaj��c ją bardziej, dopóki nie zostanie ona usunięta z broni."
+	"CSGO_crate_signature_pack_stockh2021_group_champions_desc" "Ten pojemnik zawiera pojedynczą wysokiej jakości, hologramową lub złotą naklejkę z autografem jednego z graczy będącego mistrzem PGL Stockholm 2021.\n\n50% wpływów ze sprzedaży tego pojemnika zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju.\n\nTa naklejka może zostać naklejona na twoją dowolną broń. Naklejka może zostać podrapana, aby wyglądała na nieco zużytą. Możesz podrapać tę samą naklejkę kilkukrotnie, za każdym razem uszkadzając ją bardziej, dopóki nie zostanie ona usunięta z broni."
 	"CSGO_crate_signature_pack_stockh2021_group_finalists"     "Pojemnik z autografem | Finaliści PGL Stockholm 2021"
 	"CSGO_crate_signature_pack_stockh2021_group_finalists_tinyname" "Autografy finalistów"
 	"CSGO_crate_signature_pack_stockh2021_group_finalists_desc" "Ten pojemnik zawiera pojedynczą wysokiej jakości, hologramową lub złotą naklejkę z autografem jednego z graczy będącego finalistą PGL Stockholm 2021.\n\n50% wpływów ze sprzedaży tego pojemnika zostanie przeznaczonych na wsparcie graczy i organizacji biorących udział w tym turnieju.\n\nTa naklejka może zostać naklejona na twoją dowolną broń. Naklejka może zostać podrapana, aby wyglądała na nieco zużytą. Możesz podrapać tę samą naklejkę kilkukrotnie, za każdym razem uszkadzając ją bardziej, dopóki nie zostanie ona usunięta z broni."
@@ -23289,6 +23371,61 @@
 		"StickerKit_community_2024_lenticular_dystopian_gaze"			"Dystopijne spojrzenie (soczewkowa)"
 		"StickerKit_community_2024_lenticular_econometer"				"Ekonomierz (soczewkowa)"
 		"StickerKit_community_2024_lenticular_old_school"				"Stara szkoła (soczewkowa)"
+		// Character Craft Sticker Collection
+
+		"StickerKit_sticker_craft_foil_mouth"								"Złote zębiska (foliowana)"
+		"StickerKit_sticker_craft_foil_mustache"							"Wąsacz (foliowana)"
+		"StickerKit_sticker_craft_foil_sunglasses"							"Czerwone oksy (foliowana)"
+		"StickerKit_sticker_craft_glitter_kawaii_eyes"						"Kawaii oczka (brokatowa)"
+		"StickerKit_sticker_craft_glitter_tentacle"							"Rodem z głębin (brokatowa)"
+		"StickerKit_sticker_craft_holo_mouth"								"Od ucha do ucha (hologramowa)"
+		"StickerKit_sticker_craft_holo_tongue"								"Kubeczek smakowy (hologramowa)"
+		"StickerKit_sticker_craft_lenticular_angry_eyes"					"Hipnooczy (hologramowa)"
+		"StickerKit_sticker_craft_lenticular_cheeky_eyes"					"Łyp z ukosa (soczewkowa)"
+		"StickerKit_sticker_craft_lenticular_googly_eye"					"Wyłupiaste oko (soczewkowa)"
+		"StickerKit_sticker_craft_paper_arm_flex"							"Napinka"
+		"StickerKit_sticker_craft_paper_clown_nose"							"Nos klauna"
+		"StickerKit_sticker_craft_paper_clown_wig"							"Peruka klauna"
+		"StickerKit_sticker_craft_paper_ct_left_hand"						"Leworęczny (AT)"
+		"StickerKit_sticker_craft_paper_eye"								"Spojrzenie spod byka"
+		"StickerKit_sticker_craft_paper_googly_eye_small"					"Rzut oka"
+		"StickerKit_sticker_craft_paper_mouth"								"XD"
+		"StickerKit_sticker_craft_paper_ribbon"								"Kokardka"
+		"StickerKit_sticker_craft_paper_shark_mouth"						"Zębiska"
+		"StickerKit_sticker_craft_paper_t_left_hand"						"Leworęczny (T)"
+		"StickerKit_sticker_craft_paper_tentacle"							"Rodem z głębin"
+		"StickerKit_sticker_craft_paper_tongue"								"Kubek smakowy"
+		"StickerKit_sticker_craft_paper_wings"								"Szerokich wiatrów"
+		"StickerKit_sticker_craft_paper_winky_eyes"							"Mrug"
+		"StickerKit_sticker_craft_paper_male_anime_face"					"Przyjmij pozę"
+		//Elemental Craft Sticker Collection
+
+		"StickerKit_elemental_craft_paper_explosion_one"					"Fala wybuchu"
+		"StickerKit_elemental_craft_paper_explosion_two"					"Detonacja"
+		"StickerKit_elemental_craft_paper_explosion_three"					"Epicentrum wybuchu"
+		"StickerKit_elemental_craft_paper_explosion_four"					"Ślad wybuchu"
+		"StickerKit_elemental_craft_paper_fire_one"							"Żarzysta pętla"
+		"StickerKit_elemental_craft_paper_fire_two"							"Żarzysta pętla (odwrócona)"
+		"StickerKit_elemental_craft_paper_fire_three"						"Żarzysty zawijas"
+		"StickerKit_elemental_craft_paper_flames"							"Tuningowy płomień"
+		"StickerKit_elemental_craft_paper_flames_two"						"Mocny ogień"
+		"StickerKit_elemental_craft_paper_lightning_one"					"Piorunująca energia"
+		"StickerKit_elemental_craft_paper_lightning_two"					"Piorunujące uderzenie"
+		"StickerKit_elemental_craft_paper_lightning_three"					"Piorunujący ładunek"
+		"StickerKit_elemental_craft_paper_water_one"						"Hydrofala"
+		"StickerKit_elemental_craft_paper_water_two"						"Hydrogejzer"
+		"StickerKit_elemental_craft_paper_water_three"						"Hydrostrumień"
+		"StickerKit_elemental_craft_glitter_explosion_one"					"Fala wybuchu (brokatowa)"
+		"StickerKit_elemental_craft_glitter_explosion_two"					"Detonacja (brokatowa)"
+		"StickerKit_elemental_craft_glitter_explosion_three"				"Epicentrum wybuchu (brokatowa)"
+		"StickerKit_elemental_craft_glitter_explosion_four"					"Ślad wybuchu (brokatowa)"
+		"StickerKit_elemental_craft_holo_rainbow_trail"						"Tęczowa ścieżka (hologramowa)"
+		"StickerKit_elemental_craft_foil_lightning_one"						"Piorunująca energia (foliowana)"
+		"StickerKit_elemental_craft_foil_lightning_two"						"Piorunujące uderzenie (foliowana)"
+		"StickerKit_elemental_craft_foil_lightning_three"					"Piorunujący ładunek (foliowana)"
+		"StickerKit_elemental_craft_foil_fire_three"						"Żarzysty zawijas (foliowana)"
+		"StickerKit_elemental_craft_lenticular_blood_one"					"Rubinowy strumień (soczewkowa)"
+		"StickerKit_elemental_craft_lenticular_blood_two"					"Rubinowa fala (soczewkowa)"
 		"PatchKit_patch_banana"            "Szalony banan"
 		"PatchKit_desc_patch_banana"       "<i>Agent dla skali</i>"
 		"PatchKit_patch_boss"              "Szef"
@@ -23492,6 +23629,45 @@
 
 		"StickerKit_OldSchool"						"Stara szkoła"
 		"StickerKit_comm01_rekt"				"Rekt"
+		// Keychains
+
+		// MISSINGLINK KEYCHAINS 
+
+		"keychain_kc_missinglink_ava"						"Mała Ava"
+		"keychain_kc_missinglink_sas"						"Mały SAS"
+		"keychain_kc_missinglink_sam_catchup"				"Ostry sos"
+		"keychain_kc_missinglink_bigfoot"					"Mały yeti"
+		"keychain_kc_missinglink_kev"						"Duży Kev"
+		"keychain_kc_missinglink_guerilla"					"Mały Crass"
+		"keychain_kc_missinglink_sam_salty"					"Szczypta soli"
+		"keychain_kc_missinglink_banana"					"Zwariowany banan"
+		"keychain_kc_missinglink_cat"						"Mały mruczek"
+		"keychain_kc_missinglink_catbeach"					"Plażowy kotek"
+		"keychain_kc_missinglink_chicken"					"Kurczaczek"
+		"keychain_kc_missinglink_sam_toile"					"Filiżaneczka"
+		"keychain_kc_missinglink_monster"					"Potworek"
+		"keychain_kc_missinglink_sam_shape"					"Barowa parówa"
+		"keychain_kc_missinglink_sam_diamond"				"Diamentowa parówa"
+		"keychain_kc_missinglink_howl"						"Psalceson pikantny"
+		"keychain_kc_missinglink_wurst"						"Przegrzana kiełba"
+		// WEAPON_01 KEYCHAINS 
+
+		"keychain_kc_wpn_usp_yarn"							"Broń dziergana"
+		"keychain_kc_wpn_ctknife_wood"						"Strugany nóż"
+		"keychain_kc_wpn_mac10_tile"						"Glazura"
+		"keychain_kc_wpn_tec9_cap"							"Kapiszonowiec"
+		"keychain_kc_wpn_ak_base"							"Kałaszek"
+		"keychain_kc_wpn_awp_plastic"						"Kieszonkowe AWP"
+		"keychain_kc_wpn_ak_jelly"							"Odlewane AK"
+		"keychain_kc_wpn_m4a1s_comic"						"POP Art"
+		"keychain_kc_wpn_mac10_glitter"						"Dyskotekowy MAC"
+		"keychain_kc_wpn_tec9_magma"						"Żaroręki"
+		"keychain_kc_wpn_usp_jewel"							"Cenny strzał"
+		"keychain_kc_wpn_m4a1s_ss"							"Psikawka"
+		"keychain_kc_wpn_awp_spoon"							"Tycianowa AWP"
+		"keychain_kc_wpn_tknife_crystal"					"Półszlachetny"
+		"keychain_kc_wpn_ctknife_gold"						"Malusieńki karat antyterrorystów"
+		"keychain_kc_wpn_tknife_gold"						"Malusieńki karat terrorystów"
 		// Paint Kits
 		"PaintKit_Default"							"Nienazwany zestaw malunkowy"
 		"PaintKit_Default_Tag"						"-"//
@@ -25898,7 +26074,7 @@
 	"PaintKit_gs_negev_thor"										"Broń została ozdobiona na zamówienie czerwoną grafiką przedstawiającą nordyckie runy.\n\n<i>„To wszystko wina Lokiego...”</i>"
 	"PaintKit_gs_negev_thor_Tag"									"Mjölnir"
 	
-	"PaintKit_am_crystallized_green"								"Broń została pomalowana zieloną farbą metaliczną z wykorzystaniem maski krystalizującej do stworzenia wzoru.\n\n<i>Każdy chce wywrzeć wpływ.</i>"
+	"PaintKit_am_crystallized_green"								"Broń została pomalowana zielon�� farbą metaliczną z wykorzystaniem maski krystalizującej do stworzenia wzoru.\n\n<i>Każdy chce wywrzeć wpływ.</i>"
 	"PaintKit_am_crystallized_green_Tag"							"Szmaragdowy kwarc"
 	
 	"PaintKit_hy_gelpen_dark"										"Broń została pokryta hydrografiką o rdzawym zabarwieniu w postaci rysunku wykonanego długopisem żelowym.\n\n<i>Oddaj cześć swoim zmarłym.</i>"
@@ -27088,6 +27264,214 @@
 
 // END COMMUNITY_33
 
+// COMMUNITY_34
+
+		"PaintKit_usp_field_snake"						"Wykonany na zamówienie wzór zdobiący tę broń przedstawia uskrzydlony zestaw do rozbrajania pod szczerbinką i „027” obok wyrzutnika.\n\n<i>Lekka robota w terenie.</i>"
+		"PaintKit_usp_field_snake_Tag"					"027"
+
+		"PaintKit_deagle_calligraff"					"Zamek tego Desert Eagle'a został ozdobiony kaligrafią wykonaną srebrną farbą.\n\n<i>Takie rzeczy wymagają czasu.</i>"
+		"PaintKit_deagle_calligraff_Tag"				"Kaligraffiti"
+		
+		"PaintKit_mp5_statics_blue"						"Broń została ozdobiona na zamówienie czarno-niebieskim wzorem.\n\n<i>Cały czarny, niebieski i zakrwawiony.</i>"
+		"PaintKit_mp5_statics_blue_Tag"					"Stałość"
+		
+		"PaintKit_aug_puffer"							"Broń została ozdobiona na zamówienie wzorem przypominającym kurtkę puchową i wykończona brązowymi akcentami.\n\n<i>Pakiet premium.</i>"
+		"PaintKit_aug_puffer_Tag"						"Eleganckie wykończenie"
+		
+		"PaintKit_m249_hypnosis"						"Broń została ozdobiona na zamówienie przyciągającym wzrok czarno-niebieskim hipnotycznym wzorem.\n\n<i>„Skup się na dźwięku mojego głosu”.</i>"
+		"PaintKit_m249_hypnosis_Tag"					"Hipnoza"
+				
+		"PaintKit_r8_roses_and_guns"					"Broń została ozdobiona na zamówienie drewnianym chwytem i wzorem w róże.\n\n<i>Zaakceptujesz?</i>"
+		"PaintKit_r8_roses_and_guns_Tag"				"Tango"
+
+		"PaintKit_scar20_fury_topo"						"Broń została ozdobiona na zamówienie monochromatycznym czarnym wzorem ze srebrnymi wstawkami. \n\n<i>WYŁĄCZNIE DO UŻYTKU PRZEZ AUTORYZOWANYCH AGENTÓW AT.</i>"
+		"PaintKit_scar20_fury_topo_Tag"					"Pionier"
+
+		"PaintKit_m4a4_fusion"							"Broń została pomalowana na zamówienie podkładem w kolorze wina.\n\n<i></i>UWAGA: długotrwałe oddawanie strzałów może powodować przegrzanie.</i>"
+		"PaintKit_m4a4_fusion_Tag"						"Turbina"
+
+		"PaintKit_dual_elite_hydro_strike"				"Broń została pomalowana na zamówienie na niebiesko i pomarańczowo. Kropelki sugerują, że broń może być nadal mokra.\n\n<i>Najlepsza broń to taka, której najmniej spodziewają się twoi przeciwnicy.</i>"
+		"PaintKit_dual_elite_hydro_strike_Tag"			"Hydrostrzał"
+		
+		"PaintKit_mac10_ozaki"							"Broń została ozdobiona na zamówienie ilustracją przedstawiającą cybernetycznego demona na bokach i za składaną kolbą.\n\n<i>Roziskrzona energia i zimna stal.</i>"
+		"PaintKit_mac10_ozaki_Tag"						"Saibā Oni"
+		
+		"PaintKit_p90_randy_rush"						"To malowanie na zamówienie przestawia kamuflaż, emblematy wojskowe i… Randy'ego. To dobrze albo i nie.\n\n<i>„Albo jak nauczyłem się nie zamartwiać i darzyć miłością P90”.</i>"
+		"PaintKit_p90_randy_rush_Tag"					"Randy Rush"
+
+		"PaintKit_ssg08_transit_white"					"Broń została ozdobiona na zamówienie zmyślonymi schematami transportowymi zaprojektowanymi z myślą o mapach z Counter-Strike.\n\n<i>„Dokąd zmierzamy?”.</i>"
+		"PaintKit_ssg08_transit_white_Tag"				"Schemat metra"
+
+		"PaintKit_ak47_t_bus"							"Broń została ozdobiona na zamówienie nabazgrolonym rysunkiem terrorystów w rozmaitych okolicznościach.\n\n<i>My jesteśmy terroryści, hopsasa, hopsasa.</i>"
+		"PaintKit_ak47_t_bus_Tag"						"Nieznajomi"
+		
+		"PaintKit_p250_impact"							"Wykonany na zamówienie wzór zdobiący tę broń sprawia wrażenie obrobionych w niestandardowy sposób części z anodyzowanym wykończeniem.\n\n<i>Bezpośrednie oddziaływanie.</i>"
+		"PaintKit_p250_impact_Tag"						"Epicentrum"
+		
+		"PaintKit_ump45_neo_noir"						"Broń została ozdobiona na zamówienie wzorem w postaci stylizowanej kobiety w odcieniach błękitu i fuksji na szarym tle.\n\n<i>„Dzierżąc w dłoni ostrze, orzekła, że pora opowiedzieć się za swoją sprawą”.</i>"
+		//reusing existing tag string (PaintKit_cu_glock_noir_Tag)
+		
+		"PaintKit_glock_chomper"						"Broń została ozdobiona na zamówienie różowym chwytem i zwróconym naprzód zadziornym spojrzeniem.\n\n<i>„A masz!”</i>"
+		"PaintKit_glock_chomper_Tag"					"Złoty ząb"
+		
+		"PaintKit_m4a1s_vaporwave"						"Broń została ozdobiona na zamówienie ilustracją grecko-rzymskiego posągu oraz innymi odkształconymi symbolami z minionej ery.\n\n<i>Prosto z hipnagogicznego omamu.</i>"
+		"PaintKit_m4a1s_vaporwave_Tag"					"Vaporwave"
+		
+// END COMMUNITY_34
+
+// OVERPASS_2024
+				
+		"PaintKit_hy_overpass_paintover_teal"				"Na broń nałożono hydrografikę w postaci niebiesko-czarnego graffiti.\n\n<i>Podpisano, doktor Romanow.</i>"
+		"PaintKit_hy_overpass_paintover_teal_Tag"			"Północne pokrycie"
+		
+		"PaintKit_sp_overpass_doodle_plum"					"Broń została pomalowana farbą w sprayu w różowo-fioletowy wzór graffiti.\n\n<i>Nic, czego nie dałoby się naprawić przy odrobinie fatygi.</i>"
+		"PaintKit_sp_overpass_doodle_plum_Tag"				"Umyj mnie"
+		
+		"PaintKit_sp_overpass_paint_pen_neon"				"Broń została pomalowana warstwą ciemnego podkładu, a następnie nałożono na nią graffiti przypominające gryzmoły rysowane pisakami akrylowymi w neonowych kolorach.\n\n<i>„To sztuka, więc nie mam tu co tłumaczyć”.</i>"
+		"PaintKit_sp_overpass_paint_pen_neon_Tag"			"Neonowy wyżymacz"
+		
+		"PaintKit_hy_overpass_doodle_m4a1s"					"Na broń nałożono hydrografikę z wzorem graffiti w kolorach beżu, fioletu i złota.\n\n<i>Nic, czego nie dałoby się naprawić przy odrobinie fatygi.</i>"
+		"PaintKit_hy_overpass_doodle_m4a1s_Tag"				"Umyj mnie, proszę"
+		
+		"PaintKit_cu_overpass_aqua_deagle"					"Broń została pomalowana warstwą cyjanowego podkładu, a następnie pokryta graffiti różnych artystów.\n\n<i>„Chcę KAŻDĄ rundę”.</i>"
+		"PaintKit_cu_overpass_aqua_deagle_Tag"				"Rozsierdzony"
+		
+		"PaintKit_cu_overpass_graf_negev"					"Broń została pomalowana warstwą szkarłatnego podkładu, a następnie pokryta graffiti różnych artystów.\n\n<i>Zabezpiecz to.</i>"
+		"PaintKit_cu_overpass_graf_negev_Tag"				"Przez ścianę"
+		
+		"PaintKit_sp_overpass_paint_pen_metal"				"Broń została pomalowana warstwą czarnego podkładu, a następnie nałożono na nią metaliczne graffiti.\n\n<i>„To sztuka, więc nie mam tu co tłumaczyć”.</i>"
+		"PaintKit_sp_overpass_paint_pen_metal_Tag"			"Metalowy wyżymacz"
+
+		"PaintKit_cu_overpass_squeak_mac10"					"Szczur znajdujący się przy szczerbince jest otoczony czarno-niebieskim graffiti.\n\n<i>Lecimy.</i>"
+		"PaintKit_cu_overpass_squeak_mac10_Tag"				"Szczurek"
+		
+		"PaintKit_cu_overpass_wurst_nova"					"Broń została pokryta na zamówienie kiełbasami z Wurst Hölle, ogródka piwnego na Overpass.\n\n<i>Zaprzestań poszukiwań, albowiem odnalazłeś brakujące ogniwo.</i>"
+		"PaintKit_cu_overpass_wurst_nova_Tag"				"Wurst Hölle"
+		
+		"PaintKit_hy_overpass_tagged_teal"					"Na broń nałożono hydrografikę z czerwono-niebieskim wzorem graffiti.\n\n<i>Postaw kropkę nad „t” i kreskę na „i”.</i>"
+		"PaintKit_hy_overpass_tagged_teal_Tag"				"Cyjanowe graffiti"
+		
+		"PaintKit_cu_overpass_baby_dualies"					"Broń została pokryta wartstwą podkładu z jasnokolorowymi graffiti, a następnie ozdobiona na zamówienie ilustracją dwóch cherubinków.\n\n<i>Och, spójrz tylko… jakie są słodkie.</i>"
+		"PaintKit_cu_overpass_baby_dualies_Tag"				"Słodkie aniołki"
+		
+		"PaintKit_cu_overpass_monsters_xm"					"Na tym XM1014 namalowano na zamówienie bandę potworów po obu stronach.\n\n<i>„Lepiej nie patrzeć na drugą stronę”.</i>"
+		"PaintKit_cu_overpass_monsters_xm_Tag"				"Zgraja potworów"
+		
+		"PaintKit_cu_overpass_graf_aug"						"Broń została pokryta na zamówienie niestandardowym graffiti autorstwa Zapemsa, niechlubnego artysty ulicznego z Overpass.\n\n<i>„Sprawdź kamery. Musimy dowiedzieć się, czyja to sprawka”.</i>"
+		"PaintKit_cu_overpass_graf_aug_Tag"					"Oko Zapemsa"
+		
+		"PaintKit_cu_overpass_crakow_awp"					"Broń została ozdobiona na zamówienie fantazyjnymi grafikami przypominającymi rysunki z podwórka, które przedstawiają małą dziewczynkę i jej robota.\n\n<i>Zabawa na niby.</i>"
+		"PaintKit_cu_overpass_crakow_awp_Tag"				"Crakow!"
+
+		"PaintKit_cu_overpass_dragon_zeus"					"Smok oplata swym ciałem tego radosnego, pomalowanego na zamówienie Zeusa x27.\n\n<i>Z najwyższej komnaty w najwyższej wieży.</i>"
+		"PaintKit_cu_overpass_dragon_zeus_Tag"				"Smocze chrapanie"		
+		
+		"PaintKit_cu_overpass_monster_ak47"					"Broń została ozdobiona na zamówienie graffiti z tunelu z potworami na Overpass oraz wykończona metalicznymi akcentami w kolorach srebra i złota.\n\n<i>Nie ma już odwrotu…</i>"
+		"PaintKit_cu_overpass_monster_ak47_Tag"				"Potwór B"
+
+// END OVERPASS_2024
+
+// REALISM_CAMO
+		
+		"PaintKit_ht_blur_camo_mp5sd"						"Broń została ozdobiona na zamówienie oliwkowym wzorem w postaci rastrów poligraficznych.\n\n<i>Obserwuj w ciszy, a potem daj o sobie znać.</i>"
+		"PaintKit_ht_blur_camo_mp5sd_Tag"					"Półton sawanny"
+		
+		"PaintKit_soch_tiger_stencil"						"Broń została pokryta wzorem w postaci tygrysich pasów w kolorach piasku i dymu.\n\n<i>Tytuł „króla dżungli” podlega dyskusji.</i>"
+		"PaintKit_soch_tiger_stencil_Tag"					"Tygrysi wzornik"
+		
+		"PaintKit_gsch_zeno_ssg08"							"Broń została ozdobiona na zamówienie z użyciem metalicznej farby w odcieniach szarości, a jej charakterystycznym elementem są czerwone diamentowe akcenty.\n\n<i>Kiedy MULTUM chromu wciąż nie wystarcza.</i>"
+		"PaintKit_gsch_zeno_ssg08_Tag"						"Zeno"
+		
+		"PaintKit_gs_gamebred_famas"						"Broń została ozdobiona na zamówienie tak, by wyglądała, jakby była owinięta w kurtkę z kamuflażem.\n\n<i>Półrękaw i pełna gotowość.</i>"
+		"PaintKit_gs_gamebred_famas_Tag"					"Półrękaw"
+		
+		"PaintKit_ht_poly_camo"								"Broń została ozdobiona na zamówienie zielono-szarym wzorem w postaci rastrów poligraficznych.\n\n<i>Dbałość o szczegóły.</i>"
+		"PaintKit_ht_poly_camo_Tag"							"Oliwkowy polikamuflaż"
+		
+		"PaintKit_sp_wax_rub_bizon"							"Broń została pomalowana farbą w sprayu w niebieski wzór kamyków.\n\n<i>Twoje intencje są jasne.</i>"
+		"PaintKit_sp_wax_rub_bizon_Tag"						"Zimna komórka"
+		
+		"PaintKit_soch_hunter_blaze"						"Na dolną połowę tego P250 został nałożony myśliwski wzór maskujący.\n\n<i>Zwierzyna łowna zamienia się w łowcę.</i>"
+		"PaintKit_soch_hunter_blaze_Tag"					"Nieduża sztuka"
+		
+		"PaintKit_soch_wildwood"							"Na broń nałożono wzór „gęstwiny” przedstawiający gałęzie i liście.\n\n<i>„Zabłądziłeś?”</i>"
+		"PaintKit_soch_wildwood_Tag"						"Gęstwina"
+		
+		"PaintKit_gs_ripple_nova"							"Broń została ozdobiona na zamówienie farbą o wysokim połysku w odcieniach brązu i złota.\n\n<i>Historia przemocy.</i>"
+		"PaintKit_gs_ripple_nova_Tag"						"Yorkshire"
+		
+		"PaintKit_gsch_bright_camo_usp"						"Broń została pomalowana na zamówienie wzorem przedstawiającym niebiesko-fioletowy kamuflaż.\n\n<i>Wyciągnięta prosto z chłodni.</i>"
+		"PaintKit_gsch_bright_camo_usp_Tag"					"Wysokogórski kamuflaż"
+		
+		"PaintKit_aq_case_hardened_2"						"Metalowe elementy tej broni zawdzięczają swój kolor utwardzaniu w wysokiej temperaturze z użyciem węgla drzewnego.\n\n<i>Od odrobiny koloru nikt jeszcze nie umarł.</i>"
+		"PaintKit_aq_case_hardened_2_Tag"					"Obróbka termiczna"
+		
+		"PaintKit_gs_arctic_mp9"							"Wykonane na zamówienie malowanie zdobiące tę broń przedstawia biało-niebieskie bloki koloru oraz wykończenie w formie dopasowanego kamuflażu.\n\n<i>Oziębła ostateczność.</i>"
+		"PaintKit_gs_arctic_mp9_Tag"						"Arktyczny trójbarwny"
+		
+		"PaintKit_gsch_sport_ump45"							"Broń została pomalowana na zamówienie w rzucające się w oczy bloki czerwieni i srebra.\n\n<i>Rozwiązywanie trudnych problemów magazynek po magazynku.</i>"
+		"PaintKit_gsch_sport_ump45_Tag"						"Szkarłatna folia"
+	
+		"PaintKit_aq_titanium_rainbow"						"Efekt opalizującej błystki uzyskuje się poprzez podgrzanie pomalowanej broni do bardzo wysokiej temperatury. Dzięki tej metodzie liczba unikalnych wykończeń jest niemal nieskończona.\n\n<i>Nieskończone możliwości.</i>"
+		"PaintKit_aq_titanium_rainbow_Tag"					"Opalizująca błystka"
+		
+		"PaintKit_gsch_axia_glock"							"Broń została pomalowana na zamówienie metaliczną jasnoniebieską farbą i opatrzona logo AXIA.\n\n<i>„AXIA SPORTS – rywalizujemy, żebyś ty nie musiał!”</i>"
+		"PaintKit_gsch_axia_glock_Tag"						"AXIA"
+
+// END REALISM_CAMO
+
+// GRAPHIC_DESIGN
+
+		"PaintKit_ht_peaks_rainbow"							"Broń została ozdobiona na zamówienie zielono-niebieskim wzorem w postaci rastrów poligraficznych.\n\n<i>Ten jest poza skalą.</i>"
+		"PaintKit_ht_peaks_rainbow_Tag"						"Spektrogram"
+
+		"PaintKit_ht_swirl"									"Broń została ozdobiona na zamówienie niebiesko-zielonym wzorem wiru z rastrów poligraficznych.\n\n<i>Obchodzić się ostrożnie.</i>"
+		"PaintKit_ht_swirl_Tag"								"Wir półtonu"
+
+		"PaintKit_ht_splash"								"Broń została ozdobiona na zamówienie niebiesko-szarym wzorem rozmycia w postaci rastrów poligraficznych.\n\n<i>Nawet najspokojniejsze wody mogą się szybko zmienić.</i>"
+		"PaintKit_ht_splash_Tag"							"Rozmyty półton"
+		
+		"PaintKit_gs_constellation_dark_mp7"				"Broń została pokryta warstwą ciemnokolorowego podkładu, a następnie ozdobiona metalicznymi akcentami.\n\n<i>„TO NIE JEST PŁYTKA DRUKOWANA!”</i>"
+		"PaintKit_gs_constellation_dark_mp7_Tag"			"Astrolabium"
+		
+		"PaintKit_cu_poly_green_galil"						"Broń została pokryta warstwą ciemnoszarego podkładu, a następnie ozdobiona na zamówienie zielonymi akcentami.\n\n<i>Ściemnia się.</i>"
+		"PaintKit_cu_poly_green_galil_Tag"					"NV"
+
+		"PaintKit_ht_facet_p2000"							"Broń została ozdobiona na zamówienie wielobarwnym wzorem w postaci rastrów poligraficznych.\n\n<i>Nie tym tonem.</i>"
+		"PaintKit_ht_facet_p2000_Tag"						"Koralowy półton"
+		
+		"PaintKit_cu_chevron_scar20"						"Broń została ozdobiona na zamówienie wielobarwnym wzorem w postaci rastrów poligraficznych.\n\n<i>„Nie umiem celować”.</i>"
+		"PaintKit_cu_chevron_scar20_Tag"					"Dzika jagoda"
+		
+		"PaintKit_gs_happy_red_sg556"						"Broń została pokryta warstwą metalicznego brązowego podkładu i wykończona czerwonymi akcentami.\n\n<i>„Och, popatrz tylko na tego maluszka.”</i>"
+		"PaintKit_gs_happy_red_sg556_Tag"					"Jagodowa warstwa żelowa"
+		
+		"PaintKit_cu_graphic_overlay_ak47"					"Broń została ozdobiona na zamówienie wielobarwną grafiką.\n\n<i>Złapany między klatkami.</i>"
+		"PaintKit_cu_graphic_overlay_ak47_Tag"				"Przenikanie"
+
+		"PaintKit_ht_shapes"								"Broń została ozdobiona na zamówienie wielobarwnym wzorem w postaci rastrów poligraficznych.\n\n<i>„Pochodzi z zoo, ale zamiast zwierząt na wystawie jest sztuka”.</i>"
+		"PaintKit_ht_shapes_Tag"							"Przejście półtonu"
+		
+		"PaintKit_cu_abstract_white_cz"						"Broń została ozdobiona na zamówienie wielobarwnym abstrakcyjnym wzorem.\n\n<i>Czarna diamentowa broń.</i>"
+		"PaintKit_cu_abstract_white_cz_Tag"					"Slalom"
+		
+		"PaintKit_cu_poly_violet_p90"						"Broń została ozdobiona na zamówienie wielobarwnym abstrakcyjnym wzorem.\n\n<i>Agresywne kąty ataku.</i>"
+		"PaintKit_cu_poly_violet_p90_Tag"					"Wektor ataku"
+
+		"PaintKit_soo_polysoup_m4a4"						"Broń została ozdobiona na zamówienie wzorem przedstawiającym wielobarwne kryształy oraz wykończona perłowymi akcentami.\n\n<i>Nie rozczulaj się nad tym.</i>"
+		"PaintKit_soo_polysoup_m4a4_Tag"					"Polysoup"
+		
+		"PaintKit_cu_glitter_deagle"						"Broń została ozdobiona na zamówienie abstrakcyjnym wzorem z użyciem metalicznej farby.\n\n<i>Nowy najwyższy wynik!</i>"
+		"PaintKit_cu_glitter_deagle_Tag"					"Gwiezdny podcień"
+
+		"PaintKit_gs_lilpig_aug"							"To malowanie na zamówienie wyróżnia się czerwonym podkładem i metalicznymi akcentami w kolorze złota. Obok kolby dodana została czerwona świnia.\n\n<i>Na strzelnicy jak w domu.</i>"
+		"PaintKit_gs_lilpig_aug_Tag"						"Świnka"
+
+		"PaintKit_gs_independe_awp"							"Broń została ozdobiona na zamówienie wielobarwną abstrakcyjną grafiką na białym tle.\n\n<i>Wiedziałem, że wrócisz, ale nie spodziewałem się, że tak szybko… – Booth, handlarz bronią</i>"
+		"PaintKit_gs_independe_awp_Tag"						"CMYK"
+
+// END GRAPHIC_DESIGN
+
 		//Recipes
 		"CSGO_Recipe_TradeUp"						"Kontrakt handlu bronią"
 		"CSGO_Recipe_TradeUp_Desc"					"Za 10 przedmiotów tej samej jakości otrzymasz broń jakości o stopień wyższej, należącą do tej samej kolekcji co jeden z wymienianych przedmiotów."
@@ -27099,6 +27483,13 @@
 		"CSGO_Recipe_TradeUp_Items_Confirm"			"Gotowe do wymiany"
 		"CSGO_Swap_Stattrak_Title"					"Narzędzie zamiany StatTrak™"
 		"CSGO_Swap_Stattrak_Desc_html"				"<b><font color='#FFFFFF'>Weź dwa przedmioty tego samego rodzaju\nZamień wartości StatTrak™ między nimi</font></b>"
+
+		// Keychain remove tool
+		"CSGO_RemoveKeychainTool_Title"				"Odczepiacze przywieszek"
+		"CSGO_RemoveKeychainTool_Desc"				"Wybierz broń z przyczepioną przywieszką. Użycie odczepiacza przywieszek spowoduje odczepienie przywieszki i zwróci ją do twojego ekwipunku."
+		"CSGO_RemoveKeychainToolCharges_Title"		"Pakiet odczepiaczy przywieszek"
+		"CSGO_RemoveKeychainToolCharges_Desc3"		"Pakiet odczepiaczy przywieszek przyzna ci <b>3</b> odczepiacze. Każdy odczepiacz pozwala ci na odczepienie dodanej przywieszki. Odczepiona przywieszka pojawi się w twoim ekwipunku."
+		"CSGO_RemoveKeychainToolCharges_Reward:p{item_count}"	"+{d:item_count} odczepiacz przywieszek#|#+{d:item_count} odczepiacze przywieszek#|#+{d:item_count} odczepiaczy przywieszek#|#+{d:item_count} odczepiacza przywieszek"
 
 		"crate_community_3_unusual_lootlist"		"lub niezwykle rzadki nóż myśliwski!"
 		"crate_community_3_unusual_itemname"		"★ Nóż myśliwski ★"
@@ -28116,6 +28507,9 @@
 
 		"SFUI_Store_Market_Link"                    "Zobacz na rynku"
 		"SFUI_Store_Limit_Offer"                    "Oferta limitowana"
+		"SFUI_Store_Offer_Days_Remaining:p{daysremaining}"	"Pozostał {d:daysremaining} dzień#|#Pozostały {d:daysremaining} dni#|#Pozostało {d:daysremaining} dni#|#Pozostało {d:daysremaining} dnia"
+		"SFUI_Store_Last_Chance"                    "Ostatnia szansa"
+		"SFUI_Store_Limited_Time_Tagline"           "do skorzystania z oferty"
 		"SFUI_Store_Available_Offers"               "Oferty ważne przez:"
 		"SFUI_Store_Preview"                        "Podgląd"
 
@@ -28419,14 +28813,18 @@
 		"SFUI_InvTooltip_MusicKit"			"Zestaw utworów"
 		"SFUI_InvTooltip_Clothing"			"Rękawice"
 		"SFUI_InvTooltip_OperatorDossierTag" "Agent"
+		"SFUI_InvTooltip_KeychainCapsuleTag"				"Kolekcja przywieszek"
 		"SFUI_InvAction_Choose_Item"		"<b><font color='#FFFFFF'>Wybierz przedmiot</b></font>, którego chcesz użyć przy pomocy „<b><font color='#FFFFFF'>%s1</b></font>”"
 		"SFUI_InvAction_Choose_Tool_decodable"		"<b><font color='#FFFFFF'>Wybierz klucz</b></font> do otwarcia „<b><font color='#FFFFFF'>%s1</b></font>”"
 		"SFUI_InvAction_Choose_Tool_nameable"		"<b><font color='#FFFFFF'>Wybierz tabliczkę z nazwą</b></font> do użycia na „<b><font color='#FFFFFF'>%s1</b></font>”"
 		"SFUI_InvAction_Choose_Tool_can_sticker"	"<b><font color='#FFFFFF'>Wybierz naklejkę</b></font> do użycia na <b><font color='#FFFFFF'>%s1</b></font>"
+		"SFUI_InvAction_Choose_Tool_can_keychain"	"<b><font color='#FFFFFF'>Wybierz przywieszkę</b></font> do przyczepienia do przedmiotu: <b><font color='#FFFFFF'>%s1</b></font>"
 		"SFUI_InvAction_Choose_Item_decodable"      "<b><font color='#FFFFFF'>Wybierz pojemnik</b></font>, który chcesz otworzyć przy pomocy „<b><font color='#FFFFFF'>%s1</b></font>”"
 		"SFUI_InvAction_Choose_Item_nameable"       "<b><font color='#FFFFFF'>Wybierz broń</b></font> do użycia z „<b><font color='#FFFFFF'>%s1</b></font>”"
 		"SFUI_InvAction_Choose_Item_can_sticker"    "<b><font color='#FFFFFF'>Wybierz broń</b></font> do użycia z twoją <b><font color='#FFFFFF'>%s1</b></font>"
+		"SFUI_InvAction_Choose_Item_can_keychain"    "<b><font color='#FFFFFF'>Wybierz broń</b></font> do użycia z przywieszką <b><font color='#FFFFFF'>%s1</b></font>."
 		"SFUI_InvActionPreview_Choose_Item_can_sticker"    "<b><font color='#FFFFFF'>Wybierz broń</b></font>, aby podejrzeć ją z <b><font color='#FFFFFF'>%s1</b></font>"
+		"SFUI_InvActionPreview_Choose_Item_can_keychain"    "<b><font color='#FFFFFF'>Wybierz broń</b></font>, by zobaczyć jej podgląd z przywieszką <b><font color='#FFFFFF'>%s1</b></font>."
 		"SFUI_InvAction_No_Items"			"<b><font color='#FFFFFF'>Nie masz przedmiotów</b></font>, których można używać wraz z „<b><font color='#FFFFFF'>%s1</b></font>”"
 		"SFUI_InvActionPreview_No_Items"    "<b><font color='#FFFFFF'>Nie posiadasz przedmiotów</b></font>, które możesz wypróbować z <b><font color='#FFFFFF'>%s1</b></font>"
 		"SFUI_InvAction_SelectGift"         "<b><font color='#FFFFFF'>Wybierz prezent do podarowania"
@@ -28437,6 +28835,8 @@
 		"SFUI_InvUse_Header_nameable"		"Użyj tabliczki z nazwą na „<b><font color='#FFFFFF'>%s1</b></font>”"
 		"SFUI_InvUse_Header_can_sticker"    "Użyj naklejki na <b><font color='#FFFFFF'>%s1</b></font>"
 		"SFUI_InvUse_HeaderPreview_can_sticker"    "Podgląd naklejki na <b><font color='#FFFFFF'>%s1</b></font>"
+		"SFUI_InvUse_Header_can_keychain"    "Przyczep przywieszkę do przedmiotu: <b><font color='#FFFFFF'>%s1</b></font>"
+		"SFUI_InvUse_HeaderPreview_can_keychain"    "Podgląd przywieszki na: <b><font color='#FFFFFF'>%s1</b></font>"
 		"SFUI_InvUse_Header_Desc"           "Użyj „<b><font color='#FFFFFF'>%s1</b></font>”, by zmienić opis „<b><font color='#FFFFFF'>%s2</b></font>”"
 		"SFUI_InvUse_Header_Sticker_Wear"   "Zdrap naklejkę"
 		"SFUI_InvUse_BuyItem_Panel_Header"  "Wybierz klucz, który chcesz kupić"
@@ -28480,6 +28880,8 @@
 		"SFUI_ItemInfo_FinishCatalog"		"Nr w katalogu wykończenia"
 		"SFUI_ItemInfo_PatternTemplate"		"Wzór szablonu"
 		"SFUI_ItemInfo_WearAmount"			"Współczynnik zużycia"
+		"SFUI_ItemInfo_KeychainDef"			"Seria przywieszek"
+		"SFUI_ItemInfo_KeychainPattern"		"Szablon przywieszki"
 
 		"SFUI_ItemInfo_FinishStyle_0"		"Brak"
 		"SFUI_ItemInfo_FinishStyle_1"		"Jednolity kolor"
@@ -28491,6 +28893,7 @@
 		"SFUI_ItemInfo_FinishStyle_7"		"Niestandardowe malowanie"
 		"SFUI_ItemInfo_FinishStyle_8"		"Patyna"
 		"SFUI_ItemInfo_FinishStyle_9"		"Rusznikarski"
+		"SFUI_ItemInfo_FinishStyle_10"		"Utwardzenie"
 		"SFUI_ItemInfo_FinishStyle_Unknown" "Nieznany"
 
 		"SFUI_ItemInfo_WearAmount_None"		"Brak"
@@ -28499,6 +28902,8 @@
 		"SFUI_InvUse_Use_nameable"          "Użyj tabliczki z nazwą"
 		"SFUI_InvUse_Use_can_sticker"       "Kontynuuj"
 		"SFUI_InvUse_UsePreview_can_sticker""%s1 <b>Kup to</b> "
+		"SFUI_InvUse_Use_can_keychain"       "Kontynuuj"
+		"SFUI_InvUse_UsePreview_can_keychain""%s1 <b>Kup to</b> "
 		"SFUI_InvUse_UsePreview_buy"        "%s1 <b>Kup</b> "
 		"SFUI_InvUse_Reset_nameable"        "Usuń nazwę"
 		"SFUI_InvUse_Reset_nameable_Warning" "Usunąć tabliczkę z nazwą z tego przedmiotu, przywracając jego oryginalną nazwę?\nPoprzednio użyta tabliczka zostanie zniszczona."
@@ -28578,6 +28983,7 @@
 		"SFUI_InvContextMenu_usegift"		"Wręcz prezent"
 		"SFUI_InvContextMenu_recipe"		"Otwórz kontrakt"
 		"SFUI_InvContextMenu_can_sticker"	"Nalep naklejkę"
+		"SFUI_InvContextMenu_can_keychain"	"Przyczep przywieszkę"
 		"SFUI_InvContextMenu_can_patch"		"Użyj naszywki"
 		"SFUI_InvContextMenu_can_PickEm"	"Otwórz stronę turnieju, aby postawić"
 		"SFUI_InvContextMenu_open_package"	"Otwórz..."
@@ -28637,11 +29043,17 @@
 		
 		
 		"SFUI_Sticker_Remove"           	"Usuń naklejkę"
+		"popup_remove_keychain_button"      "Odczep przywieszkę"
 		"popup_remove_patch_button"         "Usuń naszywkę"
 		"popup_remove_sticker_button"       "Zdrap naklejkę"
+		"popup_remove_sticker_button_negative"  "Usuń naklejkę"
+		"popup_scrape_sticker_level"		"Poziom zdrapania naklejki"
+		"SFUI_Sticker_RemoveImmediate_Desc" "Potwierdź, że chcesz usunąć tę naklejkę z przedmiotu. Usunięta naklejka zostanie zniszczona."
 		"SFUI_Sticker_Remove_Desc"          "Dalsze zdrapywanie naklejki doprowadzi do usunięcia jej z przedmiotu i zniszczenia." 
 		"SFUI_Patch_Remove"           		"Usuń naszywkę"
 		"SFUI_Patch_Remove_Desc"			"Potwierdź, że chcesz usunąć tę naszywkę z twojego agenta. Usunięta naszywka zostanie zniszczona." 
+		"SFUI_Keychain_Remove"           	"Odczep przywieszkę"
+		"SFUI_Keychain_Remove_Desc"			"Potwierdź, że chcesz odczepić tę przywieszkę. Odczepienie przywieszki spowoduje zużycie jednego odczepiacza przywieszek i przywróci twoją przywieszkę do ekwipunku."
 		"SFUI_Sticker_Wear_Warning"         "Zdrapywanie naklejki sprawi, że będzie ona wyglądała na bardziej zużytą. Możesz drapać jedną naklejkę kilka razy, za każdym razem sprawiając, że będzie wyglądać na bardziej zużytą. Wielokrotne drapanie doprowadzi do usunięcia naklejki.\n<font color='#ff0000'>Jest to proces nieodwracalny!</font>" 
 		"SFUI_Sticker_Wear_Warning_Full"    "Nie można dodać więcej naklejek do tego przedmiotu. Zdrap istniejące naklejki, aby zrobić miejsce na nowe." 
 		"SFUI_Sticker_Wear_How_To"   		"Kliknięcie na naklejce zwiększy o trochę jej stopień zużycia. Wielokrotne drapanie usunie naklejkę.\n<font color='#ff0000'>Procesu nie można cofnąć, a wyniki są permanentne.</font>"
@@ -30131,6 +30543,7 @@
 		"elevated_status_btn"							"KUP PRIME ZA {s:price}"
 		"elevated_status_btn_no_price"					"KUP PRIME"
 		"elevated_status_ad_drop" 						"Zakup ulepszenie do statusu Prime, by otrzymać swój następny przedmiot."
+		"elevated_status_ad_xpshop" 					"Do zakupu przepustki zbrojowni wymagane jest ulepszenie do statusu Prime."
 		"popup_elevated_status_title"					"ULEPSZENIE DO STATUSU PRIME"
 		"popup_elevated_status_desc"					"Ulepsz swoje konto i otrzymaj funkcje Prime."
 		"popup_elevated_status_xp_title"				"Zdobywaj PD"
@@ -30152,8 +30565,42 @@
 		"Panorama_Elevated_Status_Cooldown"			"Inne konto Counter-Strike jest już powiązane z twoim numerem telefonu Steam.\nPozostało <b>{s:cooldowntime}</b> do możliwości zmiany powiązania na obecnie zalogowane konto."
 		"Panorama_Elevated_Status_AccCooldown"		"Twoje konto Counter-Strike zostało niedawno ulepszone do statusu Prime przy pomocy innego numeru telefonu.\nMusisz poczekać <b>{s:cooldowntime}</b>, zanim możliwe będzie ulepszenie konta do statusu Prime przy pomocy twojego nowego numeru telefonu."
 
-	
-		
+		"xpshop_upsell_desc"						"<span class=\"text-color-white\"><b>Zakup i aktywuj swoją przepustkę zbrojowni.</b></span><br>Zdobądź {d:max-stars} punktów zbrojowni za każdą przepustkę i wymieniaj je na przedmioty."
+		"xpshop_upsell_mainmenu_1"					"Przepustka zbrojowni"
+		"xpshop_upsell_mainmenu_2"					"Uzyskaj dostęp do 3 nowych kolekcji broni, przywieszek, skrzyni Galerii i nie tylko."
+		"xpshop_upsell_btn"							"Zdobądź przepustkę"
+		"xpshop_upsell_tooltip"						"Dowiedz się więcej o przepustce zbrojowni"
+
+		"xpshop_pass_activate"						"Aktywuj przepustkę"
+		"xpshop_pass_activate_open_armory"			"Otwórz zbrojownię, by aktywować"
+		"xpshop_pass_activate_desc"					"Aktywuj przepustkę, by zdobywać punkty zbrojowni."
+
+		"xpshop_pass_extra_pass"					"Zdobądź kolejną przepustkę"
+		"xpshop_track_progress"						"Postęp przepustki"
+		"xpshop_track_mini_stars_counter"			"{d:stars-earned}/{d:max-stars}"
+		"xpshop_next_credit"						"Następny punkt"
+		"xpshop_pass_credits"						"Zdobyte punkty"
+		"xpshop_balance"							"Saldo punktów"
+		"xpshop_balance_caps"						"SALDO PUNKTÓW"
+		"xpshop_clear_track"						"Skasuj"
+		"xpshop_popup_clear_track_title"			"Skasuj ukończoną przepustkę"
+		"xpshop_popup_clear_n_tracks:p{completed_tracks_count}"		"Skasuj {d:completed_tracks_count} ukończoną przepustkę#|#Skasuj {d:completed_tracks_count} ukończone przepustki#|#Skasuj {d:completed_tracks_count} ukończonych przepustek#|#Skasuj {d:completed_tracks_count} ukończonej przepustki"
+		"xpshop_popup_clear_n_tracks_text:p{completed_tracks_count}"	"Zdobyłeś wszystkie punkty zbrojowni z tej przepustki.<br><br>Skasowanie tej przepustki pozwoli ci aktywować nową. Nie wpłynie to na twoje obecne saldo punktów zbrojowni.#|#Zdobyłeś wszystkie punkty zbrojowni z {d:completed_tracks_count} przepustek.<br><br>Skasowanie tych przepustek zbrojowni pozwoli ci aktywować nowe. Nie wpłynie to na twoje obecne saldo punktów zbrojowni.#|#Zdobyłeś wszystkie punkty zbrojowni z {d:completed_tracks_count} przepustek.<br><br>Skasowanie tych przepustek zbrojowni pozwoli ci aktywować nowe. Nie wpłynie to na twoje obecne saldo punktów zbrojowni.#|#Zdobyłeś wszystkie punkty zbrojowni z {d:completed_tracks_count} przepustki.<br><br>Skasowanie tej przepustki zbrojowni pozwoli ci aktywować nową. Nie wpłynie to na twoje obecne saldo punktów zbrojowni."
+		"xpshop_redeem_item_desc" 					"Otrzymaj losowy przedmiot z: <b>{s:name}</b>"
+		"xpshop_redeem_item_desc_limitedtime" 		"Zdobądź: <b>{s:name}</b>"
+		"xpshop_redeem_item_desc_crate"				"Zdobądź: <b>{s:name}</b>"
+		"xpshop_redeem_use_stars"					"UŻYJ: <b>{s:cost_stars}</b>"
+		"xpshop_redeem_use_confirm_item"			"<b>{s:name}</b> ma w sobie losowy przedmiot, który możesz zdobyć za użycie <b>{s:cost_stars}</b> <img src='file://{images}/icons/ui/xpshop_star.svg' class='xpshop-label-star' />."
+		"xpshop_redeem_use_confirm_item_limitedtime" "Użyj <b>{s:cost_stars}</b> <img src='file://{images}/icons/ui/xpshop_star.svg' class='xpshop-label-star' />, a <b>{s:name}</b> zostanie dodana do twojego ekwipunku."
+		"xpshop_redeem_use_confirm_item_crate"		"Użyj <b>{s:cost_stars}</b> <img src='file://{images}/icons/ui/xpshop_star.svg' class='xpshop-label-star' />, a <b>{s:name}</b> zostanie dodana do twojego ekwipunku."
+		"xpshop_redeem_flags_notice_2"				"* ten przedmiot nie będzie wymienialny/zbywalny przez tydzień"
+		"xpshop_redeem_confirm_action"				"ZDOBĄDŹ PRZEDMIOT"
+		"xpshop_redeem_not_enough_stars:p{stars_needed}"	"Potrzebujesz jeszcze {d:stars_needed} punktu zbrojowni. Zdobądź go, grając z aktywną przepustką zbrojowni.#|#Potrzebujesz jeszcze {d:stars_needed} punktów zbrojowni. Zdobądź je, grając z aktywną przepustką zbrojowni.#|#Potrzebujesz jeszcze {d:stars_needed} punktów zbrojowni. Zdobądź je, grając z aktywną przepustką zbrojowni.#|#Potrzebujesz jeszcze {d:stars_needed} punktu zbrojowni. Zdobądź je, grając z aktywną przepustką zbrojowni."
+		"xpshop_redeem_need_pass_tooltip"			"Zakup i aktywuj przepustkę. Zdobądź do {d:max-stars} punktów zbrojowni i wymień je na przedmioty ze zbrojowni."
+		"xpshop_track_tooltip"						"Graj i zdobywaj PD, by czynić postępy w zdobywaniu kolejnego punktu zbrojowni."
+		"xpshop_track_complete_tooltip"				"Ta przepustka zbrojowni została ukończona."
+		"xpshop_key_warning"						"Do otwarcia wymagany jest <b>{s:keyname}</b>."
+
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Message Box
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -30662,7 +31109,7 @@
 		"SFUIHUD_Spectate_Navigation_Steam_Profile_Keyboard"	"${radio1} Pokaż profil"
 		"SFUIHUD_Spectate_Navigation_Steam_Profile_Controller"	"${north} Pokaż profil"
 		"SFUIHUD_Spectate_Navigation_Camera"		"${+jump} Kamera"
-		"SFUIHUD_Spectate_Navigation_Arrows"		"${+attack} Nast��pny gracz"
+		"SFUIHUD_Spectate_Navigation_Arrows"		"${+attack} Następny gracz"
 		"SFUIHUD_Spectate_Navigation_Replay_Death"		"<font color='#ddbb22'><b>${+reload} Kamera zabójcy</b></font>"
 		"SFUIHUD_Spectate_Navigation_Cancel_Replay"		"${+jump} Zatrzymaj powtórkę"
 		"SFUIHUD_Spectate_Navigation_Control_Bot_Controller"	"${west} Kontroluj bota"
@@ -30764,7 +31211,7 @@
 		"SFUI_SpecStat_First_Half"			"1."
 		"SFUI_SpecStat_Second_Half"			"2."
 
-		"HudSpecPlayer_WeaponName"				"<span class=\"possessive-player-name\">{s:possessive_player_name}</span><br><span class=\"weapon-name\">{s:weapon_name}</span><br><font color=\"{s:rarity_color}\"><span class=\"weapon-kit-name\">{s:weapon_kit_name}</span><br><span class=\"weapon-name-custom\">\"{s:weapon_name_custom}\"</span></font>"
+		"HudSpecPlayer_WeaponName"				"<span class=\"possessive-player-name\">{s:possessive_player_name}</span><br><span class=\"weapon-name\">{s:weapon_name}</span><br><font color=\"{s:rarity_color}\"><span class=\"weapon-kit-name\">{s:weapon_kit_name}</span><br><span class=\"weapon-name-custom\">{s:weapon_name_custom}</span></font>"
 
 		"heatmap_t"								"T"
 		"heatmap_ct"							"AT"
@@ -30932,7 +31379,7 @@
 		"SFUI_Scoreboard_Coop_HardMode"			"Ukończono w tr. trudnym"
 		"SFUI_Scoreboard_Coop_AllCoins"			"Zebrano wszystkie żetony"
 		"SFUI_Scoreboard_Coop_Within3Rounds"	"Ukończono w ciągu 3 rund"
-		"SFUI_Scoreboard_Coop_MissionCompletion"	"Uko��czenie misji"
+		"SFUI_Scoreboard_Coop_MissionCompletion"	"Ukończenie misji"
 
 		"SFUI_CoopSB_FinalScore"		"Ostateczny wynik zespołu"
 		"SFUI_CoopSB_FinalScore_Prev"	"Poprzedni wynik zespołu"
@@ -31576,6 +32023,8 @@
 		"SFUI_Settings_Resolution"			"Rozdzielczość"
 		"SFUI_Settings_Refresh"				"Częstotliwość odświeżania"
 
+		"SFUI_Settings_Display"				"Wyświetlacz"
+		"SFUI_Settings_Display_Choice"		"Monitor {d:displayNumber} – {s:displayName}"
 		"SFUI_Settings_Display_Mode"		"Tryb wyświetlania"
 		"SFUI_Settings_Fullscreen"			"Pełny ekran"
 		"SFUI_Settings_Windowed"			"W oknie"
@@ -31796,11 +32245,14 @@
 		"SFUI_Settings_HudTelemetry_Ping" "Pokaż ping"
 		"SFUI_Settings_HudTelemetry_Ping_Info" "Pokazuje czas opóźnienia rundy do serwera w milisekundach."
 
-		"SFUI_Settings_HudTelemetry_PacketMisdelivery" "Pokaż utratę/nieprawidłowy przesył pakietów"
-		"SFUI_Settings_HudTelemetry_PacketMisdelivery_Info" "Pokazuje ilość utraconych lub przesłanych w złej kolejności pakietów w procentach.\nWyświetlana jest wartość w obydwu kierunkach, z i do serwera.\n\nPakiety przesłane poza kolejnością często są poprawiane automatycznie. Ta liczba będzie zawierać tylko źle przesłane pakiety, które nie są poprawiane automatycznie."
+		"SFUI_Settings_HudTelemetry_NetworkMisdelivery" "Pokaż utratę/nieprawidłowy przesył ramek"
+		"SFUI_Settings_HudTelemetry_NetworkMisdelivery_Info" "Pokazuje wyrażoną w procentach wartość utraconych, dostarczonych w złej kolejności lub znajdujących się w niestabilnych warunkach sieciowych ramek.\nWyświetlana jest wartość w obydwu kierunkach, z i do serwera.\n\nNieprawidłowe doręczenia sieciowe często są poprawiane automatycznie. Ta liczba będzie obejmować jedynie nieprawidłowe doręczenia, które w negatywny sposób wpływają na rozgrywkę."
 
-		"SFUI_Settings_HudTelemetry_PacketMisdeliveryPoor" "Próg ostrzeżenia nieprawidłowego przesyłu pakietów"
-		"SFUI_Settings_HudTelemetry_PacketMisdeliveryPoor_Info" "Kiedy procent nieprawidłowo przesłanych pakietów przekracza tę wartość, warunki sieciowe są uważane za „kiepskie”."
+		"SFUI_Settings_HudTelemetry_NetworkMisdeliveryPoor" "Próg ostrzeżenia nieprawidłowego przesyłu sieciowego"
+		"SFUI_Settings_HudTelemetry_NetworkMisdeliveryPoor_Info" "Kiedy procent nieprawidłowo przesłanych klatek sieciowych przekracza tę wartość, warunki sieciowe są uważane za „kiepskie”."
+
+		"SFUI_Settings_HudTelemetry_NetworkQualityGraph" "Pokaż wykres niestabilności sieci/nieprawidłowowego przesyłu"
+		"SFUI_Settings_HudTelemetry_NetworkQualityGraph_Info" "Pokaż wykres niestabilności sieci w czasie rzeczywistym. Wyróżnione są zdarzenia niewłaściwego przesyłu (utrata, zmiana kolejności lub silna niestabilność)."
 
 		"SFUI_Settings_HudTelemetry_Show_Never" "Nigdy"
 		"SFUI_Settings_HudTelemetry_Show_OnlyInPoorConditions" "Jeśli warunki są kiepskie"
@@ -31981,6 +32433,9 @@
 		"SFUI_Settings_MiniScoreboardPlayerCount"	"Duża liczba graczy"
 		"SFUI_Settings_MiniScoreboardPlayerCount_Tooltip"	"Zastąp awatary graczy liczbą graczy na minitabeli wyników podczas aktywnej części rundy."
 
+
+		"Post_Round_Damage_Report_Given:p{s1}"			" • Zadane obrażenia → %s3: %s2 w %s1 trafieniu#|# • Zadane obrażenia → %s3: %s2 w %s1 trafieniach#|# • Zadane obrażenia → %s3: %s2 w %s1 trafieniach#|# • Zadane obrażenia → %s3: %s2 w %s1 trafienia"
+		"Post_Round_Damage_Report_Taken:p{s1}"			" • Otrzymane obrażenia → %s3: %s2 w %s1 trafieniu#|# • Otrzymane obrażenia → %s3: %s2 w %s1 trafieniach#|# • Otrzymane obrażenia → %s3: %s2 w %s1 trafieniach#|# • Otrzymane obrażenia → %s3: %s2 w %s1 trafienia"
 
 		"SFUI_TeamOverheadID"					"Pokaż wyposażenie drużyny"
 
@@ -34557,6 +35012,9 @@
 		"Player_DisconnectReason_NoSteamLogin"				"użytkownik niezalogowany"
 		"Player_DisconnectReason_NoSteamTicket"				"błąd uwierzytelnienia gry"
 		"Player_DisconnectReason_ConnectionClosing"			"zamknięcie połączenia"
+		"Player_DisconnectReason_InputAutomation"			"za automatyzację wprowadzania danych"
+		"Player_DisconnectReason_InputAutomation_Detail"	"wyrzucono za automatyzację wprowadzania danych"
+
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Profile Text
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -36307,6 +36765,7 @@
 		"store_tab_newstore"	"Nowości"
 		"store_tab_prime"		"Prime"
 		"store_tab_store"		"Sklep"
+		"store_tab_xpshop"		"Zbrojownia"
 		"store_tab_coupons"		"Kupony"
 		"store_tab_market"		"Rynek"
 		"store_tab_keys"		"Klucze"
@@ -36713,6 +37172,7 @@
 		"inv_nav_stickers"					"Naklejki"
 		"inv_nav_patches"					"Naszywki"
 		"inv_nav_sprays"					"Graffiti"
+		"inv_nav_keychain"					"Przywieszki"
 		"inv_nav_containers_all"			"Wszystkie pojemniki"
 		"inv_nav_weapon_cases"				"Skrzynie z bronią"
 		"inv_nav_sticker_capsules"			"Pojemniki z naklejką"
@@ -36763,8 +37223,13 @@
 		"inv_context_newcasket"				"Zacznij korzystać z tego magazynu"
 		"inv_context_yourcasket"			"Zmień nazwę"
 		"inv_context_intocasket"			"Przenieś do schowka"
+		"inv_context_preview_can_sticker"	"Podgląd naklejki"
 		"inv_context_can_sticker"			"Nalep naklejkę"
 		"inv_context_remove_sticker"		"Zdrap naklejkę"
+		"inv_context_preview_can_keychain"	"Podgląd przywieszki"
+		"inv_context_can_keychain"			"Przyczep przywieszkę"
+		"inv_context_remove_keychain"		"Odczep przywieszkę"
+		"inv_context_preview_can_patch"		"Podgląd naszywki"
 		"inv_context_can_patch"				"Użyj naszywki"
 		"inv_context_remove_patch"			"Usuń naszywkę"		
 		"inv_context_openloadout"			"Zobacz w wyposażeniu"
@@ -36818,6 +37283,7 @@
 		"inv_session_prop_recent"			"Nowe!"
 		"inv_session_prop_updated"			"Zaktualizowane!"
 		"inv_session_prop_quest_reward"		"Nagroda!"
+		"inv_session_prop_xpshopredeem"		"Nowość!"
 		"inv_equipped_item"					"Umieszczono <b>{s:name}</b> w wyposażeniu <b>{s:team}</b>"
 		"inv_equipped_item_noteam"			"Umieszczono <b>{s:name}</b> w wyposażeniu"
 		"inv_unequipped_item"				"Usunięto <b>{s:name}</b> z wyposażenia"
@@ -36876,10 +37342,13 @@
 		"popup_title_nametag_remove"		"Usunięto tabliczkę z nazwą"
 		"popup_title_sticker_apply"			"Nalepiono naklejkę"
 		"popup_title_sticker_remove"		"Usunięto naklejkę"
+		"popup_title_keychain_apply"		"Przyczepiono przywieszkę"
+		"popup_title_keychain_remove"		"Odczepiono przywieszkę"
 		"popup_title_patch_apply"			"Użyto naszywki"
 		"popup_title_patch_remove"			"Usunięto naszywkę"		
 		"popup_title_stattrack_swap"		"Nowa wartość StatTrak™"
-		"popup_title_quest_reward"			"Nagroda operacji"
+		"popup_title_quest_reward"			"Nagroda"
+		"popup_title_xpshopredeem"			"Otrzymano ze zbrojowni"
 
 		"acknowledge_gifter"				"Prezent od: {s:name}"
 		"acknowledge_quest"					"Nagroda za misję"
@@ -36887,9 +37356,13 @@
 
 		// Async Actions
 		"popup_useitem_title"	"{s:itemname}"
+		"popup_useitem_title_getkeychaincharges"	"Odpakuj: {s:itemname}"
 		"popup_useitem_desc"	"Czy na pewno chcesz użyć tego przedmiotu?"
+		"popup_useitem_desc_getkeychaincharges"	"Czy na pewno chcesz odpakować ten przedmiot?"
 		"popup_useitem_warning"	"Przedmiot „{s:itemname}” może zostać użyty tylko raz."
+		"popup_useitem_warning_getkeychaincharges"	"Ten przedmiot można odpakować tylko raz"
 		"popup_useitem_button"	"Użyj przedmiotu"
+		"popup_useitem_button_getkeychaincharges:p{item_count}"	"Dodaj <b>{d:item_count}</b> odczepiacz przywieszek#|#Dodaj <b>{d:item_count}</b> odczepiacze przywieszek#|#Dodaj <b>{d:item_count}</b> odczepiaczy przywieszek#|#Dodaj <b>{d:item_count}</b> odczepiacza przywieszek"
 
 		"popup_prestigecheck_title"	"Medal za Służbę"
 		"popup_prestigecheck_desc"	"Poczekaj, aż potwierdzimy możliwość otrzymania twojego Medalu za Służbę..."
@@ -36945,6 +37418,7 @@
 		"popup_can_stick_button_patch"							"Użyj naszywki"
 		"SFUI_InvContextMenu_stick_use_patch"   				"Użyj naszywki"
 		"SFUI_InvUse_Warning_use_can_stick_patch"  				"Naszywka może zostać użyta tylko raz"
+		"SFUI_InvUse_Warning_use_can_stick_previewonly_patch"  	"To tylko podgląd. Przed umieszczeniem naszywki musisz ją mieć."
 		"SFUI_InvContextMenu_can_stick_Wear_patch"   			"Zerwij naszywkę"
 		"SFUI_InvContextMenu_can_stick_Wear_full_patch"   		"Usuń naszywkę"
 		
@@ -36957,9 +37431,25 @@
 		"popup_can_stick_button_sticker"						"Nalep naklejkę"
 		"SFUI_InvContextMenu_stick_use_sticker"   				"Nalep naklejkę"
 		"SFUI_InvUse_Warning_use_can_stick_sticker"  			"Naklejka może zostać użyta tylko raz"
+		"SFUI_InvUse_Warning_use_can_stick_previewonly_sticker"  "To tylko podgląd. Przed przyklejeniem naklejki musisz ją mieć."
 		"SFUI_InvContextMenu_can_stick_Wear_sticker"   			"Zdrap naklejkę"
 		"SFUI_InvContextMenu_can_stick_Wear_full_sticker"   	"Usuń naklejkę"
 
+
+		"popup_can_stick_title_keychain" 						"Przyczep przywieszkę"
+		"popup_can_stick_scrape_full_keychain"					"Odczep przywieszkę od przedmiotu: <b>{s:tool_target_name}</b>"
+		"popup_can_stick_scrape_keychain"						"Usuń przywieszkę z: <b>{s:tool_target_name}</b>"
+		"popup_can_stick_warning_traderestricted_keychain"  	"Ta niewymienialna przywieszka może zostać przyczepiona i odczepiona.\nTwój przedmiot będzie niewymienialny do dnia {s:date}."
+		"popup_can_stick_warning_marketrestricted_keychain"  	"Ta niewymienialna i niezbywalna przywieszka może zostać przyczepiona i odczepiona.\nTwój przedmiot będzie niewymienialny i niezbywalny do dnia {s:date}."
+		"popup_can_stick_button_keychain"						"Przyczep przywieszkę"
+		"SFUI_InvContextMenu_stick_use_keychain"   				"Przyczep przywieszkę"
+		"SFUI_InvUse_Warning_use_can_stick_keychain"  			"Przywieszki można odczepić za pomocą odczepiacza przywieszek."
+		"SFUI_InvUse_Warning_use_can_stick_previewonly_keychain"  "To tylko podgląd. Przed przyczepieniem zawieszki musisz ją mieć."
+		"SFUI_InvContextMenu_can_stick_Wear_keychain"   		"Usuń przywieszkę"
+		"SFUI_InvContextMenu_can_stick_Wear_full_keychain"   	"Odczep przywieszkę"
+
+
+		"popup_can_keychain_button"			"Przyczep przywieszkę"
 		"popup_can_patch_button"			"Użyj naszywki"
 		"popup_can_sticker_button"			"Użyj naklejki {d:sticker_count}/{d:max_stickers}"
 
@@ -38328,7 +38818,7 @@
 
 
 		"rankup_redemption_store_closed"							"Odebrano cotygodniowe nagrody"
-		"rankup_redemption_store_directive:p{redeemable_balance}"	"Wybierz <font color='#000000'>{d:redeemable_balance} nagrodę</font>#|#Wybierz maksymalnie <font color='#000000'>{d:redeemable_balance} nagrody</font>#|#Wybierz maksymalnie <font color='#000000'>{d:redeemable_balance} nagród</font>#|#Wybierz maksymalnie <font color='#000000'>{d:redeemable_balance} nagrody</font>"
+		"rankup_redemption_store_directive"							"Odbierz swoje nagrody"
 		"rankup_redemption_store_earn_xp"							"Zdobądź stopień PD"
 
 		"rankup_redemption_store_rollover_wait"						"Możesz rozpocząć zdobywanie nowych nagród za {s:time-to-week-rollover}."
@@ -39435,6 +39925,15 @@
 		//
 		////////////////////////////////////////////////////////////
 
+		"Chatwheel_segment_top"	"Góra"
+		"Chatwheel_segment_topright"	"Prawy górny róg"
+		"Chatwheel_segment_right"	"Prawa"
+		"Chatwheel_segment_bottomright"	"Prawy dolny róg"
+		"Chatwheel_segment_bottom"	"Dół"
+		"Chatwheel_segment_bottomleft"	"Lewy dolny róg"
+		"Chatwheel_segment_left"	"Lewa"
+		"Chatwheel_segment_topleft"	"Lewy górny róg"
+
 		"Chatwheel_ping_on_cooldown"  "Nie można spingować. Ping jeszcze się nie odświeżył."
 
 		"Chatwheel_plant"	"Podłóż bombę"
@@ -39608,7 +40107,7 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SteamVideo_Player_Kill_Title"					"Zabiłeś gracza %s1"
 		"SteamVideo_Player_Kill_Description"			"z użyciem: %s1"
-				
+
 		"SteamVideo_Player_Double_Kill_Title"			"Podwójne zabójstwo"
 		"SteamVideo_Player_Multi_Kill_Title"			"Wielobójstwo"
 		
@@ -39630,8 +40129,11 @@
 		"SteamVideo_Round_Number_Label"					"Runda %s1"
 		"SteamVideo_Start_Of_Round_Title"				"Początek rundy %s1"
 
-// crow_mask_42161_comment
-// crow_mask_42162_comment
+		"SteamVideo_MatchScore"							"Wynik"
+		"SteamVideo_KDA"								"Z/Ś/A"
+
+// crow_mask_42793_comment
+// crow_mask_42794_comment
 }
 
 

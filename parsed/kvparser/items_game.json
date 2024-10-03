@@ -421,6 +421,24 @@
                 "65898": {
                     "icon_path": "econ/default_generated/weapon_deagle_hy_mottled_sand_heavy"
                 },
+                "65992": {
+                    "icon_path": "econ/default_generated/weapon_deagle_deagle_calligraff_light"
+                },
+                "65993": {
+                    "icon_path": "econ/default_generated/weapon_deagle_deagle_calligraff_medium"
+                },
+                "65994": {
+                    "icon_path": "econ/default_generated/weapon_deagle_deagle_calligraff_heavy"
+                },
+                "66088": {
+                    "icon_path": "econ/default_generated/weapon_deagle_cu_overpass_aqua_deagle_light"
+                },
+                "66089": {
+                    "icon_path": "econ/default_generated/weapon_deagle_cu_overpass_aqua_deagle_medium"
+                },
+                "66090": {
+                    "icon_path": "econ/default_generated/weapon_deagle_cu_overpass_aqua_deagle_heavy"
+                },
                 "66276": {
                     "icon_path": "econ/default_generated/weapon_deagle_am_scales_bravo_light"
                 },
@@ -628,6 +646,15 @@
                 "68902": {
                     "icon_path": "econ/default_generated/weapon_deagle_gs_deagle_exo_heavy"
                 },
+                "69288": {
+                    "icon_path": "econ/default_generated/weapon_deagle_cu_glitter_deagle_light"
+                },
+                "69289": {
+                    "icon_path": "econ/default_generated/weapon_deagle_cu_glitter_deagle_medium"
+                },
+                "69290": {
+                    "icon_path": "econ/default_generated/weapon_deagle_cu_glitter_deagle_heavy"
+                },
                 "69316": {
                     "icon_path": "econ/default_generated/weapon_deagle_cu_deagle_replica_light"
                 },
@@ -672,6 +699,15 @@
                 },
                 "69738": {
                     "icon_path": "econ/default_generated/weapon_deagle_cu_deag_trigger_discipline_heavy"
+                },
+                "69752": {
+                    "icon_path": "econ/default_generated/weapon_deagle_aq_deagle_case_hardened_2_light"
+                },
+                "69753": {
+                    "icon_path": "econ/default_generated/weapon_deagle_aq_deagle_case_hardened_2_medium"
+                },
+                "69754": {
+                    "icon_path": "econ/default_generated/weapon_deagle_aq_deagle_case_hardened_2_heavy"
                 },
                 "69760": {
                     "icon_path": "econ/default_generated/weapon_deagle_sp_spacerace_blue_light"
@@ -726,6 +762,24 @@
                 },
                 "131262": {
                     "icon_path": "econ/default_generated/weapon_elite_so_space_marine_heavy"
+                },
+                "131520": {
+                    "icon_path": "econ/default_generated/weapon_elite_dual_elite_hydro_strike_light"
+                },
+                "131521": {
+                    "icon_path": "econ/default_generated/weapon_elite_dual_elite_hydro_strike_medium"
+                },
+                "131522": {
+                    "icon_path": "econ/default_generated/weapon_elite_dual_elite_hydro_strike_heavy"
+                },
+                "131628": {
+                    "icon_path": "econ/default_generated/weapon_elite_cu_overpass_baby_dualies_light"
+                },
+                "131629": {
+                    "icon_path": "econ/default_generated/weapon_elite_cu_overpass_baby_dualies_medium"
+                },
+                "131630": {
+                    "icon_path": "econ/default_generated/weapon_elite_cu_overpass_baby_dualies_heavy"
                 },
                 "131684": {
                     "icon_path": "econ/default_generated/weapon_elite_so_tangerine_light"
@@ -1240,6 +1294,15 @@
                 "199746": {
                     "icon_path": "econ/default_generated/weapon_fiveseven_hy_ducts_green_heavy"
                 },
+                "199932": {
+                    "icon_path": "econ/default_generated/weapon_fiveseven_aq_case_hardened_fiveseven_light"
+                },
+                "199933": {
+                    "icon_path": "econ/default_generated/weapon_fiveseven_aq_case_hardened_fiveseven_medium"
+                },
+                "199934": {
+                    "icon_path": "econ/default_generated/weapon_fiveseven_aq_case_hardened_fiveseven_heavy"
+                },
                 "199956": {
                     "icon_path": "econ/default_generated/weapon_fiveseven_cu_five_seven_angry_light"
                 },
@@ -1284,6 +1347,15 @@
                 },
                 "200618": {
                     "icon_path": "econ/default_generated/weapon_fiveseven_aa_fade_red_blue_heavy"
+                },
+                "200856": {
+                    "icon_path": "econ/default_generated/weapon_fiveseven_hy_overpass_paintover_teal_light"
+                },
+                "200857": {
+                    "icon_path": "econ/default_generated/weapon_fiveseven_hy_overpass_paintover_teal_medium"
+                },
+                "200858": {
+                    "icon_path": "econ/default_generated/weapon_fiveseven_hy_overpass_paintover_teal_heavy"
                 },
                 "200936": {
                     "icon_path": "econ/default_generated/weapon_fiveseven_cu_vertigo_fiveseven_light"
@@ -1374,6 +1446,24 @@
                 },
                 "262482": {
                     "icon_path": "econ/default_generated/weapon_glock_hy_ddpat_pink_heavy"
+                },
+                "262660": {
+                    "icon_path": "econ/default_generated/weapon_glock_glock_chomper_light"
+                },
+                "262661": {
+                    "icon_path": "econ/default_generated/weapon_glock_glock_chomper_medium"
+                },
+                "262662": {
+                    "icon_path": "econ/default_generated/weapon_glock_glock_chomper_heavy"
+                },
+                "262752": {
+                    "icon_path": "econ/default_generated/weapon_glock_hy_overpass_tagged_teal_light"
+                },
+                "262753": {
+                    "icon_path": "econ/default_generated/weapon_glock_hy_overpass_tagged_teal_medium"
+                },
+                "262754": {
+                    "icon_path": "econ/default_generated/weapon_glock_hy_overpass_tagged_teal_heavy"
                 },
                 "262780": {
                     "icon_path": "econ/default_generated/weapon_glock_aq_brass_light"
@@ -1582,6 +1672,15 @@
                 "265378": {
                     "icon_path": "econ/default_generated/weapon_glock_cu_glock18_corroden_heavy"
                 },
+                "265472": {
+                    "icon_path": "econ/default_generated/weapon_glock_gsch_axia_glock_light"
+                },
+                "265473": {
+                    "icon_path": "econ/default_generated/weapon_glock_gsch_axia_glock_medium"
+                },
+                "265474": {
+                    "icon_path": "econ/default_generated/weapon_glock_gsch_axia_glock_heavy"
+                },
                 "265816": {
                     "icon_path": "econ/default_generated/weapon_glock_cu_glock_hero_light"
                 },
@@ -1762,6 +1861,15 @@
                 "459042": {
                     "icon_path": "econ/default_generated/weapon_ak47_sp_mesh_tan_heavy"
                 },
+                "459204": {
+                    "icon_path": "econ/default_generated/weapon_ak47_ak47_t_bus_light"
+                },
+                "459205": {
+                    "icon_path": "econ/default_generated/weapon_ak47_ak47_t_bus_medium"
+                },
+                "459206": {
+                    "icon_path": "econ/default_generated/weapon_ak47_ak47_t_bus_heavy"
+                },
                 "459240": {
                     "icon_path": "econ/default_generated/weapon_ak47_sp_spray_jungle_light"
                 },
@@ -1770,6 +1878,15 @@
                 },
                 "459242": {
                     "icon_path": "econ/default_generated/weapon_ak47_sp_spray_jungle_heavy"
+                },
+                "459320": {
+                    "icon_path": "econ/default_generated/weapon_ak47_cu_overpass_monster_ak47_light"
+                },
+                "459321": {
+                    "icon_path": "econ/default_generated/weapon_ak47_cu_overpass_monster_ak47_medium"
+                },
+                "459322": {
+                    "icon_path": "econ/default_generated/weapon_ak47_cu_overpass_monster_ak47_heavy"
                 },
                 "459432": {
                     "icon_path": "econ/default_generated/weapon_ak47_sp_zebracam_light"
@@ -2032,6 +2149,15 @@
                 "462294": {
                     "icon_path": "econ/default_generated/weapon_ak47_gs_ak47_nibbler_heavy"
                 },
+                "462400": {
+                    "icon_path": "econ/default_generated/weapon_ak47_cu_graphic_overlay_ak47_light"
+                },
+                "462401": {
+                    "icon_path": "econ/default_generated/weapon_ak47_cu_graphic_overlay_ak47_medium"
+                },
+                "462402": {
+                    "icon_path": "econ/default_generated/weapon_ak47_cu_graphic_overlay_ak47_heavy"
+                },
                 "462436": {
                     "icon_path": "econ/default_generated/weapon_ak47_gs_ak47_gold_arabesque_light"
                 },
@@ -2131,6 +2257,15 @@
                 "463438": {
                     "icon_path": "econ/default_generated/weapon_ak47_ak_porcelain_heavy"
                 },
+                "463468": {
+                    "icon_path": "econ/default_generated/weapon_ak47_ht_poly_camo_ak47_light"
+                },
+                "463469": {
+                    "icon_path": "econ/default_generated/weapon_ak47_ht_poly_camo_ak47_medium"
+                },
+                "463470": {
+                    "icon_path": "econ/default_generated/weapon_ak47_ht_poly_camo_ak47_heavy"
+                },
                 "463636": {
                     "icon_path": "econ/default_generated/weapon_ak47_cu_ak_head_shot_holo_light"
                 },
@@ -2220,6 +2355,33 @@
                 },
                 "524730": {
                     "icon_path": "econ/default_generated/weapon_aug_sp_mesh_forest_fire_heavy"
+                },
+                "524772": {
+                    "icon_path": "econ/default_generated/weapon_aug_aug_puffer_light"
+                },
+                "524773": {
+                    "icon_path": "econ/default_generated/weapon_aug_aug_puffer_medium"
+                },
+                "524774": {
+                    "icon_path": "econ/default_generated/weapon_aug_aug_puffer_heavy"
+                },
+                "524824": {
+                    "icon_path": "econ/default_generated/weapon_aug_cu_overpass_graf_aug_light"
+                },
+                "524825": {
+                    "icon_path": "econ/default_generated/weapon_aug_cu_overpass_graf_aug_medium"
+                },
+                "524826": {
+                    "icon_path": "econ/default_generated/weapon_aug_cu_overpass_graf_aug_heavy"
+                },
+                "524980": {
+                    "icon_path": "econ/default_generated/weapon_aug_gs_lilpig_aug_light"
+                },
+                "524981": {
+                    "icon_path": "econ/default_generated/weapon_aug_gs_lilpig_aug_medium"
+                },
+                "524982": {
+                    "icon_path": "econ/default_generated/weapon_aug_gs_lilpig_aug_heavy"
                 },
                 "525076": {
                     "icon_path": "econ/default_generated/weapon_aug_an_navy_bravo_light"
@@ -2517,6 +2679,24 @@
                 },
                 "590162": {
                     "icon_path": "econ/default_generated/weapon_awp_hy_ddpat_pink_heavy"
+                },
+                "590372": {
+                    "icon_path": "econ/default_generated/weapon_awp_cu_overpass_crakow_awp_light"
+                },
+                "590373": {
+                    "icon_path": "econ/default_generated/weapon_awp_cu_overpass_crakow_awp_medium"
+                },
+                "590374": {
+                    "icon_path": "econ/default_generated/weapon_awp_cu_overpass_crakow_awp_heavy"
+                },
+                "590476": {
+                    "icon_path": "econ/default_generated/weapon_awp_gs_independe_awp_light"
+                },
+                "590477": {
+                    "icon_path": "econ/default_generated/weapon_awp_gs_independe_awp_medium"
+                },
+                "590478": {
+                    "icon_path": "econ/default_generated/weapon_awp_gs_independe_awp_heavy"
                 },
                 "590520": {
                     "icon_path": "econ/default_generated/weapon_awp_hy_blam_simple_light"
@@ -2968,6 +3148,15 @@
                 "657078": {
                     "icon_path": "econ/default_generated/weapon_famas_aq_famas_jinn_heavy"
                 },
+                "657204": {
+                    "icon_path": "econ/default_generated/weapon_famas_gs_gamebred_famas_light"
+                },
+                "657205": {
+                    "icon_path": "econ/default_generated/weapon_famas_gs_gamebred_famas_medium"
+                },
+                "657206": {
+                    "icon_path": "econ/default_generated/weapon_famas_gs_gamebred_famas_heavy"
+                },
                 "657268": {
                     "icon_path": "econ/default_generated/weapon_famas_am_famas_dots_light"
                 },
@@ -3057,6 +3246,15 @@
                 },
                 "658838": {
                     "icon_path": "econ/default_generated/weapon_famas_sp_palm_sunset_heavy"
+                },
+                "658888": {
+                    "icon_path": "econ/default_generated/weapon_famas_ht_splash_famas_light"
+                },
+                "658889": {
+                    "icon_path": "econ/default_generated/weapon_famas_ht_splash_famas_medium"
+                },
+                "658890": {
+                    "icon_path": "econ/default_generated/weapon_famas_ht_splash_famas_heavy"
                 },
                 "658976": {
                     "icon_path": "econ/default_generated/weapon_famas_cu_famas_nuke_tension_light"
@@ -3463,6 +3661,15 @@
                 "852918": {
                     "icon_path": "econ/default_generated/weapon_galilar_hy_varicamo_urban_heavy"
                 },
+                "852924": {
+                    "icon_path": "econ/default_generated/weapon_galilar_sp_overpass_paint_pen_metal_light"
+                },
+                "852925": {
+                    "icon_path": "econ/default_generated/weapon_galilar_sp_overpass_paint_pen_metal_medium"
+                },
+                "852926": {
+                    "icon_path": "econ/default_generated/weapon_galilar_sp_overpass_paint_pen_metal_heavy"
+                },
                 "852932": {
                     "icon_path": "econ/default_generated/weapon_galilar_sp_mesh_slashes_light"
                 },
@@ -3625,6 +3832,15 @@
                 "855338": {
                     "icon_path": "econ/default_generated/weapon_galilar_sp_galil_akoben_heavy"
                 },
+                "855724": {
+                    "icon_path": "econ/default_generated/weapon_galilar_cu_poly_green_galil_light"
+                },
+                "855725": {
+                    "icon_path": "econ/default_generated/weapon_galilar_cu_poly_green_galil_medium"
+                },
+                "855726": {
+                    "icon_path": "econ/default_generated/weapon_galilar_cu_poly_green_galil_heavy"
+                },
                 "855856": {
                     "icon_path": "econ/default_generated/weapon_galilar_gs_galil_phoenix_light"
                 },
@@ -3688,6 +3904,15 @@
                 "856558": {
                     "icon_path": "econ/default_generated/weapon_galilar_cu_galil_destroyer_heavy"
                 },
+                "856680": {
+                    "icon_path": "econ/default_generated/weapon_galilar_aq_titanium_rainbow_galilar_light"
+                },
+                "856681": {
+                    "icon_path": "econ/default_generated/weapon_galilar_aq_titanium_rainbow_galilar_medium"
+                },
+                "856682": {
+                    "icon_path": "econ/default_generated/weapon_galilar_aq_titanium_rainbow_galilar_heavy"
+                },
                 "917592": {
                     "icon_path": "econ/default_generated/weapon_m249_sp_spray_light"
                 },
@@ -3705,6 +3930,15 @@
                 },
                 "917806": {
                     "icon_path": "econ/default_generated/weapon_m249_hy_blizzard_heavy"
+                },
+                "917984": {
+                    "icon_path": "econ/default_generated/weapon_m249_m249_hypnosis_light"
+                },
+                "917985": {
+                    "icon_path": "econ/default_generated/weapon_m249_m249_hypnosis_medium"
+                },
+                "917986": {
+                    "icon_path": "econ/default_generated/weapon_m249_m249_hypnosis_heavy"
                 },
                 "918108": {
                     "icon_path": "econ/default_generated/weapon_m249_so_jungle_light"
@@ -3814,6 +4048,15 @@
                 "920814": {
                     "icon_path": "econ/default_generated/weapon_m249_sp_moro_carving_burnt_heavy"
                 },
+                "921004": {
+                    "icon_path": "econ/default_generated/weapon_m249_ht_peaks_rainbow_light"
+                },
+                "921005": {
+                    "icon_path": "econ/default_generated/weapon_m249_ht_peaks_rainbow_medium"
+                },
+                "921006": {
+                    "icon_path": "econ/default_generated/weapon_m249_ht_peaks_rainbow_heavy"
+                },
                 "921104": {
                     "icon_path": "econ/default_generated/weapon_m249_gs_m249_warbird_veteran_light"
                 },
@@ -3912,6 +4155,15 @@
                 },
                 "1048982": {
                     "icon_path": "econ/default_generated/weapon_m4a1_so_tornado_heavy"
+                },
+                "1049048": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_m4a4_fusion_light"
+                },
+                "1049049": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_m4a4_fusion_medium"
+                },
+                "1049050": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_m4a4_fusion_heavy"
                 },
                 "1049196": {
                     "icon_path": "econ/default_generated/weapon_m4a1_cu_bullet_rain_m4a1_light"
@@ -4138,6 +4390,15 @@
                 "1051954": {
                     "icon_path": "econ/default_generated/weapon_m4a1_gs_m4a4_emperor_heavy"
                 },
+                "1052072": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_soo_polysoup_m4a4_light"
+                },
+                "1052073": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_soo_polysoup_m4a4_medium"
+                },
+                "1052074": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_soo_polysoup_m4a4_heavy"
+                },
                 "1052280": {
                     "icon_path": "econ/default_generated/weapon_m4a1_hy_ddpat_urban_red_light"
                 },
@@ -4299,6 +4560,24 @@
                 },
                 "1114518": {
                     "icon_path": "econ/default_generated/weapon_mac10_so_tornado_heavy"
+                },
+                "1114616": {
+                    "icon_path": "econ/default_generated/weapon_mac10_mac10_ozaki_light"
+                },
+                "1114617": {
+                    "icon_path": "econ/default_generated/weapon_mac10_mac10_ozaki_medium"
+                },
+                "1114618": {
+                    "icon_path": "econ/default_generated/weapon_mac10_mac10_ozaki_heavy"
+                },
+                "1114672": {
+                    "icon_path": "econ/default_generated/weapon_mac10_cu_overpass_squeak_mac10_light"
+                },
+                "1114673": {
+                    "icon_path": "econ/default_generated/weapon_mac10_cu_overpass_squeak_mac10_medium"
+                },
+                "1114674": {
+                    "icon_path": "econ/default_generated/weapon_mac10_cu_overpass_squeak_mac10_heavy"
                 },
                 "1114740": {
                     "icon_path": "econ/default_generated/weapon_mac10_sp_palm_light"
@@ -4696,6 +4975,24 @@
                 "1245682": {
                     "icon_path": "econ/default_generated/weapon_p90_sp_spray_sand_heavy"
                 },
+                "1245692": {
+                    "icon_path": "econ/default_generated/weapon_p90_p90_randy_rush_light"
+                },
+                "1245693": {
+                    "icon_path": "econ/default_generated/weapon_p90_p90_randy_rush_medium"
+                },
+                "1245694": {
+                    "icon_path": "econ/default_generated/weapon_p90_p90_randy_rush_heavy"
+                },
+                "1245716": {
+                    "icon_path": "econ/default_generated/weapon_p90_sp_overpass_doodle_plum_light"
+                },
+                "1245717": {
+                    "icon_path": "econ/default_generated/weapon_p90_sp_overpass_doodle_plum_medium"
+                },
+                "1245718": {
+                    "icon_path": "econ/default_generated/weapon_p90_sp_overpass_doodle_plum_heavy"
+                },
                 "1245808": {
                     "icon_path": "econ/default_generated/weapon_p90_cu_catskulls_p90_light"
                 },
@@ -4939,6 +5236,15 @@
                 "1248886": {
                     "icon_path": "econ/default_generated/weapon_p90_hy_ddpat_desert_heavy"
                 },
+                "1248928": {
+                    "icon_path": "econ/default_generated/weapon_p90_cu_poly_violet_p90_light"
+                },
+                "1248929": {
+                    "icon_path": "econ/default_generated/weapon_p90_cu_poly_violet_p90_medium"
+                },
+                "1248930": {
+                    "icon_path": "econ/default_generated/weapon_p90_cu_poly_violet_p90_heavy"
+                },
                 "1249060": {
                     "icon_path": "econ/default_generated/weapon_p90_gs_p90_container_light"
                 },
@@ -5020,6 +5326,15 @@
                 "1250186": {
                     "icon_path": "econ/default_generated/weapon_p90_cu_p90_scarab_of_wisdom_heavy"
                 },
+                "1507972": {
+                    "icon_path": "econ/default_generated/weapon_mp5sd_sp_overpass_paint_pen_neon_light"
+                },
+                "1507973": {
+                    "icon_path": "econ/default_generated/weapon_mp5sd_sp_overpass_paint_pen_neon_medium"
+                },
+                "1507974": {
+                    "icon_path": "econ/default_generated/weapon_mp5sd_sp_overpass_paint_pen_neon_heavy"
+                },
                 "1510340": {
                     "icon_path": "econ/default_generated/weapon_mp5sd_sp_tape_short_rally_light"
                 },
@@ -5028,6 +5343,15 @@
                 },
                 "1510342": {
                     "icon_path": "econ/default_generated/weapon_mp5sd_sp_tape_short_rally_heavy"
+                },
+                "1510400": {
+                    "icon_path": "econ/default_generated/weapon_mp5sd_ht_blur_camo_mp5sd_light"
+                },
+                "1510401": {
+                    "icon_path": "econ/default_generated/weapon_mp5sd_ht_blur_camo_mp5sd_medium"
+                },
+                "1510402": {
+                    "icon_path": "econ/default_generated/weapon_mp5sd_ht_blur_camo_mp5sd_heavy"
                 },
                 "1510452": {
                     "icon_path": "econ/default_generated/weapon_mp5sd_am_circuitboard_aqua_light"
@@ -5155,6 +5479,15 @@
                 "1511878": {
                     "icon_path": "econ/default_generated/weapon_mp5sd_gs_mp5_kid_necronomicon_heavy"
                 },
+                "1512048": {
+                    "icon_path": "econ/default_generated/weapon_mp5sd_mp5_statics_blue_light"
+                },
+                "1512049": {
+                    "icon_path": "econ/default_generated/weapon_mp5sd_mp5_statics_blue_medium"
+                },
+                "1512050": {
+                    "icon_path": "econ/default_generated/weapon_mp5sd_mp5_statics_blue_heavy"
+                },
                 "1512252": {
                     "icon_path": "econ/default_generated/weapon_mp5sd_cu_mp5sd_quick_liquidation_light"
                 },
@@ -5217,6 +5550,15 @@
                 },
                 "1573238": {
                     "icon_path": "econ/default_generated/weapon_ump45_so_caramel_heavy"
+                },
+                "1573388": {
+                    "icon_path": "econ/default_generated/weapon_ump45_ump45_neo_noir_light"
+                },
+                "1573389": {
+                    "icon_path": "econ/default_generated/weapon_ump45_ump45_neo_noir_medium"
+                },
+                "1573390": {
+                    "icon_path": "econ/default_generated/weapon_ump45_ump45_neo_noir_heavy"
                 },
                 "1573540": {
                     "icon_path": "econ/default_generated/weapon_ump45_sp_nukestripe_maroon_light"
@@ -5289,6 +5631,15 @@
                 },
                 "1574434": {
                     "icon_path": "econ/default_generated/weapon_ump45_sp_ump45_d-visions_heavy"
+                },
+                "1574512": {
+                    "icon_path": "econ/default_generated/weapon_ump45_gsch_sport_ump45_light"
+                },
+                "1574513": {
+                    "icon_path": "econ/default_generated/weapon_ump45_gsch_sport_ump45_medium"
+                },
+                "1574514": {
+                    "icon_path": "econ/default_generated/weapon_ump45_gsch_sport_ump45_heavy"
                 },
                 "1574608": {
                     "icon_path": "econ/default_generated/weapon_ump45_am_ump_racer_light"
@@ -5533,6 +5884,15 @@
                 "1638942": {
                     "icon_path": "econ/default_generated/weapon_xm1014_sp_tape_dots_urban_heavy"
                 },
+                "1638984": {
+                    "icon_path": "econ/default_generated/weapon_xm1014_cu_overpass_monsters_xm_light"
+                },
+                "1638985": {
+                    "icon_path": "econ/default_generated/weapon_xm1014_cu_overpass_monsters_xm_medium"
+                },
+                "1638986": {
+                    "icon_path": "econ/default_generated/weapon_xm1014_cu_overpass_monsters_xm_heavy"
+                },
                 "1639064": {
                     "icon_path": "econ/default_generated/weapon_xm1014_hy_hunter_blaze_orange_light"
                 },
@@ -5721,6 +6081,15 @@
                 },
                 "1641686": {
                     "icon_path": "econ/default_generated/weapon_xm1014_am_moro_textile_bright_heavy"
+                },
+                "1641736": {
+                    "icon_path": "econ/default_generated/weapon_xm1014_ht_shapes_xm1014_light"
+                },
+                "1641737": {
+                    "icon_path": "econ/default_generated/weapon_xm1014_ht_shapes_xm1014_medium"
+                },
+                "1641738": {
+                    "icon_path": "econ/default_generated/weapon_xm1014_ht_shapes_xm1014_heavy"
                 },
                 "1641800": {
                     "icon_path": "econ/default_generated/weapon_xm1014_cu_xm1014_incinerator_light"
@@ -6037,6 +6406,15 @@
                 "1706706": {
                     "icon_path": "econ/default_generated/weapon_bizon_cu_bizon_riot_heavy"
                 },
+                "1707016": {
+                    "icon_path": "econ/default_generated/weapon_bizon_sp_wax_rub_bizon_light"
+                },
+                "1707017": {
+                    "icon_path": "econ/default_generated/weapon_bizon_sp_wax_rub_bizon_medium"
+                },
+                "1707018": {
+                    "icon_path": "econ/default_generated/weapon_bizon_sp_wax_rub_bizon_heavy"
+                },
                 "1707036": {
                     "icon_path": "econ/default_generated/weapon_bizon_hy_blueprint_white_light"
                 },
@@ -6316,6 +6694,15 @@
                 "1772490": {
                     "icon_path": "econ/default_generated/weapon_mag7_aq_steel_inferno_heavy"
                 },
+                "1772564": {
+                    "icon_path": "econ/default_generated/weapon_mag7_soch_wildwood_mag7_light"
+                },
+                "1772565": {
+                    "icon_path": "econ/default_generated/weapon_mag7_soch_wildwood_mag7_medium"
+                },
+                "1772566": {
+                    "icon_path": "econ/default_generated/weapon_mag7_soch_wildwood_mag7_heavy"
+                },
                 "1772620": {
                     "icon_path": "econ/default_generated/weapon_mag7_hy_nuclear_hotorange_light"
                 },
@@ -6414,6 +6801,15 @@
                 },
                 "1835122": {
                     "icon_path": "econ/default_generated/weapon_negev_an_navy_heavy"
+                },
+                "1835584": {
+                    "icon_path": "econ/default_generated/weapon_negev_cu_overpass_graf_negev_light"
+                },
+                "1835585": {
+                    "icon_path": "econ/default_generated/weapon_negev_cu_overpass_graf_negev_medium"
+                },
+                "1835586": {
+                    "icon_path": "econ/default_generated/weapon_negev_cu_overpass_graf_negev_heavy"
                 },
                 "1835812": {
                     "icon_path": "econ/default_generated/weapon_negev_sp_palm_bravo_light"
@@ -7135,6 +7531,15 @@
                 "1969034": {
                     "icon_path": "econ/default_generated/weapon_tec9_hy_murano_orange_heavy"
                 },
+                "1969144": {
+                    "icon_path": "econ/default_generated/weapon_tec9_soch_tiger_stencil_tec9_light"
+                },
+                "1969145": {
+                    "icon_path": "econ/default_generated/weapon_tec9_soch_tiger_stencil_tec9_medium"
+                },
+                "1969146": {
+                    "icon_path": "econ/default_generated/weapon_tec9_soch_tiger_stencil_tec9_heavy"
+                },
                 "1969244": {
                     "icon_path": "econ/default_generated/weapon_tec9_gs_tec9_envoy_light"
                 },
@@ -7242,6 +7647,15 @@
                 },
                 "1971090": {
                     "icon_path": "econ/default_generated/weapon_tec9_cu_tec9_mummy_heavy"
+                },
+                "2032784": {
+                    "icon_path": "econ/default_generated/weapon_taser_cu_overpass_dragon_zeus_light"
+                },
+                "2032785": {
+                    "icon_path": "econ/default_generated/weapon_taser_cu_overpass_dragon_zeus_medium"
+                },
+                "2032786": {
+                    "icon_path": "econ/default_generated/weapon_taser_cu_overpass_dragon_zeus_heavy"
                 },
                 "2036304": {
                     "icon_path": "econ/default_generated/weapon_taser_zeus_thunder_god_light"
@@ -7449,6 +7863,15 @@
                 },
                 "2099954": {
                     "icon_path": "econ/default_generated/weapon_hkp2000_cu_p2000_urban_hazard_heavy"
+                },
+                "2100664": {
+                    "icon_path": "econ/default_generated/weapon_hkp2000_ht_facet_p2000_light"
+                },
+                "2100665": {
+                    "icon_path": "econ/default_generated/weapon_hkp2000_ht_facet_p2000_medium"
+                },
+                "2100666": {
+                    "icon_path": "econ/default_generated/weapon_hkp2000_ht_facet_p2000_heavy"
                 },
                 "2100728": {
                     "icon_path": "econ/default_generated/weapon_hkp2000_cu_p2000_obsidian_light"
@@ -7774,6 +8197,15 @@
                 "2166430": {
                     "icon_path": "econ/default_generated/weapon_mp7_sp_zebracam_red_heavy"
                 },
+                "2166448": {
+                    "icon_path": "econ/default_generated/weapon_mp7_gs_constellation_dark_mp7_light"
+                },
+                "2166449": {
+                    "icon_path": "econ/default_generated/weapon_mp7_gs_constellation_dark_mp7_medium"
+                },
+                "2166450": {
+                    "icon_path": "econ/default_generated/weapon_mp7_gs_constellation_dark_mp7_heavy"
+                },
                 "2166716": {
                     "icon_path": "econ/default_generated/weapon_mp7_am_heist_plans_yellow_light"
                 },
@@ -7917,6 +8349,15 @@
                 },
                 "2229542": {
                     "icon_path": "econ/default_generated/weapon_mp9_am_metal_inlay_heavy"
+                },
+                "2229548": {
+                    "icon_path": "econ/default_generated/weapon_mp9_gs_arctic_mp9_light"
+                },
+                "2229549": {
+                    "icon_path": "econ/default_generated/weapon_mp9_gs_arctic_mp9_medium"
+                },
+                "2229550": {
+                    "icon_path": "econ/default_generated/weapon_mp9_gs_arctic_mp9_heavy"
                 },
                 "2229688": {
                     "icon_path": "econ/default_generated/weapon_mp9_hy_plaid2_light"
@@ -8170,6 +8611,15 @@
                 "2294190": {
                     "icon_path": "econ/default_generated/weapon_nova_sp_mesh_arctic_contrast_heavy"
                 },
+                "2294340": {
+                    "icon_path": "econ/default_generated/weapon_nova_cu_overpass_wurst_nova_light"
+                },
+                "2294341": {
+                    "icon_path": "econ/default_generated/weapon_nova_cu_overpass_wurst_nova_medium"
+                },
+                "2294342": {
+                    "icon_path": "econ/default_generated/weapon_nova_cu_overpass_wurst_nova_heavy"
+                },
                 "2294392": {
                     "icon_path": "econ/default_generated/weapon_nova_cu_walnut_nova_light"
                 },
@@ -8295,6 +8745,15 @@
                 },
                 "2295054": {
                     "icon_path": "econ/default_generated/weapon_nova_aq_steel_heavy"
+                },
+                "2295056": {
+                    "icon_path": "econ/default_generated/weapon_nova_gs_ripple_nova_light"
+                },
+                "2295057": {
+                    "icon_path": "econ/default_generated/weapon_nova_gs_ripple_nova_medium"
+                },
+                "2295058": {
+                    "icon_path": "econ/default_generated/weapon_nova_gs_ripple_nova_heavy"
                 },
                 "2295184": {
                     "icon_path": "econ/default_generated/weapon_nova_cu_nova_koi_light"
@@ -8530,6 +8989,15 @@
                 "2359798": {
                     "icon_path": "econ/default_generated/weapon_p250_cu_xray_p250_heavy"
                 },
+                "2359816": {
+                    "icon_path": "econ/default_generated/weapon_p250_p250_impact_light"
+                },
+                "2359817": {
+                    "icon_path": "econ/default_generated/weapon_p250_p250_impact_medium"
+                },
+                "2359818": {
+                    "icon_path": "econ/default_generated/weapon_p250_p250_impact_heavy"
+                },
                 "2359944": {
                     "icon_path": "econ/default_generated/weapon_p250_sp_splash_p250_light"
                 },
@@ -8746,6 +9214,15 @@
                 "2362294": {
                     "icon_path": "econ/default_generated/weapon_p250_gs_p250_checker_heavy"
                 },
+                "2362392": {
+                    "icon_path": "econ/default_generated/weapon_p250_soch_hunter_blaze_p250_light"
+                },
+                "2362393": {
+                    "icon_path": "econ/default_generated/weapon_p250_soch_hunter_blaze_p250_medium"
+                },
+                "2362394": {
+                    "icon_path": "econ/default_generated/weapon_p250_soch_hunter_blaze_p250_heavy"
+                },
                 "2362404": {
                     "icon_path": "econ/default_generated/weapon_p250_hy_blueprint_red_light"
                 },
@@ -8917,6 +9394,15 @@
                 "2490834": {
                     "icon_path": "econ/default_generated/weapon_scar20_sp_mesh_sand_heavy"
                 },
+                "2490836": {
+                    "icon_path": "econ/default_generated/weapon_scar20_scar20_fury_topo_light"
+                },
+                "2490837": {
+                    "icon_path": "econ/default_generated/weapon_scar20_scar20_fury_topo_medium"
+                },
+                "2490838": {
+                    "icon_path": "econ/default_generated/weapon_scar20_scar20_fury_topo_heavy"
+                },
                 "2490996": {
                     "icon_path": "econ/default_generated/weapon_scar20_sp_palm_light"
                 },
@@ -9060,6 +9546,15 @@
                 },
                 "2493830": {
                     "icon_path": "econ/default_generated/weapon_scar20_hy_canals_tile_heavy"
+                },
+                "2493900": {
+                    "icon_path": "econ/default_generated/weapon_scar20_cu_chevron_scar20_light"
+                },
+                "2493901": {
+                    "icon_path": "econ/default_generated/weapon_scar20_cu_chevron_scar20_medium"
+                },
+                "2493902": {
+                    "icon_path": "econ/default_generated/weapon_scar20_cu_chevron_scar20_heavy"
                 },
                 "2493952": {
                     "icon_path": "econ/default_generated/weapon_scar20_sp_scar20_striker_dust_light"
@@ -9349,6 +9844,15 @@
                 "2559494": {
                     "icon_path": "econ/default_generated/weapon_sg556_cu_sg553_reactor_heavy"
                 },
+                "2559508": {
+                    "icon_path": "econ/default_generated/weapon_sg556_gs_happy_red_sg556_light"
+                },
+                "2559509": {
+                    "icon_path": "econ/default_generated/weapon_sg556_gs_happy_red_sg556_medium"
+                },
+                "2559510": {
+                    "icon_path": "econ/default_generated/weapon_sg556_gs_happy_red_sg556_heavy"
+                },
                 "2559640": {
                     "icon_path": "econ/default_generated/weapon_sg556_sp_desert_skulls_light"
                 },
@@ -9466,6 +9970,15 @@
                 "2621838": {
                     "icon_path": "econ/default_generated/weapon_ssg08_so_sand_heavy"
                 },
+                "2621952": {
+                    "icon_path": "econ/default_generated/weapon_ssg08_ssg08_transit_white_light"
+                },
+                "2621953": {
+                    "icon_path": "econ/default_generated/weapon_ssg08_ssg08_transit_white_medium"
+                },
+                "2621954": {
+                    "icon_path": "econ/default_generated/weapon_ssg08_ssg08_transit_white_heavy"
+                },
                 "2622028": {
                     "icon_path": "econ/default_generated/weapon_ssg08_sp_tape_short_jungle_light"
                 },
@@ -9547,6 +10060,15 @@
                 "2623454": {
                     "icon_path": "econ/default_generated/weapon_ssg08_cu_ssg08_technicality_heavy"
                 },
+                "2623492": {
+                    "icon_path": "econ/default_generated/weapon_ssg08_gsch_zeno_ssg08_light"
+                },
+                "2623493": {
+                    "icon_path": "econ/default_generated/weapon_ssg08_gsch_zeno_ssg08_medium"
+                },
+                "2623494": {
+                    "icon_path": "econ/default_generated/weapon_ssg08_gsch_zeno_ssg08_heavy"
+                },
                 "2623592": {
                     "icon_path": "econ/default_generated/weapon_ssg08_cu_ssg08_necropos_light"
                 },
@@ -9618,6 +10140,15 @@
                 },
                 "2624914": {
                     "icon_path": "econ/default_generated/weapon_ssg08_hy_flowers_stmarc_heavy"
+                },
+                "2624948": {
+                    "icon_path": "econ/default_generated/weapon_ssg08_ht_swirl_ssg08_light"
+                },
+                "2624949": {
+                    "icon_path": "econ/default_generated/weapon_ssg08_ht_swirl_ssg08_medium"
+                },
+                "2624950": {
+                    "icon_path": "econ/default_generated/weapon_ssg08_ht_swirl_ssg08_heavy"
                 },
                 "2625036": {
                     "icon_path": "econ/default_generated/weapon_ssg08_cu_ssg08_tickler_light"
@@ -9735,6 +10266,24 @@
                 },
                 "3932470": {
                     "icon_path": "econ/default_generated/weapon_m4a1_silencer_hy_forest_boreal_heavy"
+                },
+                "3932584": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_silencer_m4a1s_vaporwave_light"
+                },
+                "3932585": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_silencer_m4a1s_vaporwave_medium"
+                },
+                "3932586": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_silencer_m4a1s_vaporwave_heavy"
+                },
+                "3932800": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_silencer_hy_overpass_doodle_m4a1s_light"
+                },
+                "3932801": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_silencer_hy_overpass_doodle_m4a1s_medium"
+                },
+                "3932802": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_silencer_hy_overpass_doodle_m4a1s_heavy"
                 },
                 "3932916": {
                     "icon_path": "econ/default_generated/weapon_m4a1_silencer_hy_ocean_bravo_light"
@@ -10015,6 +10564,15 @@
                 "3936826": {
                     "icon_path": "econ/default_generated/weapon_m4a1_silencer_m4a1s_black_lotus_heavy"
                 },
+                "3936868": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_silencer_aa_fade_m4a1s_light"
+                },
+                "3936869": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_silencer_aa_fade_m4a1s_medium"
+                },
+                "3936870": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_silencer_aa_fade_m4a1s_heavy"
+                },
                 "3937052": {
                     "icon_path": "econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_feeding_frenzy_light"
                 },
@@ -10050,6 +10608,15 @@
                 },
                 "3997938": {
                     "icon_path": "econ/default_generated/weapon_usp_silencer_am_zebra_dark_heavy"
+                },
+                "3998156": {
+                    "icon_path": "econ/default_generated/weapon_usp_silencer_usp_field_snake_light"
+                },
+                "3998157": {
+                    "icon_path": "econ/default_generated/weapon_usp_silencer_usp_field_snake_medium"
+                },
+                "3998158": {
+                    "icon_path": "econ/default_generated/weapon_usp_silencer_usp_field_snake_heavy"
                 },
                 "3998428": {
                     "icon_path": "econ/default_generated/weapon_usp_silencer_hy_siege_bravo_light"
@@ -10257,6 +10824,15 @@
                 },
                 "4000970": {
                     "icon_path": "econ/default_generated/weapon_usp_silencer_am_ddpat_purple_heavy"
+                },
+                "4001016": {
+                    "icon_path": "econ/default_generated/weapon_usp_silencer_gsch_bright_camo_usp_light"
+                },
+                "4001017": {
+                    "icon_path": "econ/default_generated/weapon_usp_silencer_gsch_bright_camo_usp_medium"
+                },
+                "4001018": {
+                    "icon_path": "econ/default_generated/weapon_usp_silencer_gsch_bright_camo_usp_heavy"
                 },
                 "4001384": {
                     "icon_path": "econ/default_generated/weapon_usp_silencer_am_lizard_red_light"
@@ -10600,6 +11176,15 @@
                 "4132502": {
                     "icon_path": "econ/default_generated/weapon_cz75a_sp_palm_night_heavy"
                 },
+                "4132516": {
+                    "icon_path": "econ/default_generated/weapon_cz75a_cu_abstract_white_cz_light"
+                },
+                "4132517": {
+                    "icon_path": "econ/default_generated/weapon_cz75a_cu_abstract_white_cz_medium"
+                },
+                "4132518": {
+                    "icon_path": "econ/default_generated/weapon_cz75a_cu_abstract_white_cz_heavy"
+                },
                 "4132544": {
                     "icon_path": "econ/default_generated/weapon_cz75a_cu_cz75_cerakote_light"
                 },
@@ -10680,6 +11265,15 @@
                 },
                 "4194466": {
                     "icon_path": "econ/default_generated/weapon_revolver_so_night_heavy"
+                },
+                "4194796": {
+                    "icon_path": "econ/default_generated/weapon_revolver_r8_roses_and_guns_light"
+                },
+                "4194797": {
+                    "icon_path": "econ/default_generated/weapon_revolver_r8_roses_and_guns_medium"
+                },
+                "4194798": {
+                    "icon_path": "econ/default_generated/weapon_revolver_r8_roses_and_guns_heavy"
                 },
                 "4196392": {
                     "icon_path": "econ/default_generated/weapon_revolver_aa_fade_revolver_light"
@@ -18320,9 +18914,105 @@
                 "hidden": "0",
                 "effect_type": "neutral",
                 "stored_as_integer": "1"
+            },
+            "299": {
+                "name": "keychain slot 0 id",
+                "attribute_class": "keychain_slot_id",
+                "group": "only_on_unique",
+                "description_format": "value_is_additive",
+                "hidden": "1",
+                "effect_type": "positive",
+                "stored_as_integer": "1"
+            },
+            "300": {
+                "name": "keychain slot 0 offset x",
+                "attribute_class": "keychain_slot_offset",
+                "group": "only_on_unique",
+                "description_format": "value_is_additive",
+                "hidden": "1",
+                "effect_type": "positive",
+                "stored_as_integer": "0"
+            },
+            "301": {
+                "name": "keychain slot 0 offset y",
+                "attribute_class": "keychain_slot_offset",
+                "group": "only_on_unique",
+                "description_format": "value_is_additive",
+                "hidden": "1",
+                "effect_type": "positive",
+                "stored_as_integer": "0"
+            },
+            "302": {
+                "name": "keychain slot 0 offset z",
+                "attribute_class": "keychain_slot_offset",
+                "group": "only_on_unique",
+                "description_format": "value_is_additive",
+                "hidden": "1",
+                "effect_type": "positive",
+                "stored_as_integer": "0"
+            },
+            "305": {
+                "name": "tool preview item id",
+                "attribute_class": "tool_preview_item_id",
+                "group": "only_on_unique",
+                "description_format": "value_is_additive",
+                "hidden": "1",
+                "effect_type": "positive",
+                "stored_as_integer": "1"
+            },
+            "306": {
+                "name": "keychain slot 0 seed",
+                "attribute_class": "keychain_slot_seed",
+                "group": "only_on_unique",
+                "description_format": "value_is_additive",
+                "hidden": "1",
+                "effect_type": "neutral",
+                "stored_as_integer": "1"
             }
         },
         "sticker_kits": {
+            "4577": {
+                "name": "paper_winky_eyes",
+                "item_name": "#StickerKit_sticker_craft_paper_winky_eyes",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_winky_eyes",
+                "sticker_material": "community/sticker_craft/paper_winky_eyes",
+                "item_rarity": "rare"
+            },
+            "4580": {
+                "name": "paper_shark_mouth",
+                "item_name": "#StickerKit_sticker_craft_paper_shark_mouth",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_shark_mouth",
+                "sticker_material": "community/sticker_craft/paper_shark_mouth",
+                "item_rarity": "rare"
+            },
+            "4590": {
+                "name": "paper_wings",
+                "item_name": "#StickerKit_sticker_craft_paper_wings",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_wings",
+                "sticker_material": "community/sticker_craft/paper_wings",
+                "item_rarity": "rare"
+            },
+            "4647": {
+                "name": "paper_tentacle",
+                "item_name": "#StickerKit_sticker_craft_paper_tentacle",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_tentacle",
+                "sticker_material": "community/sticker_craft/paper_tentacle",
+                "item_rarity": "rare"
+            },
+            "4648": {
+                "name": "paper_eye",
+                "item_name": "#StickerKit_sticker_craft_paper_eye",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_eye",
+                "sticker_material": "community/sticker_craft/paper_eye",
+                "item_rarity": "rare"
+            },
+            "4698": {
+                "name": "paper_ct_left_hand",
+                "item_name": "#StickerKit_sticker_craft_paper_ct_left_hand",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_ct_left_hand",
+                "sticker_material": "community/sticker_craft/paper_ct_left_hand",
+                "item_rarity": "rare"
+            },
             "7233": {
                 "name": "foil_ouchie",
                 "item_name": "#StickerKit_community_2024_foil_ouchie",
@@ -18469,9 +19159,882 @@
                 "description_string": "#StickerKit_desc_community_2024_foil_on_eco",
                 "sticker_material": "community/community_2024/foil_on_eco",
                 "item_rarity": "legendary"
+            },
+            "7879": {
+                "name": "paper_t_left_hand",
+                "item_name": "#StickerKit_sticker_craft_paper_t_left_hand",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_t_left_hand",
+                "sticker_material": "community/sticker_craft/paper_t_left_hand",
+                "item_rarity": "rare"
+            },
+            "7880": {
+                "name": "foil_sunglasses",
+                "item_name": "#StickerKit_sticker_craft_foil_sunglasses",
+                "description_string": "#StickerKit_desc_sticker_craft_foil_sunglasses",
+                "sticker_material": "community/sticker_craft/foil_sunglasses",
+                "item_rarity": "legendary"
+            },
+            "7881": {
+                "name": "foil_mustache",
+                "item_name": "#StickerKit_sticker_craft_foil_mustache",
+                "description_string": "#StickerKit_desc_sticker_craft_foil_mustache",
+                "sticker_material": "community/sticker_craft/foil_mustache",
+                "item_rarity": "legendary"
+            },
+            "7882": {
+                "name": "paper_lightning_two",
+                "item_name": "#StickerKit_elemental_craft_paper_lightning_two",
+                "description_string": "#StickerKit_desc_elemental_craft_paper_lightning_two",
+                "sticker_material": "community/elemental_craft/paper_lightning_two",
+                "item_rarity": "rare"
+            },
+            "7883": {
+                "name": "paper_lightning_three",
+                "item_name": "#StickerKit_elemental_craft_paper_lightning_three",
+                "description_string": "#StickerKit_desc_elemental_craft_paper_lightning_three",
+                "sticker_material": "community/elemental_craft/paper_lightning_three",
+                "item_rarity": "rare"
+            },
+            "7884": {
+                "name": "paper_lightning_one",
+                "item_name": "#StickerKit_elemental_craft_paper_lightning_one",
+                "description_string": "#StickerKit_desc_elemental_craft_paper_lightning_one",
+                "sticker_material": "community/elemental_craft/paper_lightning_one",
+                "item_rarity": "rare"
+            },
+            "7885": {
+                "name": "paper_flames_two",
+                "item_name": "#StickerKit_elemental_craft_paper_flames_two",
+                "description_string": "#StickerKit_desc_elemental_craft_paper_flames_two",
+                "sticker_material": "community/elemental_craft/paper_flames_two",
+                "item_rarity": "rare"
+            },
+            "7886": {
+                "name": "paper_flames",
+                "item_name": "#StickerKit_elemental_craft_paper_flames",
+                "description_string": "#StickerKit_desc_elemental_craftpaper_flames",
+                "sticker_material": "community/elemental_craft/paper_flames",
+                "item_rarity": "rare"
+            },
+            "7887": {
+                "name": "paper_fire_two",
+                "item_name": "#StickerKit_elemental_craft_paper_fire_two",
+                "description_string": "#StickerKit_desc_elemental_craft_paper_fire_two",
+                "sticker_material": "community/elemental_craft/paper_fire_two",
+                "item_rarity": "rare"
+            },
+            "7888": {
+                "name": "paper_fire_three",
+                "item_name": "#StickerKit_elemental_craft_paper_fire_three",
+                "description_string": "#StickerKit_desc_elemental_craft_paper_fire_three",
+                "sticker_material": "community/elemental_craft/paper_fire_three",
+                "item_rarity": "rare"
+            },
+            "7891": {
+                "name": "paper_fire_one",
+                "item_name": "#StickerKit_elemental_craft_paper_fire_one",
+                "description_string": "#StickerKit_desc_elemental_craft_paper_fire_one",
+                "sticker_material": "community/elemental_craft/paper_fire_one",
+                "item_rarity": "rare"
+            },
+            "7892": {
+                "name": "paper_explosion_two",
+                "item_name": "#StickerKit_elemental_craft_paper_explosion_two",
+                "description_string": "#StickerKit_desc_elemental_craft_paper_explosion_two",
+                "sticker_material": "community/elemental_craft/paper_explosion_two",
+                "item_rarity": "rare"
+            },
+            "7893": {
+                "name": "paper_explosion_three",
+                "item_name": "#StickerKit_elemental_craft_paper_explosion_three",
+                "description_string": "#StickerKit_desc_elemental_craft_paper_explosion_three",
+                "sticker_material": "community/elemental_craft/paper_explosion_three",
+                "item_rarity": "rare"
+            },
+            "7894": {
+                "name": "paper_explosion_one",
+                "item_name": "#StickerKit_elemental_craft_paper_explosion_one",
+                "description_string": "#StickerKit_desc_elemental_craft_paper_explosion_one",
+                "sticker_material": "community/elemental_craft/paper_explosion_one",
+                "item_rarity": "rare"
+            },
+            "7895": {
+                "name": "paper_explosion_four",
+                "item_name": "#StickerKit_elemental_craft_paper_explosion_four",
+                "description_string": "#StickerKit_desc_elemental_craft_paper_explosion_four",
+                "sticker_material": "community/elemental_craft/paper_explosion_four",
+                "item_rarity": "rare"
+            },
+            "7896": {
+                "name": "holo_rainbow_trail",
+                "item_name": "#StickerKit_elemental_craft_holo_rainbow_trail",
+                "description_string": "#StickerKit_desc_elemental_craft_holo_rainbow_trail",
+                "sticker_material": "community/elemental_craft/holo_rainbow_trail",
+                "item_rarity": "mythical"
+            },
+            "7897": {
+                "name": "glitter_explosion_two",
+                "item_name": "#StickerKit_elemental_craft_glitter_explosion_two",
+                "description_string": "#StickerKit_desc_elemental_craft_glitter_explosion_two",
+                "sticker_material": "community/elemental_craft/glitter_explosion_two",
+                "item_rarity": "mythical"
+            },
+            "7898": {
+                "name": "glitter_explosion_three",
+                "item_name": "#StickerKit_elemental_craft_glitter_explosion_three",
+                "description_string": "#StickerKit_desc_elemental_craft_glitter_explosion_three",
+                "sticker_material": "community/elemental_craft/glitter_explosion_three",
+                "item_rarity": "mythical"
+            },
+            "7899": {
+                "name": "glitter_explosion_one",
+                "item_name": "#StickerKit_elemental_craft_glitter_explosion_one",
+                "description_string": "#StickerKit_desc_elemental_craft_glitter_explosion_one",
+                "sticker_material": "community/elemental_craft/glitter_explosion_one",
+                "item_rarity": "mythical"
+            },
+            "7900": {
+                "name": "glitter_explosion_four",
+                "item_name": "#StickerKit_elemental_craft_glitter_explosion_four",
+                "description_string": "#StickerKit_desc_elemental_craft_glitter_explosion_four",
+                "sticker_material": "community/elemental_craft/glitter_explosion_four",
+                "item_rarity": "mythical"
+            },
+            "7901": {
+                "name": "foil_lightning_two",
+                "item_name": "#StickerKit_elemental_craft_foil_lightning_two",
+                "description_string": "#StickerKit_desc_elemental_craft_foil_lightning_two",
+                "sticker_material": "community/elemental_craft/foil_lightning_two",
+                "item_rarity": "legendary"
+            },
+            "7902": {
+                "name": "foil_lightning_three",
+                "item_name": "#StickerKit_elemental_craft_foil_lightning_three",
+                "description_string": "#StickerKit_desc_elemental_craft_foil_lightning_three",
+                "sticker_material": "community/elemental_craft/foil_lightning_three",
+                "item_rarity": "legendary"
+            },
+            "7903": {
+                "name": "foil_lightning_one",
+                "item_name": "#StickerKit_elemental_craft_foil_lightning_one",
+                "description_string": "#StickerKit_desc_elemental_craft_foil_lightning_one",
+                "sticker_material": "community/elemental_craft/foil_lightning_one",
+                "item_rarity": "legendary"
+            },
+            "7904": {
+                "name": "foil_fire_three",
+                "item_name": "#StickerKit_elemental_craft_foil_fire_three",
+                "description_string": "#StickerKit_desc_elemental_craft_foil_fire_three",
+                "sticker_material": "community/elemental_craft/foil_fire_three",
+                "item_rarity": "legendary"
+            },
+            "7905": {
+                "name": "paper_arm_flex",
+                "item_name": "#StickerKit_sticker_craft_paper_arm_flex",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_arm_flex",
+                "sticker_material": "community/sticker_craft/paper_arm_flex",
+                "item_rarity": "rare"
+            },
+            "7906": {
+                "name": "paper_clown_nose",
+                "item_name": "#StickerKit_sticker_craft_paper_clown_nose",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_clown_nose",
+                "sticker_material": "community/sticker_craft/paper_clown_nose",
+                "item_rarity": "rare"
+            },
+            "7907": {
+                "name": "paper_clown_wig",
+                "item_name": "#StickerKit_sticker_craft_paper_clown_wig",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_clown_wig",
+                "sticker_material": "community/sticker_craft/paper_clown_wig",
+                "item_rarity": "rare"
+            },
+            "7909": {
+                "name": "paper_googly_eye_small",
+                "item_name": "#StickerKit_sticker_craft_paper_googly_eye_small",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_googly_eye_small",
+                "sticker_material": "community/sticker_craft/paper_googly_eye_small",
+                "item_rarity": "rare"
+            },
+            "7910": {
+                "name": "paper_mouth",
+                "item_name": "#StickerKit_sticker_craft_paper_mouth",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_mouth",
+                "sticker_material": "community/sticker_craft/paper_mouth",
+                "item_rarity": "rare"
+            },
+            "7911": {
+                "name": "paper_ribbon",
+                "item_name": "#StickerKit_sticker_craft_paper_ribbon",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_ribbon",
+                "sticker_material": "community/sticker_craft/paper_ribbon",
+                "item_rarity": "rare"
+            },
+            "7912": {
+                "name": "paper_tongue",
+                "item_name": "#StickerKit_sticker_craft_paper_tongue",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_tongue",
+                "sticker_material": "community/sticker_craft/paper_tongue",
+                "item_rarity": "rare"
+            },
+            "7913": {
+                "name": "glitter_kawaii_eyes",
+                "item_name": "#StickerKit_sticker_craft_glitter_kawaii_eyes",
+                "description_string": "#StickerKit_desc_sticker_craft_glitter_kawaii_eyes",
+                "sticker_material": "community/sticker_craft/glitter_kawaii_eyes",
+                "item_rarity": "mythical"
+            },
+            "7914": {
+                "name": "glitter_tentacle",
+                "item_name": "#StickerKit_sticker_craft_glitter_tentacle",
+                "description_string": "#StickerKit_desc_sticker_craft_glitter_tentacle",
+                "sticker_material": "community/sticker_craft/glitter_tentacle",
+                "item_rarity": "mythical"
+            },
+            "7915": {
+                "name": "holo_mouth",
+                "item_name": "#StickerKit_sticker_craft_holo_mouth",
+                "description_string": "#StickerKit_desc_sticker_craft_holo_mouth",
+                "sticker_material": "community/sticker_craft/holo_mouth",
+                "item_rarity": "mythical"
+            },
+            "7916": {
+                "name": "holo_tongue",
+                "item_name": "#StickerKit_sticker_craft_holo_tongue",
+                "description_string": "#StickerKit_desc_sticker_craft_holo_tongue",
+                "sticker_material": "community/sticker_craft/holo_tongue",
+                "item_rarity": "mythical"
+            },
+            "7917": {
+                "name": "foil_mouth",
+                "item_name": "#StickerKit_sticker_craft_foil_mouth",
+                "description_string": "#StickerKit_desc_sticker_craft_foil_mouth",
+                "sticker_material": "community/sticker_craft/foil_mouth",
+                "item_rarity": "legendary"
+            },
+            "7918": {
+                "name": "lenticular_cheeky_eyes",
+                "item_name": "#StickerKit_sticker_craft_lenticular_cheeky_eyes",
+                "description_string": "#StickerKit_desc_sticker_craft_lenticular_cheeky_eyes",
+                "sticker_material": "community/sticker_craft/lenticular_cheeky_eyes",
+                "item_rarity": "ancient"
+            },
+            "7919": {
+                "name": "lenticular_googly_eye",
+                "item_name": "#StickerKit_sticker_craft_lenticular_googly_eye",
+                "description_string": "#StickerKit_desc_sticker_craft_lenticular_googly_eye",
+                "sticker_material": "community/sticker_craft/lenticular_googly_eye",
+                "item_rarity": "ancient"
+            },
+            "7921": {
+                "name": "lenticular_angry_eyes",
+                "item_name": "#StickerKit_sticker_craft_lenticular_angry_eyes",
+                "description_string": "#StickerKit_desc_sticker_craft_lenticular_angry_eyes",
+                "sticker_material": "community/sticker_craft/lenticular_angry_eyes",
+                "item_rarity": "mythical"
+            },
+            "7922": {
+                "name": "paper_water_two",
+                "item_name": "#StickerKit_elemental_craft_paper_water_two",
+                "description_string": "#StickerKit_desc_elemental_craft_paper_water_two",
+                "sticker_material": "community/elemental_craft/paper_water_two",
+                "item_rarity": "rare"
+            },
+            "7923": {
+                "name": "paper_water_three",
+                "item_name": "#StickerKit_elemental_craft_paper_water_three",
+                "description_string": "#StickerKit_desc_elemental_craft_paper_water_three",
+                "sticker_material": "community/elemental_craft/paper_water_three",
+                "item_rarity": "rare"
+            },
+            "7924": {
+                "name": "paper_water_one",
+                "item_name": "#StickerKit_elemental_craft_paper_water_one",
+                "description_string": "#StickerKit_desc_elemental_craft_paper_water_one",
+                "sticker_material": "community/elemental_craft/paper_water_one",
+                "item_rarity": "rare"
+            },
+            "7925": {
+                "name": "lenticular_blood_one",
+                "item_name": "#StickerKit_elemental_craft_lenticular_blood_one",
+                "description_string": "#StickerKit_descelemental_craft__lenticular_blood_one",
+                "sticker_material": "community/elemental_craft/lenticular_blood_one",
+                "item_rarity": "ancient"
+            },
+            "7926": {
+                "name": "lenticular_blood_two",
+                "item_name": "#StickerKit_elemental_craft_lenticular_blood_two",
+                "description_string": "#StickerKit_desc_elemental_craft_lenticular_blood_two",
+                "sticker_material": "community/elemental_craft/lenticular_blood_two",
+                "item_rarity": "ancient"
+            },
+            "7927": {
+                "name": "paper_male_anime_face",
+                "item_name": "#StickerKit_sticker_craft_paper_male_anime_face",
+                "description_string": "#StickerKit_desc_sticker_craft_paper_male_anime_face",
+                "sticker_material": "community/sticker_craft/paper_male_anime_face",
+                "item_rarity": "rare"
             }
         },
         "paint_kits": {
+            "106": {
+                "name": "m4a1s_vaporwave",
+                "description_string": "PaintKit_m4a1s_vaporwave",
+                "description_tag": "PaintKit_m4a1s_vaporwave_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.597321",
+                "composite_material_path": "weapons/paints/community/community_34/m4a1s_vaporwave.vcompmat"
+            },
+            "112": {
+                "name": "dual_elite_hydro_strike",
+                "description_string": "PaintKit_dual_elite_hydro_strike",
+                "description_tag": "PaintKit_dual_elite_hydro_strike_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.801418",
+                "composite_material_path": "weapons/paints/community/community_34/dual_elite_hydro_strike.vcompmat"
+            },
+            "113": {
+                "name": "ak47_t_bus",
+                "description_string": "PaintKit_ak47_t_bus",
+                "description_tag": "PaintKit_ak47_t_bus_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.900000",
+                "composite_material_path": "weapons/paints/community/community_34/ak47_t_bus.vcompmat"
+            },
+            "114": {
+                "name": "deagle_calligraff",
+                "description_string": "PaintKit_deagle_calligraff",
+                "description_tag": "PaintKit_deagle_calligraff_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "1.000000",
+                "composite_material_path": "weapons/paints/community/community_34/deagle_calligraff.vcompmat"
+            },
+            "115": {
+                "name": "usp_field_snake",
+                "description_string": "PaintKit_usp_field_snake",
+                "description_tag": "PaintKit_usp_field_snake_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "1.000000",
+                "composite_material_path": "weapons/paints/community/community_34/usp_field_snake.vcompmat"
+            },
+            "117": {
+                "name": "scar20_fury_topo",
+                "description_string": "PaintKit_scar20_fury_topo",
+                "description_tag": "PaintKit_scar20_fury_topo_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.702614",
+                "composite_material_path": "weapons/paints/community/community_34/scar20_fury_topo.vcompmat"
+            },
+            "118": {
+                "name": "m4a4_fusion",
+                "description_string": "PaintKit_m4a4_fusion",
+                "description_tag": "PaintKit_m4a4_fusion_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.850000",
+                "composite_material_path": "weapons/paints/community/community_34/m4a4_fusion.vcompmat"
+            },
+            "120": {
+                "name": "m249_hypnosis",
+                "description_string": "PaintKit_m249_hypnosis",
+                "description_tag": "PaintKit_m249_hypnosis_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "1.000000",
+                "composite_material_path": "weapons/paints/community/community_34/m249_hypnosis.vcompmat"
+            },
+            "121": {
+                "name": "aug_puffer",
+                "description_string": "PaintKit_aug_puffer",
+                "description_tag": "PaintKit_aug_puffer_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.900000",
+                "composite_material_path": "weapons/paints/community/community_34/aug_puffer.vcompmat"
+            },
+            "123": {
+                "name": "r8_roses_and_guns",
+                "description_string": "PaintKit_r8_roses_and_guns",
+                "description_tag": "PaintKit_r8_roses_and_guns_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.851064",
+                "composite_material_path": "weapons/paints/community/community_34/r8_roses_and_guns.vcompmat"
+            },
+            "126": {
+                "name": "mac10_ozaki",
+                "description_string": "PaintKit_mac10_ozaki",
+                "description_tag": "PaintKit_mac10_ozaki_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.660000",
+                "composite_material_path": "weapons/paints/community/community_34/mac10_ozaki.vcompmat"
+            },
+            "127": {
+                "name": "p90_randy_rush",
+                "description_string": "PaintKit_p90_randy_rush",
+                "description_tag": "PaintKit_p90_randy_rush_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.750000",
+                "composite_material_path": "weapons/paints/community/community_34/p90_randy_rush.vcompmat"
+            },
+            "128": {
+                "name": "ssg08_transit_white",
+                "description_string": "PaintKit_ssg08_transit_white",
+                "description_tag": "PaintKit_ssg08_transit_white_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.750000",
+                "composite_material_path": "weapons/paints/community/community_34/ssg08_transit_white.vcompmat"
+            },
+            "129": {
+                "name": "glock_chomper",
+                "description_string": "PaintKit_glock_chomper",
+                "description_tag": "PaintKit_glock_chomper_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.730496",
+                "composite_material_path": "weapons/paints/community/community_34/glock_chomper.vcompmat"
+            },
+            "130": {
+                "name": "p250_impact",
+                "description_string": "PaintKit_p250_impact",
+                "description_tag": "PaintKit_p250_impact_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.800000",
+                "composite_material_path": "weapons/paints/community/community_34/p250_impact.vcompmat"
+            },
+            "131": {
+                "name": "ump45_neo_noir",
+                "description_string": "PaintKit_ump45_neo_noir",
+                "description_tag": "PaintKit_cu_glock_noir_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "1.000000",
+                "composite_material_path": "weapons/paints/community/community_34/ump45_neo_noir.vcompmat"
+            },
+            "133": {
+                "name": "sp_overpass_doodle_plum",
+                "description_string": "#PaintKit_sp_overpass_doodle_plum",
+                "description_tag": "#PaintKit_sp_overpass_doodle_plum_Tag",
+                "style": "3",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.500000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/sp_overpass_doodle_plum.vcompmat"
+            },
+            "134": {
+                "name": "cu_overpass_graf_aug",
+                "description_string": "#PaintKit_cu_overpass_graf_aug",
+                "description_tag": "#PaintKit_cu_overpass_graf_aug_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.850000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/cu_overpass_graf_aug.vcompmat"
+            },
+            "137": {
+                "name": "cu_overpass_crakow_awp",
+                "description_string": "#PaintKit_cu_overpass_crakow_awp",
+                "description_tag": "#PaintKit_cu_overpass_crakow_awp_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "1.000000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/cu_overpass_crakow_awp.vcompmat"
+            },
+            "138": {
+                "name": "cu_overpass_aqua_deagle",
+                "description_string": "#PaintKit_cu_overpass_aqua_deagle",
+                "description_tag": "#PaintKit_cu_overpass_aqua_deagle_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.750000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/cu_overpass_aqua_deagle.vcompmat"
+            },
+            "139": {
+                "name": "cu_overpass_baby_dualies",
+                "description_string": "#PaintKit_cu_overpass_baby_dualies",
+                "description_tag": "#PaintKit_cu_overpass_baby_dualies_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.820000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/cu_overpass_baby_dualies.vcompmat"
+            },
+            "140": {
+                "name": "cu_overpass_squeak_mac10",
+                "description_string": "#PaintKit_cu_overpass_squeak_mac10",
+                "description_tag": "#PaintKit_cu_overpass_squeak_mac10_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.900000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/cu_overpass_squeak_mac10.vcompmat"
+            },
+            "142": {
+                "name": "cu_overpass_monster_ak47",
+                "description_string": "#PaintKit_cu_overpass_monster_ak47",
+                "description_tag": "#PaintKit_cu_overpass_monster_ak47_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.800000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/cu_overpass_monster_ak47.vcompmat"
+            },
+            "144": {
+                "name": "cu_overpass_graf_negev",
+                "description_string": "#PaintKit_cu_overpass_graf_negev",
+                "description_tag": "#PaintKit_cu_overpass_graf_negev_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "1.000000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/cu_overpass_graf_negev.vcompmat"
+            },
+            "145": {
+                "name": "cu_overpass_wurst_nova",
+                "description_string": "#PaintKit_cu_overpass_wurst_nova",
+                "description_tag": "#PaintKit_cu_overpass_wurst_nova_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "1.000000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/cu_overpass_wurst_nova.vcompmat"
+            },
+            "146": {
+                "name": "cu_overpass_monsters_xm",
+                "description_string": "#PaintKit_cu_overpass_monsters_xm",
+                "description_tag": "#PaintKit_cu_overpass_monsters_xm_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.750000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/cu_overpass_monsters_xm.vcompmat"
+            },
+            "152": {
+                "name": "hy_overpass_tagged_teal",
+                "description_string": "#PaintKit_hy_overpass_tagged_teal",
+                "description_tag": "#PaintKit_hy_overpass_tagged_teal_Tag",
+                "style": "2",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.500000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/hy_overpass_tagged_teal.vcompmat"
+            },
+            "160": {
+                "name": "hy_overpass_doodle_m4a1s",
+                "description_string": "#PaintKit_hy_overpass_doodle_m4a1s",
+                "description_tag": "#PaintKit_hy_overpass_doodle_m4a1s_Tag",
+                "style": "2",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.580000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/hy_overpass_doodle_m4a1s.vcompmat"
+            },
+            "161": {
+                "name": "sp_overpass_paint_pen_neon",
+                "description_string": "#PaintKit_sp_overpass_paint_pen_neon",
+                "description_tag": "#PaintKit_sp_overpass_paint_pen_neon_Tag",
+                "style": "3",
+                "wear_remap_min": "0.200000",
+                "wear_remap_max": "0.900000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/sp_overpass_paint_pen_neon.vcompmat"
+            },
+            "163": {
+                "name": "gs_independe_awp",
+                "description_string": "#PaintKit_gs_independe_awp",
+                "description_tag": "#PaintKit_gs_independe_awp_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.800000",
+                "composite_material_path": "weapons/paints/set_graphic_design/gs_independe_awp.vcompmat"
+            },
+            "173": {
+                "name": "gs_lilpig_aug",
+                "description_string": "#PaintKit_gs_lilpig_aug",
+                "description_tag": "#PaintKit_gs_lilpig_aug_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.800000",
+                "composite_material_path": "weapons/paints/set_graphic_design/gs_lilpig_aug.vcompmat"
+            },
+            "239": {
+                "name": "sp_overpass_paint_pen_metal",
+                "description_string": "#PaintKit_sp_overpass_paint_pen_metal",
+                "description_tag": "#PaintKit_sp_overpass_paint_pen_metal_Tag",
+                "style": "3",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.600000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/sp_overpass_paint_pen_metal.vcompmat"
+            },
+            "292": {
+                "name": "cu_overpass_dragon_zeus",
+                "description_string": "#PaintKit_cu_overpass_dragon_zeus",
+                "description_tag": "#PaintKit_cu_overpass_dragon_zeus_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.800000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/cu_overpass_dragon_zeus.vcompmat"
+            },
+            "324": {
+                "name": "gs_ripple_nova",
+                "description_string": "#PaintKit_gs_ripple_nova",
+                "description_tag": "#PaintKit_gs_ripple_nova_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "1.000000",
+                "composite_material_path": "weapons/paints/set_realism_camo/gs_ripple_nova.vcompmat"
+            },
+            "331": {
+                "name": "gs_arctic_mp9",
+                "description_string": "#PaintKit_gs_arctic_mp9",
+                "description_tag": "#PaintKit_gs_arctic_mp9_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.600000",
+                "composite_material_path": "weapons/paints/set_realism_camo/gs_arctic_mp9.vcompmat"
+            },
+            "412": {
+                "name": "gsch_sport_ump45",
+                "description_string": "#PaintKit_gsch_sport_ump45",
+                "description_tag": "#PaintKit_gsch_sport_ump45_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.680000",
+                "composite_material_path": "weapons/paints/set_realism_camo/gsch_sport_ump45.vcompmat"
+            },
+            "461": {
+                "name": "gs_gamebred_famas",
+                "description_string": "#PaintKit_gs_gamebred_famas",
+                "description_tag": "#PaintKit_gs_gamebred_famas_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "1.000000",
+                "composite_material_path": "weapons/paints/set_realism_camo/gs_gamebred_famas.vcompmat"
+            },
+            "513": {
+                "name": "gsch_zeno_ssg08",
+                "description_string": "#PaintKit_gsch_zeno_ssg08",
+                "description_tag": "#PaintKit_gsch_zeno_ssg08_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.700000",
+                "composite_material_path": "weapons/paints/set_realism_camo/gsch_zeno_ssg08.vcompmat"
+            },
+            "766": {
+                "name": "soch_tiger_stencil_tec9",
+                "description_string": "#PaintKit_soch_tiger_stencil",
+                "description_tag": "#PaintKit_soch_tiger_stencil_Tag",
+                "style": "1",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.600000",
+                "composite_material_path": "weapons/paints/set_realism_camo/soch_tiger_stencil_tec9.vcompmat"
+            },
+            "768": {
+                "name": "ht_blur_camo_mp5sd",
+                "description_string": "#PaintKit_ht_blur_camo_mp5sd",
+                "description_tag": "#PaintKit_ht_blur_camo_mp5sd_Tag",
+                "style": "3",
+                "wear_remap_min": "0.250000",
+                "wear_remap_max": "0.750000",
+                "composite_material_path": "weapons/paints/set_realism_camo/ht_blur_camo_mp5sd.vcompmat"
+            },
+            "770": {
+                "name": "sp_wax_rub_bizon",
+                "description_string": "#PaintKit_sp_wax_rub_bizon",
+                "description_tag": "#PaintKit_sp_wax_rub_bizon_Tag",
+                "style": "3",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.400000",
+                "composite_material_path": "weapons/paints/set_realism_camo/sp_wax_rub_bizon.vcompmat"
+            },
+            "773": {
+                "name": "soch_wildwood_mag7",
+                "description_string": "#PaintKit_soch_wildwood",
+                "description_tag": "#PaintKit_soch_wildwood_Tag",
+                "style": "1",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.700000",
+                "composite_material_path": "weapons/paints/set_realism_camo/soch_wildwood_mag7.vcompmat"
+            },
+            "774": {
+                "name": "soch_hunter_blaze_p250",
+                "description_string": "#PaintKit_soch_hunter_blaze",
+                "description_tag": "#PaintKit_soch_hunter_blaze_Tag",
+                "style": "1",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.700000",
+                "composite_material_path": "weapons/paints/set_realism_camo/soch_hunter_blaze_p250.vcompmat"
+            },
+            "830": {
+                "name": "gsch_bright_camo_usp",
+                "description_string": "#PaintKit_gsch_bright_camo_usp",
+                "description_tag": "#PaintKit_gsch_bright_camo_usp_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.680000",
+                "composite_material_path": "weapons/paints/set_realism_camo/gsch_bright_camo_usp.vcompmat"
+            },
+            "831": {
+                "name": "aq_case_hardened_fiveseven",
+                "description_string": "#PaintKit_aq_case_hardened_2",
+                "description_tag": "#PaintKit_aq_case_hardened_2_Tag",
+                "style": "10",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "1.000000",
+                "composite_material_path": "weapons/paints/set_realism_camo/aq_case_hardened_fiveseven.vcompmat"
+            },
+            "832": {
+                "name": "gsch_axia_glock",
+                "description_string": "#PaintKit_gsch_axia_glock",
+                "description_tag": "#PaintKit_gsch_axia_glock_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.700000",
+                "composite_material_path": "weapons/paints/set_realism_camo/gsch_axia_glock.vcompmat"
+            },
+            "834": {
+                "name": "ht_shapes_xm1014",
+                "description_string": "#PaintKit_ht_shapes",
+                "description_tag": "#PaintKit_ht_shapes_Tag",
+                "style": "3",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.600000",
+                "composite_material_path": "weapons/paints/set_graphic_design/ht_shapes_xm1014.vcompmat"
+            },
+            "874": {
+                "name": "soo_polysoup_m4a4",
+                "description_string": "#PaintKit_soo_polysoup_m4a4",
+                "description_tag": "#PaintKit_soo_polysoup_m4a4_Tag",
+                "style": "1",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.640000",
+                "composite_material_path": "weapons/paints/set_graphic_design/soo_polysoup_m4a4.vcompmat"
+            },
+            "875": {
+                "name": "ht_peaks_rainbow",
+                "description_string": "#PaintKit_ht_peaks_rainbow",
+                "description_tag": "#PaintKit_ht_peaks_rainbow_Tag",
+                "style": "3",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.500000",
+                "composite_material_path": "weapons/paints/set_graphic_design/ht_peaks_rainbow.vcompmat"
+            },
+            "877": {
+                "name": "ht_swirl_ssg08",
+                "description_string": "#PaintKit_ht_swirl",
+                "description_tag": "#PaintKit_ht_swirl_Tag",
+                "style": "3",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.500000",
+                "composite_material_path": "weapons/paints/set_graphic_design/ht_swirl_ssg08.vcompmat"
+            },
+            "878": {
+                "name": "ht_facet_p2000",
+                "description_string": "#PaintKit_ht_facet_p2000",
+                "description_tag": "#PaintKit_ht_facet_p2000_Tag",
+                "style": "3",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.520000",
+                "composite_material_path": "weapons/paints/set_graphic_design/ht_facet_p2000.vcompmat"
+            },
+            "882": {
+                "name": "ht_splash_famas",
+                "description_string": "#PaintKit_ht_splash",
+                "description_tag": "#PaintKit_ht_splash_Tag",
+                "style": "3",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.500000",
+                "composite_material_path": "weapons/paints/set_graphic_design/ht_splash_famas.vcompmat"
+            },
+            "883": {
+                "name": "cu_chevron_scar20",
+                "description_string": "#PaintKit_cu_chevron_scar20",
+                "description_tag": "#PaintKit_cu_chevron_scar20_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.650000",
+                "composite_material_path": "weapons/paints/set_graphic_design/cu_chevron_scar20.vcompmat"
+            },
+            "901": {
+                "name": "gs_happy_red_sg556",
+                "description_string": "#PaintKit_gs_happy_red_sg556",
+                "description_tag": "#PaintKit_gs_happy_red_sg556_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.800000",
+                "composite_material_path": "weapons/paints/set_graphic_design/gs_happy_red_sg556.vcompmat"
+            },
+            "912": {
+                "name": "cu_graphic_overlay_ak47",
+                "description_string": "#PaintKit_cu_graphic_overlay_ak47",
+                "description_tag": "#PaintKit_cu_graphic_overlay_ak47_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.500000",
+                "composite_material_path": "weapons/paints/set_graphic_design/cu_graphic_overlay_ak47.vcompmat"
+            },
+            "936": {
+                "name": "cu_poly_violet_p90",
+                "description_string": "#PaintKit_cu_poly_violet_p90",
+                "description_tag": "#PaintKit_cu_poly_violet_p90_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.550000",
+                "composite_material_path": "weapons/paints/set_graphic_design/cu_poly_violet_p90.vcompmat"
+            },
+            "937": {
+                "name": "cu_abstract_white_cz",
+                "description_string": "#PaintKit_cu_abstract_white_cz",
+                "description_tag": "#PaintKit_cu_abstract_white_cz_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.570000",
+                "composite_material_path": "weapons/paints/set_graphic_design/cu_abstract_white_cz.vcompmat"
+            },
+            "938": {
+                "name": "cu_glitter_deagle",
+                "description_string": "#PaintKit_cu_glitter_deagle",
+                "description_tag": "#PaintKit_cu_glitter_deagle_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.750000",
+                "composite_material_path": "weapons/paints/set_graphic_design/cu_glitter_deagle.vcompmat"
+            },
+            "939": {
+                "name": "cu_poly_green_galil",
+                "description_string": "#PaintKit_cu_poly_green_galil",
+                "description_tag": "#PaintKit_cu_poly_green_galil_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.470000",
+                "composite_material_path": "weapons/paints/set_graphic_design/cu_poly_green_galil.vcompmat"
+            },
+            "940": {
+                "name": "gs_constellation_dark_mp7",
+                "description_string": "#PaintKit_gs_constellation_dark_mp7",
+                "description_tag": "#PaintKit_gs_constellation_dark_mp7_Tag",
+                "style": "9",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "1.000000",
+                "composite_material_path": "weapons/paints/set_graphic_design/gs_constellation_dark_mp7.vcompmat"
+            },
+            "1054": {
+                "name": "aq_deagle_case_hardened_2",
+                "description_string": "#PaintKit_aq_case_hardened_2",
+                "description_tag": "#PaintKit_aq_case_hardened_2_Tag",
+                "style": "10",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "1.000000",
+                "composite_material_path": "weapons/paints/limited_time/aq_deagle_case_hardened_2.vcompmat"
+            },
+            "1062": {
+                "name": "hy_overpass_paintover_teal",
+                "description_string": "#PaintKit_hy_overpass_paintover_teal",
+                "description_tag": "#PaintKit_hy_overpass_paintover_teal_Tag",
+                "style": "2",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.500000",
+                "composite_material_path": "weapons/paints/set_overpass_2024/hy_overpass_paintover_teal.vcompmat"
+            },
             "1159": {
                 "name": "tec9_junkyard_engineering",
                 "description_string": "#PaintKit_tec9_junkyard_engineering",
@@ -18624,50 +20187,55 @@
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "0.801418",
                 "composite_material_path": "weapons/paints/community/community_33/ump45_assembled_engine.vcompmat"
+            },
+            "1177": {
+                "name": "aa_fade_m4a1s",
+                "description_string": "#PaintKit_aa_fade",
+                "description_tag": "#PaintKit_aa_fade_Tag",
+                "style": "6",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.080000",
+                "composite_material_path": "weapons/paints/set_realism_camo/aa_fade_m4a1s.vcompmat"
+            },
+            "1178": {
+                "name": "aq_titanium_rainbow_galilar",
+                "description_string": "#PaintKit_aq_titanium_rainbow",
+                "description_tag": "#PaintKit_aq_titanium_rainbow_Tag",
+                "style": "10",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.554422",
+                "composite_material_path": "weapons/paints/set_realism_camo/aq_titanium_rainbow_galilar.vcompmat"
+            },
+            "1179": {
+                "name": "ht_poly_camo_ak47",
+                "description_string": "#PaintKit_ht_poly_camo",
+                "description_tag": "#PaintKit_ht_poly_camo_Tag",
+                "style": "3",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "0.500000",
+                "composite_material_path": "weapons/paints/set_realism_camo/ht_poly_camo_ak47.vcompmat"
+            },
+            "1180": {
+                "name": "mp5_statics_blue",
+                "description_string": "#PaintKit_mp5_statics_blue",
+                "description_tag": "#PaintKit_mp5_statics_blue_Tag",
+                "style": "7",
+                "wear_remap_min": "0.000000",
+                "wear_remap_max": "1.000000",
+                "composite_material_path": "weapons/paints/community/community_34/mp5_statics_blue.vcompmat"
             }
         },
         "paint_kits_rarity": {
-            "dual_berettas_lethal_grin": "rare",
-            "mac10_illusion": "rare",
-            "nova_drakkar": "rare",
-            "ssg08_dezastre": "rare",
-            "tec9_junkyard_engineering": "rare",
-            "ump45_assembled_engine": "rare",
-            "xm1014_irezumi": "rare",
-            "glock_brick_mondrian": "rare",
-            "m4a4_snakebite": "rare",
-            "fiveseven_hybrid": "mythical",
-            "mp7_just_smile": "mythical",
-            "sawedoff_gamer": "mythical",
-            "m4a1s_black_lotus": "mythical",
-            "usps_doggy": "mythical",
-            "zeus_thunder_god": "legendary",
-            "awp_tempered": "legendary",
-            "ak_porcelain": "legendary"
+            "aq_deagle_case_hardened_2": "mythical"
         },
         "item_sets": {
-            "set_community_33": {
-                "name": "#CSGO_set_community_33",
-                "set_description": "#CSGO_set_community_33_desc",
+            "set_xpshop_wpn_01": {
+                "name": "#CSGO_set_xpshop_wpn_01",
+                "set_description": "#CSGO_set_xpshop_wpn_01_desc",
                 "is_collection": "1",
+                "is_hidden_set": "1",
                 "items": {
-                    "[dual_berettas_lethal_grin]weapon_elite": "1",
-                    "[mac10_illusion]weapon_mac10": "1",
-                    "[nova_drakkar]weapon_nova": "1",
-                    "[ssg08_dezastre]weapon_ssg08": "1",
-                    "[tec9_junkyard_engineering]weapon_tec9": "1",
-                    "[ump45_assembled_engine]weapon_ump45": "1",
-                    "[xm1014_irezumi]weapon_xm1014": "1",
-                    "[glock_brick_mondrian]weapon_glock": "1",
-                    "[m4a4_snakebite]weapon_m4a1": "1",
-                    "[fiveseven_hybrid]weapon_fiveseven": "1",
-                    "[mp7_just_smile]weapon_mp7": "1",
-                    "[sawedoff_gamer]weapon_sawedoff": "1",
-                    "[m4a1s_black_lotus]weapon_m4a1_silencer": "1",
-                    "[zeus_thunder_god]weapon_taser": "1",
-                    "[usps_doggy]weapon_usp_silencer": "1",
-                    "[awp_tempered]weapon_awp": "1",
-                    "[ak_porcelain]weapon_ak47": "1"
+                    "[aq_deagle_case_hardened_2]weapon_deagle": "1"
                 }
             }
         },
@@ -19626,21 +21194,15 @@
             }
         },
         "seasonaloperations": {
-            "10": {
-                "quest_mission_card": {
-                    "id": "9066",
-                    "name": "#UI_Operation11_MissionCard_16",
-                    "quests": "1166-1169",
-                    "operational_points": "6"
-                },
-                "xp_reward": "lootlist_xpgrant",
+            "11": {
+                "redeemable_goods": "xpshop",
                 "operational_point_redeemable": {
-                    "points": "5",
-                    "item_name": "character_operator_dossier_op11_rare",
-                    "ui_order": "1",
-                    "callout": "#CSGO_character_operator_dossier_op09_rare_short",
-                    "ui_image": "operations/op10/char_pack_op11_rare",
-                    "ui_image_thumbnail": "operations/op11/char_pack_thumbnail_op11_rare"
+                    "points": "1",
+                    "item_name": "lootlist:sticker_pack_stkr_craft_02_lootlist",
+                    "ui_order": "3",
+                    "ui_image_thumbnail": "backgrounds/xpshop/stkr_craft_02_thumbnail",
+                    "ui_set_image": "set_stkr_craft_02",
+                    "callout": "#CSGO_crate_sticker_pack_stkr_craft_02_short"
                 }
             }
         },
@@ -41650,6 +43212,273 @@
                         }
                     }
                 }
+            }
+        },
+        "keychain_definitions": {
+            "1": {
+                "name": "kc_missinglink_ava",
+                "loc_name": "#keychain_kc_missinglink_ava",
+                "loc_description": "#keychain_kc_missinglink_ava_desc",
+                "item_rarity": "rare",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_ava",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_ava.vmdl"
+            },
+            "2": {
+                "name": "kc_missinglink_banana",
+                "loc_name": "#keychain_kc_missinglink_banana",
+                "loc_description": "#keychain_kc_missinglink_banana_desc",
+                "item_rarity": "mythical",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_banana",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_banana.vmdl"
+            },
+            "3": {
+                "name": "kc_missinglink_cat",
+                "loc_name": "#keychain_kc_missinglink_cat",
+                "loc_description": "#keychain_kc_missinglink_cat_desc",
+                "item_rarity": "mythical",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_cat",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_cat.vmdl"
+            },
+            "4": {
+                "name": "kc_missinglink_catbeach",
+                "loc_name": "#keychain_kc_missinglink_catbeach",
+                "loc_description": "#keychain_kc_missinglink_catbeach_desc",
+                "item_rarity": "mythical",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_catbeach",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_catbeach.vmdl"
+            },
+            "5": {
+                "name": "kc_missinglink_chicken",
+                "loc_name": "#keychain_kc_missinglink_chicken",
+                "loc_description": "#keychain_kc_missinglink_chicken_desc",
+                "item_rarity": "mythical",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_chicken",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_chicken.vmdl"
+            },
+            "6": {
+                "name": "kc_missinglink_guerilla",
+                "loc_name": "#keychain_kc_missinglink_guerilla",
+                "loc_description": "#keychain_kc_missinglink_guerilla_desc",
+                "item_rarity": "rare",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_guerilla",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_guerilla.vmdl",
+                "display_seed": "1"
+            },
+            "7": {
+                "name": "kc_missinglink_howl",
+                "loc_name": "#keychain_kc_missinglink_howl",
+                "loc_description": "#keychain_kc_missinglink_howl_desc",
+                "item_rarity": "ancient",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_howl",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_howl.vmdl"
+            },
+            "8": {
+                "name": "kc_missinglink_kev",
+                "loc_name": "#keychain_kc_missinglink_kev",
+                "loc_description": "#keychain_kc_missinglink_kev_desc",
+                "item_rarity": "rare",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_kev",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_kev.vmdl"
+            },
+            "9": {
+                "name": "kc_missinglink_monster",
+                "loc_name": "#keychain_kc_missinglink_monster",
+                "loc_description": "#keychain_kc_missinglink_monster_desc",
+                "item_rarity": "legendary",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_monster",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_monster.vmdl"
+            },
+            "10": {
+                "name": "kc_missinglink_sam_catchup",
+                "loc_name": "#keychain_kc_missinglink_sam_catchup",
+                "loc_description": "#keychain_kc_missinglink_sam_catchup_desc",
+                "item_rarity": "rare",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_sam_catchup",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_catchup.vmdl"
+            },
+            "11": {
+                "name": "kc_missinglink_sam_diamond",
+                "loc_name": "#keychain_kc_missinglink_sam_diamond",
+                "loc_description": "#keychain_kc_missinglink_sam_diamond_desc",
+                "item_rarity": "legendary",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_sam_diamond",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_diamond.vmdl"
+            },
+            "12": {
+                "name": "kc_missinglink_sam_salty",
+                "loc_name": "#keychain_kc_missinglink_sam_salty",
+                "loc_description": "#keychain_kc_missinglink_sam_salty_desc",
+                "item_rarity": "rare",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_sam_salty",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_salty.vmdl"
+            },
+            "13": {
+                "name": "kc_missinglink_sam_shape",
+                "loc_name": "#keychain_kc_missinglink_sam_shape",
+                "loc_description": "#keychain_kc_missinglink_sam_shape_desc",
+                "item_rarity": "legendary",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_sam_shape",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_shape.vmdl"
+            },
+            "14": {
+                "name": "kc_missinglink_sam_toile",
+                "loc_name": "#keychain_kc_missinglink_sam_toile",
+                "loc_description": "#keychain_kc_missinglink_sam_toile_desc",
+                "item_rarity": "mythical",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_sam_toile",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_toile.vmdl"
+            },
+            "15": {
+                "name": "kc_missinglink_sas",
+                "loc_name": "#keychain_kc_missinglink_sas",
+                "loc_description": "#keychain_kc_missinglink_sas_desc",
+                "item_rarity": "rare",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_sas",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sas.vmdl"
+            },
+            "16": {
+                "name": "kc_missinglink_wurst",
+                "loc_name": "#keychain_kc_missinglink_wurst",
+                "loc_description": "#keychain_kc_missinglink_wurst_desc",
+                "item_rarity": "ancient",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_wurst",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_wurst.vmdl"
+            },
+            "17": {
+                "name": "kc_wpn_ak_base",
+                "loc_name": "#keychain_kc_wpn_ak_base",
+                "loc_description": "#keychain_kc_wpn_ak_base_desc",
+                "item_rarity": "rare",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_ak_base",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_ak_base.vmdl"
+            },
+            "18": {
+                "name": "kc_wpn_ak_jelly",
+                "loc_name": "#keychain_kc_wpn_ak_jelly",
+                "loc_description": "#keychain_kc_wpn_ak_jelly_desc",
+                "item_rarity": "mythical",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_ak_jelly",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_ak_jelly.vmdl"
+            },
+            "19": {
+                "name": "kc_wpn_awp_plastic",
+                "loc_name": "#keychain_kc_wpn_awp_plastic",
+                "loc_description": "#keychain_kc_wpn_awp_plastic_desc",
+                "item_rarity": "rare",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_awp_plastic",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_awp_plastic.vmdl"
+            },
+            "20": {
+                "name": "kc_wpn_awp_spoon",
+                "loc_name": "#keychain_kc_wpn_awp_spoon",
+                "loc_description": "#keychain_kc_wpn_awp_spoon_desc",
+                "item_rarity": "legendary",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_awp_spoon",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_awp_spoon.vmdl"
+            },
+            "21": {
+                "name": "kc_wpn_ctknife_gold",
+                "loc_name": "#keychain_kc_wpn_ctknife_gold",
+                "loc_description": "#keychain_kc_wpn_ctknife_gold_desc",
+                "item_rarity": "ancient",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_ctknife_gold",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_ctknife_gold.vmdl"
+            },
+            "22": {
+                "name": "kc_wpn_ctknife_wood",
+                "loc_name": "#keychain_kc_wpn_ctknife_wood",
+                "loc_description": "#keychain_kc_wpn_ctknife_wood_desc",
+                "item_rarity": "rare",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_ctknife_wood",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_ctknife_wood.vmdl"
+            },
+            "23": {
+                "name": "kc_wpn_m4a1s_comic",
+                "loc_name": "#keychain_kc_wpn_m4a1s_comic",
+                "loc_description": "#keychain_kc_wpn_m4a1s_comic_desc",
+                "item_rarity": "mythical",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_m4a1s_comic",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_m4a1s_comic.vmdl"
+            },
+            "24": {
+                "name": "kc_wpn_m4a1s_ss",
+                "loc_name": "#keychain_kc_wpn_m4a1s_ss",
+                "loc_description": "#keychain_kc_wpn_m4a1s_ss_desc",
+                "item_rarity": "legendary",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_m4a1s_ss",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_m4a1s_ss.vmdl"
+            },
+            "25": {
+                "name": "kc_wpn_mac10_glitter",
+                "loc_name": "#keychain_kc_wpn_mac10_glitter",
+                "loc_description": "#keychain_kc_wpn_mac10_glitter_desc",
+                "item_rarity": "mythical",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_mac10_glitter",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_mac10_glitter.vmdl"
+            },
+            "26": {
+                "name": "kc_wpn_mac10_tile",
+                "loc_name": "#keychain_kc_wpn_mac10_tile",
+                "loc_description": "#keychain_kc_wpn_mac10_tile_desc",
+                "item_rarity": "rare",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_mac10_tile",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_mac10_tile.vmdl"
+            },
+            "27": {
+                "name": "kc_wpn_tec9_cap",
+                "loc_name": "#keychain_kc_wpn_tec9_cap",
+                "loc_description": "#keychain_kc_wpn_tec9_cap_desc",
+                "item_rarity": "rare",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_tec9_cap",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_tec9_cap.vmdl"
+            },
+            "28": {
+                "name": "kc_wpn_tec9_magma",
+                "loc_name": "#keychain_kc_wpn_tec9_magma",
+                "loc_description": "#keychain_kc_wpn_tec9_magma_desc",
+                "item_rarity": "mythical",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_tec9_magma",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_tec9_magma.vmdl"
+            },
+            "29": {
+                "name": "kc_wpn_tknife_crystal",
+                "loc_name": "#keychain_kc_wpn_tknife_crystal",
+                "loc_description": "#keychain_kc_wpn_tknife_crystal_desc",
+                "item_rarity": "legendary",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_tknife_crystal",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_tknife_crystal.vmdl"
+            },
+            "30": {
+                "name": "kc_wpn_tknife_gold",
+                "loc_name": "#keychain_kc_wpn_tknife_gold",
+                "loc_description": "#keychain_kc_wpn_tknife_gold_desc",
+                "item_rarity": "ancient",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_tknife_gold",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_tknife_gold.vmdl"
+            },
+            "31": {
+                "name": "kc_wpn_usp_jewel",
+                "loc_name": "#keychain_kc_wpn_usp_jewel",
+                "loc_description": "#keychain_kc_wpn_usp_jewel_desc",
+                "item_rarity": "mythical",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_usp_jewel",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_usp_jewel.vmdl"
+            },
+            "32": {
+                "name": "kc_wpn_usp_yarn",
+                "loc_name": "#keychain_kc_wpn_usp_yarn",
+                "loc_description": "#keychain_kc_wpn_usp_yarn_desc",
+                "item_rarity": "rare",
+                "image_inventory": "econ/keychains/weapon_1/kc_wpn_usp_yarn",
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_usp_yarn.vmdl"
+            },
+            "33": {
+                "name": "kc_missinglink_bigfoot",
+                "loc_name": "#keychain_kc_missinglink_bigfoot",
+                "loc_description": "#keychain_kc_missinglink_bigfoot_desc",
+                "item_rarity": "mythical",
+                "image_inventory": "econ/keychains/missinglink/kc_missinglink_bigfoot",
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_bigfoot.vmdl"
             }
         }
     }

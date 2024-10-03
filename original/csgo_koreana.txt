@@ -26,7 +26,7 @@
 		"GameUI_CrosshairStyleDefault"			"기본"
 		"GameUI_CrosshairStyleDefaultStatic"	"기본 고정 조준선"
 		"GameUI_CrosshairStyleClassic"			"클래식"
-		"GameUI_CrosshairStyleClassicDyn"		"클래식 동적 조준선"
+		"GameUI_CrosshairStyleClassicDyn"		"클���식 동적 조준선"
 		"GameUI_CrosshairStyleClassicStatic"	"클래식 고정 조준선"
 		"GameUI_CrosshairStyleLegacy"			"기존"
 
@@ -150,7 +150,7 @@
 		"GameUI_Disconnect_DisconnectByServer"		"서버 연결이 해제되었습니다."
 		"GameUI_Disconnect_HLTVDirect"				"SourceTV를 게임에 직접 연결할 수 없습니다."
 		"GameUI_Disconnect_PureServer_ClientExtra"	"정상 서버: 클라이언트에서 추가 파일을 로딩했습니다."
-		"GameUI_Disconnect_PureServer_Mismatch"		"정상 서버: 클라이언트 파일이 서버와 일치하지 않습니다.\n\nhttps://support.steampowered.com/kb_article.php?ref=8285-YOAZ-6049"
+		"GameUI_Disconnect_PureServer_Mismatch"		"정상 서버: 클라이언트 파일이 서버와 일���하지 않습니다.\n\nhttps://support.steampowered.com/kb_article.php?ref=8285-YOAZ-6049"
 		"GameUI_Disconnect_UserCmd"					"사용자 명령을 처리하는 도중 오류가 발생했습니다."
 		"GameUI_Disconnect_RejectedByGame"			"게임 연결이 거부되었습니다."
 		"GameUI_Disconnect_MessageParseError"		"메시지를 처리하지 못했습니다."
@@ -164,7 +164,7 @@
 		"GameUI_Disconnect_TimedOut"				"게임 서버와 연결할 수 없습니다."
 
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"지리적으로 서로 다른 위치에서 여러 번 전송을 시도한 결과, 연결 끊김 현상이 지속되었습니다. 따라서 사용하시는 인터넷의 연결에 문제가 있기 때문일 가능성이 높습니다."
-		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"게임 서버와 클라이언트가 사용하는 주 중계와의 연결이 끊어졌습니다."
+		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"게임 서버와 클라이언트가 사용하는 �� 중계와의 연결이 끊어졌습니다."
 		"GameUI_Disconnect_LocalProblem_NetworkConfig"	"인터넷 연결을 확인해 주세요. CDN으로부터 네트워크 구성을 내려받을 수 없습니다."
 		"GameUI_Disconnect_LocalProblem_Other"	"연결이 끊어졌습니다. 인터넷 연결에 문제가 있습니다."
 
@@ -223,7 +223,7 @@
 		"GameUI_Disconnect_BadServerPassword"				"잘못된 서버 비밀번호"
 		"GameUI_Disconnect_BadSpectatorPassword"			"잘못된 관전자 비밀번호"
 		"GameUI_Disconnect_ConnectionFailure"				"연결 실패"
-		"GameUI_Disconnect_NoPeerGroupHandlers"				"연결 피어 그룹 누락"
+		"GameUI_Disconnect_NoPeerGroupHandlers"				"연결 ��어 그룹 누락"
 		"GameUI_Disconnect_BanAdded"						"차단 목록에 추가됨"
 		"GameUI_Disconnect_KickBanAdded"					"추방 및 차단됨"
 		"GameUI_Disconnect_HLTVRestricted"					"SourceTV 서버는 로컬 관전자(클래스 C)로 제한됩니다."
@@ -530,7 +530,7 @@
 		"GameUI_Settings_ShowLocationAndName"			"위치 표시, 이름, 체력"
 		"GameUI_Settings_ShowLocationAndEquipment"		"위치 표시, 이름, 체력, 장비"
 
-		"GameUI_ReportBug"		"버그 신고"
+		"GameUI_ReportBug"		"��그 신고"
 		"GameUI_Bug_Successful"		"버그가 접수되었습니다!"
 		"GameUI_Bug_Submitting"		"버그 접수 중..."
 		"GameUI_Bug_TakeScreenshot"	"스크린샷 찍기"
@@ -1397,7 +1397,7 @@
 		"TCorridorUp"		"T 복도 상단"
 		"LeftAlley"			"좌측 골목"
 		"RightAlley"		"우측 골목"
-		"BackCourtyard"		"뒷뜰"
+		"BackCourtyard"		"��뜰"
 		"FrontCourtyard"	"앞뜰"
 		//DUST2
 		"MidArch"		"중앙 아치"
@@ -2283,7 +2283,7 @@
 		"Econ_Loot_List_AndSomeMoreItems" "... 그리고 %s1개 더"
 
 		"Econ_Revolving_Loot_List"				"다음 중 하나가 들어 있습니다."
-		"Econ_Revolving_Loot_List_Single"		"상자를 열고 아이템 1개를 받으세요"
+		"Econ_Revolving_Loot_List_Single"		"다음 아이템 중 1개를 획득하게 됩니다."
 		"Econ_Revolving_Loot_List_Rental"		"<img src='file://{images}/icons/ui/hourglass.svg' class='popup-decodable-lootlist-single-icon'/> 이 상자의 모든 무기(극도로 희귀한 아이템 제외)를 7일 동안 대여하세요"
 
 		
@@ -2331,6 +2331,7 @@
 		"Item_PeriodicScoreReward"				" %s1 님이 %s2 아이템을 획득했습니다."
 		"Item_Named"							" %s1 님이 '%s2'에서 '%s3'(으)로 이름을 변경했습니다"
 		"Item_Rental"							" %s1 님이 대여한 무기: %s2"
+		"Item_XpShopRedeem"						" %s1 님이 무기고에서 획득한 아이템: %s2"
 
 		"Item_NotConnected"						"이 아이템을 사용하려면 매치를 플레이하고 있어야 합니다!"
 		"Item_Need2Players"						"이 아이템은 매치에 다른 플레이어가 있어야만 사용할 수 있습니다!"
@@ -2348,6 +2349,7 @@
 		"NewItemMethod_Purchased"		"구매:"
 		"NewItemMethod_FoundInCrate"	"상자에서 획득:"
 		"NewItemMethod_Rental"			"대여한 아이템:"
+		"NewItemMethod_XpShopRedeem"	"무기고에서 획득한 아이템:"
 		"NewItemMethod_Gifted"			"선물을 받았습니다:"
 		"NewItemMethod_Promotion"		"홍보용 아이템 획득:"
 		"NewItemMethod_Earned"			"획득한 아이템:"
@@ -2617,6 +2619,8 @@
 		"Attrib_IssueDate"							"수여일: %s1"
 		"Attrib_ExpirationDate"						"대여 만료일:  %s1"
 
+		"Notify_KeychainRemoveTool_ChargesUseToRemove"	"참 장식 분리 가능: {d:item_count}회<br>참 장식 1개를 분리하면 참 장식 분리 1회가 소모됩니다."
+		"Attrib_KeychainRemoveTool_Charges"			"참 장식 분리 가능: {d:item_count}회"
 		"Attrib_SpraysRemaining"					"남은 사용 횟수: %s1번"
 		"Attrib_SpraysRemaining_Unlimited"			"무제한 그래피티"
 		"Attrib_SprayTintID"						"그래피티 색상"
@@ -3008,7 +3012,7 @@
 		"CSGO_Collectible_CommunitySeasonFiveSummer2014_Coin3_Desc"	"선봉 작전에 참가했다는 증표입니다."
 		
 		"CSGO_Ticket_CommunitySeasonSix2015"					"블러드하운드 작전 참가권"
-		"CSGO_Ticket_CommunitySeasonSix2015_Desc"				"블러드하운드 작전은 2015년 5월 26일부터 10월 1일까지 진행되었습니다. 작전이 ���료되어 이 참가권을 사용할 수는 없지만 블러드하운드 작전 주화로 교환할 수는 있습니다."
+		"CSGO_Ticket_CommunitySeasonSix2015_Desc"				"블러드하운드 작전은 2015년 5월 26일부터 10월 1일까지 진행되었습니다. 작전이 종료되어 이 참가권을 사용할 수는 없지만 블러드하운드 작전 주화로 교환할 수는 있습니다."
 		"CSGO_Collectible_CommunitySeasonSix2015_Coin1"			"블러드하운드 작전 도전 주화"
 		"CSGO_Collectible_CommunitySeasonSix2015_Coin1_Desc"	"블러드하운드 작전에 참가했다는 증표입니다."
 		"CSGO_Collectible_CommunitySeasonSix2015_Coin2"			"블러드하운드 작전 은 주화"
@@ -3340,7 +3344,7 @@
 		"CSGO_CollectibleCoin_Atlanta2017_PickEmGold_Desc"			"ELEAGUE 애틀랜타 2017 승자 예측 도전에서 받은 금 트로피입니다."
 		
 		"CSGO_CollectibleCoin_Atlanta2017_Champion"				"ELEAGUE 애틀랜타 2017 우승팀"
-		"CSGO_CollectibleCoin_Atlanta2017_Champion_Desc"			"ELEAGUE 애틀랜타 2017 메이저 대회 우승팀에 수여된 트로피입���다."
+		"CSGO_CollectibleCoin_Atlanta2017_Champion_Desc"			"ELEAGUE 애틀랜타 2017 메이저 대회 우승팀에 수여된 트로피입니다."
 		"CSGO_CollectibleCoin_Atlanta2017_Finalist"				"ELEAGUE 애틀랜타 2017 결승 진출팀"
 		"CSGO_CollectibleCoin_Atlanta2017_Finalist_Desc"			"ELEAGUE 애틀랜타 2017 메이저 대회의 결승 진출팀에 수여된 트로피입니다."
 		"CSGO_CollectibleCoin_Atlanta2017_Semifinalist"			"ELEAGUE 애틀랜타 2017 메이저 대회 4강 진출팀"
@@ -3410,10 +3414,13 @@
 /// Purchasable game license
 		"CSGO_Purchasable_Game_License_Short"		"게임 라이센스"
 		"CSGO_Purchasable_Game_License"				"Counter-Strike 게임 라이선스"
-		"CSGO_Purchasable_Game_License_Desc"		"구매하신 Counter-Strike: Global Offensive 게임 라이선스입니다."
+		"CSGO_Purchasable_Game_License_Desc"		"구매하신 Counter-Strike: Global Offensive 게임 라이선��입니다."
 		"CSGO_Purchasable_Game_License_Desc_PW"		"계정에 대한 본인 인증 마친 Perfect World 이용자는 Counter-Strike를 무료로 플레이할 수 있습니다. 본인 인증을 마친 Perfect World 계정은 즉시 Counter-Strike 프라임 계정으로 업그레이드할 수 있습니다.\n\n본인 인증을 완료하지 못하고 게임을 무료로 플레이할 수 없는 고객은 해당 게임 라이선스를 통해 Counter-Strike Perfect World 게임 라이선스를 8800위안에 구매할 수 있습니다. 구매 시 중국 내 쾌적한 공식 게임 서버에서 플레이할 수 있으며 Perfect World Counter-Strike 런처를 사용하여 친구와 같이 게임을 플레이할 수 있습니다."
 		"CSGO_Purchasable_Game_License_BannedInChina"	"해당 계정은 Perfect World 게임 라이선스를 사용해 Counter-Strike: Global Offensive를 플레이할 수 없습니다."
 
+		"CSGO_Purchasable_XpShop_Ticket"			"무기고 패스"
+		"CSGO_Purchasable_XpShop_Ticket_Desc40"		"무기고 패스를 활성화하면 즉시 무기고 크레딧 1개를 획득할 수 있습니다. 플레이를 통해 경험치를 획득하면 활성화된 무기고 패스당 무기고 크레딧을 총 <b>40</b>개 획득할 수 있습니다."
+		"CSGO_Purchasable_XpShop_Ticket_TooManyTracks"	"이미 최대 개수의 무기고 패스가 활성화되어 있습니다. <br/>활성화된 패스로 모든 무기고 크레딧을 획득하고 패스를 제거하고 나면, 더 많은 무기고 패스를 활성화할 수 있습니다."
 //
 /// Collectible pins		
 		"CSGO_Collectible_Pin_DustII"						"더스트 2 핀"
@@ -3536,7 +3543,7 @@
 		"CSGO_Collectible_Pin_alyx_08"		"콤바인 헬멧 핀"
 		"CSGO_Collectible_Pin_alyx_08_desc"	"이 수집 가능한 핀은 Valve의 하프 라이프 시리즈 중 VR로 출시된 Half-Life: Alyx를 기념합니다. 이 핀은 프로필에 전시할 수 있습니다."
 		"CSGO_Collectible_Pin_alyx_09"		"보르티곤트 핀"
-		"CSGO_Collectible_Pin_alyx_09_desc"	"이 수집 가능한 핀은 Valve의 하프 라이프 시리즈 중 VR로 ���시된 Half-Life: Alyx를 기념합니다. 이 핀은 프로필에 전시할 수 있습니다."
+		"CSGO_Collectible_Pin_alyx_09_desc"	"이 수집 가능한 핀은 Valve의 하프 라이프 시리즈 중 VR로 출시된 Half-Life: Alyx를 기념합니다. 이 핀은 프로필에 전시할 수 있습니다."
 		"CSGO_Collectible_Pin_alyx_10"		"알릭스 핀"
 		"CSGO_Collectible_Pin_alyx_10_desc"	"이 수집 가능한 핀은 Valve의 하프 라이프 시리즈 중 VR로 출시된 Half-Life: Alyx를 기념합니다. 이 핀은 프로필에 전시할 수 있습니다."
 		"CSGO_Collectible_Pin_alyx_11"		"17번 지구 핀"
@@ -3652,7 +3659,7 @@
 		"CSGO_Item_Desc_FiveSeven"											"명중률이 뛰어나고 철갑탄을 사용하는 파이브 세븐은 비싸고 재장전 속도가 느리지만 20발의 대용량 탄창과 낮은 반동이 이를 보완해줍니다."
 		"CSGO_Item_Desc_P250"												"높은 연사력과 낮은 반동을 지닌 P250는 방탄복을 착용한 적을 상대할 때 저렴하고 유용한 권총입니다."
 		"CSGO_Item_Desc_CZ75a"												"자동 사격이 가능하도록 개조된 CZ75 기관권총은 전세를 역전시키고 적의 무기를 탈취하기 위해 잠깐 쓰기 좋은 무기입니다. 허나 제공된 탄약이 매우 적기 때문에 조심스럽게 사격해야 할 것입니다."
-		"CSGO_Item_Desc_Tec9"												"이동을 자주 하는 테러리스트 플레이어를 위한 권총인 Tec-9은 근접전에서 치명적��며 장탄수가 많습니다."
+		"CSGO_Item_Desc_Tec9"												"이동을 자주 하는 테러리스트 플레이어를 위한 권총인 Tec-9은 근접전에서 치명적이며 장탄수가 많습니다."
 		"CSGO_Item_Desc_Taser"												"근접 습격과 폐쇄된 공간에서의 교전에 완벽한 단발 무기인 제우스 x27은 한 방에 적을 쓰러뜨릴 수 있습니다."
 		"CSGO_Item_Desc_Bizon"												"비존 기관단총은 피해력이 낮지만 재장전이 빠른, 특수 제작한 고용량 드럼 탄창을 사용합니다."
 		"CSGO_Item_Desc_Mac10"												"총알이 나오는 상자라 할 수 있는 MAC-10 기관단총은 높은 연사력을 자랑하지만, 대신에 영 좋지 못한 집탄율과 높은 반동을 지녔습니다."
@@ -3686,7 +3693,7 @@
 		"CSGO_Item_Desc_Frag_Grenade"										"이 고성능 파편 수류탄은 넓은 지역에 큰 피해를 줄 수 있어 적이 점거한 공간을 확보하는 데 유용합니다."
 		"CSGO_Item_Desc_Firebomb"											"화염 폭탄은 땅에 투척할 시 고온의 화염이 광범위하게 퍼져 플레이어에게 화학적 화상을 입히는 무기입니다."
 		"CSGO_Item_Desc_Molotov"											"화염병은 예측하기 힘든 구역을 방어할 때 효과적인 무기로, 표면과 충돌 시 불타올라 화염 반경에 있는 플레이어들에게 피해를 줍니다."
-		"CSGO_Item_Desc_Incindiary_Grenade"									"소이탄은 폭발 시 넓은 폭발 반경에 있던 사람들을 태워버릴 고온의 화학 반응을 일으키는 물질을 내보냅니다."
+		"CSGO_Item_Desc_Incindiary_Grenade"									"소이탄은 폭발 시 넓은 폭발 반경�� 있던 사람들을 태워버릴 고온의 화학 반응을 일으키는 물질을 내보냅니다."
 		"CSGO_Item_desc_Knife"												"어떤 상황에서도 꺼낼 수 있는 칼은 빠르지만 작은 피해를 주는 방법과 느리지만 큰 피해를 주는 공격 방법이 있습니다. 후방에서 찌르면 적을 한 번에 처치할 수 있습니다."
 		"CSGO_Item_desc_Knife_T"											"어떤 상황에서도 꺼낼 수 있는 칼은 빠르지만 작은 피해를 주는 방법과 느리지만 큰 피해를 주는 공격 방법이 있습니다. 후방에서 찌르면 적을 한 번에 처치할 수 있습니다."
 		"CSGO_Item_desc_Knife_Ghost"										"유령은 유령 칼을 좋아하죠. 이 물건이 어떤 이의 손에 들어가면 조심하세요! 그는 단번에 당신을 찌르려 할 것입니다. 유감스럽게도 그들은 유령이고 유령 칼은 사람을 해치진 못합니다...."
@@ -3995,6 +4002,14 @@
 		"CSGO_crate_musickit_nightmode_stattrak_capsule_desc"	"이 상자에는 'NIGHTMODE' 아티스트들의 다양한 StatTrak™ 음악 키트가 들어 있습니다."
 		"coupon_nightmode_stattrak_musickit_capsule"		"StatTrak™ NIGHTMODE 음악 키트 상자"
 		
+		"CSGO_crate_musickit_masterminds2_capsule"	    	"Masterminds 2 음악 키트 상자"
+		"CSGO_crate_musickit_masterminds2_capsule_desc"		"이 상자는 다양한 아티스트의 다양한 음악 키트를 포함하고 있습니다."
+		"coupon_masterminds2_musickit_capsule"				"Masterminds 2 음악 키트 상자"
+		
+		"CSGO_crate_musickit_masterminds2_stattrak_capsule"	    	"StatTrak™ Masterminds 2 음악 키트 상자"
+		"CSGO_crate_musickit_masterminds2_stattrak_capsule_desc"	"이 상자는 다양한 아티스트의 다양한 StatTrak™ 음악 키트를 포함하고 있습니다."
+		"coupon_masterminds2_stattrak_musickit_capsule"				"StatTrak™ Masterminds 2 음악 키트 상자"
+		
 		//
 		// Sprays capsule vcap1
 		//
@@ -4149,7 +4164,24 @@
 		"CSGO_crate_sticker_pack_community_2024_capsule_desc"		"이 캡슐에는 Steam 창작마당 아티스트가 2024년 2월에 출시한 다양한 스티커가 들어 있습니다."
 		"coupon_community_2024_sticker_capsule"						"엠부시 스티커 캡슐"
 		
-
+		"CSGO_crate_community_34"									"갤러리 상자"
+		"CSGO_crate_key_community_34"								"갤러리 상자 열쇠"
+		"CSGO_crate_key_community_34_desc"							"이 열쇠는 갤러리 상자만 열 수 있습니다."
+		
+		"CSGO_crate_keychain_pack_kc_missinglink_capsule"	    	"잃어버린 소시지 참 장식 수집품"
+		"CSGO_crate_keychain_pack_kc_missinglink_capsule_desc"		"이 수집품에는 다양한 소시지 참 장식이 들어 있습니다."
+		"CSGO_crate_keychain_pack_kc_missinglink_capsule_short"	    "소시지 참 장식이 없습니다."
+		
+		"CSGO_crate_keychain_pack_kc_weapon_01_capsule"	    		"소형 무기 참 장식 수집품"
+		"CSGO_crate_keychain_pack_kc_weapon_01_capsule_desc"		"이 수집품에는 다양한 무기 참 장식이 들어 있습니다."
+		"CSGO_crate_keychain_pack_kc_weapon_01_capsule_short"		"소형 무기 참 장식"
+		
+		"CSGO_crate_sticker_pack_stkr_craft_01_capsule"				"원소 효과 스티커 팩"
+		"CSGO_crate_sticker_pack_stkr_craft_01_short"	    		"원소 효과 스티커"
+		
+		"CSGO_crate_sticker_pack_stkr_craft_02_capsule"				"캐릭터 아트 스티커 팩"
+		"CSGO_crate_sticker_pack_stkr_craft_02_short"	    		"캐릭터 아트 스티커"
+		
 "SprayKit_vcap1_ace_01"		"에이스"
 "SprayKit_vcap1_banana"		"바나나"
 "SprayKit_vcap1_cerberus"		"케르베로스"
@@ -4202,7 +4234,7 @@
 "SprayKit_std_hl_smiley"		"아직 행복해"
 "SprayKit_std_jump_shot"		"점프슛"
 "SprayKit_std_karambit"		"카람빗"
-"SprayKit_std_knives_crossed"		"X�� 칼"
+"SprayKit_std_knives_crossed"		"X자 칼"
 "SprayKit_std_moly"		"불에 타다"
 "SprayKit_std_necklace_dollar"		"블링"
 "SprayKit_std_no_scope"		"노스코프"
@@ -4481,7 +4513,7 @@
 		"CSGO_SupportGameAuthKey_Type_21"		"파리 2023 승자 예측 도전 관리"
 		"CSGO_SupportGameAuthKey_Desc_21"		"타사 웹사이트와 애플리케이션은 인증 코드를 사용하여 파리 2023 승자 예측 도전을 플레이할 수 있으며, 파리 2023 메이저 대회 기간에 승자를 예측할 수 있습니다."
 		"CSGO_SupportGameAuthKey_Type_1000001"	"내 매치 기록 보기"
-		"CSGO_SupportGameAuthKey_Desc_1000001"	"타사 웹사이트와 애플리케이션은 이 인증 코드를 사용하여 플레이어의 매치 기록 및 성적을 확인하고, 플레이어�� 매치 리플레이를 다운로드하고 게임플레이를 분석할 수 있습니다."
+		"CSGO_SupportGameAuthKey_Desc_1000001"	"타사 웹사이트와 애플리케이션은 이 인증 코드를 사용하여 플레이어의 매치 기록 및 성적을 확인하고, 플레이어의 매치 리플레이를 다운로드하고 게임플레이를 분석할 수 있습니다."
 		"CSGO_SupportGameAuthKey_MatchShareCode" "최근 완료한 매치 토큰:"
 		
 		// Events strings
@@ -4977,9 +5009,16 @@
 		"CSGO_set_anubis_storepromo"	"아누비스 수집품 패키지"
 		"CSGO_set_anubis_storepromo_key_contestwinner"			"아누비스 수집품 창작마당 기여자"
 		"CSGO_set_anubis_storepromo_key_contestwinner_desc"	"아누비스 수집품의 창작마당 기여자로서 수여합니다."
-
 		
-		
+		"CSGO_set_graphic_design"		"그래픽 디자인 수집품"
+		"CSGO_set_graphic_design_short"	"그래픽 수집품"
+		"CSGO_set_overpass_2024"		"오버패스 2024 수집품"
+		"CSGO_set_overpass_2024_short"	"오버패스 2024"
+		"CSGO_set_realism_camo"			"스포츠와 필드 수집품"
+		"CSGO_set_realism_camo_short"	"스포츠와 필드 수집품"
+		"CSGO_set_xpshop_wpn_01"		"한정판 아이템"
+		"CSGO_set_xpshop_wpn_01_short"	"한정판 아이템"
+		"CSGO_set_community_34"			"갤러리 수집품"
 		/////////////////
 		// lootlist override strings
 		//////////////////
@@ -5299,7 +5338,7 @@
 		
 		"musickit_freakydna_01"				"Freaky DNA, Vici"
 		"musickit_freakydna_01_desc"		"오페라. 8비트 사운드. 아날로그 신디사이저. 어느 하나 거를 거 없습니다. 칩튠 음악 전문가 Freaky DNA와 소프라노 보컬 Leanne Koch가 팀을 이루어 묵직한 비트와 즐거운 시간을 선사합니다!"
-		"coupon_freakydna_01"				"음악 키트 | Freaky DNA, Vici"
+		"coupon_freakydna_01"				"음악 ���트 | Freaky DNA, Vici"
 		"coupon_freakydna_01_stattrak"		"StatTrak™ 음악 키트 | Freaky DNA, Vici"
 		
 		"musickit_jesseharlin_01"			"Jesse Harlin, Astro Bellum"
@@ -5397,7 +5436,47 @@
 		"coupon_twerl_01"						"음악 키트 | TWERL, Ekko & Sidetrack, Under Bright Lights"
 		"coupon_twerl_01_stattrak"				"StatTrak™ 음악 키트 | TWERL, Ekko & Sidetrack, Under Bright Lights"
 		
-		//////////////////
+		"musickit_austinwintory_04"				"Austin Wintory, The Devil Went Clubbing in Georgia"
+		"musickit_austinwintory_04_desc"		"Austin Wintory는 악마 같은 바이올린 선율과 완전한 EDM 클럽 바이브를 접목하여 사탄과 거래한 듯한 분위기를 자아냅니다."
+		"coupon_austinwintory_04"				"음악 키트 | Austin Wintory, The Devil Went Clubbing In Georgia"
+		"coupon_austinwintory_04_stattrak"		"StatTrak™ 음악 키트 | Austin Wintory, The Devil Went Clubbing In Georgia"
+		
+		"musickit_benbromfield_01"				"Ben Bromfield, Rabbit Hole"
+		"musickit_benbromfield_01_desc"			"두 배의 감동! 영화 및 TV 프로그램 음악 작곡가 Ben Bromfield의 아슬아슬하고 긴장감 넘치는 재즈 분위기 사운드트랙을 감상하며 음악의 깊이를 가늠해 보세요..."
+		"coupon_benbromfield_01"				"음악 키트 | Ben Bromfield, Rabbit Hole"
+		"coupon_benbromfield_01_stattrak"		"StatTrak™ 음악 키트 | Ben Bromfield, Rabbit Hole"
+		
+		"musickit_danielsadowski_05"			"Daniel Sadowski, Dead Shot"
+		"musickit_danielsadowski_05_desc"		"Daniel Sadowski가 액션, 힙합, 오케스트라, 일렉트로닉, 레트로, 감성, 사운드 디자인이 혼합된 'Dead Shot' 세상으로 플레이어를 초대합니다. 어지러움 주의!"
+		"coupon_danielsadowski_05"				"음악 키트 | Daniel Sadowski, Dead Shot"
+		"coupon_danielsadowski_05_stattrak"		"StatTrak™ 음악 키트 | Daniel Sadowski, Dead Shot"
+		
+		"musickit_dren_03"						"Dren McDonald, Coffee! Kofe! Kahveh!"
+		"musickit_dren_03_desc"					"카페인은 여러분의 절친이죠!? 사실 적을 제외한 모두의 친구일 것입니다! 'Coffee! Kofe! Kahveh!'는 Dren McDonald('Gunman Taco Truck'과 'Death’s Head Demolition')가 Balkancisco에서 라이브로 녹음한 BalkanBalkanBalkan 길거리 파티를 대표하는 브라스 연주곡입니다! "
+		"coupon_dren_03"						"음악 키트 | Dren McDonald, Coffee! Kofe! Kahveh!"
+		"coupon_dren_03_stattrak"				"StatTrak™ 음악 키트 | Dren McDonald, Coffee! Kofe! Kahveh!"
+		
+		"musickit_mattlevine_02"				"Matt Levine, Agency"
+		"musickit_mattlevine_02_desc"			"작곡가 Matt Levine의 'Agency' 음악 키트와 함께 위험한 스파이의 세계로 잠입해 보세요."
+		"coupon_mattlevine_02"					"음악 키트 | Matt Levine, Agency"
+		"coupon_mattlevine_02_stattrak"			"StatTrak™ 음악 키트 | Matt Levine, Agency"
+		
+		"musickit_sammarshall_02"				"Sam Marshall, Clutch"
+		"musickit_sammarshall_02_desc"			"'Clutch'는 'Bodacious'의 비공식 후속곡으로 Sam Marshall의 연금술과 불가사의한 의식을 통해 악몽 같은 분위기의 사이버 펑크 스타일로 재창조된 곡입니다."
+		"coupon_sammarshall_02"					"음악 키트 | Sam Marshall, Clutch"
+		"coupon_sammarshall_02_stattrak"		"StatTrak™ 음악 키트 | Sam Marshall, Clutch"
+		
+		"musickit_timhuling_02"					"Tim Huling, Devil's Paintbrush"
+		"musickit_timhuling_02_desc"			"에너지 넘치는 그루브 메탈을 선사하는 Tim Huling의 'Devil's Paintbrush'로 끓어오르는 아드레날린을 느껴보세요."
+		"coupon_timhuling_02"					"음악 키트 | Tim Huling, Devil's Paintbrush"
+		"coupon_timhuling_02_stattrak"			"StatTrak™ 음악 키트 | Tim Huling, Devil's Paintbrush"
+		
+		"musickit_treeadams_01"					"Tree Adams, Seventh Moon"
+		"musickit_treeadams_01_desc"			"'Seventh Moon'에서 Tree Adams는 인터갈락틱한 펑크와 박진감 넘치는 전투 음악이 어우러진 훌륭한 믹스를 선보입니다."
+		"coupon_treeadams_01"					"음악 키트 | Tree Adams, Seventh Moon"
+		"coupon_treeadams_01_stattrak"			"StatTrak™ 음악 키트 | Tree Adams, Seventh Moon"
+
+//////////////////
 
 	"csgo_thousands_separator"			"," // Note: This only supports , and .
 
@@ -6254,7 +6333,7 @@
 		"quest_1100_hud_var_desc"               "라운드 승리하기"
 		"quest_1066_hud_var_desc"               "라운드 승리하기"
 		"quest_1067_hud_var_desc"               "AUG로 헤드샷 처치하기"
-		"quest_1068_hud_var_desc"               "섬광탄으로 적의 시야 방해하기"
+		"quest_1068_hud_var_desc"               "섬광탄으로 적의 시야 방���하기"
 		"quest_1069_hud_var_desc"               "그래피티 남기기"
 		"quest_1069_hud_var_desc_T"             "좁은 통로 또는 상단 터널에 그래피티 남기기"
 		"quest_1069_hud_var_desc_CT"            "하단 터널 또는 짧은 쪽 계단에 그래피티 남기기"
@@ -6694,7 +6773,7 @@
 	"Op_bloodhound_Sebastien_515"						"<b>세바스찬 헨케</b>: 버려진 철로 시설에서 피닉스가 활동하는 것이 포착됐네. 구역을 사수할 때 조심하게. 주변에 엄폐물이 많지만 특히 설치 구역 B에 시설을 한눈에 볼 수 있는 자리가 많다네."
 	"Op_bloodhound_Sebastien_516"						"<b>세바스찬 헨케</b>: 우리가 터너의 부하들이 마그레브의 상점가에 있는 것을 확인했네. 설치 구역 B로 가는 옆골목에서는 조심하게. 터너의 부하들이 습격을 하기에 넓은 시야를 제공하는 유용한 집이 한 채 있으니 말야."
 	"Op_bloodhound_Sebastien_517"						"<b>세바스찬 헨케</b>: 터너가 우리가 가까워지고 있다는 걸 알고 있네. 전 세계에서 처리하기 쉬운 목표들만 골라서 일을 벌이고 있어... 인질 상황을 만들어서 연합특수부대의 자원을 분산시키고 한 번에 하나씩 처리하려는 거야."
-	"Op_bloodhound_Sebastien_506"						"<b>세바스찬 헨케</b>: 우리의 목표는 체이스 터너다. 한 때 우리의 동지였고 나의 제자였지... 내가 훈련시킨 저격�� 중에 가장 실력이 뛰어났어. 발레리아의 혀에 당해서 이제 완전히 다른 사람이 돼버렸고 때가 되면 우리가 직접 처치해야 할 거야. 자네의 훈련을 SSG 08로 시작하지."
+	"Op_bloodhound_Sebastien_506"						"<b>세바스찬 헨케</b>: 우리의 목표는 체이스 터너다. 한 때 우리의 동지였고 나의 제자였지... 내가 훈련시킨 저격수 중에 가장 실력이 뛰어났어. 발레리아의 혀에 당해서 이제 완전히 다른 사람이 돼버렸고 때가 되면 우리가 직접 처치해야 할 거야. 자네의 훈련을 SSG 08로 시작하지."
 	"Op_bloodhound_Sebastien_507"						"<b>세바스찬 헨케</b>: AWP가 사수들에게 인기가 좋은 이유는 따로 있네. 나는 방아쇠를 한 번만 당겨도 세상이 어떻게 바뀌는지 경험해봤지... 자네도 조준 실력을 기르면 언젠가는 나처럼 될 거야."
 	"Op_bloodhound_Sebastien_508"						"<b>세바스찬 헨케</b>: 자네가 사브리 소위가 배우지 못한 걸 배울 인내심이 있나 보자고. 정확한 총들에 전부 조준경이 달려 있는 건 아니네. 데저트 이글은 숙련된 사람이 다루면 장거리에서도 효과적인 데다가 AWP보다도 저렴하지. 그리고 자네도 알다시피... 이른 성공은 전투의 결과에 큰 영향을 줄 수 있네."
 	"Op_bloodhound_Sebastien_509"						"<b>세바스찬 헨케</b>: 우리는 전세를 항상 전환할 수는 없고, 전쟁에 대해 어쩔 수 없는 사실이 있다면 소총들은 싸지 않다는 거야. 터너가 자네를 잡으러 올 때 자네가 잘 쓰는 무기를 들고 있지 않을 수도 있네. 그 때에 대비해서 어떤 총기라도 잘 쓸 수 있도록 훈련해야 되네."
@@ -6743,7 +6822,7 @@
 	"Op_bloodhound_Valeria_conflict_sub"					"<b>발레리아 제너</b>: 어떤 분쟁들은 절대로 끝나지 않을 것만 같지. 같은 춤만 끝없이 추는 것처럼 말야. 평범한 자들은 이걸 보고 절망하겠지만 우리 피닉스는 희망을 찾았어. 사람들이 자신이 믿는 것을 위해 죽을 의지가 있는 한 우리의 목표는 사라지지 않아. 쓰러져도 포기하지 않고 다시 일어선다면 너는 실패한 자가 아냐."
 	"Op_bloodhound_Valeria_role_turner_sub"					"<b>발레리아 제너</b>: 터너는 우리의 계획에 큰 역할을 했고, 이제 네가 그의 뒤를 이어야만 해. AWP를 정복해라... 그의 전설을 네가 잇는 거야."
 	"Op_bloodhound_Valeria_message_sub"						"<b>발레리아 제너</b>: 세계는 우리의 의지를 받아들일 준비가 되지 않았지만 그걸로 투쟁을 멈춰서는 안 돼. 시간이 지나면 사람들은 공포를 통해 이해할 것이고, 피닉스는 영웅으로서의 마땅한 대우를 받을 거야."
-	"Op_bloodhound_Valeria_pollock_turner_sub"					"<b>발레리아 제너</b>: 하비엘와 터너의 기술을 비교하는 건 폴록과 칸딘스키를 비교하는 거나 다름없어... 둘 다 달인이지. 하지만 둘 중 한명은 매우 거칠어. 모든 암살 임무를 피바다로 만들 필요는 없지. 나는 네가 일을 깨끗하고 정확히 처리하기를 기대하겠어."
+	"Op_bloodhound_Valeria_pollock_turner_sub"					"<b>발레리아 제너</b>: 하비엘와 터��의 기술을 비교하는 건 폴록과 칸딘스키를 비교하는 거나 다름없어... 둘 다 달인이지. 하지만 둘 중 한명은 매우 거칠어. 모든 암살 임무를 피바다로 만들 필요는 없지. 나는 네가 일을 깨끗하고 정확히 처리하기를 기대하겠어."
 	"Op_bloodhound_Valeria_blunt_turner_sub"					"<b>발레리아 제너</b>: 마커스 채플은 세바스찬 헨케의 가장 친한 친구입니다. 충성스럽고, 용감하고 숙련된 명사수입니다. 또한, 그는 미치도록 예측 가능한 사람이라서 여기로 유인할 수 있었습니다. 그의 뒤를 밟아 목숨을 끊어버리세요. 그러므로 헨케는 남은 생을 슬픔과 고통 속에 살게 될 것입니다."
 	"Op_bloodhound_Valeria_smg_sub"						"<b>발레리아 제너</b>: 피닉스에 겁쟁이들은 필요 없다. 자주 우리의 승리는 끊임없는 공격성 여부에 의해 가려지는데 그때 기관단총을 사용하지. 재빠르게 이동할 수 있을 만큼 가볍지만, 발사속도는 적을 꼼짝 못 하게 하기에 적당히 빠르다."
 	"Op_bloodhound_Valeria_knife_sub"						"<b>발레리아 제너</b>: 변화를 위해 싸우고 싶다면 네가 해야 할 일이 있어. 칼로 사람을 처치해. 두 손으로 그의 피를 느껴봐. 무시하지 말고 사탕발림 하지 말고 받아들여. 피닉스는 잠들어있는 세상과 우리에게 거짓말하지 않아."
@@ -6788,7 +6867,7 @@
 	"op07_subtitle_711"							"<b>필릭스 라일리:</b> 산토리니는 그리스 섬의 보석이지. 우리는 피닉스가 그곳을 더럽히게 하지 않을 것이다."
 	"op07_subtitle_712"							"<b>필릭스 라일리:</b> 오른손에 있는 저격수 소총은 전투의 방향을 완전히 바꿀 수 있다. 이것은 세바스찬이 선택한 무기다."	
 	"op07_subtitle_713"							"<b>필릭스 라일리:</b> 이러한 소총은 구매 가능한 돌격 소총 중 가장 저렴합니다. 요란하지는 않지만, 예산이 한정된 요원에게는 안성맞춤입니다."
-	"op07_subtitle_714"							"<b>필릭스 라일리:</b> 피닉스를 막고 주민들을 ��해 산토리니를 탈환하라."
+	"op07_subtitle_714"							"<b>필릭스 라일리:</b> 피닉스를 막고 주민들을 위해 산토리니를 탈환하라."
 	"op07_subtitle_715"							"<b>필릭스 라일리:</b> 터너의 죽음을 계기로 우리의 명사수를 유지하는 것은 반드시 피닉스보다 우위를 점해야 한다."
 	"op07_subtitle_716"							"<b>필릭스 라일리:</b> 운치있는 네덜란드 마을이 전쟁터로 변했다. 마을을 보호하고 피닉스를 막아라."	
 	"op07_subtitle_717"							"<b>필릭스 라일리:</b> 네가 근거리 작전을 어떻게 수행하는지 볼 시간이다."			
@@ -6870,7 +6949,7 @@
 	"Op_bloodhound_526"							"전우조"
 	"Op_bloodhound_527"							"죽은 자의 차가운 손에서"
 	"Op_bloodhound_528"							"두려워했던 때"
-	"Op_bloodhound_529"							"독립 용병"
+	"Op_bloodhound_529"							"��립 용병"
 	"Op_bloodhound_530"							"파울 플레이"
 	"Op_bloodhound_531"							"가장 폭력적인 면접"
 
@@ -7039,7 +7118,7 @@
 	"op08_subtitle_930"								"<b>로나 사브리:</b> 여정은 이제 막바지에 이르렀지만 피닉스가 또다시 리알토 다리를 공격해 오고 있다. 이전처럼 잘 대응하기만 하면 내일은 승리를 기념하는 날이 될 거야. 장례식 날이 아니고 말이지. 제군들, 행운을 빈다. 다시 보자고."
 
 	"op08_intro_name"							"제군들"
-	"op08_intro_subtitle"						"<b>로나 사브리:</b> 제군들, 안녕한가? 로나 사브리 소위다. 피닉스가 활동을 중지한 지 1년이 지났다. 세계 평화를 위해서는 매우 바람직한 일이긴 해도, 총을 쏘지 못해서 몸이 아주 근질근질했다고. ���런데 때마침 발레리아의 사이코 집단이 드디어 활동을 재개한 모양이야. 이는 즉, 우리도 활동을 재개해야 한다는 뜻이지. 지상 작전은 필릭스가 세우는 중이다. 나는 겸손의 미덕을 배울 때까지 브리핑만 하라는 명령을 하달받아서 말이지. 커피도 한 잔 마셨고, 작전 브리핑도 했고, 이번 일을 망치면 잘릴 거라는 필릭스의 협박 문자도 받았으니, 그럼 이제 출동할 일만 남은 것 같군. 히드라 작전에 참가한 걸 환영합니다. 살아서 돌아갈 수는 있게 내가 한번 힘써 보겠다."
+	"op08_intro_subtitle"						"<b>로나 사브리:</b> 제군들, 안녕한가? 로나 사브리 소위다. 피닉스가 활동을 중지한 지 1년이 지났다. 세계 평화를 위해서는 매우 바람직한 일이긴 해도, 총을 쏘지 못해서 몸이 아주 근질근질했다고. 그런데 때마침 발레리아의 사이코 집단이 드디어 활동을 재개한 모양이야. 이는 즉, 우리도 활동을 재개해야 한다는 뜻이지. 지상 작전은 필릭스가 세우는 중이다. 나는 겸손의 미덕을 배울 때까지 브리핑만 하라는 명령을 하달받아서 말이지. 커피도 한 잔 마셨고, 작전 브리핑도 했고, 이번 일을 망치면 잘릴 거라는 필릭스의 협박 문자도 받았으니, 그럼 이제 출동할 일만 남은 것 같군. 히드라 작전에 참가한 걸 환영합니다. 살아서 돌아갈 수는 있게 내가 한번 힘써 보겠다."
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -7323,7 +7402,7 @@
 	"op11_quest_name_1153"                              "캐주얼 - 시그마 그룹 - <i>균형 조절기</i>"
 
 //Op11 - Week 13	
-	"op11_quest_name_1154"                              "경쟁 - 짧은 ��치 - 버티고"
+	"op11_quest_name_1154"                              "경쟁 - 짧은 매치 - 버티고"
 	"op11_quest_name_1155"                              "수호자 - <i>대륙의 끝</i>"
 	"op11_quest_name_1156"                              "데스매치 - 고대 - <i>심해 평원</i>"
 	"op11_quest_name_1157"                              "위험지대 - 시로코 - <i>파괴적 간섭</i>"
@@ -7465,13 +7544,13 @@
 	"vcd_op09_coopmission_web_m2_felix_corridor_01"						" 프란즈 크리겔드: 필릭스가 널 잘 훈련시켰지만, 다 헛수고야. 난 끌려가지 않을거야. 오늘도, 앞으로도.\n"
 	"vcd_op09_coopmission_web_m2_felix_escape_elevator_01"				" 프란즈 크리겔드: 어이 친구, 설마 탈출하겠다는 생각을 한 건 아니겠지? 내가 여기를 장악하고 있는 한, 여긴 너의 무덤이 될거다.\n"
 	"vcd_op09_coopmission_web_m2_felix_fans_01"							" 프란즈 크리겔드: 어떤 놈이 환기 정화 프로토콜을 비활성화 시킨거야?! 여기가 유독가스로 가득 차기 전에 다시 시작해!\n"
-	"vcd_op09_coopmission_web_m2_felix_outside_office_alt_01"			" 프란즈 크리겔드: 자, 지하실에서 뭐가 기어 나왔는지 보라고. 너가 가장 회복력이 좋네. 슬프게도 여기가 네 이���기가 끝나는 종착점이야. 경비, 죽여버려!\n"
+	"vcd_op09_coopmission_web_m2_felix_outside_office_alt_01"			" 프란즈 크리겔드: 자, 지하실에서 뭐가 기어 나왔는지 보라고. 너가 가장 회복력이 좋네. 슬프게도 여기가 네 이야기가 끝나는 종착점이야. 경비, 죽여버려!\n"
 	"vcd_op09_coopmission_web_m2_felix_taunt_alt_01"					" 프란즈 크리겔드: 오, 정말 재밌었어. 하지만 이제 작별 인사를 할 시간이야.\n"
 
 	"UI_Operation09_GoToMissions"				"임무 변경"
 	
 	// Chat lines with friendly-colorized speaker for Operation Broken Fang (Felix Riley:)
-	"vcd_op10_coopmission_felix_broken_fang_mission1_1st_wave_defeated"					" 필릭스 라일리: 조용하게 접근하는 건 여기까지야. 빨리 농장으로 가!\n"
+	"vcd_op10_coopmission_felix_broken_fang_mission1_1st_wave_defeated"					" 필릭스 라���리: 조용하게 접근하는 건 여기까지야. 빨리 농장으로 가!\n"
 	"vcd_op10_coopmission_felix_broken_fang_mission1_alarm"								" 필릭스 라일리: 어, 이거 좋지 않은데.\n"
 	"vcd_op10_coopmission_felix_broken_fang_mission1_approach"							" 필릭스 라일리: 농장 근처다. 정신 바짝 차려.\n"
 	"vcd_op10_coopmission_felix_broken_fang_mission1_arrive"							" 필릭스 라일리: 작전 지역에 도착 직전이다. 내릴 준비 하도록.\n"
@@ -7577,11 +7656,14 @@
 
 		"CSGO_Tool_GiftTag"							"선물"
 		"CSGO_Tool_Gift1Player"						"선물 상자"
-		"CSGO_Tool_Gift1Player_desc"				"이 아이템을 개봉하면 같이 매치를 진행하고 있는 사람 중에 무작위 한 명이 선물을 받게 됩니다."
+		"CSGO_Tool_Gift1Player_desc"				"이 아이템을 개봉하면 같이 매치를 진행하고 있는 사람 중에 무작위 한 명이 선��을 받게 됩니다."
 		"CSGO_Tool_Gift9Players"					"깔판 가득한 선물 더미"
 		"CSGO_Tool_Gift9Players_desc"				"이 아이템을 개봉하면 같이 매치를 진행하고 있는 사람 중에 무작위 9명이 선물을 받게 됩니다."
 		"CSGO_Tool_Gift25Spectators"				"관전자 참여 기념품"
 		"CSGO_Tool_Gift25Spectators_desc"			"이 아이템을 개봉하면 최대 25명의 관전자가 무작위로 선택되어 상자들 속의 내용물을 귀하의 선물로서 받게 됩니다."
+
+		"CSGO_Tool_Keychain"						"참 장식"
+		"CSGO_Tool_Keychain_Desc"					"이 참 장식은 소유하고 있는 모든 무기에 장착할 수 있습니다. 장착된 각 참 장식은 참 장식 분리를 사용하여 분리할 수 있습니다. 분리한 참 장식은 보관함으로 반환됩니다."
 
 		"CSGO_Tool_Sticker"							"스티커"
 		"CSGO_Tool_Sticker_Desc"					"스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
@@ -8324,7 +8406,7 @@
 	"StickerKit_eslcologne2015_signature_xyp9x_foil" "Xyp9x(은박) | 쾰른 2015"
 	"StickerKit_desc_eslcologne2015_signature_xyp9x_foil" "ESL One 쾰른 2015 메이저 대회 본선 진출팀 Team SoloMid의 Andreas Højsleth 선수가 사인한 은박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_eslcologne2015_signature_xyp9x_gold" "Xyp9x(금박) | 쾰른 2015"
-	"StickerKit_desc_eslcologne2015_signature_xyp9x_gold" "ESL One ��른 2015 메이저 대회 본선 진출팀 Team SoloMid의 Andreas Højsleth 선수가 사인한 금박 스티커입니다.\n\n판매 수익의 50%는 관련 단체와 선수들을 지원하는 데 사용됩니다."
+	"StickerKit_desc_eslcologne2015_signature_xyp9x_gold" "ESL One 쾰른 2015 메이저 대회 본선 진출팀 Team SoloMid의 Andreas Højsleth 선수가 사인한 금박 스티커입니다.\n\n판매 수익의 50%는 관련 단체와 선수들을 지원하는 데 사용됩니다."
 
 	"StickerKit_eslcologne2015_signature_cajunb" "cajunb | 쾰른 2015"
 	"StickerKit_desc_eslcologne2015_signature_cajunb" "ESL One 쾰른 2015 메이저 대회 본선 진출팀 Team SoloMid의 Rene Borg 선수가 사인한 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
@@ -8432,7 +8514,7 @@
 	"StickerKit_desc_eslcologne2015_signature_spunj_gold" "ESL One 쾰른 2015 메이저 대회 본선 진출팀 Renegades의 Chad Burchill 선수가 사인한 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_eslcologne2015_signature_yam" "yam | 쾰른 2015"
-	"StickerKit_desc_eslcologne2015_signature_yam" "ESL One 쾰른 2015 메이저 대회 본선 진출팀 Renegades의 Yaman Ergenekon 선수가 사인한 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_eslcologne2015_signature_yam" "ESL One 쾰른 2015 메이저 대회 본선 진출팀 Renegades의 Yaman Ergenekon 선수가 사인한 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 ���용됩니다."
 	"StickerKit_eslcologne2015_signature_yam_foil" "yam(은박) | 쾰른 2015"
 	"StickerKit_desc_eslcologne2015_signature_yam_foil" "ESL One 쾰른 2015 메이저 대회 본선 진출팀 Renegades의 Yaman Ergenekon 선수가 사인한 은박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_eslcologne2015_signature_yam_gold" "yam(금박) | 쾰른 2015"
@@ -8537,7 +8619,7 @@
 	"StickerKit_desc_eslcologne2015_signature_maikelele_gold" "ESL One 쾰른 2015 메이저 대회 본선 진출팀 Team Kinguin의 Mikail Bill 선수가 사인한 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_eslcologne2015_signature_fox" "fox | 쾰른 2015"
-	"StickerKit_desc_eslcologne2015_signature_fox" "ESL One 쾰른 2015 메이저 대회 본선 진출팀 Team Kinguin의 Ricardo Pacheco 선수가 사인한 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_eslcologne2015_signature_fox" "ESL One 쾰른 2015 메이저 대회 본선 진출팀 Team Kinguin의 Ricardo Pacheco 선수가 사인한 스티커입니다. \n\n스티커 판��� 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_eslcologne2015_signature_fox_foil" "fox(은박) | 쾰른 2015"
 	"StickerKit_desc_eslcologne2015_signature_fox_foil" "ESL One 쾰른 2015 메이저 대회 본선 진출팀 Team Kinguin의 Ricardo Pacheco 선수가 사인한 은박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_eslcologne2015_signature_fox_gold" "fox(금박) | 쾰른 2015"
@@ -8643,7 +8725,7 @@
 
 	"StickerKit_eslcologne2015_signature_tarik" "tarik | 쾰른 2015"
 	"StickerKit_desc_eslcologne2015_signature_tarik" "ESL One 쾰른 2015 메이저 대회 본선 진출팀 Counter Logic Gaming의 Tarik Celik 선수가 사인한 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
-	"StickerKit_eslcologne2015_signature_tarik_foil" "tarik(은박) | 쾰른 2015"
+	"StickerKit_eslcologne2015_signature_tarik_foil" "tarik(은���) | 쾰른 2015"
 	"StickerKit_desc_eslcologne2015_signature_tarik_foil" "ESL One 쾰른 2015 메이저 대회 본선 진출팀 Counter Logic Gaming의 Tarik Celik 선수가 사인한 은박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_eslcologne2015_signature_tarik_gold" "tarik(금박) | 쾰른 2015"
 	"StickerKit_desc_eslcologne2015_signature_tarik_gold" "ESL One 쾰른 2015 메이저 대회 본선 진출팀 Counter Logic Gaming의 Tarik Celik 선수가 사인한 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
@@ -8778,8 +8860,8 @@
 	"StickerKit_eslcologne2015_team_titan_gold" "Titan(금박) | 쾰른 2015"
 	"StickerKit_desc_eslcologne2015_team_titan_gold" "스티커 판매 수익의 50%는 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_eslcologne2015_team_clg" "Counter Logic Gaming | 쾰른 2015"
-	"StickerKit_desc_eslcologne2015_team_clg" "스티커 판�� 수익의 50%는 관련 단체를 지원하는 데 사용됩니다."
-	"StickerKit_eslcologne2015_team_clg_foil" "Counter Logic Gaming(은박) | 쾰른 2015"
+	"StickerKit_desc_eslcologne2015_team_clg" "스티커 판매 수익의 50%는 관련 단체를 지원하는 데 사용됩니다."
+	"StickerKit_eslcologne2015_team_clg_foil" "Counter Logic Gaming(은박) | 쾰�� 2015"
 	"StickerKit_desc_eslcologne2015_team_clg_foil" "스티커 판매 수익의 50%는 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_eslcologne2015_team_clg_gold" "Counter Logic Gaming(금박) | 쾰른 2015"
 	"StickerKit_desc_eslcologne2015_team_clg_gold" "스티커 판매 수익의 50%는 관련 단체를 지원하는 데 사용됩니다."
@@ -8863,7 +8945,7 @@
 
 	"StickerKit_cluj2015_signature_hazed" "hazed | 클루지나포카 2015"
 	"StickerKit_desc_cluj2015_signature_hazed" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Counter Logic Gaming의 James Cobb 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 선수와 관련 단체를 지원하는데 사용됩니다."
-	"StickerKit_cluj2015_signature_hazed_foil" "hazed(은박) | 클루지나포카 2015"
+	"StickerKit_cluj2015_signature_hazed_foil" "hazed(은��) | 클루지나포카 2015"
 	"StickerKit_desc_cluj2015_signature_hazed_foil" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Counter Logic Gaming의 James Cobb 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 선수와 관련 단체를 지원하는데 사용됩니다."
 	"StickerKit_cluj2015_signature_hazed_gold" "hazed(금박) | 클루지나포카 2015"
 	"StickerKit_desc_cluj2015_signature_hazed_gold" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Counter Logic Gaming의 James Cobb 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 선수와 관련 단체를 지원하는데 사용됩니다."
@@ -8964,7 +9046,7 @@
 	"StickerKit_cluj2015_signature_bondik_foil" "bondik(은박) | 클루지나포카 2015"
 	"StickerKit_desc_cluj2015_signature_bondik_foil" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Flipsid3 Tactics의 Vladyslav Nechyporchuk 선수가 사인한 은박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_cluj2015_signature_bondik_gold" "bondik(금박) | 클루지나포카 2015"
-	"StickerKit_desc_cluj2015_signature_bondik_gold" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Flipsid3 Tactics의 Vladyslav Nechyporchuk 선수가 사인한 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_cluj2015_signature_bondik_gold" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Flipsid3 Tactics의 Vladyslav Nechyporchuk 선수가 사인�� 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_cluj2015_signature_davcost" "DavCost | 클루지나포카 2015"
 	"StickerKit_desc_cluj2015_signature_davcost" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Flipsid3 Tactics의 Vadim Vasilyev 선수가 사인한 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
@@ -9065,8 +9147,8 @@
 	"StickerKit_desc_cluj2015_signature_boltz_gold" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Luminosity Gaming의 Ricardo Prass 선수가 사인한 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_cluj2015_signature_coldzera" "coldzera | 클루지나포카 2015"
-	"StickerKit_desc_cluj2015_signature_coldzera" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Luminosity Gaming의 Marcelo David 선수가 사인한 스티커입니다. \n\n스티커 판매 ��익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
-	"StickerKit_cluj2015_signature_coldzera_foil" "coldzera(은박) | 클루지나포카 2015"
+	"StickerKit_desc_cluj2015_signature_coldzera" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Luminosity Gaming의 Marcelo David 선수가 사인한 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_cluj2015_signature_coldzera_foil" "coldzera(은박) | 클루���나포카 2015"
 	"StickerKit_desc_cluj2015_signature_coldzera_foil" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Luminosity Gaming의 Marcelo David 선수가 사인한 은박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_cluj2015_signature_coldzera_gold" "coldzera(금박) | 클루지나포카 2015"
 	"StickerKit_desc_cluj2015_signature_coldzera_gold" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Luminosity Gaming의 Marcelo David 선수가 사인한 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
@@ -9167,7 +9249,7 @@
 	"StickerKit_cluj2015_signature_allu_foil" "allu(은박) | 클루지나포카 2015"
 	"StickerKit_desc_cluj2015_signature_allu_foil" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Ninjas in Pyjamas의 Aleksi Jalli 선수가 사인한 은박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_cluj2015_signature_allu_gold" "allu(금박) | 클루지나포카 2015"
-	"StickerKit_desc_cluj2015_signature_allu_gold" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Ninjas in Pyjamas의 Aleksi Jalli 선수가 사인한 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_cluj2015_signature_allu_gold" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Ninjas in Pyjamas의 Aleksi Jalli 선수가 사인한 금박 스티커입니다. \n\n스티커 판��� 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_cluj2015_signature_forest" "f0rest | 클루지나포카 2015"
 	"StickerKit_desc_cluj2015_signature_forest" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Ninjas in Pyjamas의 Patrik Lindberg 선수가 사인한 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
@@ -9268,8 +9350,8 @@
 	"StickerKit_desc_cluj2015_signature_nitro_gold" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Team Liquid의 Nicholas Cannella 선수가 사인한 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_cluj2015_signature_ex6tenz" "Ex6TenZ | 클루지나포카 2015"
-	"StickerKit_desc_cluj2015_signature_ex6tenz" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Titan의 Kévin Droolans 선수가 사인한 스티커입니다. \n\n스��커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
-	"StickerKit_cluj2015_signature_ex6tenz_foil" "Ex6TenZ(은박) | 클루지나포카 2015"
+	"StickerKit_desc_cluj2015_signature_ex6tenz" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Titan의 Kévin Droolans 선수가 사인한 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_cluj2015_signature_ex6tenz_foil" "Ex6TenZ(은��) | 클루지나포카 2015"
 	"StickerKit_desc_cluj2015_signature_ex6tenz_foil" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Titan의 Kévin Droolans 선수가 사인한 은박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_cluj2015_signature_ex6tenz_gold" "Ex6TenZ(금박) | 클루지나포카 2015"
 	"StickerKit_desc_cluj2015_signature_ex6tenz_gold" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Titan의 Kévin Droolans 선수가 사인한 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
@@ -9370,7 +9452,7 @@
 	"StickerKit_cluj2015_signature_rallen_foil" "rallen(은박) | 클루지나포카 2015"
 	"StickerKit_desc_cluj2015_signature_rallen_foil" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Vexed Gaming의 Karol Rodowicz 선수가 사인한 은박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_cluj2015_signature_rallen_gold" "rallen(금박) | 클루지나포카 2015"
-	"StickerKit_desc_cluj2015_signature_rallen_gold" "DreamHack 클루지나포카 2015 ���이저 대회 본선 진출팀 Vexed Gaming의 Karol Rodowicz 선수가 사인한 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_cluj2015_signature_rallen_gold" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Vexed Gaming의 Karol Rodowicz 선수가 사인한 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 ��련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_cluj2015_signature_byali" "byali | 클루지나포카 2015"
 	"StickerKit_desc_cluj2015_signature_byali" "DreamHack 클루지나포카 2015 메이저 대회 본선 진출팀 Virtus.Pro의 Pawel Bielinsky 선수가 사인한 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
@@ -9535,7 +9617,7 @@
 	"CSGO_crate_signature_pack_cluj2015_mss" "사인 스티커 캡슐 | mousesports | 클루지나포카 2015"
 	"CSGO_crate_signature_pack_cluj2015_mss_desc" "이 캡슐에는 DreamHack 클루지나포카 2015 메이저 대회에 참가한 mousesports 선수 중 1명이 사인한 스티커 1개가 들어 있습니다. \n\n판매 수익의 50%는 관련 선수들과 단체를 지원하는 데 사용됩니다.\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
 	"CSGO_crate_signature_pack_cluj2015_navi" "사인 스티커 캡슐 | Natus Vincere | 클루지나포카 2015"
-	"CSGO_crate_signature_pack_cluj2015_navi_desc" "이 캡���에는 DreamHack 클루지나포카 2015 메이저 대회에 참가한 Natus Vincere 선수 중 1명이 사인한 스티커 1개가 들어 있습니다. \n\n판매 수익의 50%는 관련 선수들과 단체를 지원하는 데 사용됩니다.\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
+	"CSGO_crate_signature_pack_cluj2015_navi_desc" "이 캡슐에는 DreamHack 클루지나포카 2015 메이저 대회에 참가한 Natus Vincere 선수 중 1명이 사인한 스티커 1개가 들어 있습니다. \n\n판매 수익의 50%는 관련 선수들과 단체를 지원하는 데 사용됩니다.\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
 	"CSGO_crate_signature_pack_cluj2015_vp" "사인 스티커 캡슐 | Virtus.Pro | 클루지나포카 2015"
 	"CSGO_crate_signature_pack_cluj2015_vp_desc" "이 캡슐에는 DreamHack 클루지나포카 2015 메이저 대회에 참가한 Virtus.Pro 선수 중 1명이 사인한 스티커 1개가 들어 있습니다. \n\n판매 수익의 50%는 관련 선수들과 단체를 지원하는 데 사용됩니다.\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
 	"CSGO_crate_signature_pack_cluj2015_c9" "사인 스티커 캡슐 | Cloud9 | 클루지나포카 2015"
@@ -9612,7 +9694,7 @@
 	"StickerKit_columbus2016_team_gamb" "Gambit Gaming | MLG 콜럼버스 2016"
 	"StickerKit_desc_columbus2016_team_gamb" "스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_columbus2016_team_gamb_holo" "Gambit Gaming(홀로그램) | MLG 콜럼버스 2016"
-	"StickerKit_desc_columbus2016_team_gamb_holo" "스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_columbus2016_team_gamb_holo" "스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 ��용됩니다."
 	"StickerKit_columbus2016_team_gamb_foil" "Gambit Gaming(은박) | MLG 콜럼버스 2016"
 	"StickerKit_desc_columbus2016_team_gamb_foil" "스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_columbus2016_team_gamb_gold" "Gambit Gaming(금박) | MLG 콜럼버스 2016"
@@ -9750,7 +9832,7 @@
 	"CSGO_crate_signature_pack_columbus2016_group_1"     "사인 스티커 캡슐 | 도전자(은박) | MLG 콜럼버스 2016"
 	"CSGO_crate_signature_pack_columbus2016_group_1_desc" "이 캡슐에는 MLG 콜럼버스 2016 메이저 대회에 참가한 도전자 팀 선수 중 1명이 사인한 은박 스티커 1개가 들어 있습니다. \n\n판매 수익의 50%는 관련 선수들과 단체를 지원하는 데 사용됩니다.\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
 	"CSGO_crate_signature_pack_columbus2016_group_2"     "사인 스티커 캡슐 | 전설(은박) | MLG 콜럼버스 2016"
-	"CSGO_crate_signature_pack_columbus2016_group_2_desc" "이 캡슐에는 MLG 콜럼버스 2016 메이저 대회에 참가한 전설 팀 선수 중 1명이 사인한 은박 스티커 1개가 들어 있습니다. \n\n판매 수익의 50%는 관련 선��들과 단체를 지원하는 데 사용됩니다.\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
+	"CSGO_crate_signature_pack_columbus2016_group_2_desc" "이 캡슐에는 MLG 콜럼버스 2016 메이저 대회에 참가한 전설 팀 선수 중 1명이 사인한 은박 스티커 1개가 들어 있습니다. \n\n판매 수익의 50%는 관련 선수들과 단체를 지원하는 데 사용됩니다.\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
 
 	"CSGO_crate_sticker_pack_columbus2016_challengers_tag" "MLG 콜럼버스 2016 도전자"
 	"CSGO_crate_sticker_pack_columbus2016_challengers"     "MLG 콜럼버스 2016 도전자(홀로그램/은박)"
@@ -9821,7 +9903,7 @@
 	"StickerKit_columbus2016_signature_skadoodle_foil" "Skadoodle(은박) | MLG 콜럼버스 2016"
 	"StickerKit_desc_columbus2016_signature_skadoodle_foil" "MLG 콜럼버스 2016 메이저 대회 본선 진출팀 Cloud9의 Tyler Latham 선수가 사인한 은박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_columbus2016_signature_skadoodle_gold" "Skadoodle(금박) | MLG 콜럼버스 2016"
-	"StickerKit_desc_columbus2016_signature_skadoodle_gold" "MLG 콜럼버스 2016 메이저 대회 본선 진출팀 Cloud9의 Tyler Latham 선수가 사인한 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_columbus2016_signature_skadoodle_gold" "MLG 콜럼버스 2016 메이저 대회 본선 진출팀 Cloud9의 Tyler Latham 선수가 사인한 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체�� 지원하는 데 사용됩니다."
 
 	"StickerKit_columbus2016_signature_nothing" "n0thing | MLG 콜럼버스 2016"
 	"StickerKit_desc_columbus2016_signature_nothing" "MLG 콜럼버스 2016 메이저 대회 본선 진출팀 Cloud9의 Jordan Gilbert 선수가 사인한 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
@@ -10185,7 +10267,7 @@
 	"StickerKit_columbus2016_signature_ex6tenz_foil" "Ex6TenZ(은박) | MLG 콜럼버스 2016"
 	"StickerKit_desc_columbus2016_signature_ex6tenz_foil" "MLG 콜럼버스 2016 메이저 대회 본선 진출팀 G2 Esports의 Kévin Droolans 선수가 사인한 은박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_columbus2016_signature_ex6tenz_gold" "Ex6TenZ(금박) | MLG 콜럼버스 2016"
-	"StickerKit_desc_columbus2016_signature_ex6tenz_gold" "MLG 콜럼버스 2016 메이저 대회 본선 진출팀 G2 Esports의 Kévin Droolans 선수가 사인한 금박 스티커입니다. \n\n스티커 판��� 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_columbus2016_signature_ex6tenz_gold" "MLG 콜럼버스 2016 메이저 대회 본선 진출팀 G2 Esports의 Kévin Droolans 선수가 사인한 금박 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_columbus2016_signature_rpk" "RpK | MLG 콜럼버스 2016"
 	"StickerKit_desc_columbus2016_signature_rpk" "MLG 콜럼버스 2016 메이저 대회 본선 진출팀 G2 Esports의 Cédric Guipouy 선수가 사인한 스티커입니다. \n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
@@ -10493,7 +10575,7 @@
 	"CSGO_crate_signature_pack_cologne2016_liq_desc" "이 캡슐에는 쾰른 2016 메이저 대회에 참가한 Team Liquid 팀 선수 중 1명이 사인한 스티커 1개가 들어 있습니다.\n\n판매 수익의 50%는 관련 선수와 단체를 지원하는 데 쓰입니다\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
 	"CSGO_crate_signature_pack_cologne2016_mss" "사인 스티커 캡슐 | mousesports | 쾰른 2016"
 	"CSGO_crate_signature_pack_cologne2016_mss_desc" "이 캡슐에는 쾰른 2016 메이저 대회에 참가한 mousesports 팀 선수 중 1명이 사인한 스티커 1개가 들어 있습니다.\n\n판매 수익의 50%는 관련 선수와 단체를 지원하는 데 쓰입니다\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
-	"CSGO_crate_signature_pack_cologne2016_navi" "사인 스티커 캡슐 | Natus Vincere | 쾰른 2016"
+	"CSGO_crate_signature_pack_cologne2016_navi" "사인 스티커 캡슐 | Natus Vincere | 쾰��� 2016"
 	"CSGO_crate_signature_pack_cologne2016_navi_desc" "이 캡슐에는 쾰른 2016 메이저 대회에 참가한 Natus Vincere 팀 선수 중 1명이 사인한 스티커 1개가 들어 있습니다.\n\n판매 수익의 50%는 관련 선수와 단체를 지원하는 데 쓰입니다\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
 	"CSGO_crate_signature_pack_cologne2016_vp" "사인 스티커 캡슐 | Virtus.Pro | 쾰른 2016"
 	"CSGO_crate_signature_pack_cologne2016_vp_desc" "이 캡슐에는 쾰른 2016 메이저 대회에 참가한 Virtus.Pro 팀 선수 중 1명이 사인한 스티커 1개가 들어 있습니다.\n\n판매 수익의 50%는 관련 선수와 단체를 지원하는 데 쓰입니다\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
@@ -10918,7 +11000,7 @@
 	"StickerKit_desc_cologne2016_signature_jdm64_gold" "쾰른 2016 메이저 대회 본선 진출팀 Team Liquid의 Joshua Marzano 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_cologne2016_signature_elige" "EliGE | 쾰른 2016"
-	"StickerKit_desc_cologne2016_signature_elige" "쾰른 2016 메이저 대회 본선 진출팀 Team Liquid의 Jonathan Jablonowski 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_cologne2016_signature_elige" "쾰른 2016 ���이저 대회 본선 진출팀 Team Liquid의 Jonathan Jablonowski 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_cologne2016_signature_elige_foil" "EliGE(은박) | 쾰른 2016"
 	"StickerKit_desc_cologne2016_signature_elige_foil" "쾰른 2016 메이저 대회 본선 진출팀 Team Liquid의 Jonathan Jablonowski 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_cologne2016_signature_elige_gold" "EliGE(금박) | 쾰른 2016"
@@ -11027,7 +11109,7 @@
 	"StickerKit_cologne2016_signature_dosia_foil" "Dosia(은박) | 쾰른 2016"
 	"StickerKit_desc_cologne2016_signature_dosia_foil" "쾰른 2016 메이저 대회 본선 진출팀 Gambit Gaming의 Mikhail Stoliarov 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_cologne2016_signature_dosia_gold" "Dosia(금박) | 쾰른 2016"
-	"StickerKit_desc_cologne2016_signature_dosia_gold" "쾰른 2016 메이저 대회 본선 진출팀 Gambit Gaming의 Mikhail Stoliarov 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_cologne2016_signature_dosia_gold" "쾰른 2016 메이저 대회 본선 진출팀 Gambit Gaming의 Mikhail Stoliarov 선수가 사인한 금박 스티커입���다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_cologne2016_signature_hooch" "hooch | 쾰른 2016"
 	"StickerKit_desc_cologne2016_signature_hooch" "쾰른 2016 메이저 대회 본선 진출팀 Gambit Gaming의 Dmitry Bogdanov 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
@@ -11087,7 +11169,7 @@
 
 
 	"CSGO_crate_cologne2016_promo_de_dust2"		"쾰른 2016 더스트 2 기념품 패키지"
-	"CSGO_crate_cologne2016_promo_de_mirage"		"쾰른 2016 신기루 기념품 패키���"
+	"CSGO_crate_cologne2016_promo_de_mirage"		"쾰른 2016 신기루 기념품 패키지"
 	"CSGO_crate_cologne2016_promo_de_cbble"		"쾰른 2016 코블 기념품 패키지"
 	"CSGO_crate_cologne2016_promo_de_overpass"		"쾰른 2016 오버패스 기념품 패키지"
 	"CSGO_crate_cologne2016_promo_de_cache"		"쾰른 2016 무기창고 기념품 패키지"
@@ -11238,7 +11320,7 @@
 	"CSGO_crate_signature_pack_atlanta2017_mss" "사인 스티커 캡슐 | mousesports | 애틀랜타 2017"
 	"CSGO_crate_signature_pack_atlanta2017_mss_desc" "이 캡슐에는 애틀랜타 2017 메이저 대회에 참가한 mousesports 선수가 사인한 스티커 1개가 들어 있습니다.\n\n캡슐 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다.\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
 	"CSGO_crate_signature_pack_atlanta2017_navi" "사인 스티커 캡슐 | Natus Vincere | 애틀랜타 2017"
-	"CSGO_crate_signature_pack_atlanta2017_navi_desc" "이 캡슐에는 애틀랜타 2017 메이저 대회에 참가한 Natus Vincere 선수가 사인한 스티커 1개가 들어 있습니다.\n\n캡슐 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다.\n\n스티커는 ��든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
+	"CSGO_crate_signature_pack_atlanta2017_navi_desc" "이 캡슐에는 애틀랜타 2017 메이저 대회에 참가한 Natus Vincere 선수가 사인한 스티커 1개가 들어 있습니다.\n\n캡슐 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다.\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
 	"CSGO_crate_signature_pack_atlanta2017_nor" "사인 스티커 캡슐 | North | 애틀랜타 2017"
 	"CSGO_crate_signature_pack_atlanta2017_nor_desc" "이 캡슐에는 애틀랜타 2017 메이저 대회에 참가한 North 선수가 사인한 스티커 1개가 들어 있습니다.\n\n캡슐 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다.\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
 	"CSGO_crate_signature_pack_atlanta2017_optc" "사인 스티커 캡슐 | OpTic Gaming | 애틀랜타 2017"
@@ -11279,7 +11361,7 @@
 
 	"StickerKit_atlanta2017_signature_deadfox" "DeadFox | 애틀랜타 2017"
 	"StickerKit_desc_atlanta2017_signature_deadfox" "애틀랜타 2017 메이저 대회 본선 진출팀 HellRaisers의 Bence Borocz 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
-	"StickerKit_atlanta2017_signature_deadfox_foil" "DeadFox(은박) | 애틀랜타 2017"
+	"StickerKit_atlanta2017_signature_deadfox_foil" "DeadFox(은박) | 애틀랜�� 2017"
 	"StickerKit_desc_atlanta2017_signature_deadfox_foil" "애틀랜타 2017 메이저 대회 본선 진출팀 HellRaisers의 Bence Borocz 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_atlanta2017_signature_deadfox_gold" "DeadFox(금박) | 애틀랜타 2017"
 	"StickerKit_desc_atlanta2017_signature_deadfox_gold" "애틀랜타 2017 메이저 대회 본선 진출팀 HellRaisers의 Bence Borocz 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
@@ -11491,7 +11573,7 @@
 	"StickerKit_desc_atlanta2017_signature_fer" "애틀랜타 2017 메이저 대회 본선 진출팀 SK Gaming의 Fernando Alvarenga 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_atlanta2017_signature_fer_foil" "fer(은박) | 애틀랜타 2017"
 	"StickerKit_desc_atlanta2017_signature_fer_foil" "애틀랜타 2017 메이저 대회 본선 진출팀 SK Gaming의 Fernando Alvarenga 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
-	"StickerKit_atlanta2017_signature_fer_gold" "fer(금박) | 애틀랜타 2017"
+	"StickerKit_atlanta2017_signature_fer_gold" "fer(금박) | 애��랜타 2017"
 	"StickerKit_desc_atlanta2017_signature_fer_gold" "애틀랜타 2017 메이저 대회 본선 진출팀 SK Gaming의 Fernando Alvarenga 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_atlanta2017_signature_fox" "fox | 애틀랜타 2017"
@@ -11812,7 +11894,7 @@
 	"StickerKit_atlanta2017_signature_snax" "Snax | 애틀랜타 2017"
 	"StickerKit_desc_atlanta2017_signature_snax" "애틀랜타 2017 메이저 대회 본선 진출팀 Virtus.Pro의 Janusz Pogorzelski 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_atlanta2017_signature_snax_foil" "Snax(은박) | 애틀랜타 2017"
-	"StickerKit_desc_atlanta2017_signature_snax_foil" "애틀랜타 2017 메이저 대회 본선 진출팀 Virtus.Pro의 Janusz Pogorzelski 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_atlanta2017_signature_snax_foil" "애틀랜타 2017 메이저 대회 본선 진출팀 Virtus.Pro의 Janusz Pogorzelski 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 ���수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_atlanta2017_signature_snax_gold" "Snax(금박) | 애틀랜타 2017"
 	"StickerKit_desc_atlanta2017_signature_snax_gold" "애틀랜타 2017 메이저 대회 본선 진출팀 Virtus.Pro의 Janusz Pogorzelski 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
@@ -12086,7 +12168,7 @@
 	"StickerKit_krakow2017_signature_fallen_foil" "FalleN(은박) | 크라쿠프 2017"
 	"StickerKit_desc_krakow2017_signature_fallen_foil" "크라쿠프 2017 메이저 대회 본선 진출팀 SK Gaming의 Gabriel Toledo 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_krakow2017_signature_fallen_gold" "FalleN(금박) | 크라쿠프 2017"
-	"StickerKit_desc_krakow2017_signature_fallen_gold" "크라쿠프 2017 메이저 대회 본선 진출팀 SK Gaming의 Gabriel Toledo 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_krakow2017_signature_fallen_gold" "크라쿠프 2017 메이저 대회 본선 진출팀 SK Gaming의 Gabriel Toledo 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관�� 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_krakow2017_signature_felps" "felps | 크라쿠프 2017"
 	"StickerKit_desc_krakow2017_signature_felps" "크라쿠프 2017 메이저 대회 본선 진출팀 SK Gaming의 Joao Vasconcellos Cabral 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
@@ -12208,7 +12290,7 @@
 	"StickerKit_desc_krakow2017_signature_magisk_gold" "크라쿠프 2017 메이저 대회 본선 진출팀 North의 Emil Hoffmann Reif 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_krakow2017_signature_msl" "MSL | 크라쿠프 2017"
-	"StickerKit_desc_krakow2017_signature_msl" "크라쿠프 2017 메이저 대회 본선 진출팀 North의 Mathias Sommer Lauridsen 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 ��원하는 데 사용됩니다."
+	"StickerKit_desc_krakow2017_signature_msl" "크라쿠프 2017 메이저 대회 본선 진출팀 North의 Mathias Sommer Lauridsen 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_krakow2017_signature_msl_foil" "MSL(은박) | 크라쿠프 2017"
 	"StickerKit_desc_krakow2017_signature_msl_foil" "크라쿠프 2017 메이저 대회 본선 진출팀 North의 Mathias Sommer Lauridsen 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_krakow2017_signature_msl_gold" "MSL(금박) | 크라쿠프 2017"
@@ -12804,7 +12886,7 @@
 	"StickerKit_desc_boston2018_signature_kngv_gold" "보스턴 2018 메이저 대회 본선 진출팀 100 Thieves의 Vito Giuseppe Agostinelli 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_boston2018_signature_lucas1" "LUCAS1 | 보스턴 2018"
-	"StickerKit_desc_boston2018_signature_lucas1" "보스턴 2018 메이저 대회 본선 진출팀 100 Thieves의 Lucas Teles Ferreira da Fonseca 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_boston2018_signature_lucas1" "보스턴 2018 메이저 대회 본선 진출팀 100 Thieves의 Lucas Teles Ferreira da Fonseca 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 ��� 사용됩니다."
 	"StickerKit_boston2018_signature_lucas1_foil" "LUCAS1(은박) | 보스턴 2018"
 	"StickerKit_desc_boston2018_signature_lucas1_foil" "보스턴 2018 메이저 대회 본선 진출팀 100 Thieves의 Lucas Teles Ferreira da Fonseca 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_boston2018_signature_lucas1_gold" "LUCAS1(금박) | 보스턴 2018"
@@ -13021,7 +13103,7 @@
 	"StickerKit_desc_boston2018_signature_v4lde_gold" "보스턴 2018 메이저 대회 본선 진출팀 North의 Valdemar Bjørn Vangså 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_boston2018_signature_apex" "apEX | 보스턴 2018"
-	"StickerKit_desc_boston2018_signature_apex" "보스턴 2018 메이저 대회 본선 진출팀 G2 Esports의 Dan Madesclaire 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_boston2018_signature_apex" "보스턴 2018 메이저 대회 본선 진출팀 G2 Esports의 Dan Madesclaire 선수가 사인한 ���티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_boston2018_signature_apex_foil" "apEX(은박) | 보스턴 2018"
 	"StickerKit_desc_boston2018_signature_apex_foil" "보스턴 2018 메이저 대회 본선 진출팀 G2 Esports의 Dan Madesclaire 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_boston2018_signature_apex_gold" "apEX(금박) | 보스턴 2018"
@@ -13128,7 +13210,7 @@
 	"StickerKit_boston2018_signature_edward" "Edward | 보스턴 2018"
 	"StickerKit_desc_boston2018_signature_edward" "보스턴 2018 메이저 대회 본선 진출팀 Natus Vincere의 Ioann Sukhariev 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_boston2018_signature_edward_foil" "Edward(은박) | 보스턴 2018"
-	"StickerKit_desc_boston2018_signature_edward_foil" "보스턴 2018 메이저 대회 본선 진출팀 Natus Vincere의 Ioann Sukhariev 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_boston2018_signature_edward_foil" "보스턴 2018 메이저 대회 본선 진���팀 Natus Vincere의 Ioann Sukhariev 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_boston2018_signature_edward_gold" "Edward(금박) | 보스턴 2018"
 	"StickerKit_desc_boston2018_signature_edward_gold" "보스턴 2018 메이저 대회 본선 진출팀 Natus Vincere의 Ioann Sukhariev 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
@@ -13142,7 +13224,7 @@
 	"StickerKit_boston2018_signature_flamie" "flamie | 보스턴 2018"
 	"StickerKit_desc_boston2018_signature_flamie" "보스턴 2018 메이저 대회 본선 진출팀 Natus Vincere의 Egor Vasilyev 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_boston2018_signature_flamie_foil" "flamie(은박) | 보스턴 2018"
-	"StickerKit_desc_boston2018_signature_flamie_foil" "보스턴 2018 메이저 대회 본선 진출팀 Natus Vincere의 Egor Vasilyev 선수가 사인한 은�� 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_boston2018_signature_flamie_foil" "보스턴 2018 메이저 대회 본선 진출팀 Natus Vincere의 Egor Vasilyev 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_boston2018_signature_flamie_gold" "flamie(금박) | 보스턴 2018"
 	"StickerKit_desc_boston2018_signature_flamie_gold" "보스턴 2018 메이저 대회 본선 진출팀 Natus Vincere의 Egor Vasilyev 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
@@ -13424,7 +13506,7 @@
 	"StickerKit_boston2018_signature_naf_foil" "NAF(은박) | 보스턴 2018"
 	"StickerKit_desc_boston2018_signature_naf_foil" "보스턴 2018 메이저 대회 본선 진출팀 Renegades의 Keith Markovic 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_boston2018_signature_naf_gold" "NAF(금박) | 보스턴 2018"
-	"StickerKit_desc_boston2018_signature_naf_gold" "보스턴 2018 메이저 대회 본선 진출팀 Renegades의 Keith Markovic 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단��를 지원하는 데 사용됩니다."
+	"StickerKit_desc_boston2018_signature_naf_gold" "보스턴 2018 메이저 대회 본선 진출팀 Renegades의 Keith Markovic 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_boston2018_signature_nifty" "Nifty | 보스턴 2018"
 	"StickerKit_desc_boston2018_signature_nifty" "보스턴 2018 메이저 대회 본선 진출팀 Renegades의 Noah Francis 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
@@ -13452,7 +13534,7 @@
 	"StickerKit_boston2018_signature_rpk_foil" "RpK(은박) | 보스턴 2018"
 	"StickerKit_desc_boston2018_signature_rpk_foil" "보스턴 2018 메이저 대회 본선 진출팀 Team EnVyUs의 Cédric Guipouy 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_boston2018_signature_rpk_gold" "RpK(금박) | 보스턴 2018"
-	"StickerKit_desc_boston2018_signature_rpk_gold" "보스턴 2018 메이저 대회 본선 진출팀 Team EnVyUs의 Cédric Guipouy 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_boston2018_signature_rpk_gold" "보스턴 2018 메이저 대회 본선 진출팀 Team EnVyUs의 Cédric Guipouy 선수가 사인한 금박 스���커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_boston2018_signature_scream" "ScreaM | 보스턴 2018"
 	"StickerKit_desc_boston2018_signature_scream" "보스턴 2018 메이저 대회 본선 진출팀 Team EnVyUs의 Adil Benrlitom 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
@@ -13532,7 +13614,7 @@
 	"StickerKit_desc_boston2018_signature_jmqa_gold" "보스턴 2018 메이저 대회 본선 진출팀 Quantum Bellator Fire의 Savelii Bragin 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 관련 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_boston2018_signature_kvik" "Kvik | 보스턴 2018"
-	"StickerKit_desc_boston2018_signature_kvik" "보스턴 2018 메이저 대회 본선 진출팀 Quantum Bellator Fire의 Aurimas Kvakšys 선수가 사인한 스티커입니다.\n\n스티��� 판매 수익의 50%는 관련 선수와 관련 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_boston2018_signature_kvik" "보스턴 2018 메이저 대회 본선 진출팀 Quantum Bellator Fire의 Aurimas Kvakšys 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_boston2018_signature_kvik_foil" "Kvik(은박) | 보스턴 2018"
 	"StickerKit_desc_boston2018_signature_kvik_foil" "보스턴 2018 메이저 대회 본선 진출팀 Quantum Bellator Fire의 Aurimas Kvakšys 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_boston2018_signature_kvik_gold" "Kvik(금박) | 보스턴 2018"
@@ -13717,7 +13799,7 @@
 	"StickerKit_london2018_team_big_foil" "BIG(은박) | 런던 2018"
 	"StickerKit_london2018_team_big_gold" "BIG(금박) | 런던 2018"
 	"StoreItem_london2018_team_big_sticker" "스티커 | BIG | 런던 2018"
-	"StoreItem_london2018_team_big_graffiti" "개봉 안 한 그래피티 | BIG | 런던 2018"
+	"StoreItem_london2018_team_big_graffiti" "개봉 안 한 ��래피티 | BIG | 런던 2018"
 	"StickerKit_london2018_team_astr" "Astralis | 런던 2018"
 	"StickerKit_london2018_team_astr_holo" "Astralis(홀로그램) | 런던 2018"
 	"StickerKit_london2018_team_astr_foil" "Astralis(은박) | 런던 2018"
@@ -13830,7 +13912,7 @@
 	"StickerKit_desc_london2018_signature_stanislaw_gold" "런던 2018 메이저 대회 본선 진출팀 compLexity Gaming의 Peter Jarguz 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_london2018_signature_dephh" "dephh | 런던 2018"
-	"StickerKit_desc_london2018_signature_dephh" "런던 2018 메이저 대회 본선 진출팀 compLexity Gaming의 Rory Jackson 선수가 사인한 스티커입니다.\n\n스티커 판매 ��익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_london2018_signature_dephh" "런던 2018 메이저 대회 본선 진출팀 compLexity Gaming의 Rory Jackson 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_london2018_signature_dephh_foil" "dephh(은박) | 런던 2018"
 	"StickerKit_desc_london2018_signature_dephh_foil" "런던 2018 메이저 대회 본선 진출팀 compLexity Gaming의 Rory Jackson 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_london2018_signature_dephh_gold" "dephh(금박) | 런던 2018"
@@ -13858,7 +13940,7 @@
 	"StickerKit_desc_london2018_signature_dupreeh_gold" "런던 2018 메이저 대회 본선 진출팀 Astralis의 Peter Rasmussen 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_london2018_signature_gla1ve" "gla1ve | 런던 2018"
-	"StickerKit_desc_london2018_signature_gla1ve" "런던 2018 메이저 대회 본선 진출팀 Astralis의 Lukas Rossander 선수가 사인한 스티커입니다.\n\n판매 수익의 50%는 관련 선수 및 관련 기관을 지원하는 데 사용됩니다."
+	"StickerKit_desc_london2018_signature_gla1ve" "런던 2018 메이저 대회 본선 진출팀 Astralis의 Lukas Rossander 선수가 사인��� 스티커입니다.\n\n판매 수익의 50%는 관련 선수 및 관련 기관을 지원하는 데 사용됩니다."
 	"StickerKit_london2018_signature_gla1ve_foil" "gla1ve(은박) | 런던 2018"
 	"StickerKit_desc_london2018_signature_gla1ve_foil" "런던 2018 메이저 대회 본선 진출팀 Astralis의 Lukas Rossander 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 기관을 지원하는 데 사용됩니다."
 	"StickerKit_london2018_signature_gla1ve_gold" "gla1ve(금박) | 런던 2018"
@@ -13967,7 +14049,7 @@
 	"StickerKit_london2018_signature_crush_foil" "crush(은박) | 런던 2018"
 	"StickerKit_desc_london2018_signature_crush_foil" "런던 2018 메이저 대회 본선 진출팀 Vega Squadron의 Ihor Shevchenko 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_london2018_signature_crush_gold" "crush(금박) | 런던 2018"
-	"StickerKit_desc_london2018_signature_crush_gold" "런던 2018 메이저 대회 본선 진출팀 Vega Squadron의 Ihor Shevchenko 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_london2018_signature_crush_gold" "런던 2018 메이저 대회 본선 진출팀 Vega Squadron의 Ihor Shevchenko 선수가 사인한 금박 스티커��니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_london2018_signature_hutji" "hutji | 런던 2018"
 	"StickerKit_desc_london2018_signature_hutji" "런던 2018 메이저 대회 본선 진출팀 Vega Squadron의 Pavel Lashkov 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
@@ -14077,7 +14159,7 @@
 	"StickerKit_london2018_signature_rush" "RUSH | 런던 2018"
 	"StickerKit_desc_london2018_signature_rush" "런던 2018 메이저 대회 본선 진출팀 Cloud9의 William Wierzba 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_london2018_signature_rush_foil" "RUSH(은박) | 런던 2018"
-	"StickerKit_desc_london2018_signature_rush_foil" "런던 2018 메이저 대회 본선 진출팀 Cloud9의 William Wierzba 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_london2018_signature_rush_foil" "런던 2018 메이저 대회 본선 진출팀 Cloud9의 William Wierzba 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 ��체를 지원하는 데 사용됩니다."
 	"StickerKit_london2018_signature_rush_gold" "RUSH(금박) | 런던 2018"
 	"StickerKit_desc_london2018_signature_rush_gold" "런던 2018 메이저 대회 본선 진출팀 Cloud9의 William Wierzba 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 
@@ -14628,7 +14710,7 @@
 	"StickerKit_desc_london2018_signature_mir_gold" "런던 2018 메이저 대회 본선 진출팀 Gambit Esports의 Nikolai Bitiukov 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_london2018_signature_dosia" "Dosia | 런던 2018"
-	"StickerKit_desc_london2018_signature_dosia" "런던 2018 메이저 대회 본선 진출팀 Gambit Esports의 Mikhail Stoliarov 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_london2018_signature_dosia" "런던 2018 메이저 대회 본선 진출팀 Gambit Esports의 Mikhail Stoliarov 선수가 사인한 스티커입니다.\n\n스티커 판매 수익�� 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_london2018_signature_dosia_foil" "Dosia(은박) | 런던 2018"
 	"StickerKit_desc_london2018_signature_dosia_foil" "런던 2018 메이저 대회 본선 진출팀 Gambit Esports의 Mikhail Stoliarov 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_london2018_signature_dosia_gold" "Dosia(금박) | 런던 2018"
@@ -14888,7 +14970,7 @@
 	"StickerKit_katowice2019_signature_fitch" "fitch | 카토비체 2019"
 	"StickerKit_desc_katowice2019_signature_fitch" "카토비체 2019 메이저 대회 본선 진출팀 Avangar의 Bektiyar Bakhytov 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_katowice2019_signature_fitch_foil" "fitch(은박) | 카토비체 2019"
-	"StickerKit_desc_katowice2019_signature_fitch_foil" "카토비체 2019 메이저 대회 본선 진출팀 Avangar의 Bektiyar Bakhytov 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수��� 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_katowice2019_signature_fitch_foil" "카토비체 2019 메이저 대회 본선 진출팀 Avangar의 Bektiyar Bakhytov 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_katowice2019_signature_fitch_gold" "fitch(금박) | 카토비체 2019"
 	"StickerKit_desc_katowice2019_signature_fitch_gold" "카토비체 2019 메이저 대회 본선 진출팀 Avangar의 Bektiyar Bakhytov 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
@@ -14994,7 +15076,7 @@
 	"StickerKit_desc_katowice2019_signature_nothing" "런던 2018 메이저 대회 본선 진출팀 compLexity Gaming의 Jordan Gilbert 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_katowice2019_signature_nothing_foil" "n0thing(은박) | 카토비체 2019"
 	"StickerKit_desc_katowice2019_signature_nothing_foil" "런던 2018 메이저 대회 본선 진출팀 compLexity Gaming의 Jordan Gilbert 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
-	"StickerKit_katowice2019_signature_nothing_gold" "n0thing(금박) | 카���비체 2019"
+	"StickerKit_katowice2019_signature_nothing_gold" "n0thing(금박) | 카토비체 2019"
 	"StickerKit_desc_katowice2019_signature_nothing_gold" "런던 2018 메이저 대회 본선 진출팀 compLexity Gaming의 Jordan Gilbert 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_katowice2019_signature_rickeh" "Rickeh | 카토비체 2019"
@@ -15021,7 +15103,7 @@
 	"StickerKit_katowice2019_signature_shahzam" "ShahZaM | 카토비체 2019"
 	"StickerKit_desc_katowice2019_signature_shahzam" "카토비체 2019 메이저 대회 본선 진출팀 compLexity Gaming의 Shahzeeb Khan 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_katowice2019_signature_shahzam_foil" "ShahZaM(은박) | 카토비체 2019"
-	"StickerKit_desc_katowice2019_signature_shahzam_foil" "카토비체 2019 메이저 대회 본선 진출팀 compLexity Gaming의 Shahzeeb Khan 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_katowice2019_signature_shahzam_foil" "카토비체 2019 ��이저 대회 본선 진출팀 compLexity Gaming의 Shahzeeb Khan 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_katowice2019_signature_shahzam_gold" "ShahZaM(금박) | 카토비체 2019"
 	"StickerKit_desc_katowice2019_signature_shahzam_gold" "카토비체 2019 메이저 대회 본선 진출팀 compLexity Gaming의 Shahzeeb Khan 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
@@ -15100,7 +15182,7 @@
 	"StickerKit_katowice2019_signature_twist_foil" "twist(은박) | 카토비체 2019"
 	"StickerKit_desc_katowice2019_signature_twist_foil" "카토비체 2019 메이저 대회 본선 진출팀 Fnatic의 Simon Eliasson 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_katowice2019_signature_twist_gold" "twist(금박) | 카토비체 2019"
-	"StickerKit_desc_katowice2019_signature_twist_gold" "카토비체 2019 메이저 대회 본선 진출팀 Fnatic의 Simon Eliasson 선수가 사인한 금박 스티커입니다.\n\n스��커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_katowice2019_signature_twist_gold" "카토비체 2019 메이저 대회 본선 진출팀 Fnatic의 Simon Eliasson 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_katowice2019_signature_xizt" "Xizt | 카토비체 2019"
 	"StickerKit_desc_katowice2019_signature_xizt" "카토비체 2019 메이저 대회 본선 진출팀 Fnatic의 Richard Landström 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
@@ -15338,7 +15420,7 @@
 	"StickerKit_katowice2019_signature_flamie_foil" "flamie(은박) | 카토비체 2019"
 	"StickerKit_desc_katowice2019_signature_flamie_foil" "카토비체 2019 메이저 대회 본선 진출팀 Natus Vincere의 Egor Vasilyev 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
 	"StickerKit_katowice2019_signature_flamie_gold" "flamie(금박) | 카토비체 2019"
-	"StickerKit_desc_katowice2019_signature_flamie_gold" "카토비체 2019 메이저 대회 본선 진출팀 Natus Vincere의 Egor Vasilyev 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 단체를 지원하는 데 사용됩니다."
+	"StickerKit_desc_katowice2019_signature_flamie_gold" "카토비체 2019 메이저 대회 본선 진출팀 Natus Vincere의 Egor Vasilyev 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 ���련 선수와 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_katowice2019_signature_forest" "f0rest | 카토비체 2019"
 	"StickerKit_desc_katowice2019_signature_forest" "카토비체 2019 메이저 대회 본선 진출팀 Ninjas in Pyjamas의 Patrik Lindberg 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
@@ -15586,7 +15668,7 @@
 	"StickerKit_desc_katowice2019_signature_chopper_gold" "카토비체 2019 메이저 대회 본선 진출팀 Vega Squadron의 Leonid Vishnyakov 선수가 사인한 금박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수 및 관련 단체를 지원하는 데 사용됩니다."
 
 	"StickerKit_katowice2019_signature_kaze" "Kaze | 카토비체 2019"
-	"StickerKit_desc_katowice2019_signature_kaze" "카토비체 2019 메이저 대회 본선 진출팀 ViCi Gaming의 Khong Weng Keong 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 관련 단체를 지원하는 데 사용됩니��."
+	"StickerKit_desc_katowice2019_signature_kaze" "카토비체 2019 메이저 대회 본선 진출팀 ViCi Gaming의 Khong Weng Keong 선수가 사인한 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_katowice2019_signature_kaze_foil" "Kaze(은박) | 카토비체 2019"
 	"StickerKit_desc_katowice2019_signature_kaze_foil" "카토비체 2019 메이저 대회 본선 진출팀 ViCi Gaming의 Khong Weng Keong 선수가 사인한 은박 스티커입니다.\n\n스티커 판매 수익의 50%는 관련 선수와 관련 단체를 지원하는 데 사용됩니다."
 	"StickerKit_katowice2019_signature_kaze_gold" "Kaze(금박) | 카토비체 2019"
@@ -16021,7 +16103,7 @@
 	"StickerKit_berlin2019_signature_forest" "f0rest | 베를린 2019"
 	"StickerKit_desc_berlin2019_signature_forest" "베를린 2019 메이저 대회 본선 진출팀 Ninjas in Pyjamas의 Patrik Lindberg 선수가 사인한 스티커입니다."
 	"StickerKit_berlin2019_signature_forest_foil" "f0rest(은박) | 베를린 2019"
-	"StickerKit_desc_berlin2019_signature_forest_foil" "베를린 2019 메이저 대회 본선 진출팀 Ninjas in Pyjamas의 Patrik Lindberg 선수가 사��한 은박 스티커입니다."
+	"StickerKit_desc_berlin2019_signature_forest_foil" "베를린 2019 메이저 대회 본선 진출팀 Ninjas in Pyjamas의 Patrik Lindberg 선수가 사인한 은박 스티커입니다."
 	"StickerKit_berlin2019_signature_forest_gold" "f0rest(금박) | 베를린 2019"
 	"StickerKit_desc_berlin2019_signature_forest_gold" "베를린 2019 메이저 대회 본선 진출팀 Ninjas in Pyjamas의 Patrik Lindberg 선수가 사인한 금박 스티커입니다."
 
@@ -16173,7 +16255,7 @@
 	"StickerKit_desc_berlin2019_signature_sick_gold" "베를린 2019 메이저 대회 본선 진출팀 compLexity Gaming의 Hunter Mims 선수가 사인한 금박 스티커입니다."
 
 	"StickerKit_berlin2019_signature_dephh" "dephh | 베를린 2019"
-	"StickerKit_desc_berlin2019_signature_dephh" "베를린 2019 메이저 ��회 본선 진출팀 compLexity Gaming의 Rory Jackson 선수가 사인한 스티커입니다."
+	"StickerKit_desc_berlin2019_signature_dephh" "베를린 2019 메이저 대회 본선 진출팀 compLexity Gaming의 Rory Jackson 선수가 사인한 스티커입니다."
 	"StickerKit_berlin2019_signature_dephh_foil" "dephh(은박) | 베를린 2019"
 	"StickerKit_desc_berlin2019_signature_dephh_foil" "베를린 2019 메이저 대회 본선 진출팀 compLexity Gaming의 Rory Jackson 선수가 사인한 은박 스티커입니다."
 	"StickerKit_berlin2019_signature_dephh_gold" "dephh(금박) | 베를린 2019"
@@ -16327,7 +16409,7 @@
 	"StickerKit_desc_berlin2019_signature_rpk_gold" "베를린 2019 메이저 대회 본선 진출팀 Vitality의 Cédric Guipouy 선수가 사인한 금박 스티커입니다."
 
 	"StickerKit_berlin2019_signature_zywoo" "ZywOo | 베를린 2019"
-	"StickerKit_desc_berlin2019_signature_zywoo" "���를린 2019 메이저 대회 본선 진출팀 Vitality의 Mathieu Herbaut 선수가 사인한 스티커입니다."
+	"StickerKit_desc_berlin2019_signature_zywoo" "베를린 2019 메이저 대회 본선 진출팀 Vitality의 Mathieu Herbaut 선수가 사인한 스티커입니다."
 	"StickerKit_berlin2019_signature_zywoo_foil" "ZywOo(은박) | 베를린 2019"
 	"StickerKit_desc_berlin2019_signature_zywoo_foil" "베를린 2019 메이저 대회 본선 진출팀 Vitality의 Mathieu Herbaut 선수가 사인한 은박 스티커입니다."
 	"StickerKit_berlin2019_signature_zywoo_gold" "ZywOo(금박) | 베를린 2019"
@@ -16422,7 +16504,7 @@
 	"StickerKit_berlin2019_signature_almazer_foil" "almazer(은박) | 베를린 2019"
 	"StickerKit_desc_berlin2019_signature_almazer_foil" "베를린 2019 메이저 대회 본선 진출팀 forZe eSports의 Almaz Asadullin 선수가 사인한 은박 스티커입니다."
 	"StickerKit_berlin2019_signature_almazer_gold" "almazer(금박) | 베를린 2019"
-	"StickerKit_desc_berlin2019_signature_almazer_gold" "베를린 2019 메이저 대회 본선 진출팀 forZe eSports의 Almaz Asadullin 선수가 사인한 금박 스티커입니다."
+	"StickerKit_desc_berlin2019_signature_almazer_gold" "베를�� 2019 메이저 대회 본선 진출팀 forZe eSports의 Almaz Asadullin 선수가 사인한 금박 스티커입니다."
 
 	"StickerKit_berlin2019_signature_xsepower" "xsepower | 베를린 2019"
 	"StickerKit_desc_berlin2019_signature_xsepower" "베를린 2019 메이저 대회 본선 진출팀 forZe eSports의 Bogdan Chernikov 선수가 사인한 스티커입니다."
@@ -17089,7 +17171,7 @@
 	"StickerKit_stockh2021_signature_niko" "NiKo | 스톡홀름 2021"
 	"StickerKit_desc_stockh2021_signature_niko" "PGL 스톡홀름 2021 메이저 대회의 결승 진출팀인 G2 Esports의 Nikola Kovač 선수가 사인한 스티커입니다."
 	"StickerKit_stockh2021_signature_niko_holo" "NiKo(홀로그램) | 스톡홀름 2021"
-	"StickerKit_desc_stockh2021_signature_niko_holo" "PGL 스톡홀름 2021 메이저 대회의 결승 진출팀인 G2 Esports의 Nikola Kovač 선수가 사인한 홀로그램 스티커입니다."
+	"StickerKit_desc_stockh2021_signature_niko_holo" "PGL ��톡홀름 2021 메이저 대회의 결승 진출팀인 G2 Esports의 Nikola Kovač 선수가 사인한 홀로그램 스티커입니다."
 	"StickerKit_stockh2021_signature_niko_gold" "NiKo(금박) | 스톡홀름 2021"
 	"StickerKit_desc_stockh2021_signature_niko_gold" "PGL 스톡홀름 2021 메이저 대회의 결승 진출팀인 G2 Esports의 Nikola Kovač 선수가 사인한 금박 스티커입니다."
 
@@ -17231,7 +17313,7 @@
 	"StickerKit_stockh2021_signature_qikert_holo" "Qikert(홀로그램) | 스톡홀름 2021"
 	"StickerKit_desc_stockh2021_signature_qikert_holo" "PGL 스톡홀름 2021 메이저 대회의 8강 진출팀 Virtus.Pro의 Alexey Golubev 선수가 사인한 홀로그램 스티커입니다."
 	"StickerKit_stockh2021_signature_qikert_gold" "Qikert(금박) | 스톡홀름 2021"
-	"StickerKit_desc_stockh2021_signature_qikert_gold" "PGL 스톡홀름 2021 메이저 대회의 8강 진출팀 Virtus.Pro의 Alexey Golubev 선수가 사인한 금박 스티커입니다."
+	"StickerKit_desc_stockh2021_signature_qikert_gold" "PGL 스톡홀름 2021 메이저 대회의 8강 진출팀 Virtus.Pro의 Alexey Golubev 선수��� 사인한 금박 스티커입니다."
 
 	"StickerKit_stockh2021_signature_buster" "buster | 스톡홀름 2021"
 	"StickerKit_desc_stockh2021_signature_buster" "PGL 스톡홀름 2021 메이저 대회의 8강 진출팀 Virtus.Pro의 Timur Tulepov 선수가 사인한 스티커입니다."
@@ -17798,7 +17880,7 @@
 	"StickerKit_antwerp2022_signature_rain_glitter" "rain(반짝이) | 안트베르펜 2022"
 	"StickerKit_desc_antwerp2022_signature_rain_glitter" "PGL 안트베르펜 2022 메이저 대회 본선 진출팀 FaZe Clan의 Håvard Nygaard 선수가 사인한 반짝이 스티커입니다."
 	"StickerKit_antwerp2022_signature_rain_holo" "rain(홀로그램) | 안트베르펜 2022"
-	"StickerKit_desc_antwerp2022_signature_rain_holo" "PGL 안트베르펜 2022 메이저 대회 본선 진출팀 FaZe Clan의 Håvard Nygaard 선수가 사인한 홀로그램 스티커입니다."
+	"StickerKit_desc_antwerp2022_signature_rain_holo" "PGL 안트베르펜 2022 메이�� 대회 본선 진출팀 FaZe Clan의 Håvard Nygaard 선수가 사인한 홀로그램 스티커입니다."
 	"StickerKit_antwerp2022_signature_rain_gold" "rain(금박) | 안트베르펜 2022"
 	"StickerKit_desc_antwerp2022_signature_rain_gold" "PGL 안트베르펜 2022 메이저 대회 본선 진출팀 FaZe Clan의 Håvard Nygaard 선수가 사인한 금박 스티커입니다."
 
@@ -17929,7 +18011,7 @@
 	"StickerKit_desc_antwerp2022_signature_b1t_gold" "PGL 안트베르펜 2022 메이저 대회 본선 진출팀 Natus Vincere의 Valerii Vakhovskyi 선수가 사인한 금박 스티커입니다."
 
 	"StickerKit_antwerp2022_signature_snappi" "Snappi | 안트베르펜 2022"
-	"StickerKit_desc_antwerp2022_signature_snappi" "PGL 안트베르펜 2022 메이저 대회 본선 진출팀 ENCE의 Marco Pfeiffer 선수가 사인한 스티커입니다."
+	"StickerKit_desc_antwerp2022_signature_snappi" "PGL 안트베르�� 2022 메이저 대회 본선 진출팀 ENCE의 Marco Pfeiffer 선수가 사인한 스티커입니다."
 	"StickerKit_antwerp2022_signature_snappi_glitter" "Snappi(반짝이) | 안트베르펜 2022"
 	"StickerKit_desc_antwerp2022_signature_snappi_glitter" "PGL 안트베르펜 2022 메이저 대회 본선 진출팀 ENCE의 Marco Pfeiffer 선수가 사인한 반짝이 스티커입니다."
 	"StickerKit_antwerp2022_signature_snappi_holo" "Snappi(홀로그램) | 안트베르펜 2022"
@@ -18110,7 +18192,7 @@
 
 	"StickerKit_antwerp2022_signature_apex" "apEX | 안트베르펜 2022"
 	"StickerKit_desc_antwerp2022_signature_apex" "PGL 안트베르펜 2022 메이저 대회 본선 진출팀 Vitality의 Dan Madesclaire 선수가 사인한 스티커입니다."
-	"StickerKit_antwerp2022_signature_apex_glitter" "apEX(��짝이) | 안트베르펜 2022"
+	"StickerKit_antwerp2022_signature_apex_glitter" "apEX(반짝이) | 안트베르펜 2022"
 	"StickerKit_desc_antwerp2022_signature_apex_glitter" "PGL 안트베르펜 2022 메이저 대회 본선 진출팀 Vitality의 Dan Madesclaire 선수가 사인한 반짝이 스티커입니다."
 	"StickerKit_antwerp2022_signature_apex_holo" "apEX(홀로그램) | 안트베르펜 2022"
 	"StickerKit_desc_antwerp2022_signature_apex_holo" "PGL 안트베르펜 2022 메이저 대회 본선 진출팀 Vitality의 Dan Madesclaire 선수가 사인한 홀로그램 스티커입니다."
@@ -18374,7 +18456,7 @@
 	"StickerKit_antwerp2022_signature_s1ren_glitter" "S1ren(반짝이) | 안트베르펜 2022"
 	"StickerKit_desc_antwerp2022_signature_s1ren_glitter" "PGL 안트베르펜 2022 메이저 대회 본선 진출팀 Team Spirit의 Pavel Ogloblin 선수가 사인한 반짝이 스티커입니다."
 	"StickerKit_antwerp2022_signature_s1ren_holo" "S1ren(홀로그램) | 안트베르펜 2022"
-	"StickerKit_desc_antwerp2022_signature_s1ren_holo" "PGL 안트베르펜 2022 메이저 대회 ���선 진출팀 Team Spirit의 Pavel Ogloblin 선수가 사인한 홀로그램 스티커입니다."
+	"StickerKit_desc_antwerp2022_signature_s1ren_holo" "PGL 안트베르펜 2022 메이저 대회 본선 진출팀 Team Spirit의 Pavel Ogloblin 선수가 사인한 홀로그램 스티커입니다."
 	"StickerKit_antwerp2022_signature_s1ren_gold" "S1ren(금박) | 안트베르펜 2022"
 	"StickerKit_desc_antwerp2022_signature_s1ren_gold" "PGL 안트베르펜 2022 메이저 대회 본선 진출팀 Team Spirit의 Pavel Ogloblin 선수가 사인한 금박 스티커입니다."
 
@@ -18738,7 +18820,7 @@
 	"StickerKit_rio2022_team_spr_gold" "Sprout Esports(금박) | 리우데자네이루 2022"
 	"StickerKit_rio2022_team_liq" "Team Liquid | 리우데자네이루 2022"
 	"StickerKit_rio2022_team_liq_glitter" "Team Liquid(은박) | 리우데자네이루 2022"
-	"StickerKit_rio2022_team_liq_holo" "Team Liquid(홀로그램) | 리우데자네이루 2022"
+	"StickerKit_rio2022_team_liq_holo" "Team Liquid(홀로그램) | 리우데자��이루 2022"
 	"StickerKit_rio2022_team_liq_gold" "Team Liquid(금박) | 리우데자네이루 2022"
 	"StickerKit_rio2022_team_spir" "Team Spirit | 리우데자네이루 2022"
 	"StickerKit_rio2022_team_spir_glitter" "Team Spirit(은박) | 리우데자네이루 2022"
@@ -19145,7 +19227,7 @@
 	"StickerKit_rio2022_signature_refrezh_gold" "refrezh(금박) | 리우데자네이루 2022"
 	"StickerKit_desc_rio2022_signature_refrezh_gold" "IEM 리우데자이네루 2022 메이저 대회 본선 진출팀 Sprout Esports의 Ismail Ali 선수가 사인한 금박 스티커입니다."
 
-	"StickerKit_rio2022_signature_staehr" "Staehr | 리우데자네이루 2022"
+	"StickerKit_rio2022_signature_staehr" "Staehr | 리우데자네이��� 2022"
 	"StickerKit_desc_rio2022_signature_staehr" "IEM 리우데자이네루 2022 메이저 대회 본선 진출팀 Sprout Esports의 Victor Hansen 선수가 사인한 스티커입니다."
 	"StickerKit_rio2022_signature_staehr_glitter" "Staehr(반짝이) | 리우데자네이루 2022"
 	"StickerKit_desc_rio2022_signature_staehr_glitter" "IEM 리우데자이네루 2022 메이저 대회 본선 진출팀 Sprout Esports의 Victor Hansen 선수가 사인한 반짝이 스티커입니다."
@@ -19321,7 +19403,7 @@
 	"StickerKit_rio2022_signature_juanflatroo_glitter" "juanflatroo(반짝이) | 리우데자네이루 2022"
 	"StickerKit_desc_rio2022_signature_juanflatroo_glitter" "IEM 리우데자이네루 2022 메이저 대회 본선 진출팀 Bad News Eagles의 Flatron Halimi 선수가 사인한 반짝이 스티커입니다."
 	"StickerKit_rio2022_signature_juanflatroo_holo" "juanflatroo(홀로그램) | 리우데자네이루 2022"
-	"StickerKit_desc_rio2022_signature_juanflatroo_holo" "IEM 리우데자이네루 2022 메이저 대회 본선 진출팀 Bad News Eagles의 Flatron Halimi 선수가 사인한 홀로그램 스��커입니다."
+	"StickerKit_desc_rio2022_signature_juanflatroo_holo" "IEM 리우데자이네루 2022 메이저 대회 본선 진출팀 Bad News Eagles의 Flatron Halimi 선수가 사인한 홀로그램 스티커입니다."
 	"StickerKit_rio2022_signature_juanflatroo_gold" "juanflatroo(금박) | 리우데자네이루 2022"
 	"StickerKit_desc_rio2022_signature_juanflatroo_gold" "IEM 리우데자이네루 2022 메이저 대회 본선 진출팀 Bad News Eagles의 Flatron Halimi 선수가 사인한 금박 스티커입니다."
 
@@ -19538,7 +19620,7 @@
 	"StickerKit_desc_rio2022_signature_neofrag_glitter" "IEM 리우데자이네루 2022 메이저 대회 본선 진출팀 OG의 Adam Zouhar 선수가 사인한 반짝이 스티커입니다."
 	"StickerKit_rio2022_signature_neofrag_holo" "NEOFRAG(홀로그램) | 리우데자네이루 2022"
 	"StickerKit_desc_rio2022_signature_neofrag_holo" "IEM 리우데자이네루 2022 메이저 대회 본선 진출팀 OG의 Adam Zouhar 선수가 사인한 홀로그램 스티커입니다."
-	"StickerKit_rio2022_signature_neofrag_gold" "NEOFRAG(금박) | 리우데자네이루 2022"
+	"StickerKit_rio2022_signature_neofrag_gold" "NEOFRAG(금박) | ��우데자네이루 2022"
 	"StickerKit_desc_rio2022_signature_neofrag_gold" "IEM 리우데자이네루 2022 메이저 대회 본선 진출팀 OG의 Adam Zouhar 선수가 사인한 금박 스티커입니다."
 
 	"StickerKit_rio2022_signature_flamez" "FlameZ | 리우데자네이루 2022"
@@ -19587,7 +19669,7 @@
 	"StickerKit_desc_rio2022_signature_magisk_gold" "IEM 리우데자네이루 2022 메이저 대회 본선 진출팀 Vitality의 Emil Hoffmann Reif 선수가 사인한 금박 스티커입니다."
 
 	"StickerKit_rio2022_signature_apex" "apEX | 리우데자네이루 2022"
-	"StickerKit_desc_rio2022_signature_apex" "IEM 리우데자네이�� 2022 메이저 대회 본선 진출팀 Vitality의 Dan Madesclaire 선수가 사인한 스티커입니다."
+	"StickerKit_desc_rio2022_signature_apex" "IEM 리우데자네이루 2022 메이저 대회 본선 진출팀 Vitality의 Dan Madesclaire 선수가 사인한 스티커입니다."
 	"StickerKit_rio2022_signature_apex_glitter" "apEX(반짝이) | 리우데자네이루 2022"
 	"StickerKit_desc_rio2022_signature_apex_glitter" "IEM 리우데자네이루 2022 메이저 대회 본선 진출팀 Vitality의 Dan Madesclaire 선수가 사인한 반짝이 스티커입니다."
 	"StickerKit_rio2022_signature_apex_holo" "apEX(홀로그램) | 리우데자네이루 2022"
@@ -20438,7 +20520,7 @@
 	"StickerKit_desc_paris2023_signature_teses_gold" "BLAST.tv 파리 2023 메이저 대회 본선 진출팀 Heroic의 René Stensig Madsen 선수가 사인한 금박 스티커입니다."
 
 	"StickerKit_paris2023_signature_gxx" "gxx- | 파리 2023"
-	"StickerKit_desc_paris2023_signature_gxx" "BLAST.tv 파리 2023 ���이저 대회 본선 진출팀 Bad News Eagles의 Genc Kolgeci 선수가 사인한 스티커입니다."
+	"StickerKit_desc_paris2023_signature_gxx" "BLAST.tv 파리 2023 메이저 대회 본선 진출팀 Bad News Eagles의 Genc Kolgeci 선수가 사인한 스티커입니다."
 	"StickerKit_paris2023_signature_gxx_glitter" "gxx-(반짝이) | 파리 2023"
 	"StickerKit_desc_paris2023_signature_gxx_glitter" "BLAST.tv 파리 2023 메이저 대회 본선 진출팀 Bad News Eagles의 Genc Kolgeci 선수가 사인한 반짝이 스티커입니다."
 	"StickerKit_paris2023_signature_gxx_holo" "gxx-(홀로그램) | 파리 2023"
@@ -21465,7 +21547,7 @@
 	"CSGO_crate_sticker_pack_cph2024_contenders_tag" "코펜하겐 2024 메이저 대회 경쟁자팀 스티커"
 	"CSGO_crate_sticker_pack_cph2024_contenders"     "코펜하겐 2024 메이저 대회 경쟁자팀 스티커 캡슐"
 	"CSGO_crate_sticker_pack_cph2024_contenders_tinyname" "경쟁자팀 스티커"
-	"CSGO_crate_sticker_pack_cph2024_contenders_desc" "이 캡슐에는 코펜하겐 2024 메이저 대회 경쟁자 팀의 종이, 반짝이, 홀로그램 또는 금박 스티커 1개가 들어 있습니다.\n\n수익금의 50%는 대회 관련 단체를 지원하는 데 사용됩니다.\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 ���전히 제거될 때까지 긁어낼 수 있습니다."
+	"CSGO_crate_sticker_pack_cph2024_contenders_desc" "이 캡슐에는 코펜하겐 2024 메이저 대회 경쟁자 팀의 종이, 반짝이, 홀로그램 또는 금박 스티커 1개가 들어 있습니다.\n\n수익금의 50%는 대회 관련 단체를 지원하는 데 사용됩니다.\n\n스티커는 모든 무기에 붙일 수 있으며, 원하는 경우에는 스티커가 완전히 제거될 때까지 긁어낼 수 있습니다."
 
 	"CSGO_crate_store_pack_cph2024_signatures_groupname" "선수 사인"
 	"CSGO_crate_signature_pack_cph2024_group_players_tag" "코펜하겐 2024 선수 사인"
@@ -22236,7 +22318,7 @@
 	"StickerKit_cph2024_signature_roman_glitter" "roman(반짝이) | 코펜하겐 2024"
 	"StickerKit_desc_cph2024_signature_roman_glitter" "PGL 코펜하겐 2024 CS2 메이저 대회 본선 진출팀 SAW의 Ricardo Oliveira 선수가 사인한 반짝이 스티커입니다."
 	"StickerKit_cph2024_signature_roman_holo" "roman(홀로그램) | 코펜하겐 2024"
-	"StickerKit_desc_cph2024_signature_roman_holo" "PGL 코펜하겐 2024 CS2 메이저 대회 본선 진출팀 SAW의 Ricardo Oliveira 선수가 사인한 홀로그램 스티커입니다."
+	"StickerKit_desc_cph2024_signature_roman_holo" "PGL 코펜하겐 2024 CS2 메이저 대회 본선 진출팀 SAW의 Ricardo Oliveira 선수가 사인한 홀로그램 스티���입니다."
 	"StickerKit_cph2024_signature_roman_gold" "roman(금박) | 코펜하겐 2024"
 	"StickerKit_desc_cph2024_signature_roman_gold" "PGL 코펜하겐 2024 CS2 메이저 대회 본선 진출팀 SAW의 Ricardo Oliveira 선수가 사인한 금박 스티커입니다."
 
@@ -22287,7 +22369,7 @@
 
 	"StickerKit_cph2024_signature_nqz" "NQZ | 코펜하겐 2024"
 	"StickerKit_desc_cph2024_signature_nqz" "PGL 코펜하겐 2024 CS2 메이저 대회 본선 진출팀 paiN Gaming의 Lucas Soares Assumpção E Silva 선수가 사인한 스티커입니다."
-	"StickerKit_cph2024_signature_nqz_glitter" "NQZ(반짝이) | 코펜하�� 2024"
+	"StickerKit_cph2024_signature_nqz_glitter" "NQZ(반짝이) | 코펜하겐 2024"
 	"StickerKit_desc_cph2024_signature_nqz_glitter" "PGL 코펜하겐 2024 CS2 메이저 대회 본선 진출팀 paiN Gaming의 Lucas Soares Assumpção E Silva 선수가 사인한 반짝이 스티커입니다."
 	"StickerKit_cph2024_signature_nqz_holo" "NQZ(홀로그램) | 코펜하겐 2024"
 	"StickerKit_desc_cph2024_signature_nqz_holo" "PGL 코펜하겐 2024 CS2 메이저 대회 본선 진출팀 paiN Gaming의 Lucas Soares Assumpção E Silva 선수가 사인한 홀로그램 스티커입니다."
@@ -22373,7 +22455,7 @@
 	"StickerKit_cph2024_signature_senzu_holo" "Senzu(홀로그램) | 코펜하겐 2024"
 	"StickerKit_desc_cph2024_signature_senzu_holo" "PGL 코펜하겐 2024 CS2 메이저 대회 본선 진출팀 MongolZ의 Azbayar Munkhbold 선수가 사인한 홀로그램 스티커입니다."
 	"StickerKit_cph2024_signature_senzu_gold" "Senzu(금박) | 코펜하겐 2024"
-	"StickerKit_desc_cph2024_signature_senzu_gold" "PGL 코펜하겐 2024 CS2 메이저 대회 본선 진출팀 MongolZ의 Azbayar Munkhbold 선수가 사인한 금박 스티커입니다."
+	"StickerKit_desc_cph2024_signature_senzu_gold" "PGL 코펜���겐 2024 CS2 메이저 대회 본선 진출팀 MongolZ의 Azbayar Munkhbold 선수가 사인한 금박 스티커입니다."
 
 	"StickerKit_cph2024_signature_techno4k" "Techno4K | 코펜하겐 2024"
 	"StickerKit_desc_cph2024_signature_techno4k" "PGL 코펜하겐 2024 CS2 메이저 대회 본선 진출팀 MongolZ의 Munkhbold Sodbayar 선수가 사인한 스티커입니다."
@@ -23292,6 +23374,61 @@
 		"StickerKit_community_2024_lenticular_dystopian_gaze"			"디스토피안 게이즈(렌티큘러)"
 		"StickerKit_community_2024_lenticular_econometer"				"이코노미터(렌티큘러)"
 		"StickerKit_community_2024_lenticular_old_school"				"올드 스쿨(렌티큘러)"
+		// Character Craft Sticker Collection
+
+		"StickerKit_sticker_craft_foil_mouth"								"황금 이빨(은박)"
+		"StickerKit_sticker_craft_foil_mustache"							"콧수염(은박)"
+		"StickerKit_sticker_craft_foil_sunglasses"							"붉은 선글라스(은박)"
+		"StickerKit_sticker_craft_glitter_kawaii_eyes"						"귀요미 눈(반짝이)"
+		"StickerKit_sticker_craft_glitter_tentacle"							"심해 생물(반짝이)"
+		"StickerKit_sticker_craft_holo_mouth"								"스마일(홀로그램)"
+		"StickerKit_sticker_craft_holo_tongue"								"미각 세포(홀로그램)"
+		"StickerKit_sticker_craft_lenticular_angry_eyes"					"최면술사(홀로그램)"
+		"StickerKit_sticker_craft_lenticular_cheeky_eyes"					"장난꾸러기(렌티큘러)"
+		"StickerKit_sticker_craft_lenticular_googly_eye"					"왕눈이(렌티큘러)"
+		"StickerKit_sticker_craft_paper_arm_flex"							"플렉스"
+		"StickerKit_sticker_craft_paper_clown_nose"							"광대 코"
+		"StickerKit_sticker_craft_paper_clown_wig"							"광대 가발"
+		"StickerKit_sticker_craft_paper_ct_left_hand"						"왼손(CT)"
+		"StickerKit_sticker_craft_paper_eye"								"시선"
+		"StickerKit_sticker_craft_paper_googly_eye_small"					"살짝 엿보기"
+		"StickerKit_sticker_craft_paper_mouth"								"박장대소"
+		"StickerKit_sticker_craft_paper_ribbon"								"나비넥타이"
+		"StickerKit_sticker_craft_paper_shark_mouth"						"상어 이빨"
+		"StickerKit_sticker_craft_paper_t_left_hand"						"왼손(T)"
+		"StickerKit_sticker_craft_paper_tentacle"							"심해 생물"
+		"StickerKit_sticker_craft_paper_tongue"								"미각 세포"
+		"StickerKit_sticker_craft_paper_wings"								"플라이 하이"
+		"StickerKit_sticker_craft_paper_winky_eyes"							"깜찍이"
+		"StickerKit_sticker_craft_paper_male_anime_face"					"진지한 인상"
+		//Elemental Craft Sticker Collection
+
+		"StickerKit_elemental_craft_paper_explosion_one"					"폭탄 폭발"
+		"StickerKit_elemental_craft_paper_explosion_two"					"폭탄 폭파"
+		"StickerKit_elemental_craft_paper_explosion_three"					"폭발 진원지"
+		"StickerKit_elemental_craft_paper_explosion_four"					"폭발 흔적"
+		"StickerKit_elemental_craft_paper_fire_one"							"불타는 고리"
+		"StickerKit_elemental_craft_paper_fire_two"							"불의 고리(반전)"
+		"StickerKit_elemental_craft_paper_fire_three"						"굽이치는 화염"
+		"StickerKit_elemental_craft_paper_flames"							"핫로드 불꽃"
+		"StickerKit_elemental_craft_paper_flames_two"						"화염"
+		"StickerKit_elemental_craft_paper_lightning_one"					"번개 에너지"
+		"StickerKit_elemental_craft_paper_lightning_two"					"번개 충격"
+		"StickerKit_elemental_craft_paper_lightning_three"					"번개 강타"
+		"StickerKit_elemental_craft_paper_water_one"						"하늘빛 파도"
+		"StickerKit_elemental_craft_paper_water_two"						"하늘빛 용솟음"
+		"StickerKit_elemental_craft_paper_water_three"						"하늘빛 물결"
+		"StickerKit_elemental_craft_glitter_explosion_one"					"폭탄 폭발(반짝이)"
+		"StickerKit_elemental_craft_glitter_explosion_two"					"폭탄 폭파(반짝이)"
+		"StickerKit_elemental_craft_glitter_explosion_three"				"폭발 진원지(반짝이)"
+		"StickerKit_elemental_craft_glitter_explosion_four"					"폭발 흔적(반짝이)"
+		"StickerKit_elemental_craft_holo_rainbow_trail"						"무지개 길(홀로그램)"
+		"StickerKit_elemental_craft_foil_lightning_one"						"번개 에너지(은박)"
+		"StickerKit_elemental_craft_foil_lightning_two"						"번개 충격(은박)"
+		"StickerKit_elemental_craft_foil_lightning_three"					"번개 강타(은박)"
+		"StickerKit_elemental_craft_foil_fire_three"						"굽이치는 화염(은박)"
+		"StickerKit_elemental_craft_lenticular_blood_one"					"핏빛 물결(렌티큘러)"
+		"StickerKit_elemental_craft_lenticular_blood_two"					"핏빛 파도(렌티큘러)"
 		"PatchKit_patch_banana"            "정신 나간 바나나"
 		"PatchKit_desc_patch_banana"       "<i>요원 측정</i>"
 		"PatchKit_patch_boss"              "보스"
@@ -23495,6 +23632,45 @@
 
 		"StickerKit_OldSchool"						"구식"
 		"StickerKit_comm01_rekt"				"전멸"
+		// Keychains
+
+		// MISSINGLINK KEYCHAINS 
+
+		"keychain_kc_missinglink_ava"						"리틀 아바"
+		"keychain_kc_missinglink_sas"						"리틀 SAS 요원"
+		"keychain_kc_missinglink_sam_catchup"				"핫 소스"
+		"keychain_kc_missinglink_bigfoot"					"리틀 스쿼치"
+		"keychain_kc_missinglink_kev"						"빅 케브"
+		"keychain_kc_missinglink_guerilla"					"리틀 크래스"
+		"keychain_kc_missinglink_sam_salty"					"소금 한 꼬집"
+		"keychain_kc_missinglink_banana"					"바나나맨"
+		"keychain_kc_missinglink_cat"						"릴 위스커스"
+		"keychain_kc_missinglink_catbeach"					"리틀 샌디"
+		"keychain_kc_missinglink_chicken"					"리틀 치킨"
+		"keychain_kc_missinglink_sam_toile"					"리틀 티컵"
+		"keychain_kc_missinglink_monster"					"리틀 몬스터"
+		"keychain_kc_missinglink_sam_shape"					"다이너 소시지"
+		"keychain_kc_missinglink_sam_diamond"				"다이아몬드 소시지"
+		"keychain_kc_missinglink_howl"						"뜨거운 포효"
+		"keychain_kc_missinglink_wurst"						"불타는 소시지"
+		// WEAPON_01 KEYCHAINS 
+
+		"keychain_kc_wpn_usp_yarn"							"코바늘 권총"
+		"keychain_kc_wpn_ctknife_wood"						"나무 조각 칼"
+		"keychain_kc_wpn_mac10_tile"						"백스플래시"
+		"keychain_kc_wpn_tec9_cap"							"리틀 자동 소총"
+		"keychain_kc_wpn_ak_base"							"꼬마 AK"
+		"keychain_kc_wpn_awp_plastic"						"초소형 AWP"
+		"keychain_kc_wpn_ak_jelly"							"다이캐스트 AK"
+		"keychain_kc_wpn_m4a1s_comic"						"팝 아트"
+		"keychain_kc_wpn_mac10_glitter"						"디스코 MAC"
+		"keychain_kc_wpn_tec9_magma"						"화상 주의"
+		"keychain_kc_wpn_usp_jewel"							"화려한 권총"
+		"keychain_kc_wpn_m4a1s_ss"							"리틀 물총"
+		"keychain_kc_wpn_awp_spoon"							"티타늄 AWP"
+		"keychain_kc_wpn_tknife_crystal"					"크리스털 칼"
+		"keychain_kc_wpn_ctknife_gold"						"꼬마 캐럿 CT"
+		"keychain_kc_wpn_tknife_gold"						"꼬마 캐럿 T"
 		// Paint Kits
 		"PaintKit_Default"							"이름 없는 페인트 키트"
 		"PaintKit_Default_Tag"						"-"//
@@ -23575,7 +23751,7 @@
 		"PaintKit_hy_ocean_Tag"						"밝은 물결"
 
 		"PaintKit_hy_forest"						"숲 위장 무늬를 수전사 방식으로 입혔습니다.\n\n숲은 위험한 장소가 될 수 있다... 절대로 혼자 다니지 말라."
-		"PaintKit_hy_forest_Tag"					"숲 위장 무늬"
+		"PaintKit_hy_forest_Tag"					"숲 위장"
 		"PaintKit_hy_forest_winter_Tag"				"겨울 숲"
 		"PaintKit_hy_forest_boreal_Tag"				"북방림"
 		"PaintKit_hy_forest_night_Tag"				"야간 숲 작전용 위장무늬"
@@ -23611,7 +23787,7 @@
 		"PaintKit_hy_redtiger_Tag"					"핏빛 호랑이무늬"
 
 		"PaintKit_hy_zombie"						"초록색 베이스 코팅제 위에 좀비 패턴을 수전사 방식으로 입혔습니다."
-		"PaintKit_hy_zombie_Tag"					"바이��스"
+		"PaintKit_hy_zombie_Tag"					"바이러스"
 
 		"PaintKit_hy_granite"						"대리석 무늬로 도색했습니다."
 		"PaintKit_hy_granite_Tag"					"대리석 무늬"
@@ -23665,7 +23841,7 @@
 		"PaintKit_an_red"							"이 무기는 크롬 코팅제를 칠한 다음 표면처리 효과를 내는 붉은색 페인트로 도색했습니다. \n\n<i>자동식. 체계적. 유압자동식.</i>	"
 		"PaintKit_an_red_Tag"						"핫 로드"
 		
-		"PaintKit_an_gunmetal_Tag"					"산화처리된 포금"
+		"PaintKit_an_gunmetal_Tag"					"양극 산화 처리된 포금"
 
 		"PaintKit_an_navy"							"이 무기는 크롬 코팅제를 칠한 다음 도장 처리 효과를 내는 군청색 페인트에 담궈져 도색했습니다."
 		"PaintKit_an_navy_Tag"						"도장 효과 군청색"
@@ -23778,7 +23954,7 @@
 		"PaintKit_sp_zebracam_blue_Tag"				"푸른 얼룩무늬"
 
 		"PaintKit_CSGO_Camo"						"글로벌 오펜시브 로고로 디자인된 위장 무늬를 수전사 방식으로 입혔습니다."
-		"PaintKit_CSGO_Camo_Tag"					"GO 위장 무늬"
+		"PaintKit_CSGO_Camo_Tag"					"GO 위장"
 
 		"PaintKit_CSGO_Icosahedron"					"기하학적 무늬를 수전사 방식으로 입혔습니다."
 		"PaintKit_CSGO_Icosahedron_Tag"				"다면체"
@@ -23821,10 +23997,10 @@
 		"PaintKit_hy_bluepolygon_bravo_Tag"			"데메테르"
 		"PaintKit_hy_ali_tile_bravo_Tag"			"모자이코"
 
-		"PaintKit_an_emerald_bravo"					"차이나타운 맵을 기념하여 크롬 페인트로 바탕을 칠한 다음 산화 처리 효과를 주기 위해 투명한 청록색 페인트로 도색했습니다. \n\n<i>그 위대한 세바스찬 헤네쿠엩이 이것을 사용한다고? 짜증나는 여사감님이? 대체 무슨일이 있었니?  - 선생과 우상타파주의자 제 2장</i>	"
+		"PaintKit_an_emerald_bravo"					"차이나타운 맵을 기념하여 크롬 페인트로 바탕을 칠한 다음 양극 산화 처리 효과를 주기 위해 투명한 청록색 페인트로 도색했습니다. \n\n<i>그 위대한 세바스찬 헤네쿠엩이 이것을 사용한다고? 짜증나는 여사감님이? 대체 무슨일이 있었니?  - 선생과 우상타파주의자 제 2장</i>	"
 		"PaintKit_an_emerald_bravo_Tag"				"에메랄드"
 
-		"PaintKit_an_navy_bravo"					"알리 맵을 기념하여 크롬 페인트로 바탕을 칠한 다음 산화 처리 효과를 주기 위해 투명한 군청색 페인트로 도색했습니다. \n\n<i>난 이미 한 명을 발레리아의 거짓말에 잃었다... 더 이상의 피해는 용납할 수 없다. - 필릭스 라일리, 지휘관</i>"
+		"PaintKit_an_navy_bravo"					"알리 맵을 기념하여 크롬 페인트로 바탕을 칠한 다음 양극 산화 처리 효과를 주기 위해 투명한 군청색 페인트로 도색했습니다. \n\n<i>난 이미 한 명을 발레리아의 거짓말에 잃었다... 더 이상의 피해는 용납할 수 없다. - 필릭스 라일리, 지휘관</i>"
 
 		"PaintKit_sp_hazard_bravo"					"시즈 맵을 기념하여 노란색과 검은색 줄무늬로 이루어진 경고 표시 패턴을 스프레이 페인트로 도색했습니다.\n\n<i>넘어오지 말 것</i>"
 
@@ -23845,7 +24021,7 @@
 
 		"PaintKit_so_olive_bravo"					"무기창고에서 찾은 이 기념품은 짙은 황록색 계통의 단색으로 총기 부품을 하나하나 스프레이 페인트로 도색했습니다.\n\n<i>절대 승리를 당연하게 받아들이지 마라</i>"
 
-		"PaintKit_an_gunmetal_bravo"				"시즈 맵을 기념하여 크롬 바탕에 청회색 산화 처리 효과를 내는 페인트로 도색했습니다.\n\n<i>넌 나보다 필릭스 라일리를 잘 몰라... 그 놈은 꺾을 수 없어 - 배신자와 진실의 추적자 1장</i>"
+		"PaintKit_an_gunmetal_bravo"				"시즈 맵을 기념하여 크롬 바탕에 청회색 양극 산화 처리 효과를 내는 페인트로 도색했습니다.\n\n<i>넌 나보다 필릭스 라일리를 잘 몰라... 그 놈은 꺾을 수 없어 - 배신자와 진실의 추적자 1장</i>"
 		
 		"PaintKit_am_ossify_blue"					"메탈릭 베이스 코팅제를 칠한 다음 추상적인 선명한 파란색 무늬를 수전사 방식으로 입혔습니다."
 		"PaintKit_am_ossify_blue_p2000_bravo"		"해변 맵을 기념하여 메탈릭 페인트로 바탕을 칠한 다음 선명한 파란색 추상적인 무늬를 도색했습니다. \n\n<i>파도가 부서진다. 우리의 다짐은 부서지지 않는다. - 코타로 이자키, 파괴 전문가</i>"
@@ -23906,10 +24082,10 @@
 		"PaintKit_sp_twigs_Tag"						"까맣게 탄 나무"
 		
 		"PaintKit_varicamo"							"이 무기는 수전사 공법으로 VariCamo 위장 무늬로 도색했습니다.\n\n<i>재건은 파괴의 잔해 위에서만 이뤄질 수 있다</i>"
-		"PaintKit_hy_varicamo_Tag"					"얼룩 위장무늬"
+		"PaintKit_hy_varicamo_Tag"					"얼룩 위장"
 		"PaintKit_hy_varicamo_night_Tag"			"야간 작전 부대"
 		"PaintKit_hy_varicamo_urban_Tag"			"도시의 돌무더기"
-		"PaintKit_hy_varicamo_blue_Tag"				"푸른 얼룩 위장무늬"
+		"PaintKit_hy_varicamo_blue_Tag"				"푸른 얼룩 위장"
 		"PaintKit_hy_varicamo_desert_Tag"			"CaliCamo"
 		"PaintKit_hy_varicamo_red_Tag"				"종지부"
 
@@ -24020,10 +24196,10 @@
 			"PaintKit_cu_nova_antique"				"이 무기는 수전사 공법으로 무늬를 넣고 각종 수전사 데칼을 붙여 목재로 만든 듯한 개머리판과 금장식을 한 것처럼 도색했습니다.n\n<i>나이가 들수록 지혜와 저지력이 늘어난다</i>"
 
 			"PaintKit_an_famas_sgt_tag"				"부사관"
-			"PaintKit_an_famas_sgt"					"이 무기는 마스킹 용액으로 만든 고색의 군대풍 무늬를 도색한 뒤 광택으로 마무리했습니다.\n\n<i>모범을 보여 인도함</i>	"
+			"PaintKit_an_famas_sgt"					"이 무기는 마스킹 ���액으로 만든 고색의 군대풍 무늬를 도색한 뒤 광택으로 마무리했습니다.\n\n<i>모범을 보여 인도함</i>	"
 
 			"PaintKit_cu_mag7_heaven_tag"			"수호천사"
-			"PaintKit_cu_mag7_heaven"				"날개를 형상화한 수전사 ���칼과 수전사 공법으로 차분한 느낌의 무늬로 도색했습니다.\n\n<i>어쩔 땐 천사의 날개가 구원을 뜻하는 것은 아닙니다</i>	"
+			"PaintKit_cu_mag7_heaven"				"날개를 형상화한 수전사 데칼과 수전사 공법으로 차분한 느낌의 무늬로 도색했습니다.\n\n<i>어쩔 땐 천사의 날개가 구원을 뜻하는 것은 아닙니다</i>	"
 			
 			"PaintKit_cu_usp-s_elegant"				"코발트 블루 색으로 바탕을 칠한 다음 슬라이드에 대테러부대 로고를 스텐실 기법으로 도색했습니다.\n\n<i>작전에 따라 행동해서 7명을 구출하거나, 내 방식대로 해서 10명을 모두 구출할 수 있지... 결정해라 - 카르멘 코시네로, 인질 구출 전문가</i>"
 
@@ -24257,7 +24433,7 @@
 		"PaintKit_so_grey_nuclear_green_bizon"                  "회색과 엷은 녹색의 단색 배합으로 도색했습니다."
 		"PaintKit_so_grey_nuclear_green_bizon_Tag"              "화학적 녹색"
 
-		"PaintKit_so_grey_nuclear_orange_five_seven"            "연회색과 네온 그린 색의 단�� 배합으로 도색했습니다."
+		"PaintKit_so_grey_nuclear_orange_five_seven"            "연회색과 네온 그린 색의 단색 배합으로 도색했습니다."
 		"PaintKit_so_grey_nuclear_orange_five_seven_Tag"        "핫샷"
 
 		"PaintKit_cu_cerbrus_galil"                             "신화 속 세 개의 머리를 가진 지옥의 개를 연상케 하는 주문 제작된 도색입니다."
@@ -24453,7 +24629,7 @@
 	"PaintKit_cu_poseidon"										"물고기자리와 바다의 신 포세이돈의 싸움이 그려져 있습니다.\n\n<i>셋 중에 둘이 죽으면 셋끼리서도 비밀을 나눌 수 있다</i>"
 	"PaintKit_cu_poseidon_Tag"									"포세이돈"
 	
-	"PaintKit_hy_zodiac1"										"별자리를 주제로 한 무늬를 수전사 방식으로 입혔습니다.\n\n오늘 당신은 사랑하는 사람을 만나며 원수를 죽이게 됩니다."
+	"PaintKit_hy_zodiac1"										"별자리를 주제로 한 무늬�� 수전사 방식으로 입혔습니다.\n\n오늘 당신은 사랑하는 사람을 만나며 원수를 죽이게 됩니다."
 	"PaintKit_hy_zodiac1_Tag"									"달의 리브라"
 	
 	"PaintKit_hy_zodiac2"										"별자리를 주제로 한 무늬를 수전사 방식으로 입혔습니다.\n\n이번 달은 여러분의 적들에게 불행한 달이 될 것입니다."
@@ -25161,7 +25337,7 @@
 		"PaintKit_handwrap_leathery_tag"			"가죽"
 		
 		"PaintKit_handwrap_camo_grey"				"겉감에서는 스크린 인쇄 방식으로 회색 디지털 위장 무늬를 표현했습니다.\n\n<i>빈 수레가 요란한 법. 말보다 행동으로...</i>"
-		"PaintKit_handwrap_camo_grey_tag"			"전나무 디지털 위장 무늬"
+		"PaintKit_handwrap_camo_grey_tag"			"전나무 디지털 위장"
 		
 		"PaintKit_handwrap_red_slaughter"			"선홍빛으로 염색하여 어디까지 천이고 어디부터 핏자국인지 알아볼 수 없는 핸드랩입니다.\n\n<i>적은 역시 내 손으로 직접 처리해야 제맛이죠.</i>"
 		"PaintKit_handwrap_red_slaughter_tag"		"살인마"
@@ -25181,7 +25357,7 @@
 		"PaintKit_slick_snakeskin_yellow"			"황갈색 가죽과 검은색 가죽, 뱀가죽으로 만들었습니다.\n\n<i>보급형은 초짜들이나 쓰는 거지... - 이모젠, 견습 무기 상인</i>"
 		"PaintKit_slick_snakeskin_yellow_tag"		"방울뱀"
 		
-		"PaintKit_sporty_green"						"초록색과 흰색이 조화를 이루는 장갑으로 이카루스 스포츠에서 제작했습니다.\n\n<i>태양을 향해 날아오른 이카루스처럼 용감하게!</i>"
+		"PaintKit_sporty_green"						"초록색과 흰��이 조화를 이루는 장갑으로 이카루스 스포츠에서 제작했습니다.\n\n<i>태양을 향해 날아오른 이카루스처럼 용감하게!</i>"
 		"PaintKit_sporty_green_tag"					"미로 정원"
 		
 		"PaintKit_sporty_purple"					"검은색과 보라색이 조화를 이루는 장갑으로 손바닥 부분에 은은한 무늬가 그려져 있습니다.\n\n<i>손에 땀이 많이 나는 폭파 전문가에게 필수 아이템!</i>"
@@ -25194,7 +25370,7 @@
 		"PaintKit_sporty_military_tag"				"불모의 땅"
 		
 		"PaintKit_specialist_ddpat_green_camo"		"손으로 한 땀 한 땀 완성한 가죽과 튼튼한 위장 무늬 직물로 만들었습니다.\n\n<i>손에 흙 묻히는 것을 질색하는 사람들이 있으니까요.</i>"
-		"PaintKit_specialist_ddpat_green_camo_tag"	"숲 디지털 위장 무늬"
+		"PaintKit_specialist_ddpat_green_camo_tag"	"숲 디지털 위장"
 		
 		"PaintKit_specialist_kimono_diamonds_red"	"검은색 바탕에 새빨간 다이아몬드 무늬로 포인트를 주었습니다.\n\n<i>갑자기 화가 치밀어 오를 때</i>"
 		"PaintKit_specialist_kimono_diamonds_red_tag"	"진홍색 기모노"
@@ -25484,7 +25660,7 @@
 	"PaintKit_sp_mp7_tribal_yellow"										"노란색 바탕에 파란색 패턴을 스프레이 페인트로 도색했습니다.\n\n<i>나만의 전투의 함성</i>"
 	"PaintKit_sp_mp7_tribal_yellow_Tag"									"전쟁 나팔"
 
-	"PaintKit_am_p250_sputnik"										"검은색 바탕에 양극산화 처리된 청회색 패턴으로 도색했습니다.\n\n<i>조약돌이 되어라.</i>"
+	"PaintKit_am_p250_sputnik"										"검은색 바탕에 양극 산화 처리된 청회색 패턴으로 도색했습니다.\n\n<i>조약돌이 되어라.</i>"
 	"PaintKit_am_p250_sputnik_Tag"									"파란 물결"
 
 	"PaintKit_aa_mac10_the_last_dive"										"초록색과 주황색 패턴을 무작위로 도색했습니다.\n\n<i>혼돈 속에는 아름다움이 있다.</i>"
@@ -25646,10 +25822,10 @@
 	"PaintKit_sp_negev_lionfish"										"스프레이 페인트로 무작위의 줄무늬 패턴을 도색했습니다.\n\n<i>계속 헤엄쳐 나가</i>"
 	"PaintKit_sp_negev_lionfish_Tag"									"쏠배감펭"
 
-	"PaintKit_gs_nova_anchorite"										"포스트 아포칼립스의 모습이 떠오르도록 맞춤 도색했습니다.\n\n<i>내 총이 곧 법이다</i>"
+	"PaintKit_gs_nova_anchorite"										"포스트 아포칼립스의 모습이 떠오르도록 맞춤 도색했습니다.\n\n<i>내 총이 곧 법이���</i>"
 	"PaintKit_gs_nova_anchorite_Tag"									"와일드 식스"
 
-	"PaintKit_cu_p2000_urban_hazard"										"그레이스케일의 위장 무늬 그립과 빨간색 슬라이드로 도색했습니다.\n\n이곳부터는 안전모 착용 ���수"
+	"PaintKit_cu_p2000_urban_hazard"										"그레이스케일의 위장 무늬 그립과 빨간색 슬라이드로 도색했습니다.\n\n이곳부터는 안전모 착용 필수"
 	"PaintKit_cu_p2000_urban_hazard_Tag"									"위험한 도시"
 
 	"PaintKit_gs_revolver_tread"										"금속은 꼼꼼하게 압착했으며 손잡이를 무늬가 있는 파란색 고무로 코팅했습니다.\n\n<i>모든 적은 못과 같다.</i>"
@@ -25752,10 +25928,10 @@
 	"PaintKit_sp_bud_blue"											"스프레이로 파란색 장미 꽃봉오리 패턴을 도색했습니다.\n\n<i>가시 없는 장미는 없다</i>"
 	"PaintKit_sp_bud_blue_Tag"										"어둠의 꽃"
 
-	"PaintKit_hy_leaf_green"										"나뭇잎을 겹쳐 만든 초록색과 노란색의 수전사 공법 패턴으로 도색했습니다.\n\n<i>나뭇잎에 묻은 피</i>"
+	"PaintKit_hy_leaf_green"										"나뭇잎을 겹쳐 만든 초록색과 노란색 디자인을 수전사 방식으로 입혔습니다.\n\n<i>나뭇잎에 묻은 피</i>"
 	"PaintKit_hy_leaf_green_Tag"									"바나나 잎"
 
-	"PaintKit_hy_leaf_blue"											"나뭇잎을 겹쳐 만든 청록색과 보라색의 수전사 공법 패턴으로 도색했습니다.\n\n<i>나뭇잎에 묻은 피</i>"
+	"PaintKit_hy_leaf_blue"											"나뭇잎을 겹쳐 만든 청록색과 보라색 디자인을 수전사 방식으로 입혔습니다.\n\n<i>나뭇잎에 묻은 피</i>"
 	"PaintKit_hy_leaf_blue_Tag"										"인공 나뭇잎"
 
 	"PaintKit_sp_leaf_orange"										"나뭇잎을 겹쳐 만든 주황색 패턴을 스프레이 페인트로 도색했습니다.\n\n<i>나뭇잎에 묻은 피</i>"
@@ -25810,10 +25986,10 @@
 	"PaintKit_am_veneto_red"										"이탈리아에서 영감을 얻은 적갈색과 회색의 복잡한 패턴으로 도색했습니다.\n\n<i>최후의 만찬이 제공된다.</i>"
 	"PaintKit_am_veneto_red_Tag"									"바로크 레드"
 
-	"PaintKit_hy_veneto_purple"										"이탈리아에서 영감을 얻은 복잡한 수전사 공법 패턴으로 도색했습니다.\n\n<i>최후의 만찬이 제공된다.</i>"
+	"PaintKit_hy_veneto_purple"										"이탈리아에서 영감을 얻은 복잡한  디자인을 수전사 방식으로 입혔습니다.\n\n<i>최후의 만찬이 제공된다.</i>"
 	"PaintKit_hy_veneto_purple_Tag"									"바로크 퍼플"
 	
-	"PaintKit_hy_veneto_tan"										"이탈리아에서 영감을 얻은 복잡한 수전사 공법 패턴으로 도색했습니다.\n\n<i>최후의 만찬이 제공된다.</i>"
+	"PaintKit_hy_veneto_tan"										"이탈리아에서 영감을 얻은 복잡한  디자인을 수전사 방식으로 입혔습니다.\n\n<i>최후의 만찬이 제공된다.</i>"
 	"PaintKit_hy_veneto_tan_Tag"									"바로크 샌드"
 
 	"PaintKit_am_veneto2"											"이탈리아에서 영감을 얻은 빨간색과 금색의 복잡한 패턴으로 도색했습니다.\n\n<i>최후의 만찬이 제공된다.</i>"
@@ -26110,7 +26286,7 @@
 	"PaintKit_cu_aug_whitefang"									"북극 늑대의 하얀 털이 연상되도록 도색했습니다.\n\n<i>매 라운드는 1 대 5 싸움이라니까.</i>"
 	"PaintKit_cu_aug_whitefang_Tag"									"북극늑대"
 
-	"PaintKit_cu_awp_virus"									"돌연변이 쥐가 방사능에 노출된 초록색의 네온 숲을 탈출하려는 모습을 도색했습니다.\n\n<i>놈들이 어떤 방사능 질병을 옮길지 누가 알겠어��</i>"
+	"PaintKit_cu_awp_virus"									"돌연변이 쥐가 방사능에 노출된 초록색의 네온 숲을 탈출하려는 모습을 도색했습니다.\n\n<i>놈들이 어떤 방사능 질병을 옮길지 누가 알겠어…</i>"
 	"PaintKit_cu_awp_virus_Tag"									"탈출"
 
 	"PaintKit_gs_mp5_etch"									"조립하기 전에 금속 느낌의 파란색 탑코트를 산화시킨 다음 황동 부품을 추가했습니다.\n\n<i>블랙 앤 블루, 그리고 곳곳에 황동</i>"
@@ -26218,7 +26394,7 @@
 	"PaintKit_am_lizard_red"									"빨간색과 금색의 도마뱀 비늘 무늬를 수전사 방식으로 입혔습니다.\n\n축척에 맞게 채색"
 	"PaintKit_am_lizard_red_Tag"								"오렌지 아놀리스"
 
-	"PaintKit_hy_brush_camo_tan"								"모래 색상을 수전사 공법 패턴으로 도색했습니다.\n\n<i>위장 효과 테스트, V1</i>"
+	"PaintKit_hy_brush_camo_tan"								"모래색 디자인을 수전사 방식으로 입혔습니다.\n\n<i>위장 효과 테스트, V1</i>"
 	"PaintKit_hy_brush_camo_tan_Tag"							"사막 브러시"
 
 	"PaintKit_hy_ddpat_urban_red"								"빨간색 디지털 위장 무늬를 수전사 방식으로 입혔습니다.\n\n위장 무늬를 알아챌 정도로 가까이 왔다면 이미 늦었다."
@@ -26276,7 +26452,7 @@
 	"PaintKit_am_moro_textile_bright"							"빨간색과 초록색의 꽃 패턴으로 도색했습니다.\n\n<i>누군가는 성가시다고 생각하지만, 난 거기서 아름다움을 보았다.</i>"
 	"PaintKit_am_moro_textile_bright_Tag"						"우아한 덩굴"
 
-	"PaintKit_am_navy_shine"									"양극산화 처리된 감청색 위장 무늬 패턴으로 도색했습니다.\n\n<i>왜 그리 다운돼있어?</i>"
+	"PaintKit_am_navy_shine"									"양극 산화 처리된 감청색 위장 무늬 패턴으로 도색했습니다.\n\n<i>왜 그리 다운돼있어?</i>"
 	"PaintKit_am_navy_shine_Tag"								"청색 위장 무늬"
 
 	"PaintKit_gs_aug_sand_storm"								"밤 하늘 아래로 지나가는 모래 폭풍을 생생하게 묘사한 맞춤 디자인을 커스텀 페인트로 도색했습니다.\n\n<i>아름다움은 주변 어디에나 존재합니다. 그저 어디를 봐야 할지 알기만 하면 되죠.</i>"
@@ -26313,7 +26489,7 @@
 	"PaintKit_cu_ak-47_phantom_disruptor"						"검은색 무광 바탕에 안개 형상을 한 괴물 디자인을 커스텀 페인트로 도색했습니다.\n\n<i>\"원하는 무엇이든 될 수 있고 어디에든 갈 수 있지만, 그래도 당신 곁에 남기로 했어요...\"</i>"
 	"PaintKit_cu_ak-47_phantom_disruptor_Tag"					"망령 교란자"
 
-	"PaintKit_gs_aug_thunderstorm"								"건 메탈 베이스 코트에 황금 하이라이트, 뒤쪽으로 뻣어나가는 화살, 장난스러운 표정의 고양이 디자인으로 마감했습니다.\n\n<i>자연도 천둥 치는 폭풍우를 쏟으며 고양이처럼 그르렁거립니다.</i>"
+	"PaintKit_gs_aug_thunderstorm"								"건 메탈 베이스 코트에 황금 하이라이트, 뒤쪽으로 ��어나가는 화살, 장난스러운 표정의 고양이 디자인으로 마감했습니다.\n\n<i>자연도 천둥 치는 폭풍우를 쏟으며 고양이처럼 그르렁거립니다.</i>"
 	"PaintKit_gs_aug_thunderstorm_Tag"							"고양이 톰"
 
 	"PaintKit_cu_awp_vein"										"섬세한 혈관을 연상시키는 디자인을 청록색과 산호색 커스텀 페인트로 도색했습니다.\n\n<i>요원의 심장을 얻으려면 $4750를 내세요.</i>"
@@ -26511,7 +26687,7 @@
 	"PaintKit_cu_ump_crime_scene"								"빨간색과 파란색 바탕에 노란색 경고 테이프를 도색했습니다.\n\n<i>구역을 정리해. 할 일이 있으니까…</i>"
 	"PaintKit_cu_ump_crime_scene_Tag"							"범죄 현장"
 	
-	"PaintKit_am_m4a1s_bluesmoke"								"파란색 크롬 코팅 위에 파란색 메탈릭 페인트를 여러 겹으로 도색했습니다.\n\n<i>우울해?</i>"
+	"PaintKit_am_m4a1s_bluesmoke"								"파란색 크롬 코팅 ��에 파란색 메탈릭 페인트를 여러 겹으로 도색했습니다.\n\n<i>우울해?</i>"
 	"PaintKit_am_m4a1s_bluesmoke_Tag"							"파란 인광 물질"
 	
 
@@ -26522,13 +26698,13 @@
 	"PaintKit_cu_ak_xray"										"엑스레이로 AK-47을 찍은 것처럼 내부가 보이는 디자인으로 도색했습니다.\n\n<i>모든 것이 밝혀지면, 네가 보고 있는 게 마음에 들지 않을 수 있지...</i>"
 	"PaintKit_cu_ak_xray_Tag"									"X-Ray"
 
-	"PaintKit_am_heist_plans_green"								"양극산화 처리한 베이지색 지도 패턴을 바탕으로 도색했습니다. 처음 만들어진 이후로 누군가가 지도를 무기 위에 그린 것 처럼 보입니다.\n\n<i>계획과 실행은 별개의 문제</i>"
+	"PaintKit_am_heist_plans_green"								"양극 산화 처리한 베이지색 지도 패턴을 바탕으로 도색했습니다. 처음 만들어진 이후로 누군가가 지도를 무기 위에 그린 것 처럼 보입니다.\n\n<i>계획과 실행은 별개의 문제</i>"
 	"PaintKit_am_heist_plans_green_Tag"							"강도"
 
-	"PaintKit_am_heist_plans_purple"							"양극산화 처리한 보라색 지도 패턴을 바탕으로 도색했습니다. 처음 만들어진 이후로 누군가가 지도를 무기 위에 그린 것 처럼 보입니다.\n\n<i>계획과 실행은 별개의 문제</i>"
+	"PaintKit_am_heist_plans_purple"							"양극 산화 처리한 보라색 지도 패턴을 바탕으로 도색했습니다. 처음 만들어진 이후로 누군가가 지도를 무기 위에 그린 것 처럼 보입니다.\n\n<i>계획과 실행은 별개의 문제</i>"
 	"PaintKit_am_heist_plans_purple_Tag"						"나이트 하이스트"
 
-	"PaintKit_am_heist_plans_yellow"							"양극산화 처리한 회색 지도 패턴을 바탕으로 도색했습니다. 처음 만들어진 이후로 누군가가 지도를 무기 위에 그린 것 처럼 보입니다.\n\n<i>계획과 실행은 별개의 문제</i>"
+	"PaintKit_am_heist_plans_yellow"							"양극 산화 처리한 회색 지도 패턴을 바탕으로 도색했습니다. 처음 만들어진 이후로 누군가가 지도를 무기 위에 그린 것 처럼 보입니다.\n\n<i>계획과 실행은 별개의 문제</i>"
 	"PaintKit_am_heist_plans_yellow_Tag"						"볼트 하이스트"
 
 	"PaintKit_hy_houndstooth_brown"								"갈색 새발 격자무늬를 수전사 방식으로 입혔습니다.\n\n맡은 역할이 아닌 원하는 역할에 맞게 장비하세요."
@@ -26592,7 +26768,7 @@
 	"PaintKit_hy_ruins_red"										"무성한 나뭇잎 패턴의 배경에 고대의 신들이 가려져 있습니다.\n\n<i>\"모두 집중해. 지금 감시당하고 있어...\"</i>"
 	"PaintKit_hy_ruins_red_Tag"									"붉은 정글"
 	
-	"PaintKit_am_jade"											"크롬 바탕에 산화 처리된 투명한 옥색 페인트를 도색했습니다. \n\n<i>고급 중에서도 최고급</i>	"
+	"PaintKit_am_jade"											"크롬 바탕에 양극 산화 처리된 투명한 옥색 페인트를 도색했습니다. \n\n<i>고급 중에서도 최고급</i>	"
 	"PaintKit_am_jade_Tag"										"옥 조각"
 	
 	"PaintKit_am_ancient_wine"									"적갈색과 은색으로 이루어진 복잡한 선과 고대 생물이 그려진 패턴을 도색했습니다.\n\n<i>당신의 특권</i>"
@@ -26712,7 +26888,7 @@
 	"PaintKit_hy_vertigogeo"										"다양한 색상의 등척성 격자무늬 패턴을 도색했습니다.\n\n<i>넌 고통을 기억하고, 난 승리를 기억한다</i>"
 	"PaintKit_hy_vertigogeo_Tag"									"도식"
 
-	"PaintKit_hy_vertigospray_blue"									"51층의 건축, 공기조화기술 및 배선 계획의 수전사 공법 패턴으로 도색했습니다.\n\n<i>계획대로…</i>"
+	"PaintKit_hy_vertigospray_blue"									"51층의 건축, 공기조화기술 및 배선 계획 디자인을 수전사 방식으로 입혔습니다.\n\n<i>계획대로…</i>"
 	"PaintKit_hy_vertigospray_blue_Tag"								"스트랫"
 
 	"PaintKit_hy_vertigoillusion"									"착시 현상을 일으키는 회색과 황갈색 패턴을 수전사 방식으로 입혔습니다.\n\n잘 봤지?"
@@ -26721,7 +26897,7 @@
 	"PaintKit_hy_vertigoillusion_yellow"							"착시 현상을 일으키는 노란색과 파란색 패턴을 수전사 방식으로 입혔습니다.\n\n잘 봤지?"
 	"PaintKit_hy_vertigoillusion_yellow_Tag"						"인터록"
 
-	"PaintKit_hy_vertigospray"										"51층의 건축, 공기조화기술 및 배선 계획의 수전사 공법 패턴으로 도색했습니다.\n\n<i>계획대로…</i>"
+	"PaintKit_hy_vertigospray"										"51층의 건축, 공기조화기술 및 배선 계획 디자인을 수전사 방식으로 입혔습니다.\n\n<i>계획대로…</i>"
 	"PaintKit_hy_vertigospray_Tag"									"인프라"
 
 	"PaintKit_aa_vertigogeo_neon"									"다양한 색상의 등척성 격자무늬 패턴을 도색했습니다.\n\n<i>넌 고통을 기억하고, 난 승리를 기억한다</i>"
@@ -26739,7 +26915,7 @@
 	"PaintKit_sp_engine_dirty"										"엔진 부품 모양의 패턴을 스프레이 페인트로 도색했습니다.\n\n<i>'좋아보이진 않는데...'</i>"
 	"PaintKit_sp_engine_dirty_Tag"									"오일 교환"
 	
-	"PaintKit_aa_engine_performance"								"양극산화 처리한 엔진 부품 패턴을 도색했습니다.\n\n<i>“좋아보이진 않는데...”</i>"
+	"PaintKit_aa_engine_performance"								"양극 산화 처리한 엔진 부품 패턴을 도색했습니다.\n\n<i>“좋아보이진 않는데...”</i>"
 	"PaintKit_aa_engine_performance_Tag"							"기계 공학"
 	
 	"PaintKit_cu_vertigo_fiveseven"									"다양한 색상의 커스텀 페인트로 '추락(FALL)'과 '건설(CONSTRUCTION)'이 적힌 도색을 적용했습니다.\n\n<i>발빠짐 주의</i>"
@@ -26928,10 +27104,10 @@
 	"PaintKit_cu_ak_head_shot_holo"									"'HEAD SHOT GUN'이라는 그래피티와 진주 광택 코팅으로 도색했습니다.\n\n<i>모두가 목표를 가지고 있지. 하지만 너는 목표를 이루기 위해 무엇을 했지? - 부스, 무기 거래상</i>"
 	"PaintKit_cu_ak_head_shot_holo_Tag"								"헤드샷"
 
-	"PaintKit_gs_awp_limbo_snake"									"무기 양쪽을 뱀 디자인으로 도색했습니다. 한 마리는 붉은색을 띠고 있으며, 다른 한 마리는 금색을 띠고 있습니다.\n\n<i>모든 이야기에는 두 가지 측면이 존재한다.</i>"
+	"PaintKit_gs_awp_limbo_snake"									"무기 양쪽을 뱀 디자인으로 도색했습니다. 한 마리는 붉은색을 띠고 있으며, 다른 한 마리는 금���을 띠고 있습니다.\n\n<i>모든 이야기에는 두 가지 측면이 존재한다.</i>"
 	"PaintKit_gs_awp_limbo_snake_Tag"								"이중성"
 
-	"PaintKit_cu_m4a1s_feeding_frenzy"								"공룡이 무기의 옆면을 할퀸 것처럼 보이는 디자���을 커스텀 페인트로 도색했습니다.\n\n<i>광란의 식사</i>"
+	"PaintKit_cu_m4a1s_feeding_frenzy"								"공룡이 무기의 옆면을 할퀸 것처럼 보이는 디자인을 커스텀 페인트로 도색했습니다.\n\n<i>광란의 식사</i>"
 	"PaintKit_cu_m4a1s_feeding_frenzy_Tag"							"엠포로사우르-S"
 
 	"PaintKit_cu_p2000_decline"										"시선을 사로잡는 네온 색상의 디자인을 커스텀 페인트로 도색했습니다.\n\n<i>주목해 주시겠어요?</i>"
@@ -27045,7 +27221,7 @@
 	"PaintKit_awp_tempered"											"거울 효과를 내는 커스텀 페인트로 도색한 다음 다양한 색상으로 장식하고 탄소 섬유 재질 조준경을 장착했습니다.\n\n<i>'이건 어디서 난 거냐고? 그게 왜 궁금한 거지?' - 부스, 무기 거래상</i>"
 	"PaintKit_awp_tempered_Tag"										"크롬 캐논"
 	
-	"PaintKit_dual_berettas_lethal_grin"							"다채로운 색상의 디자인을 커스텀 페인트로 도색했습니다.\n\n<i>부끄러워하지 말고 똑바로 나아가.</i>"
+	"PaintKit_dual_berettas_lethal_grin"							"다채로운 색상의 디자인을 커스텀 페인트로 도색했습니다.\n\n부끄러워하지 말고 똑바로 나아가."
 	"PaintKit_dual_berettas_lethal_grin_Tag"						"하이드아웃"
 	
 	"PaintKit_fiveseven_hybrid"										"은색 도료 바탕에 밝은 보라색 줄무늬를 커스텀 페인트로 도색했습니다.\n\n<i>언제 어디서든 지저분하게</i>"
@@ -27057,7 +27233,7 @@
 	"PaintKit_m4a1s_black_lotus"									"파란색과 보라색 바탕에 검은색 줄기의 연꽃 디자인을 커스텀 페인트로 도색했습니다.\n\n<i>소총 라운드에서 2명을 추가로 처치한 후, 버리세요.</i>"
 	//"PaintKit_cu_usp_black_lotus_Tag"								"Black Lotus"
 	
-	"PaintKit_m4a4_snakebite"										"뱀 문양이 새겨진 것처럼 보이는 디자인을 커스텀 페인트로 도색했습니다.\n\n<i>그저 스쳐 지나가는 시간일 뿐이야.</i>"
+	"PaintKit_m4a4_snakebite"										"뱀 문양이 새겨진 것처럼 보이는 디자인을 커스텀 페인트로 도색했습니다.\n\n그저 스쳐 지나가는 시간일 뿐이야."
 	"PaintKit_m4a4_snakebite_Tag"									"에치 로드"
 	
 	"PaintKit_mac10_illusion"										"마치 MAC-10 뒷면에서 내부를 들여다볼 수 있는 듯한 디자인을 커스텀 페인트로 도색했습니다.\n\n<i>맞춤 제작</i>"
@@ -27092,6 +27268,214 @@
 
 // END COMMUNITY_33
 
+// COMMUNITY_34
+
+		"PaintKit_usp_field_snake"						"가늠자 아래에는 날개 달린 뇌관 문양을 탄피 분출구 근처에는 '027' 숫자를 커스텀 페인트로 도색했습니다.\n\n간단한 현장 작업"
+		"PaintKit_usp_field_snake_Tag"					"027"
+
+		"PaintKit_deagle_calligraff"					"데저트 이글의 옆면을 은색 페인트 펜을 사용하여 캘리그래피로 꾸몄습니다.\n\n긴 시간을 필요로 하는 작업"
+		"PaintKit_deagle_calligraff_Tag"				"캘리그래피티"
+		
+		"PaintKit_mp5_statics_blue"						"검은색과 파란색 디자인을 커스텀 페인트로 도색했습니다.\n\n블랙 앤 블루. 그리고 가득한 핏자국"
+		"PaintKit_mp5_statics_blue_Tag"					"스태틱스"
+		
+		"PaintKit_aug_puffer"							"패딩 재킷 스타일 느낌이 나도록 커스텀 페인트로 도색하고 구리색으로 장식하여 마감했습니다.\n\n프리미엄 패키지"
+		"PaintKit_aug_puffer_Tag"						"럭셔리 트림"
+		
+		"PaintKit_m249_hypnosis"						"최면에 빠질듯한 오묘한 디자인을 검은색과 파란색의 커스텀 페인트로 도색했습니다.\n\n\"내 목소리에 집중하세요.\""
+		"PaintKit_m249_hypnosis_Tag"					"최면"
+				
+		"PaintKit_r8_roses_and_guns"					"나무 손잡이의 문양과 장미 패턴을 커스텀 페인트로 도색했습니다.\n\n<i>받아들이시겠어요?</i>"
+		"PaintKit_r8_roses_and_guns_Tag"				"탱고"
+
+		"PaintKit_scar20_fury_topo"						"검은색 모노크롬 디자인을 커스텀 페인트로 도색하고 은색 문양을 상감 기법으로 새겨 넣었습니다.\n\n공인 CT 요원만 사용 가능"
+		"PaintKit_scar20_fury_topo_Tag"					"트레일 블레이저"
+
+		"PaintKit_m4a4_fusion"							"와인 색상의 커스텀 페인트로 도색했습니다.\n\n경고: 장시간 사격 시 과열 발생"
+		"PaintKit_m4a4_fusion_Tag"						"터빈"
+
+		"PaintKit_dual_elite_hydro_strike"				"파란색과 주황색 커스텀 페인트로 도색했습니다. 물방울은 무기가 아직 젖어 있는 느낌을 줍니다.\n\n최고의 무기는 적이 예상치 못한 무기"
+		"PaintKit_dual_elite_hydro_strike_Tag"			"하이드로 스트라이크"
+		
+		"PaintKit_mac10_ozaki"							"옆면과 와이어 개머리판 사이에 사이버틱한 디자인의 악마를 커스텀 페인트로 도색했습니다.\n\n전자 에너지 소음과 차가운 강철"
+		"PaintKit_mac10_ozaki_Tag"						"사이바 오니"
+		
+		"PaintKit_p90_randy_rush"						"위장, 군 휘장 그리고... 좋든 싫든 랜디를 특징으로 한 디자인을 커스텀 페인트로 도색했습니다.\n\n\"나는 어찌하여 걱정을 멈추고 P90을 사랑하게 되었는가\""
+		"PaintKit_p90_randy_rush_Tag"					"랜디 러시"
+
+		"PaintKit_ssg08_transit_white"					"Counter-Strike 맵을 바탕으로 한 가상의 노선도를 커스텀 페인트로 도색했습니다.\n\n“어디로 가는 거지?”"
+		"PaintKit_ssg08_transit_white_Tag"				"급행"
+
+		"PaintKit_ak47_t_bus"							"테러리스트의 다양한 모습을 담은 그림을 커스텀 페인트로 도색했습니다.\n\n버스에 있는 테러리스트들이 이번 라운드, 다음 라운드 그리고 그다음 라운드에서 승리합니다.</i>"
+		"PaintKit_ak47_t_bus_Tag"						"아웃사이더"
+		
+		"PaintKit_p250_impact"							"양극 산화 처리 마감 사용하여 기계로 만든 느낌을 주는 디자인을 커스텀 페인트로 도색했습니다.\n\n직접 충격"
+		"PaintKit_p250_impact_Tag"						"진원"
+		
+		"PaintKit_ump45_neo_noir"						"여성 디자인을 그레이 스케일 바탕에 블루와 마젠타 색상을 사용하여 커스텀 페인트로 도색했습니다.\n\n\"칼을 손에 들고 이제는 맞서야 할 때라고 결심했습니다.\""
+		//reusing existing tag string (PaintKit_cu_glock_noir_Tag)
+		
+		"PaintKit_glock_chomper"						"손잡이는 분홍색으로 칠하고, 슬라이드에는 공격적으로 바라보고 있는 눈 디자인을 커스텀 페인트로 도색했습니다.\n\n\"이건 당신을 위한 거야!\""
+		"PaintKit_glock_chomper_Tag"					"금니"
+		
+		"PaintKit_m4a1s_vaporwave"						"그리스 로마 조각상과 왜곡된 과거 시대의 이미지를 커스텀 페인트로 도색했습니다.\n\n최면에 걸린 듯한 꿈에서"
+		"PaintKit_m4a1s_vaporwave_Tag"					"베이퍼웨이브"
+		
+// END COMMUNITY_34
+
+// OVERPASS_2024
+				
+		"PaintKit_hy_overpass_paintover_teal"				"파란색과 검은색의 그래피티 패턴을 수전사 방식으로 입혔습니다.\n\n서명: 닥터 로마노프"
+		"PaintKit_hy_overpass_paintover_teal_Tag"			"미드나잇 페인트오버"
+		
+		"PaintKit_sp_overpass_doodle_plum"					"분홍색과 보라색 그래피티 패턴을 스프레이 페인트로 도색했습니다.\n\n작은 노력으로 고칠 수 없는 것은 없다."
+		"PaintKit_sp_overpass_doodle_plum_Tag"				"청소 필수"
+		
+		"PaintKit_sp_overpass_paint_pen_neon"				"어두운 바탕에 네온 컬러 페인트 펜을 사용해 낙서처럼 그래피티를 그렸습니다.\n\n“예술이니까 굳이 설명이 필요 없지.”"
+		"PaintKit_sp_overpass_paint_pen_neon_Tag"			"네온 스퀴저"
+		
+		"PaintKit_hy_overpass_doodle_m4a1s"					"황갈색, 보라색 그리고 금색의 그래피티 패턴을 수전사 방식으로 입혔습니다.\n\n열 번 찍어 안 넘어가는 나무 없다."
+		"PaintKit_hy_overpass_doodle_m4a1s_Tag"				"세척 요망"
+		
+		"PaintKit_cu_overpass_aqua_deagle"					"아쿠아 색상 베이스에 다양한 아티스트의 그래피티가 새겨져 있습니다.\n\n\"모든 라운드를 원해.\""
+		"PaintKit_cu_overpass_aqua_deagle_Tag"				"분노"
+		
+		"PaintKit_cu_overpass_graf_negev"					"진홍색 바탕에 다양한 아티스트의 그래피티를 그려 넣었습니다.\n\n자리를 지켜!"
+		"PaintKit_cu_overpass_graf_negev_Tag"				"월뱅"
+		
+		"PaintKit_sp_overpass_paint_pen_metal"				"검은색 바탕에 금속성 페인트 펜으로 그래피티를 그려 넣었습니다.\n\n\"예술이니까 굳이 설명이 필요 없지.\""
+		"PaintKit_sp_overpass_paint_pen_metal_Tag"			"금속 그래피티"
+
+		"PaintKit_cu_overpass_squeak_mac10"					"가늠자 근처에 생쥐 그림을 그려 넣고 주변부에는 검은색과 파란색 그래피티를 도색했습니다.\n\n게임 시작"
+		"PaintKit_cu_overpass_squeak_mac10_Tag"				"찍찍이 생쥐"
+		
+		"PaintKit_cu_overpass_wurst_nova"					"오버패스에 있는 맥주 주점 Wurst Hölle의 소시지 패턴을 커스텀 페인트로 도색했습니다.\n\n더 이상 찾아 헤매지 않아도 됩니다. 잃어버린 소시지를 찾았으니까요."
+		"PaintKit_cu_overpass_wurst_nova_Tag"				"불타는 소시지"
+		
+		"PaintKit_hy_overpass_tagged_teal"					"파란색과 빨간색 그래피티 패턴을 수전사 방식으로 입혔습니다.\n\n꼼꼼히 살펴보세요."
+		"PaintKit_hy_overpass_tagged_teal_Tag"				"청록 그래피티"
+		
+		"PaintKit_cu_overpass_baby_dualies"					"밝은 색상의 그래피티 바탕에 두 명의 아기 천사를 커스텀 페인트로 도색했습니다.\n\n오... 얼마나 귀여운지 한번 보세요."
+		"PaintKit_cu_overpass_baby_dualies_Tag"				"귀여운 아기 천사들"
+		
+		"PaintKit_cu_overpass_monsters_xm"					"XM1014의 양면에 몬스터 도감을 커스텀 페인트로 도색했습니다.\n\n\"반대쪽은 확인하지 않는 편이 나아요.\""
+		"PaintKit_cu_overpass_monsters_xm_Tag"				"몬스터 멜트"
+		
+		"PaintKit_cu_overpass_graf_aug"						"오버패스의 악명 높은 거리 그래피티 아티스트 Zapems의 그래피티를 커스텀 페인트로 도색했습니다.\n\n\"카메라를 확인해 봐. 누가 이런 짓을 한 건지 알아야겠어.\""
+		"PaintKit_cu_overpass_graf_aug_Tag"					"Zapems의 눈동자"
+		
+		"PaintKit_cu_overpass_crakow_awp"					"어린 소녀와 로봇을 담은 생기 넘치는 놀이터 같은 느낌을 주는 디자인을 커스텀 페인트로 도색했습니다.\n\n상상 놀이"
+		"PaintKit_cu_overpass_crakow_awp_Tag"				"크라쿠프!"
+
+		"PaintKit_cu_overpass_dragon_zeus"					"x27을 감싸고 있는듯한 포근한 분위기의 용을 커스텀 페인트로 도색했습니다.\n\n가장 높은 탑의 가장 높은 방에서"
+		"PaintKit_cu_overpass_dragon_zeus_Tag"				"용의 코골이"		
+		
+		"PaintKit_cu_overpass_monster_ak47"					"오버패스에 있는 몬스터 터널의 그래피티를 커스텀 페인트로 도색하고 은색과 금색의 금속성 페인트로 포인트를 살려 마감했습니다.\n\n이제 되돌릴 수 없어..."
+		"PaintKit_cu_overpass_monster_ak47_Tag"				"몬스터 변신"
+
+// END OVERPASS_2024
+
+// REALISM_CAMO
+		
+		"PaintKit_ht_blur_camo_mp5sd"						"모래색와 올리브색의 하프톤 디자인을 커스텀 페인트로 도색했습니다.\n\n침묵 속에서 관찰한 다음 등장하세요."
+		"PaintKit_ht_blur_camo_mp5sd_Tag"					"사바나 하프톤"
+		
+		"PaintKit_soch_tiger_stencil"						"어두운 색과 모래색의 호랑이 무늬를 도색했습니다.\n\n'정글의 왕'이라고 하기에는 논란의 여지가 있습니다."
+		"PaintKit_soch_tiger_stencil_Tag"					"호랑이 스텐실"
+		
+		"PaintKit_gsch_zeno_ssg08"							"회색 금속성 입자가 들어간 커스텀 페인트로 도색했으며 빨간색 다이아몬드가 특징입니다.\n\n크롬을 많이 사용해도 충분하지 않을 때"
+		"PaintKit_gsch_zeno_ssg08_Tag"						"제노"
+		
+		"PaintKit_gs_gamebred_famas"						"위장 무늬 재킷을 입은 것처럼 보이도록 커스텀 페인트로 도색했습니다.\n\n패션도 탄창도 모두 무장"
+		"PaintKit_gs_gamebred_famas_Tag"					"하프 슬리브"
+		
+		"PaintKit_ht_poly_camo"								"녹색과 회색의 하프톤 패턴을 커스텀 페인트로 도색했습니다.\n\n세심하고 꼼꼼하게!"
+		"PaintKit_ht_poly_camo_Tag"							"올리브 폴리캠"
+		
+		"PaintKit_sp_wax_rub_bizon"							"스프레이 페인트로 파란색 자갈 패턴을 도색했습니다.\n\n정확하고 분명한 의도"
+		"PaintKit_sp_wax_rub_bizon_Tag"						"콜드 셀"
+		
+		"PaintKit_soch_hunter_blaze"						"이 P250의 절반을 사냥꾼의 위장 무늬로 도색했습니다.\n\n사냥감이 사냥꾼으로"
+		"PaintKit_soch_hunter_blaze_Tag"					"스몰 게임"
+		
+		"PaintKit_soch_wildwood"							"우거진 숲의 나뭇가지와 나뭇잎 패턴으로 도색했습니다.\n\n\"길을 잃었나?\""
+		"PaintKit_soch_wildwood_Tag"						"와일드우드"
+		
+		"PaintKit_gs_ripple_nova"							"광택이 나는 청동과 금색 커스텀 페인트로 도색했습니다.\n\n폭력의 역사"
+		"PaintKit_gs_ripple_nova_Tag"						"요크셔"
+		
+		"PaintKit_gsch_bright_camo_usp"						"파란색과 보라색 위장 무늬를 커스텀 페인트로 도색했습니다.\n\n냉장고에서 꺼냈습니다."
+		"PaintKit_gsch_bright_camo_usp_Tag"					"알프스 위장"
+		
+		"PaintKit_aq_case_hardened_2"						"이 무기는 고온의 목탄을 이용한 색상 표면 경화 기법을 활용하여 도색했습니다.\n\n약간의 화려함은 해롭지 않아"
+		"PaintKit_aq_case_hardened_2_Tag"					"열처리"
+		
+		"PaintKit_gs_arctic_mp9"							"흰색과 파란색 커스텀 페인트로 도색했으며 위장 무늬로 마감했습니다.\n\n극한의 최후"
+		"PaintKit_gs_arctic_mp9_Tag"						"아크틱 트라이톤"
+		
+		"PaintKit_gsch_sport_ump45"							"강렬한 빨간색과 은색으로 구성된 디자인을 커스텀 페인트로 도색했습니다.\n\n한 번에 한 탄창으로 어려운 문제 해결"
+		"PaintKit_gsch_sport_ump45_Tag"						"크림슨 포일"
+	
+		"PaintKit_aq_titanium_rainbow"						"페인트로 칠한 무기를 매우 높은 온도로 가열하면 레인보우 스푼 효과를 얻을 수 있습니다. 이 기법을 사용하여 거의 무한에 가까운 디자인을 만들어낼 수 있습니다.\n\n무한한 가능성"
+		"PaintKit_aq_titanium_rainbow_Tag"					"레인보우 스푼"
+		
+		"PaintKit_gsch_axia_glock"							"밝은 파란색의 금속성 반짝이 커스텀 페인트로 도색하고 AXIA 브랜딩으로 마감했습니다.\n\n\"AXIA SPORTS가 대신 싸워드리겠습니다!\""
+		"PaintKit_gsch_axia_glock_Tag"						"AXIA"
+
+// END REALISM_CAMO
+
+// GRAPHIC_DESIGN
+
+		"PaintKit_ht_peaks_rainbow"							"녹색과 파란색의 하프톤 패턴을 커스텀 페인트로 도색했습니다.\n\n이건 정말 엄청나다."
+		"PaintKit_ht_peaks_rainbow_Tag"						"스펙트로그램"
+
+		"PaintKit_ht_swirl"									"파란색과 녹색의 하프톤 소용돌이 패턴을 커스텀 페인트로 도색했습니다.\n\n취급 주의"
+		"PaintKit_ht_swirl_Tag"								"하프톤 소용돌이"
+
+		"PaintKit_ht_splash"								"파란색과 회색의 하프톤 물결 패턴을 커스텀 페인트로 도색했습니다.\n\n가장 잔잔한 물결도 급변할 수 있다."
+		"PaintKit_ht_splash_Tag"							"하프톤 물결"
+		
+		"PaintKit_gs_constellation_dark_mp7"				"어두운 색상의 바탕에 금속 느낌을 주는 디자인을 도색했습니다.\n\n\"회로판이 아니다!\""
+		"PaintKit_gs_constellation_dark_mp7_Tag"			"아스트롤라베"
+		
+		"PaintKit_cu_poly_green_galil"						"짙은 회색 바탕을 커스텀 페인트로 도색하고 녹색으로 장식해 마감했습니다.\n\n더욱 어둡게"
+		"PaintKit_cu_poly_green_galil_Tag"					"NV"
+
+		"PaintKit_ht_facet_p2000"							"다양한 색상의 하프톤 패턴을 커스텀 페인트로 도색했습니다.\n\n말투를 조심하라"
+		"PaintKit_ht_facet_p2000_Tag"						"코랄 하프톤"
+		
+		"PaintKit_cu_chevron_scar20"						"다양한 색상의 하프톤 패턴을 커스텀 페인트로 도색했습니다.\n\n\"조준할 수가 없다.\""
+		"PaintKit_cu_chevron_scar20_Tag"					"와일드 베리"
+		
+		"PaintKit_gs_happy_red_sg556"						"청동 느낌이 나도록 금속성 커스텀 페인트로 도색한 다음 빨간색으로 장식해 마감했습니다.\n\n\"이야, 이것 좀 봐\""
+		"PaintKit_gs_happy_red_sg556_Tag"					"베리 젤 코트"
+		
+		"PaintKit_cu_graphic_overlay_ak47"					"그래픽 디자인을 다채로운 색상의 커스텀 페인트로 도색했습니다.\n\n프레임 사이에서 포착"
+		"PaintKit_cu_graphic_overlay_ak47_Tag"				"크로스페이드"
+
+		"PaintKit_ht_shapes"								"다양한 색상의 하프톤 디자인을 커스텀 페인트로 도색했습니다.\n\n“동물원에서 가져온 거지만 동물이 아니라 예술 작품입니다.”"
+		"PaintKit_ht_shapes_Tag"							"하프톤 시프트"
+		
+		"PaintKit_cu_abstract_white_cz"						"추상적인 디자인을 다채로운 색상의 커스텀 페인트로 도색했습니다.\n\n검은 다이아몬드 총"
+		"PaintKit_cu_abstract_white_cz_Tag"					"슬라롬"
+		
+		"PaintKit_cu_poly_violet_p90"						"추상적인 디자인을 다채로운 색상의 커스텀 페인트로 도색했습니다.\n\n공격적인 각도!"
+		"PaintKit_cu_poly_violet_p90_Tag"					"어택 벡터"
+
+		"PaintKit_soo_polysoup_m4a4"						"다양한 색상의 크리스털 디자인을 커스텀 페인트로 도색하고 진줏빛으로 포인트를 살려 마감했습니다.\n\n걱정하지 마."
+		"PaintKit_soo_polysoup_m4a4_Tag"					"폴리수프"
+		
+		"PaintKit_cu_glitter_deagle"						"추상적인 디자인을 금속 반짝이가 포함된 커스텀 페인트로 도색했습니다.\n\n새로운 최고 점수!"
+		"PaintKit_cu_glitter_deagle_Tag"					"스타케이드"
+
+		"PaintKit_gs_lilpig_aug"							"바탕을 빨간색 커스텀 페인트로 도색하고 금속성 금색 페인트로 장식했습니다. 개머리판 근처에 빨간색 돼지 디자인을 추가했습니다.\n\n언덕 위의 집에서"
+		"PaintKit_gs_lilpig_aug_Tag"						"리틀 피그"
+
+		"PaintKit_gs_independe_awp"							"흰색 바탕에 추상적인 디자인을 다양한 색상의 커스텀 페인트로 도색했습니다.\n\n돌아올 줄은 알았지만 이렇게 빨리 올 줄이야... - 부스, 무기 거래상"
+		"PaintKit_gs_independe_awp_Tag"						"CMYK"
+
+// END GRAPHIC_DESIGN
+
 		//Recipes
 		"CSGO_Recipe_TradeUp"						"무기 거래 계약서"
 		"CSGO_Recipe_TradeUp_Desc"					"같은 품질의 아이템 10개를 교환하면 제공하신 아이템들이 속한 수집품들 중 하나의 아이템을 한 단계 높은 품질로 얻을 수 있습니다."
@@ -27103,6 +27487,13 @@
 		"CSGO_Recipe_TradeUp_Items_Confirm"			"무기 거래 준비 완료"
 		"CSGO_Swap_Stattrak_Title"					"StatTrak™ 교환 도구"
 		"CSGO_Swap_Stattrak_Desc_html"				"<b><font color='#FFFFFF'>유형이 같은 두 아이템을 고르고\nStatTrak™ 점수를 맞바꾸세요.</font></b>"
+
+		// Keychain remove tool
+		"CSGO_RemoveKeychainTool_Title"				"참 장식 분리"
+		"CSGO_RemoveKeychainTool_Desc"				"참 장식이 장착된 무기를 선택하세요. 참 장식 분리를 사용하면 참 장식이 분리되어 보관함으로 반환됩니다."
+		"CSGO_RemoveKeychainToolCharges_Title"		"참 장식 분리 팩"
+		"CSGO_RemoveKeychainToolCharges_Desc3"		"참 장식 분리 팩으로 장착한 참 <b>3</b>개를 분리할 수 있습니다. 각 참 장식 분리 사용 시 장착한 참 1개를 분리할 수 있습니다. 분리한 참 장식은 보관함에 표시됩니다."
+		"CSGO_RemoveKeychainToolCharges_Reward:p{item_count}"	"참 장식 분리 +{d:item_count}개"
 
 		"crate_community_3_unusual_lootlist"		"또는 극도로 희귀한 헌츠맨 칼!"
 		"crate_community_3_unusual_itemname"		"★ 헌츠맨 칼 ★"
@@ -27450,7 +27841,7 @@
 
 		"SFUI_HalftimePrompt"			"교대 시간"
 
-		"SFUI_GameModeCasualDesc"					"캐주얼 모드 규칙으로 게임 도중에 참가하거나 나갈 수 있습니다.\n획득한 자금으로 각 라운드마다 새로운 무기를 구매하고 상대 팀을 모두 제거하거나 목표를 완수하여 라운드에서 승리하세요."
+		"SFUI_GameModeCasualDesc"					"캐주얼 모드 규칙으로 게임 도중에 참가하거나 나갈 수 있습니다.\n획득한 자금으로 각 라운드마다 새로운 무기��� 구매하고 상대 팀을 모두 제거하거나 목표를 완수하여 라운드에서 승리하세요."
 		"SFUI_GameModeCasualDescList"               "· 팀원 간 공격 불가\n· 팀원 간 충돌 불가\n· 처치 보상 50%\n· 15라운드 8선승제"
 		"SFUI_GameModeCasualDescSP"					"획득한 자금으로 각 라운드마다 새로운 무기를 구매하세요.\n상대 팀을 모두 제거하거나 목표를 완수하여 라운드에서 승리하세요."
 		"SFUI_GameModeCasualDescSPList"             "· 팀원 간 공격 불가\n· 팀원 간 충돌 불가\n· 처치 보상 50%\n· 15라운드 8선승제"
@@ -27916,9 +28307,9 @@
 		//Breakout Maps
 		"SFUI_Map_Tooltip_Desc_blackgold"       "검은 황금은 해상의 석유 시추 시설을 배경으로 한 폭파 임무로 세 지점에서 긴장감 있고 빠른 속도의 전투를 할 수 있습니다."
 		"SFUI_Map_Tooltip_Desc_castle"          "깊은 밤중 산 언저리에 지어진 유서깊은 고성을 파괴하려는 테러리스트와 동굴, 숲, 많은 내실에서 치열한 전투가 벌어집니다."
-		"SFUI_Map_Tooltip_Desc_insertion"       "이 크고 개방적인 맵은 특이한 인질 구출의 경험을 선사합니다. 대테러부대는 4개의 부활 장소 중 하나를 선택해 고풍스러운 오두막집을 기습해야 합니다. 테러리스트들은 모든 각도에서 들어올 공격에 대비해야 하며 인질들을 가까이 둬야 할 것입니다."
+		"SFUI_Map_Tooltip_Desc_insertion"       "이 크고 개방적인 맵은 특이한 ��질 구출의 경험을 선사합니다. 대테러부대는 4개의 부활 장소 중 하나를 선택해 고풍스러운 오두막집을 기습해야 합니다. 테러리스트들은 모든 각도에서 들어올 공격에 대비해야 하며 인질들을 가까이 둬야 할 것입니다."
 		"SFUI_Map_Tooltip_Desc_mist"            "비 내리는 밤, 산 정상에 있는 레이더 기지의 좁은 구역에서 위아래를 보며 전투를 벌입니다."
-		"SFUI_Map_Tooltip_Desc_overgrown"       "해변가의 낙후된 조선소에서 중앙을 차지하기 위한 전��적 전투가 요구되는 맵입니다."
+		"SFUI_Map_Tooltip_Desc_overgrown"       "해변가의 낙후된 조선소에서 중앙을 차지하기 위한 전략적 전투가 요구되는 맵입니다."
 		"SFUI_Map_Tooltip_Desc_rush"            "개방적인 지형과 위험한 병목지대에서 빠른 자리 이동을 요구하는 장거리전과 근접전을 경험해 보세요. 정글에 오신 것을 환영합니다."
 		
 		//SEVENJAN 2016 maps
@@ -28120,6 +28511,9 @@
 
 		"SFUI_Store_Market_Link"                    "장터에서 보기"
 		"SFUI_Store_Limit_Offer"                    "한정 판매!"
+		"SFUI_Store_Offer_Days_Remaining:p{daysremaining}"	"남은 기간: {d:daysremaining}일"
+		"SFUI_Store_Last_Chance"                    "마지막 기회"
+		"SFUI_Store_Limited_Time_Tagline"           "놓치지 마세요"
 		"SFUI_Store_Available_Offers"               "제안 유효 기간:"
 		"SFUI_Store_Preview"                        "미리보기"
 
@@ -28134,7 +28528,7 @@
 		"SFUI_Store_LookInside"						"내용물 보기"
 		"SFUI_Store_Has_StatTrak"					"StatTrak™"
 		
-		"SFUI_Store_Hint_Gift_-_1_Player"          "매치 중 무작위로 선택된 사람에게 선물을 줍니다."
+		"SFUI_Store_Hint_Gift_-_1_Player"          "매치 중 ��작위로 선택된 사람에게 선물을 줍니다."
 		"SFUI_Store_Hint_Gift_-_9_Players"         "같이 매치를 하고 있는 다른 9명에게 선물을 줍니다."
 		"SFUI_Store_Hint_Gift_-_25_Spectators"     "내가 플레이 중인 매치를 CSTV로 관전하고 있는 25명에게 선물을 보냅니다."
 		
@@ -28423,14 +28817,18 @@
 		"SFUI_InvTooltip_MusicKit"			"음악 키트"
 		"SFUI_InvTooltip_Clothing"			"장갑"
 		"SFUI_InvTooltip_OperatorDossierTag" "요원"
+		"SFUI_InvTooltip_KeychainCapsuleTag"				"참 장식 수집품"
 		"SFUI_InvAction_Choose_Item"		"<b><font color='#FFFFFF'>%s1</b></font>에 사용할 <b><font color='#FFFFFF'>아이템을 고르세요</b></font>"
 		"SFUI_InvAction_Choose_Tool_decodable"		"<b><font color='#FFFFFF'>%s1</b></font> 아이템을 개봉할 때 사용할 <b><font color='#FFFFFF'>열쇠를 고르세요</b></font>"
 		"SFUI_InvAction_Choose_Tool_nameable"		"<b><font color='#FFFFFF'>%s1</b></font>에 사용할 <b><font color='#FFFFFF'>이름표</b></font>를 선택하세요"
 		"SFUI_InvAction_Choose_Tool_can_sticker"	"<b><font color='#FFFFFF'>%s1</b></font> 아이템에 붙일 <b><font color='#FFFFFF'>스티커를 선택하세요</b></font>"
+		"SFUI_InvAction_Choose_Tool_can_keychain"	"<b><font color='#FFFFFF'>%s1</b></font> 아이템을 장착할 <b><font color='#FFFFFF'>참 장식 선택</b></font>"
 		"SFUI_InvAction_Choose_Item_decodable"      "<b><font color='#FFFFFF'>%s1</b></font> 아이템으로 개봉할 <b><font color='#FFFFFF'>상자를 고르세요</b></font>"
 		"SFUI_InvAction_Choose_Item_nameable"       "<b><font color='#FFFFFF'>%s1</b></font> 아이템을 사용할 <b><font color='#FFFFFF'>무기</b></font>를 선택하세요"
 		"SFUI_InvAction_Choose_Item_can_sticker"    "<b><font color='#FFFFFF'>%s1</b></font> 스티커를 붙일 <b><font color='#FFFFFF'>무기</b></font>를 선택하세요."
+		"SFUI_InvAction_Choose_Item_can_keychain"    "<b><font color='#FFFFFF'>%s1</b></font> 아이템을 사용할 <b><font color='#FFFFFF'>무기 선택</b></font>"
 		"SFUI_InvActionPreview_Choose_Item_can_sticker"    "<b><font color='#FFFFFF'>%s1</b></font>를 붙인 모습을 미리 볼 <b><font color='#FFFFFF'>무기를 고르세요</b></font>"
+		"SFUI_InvActionPreview_Choose_Item_can_keychain"    "<b><font color='#FFFFFF'>%s1</b></font> 아이템을 미리 사용해 볼 <b><font color='#FFFFFF'>무기 선택</b></font>"
 		"SFUI_InvAction_No_Items"			"<b><font color='#FFFFFF'>%s1</b></font>에 사용할 수 있는 <b><font color='#FFFFFF'>아이템이 없습니다</b></font>"
 		"SFUI_InvActionPreview_No_Items"    "<b><font color='#FFFFFF'>%s1</b></font>를 붙일 수 있는 <b><font color='#FFFFFF'>무기가 없습니다</b></font>"
 		"SFUI_InvAction_SelectGift"         "<b><font color='#FFFFFF'>전달할 선물을 선택하세요"
@@ -28441,6 +28839,8 @@
 		"SFUI_InvUse_Header_nameable"		"<b><font color='#FFFFFF'>%s1</b></font>에 이름표를 사용하기"
 		"SFUI_InvUse_Header_can_sticker"    "<b><font color='#FFFFFF'>%s1</b></font>에 스티커 붙이기"
 		"SFUI_InvUse_HeaderPreview_can_sticker"    "<b><font color='#FFFFFF'>%s1</b></font>에 스티커를 붙인 모습 미리보기"
+		"SFUI_InvUse_Header_can_keychain"    "<b><font color='#FFFFFF'>%s1</b></font>에 참 장식 장착"
+		"SFUI_InvUse_HeaderPreview_can_keychain"    "<b><font color='#FFFFFF'>%s1</b></font>에 참 장식을 장착한 모습 미리 보기"
 		"SFUI_InvUse_Header_Desc"           "<b><font color='#FFFFFF'>%s1</b></font> 아이템을 사용하여 <b><font color='#FFFFFF'>%s2</b></font>의 설명을 바꾸세요"
 		"SFUI_InvUse_Header_Sticker_Wear"   "스티커 긁어내기"
 		"SFUI_InvUse_BuyItem_Panel_Header"  "구매할 열쇠를 선택하세요"
@@ -28484,17 +28884,20 @@
 		"SFUI_ItemInfo_FinishCatalog"		"도색 카탈로그 번호"
 		"SFUI_ItemInfo_PatternTemplate"		"무늬 템플릿 번호"
 		"SFUI_ItemInfo_WearAmount"			"닳은 정도"
+		"SFUI_ItemInfo_KeychainDef"			"참 장식 시리즈"
+		"SFUI_ItemInfo_KeychainPattern"		"참 장식 템플릿"
 
 		"SFUI_ItemInfo_FinishStyle_0"		"없음"
 		"SFUI_ItemInfo_FinishStyle_1"		"단색"
 		"SFUI_ItemInfo_FinishStyle_2"		"수전사 공법"
 		"SFUI_ItemInfo_FinishStyle_3"		"스프레이 페인트"
-		"SFUI_ItemInfo_FinishStyle_4"		"산화 처리"
-		"SFUI_ItemInfo_FinishStyle_5"		"산화 처리 및 다색"
-		"SFUI_ItemInfo_FinishStyle_6"		"산화 처리 및 에어브러시"
+		"SFUI_ItemInfo_FinishStyle_4"		"양극 산화 처리"
+		"SFUI_ItemInfo_FinishStyle_5"		"양극 산화 처리 및 다색"
+		"SFUI_ItemInfo_FinishStyle_6"		"양극 산화 처리 및 에어브러시"
 		"SFUI_ItemInfo_FinishStyle_7"		"커스텀 페인트"
 		"SFUI_ItemInfo_FinishStyle_8"		"녹청"
 		"SFUI_ItemInfo_FinishStyle_9"		"총기 제작자"
+		"SFUI_ItemInfo_FinishStyle_10"		"표면 강화"
 		"SFUI_ItemInfo_FinishStyle_Unknown" "알 수 없음"
 
 		"SFUI_ItemInfo_WearAmount_None"		"완전 새 것"
@@ -28503,6 +28906,8 @@
 		"SFUI_InvUse_Use_nameable"          "이름표 사용"
 		"SFUI_InvUse_Use_can_sticker"       "계속"
 		"SFUI_InvUse_UsePreview_can_sticker""%s1 <b>구매하기</b> "
+		"SFUI_InvUse_Use_can_keychain"       "계속"
+		"SFUI_InvUse_UsePreview_can_keychain""%s1 <b>구매</b> "
 		"SFUI_InvUse_UsePreview_buy"        "%s1 <b>구매하기</b> "
 		"SFUI_InvUse_Reset_nameable"        "이름 제거"
 		"SFUI_InvUse_Reset_nameable_Warning" "이 아이템에 적용된 이름표를 제거하고 원래 이름으로 되돌리시겠습니까? (적용했던 이름표는 사라집니다)"
@@ -28582,6 +28987,7 @@
 		"SFUI_InvContextMenu_usegift"		"선물 보내기"
 		"SFUI_InvContextMenu_recipe"		"계약서 열기"
 		"SFUI_InvContextMenu_can_sticker"	"스티커 붙이기"
+		"SFUI_InvContextMenu_can_keychain"	"참 장식 장착"
 		"SFUI_InvContextMenu_can_patch"		"패치 부착"
 		"SFUI_InvContextMenu_can_PickEm"	"토너먼트 페이지를 열어 참여하기"
 		"SFUI_InvContextMenu_open_package"	"열기..."
@@ -28641,11 +29047,17 @@
 		
 		
 		"SFUI_Sticker_Remove"           	"스티커 제거"
+		"popup_remove_keychain_button"      "참 장식 분리"
 		"popup_remove_patch_button"         "패치 제거하기"
 		"popup_remove_sticker_button"       "스티커 긁어내기"
+		"popup_remove_sticker_button_negative"  "스티커 제거"
+		"popup_scrape_sticker_level"		"스티커 긁힘 정도"
+		"SFUI_Sticker_RemoveImmediate_Desc" "아이템에 부착된 스티커를 제거할지 확인해 주세요. 한 번 제거한 스티커는 복구할 수 없습니다."
 		"SFUI_Sticker_Remove_Desc"          "이 상태에서 스티커를 긁어내면 아이템에서 스티커가 영원히 제거됩니다." 
 		"SFUI_Patch_Remove"           		"패치 제거"
 		"SFUI_Patch_Remove_Desc"			"요원에 부착된 패치를 제거할 지 확인해 주세요. 한 번 제거한 패치는 복구할 수 없습니다." 
+		"SFUI_Keychain_Remove"           	"참 장식 분리"
+		"SFUI_Keychain_Remove_Desc"			"이 참 장식을 분리할지 확인해 주세요. 참 장식을 분리하면 참 장식 분리 1개가 소모되고 참 장식은 보관함으로 반환됩니다."
 		"SFUI_Sticker_Wear_Warning"         "스티커를 긁어내면 더 낡아 보이게 할 수 있으며 같은 스티커를 계속 긁어낼 수 있습니다.\n<font color='#ff0000'>스티커의 외관 변형은 영구적입니다!</font>" 
 		"SFUI_Sticker_Wear_Warning_Full"    "이 아이템에 스티커를 더 붙일 공간이 없습니다. 스티커를 긁어내어 자리를 만드세요." 
 		"SFUI_Sticker_Wear_How_To"   		"스티커를 클릭하면 약간 긁어내 외관을 변형할 수 있습니다. 스티커를 많이 긁어내 제거할 수도 있습니다.\n<font color='#ff0000'>스티커의 외관 변형은 영구적입니다.</font>"
@@ -28776,7 +29188,7 @@
 		"CSGO_Watch_Streams_Tournament"   	"공식 토너먼트 스트림을 여기에서 확인하세요."
 		"CSGO_Watch_Tournament_Desc_Title"  "설명"
 		"CSGO_Watch_Tournament_Info_Title"  "대회 상세내용"
-		"CSGO_Watch_Tournament_Steams_T"    "스��리밍"
+		"CSGO_Watch_Tournament_Steams_T"    "스트리밍"
 		"CSGO_Watch_Tournament_Matches_T"   "대회 매치"
 		"CSGO_Watch_Tournament_Matches_T2"   "매치"
 		"CSGO_Watch_Tournament_Steams_None" "현재 방송이 준비되어 있지 않습니다."
@@ -28848,7 +29260,7 @@
 		"CSGO_Watch_Loading_Tournament_15"   "IEM 카토비체 2019 매치를 불러오는 중..."
 		"CSGO_Watch_Tournament_Desc_16"      "StarLadder 베를린 2019 메이저 대회는 총 $1,000,000의 상금이 걸린 StarLadder의 첫 번째 Counter-Strike 대회입니다."
 		"CSGO_Watch_Tournament_Info_16"      "장소: 독일 배를린 \n8월 23일 - 9월 8일"
-		"CSGO_Watch_NoMatch_Tournament_16"   "StarLadder 베를린 2019의 매치가 여기에 표시됩니다.\n현재 실시간으로 진행되는 매치나 다운로드 가능한 매치가 없습니다."
+		"CSGO_Watch_NoMatch_Tournament_16"   "StarLadder 베를린 2019의 매치�� 여기에 표시됩니다.\n현재 실시간으로 진행되는 매치나 다운로드 가능한 매치가 없습니다."
 		"CSGO_Watch_Loading_Tournament_16"   "StarLadder 베를린 2019 매치를 불러오는 중..."
 		"CSGO_Watch_Tournament_Desc_18"      "PGL 스톡홀름 2021 메이저 대회는 총 $2,000,000의 상금이 걸린 PGL의 첫 번째 Counter-Strike 대회입니다."
 		"CSGO_Watch_Tournament_Info_18"      "장소: 스웨덴 스톡홀름 \n10월 26일 - 11월 7일"
@@ -28897,7 +29309,7 @@
 		"CSGO_Watch_Tournament_Legends"     "전설 팀 스티커"
 		"CSGO_Watch_Tournament_Versus"		"대"
 		
-		"CSGO_Watch_Tournament_Market_Link2""Steam 장터��� 올라온 팀 스티커"
+		"CSGO_Watch_Tournament_Market_Link2""Steam 장터에 올라온 팀 스티커"
 		"CSGO_Watch_Team_MarketLink"    	"Steam 커뮤니티 장터에서 %s1 팀의 아이템을 구매합니다"
 		"CSGO_Watch_PickEm_Rules"    	    "승자 예측 도전 규칙"
 		"CSGO_Watch_PickEm_Leaderboards"    "승자 예측 도전 순위표"
@@ -28984,7 +29396,7 @@
 		"CSGO_PickEm_Desc_Tournament_11"    	"<li>매치를 관전하고 팀 스티커를 사용해 그룹 스테이지와 플레이오프 스테이지에서 승자 예측에 도전하세요.</li><li>예측이 적중할 때마다 CS:GO 아바타와 Steam 프로필에 전시할 수 있는 승자 예측 도전 트로피를 받기 위한 포인트를 획득할 수 있습니다.</li><li>그룹 스테이지가 시작되기 전까지 그룹 스테이지 매치 승자를 예측할 수 있습니다.</li><li>플레이오프 스테이지가 시작되기 전까지 플레이오프 스테이지 매치 승자를 예측할 수 있습니다.</li>"
 		"CSGO_PickEm_Desc_Tournament_12"    	"<li>매치를 관전하고 팀 스티커를 사용해 그룹 스테이지와 플레이오프 스테이지에서 승자 예측에 도전하세요.</li><li>예측이 적중할 때마다 CS:GO 아바타와 Steam 프로필에 전시할 수 있는 승자 예측 도전 트로피를 받기 위한 포인트를 획득할 수 있습니다.</li><li>그룹 스테이지가 시작되기 전까지 그룹 스테이지 매치 승자를 예측할 수 있습니다.</li><li>플레이오프 스테이지가 시작되기 전까지 플레이오프 스테이지 매치 승자를 예측할 수 있습니다.</li>"
 		"CSGO_PickEm_Desc_Tournament_13"    	"<li>매치를 관전하고 팀 스티커를 사용해 예선 스테이지, 그룹 스테이지, 플레이오프 스테이지에서 승자 예측에 도전하세요.</li><li>예측이 적중할 때마다 CS:GO 아바타와 Steam 프로필에 전시할 수 있는 승자 예측 도전 트로피를 받기 위한 포인트를 획득할 수 있습니다.</li><li>예선 스테이지가 시작되기 전까지 예선 스테이지 매치 승자를 예측할 수 있습니다.</li><li>그룹 스테이지가 시작되기 전까지 그룹 스테이지 매치 승자를 예측할 수 있습니다.</li><li>플레이오프 스테이지가 시작되기 전까지 플레이오프 스테이지 매치 승자를 예측할 수 있습니다.</li>"
-		"CSGO_PickEm_Desc_Tournament_Player_7"    	"<li>ESL One 쾰른 2015 매치를 관전하고 선수가 사인한 스티커를 사용해 각 스테이지에서 어느 팀이 순위표의 상위를 차지할지 예측하세요.</li><li>예측이 적중할 때마다 CS:GO 아바타와 Steam 프로필에 전시할 수 있는 승자 예측 도전 트로피를 받기 위한 포인트를 획득할 수 있습니다.</li><li>각 매치 시작 전에 잊지 말고 승자를 예측하세요."
+		"CSGO_PickEm_Desc_Tournament_Player_7"    	"<li>ESL One 쾰른 2015 매치를 관전하고 선수가 사인한 스티커를 사용해 각 스테이지에서 어느 팀이 순위표의 상위를 차지할지 예측하세요.</li><li>예측이 적중할 때마다 CS:GO 아바타와 Steam 프로필에 전시할 수 있는 승자 예측 ��전 트로피를 받기 위한 포인트를 획득할 수 있습니다.</li><li>각 매치 시작 전에 잊지 말고 승자를 예측하세요."
 		"CSGO_PickEm_Desc_Tournament_Fantasy_8" "<li>클루주나포카 2015에서 세계 최고의 CS:GO 선수들의 매치를 관전하세요.</li><li><b>5명의 각기 다른 선수로 구성한 명단</b>을 제출하여 포인트를 획득하고 세계 순위를 올리세요.</li><li>명단은 다음 날로 이어지며 토너먼트가 끝날 때까지 계속 포인트를 획득합니다. 당일 매치 중에는 명단이 잠긴 상태가 되어 조정할 수 없습니다.</li><li>상위 5%, 15% 또는 30%의 순위에 올라 금, 은 또는 동 환상 대전 트로피를 획득하세요.</li>"
 		"CSGO_PickEm_Desc_Tournament_Fantasy_9" "<li>콜럼버스 2016에서 세계 최고의 CS:GO 선수들의 매치를 관전하세요.</li><li><b>5명의 각기 다른 선수로 구성한 명단</b>을 제출하여 포인트를 획득하고 세계 순위를 올리세요.</li><li>명단은 다음 날로 이어지며 토너먼트가 끝날 때까지 계속 포인트를 획득합니다. 당일 매치 중에는 명단이 잠긴 상태가 되어 조정할 수 없습니다.</li><li>상위 5%, 15% 또는 30%의 순위에 올라 금, 은 또는 동 환상 대전 트로피를 획득하세요.</li>"
 		"CSGO_PickEm_Desc_Tournament_Fantasy_10" "<li>퀼른 2016에서 세계 최고의 CS:GO 선수들의 매치를 관전하세요.</li><li><b>5명의 각기 다른 선수로 구성한 명단</b>을 제출하여 포인트를 획득하고 세계 순위를 올리세요.</li><li>명단은 다음 날로 이어지며 토너먼트가 끝날 때까지 계속 포인트를 획득합니다. 당일 매치 중에는 명단이 잠긴 상태가 되어 조정할 수 없습니다.</li><li>상위 5%, 15% 또는 30%의 순위에 올라 금, 은 또는 동 환상 대전 트로피를 획득하세요.</li>"
@@ -29156,7 +29568,7 @@
 		"CSGO_PickEm_Remove_Warning"	"선택을 취소해도 스티커가 사라지지 않습니다.\n하지만 잠금 상태는 그대로 유지되므로 이벤트 단계가 끝날 때까지 사용하거나 거래할 수 없습니다."
 		"CSGO_PickEm_NA_Warning"		"이 팀은 승자 예측 도전에서 선택할 수 없습니다.\n팀의 스티커가 없습니다."
 		"CSGO_PickEm_HasSticker"        "스티커를 갖고 있습니다"
-		"CSGO_PickEm_Pick_TimeOut"      "승자 예측 도전을 진행할 수 없습니다.\n나중에 다시 시도해 주세요."
+		"CSGO_PickEm_Pick_TimeOut"      "승�� 예측 도전을 진행할 수 없습니다.\n나중에 다시 시도해 주세요."
 		"CSGO_PickEm_Roster_TimeOut"      "팀을 등록하는 데 실패했습니다.\n나중에 다시 시도해 주세요."
 		"CSGO_PickEm_Leaderboards_Inactive"     "승자 예측 도전 친구 순위표는\n대회가 시작된 후 활성화됩니다."
 		"CSGO_PickEm_Leaderboards_PassOrPrime_Message"     "승자 예측 도전은 메이저 대회 관전자 패스를 활성화했거나 프라임 계정의 플레이어라면 누구든지 이용할 수 있습니다. 메이저 대회 관전자 패스를 활성화하면 승자 예측 도전 친구 순위표에 이름을 올릴 수 있는 자격이 주어지고 챔피언 주화를 업그레이드하여 기념품 패키지를 획득할 수 있습니다."
@@ -29430,7 +29842,7 @@
 
 		"CSGO_Journal_Mission_Faq6"             "<b>얼마나 자주 임무를 완수할 수 있나요?</b>\n블러드하운드 작전 참가권으로 두 가지 임무를 곧바로 완수할 수 있습니다. 매일 수행할 수 있는 임무가 하나씩 늘어납니다. \n\n수행할 임무가 떨어졌으면 나중에 다시 확인하세요. 작전을 좀 더 진행하기 전에 카운트다운 타이머가 몇 시간이 남았는지 표시합니다.\n\n<b>어떻게 임무를 수행하나요?</b>\n임무는 특정 게임 모드 및 또는 맵의 공식 매치메이킹을 사용해 완수할 수 있습니다. 어떻게 올바른 매치로 들어가야 할지 확신하지 못한다면 메인 메뉴에 있는 임무를 클릭하고 '플레이'를 선택하세요.\n\n<b>임무를 수행했지만, 진행도이 안 보입니다. 어떻게 된 건가요?</b>\n임무 진행도은 매치 종료에서만 기록합니다. 만약 일찍 떠난다면 진행도을 볼 수 없습니다.\n\n종료할 때까지 있는데도 아직 진행도을 볼 수 없다면 올바른 게임 모드 및 또는 맵에 있는지와 적어도 다른 플레이어 1명이 서버에  있는지 확인하세요.\n\n임무를 진행할 수 있을 때 점수판 아래에 있는 임무 상태 패널은 '활성화'됩니다.\n\n<b>경험치는 어떻게 얻나요?</b>\n공식 서버에서 매치 종료 때 경험치를 획득합니다. 경쟁 매치에서 획득한 경험치는 이긴 라운드에 의해 결정됩니다. 기타 모든 게임 모드에서 획득한 경험치는 점수에 의해 결정됩니다. 그리고 매주 초에 경험치 보너스 부스터를 받습니다. 블러드하운드 작전 중, 임무를 완수함으로써 추가 경험치를 획득할 수 있습니다.\n\n<b>등급을 받기 위해 충분한 경험치를 획득하면 어떻게 되나요?</b>\n등급을 얻을 때마다 귀하의 CS:GO 프로필 등급도 올라가고 새로운 프로필 아이콘을 받습니다. 그리고, 매주 받은 첫 등급은 무기 방출 획득으로 보상합니다. 블러드하운드 작전 참가권이 있다면 귀하의 무기 방출 획득은 블러드하운드 작전 전용 무기 수집품 중 하나를 받습니다: 코블, 무기창고, 오버패스, 신과 괴물, 떠오르는 태양과 찹 샵.\n\n<b>경험치를 획득하지 못하고 있습니다. 어떻게 된 건가요?</b>\n공식 서버에서만 경험치를 획득할 수 있고 매치 종료 때만 획득할 수 있습니다. 매치를 일찍 떠난다면 경험치를 획득하지 못합니다. 경험치는 서버에 적어도 한 명의 다른 인간 플레이어가 있을 때 획득할 수 있습니다.\n\n<b>프로필 등급을 올릴 수 있는 횟수에 대한 제한이 있나요?</b>\n무제한입니다. 얼마만큼 플레이하느냐에 상관없이 새로운 등급을 향해 항상 경험치 획득을 계속할 수 있습니다.\n\n<b>무기 방출은 어떻게 획득하죠?</b>\n무기 방출을 획득하는 길은 단 한 가지입니다. 주당 한 개의 무기 방출을 획득할 수 있습니다. 방출은 주중 처음으로 등급을 올릴 때 획득합니다. 레벨 진행도 막대는 획득한 무기를 받을 자격이 되면 표시합니다."
 
-		"CSGO_Journal_Mission_Faq7"             "<b>얼마나 자주 임무를 완수할 수 있나요?</b>\n들불 작전 주화로 두 가지 임무를 곧바로 완수할 수 있습니다. 매일 수행할 수 있는 임무가 하나씩 늘어납니다.\n\n수행할 임무가 떨어졌으면 나중에 다시 확인하세요. 작전을 좀 더 진행하기 전에 카운트다운 타이머가 몇 시간이 남았는지 표시합니다.\n\n<b>어떻게 임무를 수행하나요?</b>\n임무는 특정 게임 모드 및 또는 맵의 공식 매치메이킹을 사용해 완수할 수 있습니다. 어떻게 올바른 매치로 들어가야 할지 확신하지 못한다면 메인 메뉴에 있는 임무를 클릭하고 '플레이'를 선택하세요.\n\n<b>임무를 수행했지만, 진행도이 안 보입니다. 어떻게 된 건가요?</b>\n임무 진행도은 매치 종료에서만 기록합니다. 만약 일찍 떠난다면 진행도을 볼 수 없습니다.\n\n종료할 때까지 있는데도 아직 진행도을 볼 수 없다면 올바른 게임 모드 및 또는 맵에 있는지와 적어도 다른 플레이어 1명이 서버에  있는지 확인하세요.\n\n임무를 진행할 수 있을 때 점수판 아래에 있는 임무 상태 패널은 '활성화'됩니다.\n\n<b>쌍둥이 작전 임무를 리플레이할 수 있나요?</b>\n예, 수호자 또는 공격 임무를 완수한 후 임무를 원하는 만큼 자주 리플레이할 수 있습니다. 임무를 리플레이하려면 작전 일지에 있는 쌍둥이 작전 맵을 방문해서 완수한 임무를 선택하세요. 귀하의 가장 높은 점수는 해당 임무의 친구 순위표에 표시됩니다.\n\n<b>맹공 임무는 무엇인가요?</b>\n맹공 임무는 모든 작전 주화 보유자에게 특정 시간 동안 진행하는 글로벌 이벤트입니다. 맹공 임무 중 특정 임무 액션을 실행할 때 증가한 경험치를 획득할 수 있습니다. 맹공 임무는 완수할 수 있는 작전 임무 개수에 영향을 주지 않습니다.\n\n<b>들불 작전 무기 방출은 어떻게 획득하나요?</b>\n매주 첫 등급을 얻기 위해 충분한 경험치를 획득했을 때 무기 방출을 획득합니다. 들불 작전 주화가 있다면 들불 작전 무기 수집품 중 하나를 받습니다: 코블, 무기창고, 오버패스, 신과 괴물, 떠오르는 태양과 찹 샵."
+		"CSGO_Journal_Mission_Faq7"             "<b>얼마나 자주 임무를 완수할 수 있나요?</b>\n들불 작전 주화로 두 가지 임무를 곧바로 완수할 수 있습니다. 매일 수행할 수 있는 임무가 하나씩 늘어납니다.\n\n수행할 임무가 떨어졌으면 나중에 다시 확인하세요. 작전을 좀 더 진행하기 전에 카운트다운 타이머가 몇 시간이 남았는지 표시합니다.\n\n<b>어떻게 임무를 수행하나요?</b>\n임무는 특정 게임 모드 및 또는 맵의 공식 매치메이킹을 사용해 완수할 수 있습니다. 어떻게 올바른 매치로 들어가야 할지 확신하지 못한다면 메인 메뉴에 있는 임무를 클릭하고 '플레이'를 선택하세요.\n\n<b>임무를 수행했지만, 진행도이 안 보입니다. 어떻게 된 건가요?</b>\n임무 진행도은 매치 종료에서만 기록합니다. 만약 일찍 떠난다면 진행도을 볼 수 없습니다.\n\n종료할 때까지 있는데도 아직 진행도을 볼 수 없다면 올바른 게임 모드 및 또는 맵에 있는지와 적어도 다른 플레이어 1명이 서버에  있는지 확인하세요.\n\n임무를 진행할 수 있을 때 점수판 아래에 있는 임무 상태 패널은 '활성화'됩니다.\n\n<b>쌍둥이 작전 임무를 리플레이할 수 있나요?</b>\n예, 수호자 또는 공격 임무를 완수한 후 임무를 원하는 만큼 자주 리플레���할 수 있습니다. 임무를 리플레이하려면 작전 일지에 있는 쌍둥이 작전 맵을 방문해서 완수한 임무를 선택하세요. 귀하의 가장 높은 점수는 해당 임무의 친구 순위표에 표시됩니다.\n\n<b>맹공 임무는 무엇인가요?</b>\n맹공 임무는 모든 작전 주화 보유자에게 특정 시간 동안 진행하는 글로벌 이벤트입니다. 맹공 임무 중 특정 임무 액션을 실행할 때 증가한 경험치를 획득할 수 있습니다. 맹공 임무는 완수할 수 있는 작전 임무 개수에 영향을 주지 않습니다.\n\n<b>들불 작전 무기 방출은 어떻게 획득하나요?</b>\n매주 첫 등급을 얻기 위해 충분한 경험치를 획득했을 때 무기 방출을 획득합니다. 들불 작전 주화가 있다면 들불 작전 무기 수집품 중 하나를 받습니다: 코블, 무기창고, 오버패스, 신과 괴물, 떠오르는 태양과 찹 샵."
 
 		"CSGO_Journal_Mission_Faq8"             "<b>히드라 작전 주화를 업그레이드하려면 어떻게 해야 하나요?</b>\n작전 별을 획득하여 히드라 작전 주화를 업그레이드하세요. 동 주화를 은 주화로 업그레이드하려면 별 5개, 금 주화로 업그레이드하려면 18개, 다이아몬드 주화로 업그레이드하려면 별 25개가 필요합니다.\n\n히드라 작전 캠페인에서 수호자 임무를 완수하거나 히드라 이벤트에 참여해 수호자 경험치 또는 이벤트 경험치를 쌓으면 각각 별을 획득할 수 있습니다. 작전 별 1개를 획득하는 데는 수호자 경험치 2,000점 또는 이벤트 경험치 2,000점이 필요하며, 수호자 경험치로는 최대 별 7개, 이벤트 경험치로는 최대 별 18개를 획득할 수 있습니다.\n\n<b>수호자 경험치 및 이벤트 경험치는 어떻게 하면 쌓을 수 있나요?</b>\n수호자 임무를 완수하면 수호자 경험치를 받습니다. 수호자 임무는 계속 반복해서 플레이할 수 있으나, 수호자 경험치는 한 번만 받을 수 있습니다.\n\n매주 열리는 히드라 이벤트에 참여하면 이벤트 경험치를 받을 수 있습니다. 이벤트에 처음 참여하는 플레이어가 받을 수 있는 최대 이벤트 경험치는 2,000점이며, 최대 경험치는 매주 2,000점씩 추가됩니다(최대 36,000점). 이벤트 경험치를 한 번에 모두 받을 수도 있고 조금씩 쌓아갈 수도 있습니다. 이벤트를 늦게 시작했거나 몇 주 정도 쉬었다고 해도 걱정할 필요 없습니다. 각 플레이어가 받을 수 있는 최대 이벤트 경험치는 동일합니다.\n\n<b>히드라 수호자 임무를 다시 플레이할 수 있나요?</b>\n\n네. 히드라 임무를 완수한 뒤에도 계속 반복해서 임무를 플레이할 수 있습니다. 임무를 다시 플레이하려면 작전 일지의 히드라 캠페인 맵에서 완수한 임무를 선택하세요. 해당 임무의 친구 순위표에서 귀하의 최고 점수를 볼 수 있습니다.\n\n<b>작전 히드라 무기와 히드라 상자 드롭은 어디서 획득할 수 있나요?</b>\n이벤트 경험치를 쌓아서 작전 별을 획득하면 아이템을 1개 무료로 받을 수 있습니다. 이 아이템은 히드라 작전 상자와 작전 무기 드롭 중 하나입니다. 또한, 수호자 경험치를 쌓아서 작전 별을 획득하면 작전 무기 드롭을 받을 수 있습니다.\n\n별을 획득한 매치에서 일반 드롭을 획득한 경우 매치를 하나 더 완료하면 작전 아이템을 받을 수 있습니다. 작전 무기 드롭은 코블, 무기창고, 오버패스, 신들과 괴물들, 떠오르는 태양 및 찹 샵 작전 수집품 중 하나로 구성되어 있습니다.\n\n수호자 임무를 완료하고 이벤트에 참여하면 총 16개의 작전 무기 드롭과 9개의 히드라 작전 상자를 획득할 수 있습니다."
 		
@@ -29550,7 +29962,7 @@
 		"Panorama_PauseMenu_ExitGameConfirmation_MessageQueuedSurvival"			"매치 도중에 퇴장하면 남은 자리를 다른 플레이어가 대신 채울 수 없으며 메인 메뉴에서 이 매치로 다시 연결할 수 없습니다. 지금 종료할까요?"
 
 		"SFUI_MainMenu_Queue_Abandon_Title"				"매치를 포기하시겠습니까?"
-		"SFUI_MainMenu_Queue_Abandon_Message"			"매치를 포기해도 남은 자리를 다른 플레이어가 대신 채울 수는 없습니다. 메인 메뉴에서 다시 매치에 접속할 수는 있지만, 게임을 포기하면 경쟁 모드 매치메이킹 쿨다운이 적용됩니다. 연결을 종료할까요?"
+		"SFUI_MainMenu_Queue_Abandon_Message"			"매치를 포기해도 남은 자리를 다른 플레이어가 대신 채울 수는 없습니다. 메인 메뉴에서 다시 매치에 접속할 수는 있지만, 게임을 포기하면 경쟁 모드 매치메이킹 쿨다운이 적용됩니���. 연결을 종료할까요?"
 
 		"SFUI_PauseMenu_SubPanelNav"					"${cancel} 뒤로"
 
@@ -29808,7 +30220,7 @@
 		"SFUI_HowToPlay_IntroductionContents"			"<font size='24'>게임 모드</font><br/>Counter-Strike에는 고전 캐주얼, 고전 경쟁, 무기 레이스 그리고 폭파의 4가지 모드가 있습니다.<br/><br/><font size='30'>고전</font><br/>2가지 클래식 모드의 기본 규칙은 같습니다. 인질 또는 폭파 맵에서 게임이 진행됩니다. 두 맵의 각 매치는 시간제한이 있는 다수의 라운드로 나뉩니다. 적을 모두 제거하거나 맵의 목표를 완수하는 팀이 승리하게 됩니다. 인질 맵에서 대테러부대의 목표는 인질의 위치를 파악하고 구출 구역으로 호송하는 것입니다. 테러리스트는 반드시 인질이 구출되는 것을 막아야 합니다. 양 팀 모두 인질에게 부상을 입히면 감점을 받으며, 다음 라운드에서 무기와 장비를 구매하는 데 사용할 자금이 줄어듭니다. 폭파 맵에서 테러리스트의 목표는 두 곳의 폭파 지점 중 한 곳에 폭탄을 설치하고 폭발시키는 것입니다. 대테러부대는 반드시 폭파 지점에 폭탄이 설치되는 것을 막거나 이미 폭파 지점에 폭탄이 설치된 경우 폭탄을 해체해야 합니다.<br/><br/>두 클래식 모드는 크게 4가지 방식으로 달라집니다. 경쟁 매치 모드에서는 팀원 사격 및 팀원 충돌이 활성화되고, 방탄복과 폭탄 해체 키트(캐주얼 모드에서는 자동 지급)를 반드시 구매해야 합니다. 또한, 각 매치는 10라운드가 아닌 30라운드까지 이어집니다.<br/><br/><font size='30'>무기 레이스</font><br/>무기 레이스 모드는 하나의 라운드로 이루어지며, 다른 3가지 모드와 달리 사망한 플레이어가 즉시 부활합니다. 부활하면 5초간 또는 공격을 시도할 때까지 무적 상태입니다. 무기 레이스 모드에서는 무기와 장비를 구매할 수 없습니다. 대신, 모든 플레이어가 같은 무기로 시작하며, 적을 처치할 때마다 새로운 무기를 획득합니다. 마지막으로 획득하게 되는 무기는 황금 칼이며, 황금 칼로 가장 먼저 적을 처치하는 플레이어가 승리합니다.<br/><br/><font size='30'>폭파</font><br/>폭파 모드는 고전 및 무기 레이스 모드의 게임 규칙이 혼합된 모드로, 진행 속도가 빠른 게임 모드입니다. 이 모드에서는 다수의 라운드로 이루어진 2개의 매치가 진행됩니다. 첫 매치 종료 시 팀이 뒤바뀝니다. 상대 팀을 전멸하거나 폭탄을 폭발 또는 해체하는 팀이 승리합니다. 무기와 장비는 구매할 수 없습니다. 대신, 적을 제거한 경우 다음 라운드가 시작할 때 새로운 무기를 획득합니다. 또한, 한 라운드에서 처음으로 적을 처치한 이후 추가로 적을 처치할 때마다 보너스 수류탄을 획득합니다. 가장 많은 라운드를 이긴 팀이 매치에서 승리합니다."
 
 		"SFUI_HowToPlay_GettingStartedLabel"			"시작하기"
-		"SFUI_HowToPlay_GettingStartedContents"			"<font size='24'>팀 선택</font><br/>팀에 남은 자리가 있다면 대테러부대나 테러리스트 중에서 정할 수 있습니다. '자동 선택' 옵션을 고르면 팀이 무작위로 결정됩니다. 각 팀은 목표가 다르며 쓸 수 있는 무기도 다릅니다.<br/><br/><font size='24'>점수</font><br/>${togglescores} 키를 눌러 점수판에서 자신과 팀 그리고 상대 팀의 개별 점수를 확인 수 있습니다. 점수에 영향을 주는 행위:<br/>폭탄 해체 6점<br/>적 처치 2점<br/>폭탄 설치 2점<br/>인질 구출 2점<br/>처치 도움 1점<br/>자살 -2점<br/>인질 처치 -2점<br/>팀원 처치 -2점<br/><br/><font size='24'>보상</font><br/>도전 과제, 통계, 보상 및 순위표를 바탕으로 개인 성과를 확인할 수 있습니다. 도전 과제와 보상을 획득하고 통계를 저장하고 순위표에 기록되기 위해서는 반드시 Steam 프로필에 로그인해야 합니다.<br/><br/><font size='24'>봇으로 오프라인 플레이</font><br/>오프라인 모드에서는 컴퓨터가 조종하는 적을 상대하면서 자신이 원하는 방식으로 게임을 탐험할 수 있습니다. 상대 봇의 스킬 수준을 설정하여 오프라인 모드의 난이도를 조정할 수 있습니다.<br/>"
+		"SFUI_HowToPlay_GettingStartedContents"			"<font size='24'>팀 선택</font><br/>팀에 남은 자리가 있다면 대테러부대나 테러리스트 중에서 정할 수 있습니다. '자동 선택' 옵션을 고르면 팀이 무작위로 결정됩니다. 각 팀은 목표가 다르며 쓸 수 있는 무기도 다릅니다.<br/><br/><font size='24'>점수</font><br/>${togglescores} 키를 ��러 점수판에서 자신과 팀 그리고 상대 팀의 개별 점수를 확인 수 있습니다. 점수에 영향을 주는 행위:<br/>폭탄 해체 6점<br/>적 처치 2점<br/>폭탄 설치 2점<br/>인질 구출 2점<br/>처치 도움 1점<br/>자살 -2점<br/>인질 처치 -2점<br/>팀원 처치 -2점<br/><br/><font size='24'>보상</font><br/>도전 과제, 통계, 보상 및 순위표를 바탕으로 개인 성과를 확인할 수 있습니다. 도전 과제와 보상을 획득하고 통계를 저장하고 순위표에 기록되기 위해서는 반드시 Steam 프로필에 로그인해야 합니다.<br/><br/><font size='24'>봇으로 오프라인 플레이</font><br/>오프라인 모드에서는 컴퓨터가 조종하는 적을 상대하면서 자신이 원하는 방식으로 게임을 탐험할 수 있습니다. 상대 봇의 스킬 수준을 설정하여 오프라인 모드의 난이도를 조정할 수 있습니다.<br/>"
 		"SFUI_HowToPlay_ClassicLabel"					"고전 규칙"
 		"SFUI_HowToPlay_ClassicContents"				"<font size='24'>승리</font><br/>고전 매치는 제한된 시간의 라운드로 이루어집니다. 라운드에서 승리하는 방법은 두 가지가 있습니다. 맵의 목표를 완수하거나 적 팀을 모두 제거하는 것입니다. 라운드 승리를 더 많이 거둔 팀이 매치에서 승리합니다.<br/><br/><font size='30'>장비 구매</font><br/>게임 시작 시, 기본 장비와 일정 양의 자금이 주어집니다. 각 라운드는 구매 구역에서 시작합니다. 구매 시간은 45초이며 이 시간이 지나면 다음 라운드가 시작할 때까지 장비를 구매할 수 없습니다.<br/><br/><font size='30'>자금 확보</font><br/>적을 처치하거나, 임무 목표를 달성하거나, 라운드에서 승리하면 자금을 받습니다. 팀원이나 인질을 사격할 경우 소지한 자금이 줄어듭니다.<br/><br/><font size='30'>사망과 관전</font><br/>체력을 회복할 수 있는 방법은 없습니다. 체력 표시가 0이 되면 다음 라운드가 시작할 때까지 사망 상태가 됩니다. 사망하면 라운드에서 구매한 모든 장비를 잃습니다. 다음 라운드가 시작할 때까지 부활할 수 없습니다. 사망한 후 다음 라운드를 기다리는 동안 관전자 모드를 이용해 다른 플레이어의 시점으로 게임을 볼 수 있습니다. 팀 내에 봇이 남아있다면, 관전자 모드에 있는 동안 봇을 조종할 수 있습니다.<br/><br/><font size='30'>인질 구출</font><br/>대테러부대로 플레이하는 경우, 인질 구출 맵에서의 목표는 인질을 구출하는 것입니다. 인질을 구출하려면, 인질에게 가까이 다가가 ${+use} 버튼을 눌러 플레이어를 따라오게 하여 구출 구역까지 인질을 호송하면 됩니다. 구출 구역은 미니맵 상에 H로 표시됩니다. 또한 인질 구출 구역 안에 있을 때에는 HUD의 상단 왼쪽에 인질 구출 구역 아이콘<img src = 'hud_hostage_zone_icon.png' width='24' height='24'/>이 표시됩니다. 모든 인질을 구출 구역으로 호송하거나 모든 테러리스트가 사망하면 대테러부대가 라운드에서 승리합니다. 양 팀은 상대 팀을 모두 처치했을 때에도 승리합니다. 모든 인질이 사망한 경우, 적 팀을 모두 처치해야만 해당 라운드에서 승리할 수 있습니다. 인질에게 부상을 입히거나, 인질을 처치하면 점수와 자금을 잃습니다.<br/><br/><font size='30'>폭탄 설치와 해체</font><br/>폭파 미션 맵에서 테러리스트 팀은 폭탄을 설치하고 폭파해야 합니다. 대테러부대 팀은 테러리스트 팀을 저지해야 합니다. 폭탄은 테러리스트 중 한 명에게 임의로 주어집니다. 폭탄을 소유하고 있는 경우, 폭탄 운반자 표시<img src = 'c4_inventory.png' width='24' height='24'/>가 HUD와 점수판에 있는 플레이어의 이름 옆에 표시됩니다. 두 폭파 지점 중 한 곳으로 폭탄을 가져가 설치해야 합니다. 두 폭파 지점은 A와 B로 표시됩니다. 폭파 지점 표시가 맵에서 곳곳에 표시되어 있으므로 쉽게 찾아갈 수 있습니다. 또한 미니맵 레이더상에도 표시됩니다. 깜박거리는 폭탄 표시<img src = 'hud_bombzone.png' width='24' height='24'/>는 플레이어가 폭파 지점 내에 있을 때 HUD에 표시됩니다. ${+use} 버튼을 눌러 폭탄을 설치하고, 대테러부대가 폭탄을 해체하는 것을 저지해야 합니다. 대테러부대는 테러리스트를 전부 제거하거나 폭탄을 해체하면 승리합니다. 폭탄을 해체하려면, 폭탄에 가까이 다가간 후 폭탄이 해체되었다는 알림이 나올 때까지 ${+use} 버튼을 누르고 있어야 합니다. 해체 키트를 소유하고 있는 경우, 해체 키트 표시 <img src = 'hud_defuser.png' width='24' height='24'/>가 HUD와 점수판에 있는 플레이어의 이름 옆에 표시됩니다. 해체 키트는 폭탄을 해체하는 데 걸리는 시간을 줄여 주지만, 반드시 필요한 것은 아닙니다.<br/>"
 
@@ -29985,7 +30397,7 @@
 		"CSGO_Collectible_Desc_GlobalGeneral2017"	"2017년에 뛰어난 무공과 업적을 남겼기에 수여합니다."
 
 		"CSGO_Collectible_GlobalGeneral2018"		"2018년 무공 훈장"
-		"CSGO_Collectible_Desc_GlobalGeneral2018"	"2018년에 뛰어난 무공과 업��을 남겼기에 수여합니다."
+		"CSGO_Collectible_Desc_GlobalGeneral2018"	"2018년에 뛰어난 무공과 업적을 남겼기에 수여합니다."
 
 		"CSGO_Collectible_GlobalGeneral2019"		"2019년 무공 훈장"
 		"CSGO_Collectible_Desc_GlobalGeneral2019"	"2019년에 뛰어난 무공과 업적을 남겼기에 수여합니다."
@@ -30099,7 +30511,7 @@
 		"SFUI_Elevated_Status_Update_Btn"			"전화번호 변경"
 		"SFUI_Elevated_Status_Loading"				"Steam 연결중..."
 		"SFUI_Elevated_Status_Error"				"본인의 계정 현황을 받아오지 못했습니다. 잠시 후에 다시 시도해주세요."
-		"SFUI_Elevated_Status_NoPhone"				"프라임 계정에는 전화번호가 연동되어 있는 Steam 계정이 필요합니다. 본인의 것이 확실한 전화번호를 Steam 계정에 추가한 뒤 다시 시도하세요."
+		"SFUI_Elevated_Status_NoPhone"				"프라임 계정에는 전화번호가 연동되어 있��� Steam 계정이 필요합니다. 본인의 것이 확실한 전화번호를 Steam 계정에 추가한 뒤 다시 시도하세요."
 		"SFUI_Elevated_Status_NoPhone_pw"			"프라임 계정은 본인 인증을 완료한 Perfect World 계정만 사용할 수 있습니다. 본인 인증을 완료한 뒤 다시 시도하세요."
 		"SFUI_Elevated_Status_NoPhone_and_buy"		"프라임 계정에는 전화번호가 연동되어 있는 Steam 계정이 필요합니다. 본인의 것이 확실한 전화번호를 Steam 계정에 추가한 뒤 다시 시도하거나 프라임 계정 업그레이드를 구매하세요."
 		"SFUI_Elevated_Status_Commit"				"본인의 전화번호가 프라임 계정에 사용하려는 것이 맞는지 확인하세요."
@@ -30135,6 +30547,7 @@
 		"elevated_status_btn"							"프라임 구매 {s:price}"
 		"elevated_status_btn_no_price"					"프라임 구매"
 		"elevated_status_ad_drop" 						"프라임 계정 업그레이드를 구매하여 다음 아이템 드롭을 획득하세요."
+		"elevated_status_ad_xpshop" 					"패스를 구매하려면 프라임 계정으로 업그레이드해야 합니다."
 		"popup_elevated_status_title"					"프라임 계정 업그레이드"
 		"popup_elevated_status_desc"					"계정을 프라임으로 업그레이드하여 프라임 혜택을 받으세요."
 		"popup_elevated_status_xp_title"				"경험치 획득하기"
@@ -30156,8 +30569,43 @@
 		"Panorama_Elevated_Status_Cooldown"			"이미 다른 Counter-Strike 계정에서 Steam에 연동된 전화번호를 사용 중입니다.\n<b>{s:cooldowntime}</b> 이후 현재 로그인한 계정으로 연동을 전환할 수 있습니다."
 		"Panorama_Elevated_Status_AccCooldown"		"Counter-Strike 계정이 최근 다른 전화번호를 이용해 프라임 계정으로 업그레이드되었습니다.\n<b>{s:cooldowntime}</b> 이후 새롭게 Steam에 연동된 전화번호를 이용해 계정을 프라임 계정으로 업그레이드할 수 있습니다."
 
-	
-		
+		"xpshop_upsell_desc"						"<span class=\"text-color-white\"><b>패스를 획득하고 활성화하세요.</b></span><br>패스당 {d:max-stars}개의 무기고 크레딧을 획득하고 원하는 보상으로 교환하세요."
+		"xpshop_upsell_mainmenu_1"					"무기고 패스"
+		"xpshop_upsell_mainmenu_2"					"새로운 무기 수집품 3개, 장식품, 갤러리 상자 등을 살펴보세요."
+		"xpshop_upsell_btn"							"패스 받기"
+		"xpshop_upsell_tooltip"						"패스에 대한 자세한 정보"
+
+		"xpshop_pass_activate"						"패스 활성화"
+		"xpshop_pass_activate_open_armory"			"무기고를 열어 활성화하세요."
+		"xpshop_pass_activate_desc"					"패스를 활성화하여 무기고 크레딧을 획득하세요."
+
+		"xpshop_pass_extra_pass"					"추가 패스 받기"
+		"xpshop_track_progress"						"패스 진행도"
+		"xpshop_track_mini_stars_counter"			"{d:stars-earned}/{d:max-stars}"
+		"xpshop_next_credit"						"다음 크레딧"
+		"xpshop_pass_credits"						"획득한 크레딧"
+		"xpshop_balance"							"남은 크레딧"
+		"xpshop_balance_caps"						"남은 크레딧"
+		"xpshop_clear_track"						"제거"
+		"xpshop_popup_clear_track_title"			"완료한 패스 제거"
+		"xpshop_popup_clear_n_tracks:p{completed_tracks_count}"		"완료한 패스 {d:completed_tracks_count}개 제거"
+		"xpshop_popup_clear_n_tracks_text:p{completed_tracks_count}"	"이 패스로 얻을 수 있는 모든 무기고 크레딧을 획득했습니다.<br><br>이 패스를 제거하면 새로운 무기고 패스를 활성화할 수 있으며 획득한 무기고 크레딧은 제거되지 않습니다."
+		"xpshop_redeem_item_desc" 					"<b>{s:name}</b>에 있는 아이템 중 1개를 획득하세요."
+		"xpshop_redeem_item_desc_limitedtime" 		"<b>{s:name}</b> 획득"
+		"xpshop_redeem_item_desc_crate"				"<b>{s:name}</b> 획득"
+		"xpshop_redeem_use_stars"					"<b>{s:cost_stars}</b> 사용"
+		"xpshop_redeem_use_confirm_item"			"무기고 크레딧 <b>{s:cost_stars}</b>개를 사용하여 <img src='file://{images}/icons/ui/xpshop_star.svg' class='xpshop-label-star' /><b>{s:name}</b> 아이템 중 1개 획득"
+		"xpshop_redeem_use_confirm_item_limitedtime" "무기고 크레딧 <b>{s:cost_stars}</b>개를 사용하여 <img src='file://{images}/icons/ui/xpshop_star.svg' class='xpshop-label-star' /><b>{s:name}</b> 1개 획득"
+		"xpshop_redeem_use_confirm_item_crate"		"무기고 크레딧 <b>{s:cost_stars}</b>개를 사용하여 <img src='file://{images}/icons/ui/xpshop_star.svg' class='xpshop-label-star' /><b>{s:name}</b> 획득"
+		"xpshop_redeem_flags_notice_2"				"* 이 아이템은 일주일 동안 거래 및 판매할 수 없습니다."
+		"xpshop_redeem_confirm_action"				"아이템 획득"
+		"xpshop_redeem_not_enough_stars:p{stars_needed}"	"무기고 크레딧 {d:stars_needed}개가 더 필요합니다. 활성화된 패스로 플레이하여 무기고 크레딧을 획득하세요."
+		"xpshop_redeem_need_pass_tooltip"			"패스를 획득하고 활성화하세요. 무기고 크레딧을 최대 {d:max-stars}개까지 획득하고 무기고 아이템으로 교환하세요."
+		"xpshop_track_tooltip"						"게임을 플레이하고 경험치를 획득하여 다음 무기고 크레딧을 획득하세요."
+		"xpshop_track_complete_tooltip"				"이 무기고 패스의 크레딧을 모두 획득했습니다."
+		"xpshop_howto"								"게임을 플레이하고 경험치를 획득하여 무기고 크레딧을 획득하세요."
+		"xpshop_key_warning"						"개봉하려면 구매한 <b>{s:keyname}</b> 열쇠가 필요합니다."
+
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Message Box
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -30619,7 +31067,7 @@
 		"SFUIHUD_InfoPanel_EquippingExoJump" 			"엑소점프 장비를 착용하는 중입니다."
 		"SFUIHUD_InfoPanel_Spec_EquippingExoJump" 		"{s:s1} 님이 엑소점프 장비를 착용하는 중입니다."
 
-		"SFUIHUD_InfoPanel_DisarmingBumpMine_Other"		"다른 플레���어가 이미 이 범프 지뢰를 줍고 있습니다."
+		"SFUIHUD_InfoPanel_DisarmingBumpMine_Other"		"다른 플레이어가 이미 이 범프 지뢰를 줍고 있습니다."
 		"SFUIHUD_InfoPanel_DisarmingBumpMine" 			"범프 지뢰를 줍고 있습니다."
 		"SFUIHUD_InfoPanel_Spec_DisarmingBumpMine" 		"{s:s1} 님이 범프 지뢰를 줍고 있습니다."
 		"SFUIHUD_InfoPanel_DisarmingBumpMine_CantCarry" 		"더 이상 범프 지뢰를 소지할 수 없습니다."
@@ -30779,7 +31227,7 @@
 		"SFUI_SpecStat_First_Half"			"전반전"
 		"SFUI_SpecStat_Second_Half"			"후반전"
 
-		"HudSpecPlayer_WeaponName"				"<span class=\"possessive-player-name\">{s:possessive_player_name}</span><br><span class=\"weapon-name\">{s:weapon_name}</span><br><font color=\"{s:rarity_color}\"><span class=\"weapon-kit-name\">{s:weapon_kit_name}</span><br><span class=\"weapon-name-custom\">\"{s:weapon_name_custom}\"</span></font>"
+		"HudSpecPlayer_WeaponName"				"<span class=\"possessive-player-name\">{s:possessive_player_name}</span><br><span class=\"weapon-name\">{s:weapon_name}</span><br><font color=\"{s:rarity_color}\"><span class=\"weapon-kit-name\">{s:weapon_kit_name}</span><br><span class=\"weapon-name-custom\">{s:weapon_name_custom}</span></font>"
 
 		"heatmap_t"								"T"
 		"heatmap_ct"							"CT"
@@ -30885,7 +31333,7 @@
 
 		"SFUI_WinPanel_rank_name_string"	"%s1<font color='#CCCCCC'>(%s2)</font>"
 
-		"SFUI_WinPanel_medal_awarded"		"이번 라운드에서 도전 과제를 달성���습니다!"
+		"SFUI_WinPanel_medal_awarded"		"이번 라운드에서 도전 과제를 달성했습니다!"
 
 		// tell them how many needed in a rank for a catagory
 		"SFUI_WinPanelProg_need_in_catagory"		"다음 랭크까지 %s2 관련 도전 과제 <font color='#ffffff'><b>%s1</b></font>개 달성 필요"
@@ -30973,7 +31421,7 @@
 		"SFUI_Notice_Defusing_Bomb_Without_Defuse_Kit"	"해체 키트 없이 폭탄 해체 중."
 		"SFUI_Notice_C4_Plant_At_Bomb_Spot"				"C4는 폭파 지점에만 설치할 수 있습니다!"
 		"SFUI_Notice_C4_Plant_Must_Be_On_Ground"		"C4를 설치하려면 땅 위에 서 있어야 합니다."
-		"SFUI_Notice_C4_Arming_Cancelled"				"설치가 중단되었습니다. C4는 폭파 지역에만 설치할 수 있습니다."
+		"SFUI_Notice_C4_Arming_Cancelled"				"��치가 중단되었습니다. C4는 폭파 지역에만 설치할 수 있습니다."
 		"SFUI_Notice_C4_Activated_At_Bomb_Spot"			"C4는 목표 지점에서만 설치할 수 있습니다."
 		"SFUI_Notice_Player_DisconnectedTooLong1min"	" %s1 님이 도중에 퇴장했습니다. 자동으로 매치를 포기하기 전까지 1분 남았습니다.\n"
 		"SFUI_Notice_Player_DisconnectedTooLong2min"	" %s1 님이 도중에 퇴장했습니다. 자동으로 매치를 포기하기 전까지 2분 남았습니다.\n"
@@ -31592,6 +32040,8 @@
 		"SFUI_Settings_Resolution"			"해상도"
 		"SFUI_Settings_Refresh"				"새로 고침 빈도"
 
+		"SFUI_Settings_Display"				"디스플레이"
+		"SFUI_Settings_Display_Choice"		"모니터 {d:displayNumber} - {s:displayName}"
 		"SFUI_Settings_Display_Mode"		"화면 모드"
 		"SFUI_Settings_Fullscreen"			"전체 화면"
 		"SFUI_Settings_Windowed"			"창 모드"
@@ -31713,7 +32163,7 @@
 		"SFUI_Settings_Pan_Behavior"			"왼쪽/오른쪽 아이솔레이션"
 		"SFUI_Settings_Pan_Behavior_Tip"		"<b>0% - 물리적인 위치(기본값):</b> 플레이어의 물리적인 위치와 사운드 소스의 위치를 가장 정확하게 반영하여 패닝(왼쪽/오른쪽)된 사운드를 구현합니다.<br/><br/><b>100% - 절연(Isolation L/R):</b> 사운드의 위치가 측면일 경우, 왼쪽/오른쪽 채널의 블렌딩이 최소화되면서 사운드가 한쪽 방향으로 하드 패닝 됩니다. 즉, 왼쪽이나 오른쪽에서 더욱 강하고 선명한 사운드가 구현되지만 플레이어의 위치에 따라 특정 각도에서는 정확한 사운드의 위치를 파악하지 못할 수 있습니다. 레거시 사운드 패닝을 선호하는 플레이어에게 적합합니다."
 		"SFUI_Settings_Audio_FOV"			"시야 관점 기반 사운드 보정"
-		"SFUI_Settings_Audio_FOV_Tip"			"<b>켜기(기본값):</b> 플레이어가 화면으로 보는 시야를 기반으로 렌더링하여 정확한 사운드를 구현합니다. 사운드의 위치가 플레이어 시야의 가장자리에 있으면, 조금 더 가까운 거리에서 들리는 듯한 사운드를 구현합니다. 사운드의 위치가 화면 밖에 있고 측면에 있으면, 왼쪽 또는 오른쪽으로 적절하게 패닝 된 사운드를 구현합니다.<br/><br/><b>끄기:</b> 사운드의 위치가 플레이어 시야의 가장자리에 있으면, 위치에 따라 왼쪽 또는 오른쪽으로 하드 패닝 된 사운드를 구현합니다. 화면과 가까운 거리에서 플레이하거나 웨어러블 스크린을 사용하거나 레거시 사운드 엔진을 선호하는 플레이어에게 적합합니다. 특정 각도에서는 정확한 사운드의 위치를 파악하지 못할 수 있습���다."
+		"SFUI_Settings_Audio_FOV_Tip"			"<b>켜기(기본값):</b> 플레이어가 화면으로 보는 시야를 기반으로 렌더링하여 정확한 사운드를 구현합니다. 사운드의 위치가 플레이어 시야의 가장자리에 있으면, 조금 더 가까운 거리에서 들리는 듯한 사운드를 구현합니다. 사운드의 위치가 화면 밖에 있고 측면에 있으면, 왼쪽 또는 오른쪽으로 적절하게 패닝 된 사운드를 구현합니다.<br/><br/><b>끄기:</b> 사운드의 위치가 플레이어 시야의 가장자리에 있으면, 위치에 따라 왼쪽 또는 오른쪽으로 하드 패닝 된 사운드를 구현합니다. 화면과 가까운 거리에서 플레이하거나 웨어러블 스크린을 사용하거나 레거시 사운드 엔진을 선호하는 플레이어에게 적합합니다. 특정 각도에서는 정확한 사운드의 위치를 파악하지 못할 수 있습니다."
 		"SFUI_Settings_Audio_FOV_Off"			"끄기"
 		"SFUI_Settings_Audio_FOV_On"			"켜기"
 
@@ -31812,11 +32262,14 @@
 		"SFUI_Settings_HudTelemetry_Ping" "핑 표시"
 		"SFUI_Settings_HudTelemetry_Ping_Info" "서버 왕복 지연 시간을 밀리초 단위로 표시합니다."
 
-		"SFUI_Settings_HudTelemetry_PacketMisdelivery" "패킷 손실 또는 전송 오류 표시"
-		"SFUI_Settings_HudTelemetry_PacketMisdelivery_Info" "손실되거나 전송 순서 오류가 발생한 패킷의 비율을 표시합니다.\n서버에 대한 업스트림 및 다운스트림 속도가 모두 표시됩니다.\n\n전송 순서 오류는 자동으로 수정될 수 있습니다. 자동으로 수정되지 않은 전송 오류만 포함됩니다."
+		"SFUI_Settings_HudTelemetry_NetworkMisdelivery" "네트워크 손실 또는 전송 오류 표시"
+		"SFUI_Settings_HudTelemetry_NetworkMisdelivery_Info" "손실, 전송 오류 또는 과도하게 지터가 발생한 네트워크 프레임의 비율을 표시합니다.\n속도는 각 방향(서버로의 업스트림 및 서버에서의 다운스트림)으로 표시됩니다.\n\n네트워크 전송 오류는 종종 자동으로 수정될 수 있습니다. 게임플레이에 악영향을 미친 전송 오류만 포함합니다."
 
-		"SFUI_Settings_HudTelemetry_PacketMisdeliveryPoor" "패킷 전송 오류 표시 임곗값"
-		"SFUI_Settings_HudTelemetry_PacketMisdeliveryPoor_Info" "패킷 전송 오류 비율이 이 값을 초과하면 '성능 저하'로 간주됩니다."
+		"SFUI_Settings_HudTelemetry_NetworkMisdeliveryPoor" "네트워크 전송 오류 경고 임곗값"
+		"SFUI_Settings_HudTelemetry_NetworkMisdeliveryPoor_Info" "네트워크 전송 오류 비율이 이 값을 초과하면 '성능 저하'로 간주됩니다."
+
+		"SFUI_Settings_HudTelemetry_NetworkQualityGraph" "네트워크 지터 또는 ��송 오류 그래프 표시"
+		"SFUI_Settings_HudTelemetry_NetworkQualityGraph_Info" "네트워크 지터의 실시간 그래프를 표시합니다. 손실, 재정렬, 과도한 지터와 같은 전송 오류가 강조 표시됩니다."
 
 		"SFUI_Settings_HudTelemetry_Show_Never" "사용 안 함"
 		"SFUI_Settings_HudTelemetry_Show_OnlyInPoorConditions" "성능이 저하된 경우"
@@ -31848,7 +32301,7 @@
 		"SFUI_Settings_Enable_Game_Instructor"	"게임 도움말 보기"
 		"SFUI_Settings_Enable_Console"			"개발자 콘솔 사용(~)"
 		"SFUI_Settings_Enable_ConsoleCmdLine"	"개발자 콘솔"
-		"GameUI_Settings_Enable_Console_Tooltip"	"콘솔을 활성화하는 -dev 또는 -console 명령어와 같은 실행 옵션을 사용하는 경우 이 설정을 무효화합니다."
+		"GameUI_Settings_Enable_Console_Tooltip"	"콘솔을 활성화하는 -dev 또는 -console 명령어와 같은 실행 옵션을 사용한 경우 이 설정이 무시됩니다."
 		"SFUI_Settings_Enable_WorkshopTools"	"Counter-Strike 창작마당 도구 설치"
 		"SFUI_Settings_Secure_Launch"			"신뢰 모드 실행"
 		"SFUI_Settings_Secure_Launch_Info"		"대부분의 타사 프로그램이 Counter-Strike 게임 프로세스에 영향을 미치지 않도록 합니다.\n매치매이킹 시 신뢰 점수가 향상됩니다.\n"
@@ -31997,6 +32450,9 @@
 		"SFUI_Settings_MiniScoreboardPlayerCount"	"소형 점수판 플레이어 수"
 		"SFUI_Settings_MiniScoreboardPlayerCount_Tooltip"	"라운드가 진행되는 동안 소형 점수판에 플레이어 아바타 대신 각 팀의 플레이어 인원수를 표시합니다."
 
+
+		"Post_Round_Damage_Report_Given:p{s1}"			" • 입힌 피해량 → %s3: %s1번 타격으로 %s2 피해"
+		"Post_Round_Damage_Report_Taken:p{s1}"			" • 받은 피해량 ← %s3: %s1번 타격으로 %s2 피해"
 
 		"SFUI_TeamOverheadID"					"팀 장비 표시"
 
@@ -32581,7 +33037,7 @@
 		"SFUI_QMM_State_reconnect_heartbeating"		"매치 정보를 다운로드하는 중입니다."
 		"SFUI_QMM_State_reconnect_unavailable"		"<font color='#EED03F'>연결할 수 없음. 다시 시도 중.</font>"
 		"SFUI_QMM_State_reconnect_searching"		"서버에 다시 들어갈 수 있는지 확인하고 있습니다..."
-		"SFUI_QMM_State_reconnect_reserved"			"��임 서버에 다시 접속하고 있습니다..."
+		"SFUI_QMM_State_reconnect_reserved"			"게임 서버에 다시 접속하고 있습니다..."
 		"SFUI_QMM_State_reconnect_connect"			"매치에 다시 접속하고 있습니다."
 
 		"SFUI_QMM_State_outofdate_outofdate"		"<font color='#FF0000'>클라이언트를 업데이트해야 합니다. 다시 시작해 주세요.</font>"
@@ -32690,7 +33146,7 @@
 		"SFUI_Steam_Trade"					"친구와 거래"
 		"SFUI_Accept_Friend_Request"		"친구 요청 수락"
 		"SFUI_Ignore_Friend_Request"		"친구 요청 무시"
-		"SFUI_Friend_Invite_Canel"			"수락 대기 중인 친구 요청 취소"
+		"SFUI_Friend_Invite_Canel"			"��락 대기 중인 친구 요청 취소"
 		"SFUI_send_friend_request"			"친구 요청 보내기"
 		"SFUI_Friend_Remove"				"친구 삭제"
 		"SFUI_Friend_Add"					"친구 초대 보내기"
@@ -32786,7 +33242,7 @@
 
 		"SFUI_Confirm_ActivateRequiredItem_season2_Suggest"		"아직 활성화하지 않은 브라보 작전 참가권이 있습니다. 활성화된 참가권은 브라보 작전 맵에서 진행된 매치의 통계를 추적할 수 있도록 하며, 매치 종료 시 일정한 확률로 희귀한 무기를 얻을 수도 있고, 작전 도전 주화도 얻을 수 있는 데다가 친구들이 자신이 만든 브라보 작전 매치에 참가하도록 할 수도 있습니다. 지금 참가권을 활성화할까요?"
 
-		"SFUI_Confirm_ActivateRequiredItem_season2_SuggestTime"		"아직 활성화하지 않은 브라보 작전 참가권이 있습니다. 활성화된 참가권은 브라보 작전 ��에서 진행된 매치의 통계를 추적할 수 있도록 하며, 매치 종료 시 일정한 확률로 희귀한 무기를 얻을 수 있고, 작전 도전 주화도 얻을 수 있는 데다가 친구들이 자신이 만든 브라보 작전 매치에 참가하도록 할 수도 있습니다. <font color='#00FF00'>지금 바로 활성화하여 브라보 작전 매치에서 보낸 %s1분을 기록하세요!</font>"
+		"SFUI_Confirm_ActivateRequiredItem_season2_SuggestTime"		"아직 활성화하지 않은 브라보 작전 참가권이 있습니다. 활성화된 참가권은 브라보 작전 맵에서 진행된 매치의 통계를 추적할 수 있도록 하며, 매치 종료 시 일정한 확률로 희귀한 무기를 얻을 수 있고, 작전 도전 주화도 얻을 수 있는 데다가 친구들이 자신이 만든 브라보 작전 매치에 참가하도록 할 수도 있습니다. <font color='#00FF00'>지금 바로 활성화하여 브라보 작전 매치에서 보낸 %s1분을 기록하세요!</font>"
 
 		// SEASON 3 TEXT
 
@@ -32814,7 +33270,7 @@
 
 		"SFUI_Confirm_PurchaseRequiredItem_season4_Suggest"		"돌파 작전 무제한 참가권은 업그레이드 가능한 작전 도전 주화, 새로운 무기 도색이 포함된 임무 보상, 돌파 작전 상자 그리고 현역 점수판, 작전 점수판, 친구 순위표가 포함된 일지를 포함합니다. 지금 참가권을 구매하시겠습니까?"
 
-		"SFUI_Confirm_PurchaseRequiredItem_season4_SuggestTime"		"돌파 작전 무제한 참가권은 업그레이드 가능한 작전 도전 주화, 새로운 무기 도색이 포함된 임무 보상, 돌파 작전 상자 그리고 현역 점수판, 작전 점수판, 친구 순위표가 포함된 일지를 포함합니다. 지금 참가권을 구매하시겠습니까?"
+		"SFUI_Confirm_PurchaseRequiredItem_season4_SuggestTime"		"돌파 작전 무제한 참가권은 업그레이드 가능한 작전 도전 주화, 새로운 무기 도색이 포함된 ���무 보상, 돌파 작전 상자 그리고 현역 점수판, 작전 점수판, 친구 순위표가 포함된 일지를 포함합니다. 지금 참가권을 구매하시겠습니까?"
 
 		"SFUI_Confirm_ActivateRequiredItem_season4_Require"		"아직 활성화하지 않은 돌파 작전 무제한 참가권이 있습니다. 활성화된 참가권은 업그레이드 가능한 작전 도전 주화, 새로운 무기 도색이 포함된 임무 보상, 돌파 작전 상자 그리고 현역 점수판, 작전 점수판, 친구 순위표가 포함된 일지를 포함합니다. 지금 활성화하시겠습니까?"
 
@@ -32969,7 +33425,7 @@
 		"SFUI_Lobby_StatusRichPresence_casual_community"				"커뮤니티 캐주얼 모드"
 		"SFUI_Lobby_StatusRichPresence_casual_watch"					"캐주얼 모드 관전 중"
 		"SFUI_Lobby_StatusRichPresence_casual_review"					"캐주얼 모드 리플레이 감상 중"
-		"SFUI_Lobby_StatusRichPresence_casual_lobby_payback"			"'보상 작전' 대기실"
+		"SFUI_Lobby_StatusRichPresence_casual_lobby_payback"			"'���상 작전' 대기실"
 		"SFUI_Lobby_StatusRichPresence_casual_game_payback"				"'보상 작전' 플레이 중"
 		"SFUI_Lobby_StatusRichPresence_casual_watch_payback"			"'보상 작전' 관전 중"
 		"SFUI_Lobby_StatusRichPresence_casual_review_payback"			"'보상 작전' 리플레이 감상 중"
@@ -33146,7 +33602,7 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		"SFUI_MajorEventVenue_Title_7_0"		"스트리밍 점검 - Valve에서 생중계"
-		"SFUI_MajorEventVenue_Subtitle_7_0"		"CS:GO 대회 스트리밍 시스템을 점검 중입니다."
+		"SFUI_MajorEventVenue_Subtitle_7_0"		"CS:GO 대회 스트리밍 ��스템을 점검 중입니다."
 		"SFUI_MajorEventVenue_Title_7_1"		"유럽 예선 - 독일에서 생방송"
 		"SFUI_MajorEventVenue_Subtitle_7_1"		"이 예선을 통해 4명의 ESL One 쾰른 2015 도전자들을 결정합니다."
 		"SFUI_MajorEventVenue_Title_7_2"		"북미 예선 - 캘리포니아에서 생방송"
@@ -33272,7 +33728,7 @@
 		//
 		"SFUI_MajorEventVenue_Title_14_11"		"지역별 마이너 대회 - 카토비체에서 생중계"
 		"SFUI_MajorEventVenue_Subtitle_14_11"	"다음 CS:GO 메이저 대회 참가를 위해 경쟁하는 팀들을 관전하세요."
-		"SFUI_MajorEventVenue_StreamTitle_14_11" "카토비체 2019 - IEM 지역별 마이��� 대회 - 생중계"
+		"SFUI_MajorEventVenue_StreamTitle_14_11" "카토비체 2019 - IEM 지역별 마이너 대회 - 생중계"
 
 		"SFUI_MajorEventVenue_Title_15_2"		"카토비체에서 생중계"
 		"SFUI_MajorEventVenue_Subtitle_15_2"	"세계 최강의 팀들이 경쟁하는 IEM 2019 카토비체 CS:GO 메이저 대회을 관전하세요."
@@ -33380,7 +33836,7 @@
 		"SFUI_Country_CR" "코스타리카"
 		"SFUI_Country_CU" "쿠바"
 		"SFUI_Country_CV" "카보베르데"
-		"SFUI_Country_CW" "퀴라소"
+		"SFUI_Country_CW" "퀴���소"
 		"SFUI_Country_CY" "키프로스"
 		"SFUI_Country_CZ" "체코"
 		"SFUI_Country_DE" "독일"
@@ -34573,6 +35029,9 @@
 		"Player_DisconnectReason_NoSteamLogin"				"플레이어 로그인 정보 없음"
 		"Player_DisconnectReason_NoSteamTicket"				"게임 인증 실패"
 		"Player_DisconnectReason_ConnectionClosing"			"연결 종료"
+		"Player_DisconnectReason_InputAutomation"			"자동 입력"
+		"Player_DisconnectReason_InputAutomation_Detail"	"자동 입력이 감지되어 추방되었습니다."
+
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Profile Text
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -35172,7 +35631,7 @@
 		"SFUI_Hint_BeQuicker"			"모든 면에서 적보다 빠르게 행동하세요. 클래식 모드에서 유리해지는 한 방법은 라운드 시작 때 무기를 재빨리 사는 것입니다."
 		"SFUI_Hint_AvoidWater"			"깊은 물은 이동 속도를 느리게도 하지만, 제일 큰 문제는 시끄러운 소리를 낸다는 겁니다. 가능한 한 물속에서 움직이는 일을 피하세요."
 		"SFUI_Hint_PickupGuns"			"클래식 모드에서 죽으면 그 사람이 가지고 있던 무기를 땅에 떨어뜨립니다. 가지고 있는 무기보다 더 좋은 무기가 떨어졌다면 당장 집어드세요."
-		"SFUI_Hint_ControlBotDontKeep"	"봇을 조종하면 자금, 처치 수, 사망 수, 그리고 무기는 봇에게 지급됩니다."
+		"SFUI_Hint_ControlBotDontKeep"	"봇을 조종하면 자금, 처치 수, 사망 수, 그리고 무기는 봇에게 지��됩니다."
 
 		// TEAM
 		"SFUI_Hint_ST6_Info1"			"SEAL Team 6(ST6)는 1980년에 리처드 마신코 소령의 휘하에 창립되었습니다. 1987년 재조직되어 현재는 미 해군 특수전 개발단(DEVGRU)으로 알려져 있습니다."
@@ -35312,7 +35771,7 @@
 		"SFUI_MsgBx_DlcCorruptTxt"						"\n지원되지 않거나 손상된 다운로드 콘텐츠입니다."
 		"SFUI_MsgBx_DlcMountedTxt"						"\n다운로드 콘텐츠가 저장되었습니다."
 
-		"SFUI_MsgBx_AttractDeviceFullTxt"				"기본 설정 및 게임 진행 상황을 저장할 만한 공간이 없습니다.\n계속하시겠습니까?"
+		"SFUI_MsgBx_AttractDeviceFullTxt"				"기본 설정 및 게임 진�� 상황을 저장할 만한 공간이 없습니다.\n계속하시겠습니까?"
 		"SFUI_MsgBx_AttractDeviceCorruptC"				"저장된 파일이 손상되었습니다."
 		"SFUI_MsgBx_AttractDeviceCorruptTxt"			"선택한 저장 장치에 있는 파일이 손상되었거나 열리지 않습니다.\n다른 저장 장치를 선택하시거나 손상된 파일을 지우세요.\n\n올바른 저장 장치가 없으면 기본 설정 및 게임 진행 상황이 저장되지 않습니다.\n저장 장치를 선택하지 않고 계속하시겠습니까?"
 		"SFUI_MsgBx_AttractDeviceNoneC"					"저장 장치를 선택하지 않았습니다."
@@ -36324,6 +36783,7 @@
 		"store_tab_newstore"	"신규 출시"
 		"store_tab_prime"		"프라임"
 		"store_tab_store"		"상점"
+		"store_tab_xpshop"		"무기고"
 		"store_tab_coupons"		"쿠폰"
 		"store_tab_market"		"장터"
 		"store_tab_keys"		"열쇠"
@@ -36620,7 +37080,7 @@
 		"Inv_Category_displayitem"			"장식"
 		"Inv_Category_container"			"상자"	
 		"Inv_Filter"						"필터"
-		"Inv_Error_No_Name"					"���류입니다! 이름이 존재하지 않습니다."
+		"Inv_Error_No_Name"					"오류입니다! 이름이 존재하지 않습니다."
 
 		"Inv_Category_melee"				"근접무기"
 		"Inv_Category_rifle"				"소총"
@@ -36730,6 +37190,7 @@
 		"inv_nav_stickers"					"스티커"
 		"inv_nav_patches"					"패치"
 		"inv_nav_sprays"					"그래피티"
+		"inv_nav_keychain"					"참 장식"
 		"inv_nav_containers_all"			"모든 상자"
 		"inv_nav_weapon_cases"				"무기 상자"
 		"inv_nav_sticker_capsules"			"스티커 캡슐"
@@ -36780,8 +37241,13 @@
 		"inv_context_newcasket"				"저장 컨테이너 사용"
 		"inv_context_yourcasket"			"이름 변경"
 		"inv_context_intocasket"			"저장 컨테이너로 이동"
+		"inv_context_preview_can_sticker"	"스티커 미리 보기"
 		"inv_context_can_sticker"			"스티커 붙이기"
 		"inv_context_remove_sticker"		"스티커 긁어내기"
+		"inv_context_preview_can_keychain"	"참 장식 미리 보기"
+		"inv_context_can_keychain"			"참 장식 장착"
+		"inv_context_remove_keychain"		"참 장식 분리"
+		"inv_context_preview_can_patch"		"패치 미리 보기"
 		"inv_context_can_patch"				"패치 부착"
 		"inv_context_remove_patch"			"패치 제거"		
 		"inv_context_openloadout"			"로드아웃에서 보기"
@@ -36835,6 +37301,7 @@
 		"inv_session_prop_recent"			"신규!"
 		"inv_session_prop_updated"			"업데이트!"
 		"inv_session_prop_quest_reward"		"보상!"
+		"inv_session_prop_xpshopredeem"		"신규!"
 		"inv_equipped_item"					"<b>{s:team}</b> 팀이 <b>{s:name}</b> 아이템을 장착했습니다."
 		"inv_equipped_item_noteam"			"<b>{s:name}</b> 아이템을 장착했습니다."
 		"inv_unequipped_item"				"<b>{s:name}</b> 아이템을 장착 해제했습니다"
@@ -36893,10 +37360,13 @@
 		"popup_title_nametag_remove"		"이름표 제거됨"
 		"popup_title_sticker_apply"			"스티커 부착됨"
 		"popup_title_sticker_remove"		"제거된 스티커"
+		"popup_title_keychain_apply"		"참 장식 장착 완료"
+		"popup_title_keychain_remove"		"참 장식 분리 완료"
 		"popup_title_patch_apply"			"패치 부착됨"
 		"popup_title_patch_remove"			"제거된 패치"		
 		"popup_title_stattrack_swap"		"새로운 StatTrak™ 점수"
-		"popup_title_quest_reward"			"작전 보상"
+		"popup_title_quest_reward"			"보상"
+		"popup_title_xpshopredeem"			"무기고에서 획득한 아이템"
 
 		"acknowledge_gifter"				"선물 제공자: {s:name} 님"
 		"acknowledge_quest"					"임무 보상"
@@ -36904,9 +37374,13 @@
 
 		// Async Actions
 		"popup_useitem_title"	"{s:itemname}"
+		"popup_useitem_title_getkeychaincharges"	"{s:itemname} 아이템 개봉"
 		"popup_useitem_desc"	"이 아이템을 사용할까요?"
+		"popup_useitem_desc_getkeychaincharges"	"이 아이템을 개봉할까요?"
 		"popup_useitem_warning"	"{s:itemname} 아이템은 한 번만 사용할 수 있습니다."
+		"popup_useitem_warning_getkeychaincharges"	"이 아이템은 한 번만 개봉할 수 있습니다."
 		"popup_useitem_button"	"아이템 사용"
+		"popup_useitem_button_getkeychaincharges:p{item_count}"	"참 장식 분리 <b>{d:item_count}</b>개 추가"
 
 		"popup_prestigecheck_title"	"무공 훈장"
 		"popup_prestigecheck_desc"	"무공 훈장 자격을 확인하고 있습니다. 잠시 기다려 주세요."
@@ -36957,11 +37431,12 @@
 		"popup_can_stick_scrape_full_patch"						"<b>{s:tool_target_name}</b>에서 패치 제거하기"
 		"popup_can_stick_scrape_patch"							"<b>{s:tool_target_name}</b>에서 패치 긁어내기"
 		"popup_can_stick_scrape_hint"							"무기에서 긁어내거나 제거할 스티커를 선택하세요."
-		"popup_can_stick_warning_traderestricted_patch"  		"거래할 수 없는 패치는 한 번만 부착할 수 있습니다.\n아이템은 {s:date}까지 거래할 수 없습니다."
+		"popup_can_stick_warning_traderestricted_patch"  		"이 패치는 거래할 수 없으며 한 번만 부착할 수 있습니다.\n아이템은 {s:date}까지 거래할 수 없습니다."
 		"popup_can_stick_warning_marketrestricted_patch"  		"거래 및 판매할 수 없는 패치는 한 번만 부착할 수 있습니다.\n아이템은 {s:date}까지 거래 및 판매할 수 없습니다."
 		"popup_can_stick_button_patch"							"패치 부착"
 		"SFUI_InvContextMenu_stick_use_patch"   				"패치 부착"
 		"SFUI_InvUse_Warning_use_can_stick_patch"  				"패치는 한 번만 사용할 수 있습니다."
+		"SFUI_InvUse_Warning_use_can_stick_previewonly_patch"  	"미리 보기 모드이며 부착하려면 먼저 해당 패치를 소유해야 합니다."
 		"SFUI_InvContextMenu_can_stick_Wear_patch"   			"패치 제거"
 		"SFUI_InvContextMenu_can_stick_Wear_full_patch"   		"패치 제거"
 		
@@ -36969,14 +37444,30 @@
 		"popup_can_stick_title_sticker" 						"스티커 부착"
 		"popup_can_stick_scrape_full_sticker"					"<b>{s:tool_target_name}</b>에서 스티커 제거하기"
 		"popup_can_stick_scrape_sticker"						"<b>{s:tool_target_name}</b>에서 스티커 긁어내기"
-		"popup_can_stick_warning_traderestricted_sticker"  		"거래할 수 없는 스티커는 한 번만 부착할 수 있습니다.\n아이템은 {s:date}까지 거래할 수 없습니다."
+		"popup_can_stick_warning_traderestricted_sticker"  		"이 스티커는 거래할 수 없으며 한 번만 부착할 수 있습니다.\n아이템은 {s:date}까지 거래할 수 없습니다."
 		"popup_can_stick_warning_marketrestricted_sticker"  	"거래 및 판매를 할 수 없는 스티커는 한 번만 부착할 수 있습니다.\n해당 아이템은 {s:date}까지 거래 및 판매를 할 수 없습니다."
 		"popup_can_stick_button_sticker"						"스티커 부착"
 		"SFUI_InvContextMenu_stick_use_sticker"   				"스티커 부착"
 		"SFUI_InvUse_Warning_use_can_stick_sticker"  			"스티커는 한 번만 붙일 수 있습니다"
+		"SFUI_InvUse_Warning_use_can_stick_previewonly_sticker"  "미리 보기 모드이며 부착하려면 먼저 해당 스티커를 소유해야 합니다."
 		"SFUI_InvContextMenu_can_stick_Wear_sticker"   			"스티커 긁어내기"
 		"SFUI_InvContextMenu_can_stick_Wear_full_sticker"   	"스티커 제거"
 
+
+		"popup_can_stick_title_keychain" 						"참 장식 장착"
+		"popup_can_stick_scrape_full_keychain"					"<b>{s:tool_target_name}</b>에서 참 장식 분리"
+		"popup_can_stick_scrape_keychain"						"<b>{s:tool_target_name}</b>에서 참 장식 긁어내기"
+		"popup_can_stick_warning_traderestricted_keychain"  	"이 참 장식은 거래할 수 없지만 장착하고 분리할 수 있습니다.\n아이템은 {s:date}까지 거래할 수 없습니다."
+		"popup_can_stick_warning_marketrestricted_keychain"  	"거래 및 판매할 수 없는 이 참 장식을 장착하고 분리할 수 있습니다.\n해당 아이템은 {s:date}까지 거래 및 판매할 수 없습니다."
+		"popup_can_stick_button_keychain"						"참 장식 장착"
+		"SFUI_InvContextMenu_stick_use_keychain"   				"참 장식 장착"
+		"SFUI_InvUse_Warning_use_can_stick_keychain"  			"참 장식 분리를 사용하여 참 장식을 분리할 수 있습니다."
+		"SFUI_InvUse_Warning_use_can_stick_previewonly_keychain"  "미리 보기 모드이며 장착하려면 먼저 해당 참 장식을 소유해야 합니다."
+		"SFUI_InvContextMenu_can_stick_Wear_keychain"   		"참 장식 긁어내기"
+		"SFUI_InvContextMenu_can_stick_Wear_full_keychain"   	"참 장식 분리"
+
+
+		"popup_can_keychain_button"			"참 장식 장착"
 		"popup_can_patch_button"			"패치 부착"
 		"popup_can_sticker_button"			"스티커 부착: {d:max_stickers}개 중 {d:sticker_count}개"
 
@@ -37004,7 +37495,7 @@
 
 		//Capability
 		"popup_capability_upsell"	"이 작업을 수행하려면 <b>{s:itemname}</b>가 필요합니다."
-		"popup_capability_upsell_rental"	"상자를 열고 아이템 1개를 소유하거나 전체를 대여하려면 <b>{s:itemname}</b>가 필요합니다."
+		"popup_capability_upsell_rental"	"다음 아이템 중 1개를 소유하거나 전체를 대여하려면 <b>{s:itemname}</b>가 필요합니다."
 		"popup_capability_use"		"<b>{s:itemname}</b>"
 		"popup_totool_nameable_header"	"이름표 미리보기"
 		"popup_totool_decodeable_header"	"상자 열기"
@@ -37049,7 +37540,7 @@
 
 		//tournament coin
 		"tournament_coin_desc"			"도전을 완료하여 주화를 업그레이드하세요. 업그레이드를 할 때마다 기념품 패키지를 획득합니다."
-		"tournament_coin_desc_token"			"이벤트 종료 전까지 도전을 완료하여 주화를 업그레이드하세요. 업그레이드를 할 때마다 기념품 토큰을 획득합니다."
+		"tournament_coin_desc_token"			"이벤트 종료 전까지 도전을 완료하여 주���를 업그레이드하세요. 업그레이드를 할 때마다 기념품 토큰을 획득합니다."
 		"tournament_coin_completed_challenges"	"완료한 도전"
 		"tournament_coin_remaining_challenges"	"주화를 업그레이드하고 기념품 패키지를 획득하려면 도전을 <b>{d:challenges}</b>번 더 완료해야 합니다."
 		"tournament_coin_remaining_challenges_token"	"주화를 업그레이드하고 기념품 토큰을 획득하려면 도전을 <b>{d:challenges}</b>번 더 완료해야 합니다."
@@ -37478,7 +37969,7 @@
 		"party_tooltip_maps"				"선택한 맵"
 		"party_message_advertising_expired"	"인근 플레이어 모집 만료"
 		"party_message_advertising_"		"인근 플레이어에게 대기실 알리지 않기"
-		"party_message_advertising_n"		"인근 플레이어에게 대기실 알리기"
+		"party_message_advertising_n"		"인근 플레이어에게 대��실 알리기"
 		"party_message_advertising_g"		"Steam 그룹에 대기실 알리기"
 		"party_message_advertising_ng"		"Steam 그룹과 인근 플레이어에게 대기실 알리기"
 		"matchmaking_stat_avgSearchTimeSeconds"	"예상 검색 시간: {s:stat}"
@@ -37884,7 +38375,7 @@
 		"gamemode_cooperative_desc"				"공식 서버에서 임무를 완수하세요. 임무 목표를 완수하면 보상과 경험치를 획득할 수 있습니다."
 		"gamemode_cooperative_desclist"        "· 적 제거 및 임무 목표 수행<br>· 즉시 부활<br>· 팀원 간 공격 불가<br>· 팀원 간 충돌 불가"
 		"gamemode_gungameprogressive_desc"		"적을 처치하여 무기를 업그레이드하세요. 가장 먼저 황금 칼로 적을 처치한 플레이어가 승리합니다."
-		"gamemode_gungameprogressive_desclist"   "· 적 처치 시 무기 업그레이드<br>· 즉시 부활<br>· 팀원 간 공격 불가<br>· 팀원 간 충돌 불가"
+		"gamemode_gungameprogressive_desclist"   "· 적 처치 시 무기 업그레이드<br>· 즉시 부활<br>· 팀원 ��� 공격 불가<br>· 팀원 간 충돌 불가"
 		"gamemode_ggbomb_desc"					"적을 처치하여 무기를 업그레이드하세요. 상대 팀을 전부 처치하거나 목표를 완수하면 승리합니다."
 		"gamemode_ggbomb_desclist"               "· 라운드 시작 시 무기 지급<br>· 팀원 간 공격 불가<br>· 팀원 간 충돌 불가<br>· 20라운드 11선승제"
 		"gamemode_gungametrbomb_desc"			"적을 처치하여 무기를 업그레이드하세요. 상대 팀을 전부 처치하거나 목표를 완수하면 승리합니다."
@@ -38345,7 +38836,7 @@
 
 
 		"rankup_redemption_store_closed"							"주간 보상 획득 완료"
-		"rankup_redemption_store_directive:p{redeemable_balance}"	"<font color='#000000'>{d:redeemable_balance} 보상</font> 선택"
+		"rankup_redemption_store_directive"							"보상 획득"
 		"rankup_redemption_store_earn_xp"							"경험치 랭크 획득"
 
 		"rankup_redemption_store_rollover_wait"						"새로운 보상 획득 시작까지 남은 시간: {s:time-to-week-rollover}"
@@ -39171,7 +39662,7 @@
 		"WatchMenu_Downloading"				"다운로드 중"
 		"WatchMenu_Info_Download_Failed"	"다운로드 미완료"
 		"WatchMenu_Info_Download_Failed_Retry" "데모 파일 다운로드를 다시 시도할까요?"
-		"WatchMenu_Info_Download_Failed_Info" "��운로드가 완료되지 않았습니다. 점수판 정보를 이용할 수는 있지만 매치를 관전할 수는 없습니다."
+		"WatchMenu_Info_Download_Failed_Info" "다운로드가 완료되지 않았습니다. 점수판 정보를 이용할 수는 있지만 매치를 관전할 수는 없습니다."
 		"WatchMenu_Download_Disabled_Hint"	"매치 데모가 만료되어 더 이상 다운로드할 수 없습니다."
 		"WatchMenu_Tournament_BulletPoint"	"<ul>
 												<li>매치를 관전하고 팀 스티커를 사용해 그룹 스테이지와 플레이오프 스테이지에서 승자 예측에 도전하세요.</li>
@@ -39452,6 +39943,15 @@
 		//
 		////////////////////////////////////////////////////////////
 
+		"Chatwheel_segment_top"	"상단"
+		"Chatwheel_segment_topright"	"오른쪽 상단"
+		"Chatwheel_segment_right"	"오른쪽"
+		"Chatwheel_segment_bottomright"	"오른쪽 하단"
+		"Chatwheel_segment_bottom"	"하단"
+		"Chatwheel_segment_bottomleft"	"왼쪽 하단"
+		"Chatwheel_segment_left"	"왼쪽"
+		"Chatwheel_segment_topleft"	"왼쪽 상단"
+
 		"Chatwheel_ping_on_cooldown"  "핑을 사용할 수 없습니다. 핑에 쿨다운이 적용되었습니다."
 
 		"Chatwheel_plant"	"폭탄을 설치하라"
@@ -39625,7 +40125,7 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SteamVideo_Player_Kill_Title"					"%s1 님을 처치"
 		"SteamVideo_Player_Kill_Description"			"사용한 무기: %s1"
-				
+
 		"SteamVideo_Player_Double_Kill_Title"			"2연속 처치"
 		"SteamVideo_Player_Multi_Kill_Title"			"다수 연속 처치"
 		
@@ -39647,8 +40147,11 @@
 		"SteamVideo_Round_Number_Label"					"라운드 %s1"
 		"SteamVideo_Start_Of_Round_Title"				"라운드 %s1 시작"
 
-// crow_mask_42161_comment
-// crow_mask_42162_comment
+		"SteamVideo_MatchScore"							"점수"
+		"SteamVideo_KDA"								"처치/사망/도움"
+
+// crow_mask_42793_comment
+// crow_mask_42794_comment
 }
 
 
