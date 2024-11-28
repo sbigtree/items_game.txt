@@ -18965,9 +18965,10 @@
                 "attribute_class": "keychain_slot_seed",
                 "group": "only_on_unique",
                 "description_format": "value_is_additive",
-                "hidden": "1",
-                "effect_type": "neutral",
-                "stored_as_integer": "1"
+                "description_string": "#Attrib_KeychainSeed",
+                "effect_type": "positive",
+                "stored_as_integer": "1",
+                "hidden": "classdefidx:1355"
             }
         },
         "sticker_kits": {
@@ -20345,110 +20346,110 @@
             }
         },
         "music_definitions": {
-            "85": {
-                "name": "treeadams_01",
-                "loc_name": "#MusicKit_treeadams_01",
-                "loc_description": "#MusicKit_treeadams_01_desc",
-                "image_inventory": "econ/music_kits/treeadams_01",
-                "pedestal_display_model": "models/inventory_items/music_kits/music_kit_treeadams_01.vmdl"
+            "86": {
+                "name": "perfectworld_02",
+                "loc_name": "#MusicKit_perfectworld_02",
+                "loc_description": "#MusicKit_perfectworld_02_desc",
+                "image_inventory": "econ/music_kits/perfectworld_02",
+                "pedestal_display_model": "models/inventory_items/music_kits/music_kit_perfectworld_02.vmdl"
             }
         },
         "quest_definitions": {
-            "250": {
-                "name": "quest_cph2024_activate_pass",
-                "loc_name": "#CSGO_TournamentChallenge_cph2024_activate_pass",
-                "loc_description": "#CSGO_TournamentChallenge_cph2024_activate_pass",
+            "259": {
+                "name": "quest_sha2024_activate_pass",
+                "loc_name": "#CSGO_TournamentChallenge_sha2024_activate_pass",
+                "loc_description": "#CSGO_TournamentChallenge_sha2024_activate_pass",
                 "quest_icon": "pass",
                 "gamemode": "competitive"
             },
-            "251": {
-                "name": "quest_cph2024_challengers_calender",
-                "loc_name": "#CSGO_TournamentChallenge_cph2024_challengers_calender",
-                "loc_description": "#CSGO_TournamentChallenge_cph2024_challengers_calender",
+            "260": {
+                "name": "quest_sha2024_challengers_calender",
+                "loc_name": "#CSGO_TournamentChallenge_sha2024_challengers_calender",
+                "loc_description": "#CSGO_TournamentChallenge_sha2024_challengers_calender",
                 "quest_icon": "calender",
                 "gamemode": "competitive"
             },
-            "252": {
-                "name": "quest_cph2024_challengers_pickem",
-                "loc_name": "#CSGO_TournamentChallenge_cph2024_challengers_pickem",
-                "loc_description": "#CSGO_TournamentChallenge_cph2024_challengers_pickem",
+            "261": {
+                "name": "quest_sha2024_challengers_pickem",
+                "loc_name": "#CSGO_TournamentChallenge_sha2024_challengers_pickem",
+                "loc_description": "#CSGO_TournamentChallenge_sha2024_challengers_pickem",
                 "quest_icon": "pickem",
                 "gamemode": "competitive"
             },
-            "253": {
-                "name": "quest_cph2024_legends_calender",
-                "loc_name": "#CSGO_TournamentChallenge_cph2024_legends_calender",
-                "loc_description": "#CSGO_TournamentChallenge_cph2024_legends_calender",
+            "262": {
+                "name": "quest_sha2024_legends_calender",
+                "loc_name": "#CSGO_TournamentChallenge_sha2024_legends_calender",
+                "loc_description": "#CSGO_TournamentChallenge_sha2024_legends_calender",
                 "quest_icon": "calender",
                 "gamemode": "competitive"
             },
-            "254": {
-                "name": "quest_cph2024_legends_pickem",
-                "loc_name": "#CSGO_TournamentChallenge_cph2024_legends_pickem",
-                "loc_description": "#CSGO_TournamentChallenge_cph2024_legends_pickem",
+            "263": {
+                "name": "quest_sha2024_legends_pickem",
+                "loc_name": "#CSGO_TournamentChallenge_sha2024_legends_pickem",
+                "loc_description": "#CSGO_TournamentChallenge_sha2024_legends_pickem",
                 "quest_icon": "pickem",
                 "gamemode": "competitive"
             },
-            "255": {
-                "name": "quest_cph2024_grandfinal_calender",
-                "loc_name": "#CSGO_TournamentChallenge_cph2024_grandfinal_calender",
-                "loc_description": "#CSGO_TournamentChallenge_cph2024_grandfinal_calender",
+            "264": {
+                "name": "quest_sha2024_grandfinal_calender",
+                "loc_name": "#CSGO_TournamentChallenge_sha2024_grandfinal_calender",
+                "loc_description": "#CSGO_TournamentChallenge_sha2024_grandfinal_calender",
                 "quest_icon": "calender",
                 "gamemode": "competitive"
             },
-            "256": {
-                "name": "quest_cph2024_quarterfinals_pickem",
-                "loc_name": "#CSGO_TournamentChallenge_cph2024_quarterfinals_pickem",
-                "loc_description": "#CSGO_TournamentChallenge_cph2024_quarterfinals_pickem",
+            "265": {
+                "name": "quest_sha2024_quarterfinals_pickem",
+                "loc_name": "#CSGO_TournamentChallenge_sha2024_quarterfinals_pickem",
+                "loc_description": "#CSGO_TournamentChallenge_sha2024_quarterfinals_pickem",
                 "quest_icon": "pickem",
                 "gamemode": "competitive"
             },
-            "257": {
-                "name": "quest_cph2024_semifinals_pickem",
-                "loc_name": "#CSGO_TournamentChallenge_cph2024_semifinals_pickem",
-                "loc_description": "#CSGO_TournamentChallenge_cph2024_semifinals_pickem",
+            "266": {
+                "name": "quest_sha2024_semifinals_pickem",
+                "loc_name": "#CSGO_TournamentChallenge_sha2024_semifinals_pickem",
+                "loc_description": "#CSGO_TournamentChallenge_sha2024_semifinals_pickem",
                 "quest_icon": "pickem",
                 "gamemode": "competitive"
             },
-            "258": {
-                "name": "quest_cph2024_grandfinal_pickem",
-                "loc_name": "#CSGO_TournamentChallenge_cph2024_grandfinal_pickem",
-                "loc_description": "#CSGO_TournamentChallenge_cph2024_grandfinal_pickem",
+            "267": {
+                "name": "quest_sha2024_grandfinal_pickem",
+                "loc_name": "#CSGO_TournamentChallenge_sha2024_grandfinal_pickem",
+                "loc_description": "#CSGO_TournamentChallenge_sha2024_grandfinal_pickem",
                 "quest_icon": "pickem",
                 "gamemode": "competitive"
             }
         },
         "campaign_definitions": {
-            "16": {
+            "17": {
                 "1": {
-                    "quest_index": "250"
+                    "quest_index": "259"
                 },
                 "2": {
-                    "quest_index": "251"
+                    "quest_index": "260"
                 },
                 "3": {
-                    "quest_index": "252"
+                    "quest_index": "261"
                 },
                 "4": {
-                    "quest_index": "253"
+                    "quest_index": "262"
                 },
                 "5": {
-                    "quest_index": "254"
+                    "quest_index": "263"
                 },
                 "6": {
-                    "quest_index": "255"
+                    "quest_index": "264"
                 },
                 "7": {
-                    "quest_index": "256"
+                    "quest_index": "265"
                 },
                 "8": {
-                    "quest_index": "257"
+                    "quest_index": "266"
                 },
                 "9": {
-                    "quest_index": "258"
+                    "quest_index": "267"
                 },
-                "loc_name": "#CSGO_TournamentJournal_cph2024",
-                "loc_description": "#CSGO_TournamentJournal_cph2024_Desc"
+                "loc_name": "#CSGO_TournamentJournal_sha2024",
+                "loc_description": "#CSGO_TournamentJournal_sha2024_Desc"
             }
         },
         "quest_schedule": {
@@ -23121,6 +23122,9 @@
                     },
                     "22": {
                         "team": "85"
+                    },
+                    "23": {
+                        "team": "85"
                     }
                 }
             },
@@ -23813,6 +23817,9 @@
                     },
                     "22": {
                         "team": "81"
+                    },
+                    "23": {
+                        "team": "81"
                     }
                 }
             },
@@ -24076,6 +24083,9 @@
                         "team": "69"
                     },
                     "20": {
+                        "team": "69"
+                    },
+                    "23": {
                         "team": "69"
                     }
                 }
@@ -26289,6 +26299,9 @@
                     },
                     "22": {
                         "team": "89"
+                    },
+                    "23": {
+                        "team": "89"
                     }
                 }
             },
@@ -26769,6 +26782,17 @@
                     }
                 }
             },
+            "14864123": {
+                "name": "Sonic",
+                "code": "sonic",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "130"
+                    }
+                }
+            },
             "15546735": {
                 "name": "stonde",
                 "code": "stonde",
@@ -26816,6 +26840,9 @@
                     },
                     "15": {
                         "team": "88"
+                    },
+                    "23": {
+                        "team": "131"
                     }
                 }
             },
@@ -26870,6 +26897,9 @@
                     },
                     "21": {
                         "team": "59"
+                    },
+                    "23": {
+                        "team": "48"
                     }
                 }
             },
@@ -27585,6 +27615,9 @@
                     },
                     "22": {
                         "team": "89"
+                    },
+                    "23": {
+                        "team": "89"
                     }
                 }
             },
@@ -27912,6 +27945,9 @@
                         "team": "69"
                     },
                     "20": {
+                        "team": "69"
+                    },
+                    "23": {
                         "team": "69"
                     }
                 }
@@ -28264,6 +28300,9 @@
                     },
                     "18": {
                         "team": "98"
+                    },
+                    "23": {
+                        "team": "130"
                     }
                 }
             },
@@ -28662,6 +28701,9 @@
                     },
                     "22": {
                         "team": "115"
+                    },
+                    "23": {
+                        "team": "59"
                     }
                 }
             },
@@ -28687,6 +28729,9 @@
                         "team": "121"
                     },
                     "22": {
+                        "team": "113"
+                    },
+                    "23": {
                         "team": "113"
                     }
                 }
@@ -29386,6 +29431,9 @@
                     },
                     "21": {
                         "team": "85"
+                    },
+                    "23": {
+                        "team": "80"
                     }
                 }
             },
@@ -29652,6 +29700,9 @@
                     },
                     "21": {
                         "team": "86"
+                    },
+                    "23": {
+                        "team": "132"
                     }
                 }
             },
@@ -30739,6 +30790,9 @@
                     },
                     "22": {
                         "team": "61"
+                    },
+                    "23": {
+                        "team": "61"
                     }
                 }
             },
@@ -30968,6 +31022,9 @@
                         "team": "89"
                     },
                     "22": {
+                        "team": "89"
+                    },
+                    "23": {
                         "team": "89"
                     }
                 }
@@ -31380,6 +31437,9 @@
                         "team": "61"
                     },
                     "22": {
+                        "team": "61"
+                    },
+                    "23": {
                         "team": "61"
                     }
                 }
@@ -32037,6 +32097,9 @@
                     },
                     "22": {
                         "team": "31"
+                    },
+                    "23": {
+                        "team": "31"
                     }
                 }
             },
@@ -32276,6 +32339,9 @@
                     },
                     "22": {
                         "team": "113"
+                    },
+                    "23": {
+                        "team": "113"
                     }
                 }
             },
@@ -32298,6 +32364,9 @@
                         "team": "95"
                     },
                     "22": {
+                        "team": "95"
+                    },
+                    "23": {
                         "team": "95"
                     }
                 }
@@ -32695,6 +32764,9 @@
                         "team": "61"
                     },
                     "22": {
+                        "team": "61"
+                    },
+                    "23": {
                         "team": "61"
                     }
                 }
@@ -33569,6 +33641,9 @@
                         "team": "48"
                     },
                     "21": {
+                        "team": "48"
+                    },
+                    "23": {
                         "team": "48"
                     }
                 }
@@ -34752,6 +34827,9 @@
                 "events": {
                     "19": {
                         "team": "80"
+                    },
+                    "23": {
+                        "team": "80"
                     }
                 }
             },
@@ -34922,6 +35000,9 @@
                         "team": "59"
                     },
                     "22": {
+                        "team": "59"
+                    },
+                    "23": {
                         "team": "59"
                     }
                 }
@@ -35224,6 +35305,9 @@
                     },
                     "18": {
                         "team": "74"
+                    },
+                    "23": {
+                        "team": "131"
                     }
                 }
             },
@@ -35249,6 +35333,9 @@
                         "team": "1"
                     },
                     "22": {
+                        "team": "12"
+                    },
+                    "23": {
                         "team": "12"
                     }
                 }
@@ -35304,6 +35391,9 @@
                     },
                     "15": {
                         "team": "59"
+                    },
+                    "23": {
+                        "team": "6"
                     }
                 }
             },
@@ -35714,6 +35804,17 @@
                     }
                 }
             },
+            "53993406": {
+                "name": "FL4MUS",
+                "code": "fl4mus",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "115"
+                    }
+                }
+            },
             "54512474": {
                 "name": "steel",
                 "code": "steel",
@@ -35794,6 +35895,9 @@
                     },
                     "22": {
                         "team": "102"
+                    },
+                    "23": {
+                        "team": "102"
                     }
                 }
             },
@@ -35849,6 +35953,9 @@
                     },
                     "21": {
                         "team": "61"
+                    },
+                    "23": {
+                        "team": "48"
                     }
                 }
             },
@@ -36451,6 +36558,9 @@
                     },
                     "22": {
                         "team": "111"
+                    },
+                    "23": {
+                        "team": "111"
                     }
                 }
             },
@@ -36869,6 +36979,9 @@
                 "events": {
                     "19": {
                         "team": "60"
+                    },
+                    "23": {
+                        "team": "6"
                     }
                 }
             },
@@ -37324,6 +37437,9 @@
                     },
                     "21": {
                         "team": "6"
+                    },
+                    "23": {
+                        "team": "6"
                     }
                 }
             },
@@ -37338,6 +37454,9 @@
                     },
                     "16": {
                         "team": "59"
+                    },
+                    "23": {
+                        "team": "28"
                     }
                 }
             },
@@ -37574,6 +37693,17 @@
                     }
                 }
             },
+            "75315373": {
+                "name": "afro",
+                "code": "afro",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "6"
+                    }
+                }
+            },
             "75859856": {
                 "name": "Jame",
                 "code": "jame",
@@ -37599,6 +37729,9 @@
                         "team": "109"
                     },
                     "22": {
+                        "team": "31"
+                    },
+                    "23": {
                         "team": "31"
                     }
                 }
@@ -38068,6 +38201,9 @@
                     },
                     "22": {
                         "team": "59"
+                    },
+                    "23": {
+                        "team": "59"
                     }
                 }
             },
@@ -38177,6 +38313,9 @@
                     },
                     "22": {
                         "team": "33"
+                    },
+                    "23": {
+                        "team": "31"
                     }
                 }
             },
@@ -38245,6 +38384,9 @@
                     },
                     "18": {
                         "team": "74"
+                    },
+                    "23": {
+                        "team": "131"
                     }
                 }
             },
@@ -38264,6 +38406,9 @@
                         "team": "33"
                     },
                     "22": {
+                        "team": "33"
+                    },
+                    "23": {
                         "team": "33"
                     }
                 }
@@ -38287,6 +38432,17 @@
                 "events": {
                     "18": {
                         "team": "104"
+                    }
+                }
+            },
+            "85474033": {
+                "name": "Maka",
+                "code": "maka",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "28"
                     }
                 }
             },
@@ -38318,6 +38474,9 @@
                         "team": "81"
                     },
                     "22": {
+                        "team": "81"
+                    },
+                    "23": {
                         "team": "81"
                     }
                 }
@@ -38395,6 +38554,17 @@
                     }
                 }
             },
+            "87611242": {
+                "name": "Djoko",
+                "code": "djoko",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "28"
+                    }
+                }
+            },
             "88001036": {
                 "name": "Attacker",
                 "code": "attacker",
@@ -38439,6 +38609,9 @@
                         "team": "115"
                     },
                     "22": {
+                        "team": "12"
+                    },
+                    "23": {
                         "team": "12"
                     }
                 }
@@ -38807,6 +38980,9 @@
                     },
                     "21": {
                         "team": "86"
+                    },
+                    "23": {
+                        "team": "132"
                     }
                 }
             },
@@ -38820,6 +38996,9 @@
                         "team": "84"
                     },
                     "22": {
+                        "team": "95"
+                    },
+                    "23": {
                         "team": "95"
                     }
                 }
@@ -38900,6 +39079,9 @@
                 "events": {
                     "22": {
                         "team": "123"
+                    },
+                    "23": {
+                        "team": "33"
                     }
                 }
             },
@@ -38913,6 +39095,9 @@
                         "team": "117"
                     },
                     "22": {
+                        "team": "95"
+                    },
+                    "23": {
                         "team": "95"
                     }
                 }
@@ -38959,6 +39144,9 @@
                         "team": "85"
                     },
                     "22": {
+                        "team": "85"
+                    },
+                    "23": {
                         "team": "85"
                     }
                 }
@@ -39016,6 +39204,9 @@
                     },
                     "22": {
                         "team": "111"
+                    },
+                    "23": {
+                        "team": "111"
                     }
                 }
             },
@@ -39069,6 +39260,17 @@
                     }
                 }
             },
+            "101158002": {
+                "name": "insani",
+                "code": "insani",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "80"
+                    }
+                }
+            },
             "101497868": {
                 "name": "n1ssim",
                 "code": "n1ssim",
@@ -39100,6 +39302,9 @@
                     },
                     "21": {
                         "team": "106"
+                    },
+                    "23": {
+                        "team": "132"
                     }
                 }
             },
@@ -39122,6 +39327,9 @@
                         "team": "89"
                     },
                     "22": {
+                        "team": "89"
+                    },
+                    "23": {
                         "team": "89"
                     }
                 }
@@ -39414,6 +39622,9 @@
                     },
                     "22": {
                         "team": "111"
+                    },
+                    "23": {
+                        "team": "111"
                     }
                 }
             },
@@ -39445,6 +39656,9 @@
                     },
                     "22": {
                         "team": "85"
+                    },
+                    "23": {
+                        "team": "85"
                     }
                 }
             },
@@ -39459,6 +39673,17 @@
                     },
                     "15": {
                         "team": "75"
+                    }
+                }
+            },
+            "107737265": {
+                "name": "Heavygod",
+                "code": "heavygod",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "33"
                     }
                 }
             },
@@ -39691,6 +39916,9 @@
                         "team": "106"
                     },
                     "22": {
+                        "team": "61"
+                    },
+                    "23": {
                         "team": "61"
                     }
                 }
@@ -39969,6 +40197,9 @@
                     },
                     "21": {
                         "team": "86"
+                    },
+                    "23": {
+                        "team": "132"
                     }
                 }
             },
@@ -40003,6 +40234,9 @@
                 "events": {
                     "22": {
                         "team": "102"
+                    },
+                    "23": {
+                        "team": "102"
                     }
                 }
             },
@@ -40019,6 +40253,9 @@
                         "team": "59"
                     },
                     "22": {
+                        "team": "59"
+                    },
+                    "23": {
                         "team": "59"
                     }
                 }
@@ -40104,6 +40341,9 @@
                     },
                     "21": {
                         "team": "106"
+                    },
+                    "23": {
+                        "team": "69"
                     }
                 }
             },
@@ -40118,6 +40358,20 @@
                     },
                     "22": {
                         "team": "31"
+                    },
+                    "23": {
+                        "team": "31"
+                    }
+                }
+            },
+            "120437415": {
+                "name": "malbsMd",
+                "code": "malbsmd",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "59"
                     }
                 }
             },
@@ -40137,6 +40391,9 @@
                         "team": "33"
                     },
                     "22": {
+                        "team": "81"
+                    },
+                    "23": {
                         "team": "81"
                     }
                 }
@@ -40259,6 +40516,17 @@
                     }
                 }
             },
+            "137805965": {
+                "name": "sl3nd",
+                "code": "sl3nd",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "115"
+                    }
+                }
+            },
             "138078516": {
                 "name": "Keoz",
                 "code": "keoz",
@@ -40296,6 +40564,9 @@
                     },
                     "21": {
                         "team": "86"
+                    },
+                    "23": {
+                        "team": "132"
                     }
                 }
             },
@@ -40521,6 +40792,9 @@
                         "team": "89"
                     },
                     "22": {
+                        "team": "89"
+                    },
+                    "23": {
                         "team": "89"
                     }
                 }
@@ -40773,6 +41047,9 @@
                 "events": {
                     "21": {
                         "team": "102"
+                    },
+                    "23": {
+                        "team": "85"
                     }
                 }
             },
@@ -40854,6 +41131,9 @@
                         "team": "12"
                     },
                     "22": {
+                        "team": "33"
+                    },
+                    "23": {
                         "team": "33"
                     }
                 }
@@ -41176,6 +41456,17 @@
                     }
                 }
             },
+            "171760452": {
+                "name": "fEAR",
+                "code": "fear",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "133"
+                    }
+                }
+            },
             "174136197": {
                 "name": "YEKINDAR",
                 "code": "yekindar",
@@ -41192,6 +41483,9 @@
                         "team": "48"
                     },
                     "21": {
+                        "team": "48"
+                    },
+                    "23": {
                         "team": "48"
                     }
                 }
@@ -41319,6 +41613,9 @@
                     },
                     "22": {
                         "team": "106"
+                    },
+                    "23": {
+                        "team": "106"
                     }
                 }
             },
@@ -41387,6 +41684,9 @@
                     },
                     "22": {
                         "team": "33"
+                    },
+                    "23": {
+                        "team": "33"
                     }
                 }
             },
@@ -41425,6 +41725,9 @@
                         "team": "115"
                     },
                     "22": {
+                        "team": "106"
+                    },
+                    "23": {
                         "team": "106"
                     }
                 }
@@ -41507,6 +41810,9 @@
                     },
                     "22": {
                         "team": "115"
+                    },
+                    "23": {
+                        "team": "115"
                     }
                 }
             },
@@ -41541,6 +41847,9 @@
                     },
                     "21": {
                         "team": "121"
+                    },
+                    "23": {
+                        "team": "80"
                     }
                 }
             },
@@ -41581,6 +41890,9 @@
                     },
                     "22": {
                         "team": "95"
+                    },
+                    "23": {
+                        "team": "95"
                     }
                 }
             },
@@ -41609,6 +41921,9 @@
                         "team": "85"
                     },
                     "22": {
+                        "team": "85"
+                    },
+                    "23": {
                         "team": "85"
                     }
                 }
@@ -41661,6 +41976,17 @@
                     }
                 }
             },
+            "207932472": {
+                "name": "Ex3rcice",
+                "code": "ex3rcice",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "28"
+                    }
+                }
+            },
             "208355715": {
                 "name": "Freeman",
                 "code": "freeman",
@@ -41685,6 +42011,9 @@
                         "team": "69"
                     },
                     "20": {
+                        "team": "69"
+                    },
+                    "23": {
                         "team": "69"
                     }
                 }
@@ -41728,6 +42057,9 @@
                     },
                     "21": {
                         "team": "114"
+                    },
+                    "23": {
+                        "team": "69"
                     }
                 }
             },
@@ -41776,6 +42108,9 @@
                     },
                     "22": {
                         "team": "12"
+                    },
+                    "23": {
+                        "team": "12"
                     }
                 }
             },
@@ -41790,6 +42125,17 @@
                     }
                 }
             },
+            "219272777": {
+                "name": "Graviti",
+                "code": "graviti",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "28"
+                    }
+                }
+            },
             "222196859": {
                 "name": "k1to",
                 "code": "k1to",
@@ -41801,6 +42147,17 @@
                     },
                     "20": {
                         "team": "69"
+                    }
+                }
+            },
+            "223887847": {
+                "name": "JBa",
+                "code": "jba",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "130"
                     }
                 }
             },
@@ -41820,6 +42177,9 @@
                         "team": "111"
                     },
                     "22": {
+                        "team": "111"
+                    },
+                    "23": {
                         "team": "111"
                     }
                 }
@@ -41848,6 +42208,9 @@
                         "team": "106"
                     },
                     "22": {
+                        "team": "106"
+                    },
+                    "23": {
                         "team": "106"
                     }
                 }
@@ -41899,6 +42262,9 @@
                         "team": "61"
                     },
                     "22": {
+                        "team": "61"
+                    },
+                    "23": {
                         "team": "61"
                     }
                 }
@@ -41970,6 +42336,17 @@
                     }
                 }
             },
+            "258613327": {
+                "name": "aNdu",
+                "code": "andu",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "115"
+                    }
+                }
+            },
             "262176776": {
                 "name": "n0rb3r7",
                 "code": "n0rb3r7",
@@ -41983,6 +42360,9 @@
                         "team": "109"
                     },
                     "22": {
+                        "team": "31"
+                    },
+                    "23": {
                         "team": "31"
                     }
                 }
@@ -42037,6 +42417,9 @@
                         "team": "12"
                     },
                     "22": {
+                        "team": "12"
+                    },
+                    "23": {
                         "team": "12"
                     }
                 }
@@ -42144,6 +42527,17 @@
                     }
                 }
             },
+            "323723495": {
+                "name": "ultimate",
+                "code": "ultimate",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "48"
+                    }
+                }
+            },
             "328275073": {
                 "name": "Patsi",
                 "code": "patsi",
@@ -42194,6 +42588,9 @@
                     },
                     "22": {
                         "team": "111"
+                    },
+                    "23": {
+                        "team": "111"
                     }
                 }
             },
@@ -42204,6 +42601,9 @@
                 "geo": "WORLD",
                 "events": {
                     "22": {
+                        "team": "113"
+                    },
+                    "23": {
                         "team": "113"
                     }
                 }
@@ -42236,6 +42636,17 @@
                     }
                 }
             },
+            "382452440": {
+                "name": "susp",
+                "code": "susp",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "130"
+                    }
+                }
+            },
             "390076777": {
                 "name": "NQZ",
                 "code": "nqz",
@@ -42246,6 +42657,9 @@
                         "team": "112"
                     },
                     "22": {
+                        "team": "102"
+                    },
+                    "23": {
                         "team": "102"
                     }
                 }
@@ -42258,6 +42672,17 @@
                 "events": {
                     "21": {
                         "team": "90"
+                    }
+                }
+            },
+            "392390376": {
+                "name": "ChildKing",
+                "code": "childking",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "131"
                     }
                 }
             },
@@ -42274,6 +42699,9 @@
                         "team": "106"
                     },
                     "22": {
+                        "team": "106"
+                    },
+                    "23": {
                         "team": "106"
                     }
                 }
@@ -42319,6 +42747,9 @@
                 "events": {
                     "20": {
                         "team": "116"
+                    },
+                    "23": {
+                        "team": "113"
                     }
                 }
             },
@@ -42336,6 +42767,17 @@
                     }
                 }
             },
+            "417070118": {
+                "name": "snow",
+                "code": "snow",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "102"
+                    }
+                }
+            },
             "425391947": {
                 "name": "kauez",
                 "code": "kauez",
@@ -42343,6 +42785,9 @@
                 "geo": "WORLD",
                 "events": {
                     "22": {
+                        "team": "102"
+                    },
+                    "23": {
                         "team": "102"
                     }
                 }
@@ -42354,6 +42799,9 @@
                 "geo": "WORLD",
                 "events": {
                     "22": {
+                        "team": "81"
+                    },
+                    "23": {
                         "team": "81"
                     }
                 }
@@ -42375,6 +42823,9 @@
                     },
                     "21": {
                         "team": "85"
+                    },
+                    "23": {
+                        "team": "80"
                     }
                 }
             },
@@ -42397,6 +42848,17 @@
                 "events": {
                     "18": {
                         "team": "74"
+                    }
+                }
+            },
+            "447933315": {
+                "name": "phzy",
+                "code": "phzy",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "130"
                     }
                 }
             },
@@ -42425,6 +42887,17 @@
                     }
                 }
             },
+            "486179556": {
+                "name": "jackasmo",
+                "code": "jackasmo",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "133"
+                    }
+                }
+            },
             "839074394": {
                 "name": "degster",
                 "code": "degster",
@@ -42442,6 +42915,9 @@
                     },
                     "21": {
                         "team": "96"
+                    },
+                    "23": {
+                        "team": "95"
                     }
                 }
             },
@@ -42453,6 +42929,20 @@
                 "events": {
                     "22": {
                         "team": "113"
+                    },
+                    "23": {
+                        "team": "113"
+                    }
+                }
+            },
+            "839987798": {
+                "name": "jambo",
+                "code": "jambo",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "133"
                     }
                 }
             },
@@ -42503,6 +42993,9 @@
                 "events": {
                     "22": {
                         "team": "122"
+                    },
+                    "23": {
+                        "team": "122"
                     }
                 }
             },
@@ -42530,6 +43023,9 @@
                 "geo": "WORLD",
                 "events": {
                     "22": {
+                        "team": "106"
+                    },
+                    "23": {
                         "team": "106"
                     }
                 }
@@ -42600,6 +43096,9 @@
                 "events": {
                     "22": {
                         "team": "122"
+                    },
+                    "23": {
+                        "team": "122"
                     }
                 }
             },
@@ -42620,6 +43119,20 @@
                     },
                     "22": {
                         "team": "122"
+                    },
+                    "23": {
+                        "team": "122"
+                    }
+                }
+            },
+            "1003776983": {
+                "name": "s-chilla",
+                "code": "schilla",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "133"
                     }
                 }
             },
@@ -42639,6 +43152,9 @@
                         "team": "122"
                     },
                     "22": {
+                        "team": "122"
+                    },
+                    "23": {
                         "team": "122"
                     }
                 }
@@ -42673,6 +43189,42 @@
                 "events": {
                     "22": {
                         "team": "81"
+                    },
+                    "23": {
+                        "team": "81"
+                    }
+                }
+            },
+            "1049202927": {
+                "name": "ztr",
+                "code": "ztr",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "115"
+                    }
+                }
+            },
+            "1055940590": {
+                "name": "L1haNg",
+                "code": "l1hang",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "131"
+                    }
+                }
+            },
+            "1086212773": {
+                "name": "MATYS",
+                "code": "matys",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "6"
                     }
                 }
             },
@@ -42687,6 +43239,20 @@
                     },
                     "22": {
                         "team": "12"
+                    },
+                    "23": {
+                        "team": "12"
+                    }
+                }
+            },
+            "1160822835": {
+                "name": "zeRRoFIX",
+                "code": "zerrofix",
+                "dob": "1970-01-01",
+                "geo": "WORLD",
+                "events": {
+                    "23": {
+                        "team": "133"
                     }
                 }
             },
@@ -42697,6 +43263,9 @@
                 "geo": "WORLD",
                 "events": {
                     "22": {
+                        "team": "122"
+                    },
+                    "23": {
                         "team": "122"
                     }
                 }
